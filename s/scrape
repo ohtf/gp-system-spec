@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run the Confluence mirror scraper.
+# Pass any arguments through to scraper.py (e.g. --space DCSDCS --full-refresh).
+set -euo pipefail
+exec python3 "$(dirname "$0")/../scraper.py" "$@"
