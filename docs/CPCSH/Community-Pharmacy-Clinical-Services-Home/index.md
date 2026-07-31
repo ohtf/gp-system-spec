@@ -32,7 +32,7 @@ For guidance on the current best practices throughout the IT industry when provi
 
 - [**Community Pharmacy Clinical Services**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Supplementary-Care-Standards/Community-Pharmacy-Clinical-Services.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Supports Referrals to Community Pharmacy and the management of Community Pharmacy Consultations. Also supports the submission of data to the NHS Business Services Authority (NHSBSA) for payment purposes.
 

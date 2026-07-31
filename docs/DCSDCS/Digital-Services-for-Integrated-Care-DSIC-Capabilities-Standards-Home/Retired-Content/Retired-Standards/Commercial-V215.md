@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | **Effective Date** | 07 Nov 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511466708 {padding: 0px;}
-div.rbtoc1785511466708 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511466708 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#CommercialV2.1.5-Introduction)
 - [Baseline Assurance Standard Requirements](#CommercialV2.1.5-BaselineAssuranceStandardRequirements)
 - [Further Requirements](#CommercialV2.1.5-FurtherRequirements)

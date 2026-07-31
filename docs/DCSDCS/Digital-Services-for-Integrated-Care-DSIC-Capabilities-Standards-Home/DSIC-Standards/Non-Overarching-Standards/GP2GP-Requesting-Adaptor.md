@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 22 Oct 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510178574 {padding: 0px;}
-div.rbtoc1785510178574 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510178574 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPRequestingAdaptor-Introduction)
 - [Requirements](#GP2GPRequestingAdaptor-Requirements)
   - [Registration Process & EHR Request](#GP2GPRequestingAdaptor-RegistrationProcess&EHRRequest)

@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 31 Jan 2020 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509283868 {padding: 0px;}
-div.rbtoc1785509283868 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509283868 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectv2.0.0-Introduction)
 - [Compliance, Assurance and Testing](#GPConnectv2.0.0-Compliance,AssuranceandTesting)
 - [Requirements](#GPConnectv2.0.0-Requirements)

@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 28 May 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510467822 {padding: 0px;}
-div.rbtoc1785510467822 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510467822 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectUpdateRecord-Introduction)
 - [Requirements](#GPConnectUpdateRecord-Requirements)
 - [Compliance, Assurance and Testing](#GPConnectUpdateRecord-Compliance,AssuranceandTesting)

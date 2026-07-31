@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 05 Mar 2024 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510686966 {padding: 0px;}
-div.rbtoc1785510686966 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785510686966 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPv4.0.2-Introduction)
 - [Requirements](#GP2GPv4.0.2-Requirements)
 - [Compliance and Assurance](#GP2GPv4.0.2-ComplianceandAssurance)
@@ -81,7 +75,7 @@ An Assurance Statement will be provided when a supplier completes their testing 
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to expand...
+Click here to expand...
 
 The compliance baseline for GP2GP and document locations were correct at the time of original publication, but referenced documents can now be found embedded on this page, below. The exceptions to this are the references to the NHS Messaging Implementation Manual (MIM) and External Interface Specification (EIS) (follow these links for details).
 
@@ -109,7 +103,7 @@ For Suppliers of new services or applications:
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to expand...
+Click here to expand...
 
 #### Message Fragments and Examples
 
@@ -176,7 +170,7 @@ For Suppliers of new services or applications:
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

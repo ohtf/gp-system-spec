@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 30 Jun 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510974323 {padding: 0px;}
-div.rbtoc1785510974323 ul {list-style: none;margin-left: 0px;}
-div.rbtoc1785510974323 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#VaccinationExtract-Introduction)
 - [Requirements](#VaccinationExtract-Requirements)
 - [Supported Vaccines](#VaccinationExtract-SupportedVaccines)

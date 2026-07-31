@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 06 May 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510117408 {padding: 0px;}
-div.rbtoc1785510117408 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510117408 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#BookingandReferralStandard(BaRS)-Introduction)
 - [Requirements](#BookingandReferralStandard(BaRS)-Requirements)
   - [Capability to BaRS Core/Application(s) mapping](#BookingandReferralStandard(BaRS)-CapabilitytoBaRSCore/Application(s)mapping)

@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | **Effective Date** | 05 Mar 2026 |
 | **Contracting Vehicle(s)** | - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511579002 {padding: 0px;}
-div.rbtoc1785511579002 ul {list-style: disc;margin-left: 0px;padding-left: ;}
-div.rbtoc1785511579002 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#BaselineAssuranceStandardv1.0.3-Introduction)
 - [Requirements](#BaselineAssuranceStandardv1.0.3-Requirements)
   - [Business Continuity and Disaster Recovery](#BaselineAssuranceStandardv1.0.3-BusinessContinuityandDisasterRecovery)

@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 21 Aug 2023 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510550886 {padding: 0px;}
-div.rbtoc1785510550886 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510550886 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InteroperabilityStandardv15.0.2-Introduction)
 - [Notes on quality and consistency of interface documentation](#InteroperabilityStandardv15.0.2-Notesonqualityandconsistencyofinterfacedocumentation)
 - [Interoperability principles](#InteroperabilityStandardv15.0.2-Interoperabilityprinciples)

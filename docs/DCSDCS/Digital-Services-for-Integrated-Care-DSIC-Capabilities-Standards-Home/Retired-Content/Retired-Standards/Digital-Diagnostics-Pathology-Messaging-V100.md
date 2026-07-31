@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509761995 {padding: 0px;}
-div.rbtoc1785509761995 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509761995 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DigitalDiagnostics&PathologyMessagingV1.0.0-Introduction)
 - [Compliance and Assurance](#DigitalDiagnostics&PathologyMessagingV1.0.0-ComplianceandAssurance)
 - [Requirements](#DigitalDiagnostics&PathologyMessagingV1.0.0-Requirements)

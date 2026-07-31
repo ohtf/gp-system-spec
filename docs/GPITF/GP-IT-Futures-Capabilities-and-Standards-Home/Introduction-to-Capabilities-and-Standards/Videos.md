@@ -10,12 +10,6 @@ labels: []
 
 # Videos
 
-/\*<![CDATA[\*/
-div.rbtoc1785511820673 {padding: 0px;}
-div.rbtoc1785511820673 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511820673 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Catalogue On-Boarding Process](#Videos-CatalogueOn-BoardingProcess)
 - [Procurement Overview Webinar](#Videos-ProcurementOverviewWebinar)
 - [Hosting and Infrastructure Standards](#Videos-HostingandInfrastructureStandards)

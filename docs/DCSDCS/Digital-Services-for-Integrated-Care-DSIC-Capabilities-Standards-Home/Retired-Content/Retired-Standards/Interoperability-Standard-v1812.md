@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | **Effective Date** | 02 Jul 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511224313 {padding: 0px;}
-div.rbtoc1785511224313 ul {list-style: disc;margin-left: 0px;padding-left: ;}
-div.rbtoc1785511224313 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InteroperabilityStandardv18.1.2-Introduction)
 - [Notes on quality and consistency of interface documentation](#InteroperabilityStandardv18.1.2-Notesonqualityandconsistencyofinterfacedocumentation)
 - [Interoperability principles](#InteroperabilityStandardv18.1.2-Interoperabilityprinciples)

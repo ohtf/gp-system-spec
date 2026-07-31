@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | **Effective Date** | 23 Feb 2024 |
 | **Framework(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510649048 {padding: 0px;}
-div.rbtoc1785510649048 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510649048 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InteroperabilityStandardv15.2.0-Introduction)
 - [Notes on quality and consistency of interface documentation](#InteroperabilityStandardv15.2.0-Notesonqualityandconsistencyofinterfacedocumentation)
 - [Interoperability principles](#InteroperabilityStandardv15.2.0-Interoperabilityprinciples)

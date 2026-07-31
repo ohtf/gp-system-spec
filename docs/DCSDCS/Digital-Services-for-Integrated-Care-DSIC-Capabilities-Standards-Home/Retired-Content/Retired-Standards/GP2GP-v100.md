@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509045112 {padding: 0px;}
-div.rbtoc1785509045112 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509045112 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPv1.0.0-Introduction)
 - [Compliance and Assurance](#GP2GPv1.0.0-ComplianceandAssurance)
 - [Requirements](#GP2GPv1.0.0-Requirements)

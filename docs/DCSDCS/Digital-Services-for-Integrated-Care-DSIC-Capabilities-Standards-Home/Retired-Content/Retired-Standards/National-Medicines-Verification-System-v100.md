@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 01 Apr 2019 |
 | Framework(s) | GP IT Futures |
 
-/\*<![CDATA[\*/
-div.rbtoc1785508730166 {padding: 0px;}
-div.rbtoc1785508730166 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785508730166 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NationalMedicinesVerificationSystemv1.0.0-Introduction)
   - [Resources](#NationalMedicinesVerificationSystemv1.0.0-Resources)
 - [Compliance and Assurance](#NationalMedicinesVerificationSystemv1.0.0-ComplianceandAssurance)

@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 28 Apr 2022 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497692167 {padding: 0px;}
-div.rbtoc1785497692167 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497692167 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ExternalInterfaceSpecification(EIS)-Introduction)
 - [Requirements](#ExternalInterfaceSpecification(EIS)-Requirements)
   - [Message Handling Service - EIS Part 2](#ExternalInterfaceSpecification(EIS)-MessageHandlingService-EISPart2)
@@ -266,7 +260,7 @@ For Suppliers of new services or applications (i.e. those which are NOT currentl
 
 #### Historical Implementation Information
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical implementation information
+Click here to view historical implementation information
 
 SDS interfaces with Spine functions such as SSB (Spine Security Broker - a single sign-on mechanism for NHS Digital Spine), CIS (Care Identity Service is previously known as Identity Management), and the ACS (Access Control Service) for Legitimate Relationships to provide authentication.
 

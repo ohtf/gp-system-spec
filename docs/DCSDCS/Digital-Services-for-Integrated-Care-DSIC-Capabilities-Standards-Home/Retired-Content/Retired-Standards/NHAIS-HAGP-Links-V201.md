@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 31 Aug 2021 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509689233 {padding: 0px;}
-div.rbtoc1785509689233 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509689233 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHAISHA/GPLinksV2.0.1-Introduction)
 - [Compliance and Assurance](#NHAISHA/GPLinksV2.0.1-ComplianceandAssurance)
 - [Requirements](#NHAISHA/GPLinksV2.0.1-Requirements)

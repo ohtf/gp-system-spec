@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | **Effective Date** | 01 Apr 2019 |
 | **Framework(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785498422486 {padding: 0px;}
-div.rbtoc1785498422486 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785498422486 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ManagementInformation(MI)Reportingv1.0.1-Introduction)
 - [Requirements](#ManagementInformation(MI)Reportingv1.0.1-Requirements)
 - [Data Fields Definition](#ManagementInformation(MI)Reportingv1.0.1-DataFieldsDefinition)
@@ -278,7 +272,7 @@ These data items to be provided by any Supplier delivering the Prescribing Capa
 
 The Ethnicity codes to use for each category within the Management Information (MI) reports are defined in the Patient Ethnicity tables.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view Patient Ethnicity tables
+Click here to view Patient Ethnicity tables
 
 - White
 - Mixed
@@ -361,7 +355,7 @@ The Ethnicity codes to use for each category within the Management Information 
 
 The following tables define the Healthcare Professional (HCP) types referenced in the reporting data items.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view Healthcare Professional Types tables
+Click here to view Healthcare Professional Types tables
 
 - General Practitioner (GP)
 - Nurse
@@ -475,7 +469,7 @@ There are six fields within the specification that need to be returned by Suppl
 
 There is a defined methodology which Suppliers are to follow to calculate these fields, however there are three options for how this could be applied to the system which should calculate the same output as set out below.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view the available options
+Click here to view the available options
 
 ### OPTION 1 – Extract data
 
@@ -719,7 +713,7 @@ Looking at all the Appointments, the table below shows the TNA which should be i
 
 All Supplier Solutions will need to meet this Standard if they are delivering the Capability.
 
-- Page:[GP Extracts Verification](../../DSIC-Capabilities/GP-Extracts-Verification.md)
+- [GP Extracts Verification](../../DSIC-Capabilities/GP-Extracts-Verification.md)
 
 # Dependencies
 

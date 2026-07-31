@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 18 Jul 2025 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](../../DSIC-Standards/Supplementary-Care-Standards/Community-Pharmacy-Clinical-Services.md) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511422397 {padding: 0px;}
-div.rbtoc1785511422397 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511422397 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectAccessRecordStructuredv1.0.1-Introduction)
 - [Requirements](#GPConnectAccessRecordStructuredv1.0.1-Requirements)
 - [Compliance, Assurance and Testing](#GPConnectAccessRecordStructuredv1.0.1-Compliance,AssuranceandTesting)

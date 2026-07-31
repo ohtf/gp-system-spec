@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 21 Aug 2023 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510989620 {padding: 0px;}
-div.rbtoc1785510989620 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510989620 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPSendingAdaptorV1.0.0-Introduction)
 - [Requirements](#GP2GPSendingAdaptorV1.0.0-Requirements)
   - [End to End Process](#GP2GPSendingAdaptorV1.0.0-EndtoEndProcess)

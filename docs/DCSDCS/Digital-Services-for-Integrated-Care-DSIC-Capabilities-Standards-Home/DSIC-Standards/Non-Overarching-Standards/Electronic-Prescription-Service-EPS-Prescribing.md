@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 18 Jul 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497867145 {padding: 0px;}
-div.rbtoc1785497867145 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497867145 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ElectronicPrescriptionService(EPS)-Prescribing-Introduction)
 - [Requirements](#ElectronicPrescriptionService(EPS)-Prescribing-Requirements)
 - [Compliance, Assurance and Testing](#ElectronicPrescriptionService(EPS)-Prescribing-Compliance,AssuranceandTesting)
@@ -65,7 +59,7 @@ For Suppliers of new Solutions and Solutions that have implemented the EPS FHIR 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented EPS HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical assurance approach
+Click here to view historical assurance approach
 
 To gain access to EPS Suppliers previously followed the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -101,7 +95,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented EPS HL7.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous EPS requirements documentation
+Click here to view previous EPS requirements documentation
 
 Developer resources are available at the [Developer resources for the Electronic Prescription Service](https://digital.nhs.uk/services/electronic-prescription-service/developer-resources-for-eps).
 
@@ -121,7 +115,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented EPS HL7.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

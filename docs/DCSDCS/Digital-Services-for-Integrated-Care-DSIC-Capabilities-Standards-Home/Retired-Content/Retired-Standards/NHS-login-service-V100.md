@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 01 Apr 2019 |
 | Framework(s) | - GP IT Futures - Tech Innovation - DFOCVC - Vaccinations - Local/PCN Delivery |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509813117 {padding: 0px;}
-div.rbtoc1785509813117 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509813117 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHSloginserviceV1.0.0-Introduction)
 - [Documentation](#NHSloginserviceV1.0.0-Documentation)
 - [Roadmap](#NHSloginserviceV1.0.0-Roadmap)

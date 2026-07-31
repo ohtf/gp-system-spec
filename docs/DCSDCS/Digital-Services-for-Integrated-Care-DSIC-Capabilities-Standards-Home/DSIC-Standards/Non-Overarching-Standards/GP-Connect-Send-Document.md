@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 04 Dec 2025 |
 | **Framework(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510477194 {padding: 0px;}
-div.rbtoc1785510477194 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510477194 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectSendDocument-Introduction)
 - [Requirements](#GPConnectSendDocument-Requirements)
 - [Compliance, Assurance and Testing](#GPConnectSendDocument-Compliance,AssuranceandTesting)

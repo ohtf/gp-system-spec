@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | Publication Date | 16 Dec 2020 |
 | Framework(s) | - GP IT Futures - Tech Innovation - DFOCVC - Vaccinations - Local/PCN Delivery |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509796000 {padding: 0px;}
-div.rbtoc1785509796000 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509796000 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Non-Functional Questions Model](#Non-FunctionalQuestionsv.2.1.0-Non-FunctionalQuestionsModel)
 - [Non-Functional Categories](#Non-FunctionalQuestionsv.2.1.0-Non-FunctionalCategories)
 
@@ -45,12 +39,6 @@ Suppliers must provide an appropriate answer to the non-functional questions - t
 **Figure A - Non-Functional Questions Model**
 
 ## Non-Functional Categories
-
-/\*<![CDATA[\*/
-div.rbtoc1785509796002 {padding: 0px;}
-div.rbtoc1785509796002 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509796002 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
 
 - [Usability](#Non-FunctionalQuestionsv.2.1.0-Usability)
 - [Performance and Scalability](#Non-FunctionalQuestionsv.2.1.0-PerformanceandScalability)

@@ -16,12 +16,6 @@ labels: ["retired_reference_page"]
 | Version | 1.0.0 |
 | Type | Reference |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509671686 {padding: 0px;}
-div.rbtoc1785509671686 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509671686 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#SpineV1.0.0-Introduction)
   - [Spine Demographics host:](#SpineV1.0.0-SpineDemographicshost:)
   - [Spine Clinicals host](#SpineV1.0.0-SpineClinicalshost)

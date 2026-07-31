@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 10 May 2022 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510911541 {padding: 0px;}
-div.rbtoc1785510911541 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510911541 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHAISHA/GPLinksV2.0.2-Introduction)
 - [Requirements](#NHAISHA/GPLinksV2.0.2-Requirements)
   - [Using NHAIS GP Links Adaptor](#NHAISHA/GPLinksV2.0.2-UsingNHAISGPLinksAdaptor)

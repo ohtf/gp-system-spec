@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 31 Mar 2022 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510112699 {padding: 0px;}
-div.rbtoc1785510112699 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510112699 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NationalDataOpt-Outv4.0.0-Introduction)
 - [Compliance and Assurance](#NationalDataOpt-Outv4.0.0-ComplianceandAssurance)
 - [Requirements](#NationalDataOpt-Outv4.0.0-Requirements)

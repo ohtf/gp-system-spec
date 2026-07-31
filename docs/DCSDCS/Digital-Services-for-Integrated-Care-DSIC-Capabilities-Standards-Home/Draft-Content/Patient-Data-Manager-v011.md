@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | TBC |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511568607 {padding: 0px;}
-div.rbtoc1785511568607 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511568607 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#PatientDataManagerv0.1.1-Introduction)
 - [Requirements](#PatientDataManagerv0.1.1-Requirements)
   - [Patient Data Manager FHIR API Operations](#PatientDataManagerv0.1.1-PatientDataManagerFHIRAPIOperations)

@@ -22,7 +22,7 @@ import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, parse_qs
+from urllib.parse import urljoin, urlparse, parse_qs, quote
 
 import requests
 from bs4 import BeautifulSoup
@@ -41,6 +41,7 @@ TENANTS = {
 
 DOCS_ROOT = Path(__file__).parent.parent / "docs"
 MANIFEST_PATH = DOCS_ROOT / ".mirror-manifest.json"
+FAILURE_REPORT_PATH = DOCS_ROOT / ".mirror-failures.json"
 
 REQUEST_DELAY_MIN = 1.0   # seconds
 REQUEST_DELAY_MAX = 1.8   # seconds (jitter added to avoid bursty patterns)
@@ -103,6 +104,23 @@ def load_manifest() -> dict:
 def save_manifest(manifest: dict) -> None:
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, sort_keys=True))
+
+
+def load_failure_report() -> dict:
+    if FAILURE_REPORT_PATH.exists():
+        return json.loads(FAILURE_REPORT_PATH.read_text(encoding="utf-8"))
+    return {"schema_version": 1, "failures": []}
+
+
+def record_failures(failures: list[str]) -> None:
+    """Merge newly observed failures into the durable unresolved failure report."""
+    report = load_failure_report()
+    known_messages = {failure["message"] for failure in report["failures"]}
+    for message in failures:
+        if message not in known_messages:
+            report["failures"].append({"kind": "scrape", "message": message, "status": "unresolved"})
+    report["failures"].sort(key=lambda failure: failure["message"])
+    FAILURE_REPORT_PATH.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 
 
 # ---------------------------------------------------------------------------
@@ -219,20 +237,46 @@ def download_attachments(
                 continue
             if not download_url.startswith("http"):
                 download_url = base_url + download_url
-            att_path = att_dir / f"{att_id}-{filename}"
+            # `filename` stays as Confluence reports it (used for the download URL
+            # and shown in the page), but the on-disk name is sanitised: some
+            # attachment titles are URL-encoded strings carrying query parameters.
+            safe_name = re.sub(r"[^\w\s.\-\[\]()]", "_", filename)[:150].strip() or att_id
+            att_path = att_dir / f"{att_id}-{safe_name}"
             if att_path.exists():
                 results.append({"id": att_id, "filename": filename, "path": str(att_path), "status": "ok"})
                 continue
             att_dir.mkdir(parents=True, exist_ok=True)
-            try:
-                r = session.get(download_url, timeout=60)
-                r.raise_for_status()
-                att_path.write_bytes(r.content)
-                delay()
-                results.append({"id": att_id, "filename": filename, "path": str(att_path), "status": "ok"})
-            except Exception as exc:
-                print(f"  WARN: attachment failed {filename}: {exc}", file=sys.stderr)
-                results.append({"id": att_id, "filename": filename, "status": "failed", "error": str(exc)})
+            # Attachments with status "archived" 404 on the REST download link but
+            # remain retrievable from the legacy /download/attachments path, so try
+            # that before giving up.
+            candidates = [
+                download_url,
+                f"{base_url}/download/attachments/{page_id}/{quote(filename)}",
+            ]
+            last_error = None
+            for url in candidates:
+                try:
+                    r = session.get(url, timeout=60, allow_redirects=True)
+                    r.raise_for_status()
+                    # The legacy endpoint answers 202 with an empty body for
+                    # phantom attachment records (duplicates whose title is a
+                    # URL-encoded string). Writing those would create 0-byte
+                    # files that look like successfully archived content.
+                    if r.status_code != 200 or not r.content:
+                        raise RuntimeError(
+                            f"no content (HTTP {r.status_code}, {len(r.content)} bytes)"
+                        )
+                    att_path.write_bytes(r.content)
+                    delay()
+                    results.append({"id": att_id, "filename": filename, "path": str(att_path), "status": "ok"})
+                    last_error = None
+                    break
+                except Exception as exc:
+                    last_error = exc
+                    delay()
+            if last_error is not None:
+                print(f"  WARN: attachment failed {filename}: {last_error}", file=sys.stderr)
+                results.append({"id": att_id, "filename": filename, "status": "failed", "error": str(last_error)})
 
         next_link = data.get("_links", {}).get("next")
         if not next_link:
@@ -248,10 +292,67 @@ def download_attachments(
 # HTML -> Markdown
 # ---------------------------------------------------------------------------
 
+def is_auth_wall(html: str) -> bool:
+    """
+    True when a body looks like Confluence served a login/permission page
+    instead of content.
+
+    The naive check (any occurrence of "login"/"access denied" in a short body)
+    false-positives on the pagetree macro, whose hidden inputs always carry a
+    `loginUrl` field and a "do not have permission" i18n error string even when
+    the page rendered perfectly well. Ignore that macro's markup before testing.
+    """
+    if not html:
+        return False
+    stripped = re.sub(r"<div class=\"plugin_pagetree\".*?</div>\s*</p>", "", html, flags=re.DOTALL)
+    if len(stripped) >= 2000:
+        return False
+    return bool(re.search(r"(you (do not|don't) have permission|access denied|please log ?in)",
+                          stripped, re.IGNORECASE))
+
+
+def child_index_markdown(
+    page_id: str,
+    pages_by_id: dict[str, dict],
+    id_to_relpath: dict[str, str],
+    current_path: Path,
+) -> str:
+    """Render a bullet list linking to a page's direct children, or "" if none."""
+    children = [
+        p for p in pages_by_id.values()
+        if p.get("parentId") == page_id
+    ]
+    if not children:
+        return ""
+    children.sort(key=lambda p: p.get("title", ""))
+
+    lines = []
+    for child in children:
+        target = id_to_relpath.get(child["id"])
+        if not target:
+            continue
+        rel = os.path.relpath(DOCS_ROOT / target, current_path.parent)
+        lines.append(f"- [{child['title']}]({rel})")
+    if not lines:
+        return ""
+    return "\n".join(lines)
+
+
 def html_to_markdown(
     html: str, base_url: str, id_to_relpath: dict[str, str], current_path: Path
 ) -> str:
     soup = BeautifulSoup(html, "html.parser")
+
+    # Drop tags whose text content is not page content. markdownify extracts the
+    # text of any tag outside its `convert` allowlist, so <style>/<script> bodies
+    # (Confluence TOC macro CSS, colour-macro CSS) leak into the Markdown unless
+    # the elements are removed from the tree first.
+    for tag in soup.find_all(["style", "script"]):
+        tag.decompose()
+
+    # Confluence UI chrome that carries no archival content.
+    for tag in soup.find_all(class_=re.compile(r"aui-icon|expand-control-icon")):
+        tag.decompose()
 
     # Rewrite internal page links
     for a in soup.find_all("a", href=True):
@@ -396,12 +497,7 @@ def mirror_space(
         try:
             html, detail = fetch_page_body(session, base_url, pid)
 
-            if not html:
-                print(f"  WARN: empty body for {title} ({pid})", file=sys.stderr)
-                failures.append(f"{space_key}/{pid} ({title}): empty body")
-                continue
-
-            if re.search(r"(log.?in|access denied)", html, re.IGNORECASE) and len(html) < 2000:
+            if is_auth_wall(html):
                 print(f"  WARN: possible auth wall for {title} ({pid})", file=sys.stderr)
                 failures.append(f"{space_key}/{pid} ({title}): possible auth wall")
 
@@ -409,6 +505,16 @@ def mirror_space(
             ancestors = build_ancestor_chain(pid, pages_by_id)
             out_path = page_output_path(space_key, ancestors, title, pid in has_children)
             markdown = html_to_markdown(html, base_url, id_to_relpath, out_path)
+
+            # Container pages (empty body, or a body consisting only of the
+            # Confluence pagetree macro) carry no prose of their own - the source
+            # page just renders its children. Synthesise that listing so the
+            # mirrored tree stays navigable instead of leaving a bare directory.
+            if not markdown.strip():
+                markdown = child_index_markdown(pid, pages_by_id, id_to_relpath, out_path)
+                if not markdown:
+                    print(f"  WARN: empty body for {title} ({pid})", file=sys.stderr)
+                    failures.append(f"{space_key}/{pid} ({title}): empty body")
 
             attachments = download_attachments(session, base_url, pid, space_key)
             for a in attachments:
@@ -460,6 +566,9 @@ def validate(spaces: list[str]) -> list[str]:
                     issues.append(f"possible auth wall: {key}")
                 if len(content.strip()) < 100:
                     issues.append(f"suspiciously short output: {key}")
+    for failure in load_failure_report()["failures"]:
+        if failure["status"] == "unresolved":
+            issues.append(f"unresolved failure: {failure['message']}")
     return issues
 
 
@@ -568,6 +677,9 @@ def main() -> int:
                 msg = f"FATAL: {space_key}: {exc}"
                 print(f"  {msg}", file=sys.stderr)
                 all_failures.append(msg)
+
+    if not args.dry_run:
+        record_failures(all_failures)
 
     print(f"\nDone: {total_success} fetched, {total_skipped} skipped, {len(all_failures)} failures")
     if all_failures:

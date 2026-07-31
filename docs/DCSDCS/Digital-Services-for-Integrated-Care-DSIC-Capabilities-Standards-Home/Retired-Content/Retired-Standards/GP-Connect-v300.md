@@ -18,12 +18,6 @@ labels: []
 | Status | Retired |
 | Effective Date | 31 Jan 2021 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509164027 {padding: 0px;}
-div.rbtoc1785509164027 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509164027 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectv3.0.0-Introduction)
 - [Compliance, Assurance and Testing](#GPConnectv3.0.0-Compliance,AssuranceandTesting)
 - [Requirements](#GPConnectv3.0.0-Requirements)

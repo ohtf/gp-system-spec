@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 28 Apr 2022 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511077541 {padding: 0px;}
-div.rbtoc1785511077541 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511077541 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Introduction)
 - [Requirements](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Requirements)
 - [Compliance, Assurance and Testing](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Compliance,AssuranceandTesting)
@@ -64,7 +58,7 @@ For Suppliers of new services or applications, see the Electronic Prescription 
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical assurance approach
+Click here to view historical assurance approach
 
 To gain access to EPS Suppliers previously followed the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -100,7 +94,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous EPS requirements documentation
+Click here to view previous EPS requirements documentation
 
 Developer resources are available at the Developer resources for the Electronic Prescription Service.
 
@@ -120,7 +114,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

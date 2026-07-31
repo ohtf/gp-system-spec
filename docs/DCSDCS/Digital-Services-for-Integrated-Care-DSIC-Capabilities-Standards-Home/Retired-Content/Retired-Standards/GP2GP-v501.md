@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 18 Jul 2025 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511286212 {padding: 0px;}
-div.rbtoc1785511286212 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511286212 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPv5.0.1-Introduction)
 - [Requirements](#GP2GPv5.0.1-Requirements)
 - [Compliance and Assurance](#GP2GPv5.0.1-ComplianceandAssurance)
@@ -82,7 +76,7 @@ An Assurance Statement will be provided when a supplier completes their testing 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented GP2GP HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to expand...
+Click here to expand...
 
 The compliance baseline for GP2GP and document locations were correct at the time of original publication, but referenced documents can now be found embedded on this page, below. The exceptions to this are the references to the NHS Messaging Implementation Manual (MIM) and External Interface Specification (EIS) (follow these links for details).
 
@@ -110,7 +104,7 @@ For Suppliers of new Solutions and Solutions that have implemented the GP2GP FHI
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented GP2GP HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to expand...
+Click here to expand...
 
 #### Message Fragments and Examples
 
@@ -177,7 +171,7 @@ For Suppliers of new Solutions and Solutions that have implemented the GP2GP FHI
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented GP2GP HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 
@@ -195,7 +189,7 @@ Items on the Roadmap which impact or relate to this Standard
 ## Attachments
 
 - [GP2GP Automatic Integration Specification v1.0.pdf](../../../../.raw/DCSDCS/attachments/14425948161/att14425948207-GP2GP Automatic Integration Specification v1.0.pdf)
-- [GP2GP%20Automatic%20Integration%20Specification%20v1.0.pdf?version=1&modificationDate=1703173855157&cacheVersion=1&api=v2&viewType=fileMacro](../../../../.raw/DCSDCS/attachments/14425948161/att14425948210-GP2GP%20Automatic%20Integration%20Specification%20v1.0.pdf?version=1&modificationDate=1703173855157&cacheVersion=1&api=v2&viewType=fileMacro)
+- [GP2GP%20Automatic%20Integration%20Specification%20v1.0.pdf?version=1&modificationDate=1703173855157&cacheVersion=1&api=v2&viewType=fileMacro](../../../../.raw/DCSDCS/attachments/14425948161/att14425948210-GP2GP_20Automatic_20Integration_20Specification_20v1.0.pdf_version_1_modificationDate_1703173855157_cacheVersion_1_api_v2_viewType_fileMacro)
 - [HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf](../../../../.raw/DCSDCS/attachments/14425948161/att14425948216-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf)
 - [NPFIT-FNT-TO-TIN-0379.03 System Walkthrough and Induction Pack.ppt](../../../../.raw/DCSDCS/attachments/14425948161/att14425948219-NPFIT-FNT-TO-TIN-0379.03 System Walkthrough and Induction Pack.ppt)
 - [NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc](../../../../.raw/DCSDCS/attachments/14425948161/att14425948222-NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc)
@@ -224,4 +218,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 
 > **Warning**: attachment download failed for:
-> - HSCIC-PC-BLD-0068%2026%20GP2GP%20R2%202%20Requirements%20Specification%20v7.2.pdf?version=1&modificationDate=1703173844510&cacheVersion=1&api=v2&viewType=fileMacro: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/14425948161/child/attachment/att14425948213/download
+> - HSCIC-PC-BLD-0068%2026%20GP2GP%20R2%202%20Requirements%20Specification%20v7.2.pdf?version=1&modificationDate=1703173844510&cacheVersion=1&api=v2&viewType=fileMacro: no content (HTTP 202, 0 bytes)

@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 16 Apr 2026 |
 | **Contracting Vehicle(s)** | - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511574894 {padding: 0px;}
-div.rbtoc1785511574894 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511574894 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHSNotify-Introduction)
 - [Requirements](#NHSNotify-Requirements)
   - [Using NHS Notify API](#NHSNotify-UsingNHSNotifyAPI)

@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | **Effective Date** | 01 Jul 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511213148 {padding: 0px;}
-div.rbtoc1785511213148 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511213148 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DataMigrationV2.1.1-Introduction)
 - [Baseline Assurance Standard Requirements](#DataMigrationV2.1.1-BaselineAssuranceStandardRequirements)
   - [Target and Source Solution Suppliers](#DataMigrationV2.1.1-TargetandSourceSolutionSuppliers)

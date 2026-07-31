@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 04 Dec 2025 |
 | **Contracting Vehicle(s)** | [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510408701 {padding: 0px;}
-div.rbtoc1785510408701 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785510408701 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DirectoryofServices(DoS)-UrgentandEmergencyCare-Introduction)
 - [Requirements](#DirectoryofServices(DoS)-UrgentandEmergencyCare-Requirements)
 - [Compliance, Assurance and Testing](#DirectoryofServices(DoS)-UrgentandEmergencyCare-Compliance,AssuranceandTesting)

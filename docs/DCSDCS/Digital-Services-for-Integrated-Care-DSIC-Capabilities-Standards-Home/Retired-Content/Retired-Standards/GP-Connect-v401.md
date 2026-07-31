@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 31 Mar 2022 |
 | Framework(s) | - GP IT Futures - Tech Innovation |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509818179 {padding: 0px;}
-div.rbtoc1785509818179 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509818179 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectv4.0.1-Introduction)
 - [Compliance, Assurance and Testing](#GPConnectv4.0.1-Compliance,AssuranceandTesting)
 - [Requirements](#GPConnectv4.0.1-Requirements)

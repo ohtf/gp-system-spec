@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "failures": [
+    {
+      "kind": "attachment",
+      "message": "BG/12057968779 attachment Appendix 1_Implementation plan milestones_Schedule 2.3.docx: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att12057772171-Appendix 1_Implementation plan milestones_Schedule 2.3.docx (25489 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "BG/12057968779 attachment Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att12057641131-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx (25974 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "BG/12057968779 attachment Appendix 3_Data processing information_Schedule 2.3.docx: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att12057641137-Appendix 3_Data processing information_Schedule 2.3.docx (25276 bytes)"
+    },
+    {
+      "kind": "page",
+      "message": "BG/13279756308 (Archived Content): empty body",
+      "status": "resolved",
+      "resolution": "Container page: body is a pagetree macro only. Child index synthesised from page hierarchy."
+    },
+    {
+      "kind": "page",
+      "message": "DCSDCS/14380236886 (Deprecated Capabilities): possible auth wall",
+      "status": "resolved",
+      "resolution": "False positive: Confluence pagetree macro body, not an auth wall. Child pages mirrored successfully."
+    },
+    {
+      "kind": "page",
+      "message": "DCSDCS/14380531734 (Deprecated Standards): possible auth wall",
+      "status": "resolved",
+      "resolution": "False positive: Confluence pagetree macro body, not an auth wall. Child pages mirrored successfully."
+    },
+    {
+      "kind": "attachment",
+      "message": "DCSDCS/14425948161 attachment HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments path: att14425948216-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf (1621508 bytes)"
+    },
+    {
+      "kind": "scrape",
+      "message": "DCSDCS/14425948161 attachment HSCIC-PC-BLD-0068%2026%20GP2GP%20R2%202%20Requirements%20Specification%20v7.2.pdf?version=1&modificationDate=1703173844510&cacheVersion=1&api=v2&viewType=fileMacro: no content (HTTP 202, 0 bytes)",
+      "status": "resolved",
+      "resolution": "Phantom duplicate attachment record whose title is a URL-encoded string with query params; Confluence returns HTTP 202/0 bytes for it. The real file is preserved on the same page as att14425948216-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf (1621508 bytes)."
+    },
+    {
+      "kind": "attachment",
+      "message": "DCSDCS/14445281281 attachment XML_csv_view_V10_0.csv: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "This page copy is broken server-side (REST 404 / legacy 202, 0 bytes). Identical file preserved from DCSDCS pages 14504591361 and 14801600513 (52130 bytes each)."
+    },
+    {
+      "kind": "scrape",
+      "message": "DCSDCS/14445281281 attachment XML_csv_view_V10_0.csv: no content (HTTP 202, 0 bytes)",
+      "status": "resolved",
+      "resolution": "This page copy is broken server-side (REST 404 / legacy 202, 0 bytes). Identical file preserved from DCSDCS pages 14504591361 and 14801600513 (52130 bytes each)."
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1391135385 attachment Kumu-gp-it-futures-capability-map v3.xlsx: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att1391150448-Kumu-gp-it-futures-capability-map v3.xlsx (79035 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1391135385 attachment image2018-11-6_14-44-20.png: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att1391150438-image2018-11-6_14-44-20.png (1865 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1391135385 attachment image2018-5-22_9-19-11.png: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att1391150433-image2018-5-22_9-19-11.png (1971 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1391135385 attachment image2018-5-22_9-25-17.png: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att1391150430-image2018-5-22_9-25-17.png (1739 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1391135385 attachment kumu-gpitfutures-gp-it-futures-capability-map.xlsx: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att1391150427-kumu-gpitfutures-gp-it-futures-capability-map.xlsx (109546 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1391135385 attachment kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx: 404 from Confluence download endpoint",
+      "status": "resolved",
+      "resolution": "Recovered via legacy /download/attachments fallback: att1391150441-kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx (105302 bytes)"
+    }
+  ]
+}

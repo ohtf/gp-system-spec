@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 01 Apr 2019 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497655546 {padding: 0px;}
-div.rbtoc1785497655546 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497655546 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHSMessagingImplementationManual(MIM)-Introduction)
 - [Dependencies](#NHSMessagingImplementationManual(MIM)-Dependencies)
 - [Roadmap](#NHSMessagingImplementationManual(MIM)-Roadmap)

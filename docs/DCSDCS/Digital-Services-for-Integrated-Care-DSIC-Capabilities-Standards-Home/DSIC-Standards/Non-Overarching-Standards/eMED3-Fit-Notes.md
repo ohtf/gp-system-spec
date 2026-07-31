@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 04 Dec 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785508737360 {padding: 0px;}
-div.rbtoc1785508737360 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785508737360 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#eMED3(FitNotes)-Introduction)
   - [Data extraction and publication](#eMED3(FitNotes)-Dataextractionandpublication)
 - [Requirements](#eMED3(FitNotes)-Requirements)
@@ -264,7 +258,7 @@ The [eMED3 Template Mappings -all printed data items](eMED3-Fit-Notes.md) show
 
 ### eMED3 Template Mappings - all printed data items
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view table of mappings for all printed eMED3 data items to the form
+Click here to view table of mappings for all printed eMED3 data items to the form
 
 |  |  |
 | --- | --- |

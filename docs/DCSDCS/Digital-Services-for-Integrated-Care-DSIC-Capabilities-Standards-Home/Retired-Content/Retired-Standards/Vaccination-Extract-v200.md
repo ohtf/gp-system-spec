@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | **Effective Date** | 05 Jan 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511639634 {padding: 0px;}
-div.rbtoc1785511639634 ul {list-style: none;margin-left: 0px;}
-div.rbtoc1785511639634 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#VaccinationExtractv2.0.0-Introduction)
 - [Requirements](#VaccinationExtractv2.0.0-Requirements)
 - [Supported Vaccines](#VaccinationExtractv2.0.0-SupportedVaccines)

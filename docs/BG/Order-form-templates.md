@@ -24,7 +24,8 @@ Download and complete the templates to document any changes you’ve agreed with
 
 [Appendix 3\_Data processi…](Order-form-templates.md)
 
-> **Warning**: attachment download failed for:
-> - Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/12057968779/child/attachment/att12057641131/download
-> - Appendix 3_Data processing information_Schedule 2.3.docx: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/12057968779/child/attachment/att12057641137/download
-> - Appendix 1_Implementation plan milestones_Schedule 2.3.docx: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/12057968779/child/attachment/att12057772171/download
+## Attachments
+
+- [Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx](../.raw/BG/attachments/12057968779/att12057641131-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
+- [Appendix 3_Data processing information_Schedule 2.3.docx](../.raw/BG/attachments/12057968779/att12057641137-Appendix 3_Data processing information_Schedule 2.3.docx)
+- [Appendix 1_Implementation plan milestones_Schedule 2.3.docx](../.raw/BG/attachments/12057968779/att12057772171-Appendix 1_Implementation plan milestones_Schedule 2.3.docx)

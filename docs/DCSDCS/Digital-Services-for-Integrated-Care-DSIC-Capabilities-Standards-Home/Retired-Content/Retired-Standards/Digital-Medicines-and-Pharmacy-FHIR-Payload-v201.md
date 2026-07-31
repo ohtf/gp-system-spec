@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 11 Apr 2023 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510348303 {padding: 0px;}
-div.rbtoc1785510348303 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510348303 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Introduction)
 - [Requirements](#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Requirements)
 - [Compliance, Assurance and Testing](#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Compliance,AssuranceandTesting)

@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 08 Feb 2027 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511657820 {padding: 0px;}
-div.rbtoc1785511657820 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511657820 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#PatientFlagsServicev2.0.0-Introduction)
 - [Requirements](#PatientFlagsServicev2.0.0-Requirements)
   - [Flag Implementation by Capability Mapping](#PatientFlagsServicev2.0.0-FlagImplementationbyCapabilityMapping)

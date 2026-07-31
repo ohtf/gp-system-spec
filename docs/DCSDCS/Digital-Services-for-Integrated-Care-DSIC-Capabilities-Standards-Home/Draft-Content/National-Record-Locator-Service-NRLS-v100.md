@@ -19,12 +19,6 @@ labels: ["standard"]
 | Effective Date | TBC |
 | Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511210125 {padding: 0px;}
-div.rbtoc1785511210125 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511210125 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NationalRecordLocatorService(NRLS)v1.0.0-Introduction)
 - [Requirements](#NationalRecordLocatorService(NRLS)v1.0.0-Requirements)
 - [Compliance, Assurance and Testing](#NationalRecordLocatorService(NRLS)v1.0.0-Compliance,AssuranceandTesting)

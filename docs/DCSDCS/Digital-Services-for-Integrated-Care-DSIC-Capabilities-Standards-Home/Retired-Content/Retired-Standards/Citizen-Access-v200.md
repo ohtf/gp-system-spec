@@ -32,7 +32,7 @@ Patients can also access limited services by creating their own account (aside f
 
 The terms Online Service Account (OSA), Verified User Account (VUA) and Linked Online Service Account (LOSA) are intended to assist Suppliers in the implementation of Capabilities which make up the Citizen Services and it is recommended that they are not displayed on the interface of Solutions.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view more information on the structure and lifecycle of Citizen online accounts
+Click here to view more information on the structure and lifecycle of Citizen online accounts
 
 # Structure and Lifecycle of Patient Online Accounts
 

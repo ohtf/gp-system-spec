@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 04 Dec 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497903706 {padding: 0px;}
-div.rbtoc1785497903706 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497903706 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InteroperabilityToolkit(ITK)-Introduction)
 - [Requirements - ITK2](#InteroperabilityToolkit(ITK)-Requirements-ITK2)
   - [ITK 2.2 status](#InteroperabilityToolkit(ITK)-ITK2.2status)

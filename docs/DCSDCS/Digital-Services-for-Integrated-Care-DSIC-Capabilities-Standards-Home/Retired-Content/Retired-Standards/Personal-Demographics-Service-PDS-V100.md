@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509539635 {padding: 0px;}
-div.rbtoc1785509539635 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509539635 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#PersonalDemographicsService(PDS)V1..0.0-Introduction)
 - [Requirements](#PersonalDemographicsService(PDS)V1..0.0-Requirements)
 - [Compliance and Assurance](#PersonalDemographicsService(PDS)V1..0.0-ComplianceandAssurance)

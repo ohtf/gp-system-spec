@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 03 Jul 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497964402 {padding: 0px;}
-div.rbtoc1785497964402 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497964402 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#PersonalDemographicsService(PDS)-Introduction)
 - [Requirements](#PersonalDemographicsService(PDS)-Requirements)
 
@@ -83,7 +77,7 @@ For Suppliers of new Solutions, Solutions which ARE currently deployed into an o
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented PDS HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical assurance approach
+Click here to view historical assurance approach
 
 To gain access to PDS Suppliers previously will have followed the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and compliance activities are conducted.
 
@@ -116,7 +110,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment, and have implemented PDS HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous PDS requirements documentation
+Click here to view previous PDS requirements documentation
 
 The following documents form the PDS integration baseline for local systems wishing to integrate with PDS. This new set of requirements apply to all new system suppliers wishing to complete PDS integration. Existing suppliers are not expected to implement the full scope of new requirements until '2018 PDS Integration Requirements – v1.0' is mandated for all Suppliers.
 
@@ -150,7 +144,7 @@ For Suppliers of new Solutions, Solutions which ARE currently deployed into an o
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment, and have implemented PDS HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface Standards:
 

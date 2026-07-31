@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 31 Dec 2020 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511218436 {padding: 0px;}
-div.rbtoc1785511218436 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511218436 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#IM1-InterfaceMechanismv2.0.0-Introduction)
 - [Requirements](#IM1-InterfaceMechanismv2.0.0-Requirements)
   - [Generic Integration Requirements](#IM1-InterfaceMechanismv2.0.0-GenericIntegrationRequirements)

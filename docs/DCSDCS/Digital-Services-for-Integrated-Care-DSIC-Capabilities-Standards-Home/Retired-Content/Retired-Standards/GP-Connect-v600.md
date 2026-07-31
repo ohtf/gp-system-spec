@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | N/A |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509825071 {padding: 0px;}
-div.rbtoc1785509825071 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509825071 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectv6.0.0-Introduction)
 - [Compliance, Assurance and Testing](#GPConnectv6.0.0-Compliance,AssuranceandTesting)
 - [Requirements](#GPConnectv6.0.0-Requirements)

@@ -19,12 +19,6 @@ labels: ["standard"]
 | Effective Date | 08 Jan 2027 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511673716 {padding: 0px;}
-div.rbtoc1785511673716 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785511673716 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#MulticastNotificationService(MNS)v2.0.0-Introduction)
 - [Requirements](#MulticastNotificationService(MNS)v2.0.0-Requirements)
   - [Event Implementation by Capability Mapping](#MulticastNotificationService(MNS)v2.0.0-EventImplementationbyCapabilityMapping)

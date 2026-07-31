@@ -12,12 +12,6 @@ labels: []
 
 This page provides the ID and version number for all entities in the GP IT Futures site. For Capabilities and Standards, the Status and Effective Date are also displayed.
 
-/\*<![CDATA[\*/
-div.rbtoc1785497994575 {padding: 0px;}
-div.rbtoc1785497994575 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497994575 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Capabilities](#IDandVersioning-Capabilities)
 - [Standards](#IDandVersioning-Standards)
 - [Standards by Type](#IDandVersioning-StandardsbyType)
@@ -259,7 +253,7 @@ div.rbtoc1785497994575 li {margin-left: 0px;padding-left: 0px;}
 | [Business Continuity and Disaster Recovery v1.1.0](Retired-Content/Retired-Standards/Business-Continuity-and-Disaster-Recovery-v110.md) | S24 | 1.1.0 | Retired | 10 Aug 2020 |
 | [Business Continuity and Disaster Recovery V1.1.2](Retired-Content/Retired-Standards/Business-Continuity-and-Disaster-Recovery-V112.md) | S24 | 1.1.2 | Retired | 16 Dec 2024 |
 | [Citizen Access v1.0.1](Retired-Content/Retired-Standards/Citizen-Access-v101.md) | S21 | 1.0.1 | Retired | 01 Apr 2019 |
-| [Citizen Access v2.0.0](Retired-Content/Retired-Standards/Citizen-Access-v200.md) | S21 | 2.0.0 | 
+| [Citizen Access v2.0.0](Retired-Content/Retired-Standards/Citizen-Access-v200.md) | S21 | 2.0.0 | Retired | 31 Jul 2020 |
 | [Clinical Decision Support - Standard v1.0.0](Retired-Content/Retired-Standards/Clinical-Decision-Support-Standard-v100.md) | S6 | 1.0.0 | Retired | 01 Apr 2019 |
 | [Clinical Decision Support - Standard v1.0.1](Retired-Content/Retired-Standards/Clinical-Decision-Support-Standard-v101.md) | S6 | 1.0.1 | Retired | 31 Dec 2019 |
 | [Clinical Document Architecture (CDA)](DSIC-Standards/Non-Overarching-Standards/Clinical-Document-Architecture-CDA.md) | S64 | 1.0.0 | Effective | 01 Apr 2019 |
@@ -268,7 +262,7 @@ div.rbtoc1785497994575 li {margin-left: 0px;padding-left: 0px;}
 | [Clinical Safety v1.0.2](Retired-Content/Retired-Standards/Clinical-Safety-v102.md) | S25 | 1.0.2 | Retired | 16 Dec 2024 |
 | [Commercial](DSIC-Standards/Overarching-Standards/Commercial.md) | S31 | 2.2.6 | Effective | 20 Jul 2026 |
 | [Commercial v1.0.0](Retired-Content/Retired-Standards/Commercial-v100.md) | S31 | 1.0.0 | Retired | 01 Apr 2019 |
-| [Commercial v2.0.0](Retired-Content/Retired-Standards/Commercial-v200.md) | S31 | 2.0.0 | 
+| [Commercial v2.0.0](Retired-Content/Retired-Standards/Commercial-v200.md) | S31 | 2.0.0 | Retired | 31 Dec 2020 |
 | [Commercial v2.1.0](Retired-Content/Retired-Standards/Commercial-v210.md) | S31 | 2.1.0 | Retired | 04 Jun 2021 |
 | [Commercial V2.1.5](Retired-Content/Retired-Standards/Commercial-V215.md) | S31 | 2.1.5 | Retired | 07 Nov 2025 |
 | [Common Reporting v1.0.0](Retired-Content/Retired-Standards/Common-Reporting-v100.md) | S22 | 1.0.0 | Retired | 01 Apr 2019 |
@@ -455,7 +449,7 @@ div.rbtoc1785497994575 li {margin-left: 0px;padding-left: 0px;}
 | [Clinical Safety v1.0.2](Retired-Content/Retired-Standards/Clinical-Safety-v102.md) | S25 | 1.0.2 | Retired | 16 Dec 2024 |
 | [Commercial](DSIC-Standards/Overarching-Standards/Commercial.md) | S31 | 2.2.6 | Effective | 20 Jul 2026 |
 | [Commercial v1.0.0](Retired-Content/Retired-Standards/Commercial-v100.md) | S31 | 1.0.0 | Retired | 01 Apr 2019 |
-| [Commercial v2.0.0](Retired-Content/Retired-Standards/Commercial-v200.md) | S31 | 2.0.0 | 
+| [Commercial v2.0.0](Retired-Content/Retired-Standards/Commercial-v200.md) | S31 | 2.0.0 | Retired | 31 Dec 2020 |
 | [Commercial v2.1.0](Retired-Content/Retired-Standards/Commercial-v210.md) | S31 | 2.1.0 | Retired | 04 Jun 2021 |
 | [Commercial V2.1.5](Retired-Content/Retired-Standards/Commercial-V215.md) | S31 | 2.1.5 | Retired | 07 Nov 2025 |
 | [Data Migration](DSIC-Standards/Overarching-Standards/Data-Migration.md) | S26 | 2.1.9 | Effective | 20 Jul 2026 |
@@ -491,8 +485,8 @@ div.rbtoc1785497994575 li {margin-left: 0px;padding-left: 0px;}
 | [Primary Care Technology Innovation Standard](Published-Content/Primary-Care-Technology-Innovation-Standard.md) | S81 | 1.0.1 | Published | TBC |
 | [Service Management](DSIC-Standards/Overarching-Standards/Service-Management.md) | S65 | 3.0.10 | Effective | 20 Jul 2026 |
 | [Service Management - v2.1.0](Retired-Content/Retired-Standards/Service-Management-v210.md) | S65 | 2.1.0 | Retired |  |
-| [Service Management v1.0.0](Retired-Content/Retired-Standards/Service-Management-v100.md) | 
-| [Service Management v2.0.0](Retired-Content/Retired-Standards/Service-Management-v200.md) | 
+| [Service Management v1.0.0](Retired-Content/Retired-Standards/Service-Management-v100.md) | S65 | 1.0.0 | Retired | 01 Apr 2019 |
+| [Service Management v2.0.0](Retired-Content/Retired-Standards/Service-Management-v200.md) | S65 | 2.0.0 | Retired | 31 Dec 2020 |
 | [Service Management v2.0.1](Retired-Content/Retired-Standards/Service-Management-v201.md) | S65 | 2.0.1 | Retired | 31 Dec 2020 |
 | [Testing](DSIC-Standards/Overarching-Standards/Testing.md) | S69 | 1.0.11 | Effective | 20 Jul 2026 |
 | [Testing v1.0.0](Retired-Content/Retired-Standards/Testing-v100.md) | S69 | 1.0.0 | Retired | 01 Apr 2019 |

@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 22 Oct 2025 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511367661 {padding: 0px;}
-div.rbtoc1785511367661 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511367661 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPv5.0.2-Introduction)
 - [Requirements](#GP2GPv5.0.2-Requirements)
 - [Compliance and Assurance](#GP2GPv5.0.2-ComplianceandAssurance)
@@ -82,7 +76,7 @@ An Assurance Statement will be provided when a supplier completes their testing 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented GP2GP HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to expand...
+Click here to expand...
 
 The compliance baseline for GP2GP and document locations were correct at the time of original publication, but referenced documents can now be found embedded on this page, below. The exceptions to this are the references to the NHS Messaging Implementation Manual (MIM) and External Interface Specification (EIS) (follow these links for details).
 
@@ -110,7 +104,7 @@ For Suppliers of new Solutions and Solutions that have implemented the GP2GP FHI
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented GP2GP HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to expand...
+Click here to expand...
 
 #### Message Fragments and Examples
 
@@ -177,7 +171,7 @@ For Suppliers of new Solutions and Solutions that have implemented the GP2GP FHI
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented GP2GP HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

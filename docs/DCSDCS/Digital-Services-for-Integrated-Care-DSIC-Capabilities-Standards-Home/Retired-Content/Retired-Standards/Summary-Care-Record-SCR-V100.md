@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509728907 {padding: 0px;}
-div.rbtoc1785509728907 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509728907 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#SummaryCareRecord(SCR)V1.0.0-Introduction)
 - [Compliance, Assurance and Testing](#SummaryCareRecord(SCR)V1.0.0-Compliance,AssuranceandTesting)
 - [Documentation](#SummaryCareRecord(SCR)V1.0.0-Documentation)

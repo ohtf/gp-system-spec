@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 30 Sep 2020 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509454235 {padding: 0px;}
-div.rbtoc1785509454235 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509454235 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ElectronicPrescriptionService(EPS)-PrescribingV2.0.1-Introduction)
 - [Requirements](#ElectronicPrescriptionService(EPS)-PrescribingV2.0.1-Requirements)
 - [Compliance and Assurance](#ElectronicPrescriptionService(EPS)-PrescribingV2.0.1-ComplianceandAssurance)

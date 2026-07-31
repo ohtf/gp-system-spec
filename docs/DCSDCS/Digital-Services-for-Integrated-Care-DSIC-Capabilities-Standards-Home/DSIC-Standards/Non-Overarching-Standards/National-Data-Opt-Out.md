@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 04 Dec 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509489470 {padding: 0px;}
-div.rbtoc1785509489470 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785509489470 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NationalDataOpt-Out-Introduction)
 - [Requirements](#NationalDataOpt-Out-Requirements)
 - [Compliance, Assurance and Testing](#NationalDataOpt-Out-Compliance,AssuranceandTesting)

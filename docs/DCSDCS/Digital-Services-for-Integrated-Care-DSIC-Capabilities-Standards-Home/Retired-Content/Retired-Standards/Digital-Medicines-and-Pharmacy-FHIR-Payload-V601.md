@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | **Effective Date** | 15 Apr 2026 |
 | **Contracting Vehicle(s)** | - GP IT Futures - Tech Innovation - Community Pharmacy Clinical Services |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511645010 {padding: 0px;}
-div.rbtoc1785511645010 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511645010 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DigitalMedicinesandPharmacyFHIRPayloadV6.0.1-Introduction)
 - [Requirements](#DigitalMedicinesandPharmacyFHIRPayloadV6.0.1-Requirements)
 - [Compliance, Assurance and Testing](#DigitalMedicinesandPharmacyFHIRPayloadV6.0.1-Compliance,AssuranceandTesting)

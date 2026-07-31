@@ -15,7 +15,7 @@ The original page URL, page ID, source space, version and update timestamp are p
 
 ## Archive status
 
-The first scrape, retrieved on 31 July 2026 using the Confluence REST API v2, enumerated 630 pages and mirrored 629 pages. One Buyer Guidance page returned an empty source body, two DCSDCS page-tree macros reported insufficient anonymous access, and 11 attachments were listed by Confluence but returned 404 on download. [Five large video attachments are retained outside Git for offline archiving](archive-omissions.md). These source-side gaps require further investigation with authenticated access.
+The first scrape, retrieved on 31 July 2026 using the Confluence REST API v2, enumerated 630 pages and mirrored 629 pages. One Buyer Guidance page returned an empty source body, two DCSDCS page-tree macros reported insufficient anonymous access, and 11 attachments were listed by Confluence but returned 404 on download. [Five large video attachments are retained outside Git for offline archiving](archive-omissions.md). The [machine-readable failure report](.mirror-failures.json) records all 14 unresolved scrape gaps. These source-side gaps require further investigation with authenticated access.
 
 ## Rights and provenance
 

@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | **Effective Date** | 30 Oct 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509339479 {padding: 0px;}
-div.rbtoc1785509339479 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509339479 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPDataforPlanningandResearchv1.0.1-Introduction)
 - [Requirements](#GPDataforPlanningandResearchv1.0.1-Requirements)
 - [Compliance, Assurance and Testing](#GPDataforPlanningandResearchv1.0.1-Compliance,AssuranceandTesting)

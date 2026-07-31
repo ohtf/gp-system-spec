@@ -66,10 +66,11 @@ The following features are available within the map:
 
 For more Shortcuts see <https://docs.kumu.io/guides/shortcuts.html>
 
-> **Warning**: attachment download failed for:
-> - kumu-gpitfutures-gp-it-futures-capability-map.xlsx: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/1391135385/child/attachment/att1391150427/download
-> - image2018-5-22_9-25-17.png: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/1391135385/child/attachment/att1391150430/download
-> - image2018-5-22_9-19-11.png: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/1391135385/child/attachment/att1391150433/download
-> - image2018-11-6_14-44-20.png: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/1391135385/child/attachment/att1391150438/download
-> - kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/1391135385/child/attachment/att1391150441/download
-> - Kumu-gp-it-futures-capability-map v3.xlsx: 404 Client Error: Not Found for url: https://nhse-dsic.atlassian.net/wiki/rest/api/content/1391135385/child/attachment/att1391150448/download
+## Attachments
+
+- [kumu-gpitfutures-gp-it-futures-capability-map.xlsx](../.raw/GPITF/attachments/1391135385/att1391150427-kumu-gpitfutures-gp-it-futures-capability-map.xlsx)
+- [image2018-5-22_9-25-17.png](../.raw/GPITF/attachments/1391135385/att1391150430-image2018-5-22_9-25-17.png)
+- [image2018-5-22_9-19-11.png](../.raw/GPITF/attachments/1391135385/att1391150433-image2018-5-22_9-19-11.png)
+- [image2018-11-6_14-44-20.png](../.raw/GPITF/attachments/1391135385/att1391150438-image2018-11-6_14-44-20.png)
+- [kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx](../.raw/GPITF/attachments/1391135385/att1391150441-kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx)
+- [Kumu-gp-it-futures-capability-map v3.xlsx](../.raw/GPITF/attachments/1391135385/att1391150448-Kumu-gp-it-futures-capability-map v3.xlsx)

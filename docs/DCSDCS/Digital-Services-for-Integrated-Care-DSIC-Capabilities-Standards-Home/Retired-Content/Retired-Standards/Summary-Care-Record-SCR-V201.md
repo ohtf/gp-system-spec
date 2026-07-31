@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 18 Jul 2025 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511118345 {padding: 0px;}
-div.rbtoc1785511118345 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511118345 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#SummaryCareRecord(SCR)V2.0.1-Introduction)
 - [Requirements](#SummaryCareRecord(SCR)V2.0.1-Requirements)
 - [Compliance, Assurance and Testing](#SummaryCareRecord(SCR)V2.0.1-Compliance,AssuranceandTesting)
@@ -74,7 +68,7 @@ For Suppliers of new Solutions and Solutions that have implemented the SCR FHIR 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented SCR HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png) Click here to view historical assurance approach
+ Click here to view historical assurance approach
 
 To gain access to SCR Suppliers follow the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -110,7 +104,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented SCR HL7.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous SCR requirements documentation
+Click here to view previous SCR requirements documentation
 
 #### Summary Care Record Creation
 
@@ -161,7 +155,7 @@ For Suppliers of new Solutions and Solutions that have implemented the SCR FHIR 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented SCR HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 - External Interface Specification (EIS)
 - NHS Messaging Implementation Manual (MIM)

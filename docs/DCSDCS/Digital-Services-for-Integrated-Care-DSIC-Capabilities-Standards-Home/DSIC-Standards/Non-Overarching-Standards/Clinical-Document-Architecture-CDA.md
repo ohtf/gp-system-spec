@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 01 Apr 2019 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497658952 {padding: 0px;}
-div.rbtoc1785497658952 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785497658952 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ClinicalDocumentArchitecture(CDA)-Introduction)
 - [Requirements](#ClinicalDocumentArchitecture(CDA)-Requirements)
 - [Dependencies](#ClinicalDocumentArchitecture(CDA)-Dependencies)

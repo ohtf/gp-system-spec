@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 28 Apr 2022 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509863746 {padding: 0px;}
-div.rbtoc1785509863746 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509863746 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ExternalInterfaceSpecification(EIS)v1.0.1-Introduction)
   - [EIS - External Interface Specification](#ExternalInterfaceSpecification(EIS)v1.0.1-EIS-ExternalInterfaceSpecification)
 - [Requirements](#ExternalInterfaceSpecification(EIS)v1.0.1-Requirements)
@@ -273,7 +267,7 @@ For Suppliers of new services or applications (i.e. those which are NOT currentl
 
 ### Historical Implementation Information
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical implementation information
+Click here to view historical implementation information
 
 SDS interfaces with Spine functions such as SSB (Spine Security Broker - a single sign-on mechanism for NHS Digital Spine), CIS (Care Identity Service is previously known as Identity Management), and the ACS (Access Control Service) for Legitimate Relationships to provide authentication.
 

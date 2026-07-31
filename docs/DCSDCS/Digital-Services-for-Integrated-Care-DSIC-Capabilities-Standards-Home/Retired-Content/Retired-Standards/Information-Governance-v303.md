@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | Effective Date | 16 Dec 2024 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510960313 {padding: 0px;}
-div.rbtoc1785510960313 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510960313 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InformationGovernancev3.0.3-Introduction)
 - [Requirements](#InformationGovernancev3.0.3-Requirements)
   - [Authentication](#InformationGovernancev3.0.3-Authentication)

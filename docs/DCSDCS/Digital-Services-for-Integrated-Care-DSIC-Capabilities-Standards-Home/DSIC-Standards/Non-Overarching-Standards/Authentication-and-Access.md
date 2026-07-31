@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 09 Jul 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497910718 {padding: 0px;}
-div.rbtoc1785497910718 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497910718 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#AuthenticationandAccess-Introduction)
 - [Requirements](#AuthenticationandAccess-Requirements)
 - [Compliance, Assurance and Testing](#AuthenticationandAccess-Compliance,AssuranceandTesting)

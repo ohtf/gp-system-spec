@@ -19,12 +19,6 @@ labels: ["overarching_standard"]
 | **Effective Date** | 20 Jul 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497488091 {padding: 0px;}
-div.rbtoc1785497488091 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497488091 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#Testing-Introduction)
   - [The International Software Testing Standard - ISO/IEC/IEEE 29119](#Testing-TheInternationalSoftwareTestingStandard-ISO/IEC/IEEE29119)
   - [Further Guidance](#Testing-FurtherGuidance)

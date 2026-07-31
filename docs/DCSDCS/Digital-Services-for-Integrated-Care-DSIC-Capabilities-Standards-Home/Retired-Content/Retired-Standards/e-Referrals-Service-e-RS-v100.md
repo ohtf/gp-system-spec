@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509507593 {padding: 0px;}
-div.rbtoc1785509507593 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509507593 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#e-ReferralsService(e-RS)v1.0.0-Introduction)
 - [Compliance and Assurance](#e-ReferralsService(e-RS)v1.0.0-ComplianceandAssurance)
 - [Testing](#e-ReferralsService(e-RS)v1.0.0-Testing)

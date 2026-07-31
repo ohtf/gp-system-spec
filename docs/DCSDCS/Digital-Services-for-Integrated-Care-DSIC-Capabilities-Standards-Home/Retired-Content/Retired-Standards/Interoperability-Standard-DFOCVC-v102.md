@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | **Effective Date** | 30 Aug 2023 |
 | **Framework(s)** | [DFOCVC](#) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510305925 {padding: 0px;}
-div.rbtoc1785510305925 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510305925 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InteroperabilityStandard(DFOCVC)v1.0.2-Introduction)
 - [Notes on quality and consistency of interface documentation](#InteroperabilityStandard(DFOCVC)v1.0.2-Notesonqualityandconsistencyofinterfacedocumentation)
 - [Interoperability principles](#InteroperabilityStandard(DFOCVC)v1.0.2-Interoperabilityprinciples)

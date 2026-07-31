@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 19 Sep 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497900438 {padding: 0px;}
-div.rbtoc1785497900438 ul {list-style: none;margin-left: 0px;}
-div.rbtoc1785497900438 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#IM1-InterfaceMechanism-Introduction)
 - [Requirements](#IM1-InterfaceMechanism-Requirements)
   - [Generic Integration Requirements](#IM1-InterfaceMechanism-GenericIntegrationRequirements)

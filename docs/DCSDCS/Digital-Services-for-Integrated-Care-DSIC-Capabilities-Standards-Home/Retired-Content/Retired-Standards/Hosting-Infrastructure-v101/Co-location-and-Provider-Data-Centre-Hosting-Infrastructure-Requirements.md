@@ -10,12 +10,6 @@ labels: []
 
 # Co location and Provider Data Centre Hosting & Infrastructure Requirements
 
-/\*<![CDATA[\*/
-div.rbtoc1785508733734 {padding: 0px;}
-div.rbtoc1785508733734 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785508733734 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Introduction)
 - [External Standards](#ColocationandProviderDataCentreHosting&InfrastructureRequirements-ExternalStandards)
 - [Physical Aspects](#ColocationandProviderDataCentreHosting&InfrastructureRequirements-PhysicalAspects)

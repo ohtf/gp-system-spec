@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | Effective Date | 22 Jul 2024 |
 | Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510845205 {padding: 0px;}
-div.rbtoc1785510845205 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510845205 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Introduction)
 - [Requirements](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Requirements)
 - [Compliance, Assurance and Testing](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Compliance,AssuranceandTesting)

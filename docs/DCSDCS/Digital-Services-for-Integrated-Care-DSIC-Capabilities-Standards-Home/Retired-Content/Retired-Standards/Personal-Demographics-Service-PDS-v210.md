@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 06 Jun 2024 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510810995 {padding: 0px;}
-div.rbtoc1785510810995 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510810995 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#PersonalDemographicsService(PDS)v2.1.0-Introduction)
 - [Requirements](#PersonalDemographicsService(PDS)v2.1.0-Requirements)
 - [Compliance, Assurance and Testing](#PersonalDemographicsService(PDS)v2.1.0-Compliance,AssuranceandTesting)
@@ -61,7 +55,7 @@ For Suppliers of new services or applications, see the Personal Demographics Se
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical assurance approach
+Click here to view historical assurance approach
 
 To gain access to PDS suppliers previously will have followed the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and compliance activities are conducted.
 
@@ -96,7 +90,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous PDS requirements documentation
+Click here to view previous PDS requirements documentation
 
 The following documents form the PDS integration baseline for local systems wishing to integrate with PDS. This new set of requirements apply to all new system suppliers wishing to complete PDS integration. Existing suppliers are not expected to implement the full scope of new requirements until '2018 PDS Integration Requirements – v1.0' is mandated for all suppliers.
 
@@ -131,7 +125,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

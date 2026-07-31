@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 31 May 2024 |
 | Framework(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510802600 {padding: 0px;}
-div.rbtoc1785510802600 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510802600 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#BookingandReferralStandard(BaRS)V1.0.0-Introduction)
 - [Requirements](#BookingandReferralStandard(BaRS)V1.0.0-Requirements)
   - [Capability to BaRS Core/Application(s) mapping](#BookingandReferralStandard(BaRS)V1.0.0-CapabilitytoBaRSCore/Application(s)mapping)

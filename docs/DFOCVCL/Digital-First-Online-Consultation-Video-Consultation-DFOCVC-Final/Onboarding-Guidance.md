@@ -10,12 +10,6 @@ labels: []
 
 # Onboarding Guidance
 
-/\*<![CDATA[\*/
-div.rbtoc1785494324218 {padding: 0px;}
-div.rbtoc1785494324218 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785494324218 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Summary](#OnboardingGuidance-Summary)
 - [Solution Onboarding Process Overview](#OnboardingGuidance-SolutionOnboardingProcessOverview)
   - [0. Catalogue Registration](#OnboardingGuidance-0.CatalogueRegistration)
@@ -73,7 +67,7 @@ When you have received your countersigned Catalogue Agreement in stage 0, you ca
 
 Provide basic details of your Solution and select Capabilities
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Capabilities and Standards - Expand to read more
+Capabilities and Standards - Expand to read more
 
 Before you select applicable Capabilities and Epics, we recommend that you review the full **Capabilities & Standards Model** to understand the relationship between Capabilities and Standards, as well as the requirements under each Capability and Standard.
 
@@ -101,7 +95,7 @@ When you have received access to your secure Sharepoint site in stage 1, you can
 
 Provide evidence of Capabilities
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Capability Assessment Guidance - Expand to read more
+Capability Assessment Guidance - Expand to read more
 
 For each Capability, the Supplier can choose whether to provide:
 
@@ -162,7 +156,7 @@ Please note that successful completion of Capability Assessment does not mean yo
 
 Provide evidence of Standards
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Standards Compliance Guidance - Expand to read more
+Standards Compliance Guidance - Expand to read more
 
 ### How to submit evidence - Traceability Matrices
 
@@ -210,7 +204,7 @@ Suppliers will have a responsibility to cooperate with any feedback activities o
 
 ## 4. Solution Listing (what Buyers will see)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Solution Listing Guidance - Expand to read more
+Solution Listing Guidance - Expand to read more
 
 Having successfully passed both the Capabilities Assessment and the Standards Compliance stages, you can progress to populating your Catalogue Solution listing, which will form your Solution page. In this final stage, you will be asked to provide additional information relevant to potential Buyers.
 

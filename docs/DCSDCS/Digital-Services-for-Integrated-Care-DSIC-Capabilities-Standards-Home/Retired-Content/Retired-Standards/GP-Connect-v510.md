@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 16 Oct 2023 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497556670 {padding: 0px;}
-div.rbtoc1785497556670 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497556670 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GPConnectv5.1.0-Introduction)
 - [Compliance, Assurance and Testing](#GPConnectv5.1.0-Compliance,AssuranceandTesting)
 - [Requirements](#GPConnectv5.1.0-Requirements)

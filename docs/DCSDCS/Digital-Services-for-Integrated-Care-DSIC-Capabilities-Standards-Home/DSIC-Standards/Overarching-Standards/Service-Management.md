@@ -19,12 +19,6 @@ labels: ["overarching_standard"]
 | **Effective Date** | 20 Jul 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497750211 {padding: 0px;}
-div.rbtoc1785497750211 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497750211 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ServiceManagement-Introduction)
   - [Type 1 & Type 2 Catalogue Solutions](#ServiceManagement-Type1&Type2CatalogueSolutions)
 - [Baseline Assurance Standard Requirements](#ServiceManagement-BaselineAssuranceStandardRequirements)

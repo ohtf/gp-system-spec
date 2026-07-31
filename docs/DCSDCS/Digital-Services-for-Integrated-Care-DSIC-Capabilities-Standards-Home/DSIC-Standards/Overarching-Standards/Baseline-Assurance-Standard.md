@@ -19,12 +19,6 @@ labels: ["overarching_standard"]
 | **Effective Date** | 05 May 2026 |
 | **Contracting Vehicle(s)** | - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511074052 {padding: 0px;}
-div.rbtoc1785511074052 ul {list-style: disc;margin-left: 0px;padding-left: ;}
-div.rbtoc1785511074052 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#BaselineAssuranceStandard-Introduction)
 - [Requirements](#BaselineAssuranceStandard-Requirements)
   - [Business Continuity and Disaster Recovery](#BaselineAssuranceStandard-BusinessContinuityandDisasterRecovery)

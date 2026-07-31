@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 18 Jul 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497949728 {padding: 0px;}
-div.rbtoc1785497949728 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497949728 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#e-ReferralsService(e-RS)-Introduction)
 - [Requirements](#e-ReferralsService(e-RS)-Requirements)
 - [Compliance, Assurance and Testing](#e-ReferralsService(e-RS)-Compliance,AssuranceandTesting)
@@ -62,7 +56,7 @@ For Suppliers of new Solutions and Solutions that have implemented the e-RS FHIR
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented e-RS HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical assurance approach
+Click here to view historical assurance approach
 
 To gain access to e-RS Suppliers previously followed the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -98,7 +92,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented e-RS HL7.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous e-RS requirements documentation
+Click here to view previous e-RS requirements documentation
 
 Developer resources are available on the official [e-Referral Service landing page](https://digital.nhs.uk/services/nhs-e-referral-service) on NHS Digital's website; the [Document Library](https://digital.nhs.uk/services/nhs-e-referral-service/document-library)is a component part of e-RS' requirements for Suppliers seeking guidance and any implementation documentation.
 
@@ -119,7 +113,7 @@ For Suppliers of new Solutions and Solutions that have implemented the e-RS FHIR
 
 For Suppliers of Solutions which ARE currently deployed into an operational environment and have implemented e-RS HL7:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

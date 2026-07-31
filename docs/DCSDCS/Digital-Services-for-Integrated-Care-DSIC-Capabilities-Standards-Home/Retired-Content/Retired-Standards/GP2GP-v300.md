@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 31 Mar 2020 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509932898 {padding: 0px;}
-div.rbtoc1785509932898 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509932898 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#GP2GPv3.0.0-Introduction)
 - [Compliance and Assurance](#GP2GPv3.0.0-ComplianceandAssurance)
 - [Requirements](#GP2GPv3.0.0-Requirements)

@@ -20,12 +20,6 @@ labels: ["overarching_standard_retired"]
 
 # Description
 
-/\*<![CDATA[\*/
-div.rbtoc1785497560198 {padding: 0px;}
-div.rbtoc1785497560198 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497560198 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Non-Functional Questions Model](#Non-FunctionalQuestionsv1.0.0-Non-FunctionalQuestionsModel)
 - [Non-Functional Categories](#Non-FunctionalQuestionsv1.0.0-Non-FunctionalCategories)
 
@@ -42,12 +36,6 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 **Figure A - Non-Functional Questions Model**
 
 ## Non-Functional Categories
-
-/\*<![CDATA[\*/
-div.rbtoc1785497560200 {padding: 0px;}
-div.rbtoc1785497560200 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497560200 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
 
 - [Usability](#Non-FunctionalQuestionsv1.0.0-Usability)
 - [Performance and Scalability](#Non-FunctionalQuestionsv1.0.0-PerformanceandScalability)

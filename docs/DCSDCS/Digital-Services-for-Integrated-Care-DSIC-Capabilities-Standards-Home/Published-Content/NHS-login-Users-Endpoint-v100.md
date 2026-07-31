@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 20 Apr 2027 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511587968 {padding: 0px;}
-div.rbtoc1785511587968 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511587968 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHSloginUsersEndpointv1.0.0-Introduction)
 - [Requirements](#NHSloginUsersEndpointv1.0.0-Requirements)
 - [Compliance, Assurance and Testing](#NHSloginUsersEndpointv1.0.0-Compliance,AssuranceandTesting)

@@ -16,12 +16,6 @@ labels: ["reference_page"]
 | Version | 1.0.2 |
 | Type | Reference |
 
-/\*<![CDATA[\*/
-div.rbtoc1785497473013 {padding: 0px;}
-div.rbtoc1785497473013 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785497473013 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#Spine-Introduction)
   - [Spine Demographics host:](#Spine-SpineDemographicshost:)
   - [Spine Clinicals host](#Spine-SpineClinicalshost)

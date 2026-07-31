@@ -19,12 +19,6 @@ labels: ["overarching_standard"]
 | **Effective Date** | 06 Jul 2026 |
 | **Contracting Vehicle(s)** | [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511605986 {padding: 0px;}
-div.rbtoc1785511605986 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511605986 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#AccessibilityStandard(WebBased)-Introduction)
 - [Requirements](#AccessibilityStandard(WebBased)-Requirements)
 - [Further Requirements](#AccessibilityStandard(WebBased)-FurtherRequirements)

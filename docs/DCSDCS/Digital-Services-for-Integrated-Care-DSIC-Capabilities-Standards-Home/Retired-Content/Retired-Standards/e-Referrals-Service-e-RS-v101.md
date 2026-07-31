@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 28 Apr 2022 |
 | Framework(s) | - GP IT Futures - Tech Innovation |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509801189 {padding: 0px;}
-div.rbtoc1785509801189 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509801189 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#e-ReferralsService(e-RS)v1.0.1-Introduction)
 - [Requirements](#e-ReferralsService(e-RS)v1.0.1-Requirements)
 - [Compliance, Assurance and Testing](#e-ReferralsService(e-RS)v1.0.1-Compliance,AssuranceandTesting)
@@ -61,7 +55,7 @@ For Suppliers of new services or applications, see the e-Referral Service (e-RS
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical assurance approach
+Click here to view historical assurance approach
 
 To gain access to e-RS suppliers previously followed the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -97,7 +91,7 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 For Suppliers of services which ARE currently deployed into an operational environment.
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view previous e-RS requirements documentation
+Click here to view previous e-RS requirements documentation
 
 Developer resources are available on the official e-Referral Service landing page on NHS Digital's website; the Document Library is a component part of e-RS' requirements for suppliers seeking guidance and any implementation documentation. 
 
@@ -116,7 +110,7 @@ For Suppliers of new services or applications:
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical dependencies
+Click here to view historical dependencies
 
 Creating a compliant implementation previously required implementing the following dependent interface standards:
 

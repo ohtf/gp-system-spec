@@ -235,7 +235,7 @@ The eMED3 Template Mappings - all printed data items shows this for all data it
 
 ### eMED3 Template Mappings - all printed data items
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view table of mappings for all printed eMED3 data items to the form
+Click here to view table of mappings for all printed eMED3 data items to the form
 
 | **#** | **Name** |
 | --- | --- |

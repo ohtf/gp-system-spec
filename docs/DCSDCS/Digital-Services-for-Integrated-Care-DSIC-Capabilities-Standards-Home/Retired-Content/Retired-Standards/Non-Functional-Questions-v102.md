@@ -19,12 +19,6 @@ labels: ["overarching_standard_retired"]
 | Effective Date | 05 Jul 2019 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510017416 {padding: 0px;}
-div.rbtoc1785510017416 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510017416 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Non-Functional Questions Model](#Non-FunctionalQuestionsv1.0.2-Non-FunctionalQuestionsModel)
 - [Non-Functional Categories](#Non-FunctionalQuestionsv1.0.2-Non-FunctionalCategories)
 
@@ -45,12 +39,6 @@ Suppliers must provide an appropriate answer to the non-functional questions - t
 **Figure A - Non-Functional Questions Model**
 
 ## Non-Functional Categories
-
-/\*<![CDATA[\*/
-div.rbtoc1785510017419 {padding: 0px;}
-div.rbtoc1785510017419 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510017419 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
 
 - [Usability](#Non-FunctionalQuestionsv1.0.2-Usability)
 - [Performance and Scalability](#Non-FunctionalQuestionsv1.0.2-PerformanceandScalability)

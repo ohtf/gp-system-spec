@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 04 Dec 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510772162 {padding: 0px;}
-div.rbtoc1785510772162 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785510772162 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#MulticastNotificationService(MNS)-Introduction)
 - [Requirements](#MulticastNotificationService(MNS)-Requirements)
   - [Message Implementation](#MulticastNotificationService(MNS)-MessageImplementation)

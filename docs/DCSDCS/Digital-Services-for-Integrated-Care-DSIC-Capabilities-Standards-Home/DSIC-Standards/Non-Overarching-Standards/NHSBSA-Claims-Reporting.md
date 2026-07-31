@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 30 Aug 2024 |
 | **Contracting Vehicle(s)** | [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510394900 {padding: 0px;}
-div.rbtoc1785510394900 ul {list-style: default;margin-left: 0px;}
-div.rbtoc1785510394900 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NHSBSAClaims&Reporting-Introduction)
 - [Requirements](#NHSBSAClaims&Reporting-Requirements)
 - [Compliance, Assurance and Testing](#NHSBSAClaims&Reporting-Compliance,AssuranceandTesting)

@@ -18,12 +18,6 @@ labels: []
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509274439 {padding: 0px;}
-div.rbtoc1785509274439 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509274439 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#IM1-InterfaceMechanismv1.0.0-Introduction)
   - [Applicability](#IM1-InterfaceMechanismv1.0.0-Applicability)
 - [Requirements](#IM1-InterfaceMechanismv1.0.0-Requirements)

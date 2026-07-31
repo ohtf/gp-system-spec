@@ -40,6 +40,8 @@ There are no items with the selected labels at this time.
 
 ### New Reporting Capability
 
+Suppliers can now choose to offer Solutions that support the new [Reporting](../../../DSIC-Capabilities/Reporting.md) Capability. This will allow suppliers that specialise in reporting Solutions to enter the market and will allow them to provide practices with useful functionality around dashboards and reporting, utilising multiple data items from numerous Capabilities.
+
 A supplier implementing a Solution for the Reporting Capability will not be required to support all data items across all Capabilities, but they will need to stipulate which Capabilities they will be supporting reporting for.
 
 ## Attachments

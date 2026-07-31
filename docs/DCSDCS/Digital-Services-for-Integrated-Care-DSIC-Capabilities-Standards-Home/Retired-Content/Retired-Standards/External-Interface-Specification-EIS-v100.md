@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509555070 {padding: 0px;}
-div.rbtoc1785509555070 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509555070 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#ExternalInterfaceSpecification(EIS)v1.0.0-Introduction)
   - [EIS - External Interface Specification](#ExternalInterfaceSpecification(EIS)v1.0.0-EIS-ExternalInterfaceSpecification)
 - [Requirements](#ExternalInterfaceSpecification(EIS)v1.0.0-Requirements)

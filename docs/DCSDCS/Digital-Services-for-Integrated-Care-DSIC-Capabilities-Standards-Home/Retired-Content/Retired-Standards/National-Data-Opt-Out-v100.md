@@ -18,12 +18,6 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | 30 Sep 2020 |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509167781 {padding: 0px;}
-div.rbtoc1785509167781 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509167781 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#NationalDataOpt-Outv1.0.0-Introduction)
 - [Compliance and Assurance](#NationalDataOpt-Outv1.0.0-ComplianceandAssurance)
 - [Requirements](#NationalDataOpt-Outv1.0.0-Requirements)

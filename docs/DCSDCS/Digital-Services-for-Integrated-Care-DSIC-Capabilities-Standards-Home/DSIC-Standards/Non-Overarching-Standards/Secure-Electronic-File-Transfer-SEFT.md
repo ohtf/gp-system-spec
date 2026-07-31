@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 01 Apr 2019 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785498022355 {padding: 0px;}
-div.rbtoc1785498022355 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785498022355 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#SecureElectronicFileTransfer(SEFT)-Introduction)
 - [Documentation](#SecureElectronicFileTransfer(SEFT)-Documentation)
 - [Dependencies](#SecureElectronicFileTransfer(SEFT)-Dependencies)

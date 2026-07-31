@@ -19,12 +19,6 @@ labels: ["standard_retired"]
 | **Effective Date** | 04 Nov 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511501124 {padding: 0px;}
-div.rbtoc1785511501124 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511501124 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#DigitalMedicinesandPharmacyFHIRPayloadv5.0.0-Introduction)
 - [Requirements](#DigitalMedicinesandPharmacyFHIRPayloadv5.0.0-Requirements)
 - [Compliance, Assurance and Testing](#DigitalMedicinesandPharmacyFHIRPayloadv5.0.0-Compliance,AssuranceandTesting)

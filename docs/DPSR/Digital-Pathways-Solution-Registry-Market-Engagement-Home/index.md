@@ -36,79 +36,79 @@ For guidance on the current best practices throughout the IT industry when provi
 
 - [**Accessibility Standard (Web Based)**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Accessibility-Standard-Web-Based.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Accessibility means making sure that everyone can perceive, understand, navigate, contribute and interact with a Solution.
 
 - [**Baseline Assurance Standard**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Baseline-Assurance-Standard.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/index.md).
 
 - [**Business Continuity and Disaster Recovery**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Business-Continuity-and-Disaster-Recovery.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Ensures that Suppliers Solutions are supported by robust business continuity plans and disaster recovery measures.
 
 - [**Clinical Safety**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Clinical-Safety.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Supports the management of clinical risk and Patient safety.
 
 - [**Data Migration**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Data-Migration.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Supports the secure migration of Practice data between Solutions.
 
 - [**Data Standards**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Data-Standards.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Defines detailed technical standards for the storage, management and organisation of data and specifies standardised reference data, terminology and codes.
 
 - [**Hosting & Infrastructure**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Hosting-Infrastructure.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Supports best practices for infrastructure and hosting of systems. For example, ensuring that systems are cost effective, secure, reliable, resilient, safe, manageable and energy efficient.
 
 - [**Information Governance**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Information-Governance.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Supports the controls needed to ensure that Special Category Data is kept confidential, is accurate and is available to authorised users when required.
 
 - [**Interoperability Standard**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Interoperability-Standard.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Defines overarching Interoperability requirements and interfaces to be implemented, including quality and principles to be followed for Supplier Solutions.
 
 - [**Non-Functional Questions**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Non-Functional-Questions.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Enables The Authority to assess the risk associated with the Compliance Assessment of the Solution against appropriate Overarching Standards.
 
 - [**Service Management**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Service-Management.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Sets out the requirements for Suppliers with regards to the delivery and management of services that support and provide their Solutions.
 
 - [**Testing**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Testing.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Ensures that Suppliers' software delivery test processes are of sufficient quality and rigour.
 
 - [**Training**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Training.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Defines the training activities and collateral expected from Suppliers to support the buyers and users of their Solutions.
 
@@ -116,49 +116,49 @@ Defines the training activities and collateral expected from Suppliers to suppor
 
 - [**Care Navigation**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Care-Navigation.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Enables Health or Care Professionals to appropriately process and respond to Online Patient Consultations using a pre-configured Care Navigation Workflow.
 
 - [**Communication Management**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Communication-Management.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Supports the delivery of communications to recipients.
 
 - [**Cross-organisation Appointment Booking**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Cross-organisation-Appointment-Booking.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Enables Appointments for Patients/Service Users to be booked by Health or Care Professionals across organisational boundaries.
 
 - [**Online Patient Consultation**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Online-Patient-Consultation.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Enables Patients/Patient Representatives to request and receive support relating to healthcare concerns online.
 
 - [**Online Patient Request**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Online-Patient-Request.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Enables Patients to make specific types of clinical/non clinical requests online to their Healthcare Organisation.
 
 - [**Online Consultation and Online Request Reporting**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Online-Consultations-and-Online-Patient-Requests-Reporting.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Enables reporting and analysis using a range of Online Consultations and Online Patient Request data items to support clinical care and Health or Care Organisation management. Also supports submission of data to the Authority to support understanding of demand and activity within Healthcare Organisations.
 
 - [**Video Consultation**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Video-Consultation.md)
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Allows Health or Care Professionals to conduct secure live remote Video Consultations with individual or groups of Patients and/or Patient Representatives ensuring they can receive support relating to healthcare concerns when a Video Consultation is most appropriate.
 
 - **Demand and Capacity Planning**
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)More...
+More...
 
 Demand and Capacity Planning Tools (DCPT) will allow Health or Care Organisations to gain a greater understanding of their own data and performance to enable more informed planning.
 

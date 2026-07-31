@@ -19,12 +19,6 @@ labels: ["standard"]
 | **Effective Date** | 09 Oct 2026 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785511514396 {padding: 0px;}
-div.rbtoc1785511514396 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785511514396 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#VaccinationAdministration(DigiMeds)v1.0.0-Introduction)
 - [Requirements](#VaccinationAdministration(DigiMeds)v1.0.0-Requirements)
 - [Compliance, Assurance and Testing](#VaccinationAdministration(DigiMeds)v1.0.0-Compliance,AssuranceandTesting)

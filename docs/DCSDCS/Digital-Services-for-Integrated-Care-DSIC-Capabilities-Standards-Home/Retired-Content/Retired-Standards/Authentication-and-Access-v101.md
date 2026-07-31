@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 28 Apr 2022 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-/\*<![CDATA[\*/
-div.rbtoc1785510126176 {padding: 0px;}
-div.rbtoc1785510126176 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785510126176 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#AuthenticationandAccessv1.0.1-Introduction)
 - [Requirements](#AuthenticationandAccessv1.0.1-Requirements)
 - [Compliance, Assurance and Testing](#AuthenticationandAccessv1.0.1-Compliance,AssuranceandTesting)
@@ -72,7 +66,7 @@ Suppliers of new services or applications, see additional supporting documentat
 
 ### **CIS and Smartcards**
 
-![](https://nhse-dsic.atlassian.net/wiki/images/icons/grey_arrow_down.png)Click here to view historical documentation
+Click here to view historical documentation
 
 Documentation relating to CIS and Smartcards can be found at  NHS Digital Registration Authorities and Smartcard page.
 

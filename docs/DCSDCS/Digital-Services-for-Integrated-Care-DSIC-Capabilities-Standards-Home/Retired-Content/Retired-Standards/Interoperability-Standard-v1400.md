@@ -19,12 +19,6 @@ labels: ["interop_standard_retired"]
 | Effective Date | 31 Mar 2022 |
 | Framework(s) | - GP IT Futures - Tech Innovation - Vaccinations - Local/PCN Delivery |
 
-/\*<![CDATA[\*/
-div.rbtoc1785509806345 {padding: 0px;}
-div.rbtoc1785509806345 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1785509806345 li {margin-left: 0px;padding-left: 0px;}
-/\*]]>\*/
-
 - [Introduction](#InteroperabilityStandardv14.0.0-Introduction)
 - [Notes on quality and consistency of interface documentation](#InteroperabilityStandardv14.0.0-Notesonqualityandconsistencyofinterfacedocumentation)
 - [Interoperability principles](#InteroperabilityStandardv14.0.0-Interoperabilityprinciples)
@@ -179,7 +173,7 @@ Suppliers need to comply with all of the requirements that are associated with t
 | IM1 - Interface Mechanism Provider requirements (if offering all Foundation capabilities) |  |
 | NHAIS HA/GP Links v2.0.0 | - Messaging Exchange for Social Care and Health (MESH) |
 | Personal Demographics Service (PDS) | For Suppliers of new Solutions, Solutions which ARE currently deployed into an operational environment and have implemented the PDS FHIR API, and Community Pharmacy Solutions (using Healthcare worker access).   - [Authentication and Access](../../DSIC-Standards/Non-Overarching-Standards/Authentication-and-Access.md) - using NHS Care Identity Service 2 API |
-| GP2GP | For Suppliers of new Solutions and Solutions that have implemented the GP2GP FHIR Implementation
+| GP2GP | For Suppliers of new Solutions and Solutions that have implemented the GP2GP FHIR Implementation:   - [GP2GP Requesting Adaptor](../../DSIC-Standards/Non-Overarching-Standards/GP2GP-Requesting-Adaptor.md) - [GP2GP Sending Adaptor](../../DSIC-Standards/Non-Overarching-Standards/GP2GP-Sending-Adaptor.md) - [Personal Demographics Service (PDS)](../../DSIC-Standards/Non-Overarching-Standards/Personal-Demographics-Service-PDS.md) - using FHIR API - [Spine Directory Service - FHIR API](https://digital.nhs.uk/developer/api-catalogue/spine-directory-service-fhir) - [GP Connect Access Record Structured](../../DSIC-Standards/Non-Overarching-Standards/GP-Connect-Access-Record-Structured.md) - Refer to ‘Migrate a Patient’s structured record' and ‘Migrate a document’ for more information - [GP Registrations Management Information API](https://digital.nhs.uk/developer/api-catalogue/gp-registrations-management-information) |
 | Summary Care Record (SCR) | For Suppliers of new Solutions and Solutions that have implemented the SCR FHIR API:   - [Authentication and Access](../../DSIC-Standards/Non-Overarching-Standards/Authentication-and-Access.md) - using NHS Care Identity Service 2 API |
 | GP Connect Access Record API | - Personal Demographics Service (PDS) |
 | GP Connect Messaging Send Document | - Generic FHIR Receiver |
