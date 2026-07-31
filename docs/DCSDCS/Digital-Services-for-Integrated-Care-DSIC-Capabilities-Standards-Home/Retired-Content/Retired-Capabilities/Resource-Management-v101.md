@@ -1,0 +1,303 @@
+---
+page_id: "11963564033"
+space: "DCSDCS"
+title: "Resource Management v1.0.1"
+version: 1
+updated: "2022-04-28T11:07:50.998Z"
+source_url: "https://nhse-dsic.atlassian.net/wiki/spaces/DCSDCS/pages/11963564033/Resource+Management+v1.0.1"
+labels: ["capability_retired"]
+---
+
+# Resource Management v1.0.1
+
+|  |  |
+| --- | --- |
+| ID | C12 |
+| Version | 1.0.1 |
+| Type | Capability |
+| Status | Retired |
+| Effective Date | 31 Dec 2019 |
+
+Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
+
+# Description
+
+Supports the management and reporting of Practice information, resources, Staff Members and related organisations. Also enables management of Staff Member availability and inactivity.
+
+# Outcomes
+
+|  |  |
+| --- | --- |
+| For General Practice: | Information about the General Practice and individual Staff Members working for the Practice, is easier to manage and these Staff Members can be organised into groups and teams. Information about related organisations and staff working for those organisations is also easily managed. |
+| For the wider NHS and social care system: | Efficient and appropriate management of Practice staff to improve services and health outcomes for Patients. |
+
+**MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
+
+### C12E1 - manage General Practice and Branch site information
+
+As a Practice User
+
+I want to manage Practice and Branch site information
+
+So that I can manage my General Practice and Branch site information
+
+#### Acceptance criterion 1: create General Practice and Branch site information
+
+Given the Practice User is permitted to create General Practice and Branch site information
+
+When the Practice User chooses to create General Practice and Branch site information
+
+Then the General Practice and Branch site information is created
+
+#### Acceptance criterion 2: amend General Practice and Branch site information
+
+Given the Practice User is permitted to amend General Practice and Branch site information
+
+When the Practice User chooses to amend General Practice and Branch site information
+
+Then the General Practice and Branch site information is amended
+
+#### Acceptance criterion 3: delete General Practice and Branch site information
+
+Given the Practice User is permitted to delete General Practice and Branch site information
+
+When the Practice User chooses to delete General Practice and Branch site information
+
+Then the General Practice and Branch site information is deleted
+
+---
+
+### C12E2 - manage General Practice Staff Members
+
+As a Practice User
+
+I want to manage Staff Members
+
+So that I can manage Staff Members for my General Practice
+
+#### Acceptance criterion 1: create General Practice Staff Members
+
+Given the Practice User is permitted to create Staff Members
+
+When the Practice User chooses to create a Staff Member
+
+Then the Staff Member is created
+
+#### Acceptance criterion 2: amend General Practice Staff Members
+
+Given the Practice User is permitted to amend Staff Members
+
+When the Practice User chooses to amend a Staff Member
+
+Then the Staff Member is amended
+
+#### Acceptance criterion 3: delete General Practice Staff Members
+
+Given the Practice User is permitted to delete Staff Members
+
+When the Practice User chooses to delete a Staff Member
+
+Then the Staff Member is deleted
+
+---
+
+### C12E3 - manage Staff Member inactivity periods
+
+As a Practice User
+
+I want to manage Staff Member inactivity periods
+
+So that I can manage Staff Member inactivity
+
+#### Acceptance criterion 1: create Staff Member inactivity periods
+
+Given the Practice User is permitted to create Staff Member inactivity periods
+
+When the Practice User chooses to create a Staff Member inactivity period
+
+Then the inactivity period is created
+
+#### Acceptance criterion 2: amend Staff Member inactivity periods
+
+Given the Practice User is permitted to amend Staff Member inactivity periods
+
+When the Practice User chooses to amend a Staff Member inactivity period
+
+Then the inactivity period is amended
+
+#### Acceptance criterion 3: delete Staff Member inactivity periods
+
+Given the Practice User is permitted to delete Staff Member inactivity periods
+
+When the Practice User chooses to delete a Staff Member inactivity period
+
+Then the inactivity period is deleted
+
+---
+
+### C12E4 - manage Staff Member Groups
+
+As a Practice User
+
+I want to manage Staff Member Groups
+
+So that I can manage Staff Member Groups for my General Practice
+
+#### Acceptance criterion 1: create Staff Member Groups
+
+Given the Practice User is permitted to create Staff Member Groups
+
+When the Practice User chooses to create a Staff Member Group
+
+Then the Staff Member Group is created
+
+#### Acceptance criterion 2: amend Staff Member Groups
+
+Given the Practice User is permitted to amend Staff Member Groups
+
+When the Practice User chooses to amend a Staff Member Group
+
+Then the Staff Member Group is amended
+
+---
+
+### C12E5 - manage Related Organisations information
+
+As a Practice User
+
+I want to manage Related Organisations information
+
+So that I can ensure my Related Organisations information is up to date
+
+#### Acceptance criterion 1: create Related Organisation information
+
+Given the Practice User is permitted to create Related Organisations information
+
+When the Practice User chooses to create Related Organisations information
+
+Then the Related Organisations information is created
+
+#### Acceptance criterion 2: amend Related Organisations information
+
+Given the Practice User is permitted to amend Related Organisations information
+
+When the Practice User chooses to amend Related Organisations information
+
+Then the Related Organisations information is amended
+
+#### Acceptance criterion 3: delete Related Organisations information
+
+Given the Practice User is permitted to delete Related Organisations information
+
+When the Practice User chooses to delete Related Organisations information
+
+Then the Related Organisations information is deleted
+
+### C12E6 - manage Related Organisation Staff Members
+
+As a Practice User
+
+I want to manage Related Organisations Staff Members
+
+So that I can manage Staff Members for organisations related to my General Practice
+
+#### Acceptance criterion 1: create Related Organisations Staff Members
+
+Given the Practice User is permitted to create Related Organisations Staff Members
+
+When the Practice User chooses to create a Related Organisation Staff Member
+
+Then the Related Organisation Staff Member is created
+
+#### Acceptance criterion 2: amend Related Organisations Staff Members
+
+Given the Practice User is permitted to amend Related Organisations Staff Members
+
+When the Practice User chooses to amend a Related Organisation Staff Member
+
+Then the Related Organisation Staff Member is amended
+
+#### Acceptance criterion 3: delete Related Organisations Staff Members
+
+Given the Practice User is permitted to delete Related Organisations Staff Members
+
+When the Practice User chooses to delete a Related Organisation Staff Member
+
+Then the Related Organisation Staff Member is deleted
+
+**MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
+
+### C12E7 - manage Non-human Resources
+
+As a Practice User
+
+I want to manage Non-human Resources
+
+So that I can manage Non-human Resources for my General Practice
+
+#### Acceptance criterion 1: create Non-human Resources
+
+Given the Practice User is permitted to create Non-human Resources
+
+When the Practice User chooses to create a Non-human Resource
+
+Then the Non-human Resource is created
+
+#### Acceptance criterion 2: amend Non-human Resources
+
+Given the Practice User is permitted to amend Non-human Resources
+
+When the Practice User chooses to amend a Non-human Resource
+
+Then the Non-human Resource is amended
+
+#### Acceptance criterion 3: delete Non-human Resources
+
+Given the Practice User is permitted to delete Non-human Resources
+
+When the Practice User chooses to delete a Non-human Resource
+
+Then the Non-human Resource is deleted
+
+#### Acceptance criterion 4: create Non-human Resources associations
+
+Given the Practice User is permitted to create Non-human Resources associations
+
+When the Practice User chooses to create a Non-human Resource association
+
+Then the Non-human Resource association is created
+
+#### Acceptance criterion 5: amend Non-human Resources associations
+
+Given the Practice User is permitted to amend Non-human Resources associations
+
+When the Practice User chooses to amend a Non-human Resource association
+
+Then the Non-human Resource association is amended
+
+#### Acceptance criterion 6: delete Non-human Resources associations
+
+Given the Practice User is permitted to delete Non-human Resources associations
+
+When the Practice User chooses to delete a Non-human Resource association
+
+Then the Non-human Resource association is deleted
+
+**Capability Specific Standard**
+
+Suppliers will have to attain compliance with this Standard during the compliance stage before they can be live on a framework with this Capability:
+
+- Resource Management - Standard
+**Other Applicable Standards**
+
+Suppliers will also have to attain compliance with these additional Standards during the compliance stage before they can be live on a framework with this Capability:
+
+- Interoperability Standard
+- Overarching Standards
+**Items on the Roadmap which impact or relate to this Capability**
+
+Suppliers will not be assessed or assured on these Roadmap Items as part of Onboarding
+
+| Roadmap Item |
+| --- |
+| No content found. |

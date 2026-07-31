@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--V2 xml file for activation Error of duplicated extended access appointments removed in-->
+<!--V5 xml file for activation Error of context type changes amended-->
+<!--v5.3 xml file updated end dates from 2020-03-06 to 2020-03-07 as of 05/03/2020 1725 HAWI1-->
+<!--v6.0 Deprecated catergories commented out. Unique ID's added 10/03/2020 HAWI1-->
+<!--V7.0 Removed Setting ID and Context ID -->
+<!--V8.0 New version of categories introduced Version 3 for Public Beta -->
+<!--V8.2 Amendment of descriptions-->
+<!---->
+<NationalAppointmentStandard>
+ <Service setting="GP Practice">
+	<context type="Care Related Encounter">
+      <nationalGrouping category="General Consultation Acute">
+	  <nationalGroupingId>10022</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>An urgent appointment to see a patient as soon as possible: Occurrence or escalation of an illness or illnesses / Significant worsening of a current illness(es) or disease(s) / Or other acute concerns about their health or well being. Excludes triage and walk-in clinics (see other relevant categories in the list).</description>
+      </nationalGrouping>
+      <nationalGrouping category="General Consultation Planned">
+	  <nationalGroupingId>10023</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>A planned consultation or follow up. May include patients with undifferentiated problems. The actual activity which takes place is not known in advance.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Scheduled/Planned Clinical Activity">
+	  <nationalGroupingId>10024</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Clinical activity for a patient with defined problems, healthcare issues or care pathway. The actual activity which takes place is known in advance.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Scheduled/Planned Clinical Procedure">
+	  <nationalGroupingId>10025</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Clinical procedure: Performed by a Health care practitioner or assistant / Involves a combination of special skills or abilities / May require drugs, devices, investigations or dressings.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Walk in Clinic - Planned">
+	  <nationalGroupingId>10026</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Planned walk-in clinic: Patients do not have a specific personal appointment time. / Open consultation session. If a clinic runs over the planned duration, consideration should be given to creating an appointment slot which can be placed under the 'Unscheduled / Unplanned Clinical Activity' category. Correctly mapping this allows for identification of excess demand.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Unscheduled/Unplanned Clinical Activity">
+	  <nationalGroupingId>10027</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>An extra slot added to planned sessions to meet on the day demand. To be used to identify additional demand.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Triage">
+	  <nationalGroupingId>10028</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>A slot for the purpose of clinically triaging a patient. The mode of the triage could take place by any means such as: face-to-face, telephone, online, Skype. Triage performed by a health care professional.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Home Visit and Care Home Visit">
+	  <nationalGroupingId>10029</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>A consultation in a patient's home, care home, palliative care and other out-of-practice settings.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Group Consultation and Group Education">
+	  <nationalGroupingId>10030</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Shared appointments. Health care professionals providing care to several patients at the same time in one appointment.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Service provided by organisation external to the practice">
+	  <nationalGroupingId>10031</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Services provided by organisations external to the practice on the practice site such as: Physiotherapy / Community Health / Citizen's Advice Bureau / Financial help organisations / Housing. This does not include items within Scheduled/Planned clinical activity.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Private Patients and Non-NHS Appointments">
+	  <nationalGroupingId>10032</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Health reviews or checks for which the patient pays such as: Occupational requirements for patient / Legal requirements for patient.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Is a Care Related Encounter but does not fit into any of the above">
+	  <nationalGroupingId>10033</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Involves Patient contact but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+    </context>
+	<context type="Care Related Activity">
+      <nationalGrouping category="Individual Patient Clinical Administration">
+	  <nationalGroupingId>10034</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Clinical administration by Health Care Professionals such as: Preparation of referral letters / Writing prescriptions / Review of results / Preparation of insurance. Not patient facing.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Multidisciplinary Team meeting (MDT) / Patient Collaboration planning">
+	  <nationalGroupingId>10035</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>MDT meeting with a group of Health Care Professionals about selected named patients: Case conferences / Palliative care conferences or planning discussions. Not patient facing</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Is a Care Related activity but does not fit into any of the above">
+	  <nationalGroupingId>10036</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Is a Care Related activity but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+    </context>
+    <context type="Admin and Practice Staff Activities">
+	  <nationalGrouping category="Providing training / mentoring / supervising">
+	  <nationalGroupingId>10037</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Health Care Professional providing training and/or mentoring: Acting as a trainer or mentor / Sharing knowledge for development or mentoring of others. This may be individual or to a group.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Receiving training / being the mentee / being supervised">
+	  <nationalGroupingId>10038</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Undergoing training such as: Receiving active coaching / Guidance / Self-study / Attending training courses / Self-development / Mentoring.</description>
+      </nationalGrouping>	  
+      <nationalGrouping category="Business/Practice Management Activities">
+	  <nationalGroupingId>10039</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Activities and administration to facilitate the running of the practice.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Clinical Housekeeping/Admin">
+	  <nationalGroupingId>10040</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Clinical activities not focused on a patient or group of patients. Such as significant events, audit, clinical governance, CQC, research administration and quality improvement programmes. Aimed at improving the quality of patient care and care pathways in the practice.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Break and Staff Absence">
+	  <nationalGroupingId>10041</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>A break in activity during a session, or a staff absence. Annual leave is not required to be collected in the GP appointment data but some practices may find it useful to have available in the practice appointment systems.</description>
+      </nationalGrouping>
+      <nationalGrouping category="Is Admin related but does not fit into any of the above">
+	  <nationalGroupingId>10042</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Is Admin related but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+    </context>
+  </Service> 
+ <Service setting="General Practice">
+    <context type="Care Related Encounter">	
+      <nationalGrouping category="General Consultation Acute">
+	  <nationalGroupingId>10101</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An urgent appointment to provide care or advice to a patient as soon as possible: Occurrence or escalation of an illness or illnesses / Significant worsening of a current illness(es) or disease(s) / Or other acute concerns about their health or well-being.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="General Consultation Planned">
+	  <nationalGroupingId>10102</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A planned consultation or follow up. May include patients with undifferentiated problems. The actual activity which takes place is not known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Activity">
+	  <nationalGroupingId>10103</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activity for a patient with defined problems, healthcare issues or care pathway. The actual activity which takes place is known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Procedure">
+	  <nationalGroupingId>10104</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical procedure: performed by a health care practitioner or assistant / Involves a combination of special skills or abilities / May require drugs, devices, investigations or dressings.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Unscheduled/Unplanned Clinical Activity">
+	  <nationalGroupingId>10105</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An extra slot/session added/created on the day to supplement planned sessions to meet on the day demand. Would not previously be created and embargoed. To be used to identify additional demand.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Walk in Clinic">
+	  <nationalGroupingId>10106</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Planned walk-in clinic: Patients do not have a specific personal appointment time. This is an open consultation session.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Triage">
+	  <nationalGroupingId>10107</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot for the purpose of clinically triaging a patient. The mode of the triage could take place by any means such as: face-to-face, telephone, online, video. Triage performed by a health care professional.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Home Visit">
+	  <nationalGroupingId>10108</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a patient's home. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Visit">
+	  <nationalGroupingId>10109</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a care home, palliative care and other out-of-practice settings. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Group Consultation and Group Education">
+	  <nationalGroupingId>10110</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An appointment where care is provided to multiple patients such as lifestyle awareness, drug and alcohol or mother and baby sessions.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Structured Medication Review">
+	  <nationalGroupingId>10111</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A Structured Medication Review delivered as part of the Network Contract DES “Structured Medication Review and Medicines Optimisation” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Patient contact during Care Home Round">
+	  <nationalGroupingId>10112</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Patient contact occurring through care home round delivered as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Needs Assessment / Personalised Care / Support Planning">
+	  <nationalGroupingId>10113</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Care home needs assessment and/or personalised care and support planning provided to care home residents as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Social Prescribing / Care Coordination appointment">
+	  <nationalGroupingId>10114</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Social prescribing or care co-ordination appointment, usually delivered by a social prescribing link worker, health and wellbeing coach, or care co-ordinator.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Service provided by organisation external to the practice">
+	  <nationalGroupingId>10115</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Services provided by organisations external to the practice and GP / PCN contract but that use practices facilities such as physiotherapy, community health or other.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Non-contractual chargeable work">
+	  <nationalGroupingId>10116</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health reviews/ checks for which the patient pays: DVLA checks, other employer medical checks and insurance medical checks.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Encounter but does not fit into any of the above">
+	  <nationalGroupingId>10117</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that is a care related encounter, involves the patient, but not does not fit into any other care related encounter national slot types.</description>
+      </nationalGrouping>
+	</context>
+	<context type="Care Related Activity">	
+	  <nationalGrouping category="Individual Patient Clinical Admin">
+	  <nationalGroupingId>10118</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical administration by healthcare professionals such as preparation of referral letters, writing prescriptions, review of results and preparation of insurance. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Multidisciplinary Team meeting / Patient Collaboration planning">
+	  <nationalGroupingId>10119</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>MDT meeting with a group of Healthcare Professionals about selected named patients such as case conferences or palliative care planning discussions. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Activity but does not fit into any of the above">
+	  <nationalGroupingId>10120</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that does not involve patients directly (Not patient facing) but involves clinical tasks about a patient that does not fit into the other care related activity slot types.</description>
+      </nationalGrouping>
+	</context>
+	<context type="Administration and Practice Staff Activities">
+	  <nationalGrouping category="Providing training / mentoring / supervising">
+	  <nationalGroupingId>10121</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health Care Professional providing training and/or mentoring: Acting as a trainer or mentor / Sharing knowledge for development or mentoring of others. This may be individual or to a group.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Receiving training / being the mentee / being supervised">
+	  <nationalGroupingId>10122</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Undergoing training such as: Receiving active coaching / Guidance / Self-study / Attending training courses / Self-development / Mentoring.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Business/Practice Management Activities">
+	  <nationalGroupingId>10123</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Activities and administration to facilitate the running of the practice.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Clinical Housekeeping/Admin">
+	  <nationalGroupingId>10124</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activities not focused on a patient or group of patients. Such as significant events, audit, clinical governance, CQC, research administration and quality improvement programmes. Aimed at improving the quality of patient care and care pathways.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Break and Staff Absence">
+	  <nationalGroupingId>10125</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A break in activity during a session, or a staff absence. Annual leave is not required to be collected in the GP appointment data but some practices may find it useful to have leave information available in the practice appointment systems.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Admin and Practice Staff Related Activities but does not fit into any of the above">
+	  <nationalGroupingId>10126</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>This is an Admin and Practice Staff Activity but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+	</context>
+  </Service>
+  
+  
+  <Service setting="Primary Care Network">
+     <context type="Care Related Encounter">
+      <nationalGrouping category="PCN Care Home Visits">
+	  <nationalGroupingId>20014</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>PCN Care Home Visits.</description>
+      </nationalGrouping>
+      <nationalGrouping category="PCN Extended Hours Appointment">
+	  <nationalGroupingId>20015</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Extended Hours Appointment under the PCN.</description>
+      </nationalGrouping>
+      <nationalGrouping category="PCN Structured Medication Review">
+	  <nationalGroupingId>20016</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Structured Medication Review under the PCN.</description>
+      </nationalGrouping>
+      <nationalGrouping category="PCN Social Prescriber/Link Worker">
+	  <nationalGroupingId>20017</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Link Workers/Social Prescribers.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="PCN Patient Group Education">
+	  <nationalGroupingId>20018</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Health Education for Patients.</description>
+      </nationalGrouping>
+      <nationalGrouping category="PCN Consultations with Groups of Patients">
+	  <nationalGroupingId>20019</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Consultations with groups of patients.</description>
+      </nationalGrouping>	  
+      <nationalGrouping category="PCN patient contact but does not fit into any of the above">
+	  <nationalGroupingId>20020</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>A PCN patient contact appointment but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="General Consultation Acute">
+	  <nationalGroupingId>20101</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An urgent appointment to provide care or advice to a patient as soon as possible: Occurrence or escalation of an illness or illnesses / Significant worsening of a current illness(es) or disease(s) / Or other acute concerns about their health or well-being.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="General Consultation Planned">
+	  <nationalGroupingId>20102</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A planned consultation or follow up. May include patients with undifferentiated problems. The actual activity which takes place is not known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Activity">
+	  <nationalGroupingId>20103</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activity for a patient with defined problems, healthcare issues or care pathway. The actual activity which takes place is known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Procedure">
+	  <nationalGroupingId>20104</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical procedure: performed by a health care practitioner or assistant / Involves a combination of special skills or abilities / May require drugs, devices, investigations or dressings.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Unscheduled/Unplanned Clinical Activity">
+	  <nationalGroupingId>20105</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An extra slot/session added/created on the day to supplement planned sessions to meet on the day demand. Would not previously be created and embargoed. To be used to identify additional demand.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Walk in Clinic">
+	  <nationalGroupingId>20106</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Planned walk-in clinic: Patients do not have a specific personal appointment time. This is an open consultation session.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Triage">
+	  <nationalGroupingId>20107</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot for the purpose of clinically triaging a patient. The mode of the triage could take place by any means such as: face-to-face, telephone, online, video. Triage performed by a health care professional.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Home Visit">
+	  <nationalGroupingId>20108</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a patient's home. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Visit">
+	  <nationalGroupingId>20109</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a care home, palliative care and other out-of-practice settings. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Group Consultation and Group Education">
+	  <nationalGroupingId>20110</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An appointment where care is provided to multiple patients such as lifestyle awareness, drug and alcohol or mother and baby sessions.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Structured Medication Review">
+	  <nationalGroupingId>20111</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A Structured Medication Review delivered as part of the Network Contract DES “Structured Medication Review and Medicines Optimisation” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Patient contact during Care Home Round">
+	  <nationalGroupingId>20112</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Patient contact occurring through care home round delivered as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Needs Assessment / Personalised Care / Support Planning">
+	  <nationalGroupingId>20113</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Care home needs assessment and/or personalised care and support planning provided to care home residents as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Social Prescribing / Care Coordination appointment">
+	  <nationalGroupingId>20114</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Social prescribing or care co-ordination appointment, usually delivered by a social prescribing link worker, health and wellbeing coach, or care co-ordinator.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Service provided by organisation external to the practice">
+	  <nationalGroupingId>20115</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Services provided by organisations external to the practice and GP / PCN contract but that use practices facilities such as physiotherapy, community health or other.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Non-contractual chargeable work">
+	  <nationalGroupingId>20116</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health reviews/ checks for which the patient pays: DVLA checks, other employer medical checks and insurance medical checks.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Encounter but does not fit into any of the above">
+	  <nationalGroupingId>20117</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that is a care related encounter, involves the patient, but not does not fit into any other care related encounter national slot types.</description>
+      </nationalGrouping>
+    </context>
+    <context type="Care Related Activity">	
+      <nationalGrouping category="PCN individual patient clinical admin">
+	  <nationalGroupingId>20021</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>For Health Care Professionals involved in reviewing results, referral letters and prescriptions for PCN – non patient facing.</description>
+      </nationalGrouping>
+      <nationalGrouping category="PCN Patient Collaboration/Multi-disciplinary Team meeting">
+	  <nationalGroupingId>20022</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Health Care Professionals holding case conferences, palliative care conferences/planning discussions on groups of named PCN patients.</description>
+      </nationalGrouping>	  
+      <nationalGrouping category="PCN clinical, non patient contact but does not fit into any of the above categories">
+	  <nationalGroupingId>20023</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Is PCN related clinical non patient contact but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Individual Patient Clinical Admin">
+	  <nationalGroupingId>20118</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical administration by healthcare professionals such as preparation of referral letters, writing prescriptions, review of results and preparation of insurance. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Multidisciplinary Team meeting / Patient Collaboration planning">
+	  <nationalGroupingId>20119</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>MDT meeting with a group of Healthcare Professionals about selected named patients such as case conferences or palliative care planning discussions. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Activity but does not fit into any of the above">
+	  <nationalGroupingId>20120</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that does not involve patients directly (Not patient facing) but involves clinical tasks about a patient that does not fit into the other care related activity slot types.</description>
+      </nationalGrouping>
+    </context>
+    <context type="Admin and Practice Staff Activities">	
+	<nationalGrouping category="PCN Business/Practice Management Activities">
+	<nationalGroupingId>20024</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Meetings/Activities to facilitate the running of the PCN.</description>
+      </nationalGrouping>
+      <nationalGrouping category="PCN Supervision of social prescriber">
+	  <nationalGroupingId>20025</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Activities to supervise a social prescriber / link worker.</description>
+      </nationalGrouping>	  
+      <nationalGrouping category="PCN Supervision of clinical pharmacist">
+	  <nationalGroupingId>20026</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Activities to supervise a clinical pharmacist.</description>
+      </nationalGrouping>	  
+      <nationalGrouping category="PCN admin but does not fit into any of the above">
+	  <nationalGroupingId>20027</nationalGroupingId>
+        <startDate>2020-02-17</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Is admin for the PCN but does not fit into any of the above categories.</description>
+      </nationalGrouping>	  
+    </context>
+	<context type="Administration and Practice Staff Activities">
+	 <nationalGrouping category="Providing training / mentoring / supervising">
+	  <nationalGroupingId>20121</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health Care Professional providing training and/or mentoring: Acting as a trainer or mentor / Sharing knowledge for development or mentoring of others. This may be individual or to a group.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Receiving training / being the mentee / being supervised">
+	  <nationalGroupingId>20122</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Undergoing training such as: Receiving active coaching / Guidance / Self-study / Attending training courses / Self-development / Mentoring.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Business/Practice Management Activities">
+	  <nationalGroupingId>20123</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Activities and administration to facilitate the running of the practice.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Clinical Housekeeping/Admin">
+	  <nationalGroupingId>20124</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activities not focused on a patient or group of patients. Such as significant events, audit, clinical governance, CQC, research administration and quality improvement programmes. Aimed at improving the quality of patient care and care pathways.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Break and Staff Absence">
+	  <nationalGroupingId>20125</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A break in activity during a session, or a staff absence. Annual leave is not required to be collected in the GP appointment data but some practices may find it useful to have leave information available in the practice appointment systems.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Admin and Practice Staff Related Activities but does not fit into any of the above">
+	  <nationalGroupingId>20126</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>This is an Admin and Practice Staff Activity but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+	</context>
+  </Service>
+  
+  <Service setting="Extended access appointments">
+   	<context type="Care Related Encounter"> 
+      <nationalGrouping category="Extended Access Appointment">
+	  <nationalGroupingId>30002</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Extended Access appointment not provided by a PCN or GP Practice</description>
+      </nationalGrouping>
+    </context>
+  </Service>
+  
+  <Service setting="Extended Access Provision">
+    <context type="Care Related Encounter">	
+      <nationalGrouping category="General Consultation Acute">
+	  <nationalGroupingId>30101</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An urgent appointment to provide care or advice to a patient as soon as possible: Occurrence or escalation of an illness or illnesses / Significant worsening of a current illness(es) or disease(s) / Or other acute concerns about their health or well-being.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="General Consultation Planned">
+	  <nationalGroupingId>30102</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A planned consultation or follow up. May include patients with undifferentiated problems. The actual activity which takes place is not known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Activity">
+	  <nationalGroupingId>30103</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activity for a patient with defined problems, healthcare issues or care pathway. The actual activity which takes place is known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Procedure">
+	  <nationalGroupingId>30104</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical procedure: performed by a health care practitioner or assistant / Involves a combination of special skills or abilities / May require drugs, devices, investigations or dressings.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Unscheduled/Unplanned Clinical Activity">
+	  <nationalGroupingId>30105</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An extra slot/session added/created on the day to supplement planned sessions to meet on the day demand. Would not previously be created and embargoed. To be used to identify additional demand.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Walk in Clinic">
+	  <nationalGroupingId>30106</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Planned walk-in clinic: Patients do not have a specific personal appointment time. This is an open consultation session.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Triage">
+	  <nationalGroupingId>30107</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot for the purpose of clinically triaging a patient. The mode of the triage could take place by any means such as: face-to-face, telephone, online, video. Triage performed by a health care professional.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Home Visit">
+	  <nationalGroupingId>30108</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a patient's home. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Visit">
+	  <nationalGroupingId>30109</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a care home, palliative care and other out-of-practice settings. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Group Consultation and Group Education">
+	  <nationalGroupingId>30110</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An appointment where care is provided to multiple patients such as lifestyle awareness, drug and alcohol or mother and baby sessions.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Structured Medication Review">
+	  <nationalGroupingId>30111</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A Structured Medication Review delivered as part of the Network Contract DES “Structured Medication Review and Medicines Optimisation” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Patient contact during Care Home Round">
+	  <nationalGroupingId>30112</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Patient contact occurring through care home round delivered as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Needs Assessment / Personalised Care / Support Planning">
+	  <nationalGroupingId>30113</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Care home needs assessment and/or personalised care and support planning provided to care home residents as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Social Prescribing / Care Coordination appointment">
+	  <nationalGroupingId>30114</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Social prescribing or care co-ordination appointment, usually delivered by a social prescribing link worker, health and wellbeing coach, or care co-ordinator.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Service provided by organisation external to the practice">
+	  <nationalGroupingId>30115</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Services provided by organisations external to the practice and GP / PCN contract but that use practices facilities such as physiotherapy, community health or other.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Non-contractual chargeable work">
+	  <nationalGroupingId>30116</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health reviews/ checks for which the patient pays: DVLA checks, other employer medical checks and insurance medical checks.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Encounter but does not fit into any of the above">
+	  <nationalGroupingId>30117</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that is a care related encounter, involves the patient, but not does not fit into any other care related encounter national slot types.</description>
+      </nationalGrouping>
+	</context>
+	<context type="Care Related Activity">	
+	  <nationalGrouping category="Individual Patient Clinical Admin">
+	  <nationalGroupingId>30118</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical administration by healthcare professionals such as preparation of referral letters, writing prescriptions, review of results and preparation of insurance. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Multidisciplinary Team meeting / Patient Collaboration planning">
+	  <nationalGroupingId>30119</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>MDT meeting with a group of Healthcare Professionals about selected named patients such as case conferences or palliative care planning discussions. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Activity but does not fit into any of the above">
+	  <nationalGroupingId>30120</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that does not involve patients directly (Not patient facing) but involves clinical tasks about a patient that does not fit into the other care related activity slot types.</description>
+      </nationalGrouping>
+	</context>
+	<context type="Administration and Practice Staff Activities">
+	  <nationalGrouping category="Providing training / mentoring / supervising">
+	  <nationalGroupingId>30121</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health Care Professional providing training and/or mentoring: Acting as a trainer or mentor / Sharing knowledge for development or mentoring of others. This may be individual or to a group.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Receiving training / being the mentee / being supervised">
+	  <nationalGroupingId>30122</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Undergoing training such as: Receiving active coaching / Guidance / Self-study / Attending training courses / Self-development / Mentoring.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Business/Practice Management Activities">
+	  <nationalGroupingId>30123</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Activities and administration to facilitate the running of the practice.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Clinical Housekeeping/Admin">
+	  <nationalGroupingId>30124</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activities not focused on a patient or group of patients. Such as significant events, audit, clinical governance, CQC, research administration and quality improvement programmes. Aimed at improving the quality of patient care and care pathways.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Break and Staff Absence">
+	  <nationalGroupingId>30125</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A break in activity during a session, or a staff absence. Annual leave is not required to be collected in the GP appointment data but some practices may find it useful to have leave information available in the practice appointment systems.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Admin and Practice Staff Related Activities but does not fit into any of the above">
+	  <nationalGroupingId>30126</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>This is an Admin and Practice Staff Activity but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+	</context>
+  </Service>
+  
+  <Service setting="Other">
+    <context type="Other">	
+      <nationalGrouping category="Other">
+	  <nationalGroupingId>40001</nationalGroupingId>
+        <startDate>2020-01-22</startDate>
+        <endDate>2020-09-09</endDate>
+        <description>Any appointment not provided as part of GP practice provision, PCN provision or Extended Access provision</description>
+      </nationalGrouping>
+    </context>
+	<context type="Care Related Encounter">	
+      <nationalGrouping category="General Consultation Acute">
+	  <nationalGroupingId>40101</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An urgent appointment to provide care or advice to a patient as soon as possible: Occurrence or escalation of an illness or illnesses / Significant worsening of a current illness(es) or disease(s) / Or other acute concerns about their health or well-being.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="General Consultation Planned">
+	  <nationalGroupingId>40102</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A planned consultation or follow up. May include patients with undifferentiated problems. The actual activity which takes place is not known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Activity">
+	  <nationalGroupingId>40103</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activity for a patient with defined problems, healthcare issues or care pathway. The actual activity which takes place is known in advance.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Scheduled/Planned Clinical Procedure">
+	  <nationalGroupingId>40104</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical procedure: performed by a health care practitioner or assistant / Involves a combination of special skills or abilities / May require drugs, devices, investigations or dressings.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Unscheduled/Unplanned Clinical Activity">
+	  <nationalGroupingId>40105</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An extra slot/session added/created on the day to supplement planned sessions to meet on the day demand. Would not previously be created and embargoed. To be used to identify additional demand.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Walk in Clinic">
+	  <nationalGroupingId>40106</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Planned walk-in clinic: Patients do not have a specific personal appointment time. This is an open consultation session.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Triage">
+	  <nationalGroupingId>40107</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot for the purpose of clinically triaging a patient. The mode of the triage could take place by any means such as: face-to-face, telephone, online, video. Triage performed by a health care professional.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Home Visit">
+	  <nationalGroupingId>40108</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a patient's home. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Visit">
+	  <nationalGroupingId>40109</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A consultation in a care home, palliative care and other out-of-practice settings. Can be in response to a request or at practice instigation for an urgent/priority reason.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Group Consultation and Group Education">
+	  <nationalGroupingId>40110</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>An appointment where care is provided to multiple patients such as lifestyle awareness, drug and alcohol or mother and baby sessions.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Structured Medication Review">
+	  <nationalGroupingId>40111</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A Structured Medication Review delivered as part of the Network Contract DES “Structured Medication Review and Medicines Optimisation” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Patient contact during Care Home Round">
+	  <nationalGroupingId>40112</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Patient contact occurring through care home round delivered as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Home Needs Assessment / Personalised Care / Support Planning">
+	  <nationalGroupingId>40113</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Care home needs assessment and/or personalised care and support planning provided to care home residents as part of the Network Contract DES “Enhanced Health in Care Homes” service requirement.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Social Prescribing / Care Coordination appointment">
+	  <nationalGroupingId>40114</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Social prescribing or care co-ordination appointment, usually delivered by a social prescribing link worker, health and wellbeing coach, or care co-ordinator.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Service provided by organisation external to the practice">
+	  <nationalGroupingId>40115</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Services provided by organisations external to the practice and GP / PCN contract but that use practices facilities such as physiotherapy, community health or other.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Non-contractual chargeable work">
+	  <nationalGroupingId>40116</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health reviews/ checks for which the patient pays: DVLA checks, other employer medical checks and insurance medical checks.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Encounter but does not fit into any of the above">
+	  <nationalGroupingId>40117</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that is a care related encounter, involves the patient, but not does not fit into any other care related encounter national slot types.</description>
+      </nationalGrouping>
+	</context>
+	<context type="Care Related Activity">	
+	  <nationalGrouping category="Individual Patient Clinical Admin">
+	  <nationalGroupingId>40118</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical administration by healthcare professionals such as preparation of referral letters, writing prescriptions, review of results and preparation of insurance. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Multidisciplinary Team meeting / Patient Collaboration planning">
+	  <nationalGroupingId>40119</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>MDT meeting with a group of Healthcare Professionals about selected named patients such as case conferences or palliative care planning discussions. Not patient facing.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Care Related Activity but does not fit into any of the above">
+	  <nationalGroupingId>40120</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A slot type that does not involve patients directly (Not patient facing) but involves clinical tasks about a patient that does not fit into the other care related activity slot types.</description>
+      </nationalGrouping>
+	</context>
+	<context type="Administration and Practice Staff Activities">
+	  <nationalGrouping category="Providing training / mentoring / supervising">
+	  <nationalGroupingId>40121</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Health Care Professional providing training and/or mentoring: Acting as a trainer or mentor / Sharing knowledge for development or mentoring of others. This may be individual or to a group.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Receiving training / being the mentee / being supervised">
+	  <nationalGroupingId>40122</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Undergoing training such as: Receiving active coaching / Guidance / Self-study / Attending training courses / Self-development / Mentoring.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Business/Practice Management Activities">
+	  <nationalGroupingId>40123</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Activities and administration to facilitate the running of the practice.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Clinical Housekeeping/Admin">
+	  <nationalGroupingId>40124</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>Clinical activities not focused on a patient or group of patients. Such as significant events, audit, clinical governance, CQC, research administration and quality improvement programmes. Aimed at improving the quality of patient care and care pathways.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Break and Staff Absence">
+	  <nationalGroupingId>40125</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>A break in activity during a session, or a staff absence. Annual leave is not required to be collected in the GP appointment data but some practices may find it useful to have leave information available in the practice appointment systems.</description>
+      </nationalGrouping>
+	  <nationalGrouping category="Admin and Practice Staff Related Activities but does not fit into any of the above">
+	  <nationalGroupingId>40126</nationalGroupingId>
+        <startDate>2020-09-10</startDate>
+        <endDate>2100-01-01</endDate>
+        <description>This is an Admin and Practice Staff Activity but does not fit into any of the above categories.</description>
+      </nationalGrouping>
+	</context>	
+  </Service>
+</NationalAppointmentStandard>

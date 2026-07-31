@@ -1,0 +1,50 @@
+---
+page_id: "13225033747"
+space: "DCSDCS"
+title: "Emergency Alerts"
+version: 12
+updated: "2026-07-17T11:09:43.922Z"
+source_url: "https://nhse-dsic.atlassian.net/wiki/spaces/DCSDCS/pages/13225033747/Emergency+Alerts"
+labels: ["capability"]
+---
+
+# Emergency Alerts
+
+|  |  |
+| --- | --- |
+| **ID** | C70 |
+| **Version** | 1.0.1 |
+| **Type** | Capability |
+| **Category** | Health or care organisation management |
+| **Status** | Effective |
+| **Effective Date** | 18 Jul 2025 |
+| **Contracting Vehicle(s)** | - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
+
+# Description
+
+Enables Health or Care Professionals to send and view Emergency Alerts that indicate an emergency or request for assistance.
+
+# Outcomes
+
+|  |  |
+| --- | --- |
+| For a Health or Care Professional: | Supports the safety and wellbeing of Health or Care Professionals by sending Emergency Alerts to recipients that can be viewed and appropriate action taken. |
+| For a Patient/Service User: | In the event of a medical emergency, a Health or Care Professional can send Emergency Alerts to call for assistance. |
+
+|  |
+| --- |
+| **MUST Epics - Describes the minimum functionality required to deliver a Capability. Catalogue Solutions MUST be successfully evaluated against each Epic and Acceptance Criteria via Capability Assessment in order to be associated with this Capability.** |
+| E00682 - send an Emergency Alert As a Health or Care Professional  I want to send an Emergency Alert to indicate an emergency or that assistance is required  So that I can signal an emergency is taking place or assistance is required Acceptance criterion 1: send an Emergency Alert Given the Health or Care Professional is permitted to send Emergency Alerts  When the Heath or Care Professional selects to send an Emergency Alert  Then the Emergency Alert is sent  And all specified recipients are notified E00682 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - The triggering of an Emergency Alert will not be obvious to the subject of the Alert - The Emergency Alert can be sent to multiple recipients E00682 - Supporting Information  - Devices capable of sending Emergency Alerts MAY include, but are not limited to:    - A computer desktop or laptop   - A standalone device (e.g. physical button)   - A handheld or wearable device   - A mobile phone - Devices MAY send Emergency Alerts without requiring Internet availability, GP Practice Solution availability, or for a Health or Care Professional to be logged in to use - Examples of recipients MAY include, but are not limited to:    - Health or Care Professionals   - External services (e.g. Emergency services)  ---  E00683 - view and acknowledge an Emergency Alert As a recipient  I want to view an Emergency Alert that indicates an emergency or that assistance is required  So that appropriate action to resolve the Emergency Alert can be taken Acceptance criterion 1: view an Emergency Alert Given the recipient is permitted to view Emergency Alerts  When an Emergency Alert is triggered  Then the Emergency Alert is displayed to all recipients Acceptance Criterion 2: acknowledge an Emergency Alert Given the recipient is permitted to acknowledge Emergency Alerts  When a recipient selects to acknowledge an Emergency Alert  Then the Emergency Alert is acknowledged  And all recipients are notified of the acknowledgement E00683 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - The Emergency Alert to include the location and name of the triggering Health or Care Professional - If covering multiple locations, the Emergency Alert to also include the Health or Care Organisation location details - The notification of acknowledgement of an Emergency Alert will not be obvious to the subject of the Alert E00683 - Supporting Information  - Health or Care Professionals MAY view or acknowledge an Emergency Alert without being logged in - Emergency Alerts MAY support multiple acknowledgements or remain visible after acknowledgement |
+
+|  |
+| --- |
+| **MAY Epics - Describes additional functionality associated with the Capability. Suppliers should consider all MAY Epics as part of their User Research. Suppliers can choose to map their Solutions to these Epics and they will be evaluated via Capability Assessment. Contracting Authorities or purchasing organisations may require these Epics as product qualification or requirements criteria** |
+| E00684 - test Emergency Alerts As a Health or Care Professional  I want to test Emergency Alerts  So that I know that the Emergency Alerts for my Health or Care Organisation work as expected Acceptance criterion 1: test Emergency Alerts Given the Health or Care Professional is permitted to manage Emergency Alerts  When the Health or Care Professional selects to test an Emergency Alert  Then the Emergency Alert is tested  And the recipients are notified that it is a test E00684 - Supporting Information  - Examples of tests for Emergency Alerts MAY include but are not limited to:    - Test to ensure that all recipients receive a notification   - Test to ensure that all recipients can acknowledge a notification   - Test different types of Alert - i.e. Evacuation   - Test printing or sharing an evacuation list   - Where a Health or Care Organisation has multiple locations, each location’s Alerts can be tested individually  ---  E00685 - configure Emergency Alerts As a Health or Care Professional  I want to configure Emergency Alerts  So that Emergency Alerts are configured to meet the needs of the site Acceptance Criterion 1: configure Emergency Alerts Given the Health or Care Professional is permitted to configure Emergency Alerts  When the Heath or Care Professional selects to configure an Emergency Alert  Then the Emergency Alert is configured E00685 - Supporting Information  - Examples of configuration MAY include, but are not limited to:    - Alert type   - Recipients   - Acknowledgement of Emergency Alerts - Examples of alert types MAY include, but are not limited to:    - Assistance Alert   - Evacuation Alert   - Test Alert - Examples of recipients MAY include, but are not limited to:    - Health or Care Professionals   - External services (e.g. Emergency services)  ---  E00686 - manage evacuation lists As a Health or Care Professional  I want to manage evacuation lists for a Health or Care Organisation  So that attendance can be assessed following an Emergency Alert to evacuate a Health or Care Organisation Acceptance criterion 1: create Health or Care Organisation evacuation lists Given the Health or Care Professional is permitted to manage Health or Care Organisation evacuation lists  When the Health or Care Professional selects to create a Health or Care Organisation evacuation list  Then the evacuation list is created Acceptance criterion 2: view Health or Care Organisation evacuation lists Given the Health or Care Professional is permitted to manage Health or Care Organisation evacuation lists  When the Health or Care Professional selects to view a Health or Care Organisation evacuation list  Then the evacuation list is displayed Acceptance criterion 3: amend Health or Care Organisation evacuation lists Given the Health or Care Professional is permitted to manage Health or Care Organisation evacuation lists  When the Health or Care Professional selects to amend a Health or Care Organisation evacuation list  Then the evacuation list is amended E00686 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - If covering multiple locations, the evacuation list can be created per location  ---  E00687 - print evacuation list As a Health or Care Professional  I want to print evacuation lists for a Health or Care Organisation  So that attendance can be assessed following an Emergency Alert to evacuate a Health or Care Organisation Acceptance Criterion 1: print evacuation list Given the Health or Care Professional is permitted to manage Health or Care Organisation evacuation lists  When the Heath or Care Professional selects to print an evacuation list for a location  Then the evacuation list is printed   ---  E00688 - share evacuation list As a Health or Care Professional  I want to share evacuation lists for a Health or Care Organisation  So that attendance can be assessed following an Emergency Alert to evacuate a Health or Care Organisation Acceptance Criterion 1: share evacuation list Given the Health or Care Professional is permitted to manage Health or Care Organisation evacuation lists  When the Heath or Care Professional selects to share a Health or Care Organisation evacuation list  Then the evacuation list is shared E00688 - Supporting Information  - Examples of methods of sharing MAY include, but are not limited to:    - Export/Import   - Electronically  ---  E00689 - view Emergency Alert reports As a Health or Care Professional  I want to view Emergency Alert reports  So that Emergency Alert reports can be viewed Acceptance criterion 1: view Emergency Alert reports Given the Health or Care Professional is permitted to view reports on Emergency Alerts  When the Health or Care Professional selects to view a report on Emergency Alerts  Then the report is displayed E00689 - Supporting Information  - Examples of reports MAY include but are not limited to:    - Report on number of instances where an Emergency Alert was triggered   - Report on recipients acknowledging receiving notification of an Emergency Alert   - Report on the location within the Health or Care Organisation where Emergency Alerts have been triggered   - Report on the role of the Health or Care Professionals that have triggered Emergency Alerts   - Report on the number of test Emergency Alerts that have been triggered |
+
+## Roadmap
+
+Items on the Roadmap which impact or relate to this Capability
+
+| Roadmap Item |
+| --- |
+| No content found. |

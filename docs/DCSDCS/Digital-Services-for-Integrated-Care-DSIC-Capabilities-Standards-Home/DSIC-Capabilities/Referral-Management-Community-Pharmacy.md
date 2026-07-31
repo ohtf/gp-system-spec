@@ -1,0 +1,55 @@
+---
+page_id: "12785451009"
+space: "DCSDCS"
+title: "Referral Management - Community Pharmacy"
+version: 10
+updated: "2026-01-22T08:38:48.857Z"
+source_url: "https://nhse-dsic.atlassian.net/wiki/spaces/DCSDCS/pages/12785451009/Referral+Management+-+Community+Pharmacy"
+labels: ["capability"]
+---
+
+# Referral Management - Community Pharmacy
+
+|  |  |
+| --- | --- |
+| **ID** | C69 |
+| **Version** | 2.0.1 |
+| **Type** | Capability |
+| **Category** | Referrals |
+| **Status** | Effective |
+| **Effective Date** | 22 Jan 2026 |
+| **Contracting Vehicle(s)** | [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
+
+# Description
+
+Supports the management of Inbound Referrals into Community Pharmacy from other Health or Care Organisations.
+
+# Outcomes
+
+|  |  |
+| --- | --- |
+| For Community Pharmacy Clinical Services: | Management of Inbound Referrals with technology provides better efficiency to Health or Care Organisations by using mechanisms to manage Referrals. |
+| For a Patient: | Requests to relevant Health and Care Organisations for advice, treatment or handover of care that is efficiently managed, in turn providing appropriate care for the Patient. |
+| For Health or Care Organisations: | Reduces the dependency on GP Practices, where clinically appropriate, by allowing Health and Care Organisations to send Referrals to Community Pharmacies. |
+
+|  |
+| --- |
+| **MUST Epics - Describes the minimum functionality required to deliver a Capability. Solutions MUST be successfully evaluated against each Epic and Acceptance Criteria via Capability Assessment in order to be associated with this Capability** |
+| E00639 - view Community Pharmacy Inbound Referrals from NHS 111 for Patients As a Health or Care Professional  I want to view Community Pharmacy Inbound Referrals from NHS 111 for Patients  So that I can review Inbound Referrals from NHS 111 for Patients Acceptance criterion 1: view Community Pharmacy Inbound Referrals from NHS 111 for Patients Given the Health or Care Professional is permitted to manage Inbound Referrals from NHS 111 for Patients  When the Health or Care Professional selects to view an Inbound Referral from NHS 111  Then the NHS 111 Inbound Referral is displayed E00639 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - [**111**](../DSIC-Standards/Non-Overarching-Standards/111.md) Standard for the following services:    - Pharmacy First Minor Illness   - Pharmacy First Clinical Pathways   - Pharmacy First Urgent Medicine Supply  ---  E00674 - view Community Pharmacy Inbound Referrals from GP Practices for Patients As a Health or Care Professional  I want to view Community Pharmacy Inbound Referrals from GP Practices for Patients  So that I can review Inbound Referrals from GP Practices for Patients Acceptance criterion 1: view Community Pharmacy Inbound Referrals from GP Practices for Patients Given the Health or Care Professional is permitted to manage Inbound Referrals from GP Practices for Patients  When the Health or Care Professional selects to view an Inbound Referral from a GP Practice  Then the GP Practice Inbound Referral is displayed E00674 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - [**Booking and Referral Standard (BaRS)**](../DSIC-Standards/Non-Overarching-Standards/Booking-and-Referral-Standard-BaRS.md) Standard for the following services:    - Pharmacy First Minor Illness   - Pharmacy First Clinical Pathways  ---  E00641 - manually create Community Pharmacy Inbound Referrals for Patients As a Health or Care Professional  I want to manually create Community Pharmacy Inbound Referrals for Patients  So that Referrals can be created manually Acceptance criterion 1: manually create Community Pharmacy Inbound Referrals for Patients Given the Health or Care Professional is permitted to manage Inbound Referrals for Patients  When the Health or Care Professional selects to manually create a Referral for a Patient  Then the Referral is created manually E00641 - Supporting Information  - Examples of scenarios where manually creating Referrals is required MAY include, but are not limited to:    - Self Referral   - Referrals received by [NHS.net Connect](https://digital.nhs.uk/services/nhs.net-connect) (formerly NHSmail)   - GP Practice or NHS 111 Inbound Referrals with incorrect/missing data  ---  E00643 - amend status of Community Pharmacy Inbound Referrals for Patients As a Health or Care Professional  I want to amend the status of Community Pharmacy Inbound Referrals for Patients  So that the status of Inbound Referrals can be amended Acceptance criterion 1: amend status of Community Pharmacy Inbound Referrals for Patients Given the Health or Care Professional is permitted to manage Inbound Referrals for Patients  When the Health or Care Professional selects an action to progress the Referral  Then the Inbound Referral status is amended E00643 - Supporting Information  - Examples of Inbound Referral statuses MAY include, but are not limited to:    - Open   - Closed |
+
+|  |
+| --- |
+| **MAY Epics - Describes additional functionality associated with the Capability. Suppliers should consider all MAY Epics as part of their User Research. Suppliers can choose to map their Solutions to these Epics and they will be evaluated via Capability Assessment. Contracting Authorities or purchasing organisations may require these Epics as product qualification or requirements criteria** |
+| E00640 - notify Health or Care Professional of new Community Pharmacy Inbound Referrals for Patients As a Health or Care Professional  I want to be notified of new Inbound Community Pharmacy Referrals for Patients  So that I know when new Inbound Referrals are received Acceptance criterion 1: notify Health or Care Professional of new Community Pharmacy Inbound Referrals for Patients Given the Health or Care Professional is permitted to manage Referrals for Patients  When a new Inbound Referral is received  Then the Health or Care Professional is notified of the new Inbound Referral E00640 - Supporting Information  - Examples of Inbound Referral notifications MAY include, but are not limited to:    - On-screen pop up   - Email  ---  E00642 - sort Community Pharmacy Inbound Referrals for Patients As a Health or Care Professional  I want to sort Inbound Referrals for Patients  So that I can view the Community Pharmacy Inbound Referrals most appropriate to the situation Acceptance criterion 1: sort Community Pharmacy Inbound Referrals for Patients Given the Health or Care Professional is permitted to manage Inbound Referrals for Patients  When the Health or Care Professional selects to sort Inbound Referrals  Then the Inbound Referrals are sorted according to the selection E00642 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - Provide the ability to sort the Inbound Referral by:    - Patient surname   - Date   - Time   - Referrer (sender) E00642 - Supporting Information  - Other examples of data fields used for sorting MAY include, but are not limited to:    - Disposition code   - Referral status   - Service type  ---  E00644 - flag overdue Community Pharmacy Inbound Referrals for Patients As a Health or Care Professional  I want overdue Community Pharmacy Inbound Referrals to be flagged  So that I can identify overdue Inbound Referrals Acceptance criterion 1: flag overdue Community Pharmacy Inbound Referrals for Patients Given the Health or Care Professional is permitted to manage Referrals for Patients  When an Inbound Referral is overdue  Then the overdue Inbound Referral is flagged E00644 - Additional Implementation Details Solutions MUST comply with the following when implementing this Epic:   - Timeframes for when a NHS 111 Inbound Referral with a Disposition code becomes overdue and needs to be flagged can be found in NHSBSA Claim Interface Guide [**MYS – Pharmacy | NHSBSA**](https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/dispensing-contractors-information/manage-your-service-mys/mys-pharmacy) E00644 - Supporting Information  - Examples of how an overdue Inbound Referral could be flagged MAY include, but are not limited to:    - Icon/flag   - On-screen pop up reminder   - Email |
+
+## Roadmap
+
+Items on the Roadmap which impact or relate to this Capability
+
+| Roadmap Item |
+| --- |
+| No content found. |
+
+## Attachments
+
+- [image-20220727-150414.png](../../../.raw/DCSDCS/attachments/12785451009/att12785451023-image-20220727-150414.png)

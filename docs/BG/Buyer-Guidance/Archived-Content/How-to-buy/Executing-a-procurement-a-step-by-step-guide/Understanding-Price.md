@@ -1,0 +1,103 @@
+---
+page_id: "1930494164"
+space: "BG"
+title: "Understanding Price"
+version: 14
+updated: "2020-04-09T09:02:53.069Z"
+source_url: "https://nhse-dsic.atlassian.net/wiki/spaces/BG/pages/1930494164/Understanding+Price"
+labels: []
+---
+
+# Understanding Price
+
+# Introduction
+
+The [Buying Catalogue](http://buyingcatalogue.digital.nhs.uk) will present you as a buyer with options to purchase [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk), which represent the core software offerings that you wish to use within your Practices and other care settings as you require, these [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) may also be offered with Additional Services which represent additional license rights, functional capabilities or other software services.
+
+You may also purchase Associated Services alongside these solutions, enabling you to make best use of the software solutions you are wishing to access, these Associated Services will typically not be software, but may be person delivered services such as training, project management, implementation services or possibly hardware designed to operate in conjunction with a [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) or Additional Service (for example kiosk equipment for a check in solution).
+
+For all [Catalogue Solutions,](http://buyingcatalogue.digital.nhs.uk) Additional Services and Associated Services there is a **List Price** on the Catalogue.  The List Price is the **maximum** price you will pay for that item.  If you use the Further Competition Off-Catalogue procedure (see section 4.3), a Supplier may offer a discount in order to secure your purchase, but you will not be offered a discount if you use the Direct Award or Further Competition On Catalogue procedures.
+
+There are two aspects of price to understand:
+
+- **the List Price**, which is charged either *periodically* (every month in the case of [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) or Additional Services) or on delivery (as in Associated Services); and
+- **the characteristics of price on the Catalogue**, which refer to the way in which pricing is applied and presented within the Catalogue .
+
+[The Catalogue](http://buyingcatalogue.digital.nhs.uk) treats all software offered as Software as a Service (SaaS), meaning that all software is delivered to you ‘as a service’; there are no options available allowing you to purchase, for example, a perpetual license and implement and host the software on your premises.
+
+# List Prices Are Always Software as a Service
+
+The List Price for most [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) and Additional Services are based on a Software as a Service (SaaS) model.  This is a subscription-based model where you pay a single charge to access an amount of [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) or Additional Service for a defined period (the billing period is per Calendar Month). You will not have any hidden charges for accessing the Solution, the price charged represents the whole cost of delivering that service to your end user device for the period in question (with the exception of initial implementation charges where necessary).  You only receive access to the software for the period that you pay for.
+
+The scope of the SaaS charge for a [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) under the Framework includes:
+
+- The cost of Product development including future Releases (to be clear, this includes development of a [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) in line with agreed Product Roadmaps[1] and the deployment of services included within this (e.g. access to GP Connect))
+- Support and maintenance charges
+- Hosting charges.
+
+The List Price for an Associated Service is simply the per unit charge for the service in question with no discount agreed.
+
+## List Price Units of Order
+
+The Buying Catalogue does not prescribe the units Suppliers use in presenting their Catalogue Solutions for sale (with the sole exception of Foundation Solution Sets must be presented on a Per Patient basis as a minimum) though all pricing presented must comply with the provisions of the Commercial Standard in order to ensure buyer transparency and calculability. You should encounter at least the following units;
+
+- Per Patient Per Annum
+- Per User / User Type
+- Per Concurrent User
+- Per Care Plan / Pathway / Decision Support Topic
+- Per SMS
+
+**Simple Fixed vs Variable Pricing Units**
+
+Broadly speaking there are two types behaviour supported by the Catalogue; i) Simple Fixed Pricing, ii) Variable Pricing. Using Simple Fixed Pricing, you are stating how many licenses you require (eg per User) on the Order Form and you will receive the allotted access and be charged based on the Order. Changes to these levels require changes to the Order Form executed as a variation to your contract. Using Variable Pricing you are estimating your usage of the Solution to create the initial Order and understand your total contract cost and then amend the scheduled payments either on invoice or as a retrospective adjustment to reflect the actual usage of the Solution.
+
+**Per Patient Pricing**
+
+Per Patient pricing (conventionally expressed as a per annum figure) is a special type of Variable Pricing in that it forms the basis of the budget allocation itself and is specifically applied to Foundation Solutions which currently make up the majority spend on the Catalogue. The Per Patient price is based around GP Patient List sizes and we use the official statistics as captured through the demographics services as well as the directory of service to support the centrally funded solutions in a quarterly reconciliation.
+
+We are aware that as services are reconfigured we shall need to ensure that the rules concerning the counting of a Per Patient value is maintained and updated to meet new use cases - if you are unsure as to how you would size a per patient value with your buying organisation please discuss this with us (contact [gpitfutures@nhs.net])
+
+**Tiered Pricing**
+
+Some List Prices are tiered so that the price you pay per unit changes (typically reduces) as the volume of units required or consumed goes up. The amount that is charged for solutions with tiered prices will always be calculated on a cumulative basis model: you pay per unit within each tier as you progress through it (think about how your tax works).
+
+All tiered prices should be calculated at the Call Off level as opposed to the level of individual deployments of software, this means you get the benefit of the *total values* under the Call Off Agreement rather than at the level of an individual practices or care settings accessing the service.
+
+Where you are purchasing SaaS on a consumption basis you will get the benefit of your accumulation *during the contract year* unless explicitly noted otherwise.
+
+**Multiple Units of Order**
+
+Some Catalogue Solutions will offer you a choice of different Units of Order (for example you could pay per user or Per Patient). Where you are confronted with such a choice you should consider which suits you best based on the usage profile you expect to have; the choice is yours to make as a buyer.
+
+**Price and Solution Bundles**
+
+Some Suppliers will offer bundles of services which may or may not be purchased separately as options on top of a base solution. This approach may support freemium based commercial models for instance. We shall ensure that a supplier’s approach to bundling is consistent with giving you choice and appropriate purchasing options through our management of the Catalogue.
+
+Where such bundles or options exist they shall be expressed as Additional Services purchasable on top of the main Catalogue Solution and will be ordered as such.
+
+# Payment and Changes to Order Values
+
+Over the duration of your Call Off Agreement, the number of units you pay for may change.  The method for managing change is different for different types of unit of order:
+
+- **Simple Fixed Pricing** – where you have specifically declared the number of units you wish to order via the contract, such as registered users or concurrent users, if you want to change them (to increase or decrease them) you need to follow the Variation Procedure (Schedule 5.2 of the Call Off Agreement). Until you and the Supplier submit an agreed change, you will receive, and the Supplier will be paid for what was submitted in the Call Off Order Form (or as per the last variation as executed).
+- **Variable Pricing** – where you have purchased a Catalogue Solution which is variable, either because you are charged by volume of transactions of other dynamic measure of scale, the Supplier is responsible for tracking what is consumed and for obtaining your agreement that the volume they have measured is correct.  The Supplier will then report the agreed volume for charges to the party managing the Invoice, who will confirm that they accept the figure and agree the Invoice.
+- **Variable Pricing: Per Patient** – Per patient per annum is a special class of variable order as it is the most widely used and mirrors the calculation of your allocation. Where the unit of order is "Per Patient" and the party receiving the service is a GP Practice, the patient numbers to be used for the purposes of the charges shall be the patient numbers retrieved from the NHS Digital Patient Registered at GP Practice website[3]. NHS Digital will use these numbers each month to calculate the actual charge that the Supplier will be paid.  Neither you nor the Supplier will need to take any action. However, if the party is not a GP Practice, the number of patients will need to be manually provided during the order and then maintained via a Call Off Order Form Change, which involves recording the proposed changes in the Order Form. Until you and the Supplier submit an agreed change, you will receive, and the Supplier will be paid for what was submitted in the Call Off Order Form or the last Order Form Change.
+- **Associated Services**  – Suppliers will be paid for these when either they are delivered or when associated milestones are achieved.  If you specifically wish to change the dates for the milestones, then you should use the Variation procedure outlined above, however if there is minor slippage for whatever reason then you should simply release payment for the services at the point that you accept that they have been delivered, or the milestone has been achieved in the usual way.
+
+# Foundation Solution Pricing
+
+All Foundation [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Sets must, at a minimum, be offered on a per patient per annum basis.  Other than this restriction, suppliers can offer any unit of charging.
+
+There is a pricing cap for Foundation [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Sets of £1.26 per patient per annum.  Foundation [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Sets are the only solutions that are subject to a pricing cap.
+
+# Indexation
+
+List Prices do not include indexation.  A Supplier can request that you apply indexation and you can refuse or agree.  Indexation is described in your Call Off Agreement in Schedule 4.1 Charges and Invoicing at paragraph 2.
+
+Indexation can only be applied from the 1st April following your first full Contract Year.  Any adjustment for indexation should be applied to the Periodic Services Charge (and not the List Price) through a Call Off Order Form Change.
+
+***[1]** Note that the cost of bespoke development activity is out of scope of the SaaS charge*
+
+**[2]** Short Message Service (SMS), i.e. text messages
+
+***[3]*** [*https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice*](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice)

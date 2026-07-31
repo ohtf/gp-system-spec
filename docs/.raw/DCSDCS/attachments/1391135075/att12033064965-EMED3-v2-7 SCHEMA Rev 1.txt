@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://dwp.gov.uk/cmg/eMED3" xmlns:gov="http://www.govtalk.gov.uk/core" xmlns:pd="http://www.govtalk.gov.uk/people/PersonDescriptives" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666" targetNamespace="http://dwp.gov.uk/cmg/eMED3" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:annotation>
+		<xs:documentation>
+		=========================================
+		
+		=========================================
+		
+		 This schema defines the elements used for eMED3 messages.
+      ---------------------------------------------------------------------------------
+      
+		 Version 0.1 Initial version.  Not formally issued but discussed on 24/25th April (DWP and InPS)
+		 
+		 Version 0.2 First formally issued version.  A number of changes from meetings.
+		 
+		 Version 0.3 Second formally issued version.  Some very minor changes from 0.2:
+												 									
+		 Version 0.4 Some more minor changes missed by Version 0.3										
+												
+		 Version 1.0 Working Version for PoC issued 09 May 2008
+		 Version 1.1 Some minor changes requested by InPS
+
+		 Version 2.0 New requirements for eMED3 Data conversion.  Schema changed considerably to meet those requirements
+		
+												
+		 Version 2.1 15 Dec 2011.  Minor changes for verification by DWP: Practice code 6 chars, and structural modification so that MED3 element properly brackets each fitnote data 
+
+		 Version 2.2 16 Dec 2011.  Further minor modification: Assessment date change to date type
+
+		 Version 2.3 30 Jan 2012.  Removed Diagnosis; added optionality to MFWComments; loosened practice postcode and phone number
+		 Version 2.4 03 May 2012.  Made Diag.Code, Diag.Text as optional. Diag.Printed.Text remains mandatory
+		 
+		 Version 2.5 XX February 2015 Removed fields deemed disclosive: 
+			DiagPrintedText
+			NFWRemarks
+			MFWComments
+		 
+		 Version 2.6 10 March 2015 MED3 element made optional to facilitate nill returns
+		    Removed PracticePhoneNumber
+		 Version 2.7 28 March 2022 Following new field added:
+			 IssuerProfession
+		Version 2.7 Revision 1 31 March 2022 Correct Spelling mistake
+		     Occupational Therapist  was incorrectly spelled as  Ocupational Therapist
+		</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://www.govtalk.gov.uk/core" schemaLocation="APD-v2-0/CommonSimpleTypes-v1-3.xsd"/>
+	<xs:import namespace="http://www.govtalk.gov.uk/people/PersonDescriptives" schemaLocation="APD-v2-0/PersonDescriptiveTypes-v1-1.xsd"/>
+	<xs:import namespace="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" schemaLocation="APD-v2-0/AddressTypes-v2-0.xsd"/>
+	<xs:import namespace="http://www.govtalk.gov.uk/people/bs7666" schemaLocation="APD-v2-0/bs7666-v2-0.xsd"/>
+	<xs:element name="Envelope" type="EnvelopeContent">
+		<xs:annotation>
+			<xs:documentation>
+			
+			Bulk transfer of eMed3 anonymised data
+	        -------------------------------------------
+	        Master envelope.  Contains:
+	        a) Payload information
+	        a.1) Number of records
+	        a.2) Date and Time this set was produced
+	        b.1) n individual anonymised eMed3 records
+	        b.2) MED3 Details
+		
+			</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="EnvelopeContent">
+		<xs:sequence>
+			<xs:element name="RecordCount" type="xs:integer"/>
+			<xs:element name="ExtractReference">
+				<xs:annotation>
+					<xs:documentation>Identifier that supplier assign.  Used to track an entry.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="gov:PopulatedStringType">
+						<xs:maxLength value="255"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ExtractDateTime" type="xs:dateTime"/>
+			<xs:element name="SubmissionDateTime" type="xs:dateTime"/>
+			<xs:element name="PracticeCode">
+				<xs:simpleType>
+					<xs:restriction base="gov:PopulatedStringType">
+						<xs:minLength value="6"/>
+						<xs:maxLength value="6"/>
+						<xs:pattern value="[A-Z][0-9]{5}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PracticePostCode" type="gov:PopulatedStringType" minOccurs="0"/>
+			<xs:element name="SystemCode" type="gov:PopulatedStringType"/>
+			<xs:element name="VersionRelease" type="gov:PopulatedStringType"/>
+			<xs:element name="EmailReceiptAck" type="gov:EmailAddressType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>If set then HP will sent ACKs to this - so HP can maintain a standard interface.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EmailProcessAck" type="gov:EmailAddressType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>If set then HP will sent NACKs to this - so HP can maintain a standard interface.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EmailErrorNotification" type="gov:EmailAddressType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Supplier can put an email address (helpline) to which error reports are sent.  There will be no automatic processing at the suppliers end.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Med3ActivityFile">
+				<xs:complexType>
+					<xs:sequence minOccurs="0" maxOccurs="unbounded">
+						<xs:element ref="MED3"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="MED3">
+		<xs:annotation>
+			<xs:documentation>Details from emed3. No free text is shown. </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AdminCode" type="gov:PopulatedStringType"/>
+				<xs:element name="AdminText" type="gov:PopulatedStringType"/>
+				<xs:element name="CodingSystem">
+					<xs:simpleType>
+						<xs:restriction base="gov:PopulatedStringType">
+							<xs:enumeration value="READ"/>
+							<xs:enumeration value="CTV3"/>
+							<xs:enumeration value="SNOMED"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DiagCode" type="gov:PopulatedStringType" minOccurs="0"/>
+				<xs:element name="DiagCodeText" type="gov:PopulatedStringType" minOccurs="0"/>
+				<xs:element name="Advice">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NFWFlag" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Not Fit For Work flag either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="MFWFlag" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Maybe fit for work flag, either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="MFWPhaseRtn" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="MFWAlteredHrs" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="MFWAmendDuties" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="MFWAdaptWorkplace" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TimeAndDate">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ValidPeriodDays" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="\d{4}"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ValidPeriodWeeks" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="\d{3}"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ValidPeriodMonths" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="\d{2}"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ValidPeriodIndefinite" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="gov:PopulatedStringType">
+										<xs:enumeration value="INDEFINITE"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ValidPeriodStartDate" type="xs:date" minOccurs="0"/>
+							<xs:element name="ValidPeriodEndDate" type="xs:date" minOccurs="0"/>
+							<xs:element name="NFWSixMonthFlag" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="FollowUpAssessment" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AssessmentDate" type="xs:date"/>
+							<xs:element name="AssessmentSixMonthFlag" type="gov:YesNoType">
+								<xs:annotation>
+									<xs:documentation>Either "yes" or "no"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="PatientDetails"/>
+				<xs:element name="PrintedFlag" type="gov:YesNoType">
+					<xs:annotation>
+						<xs:documentation>Either "yes" or "no"</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DuplicatePrinted" type="gov:YesNoType">
+					<xs:annotation>
+						<xs:documentation>Either "yes" or "no"</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="StatementDateTime" type="xs:dateTime"/>
+				<xs:element name="IssuerProfession">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="doctor"/>
+							<xs:enumeration value="nurse"/>
+							<xs:enumeration value="physiotherapist"/>
+							<xs:enumeration value="occupational therapist"/>
+							<xs:enumeration value="pharmacist"/>
+							<xs:enumeration value="DOCTOR"/>
+							<xs:enumeration value="NURSE"/>
+							<xs:enumeration value="physiotherapist"/>
+							<xs:enumeration value="PHYSIOTHERAPIST"/>
+							<xs:enumeration value="OCCUPATIONAL THERAPIST"/>
+							<xs:enumeration value="PHARMACIST"/>
+							<xs:enumeration value="Doctor"/>
+							<xs:enumeration value="Nurse"/>
+							<xs:enumeration value="Physiotherapist"/>
+							<xs:enumeration value="Occupational Therapist"/>
+							<xs:enumeration value="Pharmacist"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="LinkingID">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\{[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}\}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="UniqueID">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\{[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}\}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PatientDetails">
+		<xs:annotation>
+			<xs:documentation>Anonymous patient details</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Sex">
+					<xs:annotation>
+						<xs:documentation>NHS Sex Codes
+						0=Not Known
+						1=Male
+						2=Female
+						9=Not Specified
+						
+						Can't use SEX_TYPE from general-v0-1.xsd as this does not include 'Not Known'
+						</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="0"/>
+							<xs:enumeration value="1"/>
+							<xs:enumeration value="2"/>
+							<xs:enumeration value="9"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

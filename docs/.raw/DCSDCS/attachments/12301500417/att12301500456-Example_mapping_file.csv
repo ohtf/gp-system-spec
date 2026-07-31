@@ -1,0 +1,11 @@
+ODS_Code,channel_setting,context_type,nationalCategory_name,slot_name,nationalGroupingId,startDate,endDate
+A12345,GP Practice,Admin and Practice Staff Activities,Is Admin related but does not fit into any of the above,BOD,10042,2/17/2020,01/01/2100
+A12345,GP Practice,Care Related Encounter,General Consultation Acute,Advance,10022,1/22/2020,01/01/2100
+A12345,GP Practice,Care Related Encounter,General Consultation Planned,High Days,10023,1/22/2020,01/01/2100
+A12345,GP Practice,Care Related Encounter,Home Visit and Care Home Visit,WM,10029,2/17/2020,01/01/2100
+A12345,GP Practice,Care Related Encounter,General Consultation Planned,Reserved for  Web,10023,1/22/2020,01/01/2100
+A12345,GP Practice,Admin and Practice Staff Activities,Is Admin related but does not fit into any of the above,Non-Bookable,10042,2/17/2020,01/01/2100
+B54321,GP Practice,Care Related Encounter,Scheduled/Planned Clinical Procedure,Flu,10025,1/22/2020,01/01/2100
+B54321,GP Practice,Care Related Activity,Multidisciplinary Team meeting (MDT) / Patient Collaboration planning,PHCT Meeting/Conference,10035,2/17/2020,01/01/2100
+B54321,GP Practice,Care Related Activity,Individual Patient Clinical Administration,Emergency Duplicate,10034,2/17/2020,01/01/2100
+B54321,GP Practice,Care Related Encounter,General Consultation Acute,Mapped GPC 1,10022,1/22/2020,01/01/2100

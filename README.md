@@ -1,68 +1,40 @@
-# nhs-gp-it-spec
+# NHS GP IT Specifications
 
-Scraper and preservation mirror for the NHS England GP IT system specifications from Confluence.
+Unofficial preservation mirror of NHS England GP IT capabilities, standards, specifications and supporting material published on Confluence.
 
-## What this is
+The browsable archive is in [`docs/`](docs/index.md). It is structured for publication as a Zensical static site while retaining a reviewable Markdown source tree.
 
-This repository contains the scraper code that produces a durable, attributable copy of the NHS England GP IT system specifications before the source Confluence tenants are reorganised or removed.
+## Content
 
-The source material is held in the **DCSDCS** space ("Digital Services for Integrated Care (DSIC) Capabilities & Standards") on `nhse-dsic.atlassian.net`, along with several legacy and related spaces.
+The archive captures the following NHS England Confluence spaces:
 
-Scraped content is kept in a separate repository. This repo contains only the scraper tool.
+- **DCSDCS** - Digital Services for Integrated Care Capabilities & Standards, the current canonical source
+- **GPITF** - GP IT Futures Capabilities & Standards
+- **GIFTIF** - Tech Innovation
+- **DFOCVCL** - Digital First Online Consultation & Video Consultation
+- **CPCSH** - Community Pharmacy Clinical Services Home
+- **DPSR** - Digital Pathways Solution Registry
+- **BG** - Buyer Guidance
 
-## Sources
+The 31 July 2026 baseline scrape enumerated 630 pages and mirrored 629. Each mirrored page includes source page ID, space, source version, source URL, labels and last-update time in YAML frontmatter. Rendered source HTML and attachments are retained under `docs/.raw/` for later reprocessing.
 
-- `https://nhse-dsic.atlassian.net/wiki` - spaces DCSDCS, GPITF, GIFTIF, DFOCVCL, CPCSH, DPSR, BG
-- Retrieved using the Confluence REST API v2 with anonymous access
+## Known gaps
 
-## Usage
-
-```bash
-# Mirror all spaces
-python3 scraper.py
-
-# Mirror one space only
-python3 scraper.py --space DCSDCS
-
-# Re-fetch everything regardless of manifest
-python3 scraper.py --full-refresh
-
-# Validate an existing mirror
-python3 scraper.py --validate
-
-# Enumerate pages only, write nothing
-python3 scraper.py --dry-run
-```
-
-For authenticated access (if anonymous access is blocked):
-
-```bash
-export CONFLUENCE_EMAIL=you@example.com
-export CONFLUENCE_API_TOKEN=your-token
-python3 scraper.py
-```
-
-Never commit credentials.
-
-## Output layout
-
-```
-mirror/
-  DCSDCS/
-    index.md
-    Overarching-Standards/
-      index.md
-      Clinical-Safety.md
-    _attachments/
-  .raw/
-    DCSDCS/<page-id>.html
-  .mirror-manifest.json
-spec/
-  <specification-id>-<slug>.md
-```
+One Buyer Guidance page returned an empty body. Two DCSDCS page-tree macros could not be expanded through anonymous access. Eleven attachments were listed by Confluence but returned 404 when downloaded. Five large GPITF video attachments are retained locally for offline archival storage rather than committed to Git; see [`docs/archive-omissions.md`](docs/archive-omissions.md). These gaps should be retried with an authenticated account.
 
 ## Rights and provenance
 
-This is an unofficial preservation mirror. Content originates from NHS England Confluence spaces. The licence applying to each space has not been confirmed - do not republish without verifying the applicable terms.
+This is not an official NHS England publication. Public accessibility does not establish a right to republish every item. The licence and terms of each source space have not yet been confirmed. Preserve attribution and source notices, and do not redistribute material until the relevant rights have been verified.
 
-See the `preserving-a-confluence-wiki-before-it-disappears.md` planning document for full context.
+## Site preview
+
+```bash
+pip install -r requirements.txt
+zensical serve
+```
+
+## Maintenance tooling
+
+The future-refresh scraper is retained at [`tools/confluence-mirror.py`](tools/confluence-mirror.py). Run it through `s/scrape`; it writes content directly into `docs/`. Credentials, if needed, are supplied only through `CONFLUENCE_EMAIL` and `CONFLUENCE_API_TOKEN` environment variables.
+
+See [`roadmap.md`](roadmap.md) for completed work and the remaining preservation, review and publication tasks.

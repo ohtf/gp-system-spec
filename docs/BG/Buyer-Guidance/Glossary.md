@@ -1,0 +1,55 @@
+---
+page_id: "1847296020"
+space: "BG"
+title: "Glossary"
+version: 7
+updated: "2020-04-06T21:48:10.825Z"
+source_url: "https://nhse-dsic.atlassian.net/wiki/spaces/BG/pages/1847296020/Glossary"
+labels: []
+---
+
+# Glossary
+
+A master glossary exists on the capabilities and standards site [here](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/Reference-Pages/Master-Glossary.md)
+
+| **Term** | **Meaning** |
+| --- | --- |
+| Additional Service | An augmentation of a Catalogue Solution provided by the Supplier that may have its own charges and that may require the purchase of one or more of the Associated Services in order to implement it. For example, an option software add-on to the Catalogue Solution. |
+| Affordability Cap | The maximum Catalogue Solution Listing Price permissible under the GP IT Futures Framework 1 for Foundation Catalogue Solution Sets. More detail is provided [here.](Archived-Content/How-to-buy/Executing-a-procurement-a-step-by-step-guide/Understanding-Price.md) |
+| Associated Service | Services associated with the implementation or optimisation of a Catalogue Solution (or Additional Service), that the Call Off Ordering Parties have the option as to whether or not to purchase in association with their purchase of that Catalogue Solution (or Additional Service). For example, training. |
+| Buying Catalogue | See Catalogue definition. |
+| Call Off Agreement | A call off agreement between a Supplier and a Call Off Ordering Party made under the GP IT Futures Framework 1, which shall include a Call Off Order Form, Call Off Terms and clauses together with the schedules and any appendices and annexes to the same. |
+| Call Off Order Form | The specification of the orders required under a Call Off Agreement. |
+| Call Off Ordering Party | Any person or body that has entered into a Call Off Agreement. |
+| Call Off Procedure | A procurement procedure available under GP IT Futures Framework 1 which can be used to secure a Call Off Agreement(s) as summarised here. |
+| Capability | A specification of one or more functional capabilities, as defined in the [Capability and Standards Model](https://gpitbjss.atlassian.net/wiki/spaces/GPITF/overview) which are used to describe the functional scope of Catalogue Solutions and Additional Services. |
+| Capability Assessment | The activity undertaken by NHS Digital to assure that Catalogue Solutions meet the acceptance criteria applicable to the Epics to which they map – more detail is provided [here.](Archived-Content/Capability-and-Standards-Overview.md) |
+| Capability Specific Standard | The Standard which is mapped to a single Capability and which extends the functional requirements applicable to that Capability. For example, the Patient Information Management – Standard. |
+| Catalogue | The digital catalogue (as may be referred to as the "Digital Buying Catalogue") used by NHS Digital to support supplier on-boarding, used by Suppliers to advertise Catalogue Solutions / Additional Services / Associated Services and by Call Off Ordering Parties to browse, compare and purchase Catalogue Solutions / Additional Services / Associated Services. |
+| Catalogue Solution | A software solution registered on the Catalogue, including any Additional Services. The current list of solutions, including Additional Services, is available on the [Buying Catalogue](http://buyingcatalogue.digital.nhs.uk) |
+| Catalogue Solution List Price | The price of a Catalogue Solution, Additional Service or Associated Service under the GP IT Futures Framework 1 which is visible via the Catalogue and which can only be discounted against under an Off Catalogue Further Competition. |
+| Compliance Testing | The activity undertaken by NHS Digital to assure Catalogue Solutions against the standards – more detail is provided [here.](Archived-Content/Capability-and-Standards-Overview.md) |
+| Compliance Work-Off Plan | For a Catalogue Solution or Additional Service, a plan to that a Supplier must execute in an agreed timeframe to address a minor non-compliance to a Standard or an Epic acceptance criterion. If not completed within the agreed timescale the associated Catalogue Solution or Additional Service shall be non-Compliant. These plans will be visible via the Catalogue. For more detail see [here.](http://buyingcatalogue.digital.nhs.uk) |
+| Context Specific Standard | A Standard which sets out the non-functional requirements applicable to a specific topic and which is mapped to one or more Capabilities. For example, the Interoperability Standard. |
+| Continuity Call Off Agreement | A Call Off Agreement which secures continuity of services from GPSoC. |
+| Direct Award | A GP IT Futures Framework procurement procedure that can be executed on the Catalogue, using only information available on the Catalogue, to purchase Catalogue Solutions and/or Additional Services. This procurement procedure can only be used to secure Call Off Agreement with a total contract value of £40,000 (excluding VAT) or less. More detail is provided [here.](Archived-Content/How-to-buy/Executing-a-procurement-a-step-by-step-guide/Direct-Award.md) |
+| Epic | A lower level description of a functional requirement applicable to a Capability. For more detail see here. [link to it]. |
+| Foundation Capability | One of the following Capabilities as fully defined in the [Capability and Standards Model](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF/overview)  ·          GP Referral Management;  ·          Prescribing;  ·          Recording Consultations;  ·          Patient Information Maintenance;  ·          GP Resource Management; and  ·          Appointments Management (GP). |
+| Foundation Catalogue Solution set | The Catalogue Solution or combination of Catalogue Solutions (which shall not include Additional Services) which singularly or collectively (as applicable) encompass all of the Foundation Capabilities. |
+| Full Capabilities | A Capability where all of its MUST Epics must be satisfied in order for a Catalogue Solution or Additional Service to be described as mapping to that Capability. More detail is provided [here.](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF/overview) |
+| Funding Allocation | The GMS funding allocated to buyers which can be used to pay for Catalogue Solutions / Additional Services purchased under the GP IT Futures Framework.   More detail is provided [here.](Archived-Content/Funding-Guidance.md) |
+| GP IT Futures Framework 1 | The new procurement framework, the first framework from the new Digital Care Services model, has replaced the contractual framework GP Systems of Choice (GPSoC), to supply IT systems and services to GP practices and associated organisations in England. |
+| GPSOC | The framework agreement, awarded to multiple suppliers in 2014 through which general practice purchase their assured core clinical IT systems as obliged to by the General Medical Services (“GMS”) contract and which expired at the end of December 2019. |
+| Off Catalogue Further Competition | A GP IT Futures Framework procurement procedure that can be used to secure Catalogue Solutions, Additional Services and Associated Services of any type and with any contract value. This procurement procedure comprises a further competition where suppliers submit tenders to meet a specific business requirement that is set out in the further competition invitation. The NHS National Procurement Hub has been commissioned to execute these procurement procedures on behalf of CCGs where CCGs wish to use them. More detail is provided [here](Archived-Content/How-to-buy/Executing-a-procurement-a-step-by-step-guide/Further-Competition-Off-Catalogue.md). |
+| On Catalogue Further Competition | A GP IT Futures Framework procurement procedure that can be executed on the Catalogue, using only information available on the Catalogue, to purchase Catalogue Solutions and/or Additional Services that do not encompass any of the Foundation Capabilities. This procurement procedure can only be used to secure a Call Off Agreement with a total contract value of £250,000 (excluding VAT) or less. More detail is provided [here.](Archived-Content/How-to-buy/Executing-a-procurement-a-step-by-step-guide/Further-Competition-On-Catalogue.md) |
+| Onboarding | The  process by which Suppliers and Catalogue Solutions (including Additional Services) are accepted onto the Catalogue. More detail is provided [here.](Archived-Content/Supplier-Onboarding-Overview.md) |
+| Overarching Standard | A Standard which sets out the non-functional requirements applicable to a specific topic and which is mapped to all Capabilities. For example, the Clinical Safety Standard. |
+| Partial Capabilities | A Capability where only one of its MUST Epics must be satisfied in order for a Catalogue Solution or Additional Service to be described as mapping to that Capability. More detail is provided [here.](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF/overview) |
+| Patient Facing Services | Catalogue Solutions available to citizens to access their patient records and to perform some functions (for example to book appointments). Also referred to as ‘GP online services’ or ‘online services’. |
+| Roadmap | See Standards Roadmap. |
+| Roadmap Item | A new or revised requirement applicable to a Capability and/or Standard as set out on the Standards Roadmap. |
+| Service Instance | The order for and/or provision of a Catalogue Solution (including any Additional Services or Associated Services) to a Service Recipient as defined in the Call Off Agreement under which the order is placed. |
+| Service Recipient | A legally responsible entity who is commissioned for the delivery of health and social care services, which consumes services delivered under a Call Off Agreement, including as identified by a [Call Off Order Form.](Archived-Content/GP-IT-Futures-Contracts/index.md) |
+| Software as a Service (SaaS) | Within the GP IT Futures Framework 1, software (Catalogue Solutions) are deliverable ‘as a service’; as such, unit pricing shall reflect this with a single periodic charge representing the delivery of the whole scope of the Catalogue Solution as advertised to Service Recipients' user devices over each defined period (“Periodic Service Charge”). More detail is provided in the Commercial Standard. |
+| Standard | The definition of requirements applicable to a specific topic, which is set out and mapped to Capabilities in the Capability and Standards Model [link to it], and which has the following types:  ·          Overarching Standard;  ·          Context Specific Standard; and  ·          Capability Specific Standard. |
+| Standards Roadmap (or Roadmap) | The roadmap for delivery of and/or updates to Capabilities and/or Standards as summarised here and is fully described in the Change Management Process and Roadmap Content document. |

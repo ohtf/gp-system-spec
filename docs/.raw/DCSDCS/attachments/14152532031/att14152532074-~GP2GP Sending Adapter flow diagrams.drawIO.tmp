@@ -1,0 +1,1231 @@
+<mxfile host="ac.draw.io" modified="2023-01-16T13:54:05.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="e0YGdY7DJ9g3NFUYpvf1" version="20.8.3" type="embed">
+  <diagram id="GGOD3jexZTZxRnZPzkFJ" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-560n7V_kZAEqfrD7OLY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="5080" width="1020" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="1020" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="1020" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="1020" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-5" value="&lt;h2&gt;Step 1 (GP2GP Adaptor - GP Connect &#39;Migrate Record&#39; request to NME)&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="271" y="50" width="628" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-7" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="40" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-8" value="Requesting Practice (Incumbent)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="40" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-9" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="40" height="541" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-11" target="-560n7V_kZAEqfrD7OLY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-11" value="Send HL7 Request for patient record&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="215" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-13" target="-560n7V_kZAEqfrD7OLY-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-13" value="Send negative acknowledgement indicating a total failure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="800" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-18" target="-560n7V_kZAEqfrD7OLY-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-14">
+          <mxGeometry x="-0.2672" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-18" target="-560n7V_kZAEqfrD7OLY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-16">
+          <mxGeometry x="-0.287" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-18" value="Conversion successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="661" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-20" value="Migrate Structured Record request received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="571" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-22" target="-560n7V_kZAEqfrD7OLY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-22" value="Convert to FHIR migrate structured record request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="405" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-24" target="-560n7V_kZAEqfrD7OLY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-24" value="GP2GP HL7 request received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-26" target="-560n7V_kZAEqfrD7OLY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="155" y="232.5" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-27" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;exitX=1.008;exitY=0.387;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-29" target="-560n7V_kZAEqfrD7OLY-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-29" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Request message&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;not well formed&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;or not able to be&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;processed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="233" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-30" value="Error Code 18" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="198.5" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-31" value="NME GP Connect 1.6 Provider Soution" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="40" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1400" width="1020" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1150" width="1020" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="950" width="1020" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-35" value="&lt;h2&gt;Step 2 (NME GP C - Provider identity checks)&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="271" y="840" width="628" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="910" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-37" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1150" width="40" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-38" value="Requesting Practice (Incumbent)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1400" width="40" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-39" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="950" width="40" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-41" target="-560n7V_kZAEqfrD7OLY-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-41" value="Check that ODS code matches Pat&#39;s registered practice on PDS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="970" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-42" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-43" value="NME GP Connect 1.6 Provider Soution" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="950" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-45" target="-560n7V_kZAEqfrD7OLY-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-45" value="Convert to HL7 format" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1324.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-46" value="&lt;span style=&quot;&quot;&gt;To Step 2&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="651" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-48" target="-560n7V_kZAEqfrD7OLY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-48" value="Send Migrate Structured Record Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="461" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-50" target="-560n7V_kZAEqfrD7OLY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-50" value="&lt;span style=&quot;line-height: 1.1;&quot;&gt;From &lt;br&gt;Step 1&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="138.75" y="970" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-55" target="-560n7V_kZAEqfrD7OLY-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-52" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#F8CECC;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-51">
+          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-55" target="-560n7V_kZAEqfrD7OLY-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="1070" />
+              <mxPoint x="485" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-54" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-53">
+          <mxGeometry x="-0.28" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-55" value="ODS Code matches that on PDS?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="445" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-59" target="-560n7V_kZAEqfrD7OLY-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-59" target="-560n7V_kZAEqfrD7OLY-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="1070" />
+              <mxPoint x="585" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-59" target="-560n7V_kZAEqfrD7OLY-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="1070" />
+              <mxPoint x="900" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-59" value="Send one of the following error messages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="665" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-61" target="-560n7V_kZAEqfrD7OLY-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-61" value="Send HL7 negative acknowledgement indicating a total failure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1324.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-62" value="To Step 3" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1080" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-64" target="-560n7V_kZAEqfrD7OLY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-64" value="HL7 negative acknowledgement received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2270" width="1020" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2010" width="1020" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1810" width="1020" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-68" value="&lt;h2&gt;Step 3 (NME GP C Provider - Checks request well formed)&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="271" y="1700" width="628" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1770" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-70" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2010" width="40" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-71" value="Requesting Practice (Incumbent)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2270" width="40" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-72" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1810" width="40" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-74" target="-560n7V_kZAEqfrD7OLY-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-74" value="Check if request is well formed and can be successfully responded to" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1830" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-75" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="980" y="2380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-76" value="NME GP Connect 1.6 Provider Soution" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1810" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-78" target="-560n7V_kZAEqfrD7OLY-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-78" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Request message not well formed or not able to be processed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="2079" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-79" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 18 - INVALID_PARAMETER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="2044.5" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-81" target="-560n7V_kZAEqfrD7OLY-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="2170" />
+              <mxPoint x="773" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-81" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Request message not well formed or not able to be processed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="2079" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-82" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 18 - INVALID_RESOURCE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="2044.5" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-84" target="-560n7V_kZAEqfrD7OLY-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="2170" />
+              <mxPoint x="773" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-84" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Patient not at surgery&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2079" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-85" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 6 - PATIENT_NOT_FOUND&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2044.5" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-87" target="-560n7V_kZAEqfrD7OLY-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-87" value="Convert to HL7 format" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-89" target="-560n7V_kZAEqfrD7OLY-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-89" value="&lt;span style=&quot;line-height: 1.1;&quot;&gt;From &lt;br&gt;Step 2&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="138.75" y="1830" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-94" target="-560n7V_kZAEqfrD7OLY-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-91" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#F8CECC;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-90">
+          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-94" target="-560n7V_kZAEqfrD7OLY-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-93" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#000000;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-92">
+          <mxGeometry x="-0.2727" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-94" value="Is request well formed?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-100" target="-560n7V_kZAEqfrD7OLY-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-100" target="-560n7V_kZAEqfrD7OLY-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="773" y="1950" />
+              <mxPoint x="513" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-100" target="-560n7V_kZAEqfrD7OLY-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="773" y="1950" />
+              <mxPoint x="643" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-100" target="-560n7V_kZAEqfrD7OLY-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="773" y="1950" />
+              <mxPoint x="1033" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-100" target="-560n7V_kZAEqfrD7OLY-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="773" y="1950" />
+              <mxPoint x="903" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-100" value="Send one of the following error messages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-102" target="-560n7V_kZAEqfrD7OLY-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-102" value="Send HL7 negative acknowledgement indicating a total failure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-103" value="To Step 4" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1940" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-105" target="-560n7V_kZAEqfrD7OLY-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-105" value="HL7 negative acknowledgement received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-107" target="-560n7V_kZAEqfrD7OLY-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="1300" />
+              <mxPoint x="725" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-107" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Spine system responded with an error&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1214.5" width="190" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-108" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 20 - INVALID_PATIENT_DEMOGRAPHICS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1180" width="190" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-110" target="-560n7V_kZAEqfrD7OLY-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-110" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Sender check indicates that Requester is not the patient’s current healthcare provider&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1214.5" width="140" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-111" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 19 - INVALID_NHS_NUMBER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1180" width="140" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-113" target="-560n7V_kZAEqfrD7OLY-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="1300" />
+              <mxPoint x="725" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-113" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Sender check indicates that Requester is not the patient’s current healthcare provider&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1214.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-114" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 19 - NOT_AUTHORISED&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1180" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-116" target="-560n7V_kZAEqfrD7OLY-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1033" y="2170" />
+              <mxPoint x="773" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-116" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Spine system responded with error&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="972.5" y="2079" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-117" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 20 - INVALID_PARAMETER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="972.5" y="2044.5" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-119" target="-560n7V_kZAEqfrD7OLY-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="903" y="2170" />
+              <mxPoint x="773" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-119" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Request message not well formed or not able to be processed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="842.5" y="2079" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-120" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 18 - BAD_REQUEST&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="842.5" y="2044.5" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-121" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3110" width="1020" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-122" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2775" width="1020" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-123" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2610" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-124" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal; font-size: 17px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;GP2GP Adapter: &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Steps &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;4 - Retrieves FHIR record bundle&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;5 - Migrate documents&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;6 - Creates placeholder files&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;7 - converts FHIR to HL7&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="271" y="2480" width="628" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-125" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2570" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-126" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2780" width="40" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-127" value="Requesting Practice (Incumbent)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3110" width="40" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-128" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2610" width="40" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-130" target="-560n7V_kZAEqfrD7OLY-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-130" value="Send patients full FHIR record bundle&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2710" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-131" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="697.5" y="3220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-132" value="NME GP Connect 1.6 Provider Soution" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2610" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-134" target="-560n7V_kZAEqfrD7OLY-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-134" value="Convert received&amp;nbsp;&lt;br&gt;documents to a HL7 record" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#F8CECC;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-136" target="-560n7V_kZAEqfrD7OLY-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-136" value="&lt;span style=&quot;line-height: 1.1;&quot;&gt;From &lt;br&gt;Step 3&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="2620" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-138" target="-560n7V_kZAEqfrD7OLY-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-138" value="Identify and find all the patients&#39; documents using the supplied URLs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-140" target="-560n7V_kZAEqfrD7OLY-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-140" value="Send negative acknowledgement and request record" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="3035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-142" target="-560n7V_kZAEqfrD7OLY-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-142" value="Receive patients full FHIR record bundle&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2815" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-144" target="-560n7V_kZAEqfrD7OLY-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-144" value="Make a Migrate Call for each ID&#39;d document" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340.00000000000006" y="2920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-147" target="-560n7V_kZAEqfrD7OLY-327">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="2660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-147" target="-560n7V_kZAEqfrD7OLY-324">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="2660" />
+              <mxPoint x="560" y="2710" />
+              <mxPoint x="722" y="2710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-147" value="Send documents with a migrate call" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340.00000000000006" y="2630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-149" target="-560n7V_kZAEqfrD7OLY-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-149" value="Create a GP2GP HL7 .txt placeholder file for each of the documents that were not received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="944.99" y="2809.25" width="132.5" height="71.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-151" target="-560n7V_kZAEqfrD7OLY-316">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-151" value="Create GP2GP HL7 txt files for each of the documents not received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="951.24" y="2910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-156" target="-560n7V_kZAEqfrD7OLY-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-153" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-152">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-156" target="-560n7V_kZAEqfrD7OLY-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="2950.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-155" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-154">
+          <mxGeometry x="-0.7247" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-156" value="Conversion successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="2910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-158" target="-560n7V_kZAEqfrD7OLY-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-158" value="Negative acknowledgement requesting record received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="3130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-159" value="To Step 8" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="834" y="3033.5" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-160" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="5330" width="1020" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-161" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3565" width="1020" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-162" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3450" width="1020" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-163" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3410" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-164" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3450" width="40" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-165" value="Requesting Practice (Incumbent)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3565" width="40" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-166" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3450" width="40" height="625" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-167" value="NME GP Connect 1.6 Provider Soution" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="5330" width="40" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-169" target="-560n7V_kZAEqfrD7OLY-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-169" value="&lt;span style=&quot;line-height: 1.1;&quot;&gt;From &lt;br&gt;Step 7&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="3462" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-170" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; &lt;/span&gt;Incumbent:&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 17px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: left;&quot;&gt;Steps&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;8&amp;nbsp;- Processes incoming HL7 EHR&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;9&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;&amp;nbsp;- Checks valid reques&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;t&lt;/span&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3330" width="1100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-172" target="-560n7V_kZAEqfrD7OLY-174">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="373" y="3535" />
+              <mxPoint x="220" y="3535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-172" value="Send HL7 record to requesting incumbent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="3462" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-174" target="-560n7V_kZAEqfrD7OLY-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-174" value="HL7 record received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="155" y="3600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-179" target="-560n7V_kZAEqfrD7OLY-218">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="3838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-176" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-175">
+          <mxGeometry x="-0.1864" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-179" target="-560n7V_kZAEqfrD7OLY-187">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="3745" />
+              <mxPoint x="340" y="4030" />
+              <mxPoint x="708" y="4030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-178" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-177">
+          <mxGeometry x="-0.9279" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-179" value="Is it a valid HL7 message?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="3705" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-235">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="3920" />
+              <mxPoint x="884" y="3920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-238">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="3920" />
+              <mxPoint x="1001" y="3920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-232">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="3920" />
+              <mxPoint x="790" y="3920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-226">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="3920" />
+              <mxPoint x="623" y="3920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-223">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="3920" />
+              <mxPoint x="540" y="3920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-187" target="-560n7V_kZAEqfrD7OLY-220">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="3920" />
+              <mxPoint x="450" y="3920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-187" value="Send one of the following error messages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="3940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-189" target="-560n7V_kZAEqfrD7OLY-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-189" value="Negative acknowledgement received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="3462" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-190" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="955.59" y="3462" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-191" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="4380" width="1020" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-192" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="4250" width="1020" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-193" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="4210" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-195" target="-560n7V_kZAEqfrD7OLY-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-195" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="4250" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-196" value="Requesting Practice (Incumbent)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="4380" width="40" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-197" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4250" width="40" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-199" target="-560n7V_kZAEqfrD7OLY-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-199" value="&lt;span style=&quot;line-height: 1.1;&quot;&gt;From &lt;br&gt;Step 9&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="4390" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-201" target="-560n7V_kZAEqfrD7OLY-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-201" value="Attempt to integrate /file record" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140.0000000000001" y="4700" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-202" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="145" y="4459.5" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-203" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Alert user of incoming record&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-202">
+          <mxGeometry x="20" y="18" width="80" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-204" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/warning-128.png;fontSize=10;fillColor=#CCFDFF;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-202">
+          <mxGeometry width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-209" target="-560n7V_kZAEqfrD7OLY-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-206" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-205">
+          <mxGeometry x="-0.3857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-209" target="-560n7V_kZAEqfrD7OLY-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-208" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-207">
+          <mxGeometry x="-0.6977" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-209" value="Accept record?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="165" y="4570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-203" target="-560n7V_kZAEqfrD7OLY-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-267" target="-560n7V_kZAEqfrD7OLY-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="4390" />
+              <mxPoint x="620" y="4390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-264" target="-560n7V_kZAEqfrD7OLY-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="4390" />
+              <mxPoint x="620" y="4390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-215" target="-560n7V_kZAEqfrD7OLY-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-215" target="-560n7V_kZAEqfrD7OLY-266">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-215" value="Send one of the following error messages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390.00000000000017" y="4620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-217" target="-560n7V_kZAEqfrD7OLY-283">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="4290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-217" value="Negative acknowledgement received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="577.5000000000001" y="4260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-218" value="To step&lt;br&gt;10" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="185" y="3990" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-219" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="400" y="3640" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-220" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;EHR Extract received without corresponding request&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-219">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-221" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 9 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-219">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-222" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="480" y="3755" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-223" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Large Message Re-assembly failure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-222">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-224" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 29 -&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;HL7 Error&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-222">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-225" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="563.09" y="3640" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-226" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Duplicate EHR Extract received&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-225">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-227" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 12 -&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;HL7 Error&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-225">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-228" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="3755" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-229" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Large Message general failure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-228">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-230" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 30 -&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;HL7 Error&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-228">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-231" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="730" y="3640" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-232" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;EHR Extract message not well-formed or not able to be processed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-231">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-233" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 21 -&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;HL7 Error&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-231">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-234" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="807.5" y="3754" width="152.5" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-235" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;The overall EHR Extract rejected because one or more arrachments via Large Messages not received&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-234">
+          <mxGeometry y="35.84134615384615" width="152.5" height="69.15865384615384" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-236" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 31 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-234">
+          <mxGeometry width="152.5" height="34.831730769230774" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-237" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="930" y="3640" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-238" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Large messages rejected due to timeout duration reached of overall transfer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-237">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-239" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 25 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-237">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-221" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="3600" />
+              <mxPoint x="713" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-227" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="3600" />
+              <mxPoint x="713" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-224" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="3600" />
+              <mxPoint x="713" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-230" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-233" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="3600" />
+              <mxPoint x="713" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-236" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="884" y="3600" />
+              <mxPoint x="713" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-239" target="-560n7V_kZAEqfrD7OLY-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="3600" />
+              <mxPoint x="713" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-247" value="&lt;h3 style=&quot;font-size: 17px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;background-color: initial; text-align: left; font-size: 17px;&quot;&gt;Steps:&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Incumbent -&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot;&gt;User views and files/rejects record &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;1 - Incumbent - Attempts to integrate the record&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;12 - Incumbent - Integrates &amp;amp; sends positive acknowledgment&amp;nbsp;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;13 - GP2GP Adaptor&amp;nbsp;- Acknowledgement&amp;nbsp;Received&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="4140" width="1100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-252" target="-560n7V_kZAEqfrD7OLY-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-249" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-248">
+          <mxGeometry x="-0.6999" y="-2" relative="1" as="geometry">
+            <mxPoint x="-30" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-252" target="-560n7V_kZAEqfrD7OLY-271">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="4900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-251" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-250">
+          <mxGeometry x="-0.3727" y="-2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-252" value="Integration successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="165" y="4790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-255" target="-560n7V_kZAEqfrD7OLY-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-255" target="-560n7V_kZAEqfrD7OLY-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-255" value="Send one of the following error messages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="610" y="4800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-256" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="680" y="4580" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-257" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Non A-B-A EHR Extract Received and Stored as Suppressed record&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-256">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-258" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 15 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-256">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-259" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="540" y="4580" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-260" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Failed to successfully integrate EHR Extract&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-259">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-261" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 11 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-259">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-262" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="325.00000000000017" y="4430" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-263" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;A-B-A EHR Extract Received and rejected due to wrong record or wrong patient&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-262">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-264" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 17 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-262">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-265" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="455.00000000000017" y="4430" width="120.00000000000006" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-266" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Non A-B-A EHR Extract Received and rejected due to wrong record or wrong patient&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-265">
+          <mxGeometry y="34.5" width="120" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-267" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 28 - HL7 Error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-265">
+          <mxGeometry width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.629;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-261" target="-560n7V_kZAEqfrD7OLY-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="4440" />
+              <mxPoint x="659" y="4440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.635;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-258" target="-560n7V_kZAEqfrD7OLY-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="4440" />
+              <mxPoint x="660" y="4440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-271" target="-560n7V_kZAEqfrD7OLY-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-271" value="Send Positive acknowledgement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="375" y="4870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="4290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-273" value="Positive acknowledgement received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="787.5" y="4300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-275" target="-560n7V_kZAEqfrD7OLY-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-275" value="acknowledgement typeCode = &quot;AA&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="792.5" y="4870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-277" target="-560n7V_kZAEqfrD7OLY-282">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="5540" />
+              <mxPoint x="270" y="5130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-277" value="Poll for acknowledgement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="135" y="5505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-278" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-282" target="-560n7V_kZAEqfrD7OLY-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-279" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-278">
+          <mxGeometry x="-0.353" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWf8K-kjFcgyKK9r92Jw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-282" target="1a5K9HrL5QcGYoZG0Bha-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="5233.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="397" y="5290" />
+              <mxPoint x="397" y="5290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWf8K-kjFcgyKK9r92Jw-8" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="hWf8K-kjFcgyKK9r92Jw-6">
+          <mxGeometry x="-0.316" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-282" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Successful Acknowledgement?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="357" y="5090" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-283" value="To step &lt;br&gt;14" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="1037.5" y="4260" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-284" value="&lt;h3 style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px; background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 17px; background-color: initial; text-align: left;&quot;&gt;Steps:&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 17px; background-color: initial; text-align: center;&quot;&gt;14&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: initial;&quot;&gt;&amp;nbsp;- NME - Polls Adaptor for outcome&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 17px;&quot;&gt;15 - NME - Identifies positive acknowledgment&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 17px; white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 17px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;16 - NME - Identifies negative acknowledgement&lt;/span&gt;&lt;/div&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4970" width="1100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-285" value="GP2GP Adaptor" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="5080" width="40" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-286" value="System" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="5080" width="40" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-287" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-288" target="-560n7V_kZAEqfrD7OLY-277">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-288" value="&lt;span style=&quot;line-height: 1.1;&quot;&gt;From &lt;br&gt;Step 13&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=0.5166666666666667;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="5400" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-289" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="5040" width="1020" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hWf8K-kjFcgyKK9r92Jw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-297" target="-560n7V_kZAEqfrD7OLY-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hWf8K-kjFcgyKK9r92Jw-11" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="hWf8K-kjFcgyKK9r92Jw-10">
+          <mxGeometry x="-0.3771" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-297" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Have all documents been received?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650.5" y="5090" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-303" target="KJlOuKyNP_cPrVSenSWf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-303" value="Identify which documents have not been received as in Steps 4 &amp;amp; 5&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="628" y="5220" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-304" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="914.75" y="5643.13" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5K9HrL5QcGYoZG0Bha-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-306" target="-560n7V_kZAEqfrD7OLY-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-306" value="Act on alert recieved" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="5630" width="135" height="76.25" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-309" target="-560n7V_kZAEqfrD7OLY-318">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959.7449999999999" y="5412.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-309" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#000000&quot;&gt;electronic record for the patient has been successfully received and integrated at the Requesting site&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="909.5" y="5206.25" width="100.5" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-310" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="948.45" y="3140" width="125.59000000000015" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-311" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Failed to successfully generate the EHR extract&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-310">
+          <mxGeometry y="34.5" width="125" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-312" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Error Code 10 - RECORD_NOT_FOUND&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="-560n7V_kZAEqfrD7OLY-310">
+          <mxGeometry x="0.5900000000000318" width="125" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-560n7V_kZAEqfrD7OLY-310" source="-560n7V_kZAEqfrD7OLY-312" target="-560n7V_kZAEqfrD7OLY-312">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-311" target="-560n7V_kZAEqfrD7OLY-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-316" target="-560n7V_kZAEqfrD7OLY-312">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-316" value="Inform incumbent of the documents that were not received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="951.24" y="3000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-318" target="-560n7V_kZAEqfrD7OLY-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-318" value="Update status to &quot;Successful&quot; on the patient record that has been sent and received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="892.25" y="5455.37" width="135" height="76.25" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-324" target="-560n7V_kZAEqfrD7OLY-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-324" value="Identify any documents that have not been received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="2815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-326" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-327" target="-560n7V_kZAEqfrD7OLY-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-327" value="Identify the URL of any documents that have been received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-332" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-297" target="-560n7V_kZAEqfrD7OLY-309">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="5130" />
+            </Array>
+            <mxPoint x="768.8699999999999" y="5238.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWf8K-kjFcgyKK9r92Jw-9" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-560n7V_kZAEqfrD7OLY-332">
+          <mxGeometry x="-0.3422" y="4" relative="1" as="geometry">
+            <mxPoint x="-50" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWf8K-kjFcgyKK9r92Jw-12" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="5440" width="136.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-291" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Create an alert to print EHR &amp;amp; associated attachments that have not been sent&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hWf8K-kjFcgyKK9r92Jw-12">
+          <mxGeometry x="72" y="27" width="112" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="-560n7V_kZAEqfrD7OLY-292" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/warning-128.png;fontSize=10;fillColor=#CCFDFF;" vertex="1" parent="hWf8K-kjFcgyKK9r92Jw-12">
+          <mxGeometry x="45.15" width="46.199999999999996" height="46.199999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-1" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="620" y="5480" width="136.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-2" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Create an alert to print any attachments that have not been sent&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="KJlOuKyNP_cPrVSenSWf-1">
+          <mxGeometry x="24.5" y="27" width="112" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/warning-128.png;fontSize=10;fillColor=#CCFDFF;" vertex="1" parent="KJlOuKyNP_cPrVSenSWf-1">
+          <mxGeometry width="46.199999999999996" height="46.199999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-560n7V_kZAEqfrD7OLY-291" target="-560n7V_kZAEqfrD7OLY-306">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="5590" />
+              <mxPoint x="481" y="5590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJlOuKyNP_cPrVSenSWf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJlOuKyNP_cPrVSenSWf-2" target="-560n7V_kZAEqfrD7OLY-306">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="5590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1a5K9HrL5QcGYoZG0Bha-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5K9HrL5QcGYoZG0Bha-1" target="-560n7V_kZAEqfrD7OLY-291">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5K9HrL5QcGYoZG0Bha-1" value="Update status to &quot;Failed&quot; on the patient record that has been sent&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="329" y="5350" width="135" height="76.25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

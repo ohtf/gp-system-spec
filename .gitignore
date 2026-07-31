@@ -1,5 +1,6 @@
-mirror/
 spec/
 __pycache__/
 *.pyc
 .env
+site/
+docs/.raw/**/*.mp4

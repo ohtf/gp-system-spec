@@ -1,0 +1,50 @@
+---
+page_id: "1391135572"
+space: "DCSDCS"
+title: "Social Prescribing"
+version: 20
+updated: "2026-07-17T11:13:51.696Z"
+source_url: "https://nhse-dsic.atlassian.net/wiki/spaces/DCSDCS/pages/1391135572/Social+Prescribing"
+labels: ["capability"]
+---
+
+# Social Prescribing
+
+|  |  |
+| --- | --- |
+| **ID** | C37 |
+| **Version** | 1.0.3 |
+| **Type** | Capability |
+| **Category** | Community-based care |
+| **Status** | Effective |
+| **Effective Date** | 09 Sep 2024 |
+| **Contracting Vehicle(s)** | - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
+
+# Description
+
+Enables Health and Care Professionals to record outcomes of wellness assessments and refer Patient/Service Users to one or more non-clinical interventions or services.
+
+# Outcomes
+
+|  |  |
+| --- | --- |
+| For a Patient/Service User: | Referral to non-clinical interventions or services, to support their care or treatment. |
+| For a Health or Care Professional: | Record outcomes of wellness assessments to consider a Patient/Service User’s wider practical, social or emotional needs. |
+
+|  |
+| --- |
+| **MUST Epics - Describes the minimum functionality required to deliver a Capability. Solutions MUST be successfully evaluated against each Epic and Acceptance Criteria via Capability Assessment in order to be associated with this Capability.** |
+| E00662 - record outcomes of wellness assessments As a Health or Care Professional  I want to record the outcomes of wellness assessments for Patient/Service Users  So that I can record their non-clinical health or care needs Acceptance criterion 1: record outcomes of wellness assessments Given the Health or Care Professional is permitted to record the outcomes of wellness assessments  When the Heath or Care Professional selects to record the outcome of a wellness assessment  Then the outcome is recorded E00662 - Supporting Information  - Wellness assessments MAY use a methodology appropriate to the Patient/Service User’s conditions, circumstances, and needs - Examples of wellness assessment methodologies MAY include, but are not limited to:    - The Short-Warwick-Edinburgh Mental Well-being Scale (SWEMWBS)   - The Well-being Star  ---  E00663 - create Social Prescribing Referrals As a Health or Care Professional  I want to create Social Prescribing Referrals for Patient/Service Users  So that they can be referred to support for their non-clinical health or care needs Acceptance criterion 1: create Social Prescribing Referrals Given the Health or Care Professional is permitted to create Social Prescribing Referrals  When the Health or Care Professional selects to create a Social Prescribing Referral  Then the Referral is created E00663 - Supporting Information  - Examples of Social Prescribing Referrals MAY include, but are not limited to:    - Referrals to Link Workers   - Referrals to Social Prescribing services |
+
+|  |
+| --- |
+| **MAY Epics - Describes additional functionality associated with the Capability. Suppliers should consider all MAY Epics as part of their User Research. Suppliers can choose to map their Solutions to these Epics and they will be evaluated via Capability Assessment. Contracting Authorities or purchasing organisations may require these Epics as product qualification or requirements criteria.** |
+| E00664 - record outcomes from Social Prescribing services As a Health or Care Professional  I want to record outcomes from Social Prescribing services for Patient/Service Users  So that I can monitor the effectiveness of Social Prescribing Referrals Acceptance criterion 1: record outcomes from Social Prescribing services Given the Health or Care Professional is permitted to record outcomes from Social Prescribing services  When the Health or Care Professional selects to record the outcome of a Social Prescribing service  Then the outcome is recorded   ---  E00665 - record Social Prescribing information to a Patient/Service User’s record As a Health or Care Professional  I want to record Social Prescribing information to a Patient/Service User’s record  So that I can view Social Prescribing information in the Patient/Service User’s record Acceptance criterion 1: record Social Prescribing information to a Patient/Service User’s record Give the Health or Care Professional is permitted to manage Social Prescribing information  When the Health or Care Professional selects to record Social Prescribing information to a Patient/Service User’s record  Then Social Prescribing information is recorded to the Patient/Service User’s record E00665 - Supporting Information  - Examples of Social prescribing information MAY include, but are not limited to:    - Social Prescribing assessments   - Referrals to Social Prescribing services  ---  E00666 - manage directory of Social Prescribing services As a Health or Care Professional  I want to manage a directory of Social Prescribing services  So that Social Prescribing services can be selected when creating Referrals Acceptance criterion 1: add Social Prescribing services to the directory Given the Health or Care Professional is permitted to manage a directory of Social Prescribing services  When the Health or Care Professional selects to add a Social Prescribing service to the directory  Then the Social Prescribing service is added Acceptance criterion 2: view Social Prescribing services in the directory Given the Health or Care Professional is permitted to manage a directory of Social Prescribing services  When the Health or Care Professional selects to view a Social Prescribing service in the directory  Then the Social Prescribing service is displayed Acceptance criterion 3: amend Social Prescribing services in the directory Given the Health or Care Professional is permitted to manage a directory of Social Prescribing services  When the Health or Care Professional selects to amend a Social Prescribing service in the directory  Then the Social Prescribing service is amended Acceptance criterion 4: remove Social Prescribing services from the directory Given the Health or Care Professional is permitted to manage a directory of Social Prescribing services  When the Health or Care Professional selects to remove a Social Prescribing service from the directory  Then the Social Prescribing service is removed E00666 - Supporting Information  - Examples of details about Social Prescribing services in the directory MAY include, but are not limited to:    - Service Name   - Service Summary   - Location   - Age restrictions   - Gender restrictions   - Applicable health or care conditions (e.g. dementia, depression)  ---  E00667 - Heath or Care Professionals manage feedback on Social Prescribing services As a Health or Care Professional  I want to manage feedback on Social Prescribing services  So that feedback on Social Prescribing services is managed Acceptance criterion 1: record feedback on Social Prescribing services Given the Health or Care Professional is permitted to manage feedback on Social Prescribing services  When the Health or Care Professional selects to record feedback on a Social Prescribing service  Then the feedback is recorded Acceptance criterion 2: view feedback on Social Prescribing services Given the Health or Care Professional is permitted to manage feedback on Social Prescribing services  When the Health or Care Professional selects to view feedback on a Social Prescribing service  Then the feedback is displayed Acceptance criterion 3: remove feedback for Social Prescribing services Given the Health or Care Professional is permitted to manage feedback for Social Prescribing services  When the Health or Care Professional selects to remove feedback for a Social Prescribing service  Then the feedback is removed   ---  E00668 - Patient/Service Users record feedback on Social Prescribing services As a Patient/Service User  I want to record feedback on Social Prescribing services  So that feedback on Social Prescribing services is recorded Acceptance criterion 1: Patient/Service Users record feedback on Social Prescribing services Given the Patient/Service User is permitted to manage feedback on Social Prescribing services  When the Patient/Service User selects to record feedback on a Social Prescribing service  Then the feedback is recorded Acceptance criterion 2: Patient/Service Users view feedback on Social Prescribing services Given the Patient/Service User is permitted to manage feedback on Social Prescribing services  When the Patient/Service User selects to view feedback on a Social Prescribing service  Then the feedback is displayed E00668 - Supporting Information  - Solutions MAY give Patients/Service Users the option to record feedback anonymously  ---  E00669 - view Social Prescribing reports As a Health or Care Professional  I want to view Social Prescribing reports  So that I can use Social Prescribing data to inform decision making Acceptance criterion 1: view Social Prescribing reports Given the Health or Care Professional is permitted to manage Social Prescribing reports  When the Health or Care Professional selects to view Social Prescribing reports  Then the report results are displayed |
+
+## Roadmap
+
+Items on the Roadmap which impact or relate to this Capability
+
+| Roadmap Item |
+| --- |
+| No content found. |
