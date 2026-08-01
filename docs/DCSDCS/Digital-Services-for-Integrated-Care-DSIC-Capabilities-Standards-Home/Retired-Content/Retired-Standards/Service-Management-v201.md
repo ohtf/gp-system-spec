@@ -83,9 +83,9 @@ All Suppliers Solutions delivering any Capabilities will need to meet this Stand
 
 ## Attachments
 
-- [GPITF Type 1 Catalogue Solution Service Levels v2.0.2 10122020.docx](../../../../.raw/DCSDCS/attachments/13472628737/att13472628750-GPITF Type 1 Catalogue Solution Service Levels v2.0.2 10122020.docx)
-- [HSSI Report Template.docx](../../../../.raw/DCSDCS/attachments/13472628737/att13472628753-HSSI Report Template.docx)
-- [GPITF Balanced Scorecard v2.0.1 200226.xlsx](../../../../.raw/DCSDCS/attachments/13472628737/att13472628756-GPITF Balanced Scorecard v2.0.1 200226.xlsx)
-- [Performance Regime Template for Type 2 Catalogue Solutions.docx](../../../../.raw/DCSDCS/attachments/13472628737/att13472628759-Performance Regime Template for Type 2 Catalogue Solutions.docx)
-- [GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx](../../../../.raw/DCSDCS/attachments/13472628737/att13472628762-GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx)
-- [GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx](../../../../.raw/DCSDCS/attachments/13472628737/att13472628765-GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx)
+- [GPITF Type 1 Catalogue Solution Service Levels v2.0.2 10122020.docx](../../../../attachments/DCSDCS/13472628737/att13472628750-GPITF Type 1 Catalogue Solution Service Levels v2.0.2 10122020.docx)
+- [HSSI Report Template.docx](../../../../attachments/DCSDCS/13472628737/att13472628753-HSSI Report Template.docx)
+- [GPITF Balanced Scorecard v2.0.1 200226.xlsx](../../../../attachments/DCSDCS/13472628737/att13472628756-GPITF Balanced Scorecard v2.0.1 200226.xlsx)
+- [Performance Regime Template for Type 2 Catalogue Solutions.docx](../../../../attachments/DCSDCS/13472628737/att13472628759-Performance Regime Template for Type 2 Catalogue Solutions.docx)
+- [GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx](../../../../attachments/DCSDCS/13472628737/att13472628762-GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx)
+- [GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx](../../../../attachments/DCSDCS/13472628737/att13472628765-GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx)

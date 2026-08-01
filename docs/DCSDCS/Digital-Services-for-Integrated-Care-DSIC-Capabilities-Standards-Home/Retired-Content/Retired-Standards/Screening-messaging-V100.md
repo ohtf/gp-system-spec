@@ -60,4 +60,4 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc](../../../../.raw/DCSDCS/attachments/11975327854/att11975327871-Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc)
+- [Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc](../../../../attachments/DCSDCS/11975327854/att11975327871-Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc)

@@ -45,7 +45,7 @@ The output of the sessions and the ongoing collaborative dialogue between you an
 
 ## Attachments
 
-- [image-20230314-161244.png](../../../.raw/GIFTIF/attachments/12363825153/att12363825182-image-20230314-161244.png)
-- [image-20230315-104837.png](../../../.raw/GIFTIF/attachments/12363825153/att12363825185-image-20230315-104837.png)
-- [image-20230313-084841.png](../../../.raw/GIFTIF/attachments/12363825153/att12363825188-image-20230313-084841.png)
-- [image-20230313-084916.png](../../../.raw/GIFTIF/attachments/12363825153/att12363825191-image-20230313-084916.png)
+- [image-20230314-161244.png](../../../attachments/GIFTIF/12363825153/att12363825182-image-20230314-161244.png)
+- [image-20230315-104837.png](../../../attachments/GIFTIF/12363825153/att12363825185-image-20230315-104837.png)
+- [image-20230313-084841.png](../../../attachments/GIFTIF/12363825153/att12363825188-image-20230313-084841.png)
+- [image-20230313-084916.png](../../../attachments/GIFTIF/12363825153/att12363825191-image-20230313-084916.png)

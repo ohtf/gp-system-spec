@@ -34,7 +34,7 @@ The GP2GP record transfer mechanism enables a patient's record to be electronica
 
 The compliance baseline for GP2GP and document locations were correct at the time of original publication, but referenced documents can now be found embedded on this page, below. The exceptions to this are the references to the NHS Messaging Implementation Manual (MIM) and External Interface Specification (EIS) (follow these links for details).
 
-[GP2GP 1.1a Compliance Mo…](../../../../.raw/DCSDCS/attachments/1933607010/att1933541465-GP2GP 1.1a Compliance Module.doc)
+[GP2GP 1.1a Compliance Mo…](../../../../attachments/DCSDCS/1933607010/att1933541465-GP2GP 1.1a Compliance Module.doc)
 
 The GP2GP assurance is split into 2 streams:
 
@@ -48,14 +48,14 @@ For advice and support on assurance please contact [businesspartners@nhs.net]
 | ID | Description | Level |
 | --- | --- | --- |
 | GP2GP00 | Suppliers must meet the requirements for GP2GP 1.1a | MUST |
-| GP2GP01 | Suppliers must meet the requirements for GP2GP 2.2a.   [HSCIC-PC-BLD-0068 26 GP2…](../../../../.raw/DCSDCS/attachments/1933607010/att1931116791-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf) | MUST |
+| GP2GP01 | Suppliers must meet the requirements for GP2GP 2.2a.   [HSCIC-PC-BLD-0068 26 GP2…](../../../../attachments/DCSDCS/1933607010/att1931116791-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf) | MUST |
 | GP2GP02 | Suppliers must make available documentation to ensure that suppliers receiving GP2GP messages are fully able to interpret, consume and process the data to minimise data loss and degradation. This must include (but is not limited to):   - Structure of data - Any know issues or anomalies and how they should be handled - Code sets and associated meanings - Field specifications (types, lengths etc.) | MUST |
 | GP2GP03 | Suppliers must provide support to receivers of GP2GP messages to resolve any issues with interpreting,consuming and processing received messages | MUST |
-| GP2GP04 | Suppliers should meet the requirements for GP2GP 2.2b.  Suppliers should note these requirements will become MUST in the future, please see Roadmap for details.  [HSCIC-PC-BLD-0068 26 GP2…](../../../../.raw/DCSDCS/attachments/1933607010/att1931116791-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf) | SHOULD |
+| GP2GP04 | Suppliers should meet the requirements for GP2GP 2.2b.  Suppliers should note these requirements will become MUST in the future, please see Roadmap for details.  [HSCIC-PC-BLD-0068 26 GP2…](../../../../attachments/DCSDCS/1933607010/att1931116791-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf) | SHOULD |
 
 ## Message Fragments and Examples {#GP2GPv2.0.0-MessageFragmentsandExamples}
 
-[NPFIT-FNT-TO-TIN-0562[1]…](../../../../.raw/DCSDCS/attachments/1933607010/att1933574229-NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc)
+[NPFIT-FNT-TO-TIN-0562[1]…](../../../../attachments/DCSDCS/1933607010/att1933574229-NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc)
 
 ## Supplementary specifications {#GP2GPv2.0.0-Supplementaryspecifications}
 
@@ -118,6 +118,6 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf](../../../../.raw/DCSDCS/attachments/1933607010/att1931116791-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf)
-- [GP2GP 1.1a Compliance Module.doc](../../../../.raw/DCSDCS/attachments/1933607010/att1933541465-GP2GP 1.1a Compliance Module.doc)
-- [NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc](../../../../.raw/DCSDCS/attachments/1933607010/att1933574229-NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc)
+- [HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf](../../../../attachments/DCSDCS/1933607010/att1931116791-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf)
+- [GP2GP 1.1a Compliance Module.doc](../../../../attachments/DCSDCS/1933607010/att1933541465-GP2GP 1.1a Compliance Module.doc)
+- [NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc](../../../../attachments/DCSDCS/1933607010/att1933574229-NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc)

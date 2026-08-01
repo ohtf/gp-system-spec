@@ -49,4 +49,4 @@ Capabilities and Standards will each have the content detailed in the table belo
 
 ## Attachments
 
-- [image2019-2-8_9-11-2.png](../../../.raw/GPITF/attachments/1391135029/att1391149917-image2019-2-8_9-11-2.png)
+- [image2019-2-8_9-11-2.png](../../../attachments/GPITF/1391135029/att1391149917-image2019-2-8_9-11-2.png)

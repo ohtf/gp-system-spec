@@ -124,5 +124,5 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Catalogue Solution Migration Process.docx](../../../../.raw/DCSDCS/attachments/1391134456/att11724849196-Catalogue Solution Migration Process.docx)
-- [DMSDataTransfer-CrossFunctionalRequirements v2.1.pdf](../../../../.raw/DCSDCS/attachments/1391134456/att14362837027-DMSDataTransfer-CrossFunctionalRequirements v2.1.pdf)
+- [Catalogue Solution Migration Process.docx](../../../../attachments/DCSDCS/1391134456/att11724849196-Catalogue Solution Migration Process.docx)
+- [DMSDataTransfer-CrossFunctionalRequirements v2.1.pdf](../../../../attachments/DCSDCS/1391134456/att14362837027-DMSDataTransfer-CrossFunctionalRequirements v2.1.pdf)

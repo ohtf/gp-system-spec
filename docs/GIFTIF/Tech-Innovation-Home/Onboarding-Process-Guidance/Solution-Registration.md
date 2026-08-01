@@ -60,4 +60,4 @@ The following is a process guide to follow in order to begin registration, it de
 
 ## Attachments
 
-- [image-20230224-160408.png](../../../.raw/GIFTIF/attachments/12293373963/att12322472054-image-20230224-160408.png)
+- [image-20230224-160408.png](../../../attachments/GIFTIF/12293373963/att12322472054-image-20230224-160408.png)

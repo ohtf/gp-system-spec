@@ -55,25 +55,25 @@ ISB 1558 - 36/97/P23 Revised General Medical Services Central Returns - message 
 
 ### NHAIS Registration GP System Specifications, version 2.0 {#NHAISHA/GPLinksv1.0.0-NHAISRegistrationGPSystemSpecifications,version2.0}
 
-[Cover.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197400-Cover.doc)[Contents.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197403-Contents.doc)[GP Spec Chapter1.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197349-GP Spec Chapter1.doc)[GP Spec Chapter2.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197346-GP Spec Chapter2.doc)[GP Spec Chapter3.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197352-GP Spec Chapter3.doc)[GP Spec Chapter4.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197355-GP Spec Chapter4.doc)
+[Cover.doc](../../../../attachments/DCSDCS/11747197328/att11747197400-Cover.doc)[Contents.doc](../../../../attachments/DCSDCS/11747197328/att11747197403-Contents.doc)[GP Spec Chapter1.doc](../../../../attachments/DCSDCS/11747197328/att11747197349-GP Spec Chapter1.doc)[GP Spec Chapter2.doc](../../../../attachments/DCSDCS/11747197328/att11747197346-GP Spec Chapter2.doc)[GP Spec Chapter3.doc](../../../../attachments/DCSDCS/11747197328/att11747197352-GP Spec Chapter3.doc)[GP Spec Chapter4.doc](../../../../attachments/DCSDCS/11747197328/att11747197355-GP Spec Chapter4.doc)
 
 ### NHAIS Registration GP System Specifications Appendix A - K, version 2.0 {#NHAISHA/GPLinksv1.0.0-NHAISRegistrationGPSystemSpecificationsAppendixA-K,version2.0}
 
-[App-A.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197397-App-A.doc)[App-B.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197394-App-B.doc)[App-C.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197391-App-C.doc)[App-D.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197388-App-D.doc)[App-E.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197385-App-E.doc)[App-F.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197382-App-F.doc)
+[App-A.doc](../../../../attachments/DCSDCS/11747197328/att11747197397-App-A.doc)[App-B.doc](../../../../attachments/DCSDCS/11747197328/att11747197394-App-B.doc)[App-C.doc](../../../../attachments/DCSDCS/11747197328/att11747197391-App-C.doc)[App-D.doc](../../../../attachments/DCSDCS/11747197328/att11747197388-App-D.doc)[App-E.doc](../../../../attachments/DCSDCS/11747197328/att11747197385-App-E.doc)[App-F.doc](../../../../attachments/DCSDCS/11747197328/att11747197382-App-F.doc)
 
-[App-G.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197379-App-G.doc)[App-H.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197376-App-H.doc)[App-I.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197373-App-I.doc)[App-J.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197370-App-J.doc)[App-K.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197406-App-K.doc)
+[App-G.doc](../../../../attachments/DCSDCS/11747197328/att11747197379-App-G.doc)[App-H.doc](../../../../attachments/DCSDCS/11747197328/att11747197376-App-H.doc)[App-I.doc](../../../../attachments/DCSDCS/11747197328/att11747197373-App-I.doc)[App-J.doc](../../../../attachments/DCSDCS/11747197328/att11747197370-App-J.doc)[App-K.doc](../../../../attachments/DCSDCS/11747197328/att11747197406-App-K.doc)
 
 ### GP Comms & Messaging Specification, V3.0 {#NHAISHA/GPLinksv1.0.0-GPComms&MessagingSpecification,V3.0}
 
-[comspec3.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197364-comspec3.doc)
+[comspec3.doc](../../../../attachments/DCSDCS/11747197328/att11747197364-comspec3.doc)
 
 ### FHSREG Edifact Message Implementation Guidelines, V1.4 {#NHAISHA/GPLinksv1.0.0-FHSREGEdifactMessageImplementationGuidelines,V1.4}
 
-[FHSREG v14.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197361-FHSREG v14.doc)
+[FHSREG v14.doc](../../../../attachments/DCSDCS/11747197328/att11747197361-FHSREG v14.doc)
 
 ### Receipt Report Message, V1.3 {#NHAISHA/GPLinksv1.0.0-ReceiptReportMessage,V1.3}
 
-[Recep13.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197358-Recep13.doc)
+[Recep13.doc](../../../../attachments/DCSDCS/11747197328/att11747197358-Recep13.doc)
 
 Read the Guide to NHAIS/GP Links Documentation to better understand how to digest some of the documents listed on this page.
 
@@ -85,24 +85,24 @@ Read the Guide to NHAIS/GP Links Documentation to better understand how to dig
 
 ## Attachments
 
-- [GP Spec Chapter2.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197346-GP Spec Chapter2.doc)
-- [GP Spec Chapter1.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197349-GP Spec Chapter1.doc)
-- [GP Spec Chapter3.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197352-GP Spec Chapter3.doc)
-- [GP Spec Chapter4.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197355-GP Spec Chapter4.doc)
-- [Recep13.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197358-Recep13.doc)
-- [FHSREG v14.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197361-FHSREG v14.doc)
-- [comspec3.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197364-comspec3.doc)
-- [FHSREG' EDIFACT Message Implementation Guidelines Version 1.4](../../../../.raw/DCSDCS/attachments/11747197328/att11747197367-FHSREG' EDIFACT Message Implementation Guidelines Version 1.4)
-- [App-J.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197370-App-J.doc)
-- [App-I.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197373-App-I.doc)
-- [App-H.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197376-App-H.doc)
-- [App-G.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197379-App-G.doc)
-- [App-F.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197382-App-F.doc)
-- [App-E.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197385-App-E.doc)
-- [App-D.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197388-App-D.doc)
-- [App-C.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197391-App-C.doc)
-- [App-B.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197394-App-B.doc)
-- [App-A.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197397-App-A.doc)
-- [Cover.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197400-Cover.doc)
-- [Contents.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197403-Contents.doc)
-- [App-K.doc](../../../../.raw/DCSDCS/attachments/11747197328/att11747197406-App-K.doc)
+- [GP Spec Chapter2.doc](../../../../attachments/DCSDCS/11747197328/att11747197346-GP Spec Chapter2.doc)
+- [GP Spec Chapter1.doc](../../../../attachments/DCSDCS/11747197328/att11747197349-GP Spec Chapter1.doc)
+- [GP Spec Chapter3.doc](../../../../attachments/DCSDCS/11747197328/att11747197352-GP Spec Chapter3.doc)
+- [GP Spec Chapter4.doc](../../../../attachments/DCSDCS/11747197328/att11747197355-GP Spec Chapter4.doc)
+- [Recep13.doc](../../../../attachments/DCSDCS/11747197328/att11747197358-Recep13.doc)
+- [FHSREG v14.doc](../../../../attachments/DCSDCS/11747197328/att11747197361-FHSREG v14.doc)
+- [comspec3.doc](../../../../attachments/DCSDCS/11747197328/att11747197364-comspec3.doc)
+- [FHSREG' EDIFACT Message Implementation Guidelines Version 1.4](../../../../attachments/DCSDCS/11747197328/att11747197367-FHSREG' EDIFACT Message Implementation Guidelines Version 1.4)
+- [App-J.doc](../../../../attachments/DCSDCS/11747197328/att11747197370-App-J.doc)
+- [App-I.doc](../../../../attachments/DCSDCS/11747197328/att11747197373-App-I.doc)
+- [App-H.doc](../../../../attachments/DCSDCS/11747197328/att11747197376-App-H.doc)
+- [App-G.doc](../../../../attachments/DCSDCS/11747197328/att11747197379-App-G.doc)
+- [App-F.doc](../../../../attachments/DCSDCS/11747197328/att11747197382-App-F.doc)
+- [App-E.doc](../../../../attachments/DCSDCS/11747197328/att11747197385-App-E.doc)
+- [App-D.doc](../../../../attachments/DCSDCS/11747197328/att11747197388-App-D.doc)
+- [App-C.doc](../../../../attachments/DCSDCS/11747197328/att11747197391-App-C.doc)
+- [App-B.doc](../../../../attachments/DCSDCS/11747197328/att11747197394-App-B.doc)
+- [App-A.doc](../../../../attachments/DCSDCS/11747197328/att11747197397-App-A.doc)
+- [Cover.doc](../../../../attachments/DCSDCS/11747197328/att11747197400-Cover.doc)
+- [Contents.doc](../../../../attachments/DCSDCS/11747197328/att11747197403-Contents.doc)
+- [App-K.doc](../../../../attachments/DCSDCS/11747197328/att11747197406-App-K.doc)

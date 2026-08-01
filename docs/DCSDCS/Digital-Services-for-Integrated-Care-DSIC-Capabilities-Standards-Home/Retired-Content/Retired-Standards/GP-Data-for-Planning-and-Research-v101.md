@@ -100,9 +100,9 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [General Practice Data for Planning and Research Technical Output Specification v0.77_06052021.xlsx](../../../../.raw/DCSDCS/attachments/11235426957/att11235426972-General Practice Data for Planning and Research Technical Output Specification v0.77_06052021.xlsx)
-- [GP Data Schema.zip](../../../../.raw/DCSDCS/attachments/11235426957/att11235426975-GP Data Schema.zip)
-- [GPDfSU GP Data Interface Specification.docx](../../../../.raw/DCSDCS/attachments/11235426957/att11235426978-GPDfSU GP Data Interface Specification.docx)
-- [GP Data Extract Supplier Implementation Guidance.docx](../../../../.raw/DCSDCS/attachments/11235426957/att11235426981-GP Data Extract Supplier Implementation Guidance.docx)
-- [GP Data for Secondary Uses Supplier Requirements.docx](../../../../.raw/DCSDCS/attachments/11235426957/att11235426984-GP Data for Secondary Uses Supplier Requirements.docx)
-- [GPDPR Solution Assurance Approach 1.0.docx](../../../../.raw/DCSDCS/attachments/11235426957/att11725340715-GPDPR Solution Assurance Approach 1.0.docx)
+- [General Practice Data for Planning and Research Technical Output Specification v0.77_06052021.xlsx](../../../../attachments/DCSDCS/11235426957/att11235426972-General Practice Data for Planning and Research Technical Output Specification v0.77_06052021.xlsx)
+- [GP Data Schema.zip](../../../../attachments/DCSDCS/11235426957/att11235426975-GP Data Schema.zip)
+- [GPDfSU GP Data Interface Specification.docx](../../../../attachments/DCSDCS/11235426957/att11235426978-GPDfSU GP Data Interface Specification.docx)
+- [GP Data Extract Supplier Implementation Guidance.docx](../../../../attachments/DCSDCS/11235426957/att11235426981-GP Data Extract Supplier Implementation Guidance.docx)
+- [GP Data for Secondary Uses Supplier Requirements.docx](../../../../attachments/DCSDCS/11235426957/att11235426984-GP Data for Secondary Uses Supplier Requirements.docx)
+- [GPDPR Solution Assurance Approach 1.0.docx](../../../../attachments/DCSDCS/11235426957/att11725340715-GPDPR Solution Assurance Approach 1.0.docx)

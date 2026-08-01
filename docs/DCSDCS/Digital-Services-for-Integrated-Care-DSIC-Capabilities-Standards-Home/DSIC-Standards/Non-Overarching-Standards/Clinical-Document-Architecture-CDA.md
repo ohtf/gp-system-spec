@@ -36,19 +36,19 @@ However it should be noted that NHS standards for structured clinical document t
 
 If a system sends or receives CDA messages it must comply with the requirements included in the CDA document set:
 
-[HSCIC-FNT-TO-TAR-0082.02…](../../../../.raw/DCSDCS/attachments/1391133745/att1391139097-HSCIC-FNT-TO-TAR-0082.02 CDA Interoperability - MHS Requirements v1.1.docx)
+[HSCIC-FNT-TO-TAR-0082.02…](../../../../attachments/DCSDCS/1391133745/att1391139097-HSCIC-FNT-TO-TAR-0082.02 CDA Interoperability - MHS Requirements v1.1.docx)
 
-[HSCIC-FNT-TO-TAR-0081.03…](../../../../.raw/DCSDCS/attachments/1391133745/att1391138598-HSCIC-FNT-TO-TAR-0081.03 CDA Document Technical Requirements v2.1.docx)
+[HSCIC-FNT-TO-TAR-0081.03…](../../../../attachments/DCSDCS/1391133745/att1391138598-HSCIC-FNT-TO-TAR-0081.03 CDA Document Technical Requirements v2.1.docx)
 
-[HSCIC-FNT-TO-TAR-0080.03…](../../../../.raw/DCSDCS/attachments/1391133745/att1391139041-HSCIC-FNT-TO-TAR-0080.03 CDA Document Receiver Requirements V2.2.docx)
+[HSCIC-FNT-TO-TAR-0080.03…](../../../../attachments/DCSDCS/1391133745/att1391139041-HSCIC-FNT-TO-TAR-0080.03 CDA Document Receiver Requirements V2.2.docx)
 
-[HSCIC-FNT-TO-TAR-0079.03…](../../../../.raw/DCSDCS/attachments/1391133745/att1391139127-HSCIC-FNT-TO-TAR-0079.03 CDA Document Sender Requirements V2.1.docx)
+[HSCIC-FNT-TO-TAR-0079.03…](../../../../attachments/DCSDCS/1391133745/att1391139127-HSCIC-FNT-TO-TAR-0079.03 CDA Document Sender Requirements V2.1.docx)
 
-[HSCIC-FNT-TO-TAR-0095.02…](../../../../.raw/DCSDCS/attachments/1391133745/att1391139050-HSCIC-FNT-TO-TAR-0095.02 Clinical Documents - Attachment Types v2.0 (1).docx)
+[HSCIC-FNT-TO-TAR-0095.02…](../../../../attachments/DCSDCS/1391133745/att1391139050-HSCIC-FNT-TO-TAR-0095.02 Clinical Documents - Attachment Types v2.0 (1).docx)
 
-[HSCIC-FNT-TO-TAR-0092.04…](../../../../.raw/DCSDCS/attachments/1391133745/att1391139040-HSCIC-FNT-TO-TAR-0092.04.01 CDA - Management Information v3.1.docx)
+[HSCIC-FNT-TO-TAR-0092.04…](../../../../attachments/DCSDCS/1391133745/att1391139040-HSCIC-FNT-TO-TAR-0092.04.01 CDA - Management Information v3.1.docx)
 
-[HSCIC-FNT-TO-TAR-0083 02…](../../../../.raw/DCSDCS/attachments/1391133745/att1391139073-HSCIC-FNT-TO-TAR-0083 02 CDA Interoperability - Point to Point Error Codes v2.0.docx)
+[HSCIC-FNT-TO-TAR-0083 02…](../../../../attachments/DCSDCS/1391133745/att1391139073-HSCIC-FNT-TO-TAR-0083 02 CDA Interoperability - Point to Point Error Codes v2.0.docx)
 
 # Dependencies {#ClinicalDocumentArchitecture(CDA)-Dependencies}
 
@@ -64,10 +64,10 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [HSCIC-FNT-TO-TAR-0081.03 CDA Document Technical Requirements v2.1.docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391138598-HSCIC-FNT-TO-TAR-0081.03 CDA Document Technical Requirements v2.1.docx)
-- [HSCIC-FNT-TO-TAR-0092.04.01 CDA - Management Information v3.1.docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391139040-HSCIC-FNT-TO-TAR-0092.04.01 CDA - Management Information v3.1.docx)
-- [HSCIC-FNT-TO-TAR-0080.03 CDA Document Receiver Requirements V2.2.docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391139041-HSCIC-FNT-TO-TAR-0080.03 CDA Document Receiver Requirements V2.2.docx)
-- [HSCIC-FNT-TO-TAR-0095.02 Clinical Documents - Attachment Types v2.0 (1).docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391139050-HSCIC-FNT-TO-TAR-0095.02 Clinical Documents - Attachment Types v2.0 (1).docx)
-- [HSCIC-FNT-TO-TAR-0083 02 CDA Interoperability - Point to Point Error Codes v2.0.docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391139073-HSCIC-FNT-TO-TAR-0083 02 CDA Interoperability - Point to Point Error Codes v2.0.docx)
-- [HSCIC-FNT-TO-TAR-0082.02 CDA Interoperability - MHS Requirements v1.1.docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391139097-HSCIC-FNT-TO-TAR-0082.02 CDA Interoperability - MHS Requirements v1.1.docx)
-- [HSCIC-FNT-TO-TAR-0079.03 CDA Document Sender Requirements V2.1.docx](../../../../.raw/DCSDCS/attachments/1391133745/att1391139127-HSCIC-FNT-TO-TAR-0079.03 CDA Document Sender Requirements V2.1.docx)
+- [HSCIC-FNT-TO-TAR-0081.03 CDA Document Technical Requirements v2.1.docx](../../../../attachments/DCSDCS/1391133745/att1391138598-HSCIC-FNT-TO-TAR-0081.03 CDA Document Technical Requirements v2.1.docx)
+- [HSCIC-FNT-TO-TAR-0092.04.01 CDA - Management Information v3.1.docx](../../../../attachments/DCSDCS/1391133745/att1391139040-HSCIC-FNT-TO-TAR-0092.04.01 CDA - Management Information v3.1.docx)
+- [HSCIC-FNT-TO-TAR-0080.03 CDA Document Receiver Requirements V2.2.docx](../../../../attachments/DCSDCS/1391133745/att1391139041-HSCIC-FNT-TO-TAR-0080.03 CDA Document Receiver Requirements V2.2.docx)
+- [HSCIC-FNT-TO-TAR-0095.02 Clinical Documents - Attachment Types v2.0 (1).docx](../../../../attachments/DCSDCS/1391133745/att1391139050-HSCIC-FNT-TO-TAR-0095.02 Clinical Documents - Attachment Types v2.0 (1).docx)
+- [HSCIC-FNT-TO-TAR-0083 02 CDA Interoperability - Point to Point Error Codes v2.0.docx](../../../../attachments/DCSDCS/1391133745/att1391139073-HSCIC-FNT-TO-TAR-0083 02 CDA Interoperability - Point to Point Error Codes v2.0.docx)
+- [HSCIC-FNT-TO-TAR-0082.02 CDA Interoperability - MHS Requirements v1.1.docx](../../../../attachments/DCSDCS/1391133745/att1391139097-HSCIC-FNT-TO-TAR-0082.02 CDA Interoperability - MHS Requirements v1.1.docx)
+- [HSCIC-FNT-TO-TAR-0079.03 CDA Document Sender Requirements V2.1.docx](../../../../attachments/DCSDCS/1391133745/att1391139127-HSCIC-FNT-TO-TAR-0079.03 CDA Document Sender Requirements V2.1.docx)

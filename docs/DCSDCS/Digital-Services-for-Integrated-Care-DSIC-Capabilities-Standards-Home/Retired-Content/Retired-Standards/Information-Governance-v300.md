@@ -225,5 +225,5 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS.docx](../../../../.raw/DCSDCS/attachments/5179736554/att5179736557-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS.docx)
-- [Onboarding Risk Based Tracebaility GDPR_DPA Compliance Questions for DCS.docx](../../../../.raw/DCSDCS/attachments/5179736554/att5179736560-Onboarding Risk Based Tracebaility GDPR_DPA Compliance Questions for DCS.docx)
+- [Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS.docx](../../../../attachments/DCSDCS/5179736554/att5179736557-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS.docx)
+- [Onboarding Risk Based Tracebaility GDPR_DPA Compliance Questions for DCS.docx](../../../../attachments/DCSDCS/5179736554/att5179736560-Onboarding Risk Based Tracebaility GDPR_DPA Compliance Questions for DCS.docx)

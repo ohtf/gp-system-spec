@@ -114,5 +114,5 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx](../../../../.raw/DCSDCS/attachments/12199854349/att12199854373-ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx)
-- [hcp type.PNG](../../../../.raw/DCSDCS/attachments/12199854349/att12199854376-hcp type.PNG)
+- [ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx](../../../../attachments/DCSDCS/12199854349/att12199854373-ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx)
+- [hcp type.PNG](../../../../attachments/DCSDCS/12199854349/att12199854376-hcp type.PNG)

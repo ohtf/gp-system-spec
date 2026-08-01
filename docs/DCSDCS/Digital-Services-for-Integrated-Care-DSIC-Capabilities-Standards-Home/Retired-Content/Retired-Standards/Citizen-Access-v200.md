@@ -155,7 +155,7 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [image2018-5-24_10-9-30.png](../../../../.raw/DCSDCS/attachments/1754366487/att1754366490-image2018-5-24_10-9-30.png)
-- [Account Types.jpg](../../../../.raw/DCSDCS/attachments/1754366487/att1754366493-Account Types.jpg)
-- [Account Structure (1).jpg](../../../../.raw/DCSDCS/attachments/1754366487/att1754366496-Account Structure (1).jpg)
-- [Account Lifecycle 2 (1).jpg](../../../../.raw/DCSDCS/attachments/1754366487/att1754366499-Account Lifecycle 2 (1).jpg)
+- [image2018-5-24_10-9-30.png](../../../../attachments/DCSDCS/1754366487/att1754366490-image2018-5-24_10-9-30.png)
+- [Account Types.jpg](../../../../attachments/DCSDCS/1754366487/att1754366493-Account Types.jpg)
+- [Account Structure (1).jpg](../../../../attachments/DCSDCS/1754366487/att1754366496-Account Structure (1).jpg)
+- [Account Lifecycle 2 (1).jpg](../../../../attachments/DCSDCS/1754366487/att1754366499-Account Lifecycle 2 (1).jpg)

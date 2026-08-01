@@ -29,7 +29,7 @@ labels: ["reference_page"]
 
 The NHS Spine supports national services such as the  Personal Demographics Service (PDS), e-Referrals Service (e-RS), Electronic Prescription Service (EPS) and the Summary Care Record (SCR). To provide secure access to these systems Spine hosts an number of subsystems which are defined in the External Interface Specification (EIS). The FHIR services guidance is accessible at  Spine FHIR APIs.  There are also a number of supporting artefacts that needed for development to enable Spine access. The migration from Spine to Spine 2 has seen an uplift and renaming of some services, which is defined as the DIP (Digital Interoperability Platform). A representation of the DIP can be seen below:
 
-[2017-05-22 - DIP Diagram…](../../../.raw/DCSDCS/attachments/1391133543/att1391149316-2017-05-22 - DIP Diagram.pdf)
+[2017-05-22 - DIP Diagram…](../../../attachments/DCSDCS/1391133543/att1391149316-2017-05-22 - DIP Diagram.pdf)
 
 There are two core patient information repositories Spine Clinicals and Spine Demographics, where a service sits is determined by the sensitivity of the data, currently
 
@@ -93,8 +93,8 @@ It is recommended to read [GP software developer guide](https://digital.nhs.uk/
 
 ## Attachments
 
-- [2017-05-22 - DIP Diagram.vsd](../../../.raw/DCSDCS/attachments/1391133543/att1391149087-2017-05-22 - DIP Diagram.vsd)
-- [NPFIT-FNT-TO-SCG-0005 App3 v2.xls](../../../.raw/DCSDCS/attachments/1391133543/att1391149166-NPFIT-FNT-TO-SCG-0005 App3 v2.xls)
-- [Spine101.pdf](../../../.raw/DCSDCS/attachments/1391133543/att1391149205-Spine101.pdf)
-- [2017-05-22 - DIP Diagram.pdf](../../../.raw/DCSDCS/attachments/1391133543/att1391149316-2017-05-22 - DIP Diagram.pdf)
-- [NPFIT-FNT-TO-SCG-0005 SCG clarification on timezone v1.1.doc](../../../.raw/DCSDCS/attachments/1391133543/att1391158150-NPFIT-FNT-TO-SCG-0005 SCG clarification on timezone v1.1.doc)
+- [2017-05-22 - DIP Diagram.vsd](../../../attachments/DCSDCS/1391133543/att1391149087-2017-05-22 - DIP Diagram.vsd)
+- [NPFIT-FNT-TO-SCG-0005 App3 v2.xls](../../../attachments/DCSDCS/1391133543/att1391149166-NPFIT-FNT-TO-SCG-0005 App3 v2.xls)
+- [Spine101.pdf](../../../attachments/DCSDCS/1391133543/att1391149205-Spine101.pdf)
+- [2017-05-22 - DIP Diagram.pdf](../../../attachments/DCSDCS/1391133543/att1391149316-2017-05-22 - DIP Diagram.pdf)
+- [NPFIT-FNT-TO-SCG-0005 SCG clarification on timezone v1.1.doc](../../../attachments/DCSDCS/1391133543/att1391158150-NPFIT-FNT-TO-SCG-0005 SCG clarification on timezone v1.1.doc)

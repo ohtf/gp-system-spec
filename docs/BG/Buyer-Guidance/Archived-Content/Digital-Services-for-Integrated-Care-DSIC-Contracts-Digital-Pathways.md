@@ -24,25 +24,25 @@ These documents are available in the zip files attached in the table below.
 
 | **Document Set** | **Files** |
 | --- | --- |
-| Digital Pathways Framework Agreement | [Digital Pathways Framewo…](../../../.raw/BG/attachments/12506432256/att12520521902-Digital Pathways Framework 30 Aug2023.zip) |
-| Digital Pathways Call Off Agreement | [Digital Pathways Call Of…](../../../.raw/BG/attachments/12506432256/att12521537539-Digital Pathways Call Off 30Aug2023.zip) |
-| Catalogue Agreement | [DCS\_CA\_Terms\_&\_Schedules…](../../../.raw/BG/attachments/12506432256/att12507676702-DCS_CA_Terms_&_Schedules_28_09_2021.zip) |
-| Data Processing Deed | [02. Data Processing Deed…](../../../.raw/BG/attachments/12506432256/att12507676708-02. Data Processing Deed.zip) |
-| Ancillary Documents | [00. Ancillary Documents …](../../../.raw/BG/attachments/12506432256/att12507676714-00. Ancillary Documents (1).zip) |
+| Digital Pathways Framework Agreement | [Digital Pathways Framewo…](../../../attachments/BG/12506432256/att12520521902-Digital Pathways Framework 30 Aug2023.zip) |
+| Digital Pathways Call Off Agreement | [Digital Pathways Call Of…](../../../attachments/BG/12506432256/att12521537539-Digital Pathways Call Off 30Aug2023.zip) |
+| Catalogue Agreement | [DCS\_CA\_Terms\_&\_Schedules…](../../../attachments/BG/12506432256/att12507676702-DCS_CA_Terms_&_Schedules_28_09_2021.zip) |
+| Data Processing Deed | [02. Data Processing Deed…](../../../attachments/BG/12506432256/att12507676708-02. Data Processing Deed.zip) |
+| Ancillary Documents | [00. Ancillary Documents …](../../../attachments/BG/12506432256/att12507676714-00. Ancillary Documents (1).zip) |
 
 Contract set: Progress Tracker
 
 There are a small number of items still to resolve - these are referenced on the attached document and we are working with our Legal team on them.
 
-[Digital Pathways changes…](../../../.raw/BG/attachments/12506432256/att12520292452-Digital Pathways changes tracker 25.08.23(128287187.1).docx)
+[Digital Pathways changes…](../../../attachments/BG/12506432256/att12520292452-Digital Pathways changes tracker 25.08.23(128287187.1).docx)
 
 ## Attachments
 
-- [DCS_CA_Terms_&_Schedules_28_09_2021.zip](../../../.raw/BG/attachments/12506432256/att12507676702-DCS_CA_Terms_&_Schedules_28_09_2021.zip)
-- [02. Data Processing Deed.zip](../../../.raw/BG/attachments/12506432256/att12507676708-02. Data Processing Deed.zip)
-- [00. Ancillary Documents (1).zip](../../../.raw/BG/attachments/12506432256/att12507676714-00. Ancillary Documents (1).zip)
-- [Digital Pathways Framework.zip](../../../.raw/BG/attachments/12506432256/att12520259671-Digital Pathways Framework.zip)
-- [Digital Pathways changes tracker 25.08.23(128287187.1).docx](../../../.raw/BG/attachments/12506432256/att12520292452-Digital Pathways changes tracker 25.08.23(128287187.1).docx)
-- [Digital Pathways Framework 30 Aug2023.zip](../../../.raw/BG/attachments/12506432256/att12520521902-Digital Pathways Framework 30 Aug2023.zip)
-- [Digital Pathways Call Off.zip](../../../.raw/BG/attachments/12506432256/att12520587456-Digital Pathways Call Off.zip)
-- [Digital Pathways Call Off 30Aug2023.zip](../../../.raw/BG/attachments/12506432256/att12521537539-Digital Pathways Call Off 30Aug2023.zip)
+- [DCS_CA_Terms_&_Schedules_28_09_2021.zip](../../../attachments/BG/12506432256/att12507676702-DCS_CA_Terms_&_Schedules_28_09_2021.zip)
+- [02. Data Processing Deed.zip](../../../attachments/BG/12506432256/att12507676708-02. Data Processing Deed.zip)
+- [00. Ancillary Documents (1).zip](../../../attachments/BG/12506432256/att12507676714-00. Ancillary Documents (1).zip)
+- [Digital Pathways Framework.zip](../../../attachments/BG/12506432256/att12520259671-Digital Pathways Framework.zip)
+- [Digital Pathways changes tracker 25.08.23(128287187.1).docx](../../../attachments/BG/12506432256/att12520292452-Digital Pathways changes tracker 25.08.23(128287187.1).docx)
+- [Digital Pathways Framework 30 Aug2023.zip](../../../attachments/BG/12506432256/att12520521902-Digital Pathways Framework 30 Aug2023.zip)
+- [Digital Pathways Call Off.zip](../../../attachments/BG/12506432256/att12520587456-Digital Pathways Call Off.zip)
+- [Digital Pathways Call Off 30Aug2023.zip](../../../attachments/BG/12506432256/att12521537539-Digital Pathways Call Off 30Aug2023.zip)

@@ -56,7 +56,7 @@ System Suppliers can access the updated data dictionary for the NHS e-RS. Other 
 
 # Requirements {#e-ReferralsService(e-RS)v1.0.0-Requirements}
 
-[NHS e-Referrals Service …](../../../../.raw/DCSDCS/attachments/11962974236/att11962974258-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+[NHS e-Referrals Service …](../../../../attachments/DCSDCS/11962974236/att11962974258-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
 
 # Documentation {#e-ReferralsService(e-RS)v1.0.0-Documentation}
 
@@ -82,4 +82,4 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../.raw/DCSDCS/attachments/11962974236/att11962974258-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../attachments/DCSDCS/11962974236/att11962974258-NHS e-Referrals Service - Referrer Compliance Document v1.docx)

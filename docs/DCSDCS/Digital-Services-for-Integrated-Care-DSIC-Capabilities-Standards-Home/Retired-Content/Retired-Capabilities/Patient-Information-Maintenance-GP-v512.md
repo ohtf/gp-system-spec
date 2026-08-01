@@ -52,6 +52,6 @@ Also supports configuring access to Citizen Services and the submission of data 
 
 ## Attachments
 
-- [Business Rules for Firearms - v13 .docx](../../../../.raw/DCSDCS/attachments/12795642020/att12795642066-Business Rules for Firearms - v13 .docx)
-- [NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx](../../../../.raw/DCSDCS/attachments/12795642020/att12795642069-NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx)
-- [NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx](../../../../.raw/DCSDCS/attachments/12795642020/att12795642072-NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx)
+- [Business Rules for Firearms - v13 .docx](../../../../attachments/DCSDCS/12795642020/att12795642066-Business Rules for Firearms - v13 .docx)
+- [NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx](../../../../attachments/DCSDCS/12795642020/att12795642069-NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx)
+- [NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx](../../../../attachments/DCSDCS/12795642020/att12795642072-NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx)

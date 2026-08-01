@@ -731,7 +731,7 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Long and skinny csv template.csv](../../../../.raw/DCSDCS/attachments/1391134317/att1391150062-Long and skinny csv template.csv)
-- [Tabular csv template.csv](../../../../.raw/DCSDCS/attachments/1391134317/att1391150199-Tabular csv template.csv)
-- [Diagram.jpg](../../../../.raw/DCSDCS/attachments/1391134317/att1391160862-Diagram.jpg)
-- [Creating Automated SFTP Transfers - Guidance.docx](../../../../.raw/DCSDCS/attachments/1391134317/att13172736004-Creating Automated SFTP Transfers - Guidance.docx)
+- [Long and skinny csv template.csv](../../../../attachments/DCSDCS/1391134317/att1391150062-Long and skinny csv template.csv)
+- [Tabular csv template.csv](../../../../attachments/DCSDCS/1391134317/att1391150199-Tabular csv template.csv)
+- [Diagram.jpg](../../../../attachments/DCSDCS/1391134317/att1391160862-Diagram.jpg)
+- [Creating Automated SFTP Transfers - Guidance.docx](../../../../attachments/DCSDCS/1391134317/att13172736004-Creating Automated SFTP Transfers - Guidance.docx)

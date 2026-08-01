@@ -215,4 +215,4 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [GP IT Futures - Standards v0.1.drawio-NFR Model.png](../../../../.raw/DCSDCS/attachments/12038209563/att12038209584-GP IT Futures - Standards v0.1.drawio-NFR Model.png)
+- [GP IT Futures - Standards v0.1.drawio-NFR Model.png](../../../../attachments/DCSDCS/12038209563/att12038209584-GP IT Futures - Standards v0.1.drawio-NFR Model.png)

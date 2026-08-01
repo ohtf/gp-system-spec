@@ -69,6 +69,6 @@ BaRS provides a list of prerequisites in the [BaRS Principles and Prerequisites]
 
 ## Attachments
 
-- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../.raw/DCSDCS/attachments/13248528385/att13248528402-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)
-- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../.raw/DCSDCS/attachments/13248528385/att13248528405-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
-- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../.raw/DCSDCS/attachments/13248528385/att13248528408-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../attachments/DCSDCS/13248528385/att13248528402-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)
+- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../attachments/DCSDCS/13248528385/att13248528405-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../attachments/DCSDCS/13248528385/att13248528408-NHS e-Referrals Service - Referrer Compliance Document v1.docx)

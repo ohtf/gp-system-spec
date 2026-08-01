@@ -138,10 +138,10 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [GP IT Futures Training Exemptionv1-0.docx](../../../../.raw/DCSDCS/attachments/1391133846/att1391149943-GP IT Futures Training Exemptionv1-0.docx)
-- [GP IT Futures Training_Impact_Analysis_v1-0.docx](../../../../.raw/DCSDCS/attachments/1391133846/att1391149961-GP IT Futures Training_Impact_Analysis_v1-0.docx)
-- [GP IT Futures Evaluation Report Template v1-1.docx](../../../../.raw/DCSDCS/attachments/1391133846/att1391151481-GP IT Futures Evaluation Report Template v1-1.docx)
-- [GP IT Trainer Observation Form v1-1.docx](../../../../.raw/DCSDCS/attachments/1391133846/att1391151513-GP IT Trainer Observation Form v1-1.docx)
-- [GP IT Futures Local Training Planv1-2.docx](../../../../.raw/DCSDCS/attachments/1391133846/att1391151532-GP IT Futures Local Training Planv1-2.docx)
-- [GP IT Futures Supplier Training Planv1-2.docx](../../../../.raw/DCSDCS/attachments/1391133846/att1391151769-GP IT Futures Supplier Training Planv1-2.docx)
-- [GP IT Futures Evaluation Report Template v1-1 (5).docx](../../../../.raw/DCSDCS/attachments/1391133846/att14222753854-GP IT Futures Evaluation Report Template v1-1 (5).docx)
+- [GP IT Futures Training Exemptionv1-0.docx](../../../../attachments/DCSDCS/1391133846/att1391149943-GP IT Futures Training Exemptionv1-0.docx)
+- [GP IT Futures Training_Impact_Analysis_v1-0.docx](../../../../attachments/DCSDCS/1391133846/att1391149961-GP IT Futures Training_Impact_Analysis_v1-0.docx)
+- [GP IT Futures Evaluation Report Template v1-1.docx](../../../../attachments/DCSDCS/1391133846/att1391151481-GP IT Futures Evaluation Report Template v1-1.docx)
+- [GP IT Trainer Observation Form v1-1.docx](../../../../attachments/DCSDCS/1391133846/att1391151513-GP IT Trainer Observation Form v1-1.docx)
+- [GP IT Futures Local Training Planv1-2.docx](../../../../attachments/DCSDCS/1391133846/att1391151532-GP IT Futures Local Training Planv1-2.docx)
+- [GP IT Futures Supplier Training Planv1-2.docx](../../../../attachments/DCSDCS/1391133846/att1391151769-GP IT Futures Supplier Training Planv1-2.docx)
+- [GP IT Futures Evaluation Report Template v1-1 (5).docx](../../../../attachments/DCSDCS/1391133846/att14222753854-GP IT Futures Evaluation Report Template v1-1 (5).docx)

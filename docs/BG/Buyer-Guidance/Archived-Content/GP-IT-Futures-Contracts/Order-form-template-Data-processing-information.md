@@ -14,8 +14,8 @@ Download the Data processing information template so that the supplier can provi
 
 **Data processing information template**
 
-[Data processing informat…](../../../../.raw/BG/attachments/12207980954/att12208996586-Data processing information template_Schedule 2.3.docx)
+[Data processing informat…](../../../../attachments/BG/12207980954/att12208996586-Data processing information template_Schedule 2.3.docx)
 
 ## Attachments
 
-- [Data processing information template_Schedule 2.3.docx](../../../../.raw/BG/attachments/12207980954/att12208996586-Data processing information template_Schedule 2.3.docx)
+- [Data processing information template_Schedule 2.3.docx](../../../../attachments/BG/12207980954/att12208996586-Data processing information template_Schedule 2.3.docx)

@@ -68,5 +68,5 @@ Suppliers do not have to provide a Solution that delivers all Capabilities and a
 
 ## Attachments
 
-- [DFOCVC Capabilities and Standards model v0.3.png](../../../.raw/DFOCVCL/attachments/5132484871/att5191860373-DFOCVC Capabilities and Standards model v0.3.png)
-- [DFOCVC Capabilities and Standards model v0.1 (1).jpg](../../../.raw/DFOCVCL/attachments/5132484871/att10592616560-DFOCVC Capabilities and Standards model v0.1 (1).jpg)
+- [DFOCVC Capabilities and Standards model v0.3.png](../../../attachments/DFOCVCL/5132484871/att5191860373-DFOCVC Capabilities and Standards model v0.3.png)
+- [DFOCVC Capabilities and Standards model v0.1 (1).jpg](../../../attachments/DFOCVCL/5132484871/att10592616560-DFOCVC Capabilities and Standards model v0.1 (1).jpg)

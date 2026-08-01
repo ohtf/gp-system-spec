@@ -90,4 +90,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc](../../../../.raw/DCSDCS/attachments/1391133789/att1391142678-Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc)
+- [Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc](../../../../attachments/DCSDCS/1391133789/att1391142678-Cancer Screening - eGP-Comms GP Software Supplier Requirements v4.1.doc)

@@ -80,8 +80,8 @@ If you have questions or need assistance please contact your Supplier Manager
 
 ## Attachments
 
-- [TIF Solution Registration and Capability Selection Form.xlsx](../../../.raw/GIFTIF/attachments/12270960809/att12284592191-TIF Solution Registration and Capability Selection Form.xlsx)
-- [TIF Associated Service Form.xlsx](../../../.raw/GIFTIF/attachments/12270960809/att12284624974-TIF Associated Service Form.xlsx)
-- [TIF Additional Service Form.xlsx](../../../.raw/GIFTIF/attachments/12270960809/att12285247598-TIF Additional Service Form.xlsx)
-- [image-20230223-115303.png](../../../.raw/GIFTIF/attachments/12270960809/att12320243838-image-20230223-115303.png)
-- [image-20230223-120131.png](../../../.raw/GIFTIF/attachments/12270960809/att12320931953-image-20230223-120131.png)
+- [TIF Solution Registration and Capability Selection Form.xlsx](../../../attachments/GIFTIF/12270960809/att12284592191-TIF Solution Registration and Capability Selection Form.xlsx)
+- [TIF Associated Service Form.xlsx](../../../attachments/GIFTIF/12270960809/att12284624974-TIF Associated Service Form.xlsx)
+- [TIF Additional Service Form.xlsx](../../../attachments/GIFTIF/12270960809/att12285247598-TIF Additional Service Form.xlsx)
+- [image-20230223-115303.png](../../../attachments/GIFTIF/12270960809/att12320243838-image-20230223-115303.png)
+- [image-20230223-120131.png](../../../attachments/GIFTIF/12270960809/att12320931953-image-20230223-120131.png)

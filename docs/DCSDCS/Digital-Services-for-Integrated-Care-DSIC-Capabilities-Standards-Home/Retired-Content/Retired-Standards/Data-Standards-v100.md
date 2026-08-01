@@ -96,8 +96,8 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf](../../../../.raw/DCSDCS/attachments/2530770957/att2530770960-SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf)
-- [AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx](../../../../.raw/DCSDCS/attachments/2530770957/att2530770963-AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx)
-- [AA3 Implementing the Allergy Archetype in FHIR v1.docx](../../../../.raw/DCSDCS/attachments/2530770957/att2530770966-AA3 Implementing the Allergy Archetype in FHIR v1.docx)
-- [AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx](../../../../.raw/DCSDCS/attachments/2530770957/att2530770969-AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx)
-- [AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx](../../../../.raw/DCSDCS/attachments/2530770957/att2530770972-AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx)
+- [SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf](../../../../attachments/DCSDCS/2530770957/att2530770960-SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf)
+- [AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx](../../../../attachments/DCSDCS/2530770957/att2530770963-AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx)
+- [AA3 Implementing the Allergy Archetype in FHIR v1.docx](../../../../attachments/DCSDCS/2530770957/att2530770966-AA3 Implementing the Allergy Archetype in FHIR v1.docx)
+- [AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx](../../../../attachments/DCSDCS/2530770957/att2530770969-AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx)
+- [AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx](../../../../attachments/DCSDCS/2530770957/att2530770972-AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx)

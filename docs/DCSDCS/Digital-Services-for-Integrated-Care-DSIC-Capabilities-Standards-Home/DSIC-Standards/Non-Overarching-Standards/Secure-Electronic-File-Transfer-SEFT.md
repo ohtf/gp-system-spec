@@ -56,4 +56,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [3rd Party Set Up.docx](../../../../.raw/DCSDCS/attachments/1391134107/att1391155347-3rd Party Set Up.docx)
+- [3rd Party Set Up.docx](../../../../attachments/DCSDCS/1391134107/att1391155347-3rd Party Set Up.docx)

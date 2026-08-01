@@ -41,7 +41,7 @@ Supplier Solutions need to retrieve the National Data Opt-Out Status before usin
 |  |  |  |
 | --- | --- | --- |
 | **ID** | **Requirement** | **Level** |
-| **NDOP-01** | Implement and maintain National Data Opt-Out inline with the final set of National Data Opt-Out requirements, v2.0 published April 2019:  [NDOP GP IT Change requir…](../../../../.raw/DCSDCS/attachments/11931680923/att11931680937-NDOP GP IT Change requirements v2.0 29Apr2019.docx) | MUST |
+| **NDOP-01** | Implement and maintain National Data Opt-Out inline with the final set of National Data Opt-Out requirements, v2.0 published April 2019:  [NDOP GP IT Change requir…](../../../../attachments/DCSDCS/11931680923/att11931680937-NDOP GP IT Change requirements v2.0 29Apr2019.docx) | MUST |
 
 # Compliance, Assurance and Testing {#NationalDataOpt-Out-Compliance,AssuranceandTesting}
 
@@ -63,4 +63,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [NDOP GP IT Change requirements v2.0 29Apr2019.docx](../../../../.raw/DCSDCS/attachments/11931680923/att11931680937-NDOP GP IT Change requirements v2.0 29Apr2019.docx)
+- [NDOP GP IT Change requirements v2.0 29Apr2019.docx](../../../../attachments/DCSDCS/11931680923/att11931680937-NDOP GP IT Change requirements v2.0 29Apr2019.docx)

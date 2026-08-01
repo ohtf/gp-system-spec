@@ -52,6 +52,6 @@ Items on the Roadmap which impact or relate to this Capability
 
 ## Attachments
 
-- [Example_xml_file.xml](../../../.raw/DCSDCS/attachments/1391134029/att11964088369-Example_xml_file.xml)
-- [XML_csv_view_V10_0.csv](../../../.raw/DCSDCS/attachments/1391134029/att11964350495-XML_csv_view_V10_0.csv)
-- [Example_mapping_file.csv](../../../.raw/DCSDCS/attachments/1391134029/att11964383320-Example_mapping_file.csv)
+- [Example_xml_file.xml](../../../attachments/DCSDCS/1391134029/att11964088369-Example_xml_file.xml)
+- [XML_csv_view_V10_0.csv](../../../attachments/DCSDCS/1391134029/att11964350495-XML_csv_view_V10_0.csv)
+- [Example_mapping_file.csv](../../../attachments/DCSDCS/1391134029/att11964383320-Example_mapping_file.csv)

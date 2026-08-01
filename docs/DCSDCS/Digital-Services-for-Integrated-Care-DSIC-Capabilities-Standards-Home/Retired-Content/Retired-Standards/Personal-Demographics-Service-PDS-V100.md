@@ -59,15 +59,15 @@ For advice and support from the NHS Business Partners programme, please contact
 
 The following documents form the PDS integration baseline for local systems wishing to integrate with PDS. This new set of requirements apply to all new system suppliers wishing to complete PDS integration. Existing suppliers are not expected to implement the full scope of new requirements until '2018 PDS Integration Requirements – v1.0' is mandated for all suppliers.
 
-[2018 PDS Integration Req…](../../../../.raw/DCSDCS/attachments/11963203605/att11963203641-2018 PDS Integration Requirements Matrix - v1.0.xlsx)[2018 PDS Integration Req…](../../../../.raw/DCSDCS/attachments/11963203605/att11963203638-2018 PDS Integration Requirements - v1.0.docx)[2018 PDS Integration Fou…](../../../../.raw/DCSDCS/attachments/11963203605/att11963203632-2018 PDS Integration Foundation Module - Baseline Index - v1.0.docx)[2018 PDS Integration Gui…](../../../../.raw/DCSDCS/attachments/11963203605/att11963203635-2018 PDS Integration Guidance - v1.0.docx)
+[2018 PDS Integration Req…](../../../../attachments/DCSDCS/11963203605/att11963203641-2018 PDS Integration Requirements Matrix - v1.0.xlsx)[2018 PDS Integration Req…](../../../../attachments/DCSDCS/11963203605/att11963203638-2018 PDS Integration Requirements - v1.0.docx)[2018 PDS Integration Fou…](../../../../attachments/DCSDCS/11963203605/att11963203632-2018 PDS Integration Foundation Module - Baseline Index - v1.0.docx)[2018 PDS Integration Gui…](../../../../attachments/DCSDCS/11963203605/att11963203635-2018 PDS Integration Guidance - v1.0.docx)
 
 The two documents below are listed in the 2018 PDS Integration Foundation Module - Baseline Index - v1.0 document as Guidance documents. They are of a historic nature but contain important information that is still relevant today.
 
 The following document tells supplier which RBAC is relevant to PDS-related activities and enables suppliers to focus their approach accordingly. Suppliers are advised to focus their attention on sections 1, 3 and 4.  
-[NPFIT-SI-SIGOV-0073.05 G…](../../../../.raw/DCSDCS/attachments/11963203605/att11963203623-NPFIT-SI-SIGOV-0073.05 Guidance on Implementing RBAC for PSIS and PDS v2.1.docx)
+[NPFIT-SI-SIGOV-0073.05 G…](../../../../attachments/DCSDCS/11963203605/att11963203623-NPFIT-SI-SIGOV-0073.05 Guidance on Implementing RBAC for PSIS and PDS v2.1.docx)
 
 The following document provides useful background information on how a supplier might support business processes relating to BUS Sensitive patient records.  
-[NPFIT-FNT-TO-DSD-0120.06…](../../../../.raw/DCSDCS/attachments/11963203605/att11963203626-NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc)
+[NPFIT-FNT-TO-DSD-0120.06…](../../../../attachments/DCSDCS/11963203605/att11963203626-NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc)
 
 # Dependencies {#PersonalDemographicsService(PDS)V1..0.0-Dependencies}
 
@@ -85,10 +85,10 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [NPFIT-SI-SIGOV-0073.05 Guidance on Implementing RBAC for PSIS and PDS v2.1.docx](../../../../.raw/DCSDCS/attachments/11963203605/att11963203623-NPFIT-SI-SIGOV-0073.05 Guidance on Implementing RBAC for PSIS and PDS v2.1.docx)
-- [NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc](../../../../.raw/DCSDCS/attachments/11963203605/att11963203626-NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc)
-- [2018 PDS Integration - Additional Requirements For Existing Compliant GP Systems- v0.1.docx](../../../../.raw/DCSDCS/attachments/11963203605/att11963203629-2018 PDS Integration - Additional Requirements For Existing Compliant GP Systems- v0.1.docx)
-- [2018 PDS Integration Foundation Module - Baseline Index - v1.0.docx](../../../../.raw/DCSDCS/attachments/11963203605/att11963203632-2018 PDS Integration Foundation Module - Baseline Index - v1.0.docx)
-- [2018 PDS Integration Guidance - v1.0.docx](../../../../.raw/DCSDCS/attachments/11963203605/att11963203635-2018 PDS Integration Guidance - v1.0.docx)
-- [2018 PDS Integration Requirements - v1.0.docx](../../../../.raw/DCSDCS/attachments/11963203605/att11963203638-2018 PDS Integration Requirements - v1.0.docx)
-- [2018 PDS Integration Requirements Matrix - v1.0.xlsx](../../../../.raw/DCSDCS/attachments/11963203605/att11963203641-2018 PDS Integration Requirements Matrix - v1.0.xlsx)
+- [NPFIT-SI-SIGOV-0073.05 Guidance on Implementing RBAC for PSIS and PDS v2.1.docx](../../../../attachments/DCSDCS/11963203605/att11963203623-NPFIT-SI-SIGOV-0073.05 Guidance on Implementing RBAC for PSIS and PDS v2.1.docx)
+- [NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc](../../../../attachments/DCSDCS/11963203605/att11963203626-NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc)
+- [2018 PDS Integration - Additional Requirements For Existing Compliant GP Systems- v0.1.docx](../../../../attachments/DCSDCS/11963203605/att11963203629-2018 PDS Integration - Additional Requirements For Existing Compliant GP Systems- v0.1.docx)
+- [2018 PDS Integration Foundation Module - Baseline Index - v1.0.docx](../../../../attachments/DCSDCS/11963203605/att11963203632-2018 PDS Integration Foundation Module - Baseline Index - v1.0.docx)
+- [2018 PDS Integration Guidance - v1.0.docx](../../../../attachments/DCSDCS/11963203605/att11963203635-2018 PDS Integration Guidance - v1.0.docx)
+- [2018 PDS Integration Requirements - v1.0.docx](../../../../attachments/DCSDCS/11963203605/att11963203638-2018 PDS Integration Requirements - v1.0.docx)
+- [2018 PDS Integration Requirements Matrix - v1.0.xlsx](../../../../attachments/DCSDCS/11963203605/att11963203641-2018 PDS Integration Requirements Matrix - v1.0.xlsx)

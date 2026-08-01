@@ -78,4 +78,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [itk_arch_1.0.0_20140718000002.zip](../../../../.raw/DCSDCS/attachments/1391133906/att1471053873-itk_arch_1.0.0_20140718000002.zip)
+- [itk_arch_1.0.0_20140718000002.zip](../../../../attachments/DCSDCS/1391133906/att1471053873-itk_arch_1.0.0_20140718000002.zip)

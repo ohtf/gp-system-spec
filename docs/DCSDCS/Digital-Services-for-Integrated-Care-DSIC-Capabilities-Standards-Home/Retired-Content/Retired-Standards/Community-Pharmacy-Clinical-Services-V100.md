@@ -43,8 +43,8 @@ Currently, there are no Secondary Artefacts in this Supplementary Care Standard.
 
 ## Attachments
 
-- [AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx](../../../../.raw/DCSDCS/attachments/13328252929/att13328252940-AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx)
-- [AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx](../../../../.raw/DCSDCS/attachments/13328252929/att13328252943-AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx)
-- [AA3 Implementing the Allergy Archetype in FHIR v1.docx](../../../../.raw/DCSDCS/attachments/13328252929/att13328252946-AA3 Implementing the Allergy Archetype in FHIR v1.docx)
-- [AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx](../../../../.raw/DCSDCS/attachments/13328252929/att13328252949-AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx)
-- [SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf](../../../../.raw/DCSDCS/attachments/13328252929/att13328252952-SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf)
+- [AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx](../../../../attachments/DCSDCS/13328252929/att13328252940-AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx)
+- [AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx](../../../../attachments/DCSDCS/13328252929/att13328252943-AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx)
+- [AA3 Implementing the Allergy Archetype in FHIR v1.docx](../../../../attachments/DCSDCS/13328252929/att13328252946-AA3 Implementing the Allergy Archetype in FHIR v1.docx)
+- [AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx](../../../../attachments/DCSDCS/13328252929/att13328252949-AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx)
+- [SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf](../../../../attachments/DCSDCS/13328252929/att13328252952-SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf)

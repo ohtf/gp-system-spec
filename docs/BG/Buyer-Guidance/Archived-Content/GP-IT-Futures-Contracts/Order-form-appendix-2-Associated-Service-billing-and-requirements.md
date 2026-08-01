@@ -14,8 +14,8 @@ Download and complete the template to document any changes you’ve agreed with 
 
 **Appendix 2: Associated Service billing and requirements**
 
-[Appendix 2\_Associated Se…](../../../../.raw/BG/attachments/12209684600/att12209422518-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
+[Appendix 2\_Associated Se…](../../../../attachments/BG/12209684600/att12209422518-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
 
 ## Attachments
 
-- [Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx](../../../../.raw/BG/attachments/12209684600/att12209422518-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
+- [Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx](../../../../attachments/BG/12209684600/att12209422518-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)

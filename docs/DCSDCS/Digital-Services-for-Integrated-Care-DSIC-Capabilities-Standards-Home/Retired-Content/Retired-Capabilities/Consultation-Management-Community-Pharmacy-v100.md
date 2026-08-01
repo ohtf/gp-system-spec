@@ -45,4 +45,4 @@ Enables Health or Care Professionals to record Community Pharmacy Consultation I
 
 ## Attachments
 
-- [image-20220727-150414.png](../../../../.raw/DCSDCS/attachments/13492420609/att13492420635-image-20220727-150414.png)
+- [image-20220727-150414.png](../../../../attachments/DCSDCS/13492420609/att13492420635-image-20220727-150414.png)

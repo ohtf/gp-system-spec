@@ -16,9 +16,9 @@ Please find below available to download:
 
 |  |  |
 | --- | --- |
-| **DSIC- Catalogue Agreement Terms and Schedules** | [DSIC - Catalogue Agreeme…](../../.raw/DCSDCS/attachments/13120373094/att13120373108-DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip) |
-| **Ancillary Documents** | [Ancillary Documents - V3…](../../.raw/DCSDCS/attachments/13120373094/att13120373105-Ancillary Documents - V3.0 (Final).zip) |
-| **Data Processing Deed** | [Data Processing Deed.zip](../../.raw/DCSDCS/attachments/13120373094/att14166982667-Data Processing Deed.zip) |
+| **DSIC- Catalogue Agreement Terms and Schedules** | [DSIC - Catalogue Agreeme…](../../attachments/DCSDCS/13120373094/att13120373108-DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip) |
+| **Ancillary Documents** | [Ancillary Documents - V3…](../../attachments/DCSDCS/13120373094/att13120373105-Ancillary Documents - V3.0 (Final).zip) |
+| **Data Processing Deed** | [Data Processing Deed.zip](../../attachments/DCSDCS/13120373094/att14166982667-Data Processing Deed.zip) |
 
 For the Catalogue Authority to be able to issue a signed counterpart of the Catalogue Agreement the following Schedules require completion:
 
@@ -48,6 +48,6 @@ If any further action is required following review we will advise you accordingl
 
 ## Attachments
 
-- [Ancillary Documents - V3.0 (Final).zip](../../.raw/DCSDCS/attachments/13120373094/att13120373105-Ancillary Documents - V3.0 (Final).zip)
-- [DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip](../../.raw/DCSDCS/attachments/13120373094/att13120373108-DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip)
-- [Data Processing Deed.zip](../../.raw/DCSDCS/attachments/13120373094/att14166982667-Data Processing Deed.zip)
+- [Ancillary Documents - V3.0 (Final).zip](../../attachments/DCSDCS/13120373094/att13120373105-Ancillary Documents - V3.0 (Final).zip)
+- [DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip](../../attachments/DCSDCS/13120373094/att13120373108-DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip)
+- [Data Processing Deed.zip](../../attachments/DCSDCS/13120373094/att14166982667-Data Processing Deed.zip)

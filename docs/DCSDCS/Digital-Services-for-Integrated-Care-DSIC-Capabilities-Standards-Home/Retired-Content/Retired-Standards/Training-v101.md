@@ -134,9 +134,9 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [GP IT Futures Evaluation Report Template v1-1.docx](../../../../.raw/DCSDCS/attachments/12375294254/att12375294274-GP IT Futures Evaluation Report Template v1-1.docx)
-- [GP IT Futures Supplier Training Planv1-2.docx](../../../../.raw/DCSDCS/attachments/12375294254/att12375294277-GP IT Futures Supplier Training Planv1-2.docx)
-- [GP IT Trainer Observation Form v1-1.docx](../../../../.raw/DCSDCS/attachments/12375294254/att12375294280-GP IT Trainer Observation Form v1-1.docx)
-- [GP IT Futures Local Training Planv1-2.docx](../../../../.raw/DCSDCS/attachments/12375294254/att12375294283-GP IT Futures Local Training Planv1-2.docx)
-- [GP IT Futures Training_Impact_Analysis_v1-0.docx](../../../../.raw/DCSDCS/attachments/12375294254/att12375294286-GP IT Futures Training_Impact_Analysis_v1-0.docx)
-- [GP IT Futures Training Exemptionv1-0.docx](../../../../.raw/DCSDCS/attachments/12375294254/att12375294289-GP IT Futures Training Exemptionv1-0.docx)
+- [GP IT Futures Evaluation Report Template v1-1.docx](../../../../attachments/DCSDCS/12375294254/att12375294274-GP IT Futures Evaluation Report Template v1-1.docx)
+- [GP IT Futures Supplier Training Planv1-2.docx](../../../../attachments/DCSDCS/12375294254/att12375294277-GP IT Futures Supplier Training Planv1-2.docx)
+- [GP IT Trainer Observation Form v1-1.docx](../../../../attachments/DCSDCS/12375294254/att12375294280-GP IT Trainer Observation Form v1-1.docx)
+- [GP IT Futures Local Training Planv1-2.docx](../../../../attachments/DCSDCS/12375294254/att12375294283-GP IT Futures Local Training Planv1-2.docx)
+- [GP IT Futures Training_Impact_Analysis_v1-0.docx](../../../../attachments/DCSDCS/12375294254/att12375294286-GP IT Futures Training_Impact_Analysis_v1-0.docx)
+- [GP IT Futures Training Exemptionv1-0.docx](../../../../attachments/DCSDCS/12375294254/att12375294289-GP IT Futures Training Exemptionv1-0.docx)

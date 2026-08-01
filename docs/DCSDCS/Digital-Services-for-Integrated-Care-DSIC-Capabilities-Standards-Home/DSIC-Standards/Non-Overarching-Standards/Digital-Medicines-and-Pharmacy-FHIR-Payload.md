@@ -81,4 +81,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [NHS England Digimeds Specification for Vaccination Event Data Flow Version 1.0 APPROVED.docx](../../../../.raw/DCSDCS/attachments/10752983078/att13394149388-NHS England Digimeds Specification for Vaccination Event Data Flow Version 1.0 APPROVED.docx)
+- [NHS England Digimeds Specification for Vaccination Event Data Flow Version 1.0 APPROVED.docx](../../../../attachments/DCSDCS/10752983078/att13394149388-NHS England Digimeds Specification for Vaccination Event Data Flow Version 1.0 APPROVED.docx)

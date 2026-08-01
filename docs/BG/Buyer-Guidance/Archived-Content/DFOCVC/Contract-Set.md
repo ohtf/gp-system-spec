@@ -10,8 +10,8 @@ labels: []
 
 # Contract Set
 
-[0. DFOCVC Call Off Agree…](../../../../.raw/BG/attachments/11719475301/att11719737479-0. DFOCVC Call Off Agreement.zip)
+[0. DFOCVC Call Off Agree…](../../../../attachments/BG/11719475301/att11719737479-0. DFOCVC Call Off Agreement.zip)
 
 ## Attachments
 
-- [0. DFOCVC Call Off Agreement.zip](../../../../.raw/BG/attachments/11719475301/att11719737479-0. DFOCVC Call Off Agreement.zip)
+- [0. DFOCVC Call Off Agreement.zip](../../../../attachments/BG/11719475301/att11719737479-0. DFOCVC Call Off Agreement.zip)

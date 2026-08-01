@@ -50,6 +50,6 @@ Supports the administration, scheduling, resourcing and viewing of Appointments 
 
 ## Attachments
 
-- [Example_xml_file.xml](../../../../.raw/DCSDCS/attachments/12301500417/att12301500450-Example_xml_file.xml)
-- [XML_csv_view_V10_0.csv](../../../../.raw/DCSDCS/attachments/12301500417/att12301500453-XML_csv_view_V10_0.csv)
-- [Example_mapping_file.csv](../../../../.raw/DCSDCS/attachments/12301500417/att12301500456-Example_mapping_file.csv)
+- [Example_xml_file.xml](../../../../attachments/DCSDCS/12301500417/att12301500450-Example_xml_file.xml)
+- [XML_csv_view_V10_0.csv](../../../../attachments/DCSDCS/12301500417/att12301500453-XML_csv_view_V10_0.csv)
+- [Example_mapping_file.csv](../../../../attachments/DCSDCS/12301500417/att12301500456-Example_mapping_file.csv)

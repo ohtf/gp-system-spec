@@ -24,7 +24,7 @@ Supports suppliers in the delivery and management of services that support and p
 
 # Requirements {#ServiceManagementv1.1.0-Requirements}
 
-[Service Management Stand…](../../../../.raw/DCSDCS/attachments/10612342973/att10612342985-Service Management Standard v4.2.docx)
+[Service Management Stand…](../../../../attachments/DCSDCS/10612342973/att10612342985-Service Management Standard v4.2.docx)
 
 # Capabilities {#ServiceManagementv1.1.0-Capabilities}
 
@@ -44,4 +44,4 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [Service Management Standard v4.2.docx](../../../../.raw/DCSDCS/attachments/10612342973/att10612342985-Service Management Standard v4.2.docx)
+- [Service Management Standard v4.2.docx](../../../../attachments/DCSDCS/10612342973/att10612342985-Service Management Standard v4.2.docx)

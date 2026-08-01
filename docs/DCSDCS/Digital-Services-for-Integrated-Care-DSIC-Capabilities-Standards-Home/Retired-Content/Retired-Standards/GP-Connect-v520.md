@@ -88,4 +88,4 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [Draft_RM160 GP Connect v6.0.0 - GP IT Futures Development Space - Confluence.url](../../../../.raw/DCSDCS/attachments/12216467642/att12216467667-Draft_RM160 GP Connect v6.0.0 - GP IT Futures Development Space - Confluence.url)
+- [Draft_RM160 GP Connect v6.0.0 - GP IT Futures Development Space - Confluence.url](../../../../attachments/DCSDCS/12216467642/att12216467667-Draft_RM160 GP Connect v6.0.0 - GP IT Futures Development Space - Confluence.url)

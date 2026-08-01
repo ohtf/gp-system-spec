@@ -14,8 +14,8 @@ Download and complete the template to document any changes you’ve agreed with 
 
 **Appendix 3: Data processing information**
 
-[Appendix 3\_Data processi…](../../../../.raw/BG/attachments/12208930955/att12209324193-Appendix 3_Data processing information_Schedule 2.3.docx)
+[Appendix 3\_Data processi…](../../../../attachments/BG/12208930955/att12209324193-Appendix 3_Data processing information_Schedule 2.3.docx)
 
 ## Attachments
 
-- [Appendix 3_Data processing information_Schedule 2.3.docx](../../../../.raw/BG/attachments/12208930955/att12209324193-Appendix 3_Data processing information_Schedule 2.3.docx)
+- [Appendix 3_Data processing information_Schedule 2.3.docx](../../../../attachments/BG/12208930955/att12209324193-Appendix 3_Data processing information_Schedule 2.3.docx)

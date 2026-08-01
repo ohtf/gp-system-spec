@@ -58,7 +58,7 @@ See the NHS Login Service section on [Onboarding Overview of the Digital Care 
 
 Part of this work involves the development of a new simple interface to retrieve and create Linkage Keys for users, whereby the NHS login platform is used to register and verify users via an online process. As part of this process, the NHS login platform will obtain an NHS number (with appropriate consent) and validate this against PDS and GP Practice Codes (i.e. ODS Codes). This approach will allow the NHS login platform to retrieve Linkage Keys for users and allow the platform to generate new Linkage Keys for users where they do not already have one. The latest requirements set can be accessed below:
 
-[Linkage Key API Specific…](../../../../.raw/DCSDCS/attachments/1391133874/att1391149290-Linkage Key API Specification v1.0.docx)
+[Linkage Key API Specific…](../../../../attachments/DCSDCS/1391133874/att1391149290-Linkage Key API Specification v1.0.docx)
 
 ## Using NHS Login Integration  {#NHSloginservice-UsingNHSLoginIntegration}
 
@@ -78,4 +78,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Linkage Key API Specification v1.0.docx](../../../../.raw/DCSDCS/attachments/1391133874/att1391149290-Linkage Key API Specification v1.0.docx)
+- [Linkage Key API Specification v1.0.docx](../../../../attachments/DCSDCS/1391133874/att1391149290-Linkage Key API Specification v1.0.docx)

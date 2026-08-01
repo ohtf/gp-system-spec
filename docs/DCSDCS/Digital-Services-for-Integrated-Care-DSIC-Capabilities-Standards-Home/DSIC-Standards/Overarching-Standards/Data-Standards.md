@@ -107,9 +107,9 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf](../../../../.raw/DCSDCS/attachments/1391134407/att1391150259-SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf)
-- [AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx](../../../../.raw/DCSDCS/attachments/1391134407/att1391150997-AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx)
-- [AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx](../../../../.raw/DCSDCS/attachments/1391134407/att1391150998-AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx)
-- [AA3 Implementing the Allergy Archetype in FHIR v1.docx](../../../../.raw/DCSDCS/attachments/1391134407/att1391151036-AA3 Implementing the Allergy Archetype in FHIR v1.docx)
-- [AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx](../../../../.raw/DCSDCS/attachments/1391134407/att1391151042-AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx)
-- [SNOMED CT Assurance Test Plan.docx](../../../../.raw/DCSDCS/attachments/1391134407/att14216888461-SNOMED CT Assurance Test Plan.docx)
+- [SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf](../../../../attachments/DCSDCS/1391134407/att1391150259-SNOMED_CT_Inactives_Fact_sheet_v1.0.pdf)
+- [AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx](../../../../attachments/DCSDCS/1391134407/att1391150997-AA1 GPSoC Allergy Archetype Implementation Guidance v1.docx)
+- [AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx](../../../../attachments/DCSDCS/1391134407/att1391150998-AA2 Implementing the Allergy Archetype in the GP2GP Message v1.docx)
+- [AA3 Implementing the Allergy Archetype in FHIR v1.docx](../../../../attachments/DCSDCS/1391134407/att1391151036-AA3 Implementing the Allergy Archetype in FHIR v1.docx)
+- [AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx](../../../../attachments/DCSDCS/1391134407/att1391151042-AA4 GPSoC Allergy Archetype GP Connect Allergy Guidance v1.docx)
+- [SNOMED CT Assurance Test Plan.docx](../../../../attachments/DCSDCS/1391134407/att14216888461-SNOMED CT Assurance Test Plan.docx)

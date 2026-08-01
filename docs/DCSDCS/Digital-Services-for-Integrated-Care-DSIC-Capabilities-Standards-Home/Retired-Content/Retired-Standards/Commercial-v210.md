@@ -25,7 +25,7 @@ This Standard underpins all commercial activity relating to the Catalogue. It do
 
 # Requirements  {#Commercialv2.1.0-Requirements}
 
-[Ancillary Document - Com…](../../../../.raw/DCSDCS/attachments/12329549849/att12329549865-Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx)
+[Ancillary Document - Com…](../../../../attachments/DCSDCS/12329549849/att12329549865-Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx)
 
 # Capabilities {#Commercialv2.1.0-Capabilities}
 
@@ -45,7 +45,7 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx](../../../../.raw/DCSDCS/attachments/12329549849/att12329549865-Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx)
-- [Commercial Standard and Model Interface Licence 200309.docx](../../../../.raw/DCSDCS/attachments/12329549849/att12329549868-Commercial Standard and Model Interface Licence 200309.docx)
-- [Commercial Standard and Model Interface Licence.docx](../../../../.raw/DCSDCS/attachments/12329549849/att12329549871-Commercial Standard and Model Interface Licence.docx)
-- [Commercial Standard v2.1 12.3.pdf](../../../../.raw/DCSDCS/attachments/12329549849/att12329549874-Commercial Standard v2.1 12.3.pdf)
+- [Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx](../../../../attachments/DCSDCS/12329549849/att12329549865-Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx)
+- [Commercial Standard and Model Interface Licence 200309.docx](../../../../attachments/DCSDCS/12329549849/att12329549868-Commercial Standard and Model Interface Licence 200309.docx)
+- [Commercial Standard and Model Interface Licence.docx](../../../../attachments/DCSDCS/12329549849/att12329549871-Commercial Standard and Model Interface Licence.docx)
+- [Commercial Standard v2.1 12.3.pdf](../../../../attachments/DCSDCS/12329549849/att12329549874-Commercial Standard v2.1 12.3.pdf)

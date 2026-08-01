@@ -128,5 +128,5 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [hcp type.PNG](../../../../.raw/DCSDCS/attachments/1391133692/att1556742228-hcp type.PNG)
-- [ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx](../../../../.raw/DCSDCS/attachments/1391133692/att11999019048-ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx)
+- [hcp type.PNG](../../../../attachments/DCSDCS/1391133692/att1556742228-hcp type.PNG)
+- [ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx](../../../../attachments/DCSDCS/1391133692/att11999019048-ApptDataCollection_CSVtemplate_PreferredFormat_21102019.xlsx)

@@ -41,7 +41,7 @@ The General Practice Extraction Service (GPES) is a service that securely collec
 
 The GPES-I requirements (V6.0.1), shown below, describes the functionality and interfaces that GP systems Suppliers supporting GPES data extraction need to implement. 
 
-[PD009 GPES Interoperabil…](../../../../.raw/DCSDCS/attachments/1391134238/att1391148528-PD009 GPES Interoperability Standard Version V 6 0 1.docx)
+[PD009 GPES Interoperabil…](../../../../attachments/DCSDCS/1391134238/att1391148528-PD009 GPES Interoperability Standard Version V 6 0 1.docx)
 
 In addition, the following requirements have been incorporated into CCN100 with the GP system Suppliers under GPSoC for Step 2 of GPES Uplift:
 
@@ -49,7 +49,7 @@ In addition, the following requirements have been incorporated into CCN100 with 
 
 The GPES Uplift Supplier Requirements contains the baselined set of requirements.
 
-[GPES Uplift - Supplier R…](../../../../.raw/DCSDCS/attachments/1391134238/att1494515869-GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx)
+[GPES Uplift - Supplier R…](../../../../attachments/DCSDCS/1391134238/att1494515869-GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx)
 
 The purpose of this document is to present the business requirements to the Supplier(s) to provide continued support for providing data collections. These collections are currently commissioned by The Authority using the General Practice Extraction Service (GPES). The requirements within this document will enable The Authority to transition from the current GPET-E process and use an alternative service to request and process the Extract Data.
 
@@ -59,17 +59,17 @@ GP system Suppliers and Suppliers should liaise with The Authority prior to deve
 
 A Supplier must refer to the Version 3.10 reporting pack when providing estimates.
 
-[GPES Uplift Reporting Pa…](../../../../.raw/DCSDCS/attachments/1391134238/att1391149450-GPES Uplift Reporting Pack v3.10.xlsx)
+[GPES Uplift Reporting Pa…](../../../../attachments/DCSDCS/1391134238/att1391149450-GPES Uplift Reporting Pack v3.10.xlsx)
 
 ## GPES Sizing Extracts by Complexity and Capacity {#GPESDataExtraction-GPESSizingExtractsbyComplexityandCapacity}
 
 There are two kinds of data extracts that are requested through GPES (Aggregate and Patient-Level). The complexity and capacity need to be broadly understood during the elaboration to determine timescales for their development and impact on available extract capacity on the GPSS infrastructure. The information in this document provides detail on how complexity and capacity are assessed.
 
-[Sizing extracts by compl…](../../../../.raw/DCSDCS/attachments/1391134238/att1391149473-Sizing extracts by complexity and capacity v0.4.docx)
+[Sizing extracts by compl…](../../../../attachments/DCSDCS/1391134238/att1391149473-Sizing extracts by complexity and capacity v0.4.docx)
 
 ## GPES Extract Request {#GPESDataExtraction-GPESExtractRequest}
 
-[Extract Request - Templa…](../../../../.raw/DCSDCS/attachments/1391134238/att1494646910-Extract Request - Template v6.4.docx)
+[Extract Request - Templa…](../../../../attachments/DCSDCS/1391134238/att1494646910-Extract Request - Template v6.4.docx)
 
 The extract request template forms the agreement between The Authority and Supplier when a new data collection is commissioned.
 
@@ -105,8 +105,8 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [PD009 GPES Interoperability Standard Version V 6 0 1.docx](../../../../.raw/DCSDCS/attachments/1391134238/att1391148528-PD009 GPES Interoperability Standard Version V 6 0 1.docx)
-- [GPES Uplift Reporting Pack v3.10.xlsx](../../../../.raw/DCSDCS/attachments/1391134238/att1391149450-GPES Uplift Reporting Pack v3.10.xlsx)
-- [Sizing extracts by complexity and capacity v0.4.docx](../../../../.raw/DCSDCS/attachments/1391134238/att1391149473-Sizing extracts by complexity and capacity v0.4.docx)
-- [GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx](../../../../.raw/DCSDCS/attachments/1391134238/att1494515869-GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx)
-- [Extract Request - Template v6.4.docx](../../../../.raw/DCSDCS/attachments/1391134238/att1494646910-Extract Request - Template v6.4.docx)
+- [PD009 GPES Interoperability Standard Version V 6 0 1.docx](../../../../attachments/DCSDCS/1391134238/att1391148528-PD009 GPES Interoperability Standard Version V 6 0 1.docx)
+- [GPES Uplift Reporting Pack v3.10.xlsx](../../../../attachments/DCSDCS/1391134238/att1391149450-GPES Uplift Reporting Pack v3.10.xlsx)
+- [Sizing extracts by complexity and capacity v0.4.docx](../../../../attachments/DCSDCS/1391134238/att1391149473-Sizing extracts by complexity and capacity v0.4.docx)
+- [GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx](../../../../attachments/DCSDCS/1391134238/att1494515869-GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx)
+- [Extract Request - Template v6.4.docx](../../../../attachments/DCSDCS/1391134238/att1494646910-Extract Request - Template v6.4.docx)

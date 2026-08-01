@@ -22,12 +22,12 @@ These documents are available in the zip files attached in the table below.
 
 | **Document Set** | **Files** |
 | --- | --- |
-| GP IT Futures Framework Agreement Lot 1 | [GP IT Futures Framework …](../../../../.raw/BG/attachments/1933575165/att10866163940-GP IT Futures Framework Lot 1 (10th Dec 2020).zip) |
-| Call off order form (schedule 2.3 of the Framework agreement) | [2.3 GP IT Futures Lot 1 …](../../../../.raw/BG/attachments/1933575165/att10864918680-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx) |
-| Catalogue Agreement | [DCS\_CA\_Terms\_&\_Schedules…](../../../../.raw/BG/attachments/1933575165/att11794939931-DCS_CA_Terms_&_Schedules_28_09_2021.zip) |
-| GPITF Call Off Agreement | [04. GPITF Lot 1 Call Off…](../../../../.raw/BG/attachments/1933575165/att2627764259-04. GPITF Lot 1 Call Off.zip) |
-| Data Processing Deed | [02. Data Processing Deed…](../../../../.raw/BG/attachments/1933575165/att2627665987-02. Data Processing Deed.zip) |
-| Ancillary Documents | [00. Ancillary Documents …](../../../../.raw/BG/attachments/1933575165/att11730190359-00. Ancillary Documents (1).zip) |
+| GP IT Futures Framework Agreement Lot 1 | [GP IT Futures Framework …](../../../../attachments/BG/1933575165/att10866163940-GP IT Futures Framework Lot 1 (10th Dec 2020).zip) |
+| Call off order form (schedule 2.3 of the Framework agreement) | [2.3 GP IT Futures Lot 1 …](../../../../attachments/BG/1933575165/att10864918680-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx) |
+| Catalogue Agreement | [DCS\_CA\_Terms\_&\_Schedules…](../../../../attachments/BG/1933575165/att11794939931-DCS_CA_Terms_&_Schedules_28_09_2021.zip) |
+| GPITF Call Off Agreement | [04. GPITF Lot 1 Call Off…](../../../../attachments/BG/1933575165/att2627764259-04. GPITF Lot 1 Call Off.zip) |
+| Data Processing Deed | [02. Data Processing Deed…](../../../../attachments/BG/1933575165/att2627665987-02. Data Processing Deed.zip) |
+| Ancillary Documents | [00. Ancillary Documents …](../../../../attachments/BG/1933575165/att11730190359-00. Ancillary Documents (1).zip) |
 
 Of particular interest to buyers is the Call Off Order Form which is provided via the GP IT Futures Framework Lot 1 Agreement link above in file “GP IT Futures Lot 1 - Framework Schedule 2.3 (Call Off Order Form)”. In order to enter into a contract buyers only need to complete the Call Off Order Form as the Call Off Terms are static. The Call Off Order Form includes guidance on which sections are to be completed by you as the buyer and by the relevant supplier. In summary, the Call Off Order Form includes:
 
@@ -42,24 +42,24 @@ If you require assistance with the completion of a Call Off Order Form, please c
 
 ## Attachments
 
-- [Catalogue Agreement - 190809.zip](../../../../.raw/BG/attachments/1933575165/att1933575441-Catalogue Agreement - 190809.zip)
-- [2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 (Call Off Order Form).DOCX](../../../../.raw/BG/attachments/1933575165/att1933772106-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 (Call Off Order Form).DOCX)
-- [2.1 GP IT Futures Lot 1 - Framework Schedule 2.1 (Call Off Procedure).DOC](../../../../.raw/BG/attachments/1933575165/att1933804322-2.1 GP IT Futures Lot 1 - Framework Schedule 2.1 (Call Off Procedure).DOC)
-- [2.2 GP IT Futures Lot 1 - Framework Schedule 2.2 (Call Off Terms).DOC](../../../../.raw/BG/attachments/1933575165/att1933935674-2.2 GP IT Futures Lot 1 - Framework Schedule 2.2 (Call Off Terms).DOC)
-- [Ancillary Documents - ITT Issue Version.zip](../../../../.raw/BG/attachments/1933575165/att1933935756-Ancillary Documents - ITT Issue Version.zip)
-- [0. GP IT Futures Lot 1 - Framework Terms.DOCX](../../../../.raw/BG/attachments/1933575165/att1936523282-0. GP IT Futures Lot 1 - Framework Terms.DOCX)
-- [GPITF Framework Agreement Lot 1 191211.zip](../../../../.raw/BG/attachments/1933575165/att1936654902-GPITF Framework Agreement Lot 1 191211.zip)
-- [Catalogue Agreement - ITT Issue Version.zip](../../../../.raw/BG/attachments/1933575165/att1936687155-Catalogue Agreement - ITT Issue Version.zip)
-- [GPITF Call Off Agreement Lot 1 - ITT Issue Version.zip](../../../../.raw/BG/attachments/1933575165/att1936851011-GPITF Call Off Agreement Lot 1 - ITT Issue Version.zip)
-- [GPITF Framework Agreement Lot 1 - ITT Issue Version.zip](../../../../.raw/BG/attachments/1933575165/att1936883823-GPITF Framework Agreement Lot 1 - ITT Issue Version.zip)
-- [1 GP IT Futures Lot 1 - Framework Schedule 1 (Definitions).DOC](../../../../.raw/BG/attachments/1933575165/att1936916483-1 GP IT Futures Lot 1 - Framework Schedule 1 (Definitions).DOC)
-- [GPITF Call Off Agreement Lot 1.zip](../../../../.raw/BG/attachments/1933575165/att1936949471-GPITF Call Off Agreement Lot 1.zip)
-- [02. Data Processing Deed.zip](../../../../.raw/BG/attachments/1933575165/att2627665987-02. Data Processing Deed.zip)
-- [04. GPITF Lot 1 Call Off.zip](../../../../.raw/BG/attachments/1933575165/att2627764259-04. GPITF Lot 1 Call Off.zip)
-- [00. Ancillary Documents.zip](../../../../.raw/BG/attachments/1933575165/att2627797035-00. Ancillary Documents.zip)
-- [03. GPITF Lot 1 Framework.zip](../../../../.raw/BG/attachments/1933575165/att2627862571-03. GPITF Lot 1 Framework.zip)
-- [01. Catalogue Agreement.zip](../../../../.raw/BG/attachments/1933575165/att2628026411-01. Catalogue Agreement.zip)
-- [2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx](../../../../.raw/BG/attachments/1933575165/att10864918680-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx)
-- [GP IT Futures Framework Lot 1 (10th Dec 2020).zip](../../../../.raw/BG/attachments/1933575165/att10866163940-GP IT Futures Framework Lot 1 (10th Dec 2020).zip)
-- [00. Ancillary Documents (1).zip](../../../../.raw/BG/attachments/1933575165/att11730190359-00. Ancillary Documents (1).zip)
-- [DCS_CA_Terms_&_Schedules_28_09_2021.zip](../../../../.raw/BG/attachments/1933575165/att11794939931-DCS_CA_Terms_&_Schedules_28_09_2021.zip)
+- [Catalogue Agreement - 190809.zip](../../../../attachments/BG/1933575165/att1933575441-Catalogue Agreement - 190809.zip)
+- [2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 (Call Off Order Form).DOCX](../../../../attachments/BG/1933575165/att1933772106-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 (Call Off Order Form).DOCX)
+- [2.1 GP IT Futures Lot 1 - Framework Schedule 2.1 (Call Off Procedure).DOC](../../../../attachments/BG/1933575165/att1933804322-2.1 GP IT Futures Lot 1 - Framework Schedule 2.1 (Call Off Procedure).DOC)
+- [2.2 GP IT Futures Lot 1 - Framework Schedule 2.2 (Call Off Terms).DOC](../../../../attachments/BG/1933575165/att1933935674-2.2 GP IT Futures Lot 1 - Framework Schedule 2.2 (Call Off Terms).DOC)
+- [Ancillary Documents - ITT Issue Version.zip](../../../../attachments/BG/1933575165/att1933935756-Ancillary Documents - ITT Issue Version.zip)
+- [0. GP IT Futures Lot 1 - Framework Terms.DOCX](../../../../attachments/BG/1933575165/att1936523282-0. GP IT Futures Lot 1 - Framework Terms.DOCX)
+- [GPITF Framework Agreement Lot 1 191211.zip](../../../../attachments/BG/1933575165/att1936654902-GPITF Framework Agreement Lot 1 191211.zip)
+- [Catalogue Agreement - ITT Issue Version.zip](../../../../attachments/BG/1933575165/att1936687155-Catalogue Agreement - ITT Issue Version.zip)
+- [GPITF Call Off Agreement Lot 1 - ITT Issue Version.zip](../../../../attachments/BG/1933575165/att1936851011-GPITF Call Off Agreement Lot 1 - ITT Issue Version.zip)
+- [GPITF Framework Agreement Lot 1 - ITT Issue Version.zip](../../../../attachments/BG/1933575165/att1936883823-GPITF Framework Agreement Lot 1 - ITT Issue Version.zip)
+- [1 GP IT Futures Lot 1 - Framework Schedule 1 (Definitions).DOC](../../../../attachments/BG/1933575165/att1936916483-1 GP IT Futures Lot 1 - Framework Schedule 1 (Definitions).DOC)
+- [GPITF Call Off Agreement Lot 1.zip](../../../../attachments/BG/1933575165/att1936949471-GPITF Call Off Agreement Lot 1.zip)
+- [02. Data Processing Deed.zip](../../../../attachments/BG/1933575165/att2627665987-02. Data Processing Deed.zip)
+- [04. GPITF Lot 1 Call Off.zip](../../../../attachments/BG/1933575165/att2627764259-04. GPITF Lot 1 Call Off.zip)
+- [00. Ancillary Documents.zip](../../../../attachments/BG/1933575165/att2627797035-00. Ancillary Documents.zip)
+- [03. GPITF Lot 1 Framework.zip](../../../../attachments/BG/1933575165/att2627862571-03. GPITF Lot 1 Framework.zip)
+- [01. Catalogue Agreement.zip](../../../../attachments/BG/1933575165/att2628026411-01. Catalogue Agreement.zip)
+- [2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx](../../../../attachments/BG/1933575165/att10864918680-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx)
+- [GP IT Futures Framework Lot 1 (10th Dec 2020).zip](../../../../attachments/BG/1933575165/att10866163940-GP IT Futures Framework Lot 1 (10th Dec 2020).zip)
+- [00. Ancillary Documents (1).zip](../../../../attachments/BG/1933575165/att11730190359-00. Ancillary Documents (1).zip)
+- [DCS_CA_Terms_&_Schedules_28_09_2021.zip](../../../../attachments/BG/1933575165/att11794939931-DCS_CA_Terms_&_Schedules_28_09_2021.zip)

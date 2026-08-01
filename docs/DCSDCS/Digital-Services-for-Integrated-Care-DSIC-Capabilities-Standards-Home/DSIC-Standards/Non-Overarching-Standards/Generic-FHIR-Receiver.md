@@ -50,7 +50,7 @@ In summary, the responsibilities of the Generic FHIR Receiver are:
 
 Generic FHIR Receiver background and requirements:
 
-[Generic FHIR Receiver In…](../../../../.raw/DCSDCS/attachments/10886316215/att10886316231-Generic FHIR Receiver Interop Capability - Specification v0_5.docx)
+[Generic FHIR Receiver In…](../../../../attachments/DCSDCS/10886316215/att10886316231-Generic FHIR Receiver Interop Capability - Specification v0_5.docx)
 
 # Compliance, Assurance and Testing {#GenericFHIRReceiver-Compliance,AssuranceandTesting}
 
@@ -72,4 +72,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Generic FHIR Receiver Interop Capability - Specification v0_5.docx](../../../../.raw/DCSDCS/attachments/10886316215/att10886316231-Generic FHIR Receiver Interop Capability - Specification v0_5.docx)
+- [Generic FHIR Receiver Interop Capability - Specification v0_5.docx](../../../../attachments/DCSDCS/10886316215/att10886316231-Generic FHIR Receiver Interop Capability - Specification v0_5.docx)

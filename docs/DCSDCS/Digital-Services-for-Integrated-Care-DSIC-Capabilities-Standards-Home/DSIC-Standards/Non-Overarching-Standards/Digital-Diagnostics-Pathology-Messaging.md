@@ -351,6 +351,6 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [ISB 1557 (PMEPv1.003).zip](../../../../.raw/DCSDCS/attachments/1391133752/att1391142738-ISB 1557 (PMEPv1.003).zip)
-- [Edifact_Messaging_Implementation_Guidelines.pdf](../../../../.raw/DCSDCS/attachments/1391133752/att1391155565-Edifact_Messaging_Implementation_Guidelines.pdf)
-- [image-20240715-115552.png](../../../../.raw/DCSDCS/attachments/1391133752/att13129646124-image-20240715-115552.png)
+- [ISB 1557 (PMEPv1.003).zip](../../../../attachments/DCSDCS/1391133752/att1391142738-ISB 1557 (PMEPv1.003).zip)
+- [Edifact_Messaging_Implementation_Guidelines.pdf](../../../../attachments/DCSDCS/1391133752/att1391155565-Edifact_Messaging_Implementation_Guidelines.pdf)
+- [image-20240715-115552.png](../../../../attachments/DCSDCS/1391133752/att13129646124-image-20240715-115552.png)

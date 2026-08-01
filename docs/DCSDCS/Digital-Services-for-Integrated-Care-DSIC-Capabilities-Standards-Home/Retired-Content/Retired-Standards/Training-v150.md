@@ -134,10 +134,10 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [Digital Care Services Evaluation Report v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5318148351-Digital Care Services Evaluation Report v1.0.docx)
-- [Digital Care Services Trainer Observation Form v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5319983221-Digital Care Services Trainer Observation Form v1.0.docx)
-- [Digital Care Services Training Impact Analysis v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5320016039-Digital Care Services Training Impact Analysis v1.0.docx)
-- [Digital Care Services Supplier Training Plan v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5320212613-Digital Care Services Supplier Training Plan v1.0.docx)
-- [Digital Care Services Training Exemption v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5320376448-Digital Care Services Training Exemption v1.0.docx)
-- [Digital Care Services Local Training Plan v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5320376456-Digital Care Services Local Training Plan v1.0.docx)
-- [Digital Care Services Self-directed Training Plan v1.0.docx](../../../../.raw/DCSDCS/attachments/5175115845/att5320540354-Digital Care Services Self-directed Training Plan v1.0.docx)
+- [Digital Care Services Evaluation Report v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5318148351-Digital Care Services Evaluation Report v1.0.docx)
+- [Digital Care Services Trainer Observation Form v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5319983221-Digital Care Services Trainer Observation Form v1.0.docx)
+- [Digital Care Services Training Impact Analysis v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5320016039-Digital Care Services Training Impact Analysis v1.0.docx)
+- [Digital Care Services Supplier Training Plan v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5320212613-Digital Care Services Supplier Training Plan v1.0.docx)
+- [Digital Care Services Training Exemption v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5320376448-Digital Care Services Training Exemption v1.0.docx)
+- [Digital Care Services Local Training Plan v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5320376456-Digital Care Services Local Training Plan v1.0.docx)
+- [Digital Care Services Self-directed Training Plan v1.0.docx](../../../../attachments/DCSDCS/5175115845/att5320540354-Digital Care Services Self-directed Training Plan v1.0.docx)

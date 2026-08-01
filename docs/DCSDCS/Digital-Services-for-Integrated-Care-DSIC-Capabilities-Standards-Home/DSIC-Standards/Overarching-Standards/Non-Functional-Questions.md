@@ -151,6 +151,6 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [GP IT Futures - Standards v0.1.drawio-NFR Model.png](../../../../.raw/DCSDCS/attachments/1569980472/att1569980475-GP IT Futures - Standards v0.1.drawio-NFR Model.png)
-- [overview.url](../../../../.raw/DCSDCS/attachments/1569980472/att11763875954-overview.url)
-- [image-20230404-160909.png](../../../../.raw/DCSDCS/attachments/1569980472/att12374999072-image-20230404-160909.png)
+- [GP IT Futures - Standards v0.1.drawio-NFR Model.png](../../../../attachments/DCSDCS/1569980472/att1569980475-GP IT Futures - Standards v0.1.drawio-NFR Model.png)
+- [overview.url](../../../../attachments/DCSDCS/1569980472/att11763875954-overview.url)
+- [image-20230404-160909.png](../../../../attachments/DCSDCS/1569980472/att12374999072-image-20230404-160909.png)

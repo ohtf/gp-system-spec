@@ -220,7 +220,7 @@ The separately-supplied Schema provides the type for each data item.
 
 ## eMED3 Template (2017) {#eMED3(FitNotes)v-1.0.0-eMED3Template(2017)}
 
-[Annex 1 Med3 Master Fina…](../../../../.raw/DCSDCS/attachments/11939381249/att11939381275-Annex 1 Med3 Master Final 080317.pdf)
+[Annex 1 Med3 Master Fina…](../../../../attachments/DCSDCS/11939381249/att11939381275-Annex 1 Med3 Master Final 080317.pdf)
 
 ## eMED3 Template (2017) with Mappings {#eMED3(FitNotes)v-1.0.0-eMED3Template(2017)withMappings}
 
@@ -228,7 +228,7 @@ This template defines the mappings between the printed form and the eMED3 data i
 
 The eMED3 Template Mappings - all printed data items shows this for all data items.
 
-[eMED3 - Templatewithmapp…](../../../../.raw/DCSDCS/attachments/11939381249/att11939381272-eMED3 - Templatewithmapping.pdf)
+[eMED3 - Templatewithmapp…](../../../../attachments/DCSDCS/11939381249/att11939381272-eMED3 - Templatewithmapping.pdf)
 
 ### eMED3 Template Mappings - all printed data items {#eMED3(FitNotes)v-1.0.0-eMED3TemplateMappings-allprinteddataitems}
 
@@ -310,6 +310,6 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [eMED3 - Templatewithmapping.pdf](../../../../.raw/DCSDCS/attachments/11939381249/att11939381272-eMED3 - Templatewithmapping.pdf)
-- [Annex 1 Med3 Master Final 080317.pdf](../../../../.raw/DCSDCS/attachments/11939381249/att11939381275-Annex 1 Med3 Master Final 080317.pdf)
-- [eMED3-v2-4 SCHEMA.txt](../../../../.raw/DCSDCS/attachments/11939381249/att11939381278-eMED3-v2-4 SCHEMA.txt)
+- [eMED3 - Templatewithmapping.pdf](../../../../attachments/DCSDCS/11939381249/att11939381272-eMED3 - Templatewithmapping.pdf)
+- [Annex 1 Med3 Master Final 080317.pdf](../../../../attachments/DCSDCS/11939381249/att11939381275-Annex 1 Med3 Master Final 080317.pdf)
+- [eMED3-v2-4 SCHEMA.txt](../../../../attachments/DCSDCS/11939381249/att11939381278-eMED3-v2-4 SCHEMA.txt)

@@ -64,7 +64,7 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [NHS-BSA-Contraception-API-Client-Specification-v1.2 (1).pdf](../../../../.raw/DCSDCS/attachments/12685344770/att12685344779-NHS-BSA-Contraception-API-Client-Specification-v1.2 (1).pdf)
-- [NHS_BSA_Claim_Interface_Guide_v0_30.pdf](../../../../.raw/DCSDCS/attachments/12685344770/att12685344782-NHS_BSA_Claim_Interface_Guide_v0_30.pdf)
-- [NHS-BSA-CVD-API-Client-Specification-v2.3.pdf](../../../../.raw/DCSDCS/attachments/12685344770/att12685344785-NHS-BSA-CVD-API-Client-Specification-v2.3.pdf)
-- [NHS-BSA-Contraception-API-Client-Specification-v1.2.pdf](../../../../.raw/DCSDCS/attachments/12685344770/att12685344788-NHS-BSA-Contraception-API-Client-Specification-v1.2.pdf)
+- [NHS-BSA-Contraception-API-Client-Specification-v1.2 (1).pdf](../../../../attachments/DCSDCS/12685344770/att12685344779-NHS-BSA-Contraception-API-Client-Specification-v1.2 (1).pdf)
+- [NHS_BSA_Claim_Interface_Guide_v0_30.pdf](../../../../attachments/DCSDCS/12685344770/att12685344782-NHS_BSA_Claim_Interface_Guide_v0_30.pdf)
+- [NHS-BSA-CVD-API-Client-Specification-v2.3.pdf](../../../../attachments/DCSDCS/12685344770/att12685344785-NHS-BSA-CVD-API-Client-Specification-v2.3.pdf)
+- [NHS-BSA-Contraception-API-Client-Specification-v1.2.pdf](../../../../attachments/DCSDCS/12685344770/att12685344788-NHS-BSA-Contraception-API-Client-Specification-v1.2.pdf)

@@ -80,4 +80,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [DSIC BCDR Testing Guidance v2.0.pptx](../../../../.raw/DCSDCS/attachments/1391134058/att14292254744-DSIC BCDR Testing Guidance v2.0.pptx)
+- [DSIC BCDR Testing Guidance v2.0.pptx](../../../../attachments/DCSDCS/1391134058/att14292254744-DSIC BCDR Testing Guidance v2.0.pptx)

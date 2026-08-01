@@ -83,6 +83,6 @@ See [**Capability and Standards Structure**](Capability-and-Standards-Structure.
 
 ## Attachments
 
-- [image-20230905-095648.png](../../../.raw/DCSDCS/attachments/12671614977/att12671614989-image-20230905-095648.png)
-- [image-20230901-120538.png](../../../.raw/DCSDCS/attachments/12671614977/att12671614992-image-20230901-120538.png)
-- [image-20230718-155031.png](../../../.raw/DCSDCS/attachments/12671614977/att12671614995-image-20230718-155031.png)
+- [image-20230905-095648.png](../../../attachments/DCSDCS/12671614977/att12671614989-image-20230905-095648.png)
+- [image-20230901-120538.png](../../../attachments/DCSDCS/12671614977/att12671614992-image-20230901-120538.png)
+- [image-20230718-155031.png](../../../attachments/DCSDCS/12671614977/att12671614995-image-20230718-155031.png)

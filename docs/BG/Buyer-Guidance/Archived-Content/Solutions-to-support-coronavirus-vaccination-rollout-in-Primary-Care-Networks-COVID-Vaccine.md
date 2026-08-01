@@ -53,7 +53,7 @@ PCNs may continue to use existing booking solutions where preferred. If PCNs cho
 
 ## Assurance matrix {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Assurancematrix}
 
-[COVID19 Appointments Man…](../../../.raw/BG/attachments/10584916017/att10618404886-COVID19 Appointments Managent Capability 2212.xlsx)
+[COVID19 Appointments Man…](../../../attachments/BG/10584916017/att10618404886-COVID19 Appointments Managent Capability 2212.xlsx)
 
 ## Procurement through the GP IT Futures framework {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-ProcurementthroughtheGPITFuturesframework}
 
@@ -81,4 +81,4 @@ Once a solution is under the national contract, the process for a PCN to obtain 
 
 ## Attachments
 
-- [COVID19 Appointments Managent Capability 2212.xlsx](../../../.raw/BG/attachments/10584916017/att10618404886-COVID19 Appointments Managent Capability 2212.xlsx)
+- [COVID19 Appointments Managent Capability 2212.xlsx](../../../attachments/BG/10584916017/att10618404886-COVID19 Appointments Managent Capability 2212.xlsx)

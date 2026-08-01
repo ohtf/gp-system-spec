@@ -46,4 +46,4 @@ A supplier implementing a Solution for the Reporting Capability will not be requ
 
 ## Attachments
 
-- [image2019-3-27_15-49-34.png](../../../../../.raw/DCSDCS/attachments/1391133644/att1407549688-image2019-3-27_15-49-34.png)
+- [image2019-3-27_15-49-34.png](../../../../../attachments/DCSDCS/1391133644/att1407549688-image2019-3-27_15-49-34.png)

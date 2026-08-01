@@ -40,4 +40,4 @@ Under the DPD the GP Practices are the beneficiaries as the data controllers. NH
 
 ·       ICO explanations about personal data, data controllers and data processors can be found [here](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/#:~:text=Personal%20data%20is%20information%20that,cookie%20identifier%2C%20or%20other%20factors.)
 
-·       Further information on processing data overseas can be found in sections 2.5.16 and 2.5.17 in the Deed of Processing (document 0.2) [here](../../../.raw/BG/attachments/1933575165/att11730190359-00. Ancillary Documents (1).zip)
+·       Further information on processing data overseas can be found in sections 2.5.16 and 2.5.17 in the Deed of Processing (document 0.2) [here](../../../attachments/BG/1933575165/att11730190359-00. Ancillary Documents (1).zip)

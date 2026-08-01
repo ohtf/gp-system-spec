@@ -128,4 +128,4 @@ Creating a compliant implementation previously required implementing the followi
 
 ## Attachments
 
-- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../.raw/DCSDCS/attachments/12062785615/att12062785645-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../attachments/DCSDCS/12062785615/att12062785645-NHS e-Referrals Service - Referrer Compliance Document v1.docx)

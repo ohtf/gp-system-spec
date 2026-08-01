@@ -52,5 +52,5 @@ Also supports configuring access to Citizen Services and the submission of data 
 
 ## Attachments
 
-- [NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx](../../../../.raw/DCSDCS/attachments/12650676317/att12650676362-NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx)
-- [NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx](../../../../.raw/DCSDCS/attachments/12650676317/att12650676365-NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx)
+- [NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx](../../../../attachments/DCSDCS/12650676317/att12650676362-NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx)
+- [NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx](../../../../attachments/DCSDCS/12650676317/att12650676365-NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx)

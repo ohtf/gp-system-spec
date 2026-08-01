@@ -61,9 +61,9 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [NEMS Payload (2).pdf](../../../../.raw/DCSDCS/attachments/13165985851/att13165985862-NEMS Payload (2).pdf)
-- [FHIR Payload of Healthcare Data.pdf](../../../../.raw/DCSDCS/attachments/13165985851/att13165985865-FHIR Payload of Healthcare Data.pdf)
-- [Screenshot 2024-05-01 at 17.23.13.png](../../../../.raw/DCSDCS/attachments/13165985851/att13165985868-Screenshot 2024-05-01 at 17.23.13.png)
-- [FHIR Payload of Healthcare Data v2.0.pdf](../../../../.raw/DCSDCS/attachments/13165985851/att13165985871-FHIR Payload of Healthcare Data v2.0.pdf)
-- [FHIR Payload of Health and Lifestyle information.pdf](../../../../.raw/DCSDCS/attachments/13165985851/att13165985874-FHIR Payload of Health and Lifestyle information.pdf)
-- [NEMS Payload.pdf](../../../../.raw/DCSDCS/attachments/13165985851/att13165985877-NEMS Payload.pdf)
+- [NEMS Payload (2).pdf](../../../../attachments/DCSDCS/13165985851/att13165985862-NEMS Payload (2).pdf)
+- [FHIR Payload of Healthcare Data.pdf](../../../../attachments/DCSDCS/13165985851/att13165985865-FHIR Payload of Healthcare Data.pdf)
+- [Screenshot 2024-05-01 at 17.23.13.png](../../../../attachments/DCSDCS/13165985851/att13165985868-Screenshot 2024-05-01 at 17.23.13.png)
+- [FHIR Payload of Healthcare Data v2.0.pdf](../../../../attachments/DCSDCS/13165985851/att13165985871-FHIR Payload of Healthcare Data v2.0.pdf)
+- [FHIR Payload of Health and Lifestyle information.pdf](../../../../attachments/DCSDCS/13165985851/att13165985874-FHIR Payload of Health and Lifestyle information.pdf)
+- [NEMS Payload.pdf](../../../../attachments/DCSDCS/13165985851/att13165985877-NEMS Payload.pdf)

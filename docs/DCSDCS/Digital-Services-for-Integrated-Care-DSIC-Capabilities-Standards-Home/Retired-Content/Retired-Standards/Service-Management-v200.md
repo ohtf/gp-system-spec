@@ -81,9 +81,9 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [HSSI Report Template.docx](../../../../.raw/DCSDCS/attachments/10694131891/att10693509270-HSSI Report Template.docx)
-- [GPITF Balanced Scorecard v2.0.1 200226.xlsx](../../../../.raw/DCSDCS/attachments/10694131891/att10693673069-GPITF Balanced Scorecard v2.0.1 200226.xlsx)
-- [GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx](../../../../.raw/DCSDCS/attachments/10694131891/att10694066321-GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx)
-- [GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx](../../../../.raw/DCSDCS/attachments/10694131891/att10694066326-GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx)
-- [GPITF Type 1 Catalogue Solution Service Levels v2.0.1 200309.docx](../../../../.raw/DCSDCS/attachments/10694131891/att10694164584-GPITF Type 1 Catalogue Solution Service Levels v2.0.1 200309.docx)
-- [Performance Regime Template for Type 2 Catalogue Solutions.docx](../../../../.raw/DCSDCS/attachments/10694131891/att10694230105-Performance Regime Template for Type 2 Catalogue Solutions.docx)
+- [HSSI Report Template.docx](../../../../attachments/DCSDCS/10694131891/att10693509270-HSSI Report Template.docx)
+- [GPITF Balanced Scorecard v2.0.1 200226.xlsx](../../../../attachments/DCSDCS/10694131891/att10693673069-GPITF Balanced Scorecard v2.0.1 200226.xlsx)
+- [GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx](../../../../attachments/DCSDCS/10694131891/att10694066321-GPITF Framework 1 - Incident Management Related Obligations v2.0.1 200309.docx)
+- [GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx](../../../../attachments/DCSDCS/10694131891/att10694066326-GPITF Framework 1 - Change  Release Management Related Obligations v2.0.1 200309.docx)
+- [GPITF Type 1 Catalogue Solution Service Levels v2.0.1 200309.docx](../../../../attachments/DCSDCS/10694131891/att10694164584-GPITF Type 1 Catalogue Solution Service Levels v2.0.1 200309.docx)
+- [Performance Regime Template for Type 2 Catalogue Solutions.docx](../../../../attachments/DCSDCS/10694131891/att10694230105-Performance Regime Template for Type 2 Catalogue Solutions.docx)

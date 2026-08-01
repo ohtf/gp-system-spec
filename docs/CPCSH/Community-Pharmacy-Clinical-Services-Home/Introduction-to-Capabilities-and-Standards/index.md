@@ -83,4 +83,4 @@ See [**Capability and Standards Structure**](../../../DCSDCS/Digital-Services-fo
 
 ## Attachments
 
-- [TI Capabilities & Standards Model 0.7.png](../../../.raw/CPCSH/attachments/14449377284/att14449901576-TI Capabilities & Standards Model 0.7.png)
+- [TI Capabilities & Standards Model 0.7.png](../../../attachments/CPCSH/14449377284/att14449901576-TI Capabilities & Standards Model 0.7.png)

@@ -148,5 +148,5 @@ Send a copy of your Call Off Order Form to NHS Digital at [gpitf.fulfilments@nhs
 
 ## Attachments
 
-- [image2020-4-2_14-43-2.png](../../../../../.raw/BG/attachments/1846870055/att1931116975-image2020-4-2_14-43-2.png)
-- [image2020-4-2_14-42-53.png](../../../../../.raw/BG/attachments/1846870055/att1933738278-image2020-4-2_14-42-53.png)
+- [image2020-4-2_14-43-2.png](../../../../../attachments/BG/1846870055/att1931116975-image2020-4-2_14-43-2.png)
+- [image2020-4-2_14-42-53.png](../../../../../attachments/BG/1846870055/att1933738278-image2020-4-2_14-42-53.png)

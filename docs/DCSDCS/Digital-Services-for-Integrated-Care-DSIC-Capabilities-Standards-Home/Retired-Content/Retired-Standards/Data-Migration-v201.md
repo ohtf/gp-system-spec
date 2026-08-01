@@ -107,5 +107,5 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [DMSDataTransfer-CrossFunctionalRequirements-100622-0930.pdf](../../../../.raw/DCSDCS/attachments/12375359510/att12374180075-DMSDataTransfer-CrossFunctionalRequirements-100622-0930.pdf)
-- [Catalogue Solution Migration Process.docx](../../../../.raw/DCSDCS/attachments/12375359510/att12375359538-Catalogue Solution Migration Process.docx)
+- [DMSDataTransfer-CrossFunctionalRequirements-100622-0930.pdf](../../../../attachments/DCSDCS/12375359510/att12374180075-DMSDataTransfer-CrossFunctionalRequirements-100622-0930.pdf)
+- [Catalogue Solution Migration Process.docx](../../../../attachments/DCSDCS/12375359510/att12375359538-Catalogue Solution Migration Process.docx)

@@ -111,4 +111,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Catalogue Solution Migration Process.docx](../../../../.raw/DCSDCS/attachments/14000193614/att14000193636-Catalogue Solution Migration Process.docx)
+- [Catalogue Solution Migration Process.docx](../../../../attachments/DCSDCS/14000193614/att14000193636-Catalogue Solution Migration Process.docx)

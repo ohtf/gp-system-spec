@@ -37,7 +37,7 @@ The service provides a summary of Health and Care information for care settings 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | Applicable Suppliers {#NationalCareRecordsService(NCRS)-ApplicableSuppliers} | ID {#NationalCareRecordsService(NCRS)-ID.1} | Requirement {#NationalCareRecordsService(NCRS)-Requirement} | Level {#NationalCareRecordsService(NCRS)-Level} |
-| All Suppliers | NCRS01 | Implement and maintain the National Care Records Service (NCRS) integration following the requirements in [Integrating NCRS - requi…](../../../../.raw/DCSDCS/attachments/14458880001/att14458880015-Integrating NCRS - requirements for calling applications 1.0.docx) and the provided client pack (this will be provided as part of the onboarding process). | MUST |
+| All Suppliers | NCRS01 | Implement and maintain the National Care Records Service (NCRS) integration following the requirements in [Integrating NCRS - requi…](../../../../attachments/DCSDCS/14458880001/att14458880015-Integrating NCRS - requirements for calling applications 1.0.docx) and the provided client pack (this will be provided as part of the onboarding process). | MUST |
 
 # Compliance, Assurance and Testing {#NationalCareRecordsService(NCRS)-Compliance,AssuranceandTesting}
 
@@ -62,4 +62,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Integrating NCRS - requirements for calling applications 1.0.docx](../../../../.raw/DCSDCS/attachments/14458880001/att14458880015-Integrating NCRS - requirements for calling applications 1.0.docx)
+- [Integrating NCRS - requirements for calling applications 1.0.docx](../../../../attachments/DCSDCS/14458880001/att14458880015-Integrating NCRS - requirements for calling applications 1.0.docx)

@@ -217,7 +217,7 @@ There are several related mechanisms defined in requirements, which are compared
 
 A template is provided to support onboarding:
 
-[Onboarding Risk Based Tr…](../../../../.raw/DCSDCS/attachments/14160461825/att14160461872-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
+[Onboarding Risk Based Tr…](../../../../attachments/DCSDCS/14160461825/att14160461872-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
 
 # Applicable Capabilities {#InformationGovernanceV4.0.0-ApplicableCapabilities}
 
@@ -233,4 +233,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx](../../../../.raw/DCSDCS/attachments/14160461825/att14160461872-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
+- [Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx](../../../../attachments/DCSDCS/14160461825/att14160461872-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)

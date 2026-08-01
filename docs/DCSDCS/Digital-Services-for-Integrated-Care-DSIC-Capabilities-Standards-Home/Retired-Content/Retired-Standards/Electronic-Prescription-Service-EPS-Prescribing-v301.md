@@ -134,10 +134,10 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [EPS Prescribing Systems Compliance Specification v6-10.pdf](../../../../.raw/DCSDCS/attachments/14225506374/att14225506400-EPS Prescribing Systems Compliance Specification v6-10.pdf)
-- [EPS Prescribing Systems Compliance Specification v6-10.docx](../../../../.raw/DCSDCS/attachments/14225506374/att14225506403-EPS Prescribing Systems Compliance Specification v6-10.docx)
-- [EPS+v6.10.doc](../../../../.raw/DCSDCS/attachments/14225506374/att14225506406-EPS+v6.10.doc)
-- [EPS Compliance Specification v6.9.pdf](../../../../.raw/DCSDCS/attachments/14225506374/att14225506409-EPS Compliance Specification v6.9.pdf)
-- [EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf](../../../../.raw/DCSDCS/attachments/14225506374/att14225506412-EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf)
-- [image2017-12-15_14-24-50.png](../../../../.raw/DCSDCS/attachments/14225506374/att14225506415-image2017-12-15_14-24-50.png)
-- [image2017-12-15_13-11-32.png](../../../../.raw/DCSDCS/attachments/14225506374/att14225506418-image2017-12-15_13-11-32.png)
+- [EPS Prescribing Systems Compliance Specification v6-10.pdf](../../../../attachments/DCSDCS/14225506374/att14225506400-EPS Prescribing Systems Compliance Specification v6-10.pdf)
+- [EPS Prescribing Systems Compliance Specification v6-10.docx](../../../../attachments/DCSDCS/14225506374/att14225506403-EPS Prescribing Systems Compliance Specification v6-10.docx)
+- [EPS+v6.10.doc](../../../../attachments/DCSDCS/14225506374/att14225506406-EPS+v6.10.doc)
+- [EPS Compliance Specification v6.9.pdf](../../../../attachments/DCSDCS/14225506374/att14225506409-EPS Compliance Specification v6.9.pdf)
+- [EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf](../../../../attachments/DCSDCS/14225506374/att14225506412-EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf)
+- [image2017-12-15_14-24-50.png](../../../../attachments/DCSDCS/14225506374/att14225506415-image2017-12-15_14-24-50.png)
+- [image2017-12-15_13-11-32.png](../../../../attachments/DCSDCS/14225506374/att14225506418-image2017-12-15_13-11-32.png)

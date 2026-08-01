@@ -74,4 +74,4 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [FGM Enhanced Dataset GP Approach.pdf](../../../../.raw/DCSDCS/attachments/1695350786/att1695350789-FGM Enhanced Dataset GP Approach.pdf)
+- [FGM Enhanced Dataset GP Approach.pdf](../../../../attachments/DCSDCS/1695350786/att1695350789-FGM Enhanced Dataset GP Approach.pdf)

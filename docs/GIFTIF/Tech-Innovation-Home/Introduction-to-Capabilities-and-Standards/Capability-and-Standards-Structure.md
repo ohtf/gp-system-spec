@@ -50,5 +50,5 @@ Capabilities and Standards will each have the content detailed in the table belo
 
 ## Attachments
 
-- [Capability structure.png](../../../.raw/GIFTIF/attachments/11945213953/att11945213968-Capability structure.png)
-- [image2019-2-8_9-11-2.png](../../../.raw/GIFTIF/attachments/11945213953/att11945213971-image2019-2-8_9-11-2.png)
+- [Capability structure.png](../../../attachments/GIFTIF/11945213953/att11945213968-Capability structure.png)
+- [image2019-2-8_9-11-2.png](../../../attachments/GIFTIF/11945213953/att11945213971-image2019-2-8_9-11-2.png)

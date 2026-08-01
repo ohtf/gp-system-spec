@@ -52,8 +52,8 @@ Items on the Roadmap which impact or relate to this Capability
 
 ## Attachments
 
-- [Example_xml_file.xml](../../../../.raw/DCSDCS/attachments/14445281281/att14445281305-Example_xml_file.xml)
-- [Example_mapping_file.csv](../../../../.raw/DCSDCS/attachments/14445281281/att14445281311-Example_mapping_file.csv)
+- [Example_xml_file.xml](../../../../attachments/DCSDCS/14445281281/att14445281305-Example_xml_file.xml)
+- [Example_mapping_file.csv](../../../../attachments/DCSDCS/14445281281/att14445281311-Example_mapping_file.csv)
 
 
 > **Warning**: attachment download failed for:

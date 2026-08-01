@@ -106,4 +106,4 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [Catalogue Solution Migration Process.docx](../../../../.raw/DCSDCS/attachments/12143296513/att12143296541-Catalogue Solution Migration Process.docx)
+- [Catalogue Solution Migration Process.docx](../../../../attachments/DCSDCS/12143296513/att12143296541-Catalogue Solution Migration Process.docx)

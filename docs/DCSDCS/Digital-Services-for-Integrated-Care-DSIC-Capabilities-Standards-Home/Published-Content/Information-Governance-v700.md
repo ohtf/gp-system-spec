@@ -235,7 +235,7 @@ Suppliers must complete assurance for these Requirements in addition to Requirem
 
 A template is provided to support onboarding:
 
-[Onboarding Risk Based Tr…](../../../.raw/DCSDCS/attachments/14906359809/att14906359856-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
+[Onboarding Risk Based Tr…](../../../attachments/DCSDCS/14906359809/att14906359856-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
 
 # Roadmap {#InformationGovernancev7.0.0-Roadmap}
 
@@ -247,4 +247,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx](../../../.raw/DCSDCS/attachments/14906359809/att14906359856-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
+- [Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx](../../../attachments/DCSDCS/14906359809/att14906359856-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)

@@ -66,7 +66,7 @@ The latest FHIR specifications for the Transfer of Care payload can be accessed 
 
 Contextual detail and specifications pertaining to the MVP aspect of this work can be accessed via the Transfer of Care Payload V0.7 document below:
 
-[Transfer of Care Payload…](../../../../.raw/DCSDCS/attachments/11888099337/att13201768454-Transfer of Care Payload V.07.docx)
+[Transfer of Care Payload…](../../../../attachments/DCSDCS/11888099337/att13201768454-Transfer of Care Payload V.07.docx)
 
 The Transfer of Care FHIR messages will use the ITK3 (Interoperability Toolkit) specification available here <https://developer.nhs.uk/interoperability-tool-kit-itk-specification-versions/>. Suppliers should also consider the advice in the [Good Practice Guidelines for GP electronic patient records](https://www.england.nhs.uk/digital-gp-good-practice-guidance/).
 
@@ -86,5 +86,5 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Transfer of Care Payload V.07.docx](../../../../.raw/DCSDCS/attachments/11888099337/att13201768454-Transfer of Care Payload V.07.docx)
-- [Transfer of Care - MVP Payload 0_7.docx](../../../../.raw/DCSDCS/attachments/11888099337/att13202063379-Transfer of Care - MVP Payload 0_7.docx)
+- [Transfer of Care Payload V.07.docx](../../../../attachments/DCSDCS/11888099337/att13201768454-Transfer of Care Payload V.07.docx)
+- [Transfer of Care - MVP Payload 0_7.docx](../../../../attachments/DCSDCS/11888099337/att13202063379-Transfer of Care - MVP Payload 0_7.docx)

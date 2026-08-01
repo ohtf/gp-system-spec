@@ -323,7 +323,7 @@ The following is from the GP2GP specification on Handling Missing Attachments se
 
 *This is for information only and applies solely to the GP2GP Sending Adaptor that will need to create these placeholders for Requesting Sites to consume in the case of failure to retrieve.*
 
-[NPFIT-PC-BLD-0099.04 GP2…](../../../../.raw/DCSDCS/attachments/14152532031/att14152532080-NPFIT-PC-BLD-0099.04 GP2GP Handling Missing Attachments.pdf)
+[NPFIT-PC-BLD-0099.04 GP2…](../../../../attachments/DCSDCS/14152532031/att14152532080-NPFIT-PC-BLD-0099.04 GP2GP Handling Missing Attachments.pdf)
 
 A placeholder file is a text file with a ‘txt’ suffix and MIME type text/plain. The file must be named as follows:
 
@@ -335,7 +335,7 @@ For example: **AbsentAttachmentC49A7603-7CD0-4DE2-B60D-124B42DFD3D2.txt**
 
 The placeholder file must be referenced from the EHR\_Extract as described in the Attachment referencing specification
 
-[NPFIT-PC-BLD-0158 GP2GP …](../../../../.raw/DCSDCS/attachments/14152532031/att14152532077-NPFIT-PC-BLD-0158 GP2GP Supplementary Specification Attachment References.pdf)
+[NPFIT-PC-BLD-0158 GP2GP …](../../../../attachments/DCSDCS/14152532031/att14152532077-NPFIT-PC-BLD-0158 GP2GP Supplementary Specification Attachment References.pdf)
 
 Within the placeholder file the text must be as follows (line numbers given for clarity):
 
@@ -411,14 +411,14 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [GP2GPSteps15.drawio.png](../../../../.raw/DCSDCS/attachments/14152532031/att14152532050-GP2GPSteps15.drawio.png)
-- [GP2GPSteps891011.drawio.png](../../../../.raw/DCSDCS/attachments/14152532031/att14152532053-GP2GPSteps891011.drawio.png)
-- [GP2GPSteps467.drawio.png](../../../../.raw/DCSDCS/attachments/14152532031/att14152532056-GP2GPSteps467.drawio.png)
-- [GP2GPSteps123.drawio.png](../../../../.raw/DCSDCS/attachments/14152532031/att14152532059-GP2GPSteps123.drawio.png)
-- [GP2GPSteps123.drawio](../../../../.raw/DCSDCS/attachments/14152532031/att14152532062-GP2GPSteps123.drawio)
-- [GP2GP (2).png](../../../../.raw/DCSDCS/attachments/14152532031/att14152532065-GP2GP (2).png)
-- [GP2GP Sending Adapter flow diagrams.drawIO.png](../../../../.raw/DCSDCS/attachments/14152532031/att14152532068-GP2GP Sending Adapter flow diagrams.drawIO.png)
-- [GP2GP Sending Adapter flow diagrams.drawIO](../../../../.raw/DCSDCS/attachments/14152532031/att14152532071-GP2GP Sending Adapter flow diagrams.drawIO)
-- [~GP2GP Sending Adapter flow diagrams.drawIO.tmp](../../../../.raw/DCSDCS/attachments/14152532031/att14152532074-~GP2GP Sending Adapter flow diagrams.drawIO.tmp)
-- [NPFIT-PC-BLD-0158 GP2GP Supplementary Specification Attachment References.pdf](../../../../.raw/DCSDCS/attachments/14152532031/att14152532077-NPFIT-PC-BLD-0158 GP2GP Supplementary Specification Attachment References.pdf)
-- [NPFIT-PC-BLD-0099.04 GP2GP Handling Missing Attachments.pdf](../../../../.raw/DCSDCS/attachments/14152532031/att14152532080-NPFIT-PC-BLD-0099.04 GP2GP Handling Missing Attachments.pdf)
+- [GP2GPSteps15.drawio.png](../../../../attachments/DCSDCS/14152532031/att14152532050-GP2GPSteps15.drawio.png)
+- [GP2GPSteps891011.drawio.png](../../../../attachments/DCSDCS/14152532031/att14152532053-GP2GPSteps891011.drawio.png)
+- [GP2GPSteps467.drawio.png](../../../../attachments/DCSDCS/14152532031/att14152532056-GP2GPSteps467.drawio.png)
+- [GP2GPSteps123.drawio.png](../../../../attachments/DCSDCS/14152532031/att14152532059-GP2GPSteps123.drawio.png)
+- [GP2GPSteps123.drawio](../../../../attachments/DCSDCS/14152532031/att14152532062-GP2GPSteps123.drawio)
+- [GP2GP (2).png](../../../../attachments/DCSDCS/14152532031/att14152532065-GP2GP (2).png)
+- [GP2GP Sending Adapter flow diagrams.drawIO.png](../../../../attachments/DCSDCS/14152532031/att14152532068-GP2GP Sending Adapter flow diagrams.drawIO.png)
+- [GP2GP Sending Adapter flow diagrams.drawIO](../../../../attachments/DCSDCS/14152532031/att14152532071-GP2GP Sending Adapter flow diagrams.drawIO)
+- [~GP2GP Sending Adapter flow diagrams.drawIO.tmp](../../../../attachments/DCSDCS/14152532031/att14152532074-~GP2GP Sending Adapter flow diagrams.drawIO.tmp)
+- [NPFIT-PC-BLD-0158 GP2GP Supplementary Specification Attachment References.pdf](../../../../attachments/DCSDCS/14152532031/att14152532077-NPFIT-PC-BLD-0158 GP2GP Supplementary Specification Attachment References.pdf)
+- [NPFIT-PC-BLD-0099.04 GP2GP Handling Missing Attachments.pdf](../../../../attachments/DCSDCS/14152532031/att14152532080-NPFIT-PC-BLD-0099.04 GP2GP Handling Missing Attachments.pdf)

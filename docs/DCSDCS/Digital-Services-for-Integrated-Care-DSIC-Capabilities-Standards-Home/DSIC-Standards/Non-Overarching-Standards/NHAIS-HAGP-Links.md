@@ -82,53 +82,53 @@ It is recommended to read GP software developer guide in conjunction with the 
 
 #### NHAIS Registration GP System Specifications, version 2.0 {#NHAISHA/GPLinks-NHAISRegistrationGPSystemSpecifications,version2.0}
 
-[Cover.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391139256-Cover.doc)
+[Cover.doc](../../../../attachments/DCSDCS/1391133619/att1391139256-Cover.doc)
 
-[Contents.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142761-Contents.doc)
+[Contents.doc](../../../../attachments/DCSDCS/1391133619/att1391142761-Contents.doc)
 
-[GP Spec Chapter1.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149583-GP Spec Chapter1.doc)
+[GP Spec Chapter1.doc](../../../../attachments/DCSDCS/1391133619/att1391149583-GP Spec Chapter1.doc)
 
-[GP Spec Chapter2.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149647-GP Spec Chapter2.doc)
+[GP Spec Chapter2.doc](../../../../attachments/DCSDCS/1391133619/att1391149647-GP Spec Chapter2.doc)
 
-[GP Spec Chapter3.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149571-GP Spec Chapter3.doc)
+[GP Spec Chapter3.doc](../../../../attachments/DCSDCS/1391133619/att1391149571-GP Spec Chapter3.doc)
 
-[GP Spec Chapter4.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149578-GP Spec Chapter4.doc)
+[GP Spec Chapter4.doc](../../../../attachments/DCSDCS/1391133619/att1391149578-GP Spec Chapter4.doc)
 
 #### NHAIS Registration GP System Specifications Appendix A - K, version 2.0 {#NHAISHA/GPLinks-NHAISRegistrationGPSystemSpecificationsAppendixA-K,version2.0}
 
-[App-A.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142753-App-A.doc)
+[App-A.doc](../../../../attachments/DCSDCS/1391133619/att1391142753-App-A.doc)
 
-[App-B.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142835-App-B.doc)
+[App-B.doc](../../../../attachments/DCSDCS/1391133619/att1391142835-App-B.doc)
 
-[App-C.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142841-App-C.doc)
+[App-C.doc](../../../../attachments/DCSDCS/1391133619/att1391142841-App-C.doc)
 
-[App-D.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142747-App-D.doc)
+[App-D.doc](../../../../attachments/DCSDCS/1391133619/att1391142747-App-D.doc)
 
-[App-E.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142758-App-E.doc)
+[App-E.doc](../../../../attachments/DCSDCS/1391133619/att1391142758-App-E.doc)
 
-[App-F.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391139248-App-F.doc)
+[App-F.doc](../../../../attachments/DCSDCS/1391133619/att1391139248-App-F.doc)
 
-[App-G.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142760-App-G.doc)
+[App-G.doc](../../../../attachments/DCSDCS/1391133619/att1391142760-App-G.doc)
 
-[App-H.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142764-App-H.doc)
+[App-H.doc](../../../../attachments/DCSDCS/1391133619/att1391142764-App-H.doc)
 
-[App-I.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142843-App-I.doc)
+[App-I.doc](../../../../attachments/DCSDCS/1391133619/att1391142843-App-I.doc)
 
-[App-J.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391139290-App-J.doc)
+[App-J.doc](../../../../attachments/DCSDCS/1391133619/att1391139290-App-J.doc)
 
-[App-K.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142834-App-K.doc)
+[App-K.doc](../../../../attachments/DCSDCS/1391133619/att1391142834-App-K.doc)
 
 #### GP Comms & Messaging Specification, V3.0 {#NHAISHA/GPLinks-GPComms&MessagingSpecification,V3.0}
 
-[comspec3.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391159583-comspec3.doc)
+[comspec3.doc](../../../../attachments/DCSDCS/1391133619/att1391159583-comspec3.doc)
 
 #### FHSREG Edifact Message Implementation Guidelines, V1.4 {#NHAISHA/GPLinks-FHSREGEdifactMessageImplementationGuidelines,V1.4}
 
-[FHSREG v14.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391160713-FHSREG v14.doc)
+[FHSREG v14.doc](../../../../attachments/DCSDCS/1391133619/att1391160713-FHSREG v14.doc)
 
 #### Receipt Report Message, V1.3 {#NHAISHA/GPLinks-ReceiptReportMessage,V1.3}
 
-[Recep13.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391160708-Recep13.doc)
+[Recep13.doc](../../../../attachments/DCSDCS/1391133619/att1391160708-Recep13.doc)
 
 Read the [Guide to NHAIS/GP Links Documentation](https://developer.nhs.uk/library/systems/nhais/guide-to-nhais-gp-links-documentation/) to better understand how to digest some of the documents listed on this page.
 
@@ -152,26 +152,26 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [App-F.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391139248-App-F.doc)
-- [Cover.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391139256-Cover.doc)
-- [App-J.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391139290-App-J.doc)
-- [App-D.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142747-App-D.doc)
-- [App-A.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142753-App-A.doc)
-- [App-E.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142758-App-E.doc)
-- [App-G.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142760-App-G.doc)
-- [Contents.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142761-Contents.doc)
-- [App-H.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142764-App-H.doc)
-- [App-K.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142834-App-K.doc)
-- [App-B.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142835-App-B.doc)
-- [App-C.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142841-App-C.doc)
-- [App-I.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391142843-App-I.doc)
-- [GP Spec Chapter3.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149571-GP Spec Chapter3.doc)
-- [GP Spec Chapter4.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149578-GP Spec Chapter4.doc)
-- [GP Spec Chapter1.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149583-GP Spec Chapter1.doc)
-- [GP Spec Chapter2.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391149647-GP Spec Chapter2.doc)
-- [FHSREG' EDIFACT Message Implementation Guidelines Version 1.4](../../../../.raw/DCSDCS/attachments/1391133619/att1391154816-FHSREG' EDIFACT Message Implementation Guidelines Version 1.4)
-- [comspec3.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391159583-comspec3.doc)
-- [Recep13.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391160708-Recep13.doc)
-- [FHSREG v14.doc](../../../../.raw/DCSDCS/attachments/1391133619/att1391160713-FHSREG v14.doc)
-- [PCRM Requirements_171219 (10).xlsx](../../../../.raw/DCSDCS/attachments/1391133619/att11999510603-PCRM Requirements_171219 (10).xlsx)
-- [SA Assurance Approach for New Market Entrants Integration with NHAIS v0.41.docx](../../../../.raw/DCSDCS/attachments/1391133619/att13189218317-SA Assurance Approach for New Market Entrants Integration with NHAIS v0.41.docx)
+- [App-F.doc](../../../../attachments/DCSDCS/1391133619/att1391139248-App-F.doc)
+- [Cover.doc](../../../../attachments/DCSDCS/1391133619/att1391139256-Cover.doc)
+- [App-J.doc](../../../../attachments/DCSDCS/1391133619/att1391139290-App-J.doc)
+- [App-D.doc](../../../../attachments/DCSDCS/1391133619/att1391142747-App-D.doc)
+- [App-A.doc](../../../../attachments/DCSDCS/1391133619/att1391142753-App-A.doc)
+- [App-E.doc](../../../../attachments/DCSDCS/1391133619/att1391142758-App-E.doc)
+- [App-G.doc](../../../../attachments/DCSDCS/1391133619/att1391142760-App-G.doc)
+- [Contents.doc](../../../../attachments/DCSDCS/1391133619/att1391142761-Contents.doc)
+- [App-H.doc](../../../../attachments/DCSDCS/1391133619/att1391142764-App-H.doc)
+- [App-K.doc](../../../../attachments/DCSDCS/1391133619/att1391142834-App-K.doc)
+- [App-B.doc](../../../../attachments/DCSDCS/1391133619/att1391142835-App-B.doc)
+- [App-C.doc](../../../../attachments/DCSDCS/1391133619/att1391142841-App-C.doc)
+- [App-I.doc](../../../../attachments/DCSDCS/1391133619/att1391142843-App-I.doc)
+- [GP Spec Chapter3.doc](../../../../attachments/DCSDCS/1391133619/att1391149571-GP Spec Chapter3.doc)
+- [GP Spec Chapter4.doc](../../../../attachments/DCSDCS/1391133619/att1391149578-GP Spec Chapter4.doc)
+- [GP Spec Chapter1.doc](../../../../attachments/DCSDCS/1391133619/att1391149583-GP Spec Chapter1.doc)
+- [GP Spec Chapter2.doc](../../../../attachments/DCSDCS/1391133619/att1391149647-GP Spec Chapter2.doc)
+- [FHSREG' EDIFACT Message Implementation Guidelines Version 1.4](../../../../attachments/DCSDCS/1391133619/att1391154816-FHSREG' EDIFACT Message Implementation Guidelines Version 1.4)
+- [comspec3.doc](../../../../attachments/DCSDCS/1391133619/att1391159583-comspec3.doc)
+- [Recep13.doc](../../../../attachments/DCSDCS/1391133619/att1391160708-Recep13.doc)
+- [FHSREG v14.doc](../../../../attachments/DCSDCS/1391133619/att1391160713-FHSREG v14.doc)
+- [PCRM Requirements_171219 (10).xlsx](../../../../attachments/DCSDCS/1391133619/att11999510603-PCRM Requirements_171219 (10).xlsx)
+- [SA Assurance Approach for New Market Entrants Integration with NHAIS v0.41.docx](../../../../attachments/DCSDCS/1391133619/att13189218317-SA Assurance Approach for New Market Entrants Integration with NHAIS v0.41.docx)

@@ -89,4 +89,4 @@ Interoperability involves two components:
 
 ## Attachments
 
-- [image-20230301-154542.png](../../../.raw/GIFTIF/attachments/12290195609/att12327125159-image-20230301-154542.png)
+- [image-20230301-154542.png](../../../attachments/GIFTIF/12290195609/att12327125159-image-20230301-154542.png)

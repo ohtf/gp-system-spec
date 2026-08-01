@@ -14,7 +14,7 @@ labels: []
 
 **FAQ guide (issue 2)**
 
-[GP IT F\_BE\_FAQ\_Issue 2.p…](../../../.raw/BG/attachments/11604918331/att11604590690-GP IT F_BE_FAQ_Issue 2.pdf)
+[GP IT F\_BE\_FAQ\_Issue 2.p…](../../../attachments/BG/11604918331/att11604590690-GP IT F_BE_FAQ_Issue 2.pdf)
 
 1. **PROCUREMENT DRIVER**  
    Procurement drivers can be any event or opportunity which triggers an intention to procure specific to the Primary Care IT estate, including:  
@@ -85,9 +85,9 @@ For every contract awarded through GP IT Futures, CCGs are required to update th
 
 ## Attachments
 
-- [image-20210805-132224.png](../../../.raw/BG/attachments/11604918331/att11603706056-image-20210805-132224.png)
-- [Procurement Process Map Notes_FINAL.pdf](../../../.raw/BG/attachments/11604918331/att11604459639-Procurement Process Map Notes_FINAL.pdf)
-- [Procurement Process Map_22.07.21.jpg](../../../.raw/BG/attachments/11604918331/att11604557941-Procurement Process Map_22.07.21.jpg)
-- [Capabilities and Standards Intro for Buyers July 2021.pptx](../../../.raw/BG/attachments/11604918331/att11604590673-Capabilities and Standards Intro for Buyers July 2021.pptx)
-- [GP IT F_BE_FAQ_Issue 2.pdf](../../../.raw/BG/attachments/11604918331/att11604590690-GP IT F_BE_FAQ_Issue 2.pdf)
-- [Local CCG Procurement Scoping Board Paper v1.0.docx](../../../.raw/BG/attachments/11604918331/att11604721742-Local CCG Procurement Scoping Board Paper v1.0.docx)
+- [image-20210805-132224.png](../../../attachments/BG/11604918331/att11603706056-image-20210805-132224.png)
+- [Procurement Process Map Notes_FINAL.pdf](../../../attachments/BG/11604918331/att11604459639-Procurement Process Map Notes_FINAL.pdf)
+- [Procurement Process Map_22.07.21.jpg](../../../attachments/BG/11604918331/att11604557941-Procurement Process Map_22.07.21.jpg)
+- [Capabilities and Standards Intro for Buyers July 2021.pptx](../../../attachments/BG/11604918331/att11604590673-Capabilities and Standards Intro for Buyers July 2021.pptx)
+- [GP IT F_BE_FAQ_Issue 2.pdf](../../../attachments/BG/11604918331/att11604590690-GP IT F_BE_FAQ_Issue 2.pdf)
+- [Local CCG Procurement Scoping Board Paper v1.0.docx](../../../attachments/BG/11604918331/att11604721742-Local CCG Procurement Scoping Board Paper v1.0.docx)

@@ -58,7 +58,7 @@ DCB3058 Compliance with National Data Opt-Outs contains further information on 
 
 The final set of National Data Opt-Out requirements, v2.0 published April 2019, can be accessed below:
 
-[NDOP GP IT Change requir…](../../../../.raw/DCSDCS/attachments/2454978655/att2454978658-NDOP GP IT Change requirements v2.0 29Apr2019.docx)
+[NDOP GP IT Change requir…](../../../../attachments/DCSDCS/2454978655/att2454978658-NDOP GP IT Change requirements v2.0 29Apr2019.docx)
 
 # Dependencies {#NationalDataOpt-Outv1.0.0-Dependencies}
 
@@ -74,4 +74,4 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [NDOP GP IT Change requirements v2.0 29Apr2019.docx](../../../../.raw/DCSDCS/attachments/2454978655/att2454978658-NDOP GP IT Change requirements v2.0 29Apr2019.docx)
+- [NDOP GP IT Change requirements v2.0 29Apr2019.docx](../../../../attachments/DCSDCS/2454978655/att2454978658-NDOP GP IT Change requirements v2.0 29Apr2019.docx)

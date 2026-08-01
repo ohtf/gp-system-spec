@@ -59,7 +59,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [image-20250814-120004.png](../../../../.raw/DCSDCS/attachments/14303461378/att14303461390-image-20250814-120004.png)
-- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../.raw/DCSDCS/attachments/14303461378/att14303461393-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)
-- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../.raw/DCSDCS/attachments/14303461378/att14303461396-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
-- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../.raw/DCSDCS/attachments/14303461378/att14303461399-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+- [image-20250814-120004.png](../../../../attachments/DCSDCS/14303461378/att14303461390-image-20250814-120004.png)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../attachments/DCSDCS/14303461378/att14303461393-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)
+- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../attachments/DCSDCS/14303461378/att14303461396-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../attachments/DCSDCS/14303461378/att14303461399-NHS e-Referrals Service - Referrer Compliance Document v1.docx)

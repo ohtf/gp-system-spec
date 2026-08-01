@@ -24,7 +24,7 @@ This Standard underpins all commercial activity relating to the Catalogue. It do
 
 # Requirements  {#Commercialv1.0.0-Requirements}
 
-[Commercial Standard and …](../../../../.raw/DCSDCS/attachments/10612277405/att10612277418-Commercial Standard and Model Interface Licence.docx)
+[Commercial Standard and …](../../../../attachments/DCSDCS/10612277405/att10612277418-Commercial Standard and Model Interface Licence.docx)
 
 # Capabilities {#Commercialv1.0.0-Capabilities}
 
@@ -44,5 +44,5 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [Commercial Standard and Model Interface Licence.docx](../../../../.raw/DCSDCS/attachments/10612277405/att10612277418-Commercial Standard and Model Interface Licence.docx)
-- [Commercial Standard v2.1 12.3.pdf](../../../../.raw/DCSDCS/attachments/10612277405/att10612277421-Commercial Standard v2.1 12.3.pdf)
+- [Commercial Standard and Model Interface Licence.docx](../../../../attachments/DCSDCS/10612277405/att10612277418-Commercial Standard and Model Interface Licence.docx)
+- [Commercial Standard v2.1 12.3.pdf](../../../../attachments/DCSDCS/10612277405/att10612277421-Commercial Standard v2.1 12.3.pdf)

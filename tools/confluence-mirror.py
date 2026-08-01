@@ -43,6 +43,13 @@ DOCS_ROOT = Path(__file__).parent.parent / "docs"
 MANIFEST_PATH = DOCS_ROOT / ".mirror-manifest.json"
 FAILURE_REPORT_PATH = DOCS_ROOT / ".mirror-failures.json"
 
+# Raw rendered HTML is an archival input for reprocessing, so it lives in a
+# dot-directory the site generator ignores. Attachments are different: pages link
+# to them, so they must sit in a published directory or every attachment link on
+# the site 404s.
+RAW_ROOT = DOCS_ROOT / ".raw"
+ATTACHMENTS_ROOT = DOCS_ROOT / "attachments"
+
 REQUEST_DELAY_MIN = 1.0   # seconds
 REQUEST_DELAY_MAX = 1.8   # seconds (jitter added to avoid bursty patterns)
 MAX_RETRIES = 4
@@ -220,7 +227,7 @@ def fetch_page_body(session: requests.Session, base_url: str, page_id: str) -> t
 def download_attachments(
     session: requests.Session, base_url: str, page_id: str, space_key: str
 ) -> list[dict]:
-    att_dir = DOCS_ROOT / ".raw" / space_key / "attachments" / page_id
+    att_dir = ATTACHMENTS_ROOT / space_key / page_id
     results = []
     cursor = None
     while True:
@@ -385,7 +392,7 @@ def local_attachment_link(href: str, current_path: Path) -> str | None:
     if not attachment_id.startswith("att"):
         attachment_id = f"att{attachment_id}"
 
-    attachment_dir = DOCS_ROOT / ".raw" / space_key / "attachments" / page_id
+    attachment_dir = ATTACHMENTS_ROOT / space_key / page_id
     # Files fetched before filename sanitisation was introduced kept the raw
     # Confluence title on disk, so accept either spelling.
     candidates = [
@@ -523,7 +530,7 @@ def write_page(
 
 
 def save_raw_html(space_key: str, page_id: str, html: str) -> None:
-    raw_path = DOCS_ROOT / ".raw" / space_key / f"{page_id}.html"
+    raw_path = RAW_ROOT / space_key / f"{page_id}.html"
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     raw_path.write_text(html, encoding="utf-8")
 
@@ -640,7 +647,7 @@ def validate(spaces: list[str]) -> list[str]:
             continue
         for key, entry in entries.items():
             pid = key.split("/", 1)[1]
-            raw = DOCS_ROOT / ".raw" / space_key / f"{pid}.html"
+            raw = RAW_ROOT / space_key / f"{pid}.html"
             md_path = DOCS_ROOT / entry["path"]
             if not raw.exists():
                 issues.append(f"missing raw HTML: {key}")
@@ -669,7 +676,7 @@ def rebuild_markdown() -> list[str]:
 
     for key, entry in manifest.items():
         space_key, page_id = key.split("/", 1)
-        raw_path = DOCS_ROOT / ".raw" / space_key / f"{page_id}.html"
+        raw_path = RAW_ROOT / space_key / f"{page_id}.html"
         md_path = DOCS_ROOT / entry["path"]
         if not raw_path.exists() or not md_path.exists():
             issues.append(f"cannot rebuild {key}: missing raw HTML or Markdown")
@@ -690,11 +697,20 @@ def rebuild_markdown() -> list[str]:
 
         def rewrite_attachment(match: re.Match) -> str:
             target = match.group(1)
-            marker = "/.raw/"
-            if marker not in target:
+            if "/attachments/" in target:
+                tail = target.split("/attachments/", 1)[1]
+                # Mirrors written before attachments moved out of the archival
+                # dot-directory used .raw/<space>/attachments/<page>/<file>;
+                # the published layout is attachments/<space>/<page>/<file>.
+                if "/.raw/" in target:
+                    space_key = target.split("/.raw/", 1)[1].split("/", 1)[0]
+                    tail = f"{space_key}/{tail}"
+                resolved = ATTACHMENTS_ROOT / tail
+            elif "/.raw/" in target:
+                resolved = RAW_ROOT / target.split("/.raw/", 1)[1]
+            else:
                 return match.group(0)
-            relative_raw_path = target.split(marker, 1)[1]
-            return "](" + os.path.relpath(DOCS_ROOT / ".raw" / relative_raw_path, md_path.parent) + ")"
+            return "](" + os.path.relpath(resolved, md_path.parent) + ")"
 
         attachment_section = re.sub(r"\]\(([^)]+)\)", rewrite_attachment, attachment_section)
         markdown = html_to_markdown(

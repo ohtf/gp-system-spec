@@ -60,4 +60,4 @@ There are different ways to execute a procurement depending on which procedure y
 
 ## Attachments
 
-- [image-20200401-181031.png](../../../../../.raw/BG/attachments/1931116641/att1930559740-image-20200401-181031.png)
+- [image-20200401-181031.png](../../../../../attachments/BG/1931116641/att1930559740-image-20200401-181031.png)

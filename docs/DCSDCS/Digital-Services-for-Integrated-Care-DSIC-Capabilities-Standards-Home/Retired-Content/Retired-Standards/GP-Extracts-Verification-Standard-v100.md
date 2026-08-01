@@ -57,6 +57,6 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [GPIT Futures Detailed Requirements Requirement 7.1.1 Supporting Diagram v2.0.pdf](../../../../.raw/DCSDCS/attachments/1693188278/att1693188281-GPIT Futures Detailed Requirements Requirement 7.1.1 Supporting Diagram v2.0.pdf)
-- [MenACWY_v3.0 Business Rules.pdf](../../../../.raw/DCSDCS/attachments/1693188278/att1693188284-MenACWY_v3.0 Business Rules.pdf)
-- [GPIT Futures MENACWY Report Example.xlsx](../../../../.raw/DCSDCS/attachments/1693188278/att1693188287-GPIT Futures MENACWY Report Example.xlsx)
+- [GPIT Futures Detailed Requirements Requirement 7.1.1 Supporting Diagram v2.0.pdf](../../../../attachments/DCSDCS/1693188278/att1693188281-GPIT Futures Detailed Requirements Requirement 7.1.1 Supporting Diagram v2.0.pdf)
+- [MenACWY_v3.0 Business Rules.pdf](../../../../attachments/DCSDCS/1693188278/att1693188284-MenACWY_v3.0 Business Rules.pdf)
+- [GPIT Futures MENACWY Report Example.xlsx](../../../../attachments/DCSDCS/1693188278/att1693188287-GPIT Futures MENACWY Report Example.xlsx)

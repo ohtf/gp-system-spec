@@ -338,5 +338,5 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [Edifact_Messaging_Implementation_Guidelines.pdf](../../../../.raw/DCSDCS/attachments/11975328098/att11975328120-Edifact_Messaging_Implementation_Guidelines.pdf)
-- [ISB 1557 (PMEPv1.003).zip](../../../../.raw/DCSDCS/attachments/11975328098/att11975328123-ISB 1557 (PMEPv1.003).zip)
+- [Edifact_Messaging_Implementation_Guidelines.pdf](../../../../attachments/DCSDCS/11975328098/att11975328120-Edifact_Messaging_Implementation_Guidelines.pdf)
+- [ISB 1557 (PMEPv1.003).zip](../../../../attachments/DCSDCS/11975328098/att11975328123-ISB 1557 (PMEPv1.003).zip)

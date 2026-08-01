@@ -85,10 +85,10 @@ See [Capability and Standards Structure](Capability-and-Standards-Structure.md) 
 
 ## Attachments
 
-- [TI Capabilities & Standards Model 0.6.png](../../../.raw/GIFTIF/attachments/11945181185/att11945181203-TI Capabilities & Standards Model 0.6.png)
-- [TI Capabilities & Standards Model 0.5.png](../../../.raw/GIFTIF/attachments/11945181185/att11945181206-TI Capabilities & Standards Model 0.5.png)
-- [PCTI Capabilities & Standards Model 0.5.png](../../../.raw/GIFTIF/attachments/11945181185/att11945181209-PCTI Capabilities & Standards Model 0.5.png)
-- [Tech. Innovation Capabilities and Standards Model 0.4.png](../../../.raw/GIFTIF/attachments/11945181185/att11945181212-Tech. Innovation Capabilities and Standards Model 0.4.png)
-- [DFOCVC Capabilities and Standards model v0.1 (1).jpg](../../../.raw/GIFTIF/attachments/11945181185/att11945181215-DFOCVC Capabilities and Standards model v0.1 (1).jpg)
-- [DFOCVC Capabilities and Standards model v0.3.png](../../../.raw/GIFTIF/attachments/11945181185/att11945181218-DFOCVC Capabilities and Standards model v0.3.png)
-- [TI Capabilities & Standards Model 0.7.png](../../../.raw/GIFTIF/attachments/11945181185/att12211945904-TI Capabilities & Standards Model 0.7.png)
+- [TI Capabilities & Standards Model 0.6.png](../../../attachments/GIFTIF/11945181185/att11945181203-TI Capabilities & Standards Model 0.6.png)
+- [TI Capabilities & Standards Model 0.5.png](../../../attachments/GIFTIF/11945181185/att11945181206-TI Capabilities & Standards Model 0.5.png)
+- [PCTI Capabilities & Standards Model 0.5.png](../../../attachments/GIFTIF/11945181185/att11945181209-PCTI Capabilities & Standards Model 0.5.png)
+- [Tech. Innovation Capabilities and Standards Model 0.4.png](../../../attachments/GIFTIF/11945181185/att11945181212-Tech. Innovation Capabilities and Standards Model 0.4.png)
+- [DFOCVC Capabilities and Standards model v0.1 (1).jpg](../../../attachments/GIFTIF/11945181185/att11945181215-DFOCVC Capabilities and Standards model v0.1 (1).jpg)
+- [DFOCVC Capabilities and Standards model v0.3.png](../../../attachments/GIFTIF/11945181185/att11945181218-DFOCVC Capabilities and Standards model v0.3.png)
+- [TI Capabilities & Standards Model 0.7.png](../../../attachments/GIFTIF/11945181185/att12211945904-TI Capabilities & Standards Model 0.7.png)

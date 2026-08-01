@@ -3,4 +3,4 @@ __pycache__/
 *.pyc
 .env
 site/
-docs/.raw/**/*.mp4
+docs/attachments/**/*.mp4

@@ -48,5 +48,5 @@ Capabilities and Standards will each have the content detailed in the table belo
 
 ## Attachments
 
-- [image2019-2-8_9-11-2.png](../../../.raw/DFOCVCL/attachments/5132484890/att5132484969-image2019-2-8_9-11-2.png)
-- [Capability structure.png](../../../.raw/DFOCVCL/attachments/5132484890/att5132484979-Capability structure.png)
+- [image2019-2-8_9-11-2.png](../../../attachments/DFOCVCL/5132484890/att5132484969-image2019-2-8_9-11-2.png)
+- [Capability structure.png](../../../attachments/DFOCVCL/5132484890/att5132484979-Capability structure.png)

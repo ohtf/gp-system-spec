@@ -224,7 +224,7 @@ The separately-supplied schema provides the type for each data item.
 
 ### eMED3 Template (2022) {#eMED3(FitNotes)v1.3.0-eMED3Template(2022)}
 
-[eMED3 Template (2022).pdf](../../../../.raw/DCSDCS/attachments/12288688132/att12288688161-eMED3 Template (2022).pdf)
+[eMED3 Template (2022).pdf](../../../../attachments/DCSDCS/12288688132/att12288688161-eMED3 Template (2022).pdf)
 
 ### eMED3 Template (2022) with Mappings {#eMED3(FitNotes)v1.3.0-eMED3Template(2022)withMappings}
 
@@ -232,7 +232,7 @@ This template defines the mappings between the printed form and the eMED3 data i
 
 The eMED3 Template Mappings -all printed data items shows this for all data items.
 
-[eMED3 Template (2022) wi…](../../../../.raw/DCSDCS/attachments/12288688132/att12288688158-eMED3 Template (2022) with Mappings.pdf)
+[eMED3 Template (2022) wi…](../../../../attachments/DCSDCS/12288688132/att12288688158-eMED3 Template (2022) with Mappings.pdf)
 
 ### eMED3 Template Mappings - all printed data items {#eMED3(FitNotes)v1.3.0-eMED3TemplateMappings-allprinteddataitems}
 
@@ -316,10 +316,10 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [EMED3-v2-7 - Rev 2.txt](../../../../.raw/DCSDCS/attachments/12288688132/att12288262247-EMED3-v2-7 - Rev 2.txt)
-- [EMED3-v2-7 SCHEMA Rev 1.txt](../../../../.raw/DCSDCS/attachments/12288688132/att12288688155-EMED3-v2-7 SCHEMA Rev 1.txt)
-- [eMED3 Template (2022) with Mappings.pdf](../../../../.raw/DCSDCS/attachments/12288688132/att12288688158-eMED3 Template (2022) with Mappings.pdf)
-- [eMED3 Template (2022).pdf](../../../../.raw/DCSDCS/attachments/12288688132/att12288688161-eMED3 Template (2022).pdf)
-- [eMED3 - Templatewithmapping.pdf](../../../../.raw/DCSDCS/attachments/12288688132/att12288688164-eMED3 - Templatewithmapping.pdf)
-- [Annex 1 Med3 Master Final 080317.pdf](../../../../.raw/DCSDCS/attachments/12288688132/att12288688167-Annex 1 Med3 Master Final 080317.pdf)
-- [eMED3-v2-4 SCHEMA.txt](../../../../.raw/DCSDCS/attachments/12288688132/att12288688170-eMED3-v2-4 SCHEMA.txt)
+- [EMED3-v2-7 - Rev 2.txt](../../../../attachments/DCSDCS/12288688132/att12288262247-EMED3-v2-7 - Rev 2.txt)
+- [EMED3-v2-7 SCHEMA Rev 1.txt](../../../../attachments/DCSDCS/12288688132/att12288688155-EMED3-v2-7 SCHEMA Rev 1.txt)
+- [eMED3 Template (2022) with Mappings.pdf](../../../../attachments/DCSDCS/12288688132/att12288688158-eMED3 Template (2022) with Mappings.pdf)
+- [eMED3 Template (2022).pdf](../../../../attachments/DCSDCS/12288688132/att12288688161-eMED3 Template (2022).pdf)
+- [eMED3 - Templatewithmapping.pdf](../../../../attachments/DCSDCS/12288688132/att12288688164-eMED3 - Templatewithmapping.pdf)
+- [Annex 1 Med3 Master Final 080317.pdf](../../../../attachments/DCSDCS/12288688132/att12288688167-Annex 1 Med3 Master Final 080317.pdf)
+- [eMED3-v2-4 SCHEMA.txt](../../../../attachments/DCSDCS/12288688132/att12288688170-eMED3-v2-4 SCHEMA.txt)

@@ -254,4 +254,4 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [Hosting and Infrastructure_Cloud Standards_Good Practice Guide.xlsx](../../../../.raw/DCSDCS/attachments/1391134324/att14218100825-Hosting and Infrastructure_Cloud Standards_Good Practice Guide.xlsx)
+- [Hosting and Infrastructure_Cloud Standards_Good Practice Guide.xlsx](../../../../attachments/DCSDCS/1391134324/att14218100825-Hosting and Infrastructure_Cloud Standards_Good Practice Guide.xlsx)

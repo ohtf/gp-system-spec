@@ -81,9 +81,9 @@ See [Capability and Standards Structure](Capability-and-Standards-Structure.md)p
 
 ## Attachments
 
-- [Guideline-ID_New-2 (1).png](../../../.raw/GPITF/attachments/1391134310/att1391158589-Guideline-ID_New-2 (1).png)
-- [GP IT Futures Capabilities and Standards model v0.5.png](../../../.raw/GPITF/attachments/1391134310/att11962286214-GP IT Futures Capabilities and Standards model v0.5.png)
-- [TI Capabilities & Standards Model 0.6.png](../../../.raw/GPITF/attachments/1391134310/att11962679607-TI Capabilities & Standards Model 0.6.png)
-- [GP IT Futures Capabilities and Standards model v0.6.png](../../../.raw/GPITF/attachments/1391134310/att12211814652-GP IT Futures Capabilities and Standards model v0.6.png)
-- [image-20230522-142030.png](../../../.raw/GPITF/attachments/1391134310/att12416418140-image-20230522-142030.png)
-- [image-20230522-143547.png](../../../.raw/GPITF/attachments/1391134310/att12416975197-image-20230522-143547.png)
+- [Guideline-ID_New-2 (1).png](../../../attachments/GPITF/1391134310/att1391158589-Guideline-ID_New-2 (1).png)
+- [GP IT Futures Capabilities and Standards model v0.5.png](../../../attachments/GPITF/1391134310/att11962286214-GP IT Futures Capabilities and Standards model v0.5.png)
+- [TI Capabilities & Standards Model 0.6.png](../../../attachments/GPITF/1391134310/att11962679607-TI Capabilities & Standards Model 0.6.png)
+- [GP IT Futures Capabilities and Standards model v0.6.png](../../../attachments/GPITF/1391134310/att12211814652-GP IT Futures Capabilities and Standards model v0.6.png)
+- [image-20230522-142030.png](../../../attachments/GPITF/1391134310/att12416418140-image-20230522-142030.png)
+- [image-20230522-143547.png](../../../attachments/GPITF/1391134310/att12416975197-image-20230522-143547.png)

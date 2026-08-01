@@ -48,12 +48,12 @@ The Vaccination and Adverse Reaction Recording Capability enables the recording 
 
 ## Attachments
 
-- [NHS BSA Claim Interface Guide v0_16.pdf](../../../../.raw/DCSDCS/attachments/7918551342/att10563256453-NHS BSA Claim Interface Guide v0_16.pdf)
-- [NHS Digital daily adverse reaction extract technical specification v0.3  DRAFT.docx](../../../../.raw/DCSDCS/attachments/7918551342/att10563518671-NHS Digital daily adverse reaction extract technical specification v0.3  DRAFT.docx)
-- [NHS Digital daily clinical vaccination extract technical specification v3.0 APPROVED.docx](../../../../.raw/DCSDCS/attachments/7918551342/att10563551428-NHS Digital daily clinical vaccination extract technical specification v3.0 APPROVED.docx)
-- [NHS Digital daily adverse reaction extract technical specification v1.0 APPROVED.docx](../../../../.raw/DCSDCS/attachments/7918551342/att10585178155-NHS Digital daily adverse reaction extract technical specification v1.0 APPROVED.docx)
-- [Clinical Screening Questions.docx](../../../../.raw/DCSDCS/attachments/7918551342/att10736631967-Clinical Screening Questions.docx)
-- [150121 IoS and Care Home Supplement Payment Guidance for PCN FINAL FOR CIRCULATION.pdf](../../../../.raw/DCSDCS/attachments/7918551342/att10752786435-150121 IoS and Care Home Supplement Payment Guidance for PCN FINAL FOR CIRCULATION.pdf)
-- [NHS BSA Claim Interface Guide v0_18.docx](../../../../.raw/DCSDCS/attachments/7918551342/att10755407873-NHS BSA Claim Interface Guide v0_18.docx)
-- [290121 IoS and Care Home Supplement Payment Guidance for PCN V3.pdf](../../../../.raw/DCSDCS/attachments/7918551342/att10769727551-290121 IoS and Care Home Supplement Payment Guidance for PCN V3.pdf)
-- [NHS BSA Claim Interface Guide v0_20.docx](../../../../.raw/DCSDCS/attachments/7918551342/att10833559633-NHS BSA Claim Interface Guide v0_20.docx)
+- [NHS BSA Claim Interface Guide v0_16.pdf](../../../../attachments/DCSDCS/7918551342/att10563256453-NHS BSA Claim Interface Guide v0_16.pdf)
+- [NHS Digital daily adverse reaction extract technical specification v0.3  DRAFT.docx](../../../../attachments/DCSDCS/7918551342/att10563518671-NHS Digital daily adverse reaction extract technical specification v0.3  DRAFT.docx)
+- [NHS Digital daily clinical vaccination extract technical specification v3.0 APPROVED.docx](../../../../attachments/DCSDCS/7918551342/att10563551428-NHS Digital daily clinical vaccination extract technical specification v3.0 APPROVED.docx)
+- [NHS Digital daily adverse reaction extract technical specification v1.0 APPROVED.docx](../../../../attachments/DCSDCS/7918551342/att10585178155-NHS Digital daily adverse reaction extract technical specification v1.0 APPROVED.docx)
+- [Clinical Screening Questions.docx](../../../../attachments/DCSDCS/7918551342/att10736631967-Clinical Screening Questions.docx)
+- [150121 IoS and Care Home Supplement Payment Guidance for PCN FINAL FOR CIRCULATION.pdf](../../../../attachments/DCSDCS/7918551342/att10752786435-150121 IoS and Care Home Supplement Payment Guidance for PCN FINAL FOR CIRCULATION.pdf)
+- [NHS BSA Claim Interface Guide v0_18.docx](../../../../attachments/DCSDCS/7918551342/att10755407873-NHS BSA Claim Interface Guide v0_18.docx)
+- [290121 IoS and Care Home Supplement Payment Guidance for PCN V3.pdf](../../../../attachments/DCSDCS/7918551342/att10769727551-290121 IoS and Care Home Supplement Payment Guidance for PCN V3.pdf)
+- [NHS BSA Claim Interface Guide v0_20.docx](../../../../attachments/DCSDCS/7918551342/att10833559633-NHS BSA Claim Interface Guide v0_20.docx)

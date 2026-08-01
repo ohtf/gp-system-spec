@@ -65,6 +65,6 @@ Items on the Roadmap which impact or relate to this Capability
 
 ## Attachments
 
-- [Business Rules for Firearms - v13 .docx](../../../../.raw/DCSDCS/attachments/14438891521/att14438891573-Business Rules for Firearms - v13 .docx)
-- [NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx](../../../../.raw/DCSDCS/attachments/14438891521/att14438891576-NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx)
-- [NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx](../../../../.raw/DCSDCS/attachments/14438891521/att14438891579-NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx)
+- [Business Rules for Firearms - v13 .docx](../../../../attachments/DCSDCS/14438891521/att14438891573-Business Rules for Firearms - v13 .docx)
+- [NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx](../../../../attachments/DCSDCS/14438891521/att14438891576-NHS Digital daily clinical vaccination extract technical specification v3.6 Approved.docx)
+- [NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx](../../../../attachments/DCSDCS/14438891521/att14438891579-NHS Digital Daily  clinical  vaccination specification V2.3 - seasonal flu 2021-22 Approved.docx)

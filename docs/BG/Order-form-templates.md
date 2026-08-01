@@ -14,18 +14,18 @@ Download and complete the templates to document any changes you’ve agreed with
 
 **Appendix 1: Implementation plan milestones**
 
-[Appendix 1\_Implementatio…](../.raw/BG/attachments/12057968779/att12057772171-Appendix 1_Implementation plan milestones_Schedule 2.3.docx)
+[Appendix 1\_Implementatio…](../attachments/BG/12057968779/att12057772171-Appendix 1_Implementation plan milestones_Schedule 2.3.docx)
 
 **Appendix 2: Associated Service billing and requirements**
 
-[Appendix 2\_Associated Se…](../.raw/BG/attachments/12057968779/att12057641131-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
+[Appendix 2\_Associated Se…](../attachments/BG/12057968779/att12057641131-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
 
 **Appendix 3: Data processing information**
 
-[Appendix 3\_Data processi…](../.raw/BG/attachments/12057968779/att12057641137-Appendix 3_Data processing information_Schedule 2.3.docx)
+[Appendix 3\_Data processi…](../attachments/BG/12057968779/att12057641137-Appendix 3_Data processing information_Schedule 2.3.docx)
 
 ## Attachments
 
-- [Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx](../.raw/BG/attachments/12057968779/att12057641131-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
-- [Appendix 3_Data processing information_Schedule 2.3.docx](../.raw/BG/attachments/12057968779/att12057641137-Appendix 3_Data processing information_Schedule 2.3.docx)
-- [Appendix 1_Implementation plan milestones_Schedule 2.3.docx](../.raw/BG/attachments/12057968779/att12057772171-Appendix 1_Implementation plan milestones_Schedule 2.3.docx)
+- [Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx](../attachments/BG/12057968779/att12057641131-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
+- [Appendix 3_Data processing information_Schedule 2.3.docx](../attachments/BG/12057968779/att12057641137-Appendix 3_Data processing information_Schedule 2.3.docx)
+- [Appendix 1_Implementation plan milestones_Schedule 2.3.docx](../attachments/BG/12057968779/att12057772171-Appendix 1_Implementation plan milestones_Schedule 2.3.docx)

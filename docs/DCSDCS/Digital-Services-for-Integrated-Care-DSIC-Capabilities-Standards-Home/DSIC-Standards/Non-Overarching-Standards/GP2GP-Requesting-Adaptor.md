@@ -317,7 +317,7 @@ Document references returned are identified within the Patient’s structured re
 | **GP2GP\_Req\_57** | If the issue cannot be resolved within 1 hour, then the Requesting System creates a placeholder. This is so as not to delay the integration of the EHR because of a failed document(s) | MUST |
 | **GP2GP\_Req\_58** | The placeholder is a file that is text with a ‘txt’ suffix and MIME type text/plain. | MUST |
 | **GP2GP\_Req\_59** | The file is named as follows:  **AbsentAttachment\_[description]\_[Owning Organisation ODS Code]\_[Date created].txt**  Where [id] is the GP Connect ‘Document Reference Id’ and [description] is the Document Reference ‘Description’.  For example: **AbsentAttachment\_discharge summary\_A12345\_18012022.txt**  The title is labelled with these data items to make it clear what the document is, when it was created and who was the original owner. This is to help users identifying attachments, especially with the pain point where a record moves from A-B-C, where B has missing attachments from A and then C has missing attachments from both A and B and needs to be able to clearly identify where the missing attachments came from originally. | MUST |
-| **GP2GP\_Req\_60** | Within the placeholder file the text is as set out in Appendix D - GP C placeholder.  An example is provided here  [AbsentAttachment\_example](../../../../.raw/DCSDCS/attachments/12512034968/att12512034985-AbsentAttachment_example) | MUST |
+| **GP2GP\_Req\_60** | Within the placeholder file the text is as set out in Appendix D - GP C placeholder.  An example is provided here  [AbsentAttachment\_example](../../../../attachments/DCSDCS/12512034968/att12512034985-AbsentAttachment_example) | MUST |
 | **GP2GP\_Req\_61** | Once all placeholders have been created the Requesting System proceeds to Step 17 | MUST |
 | **GP2GP\_Req\_62** | The Requesting System alerts its users to any placeholders it has created (i.e. document could not be retrieved) and that the user will need to contact the Sending Site should they want a copy. Further information can be found in Appendix D. | MUST |
 | **GP2GP\_Req\_63** | If after the record has been integrated (the completion of Step 17) either   - the Requesting System reaches a resolution on the service incident raised in requirement **GP2GP\_Req\_56** and is able to successfully retrieve the attachment - The user is able to obtain an electronic copy of an attachment from the Sending Site   The Requesting System has the functionality to allow the user todelete the .txt placeholder and insert the retrieved document it related to.  This is because it is preferable to have a placeholder replaced with the actual document so as not to ensure the attachment is available and to prevent the propagation of placeholders in onward transfers | SHOULD |
@@ -406,7 +406,7 @@ There is no change in the way the Requesting System Supplier should handle degra
 | --- | --- | --- |
 | **Handling Degrades** | | |
 | **Requirement ID** | **Requirement Text** | **Level** |
-| **GP2GP\_Req\_89** | The Requesting system handles degrades as set out in the GP2GP “*NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling”*.  [NPFIT-PC-BLD-0132.03 GP2…](../../../../.raw/DCSDCS/attachments/12512034968/att12512034988-NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf) | MUST |
+| **GP2GP\_Req\_89** | The Requesting system handles degrades as set out in the GP2GP “*NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling”*.  [NPFIT-PC-BLD-0132.03 GP2…](../../../../attachments/DCSDCS/12512034968/att12512034988-NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf) | MUST |
 
 ### Step 21 - Audit Requirements {#GP2GPRequestingAdaptor-Step21-AuditRequirements}
 
@@ -650,8 +650,8 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [AbsentAttachment_example](../../../../.raw/DCSDCS/attachments/12512034968/att12512034985-AbsentAttachment_example)
-- [NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf](../../../../.raw/DCSDCS/attachments/12512034968/att12512034988-NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf)
-- [ReqAdptSteps1234.jpg](../../../../.raw/DCSDCS/attachments/12512034968/att12512034991-ReqAdptSteps1234.jpg)
-- [ReqAdpSteps567.jpg](../../../../.raw/DCSDCS/attachments/12512034968/att12512034994-ReqAdpSteps567.jpg)
-- [image-20250321-134838.png](../../../../.raw/DCSDCS/attachments/12512034968/att14151352513-image-20250321-134838.png)
+- [AbsentAttachment_example](../../../../attachments/DCSDCS/12512034968/att12512034985-AbsentAttachment_example)
+- [NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf](../../../../attachments/DCSDCS/12512034968/att12512034988-NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf)
+- [ReqAdptSteps1234.jpg](../../../../attachments/DCSDCS/12512034968/att12512034991-ReqAdptSteps1234.jpg)
+- [ReqAdpSteps567.jpg](../../../../attachments/DCSDCS/12512034968/att12512034994-ReqAdpSteps567.jpg)
+- [image-20250321-134838.png](../../../../attachments/DCSDCS/12512034968/att14151352513-image-20250321-134838.png)

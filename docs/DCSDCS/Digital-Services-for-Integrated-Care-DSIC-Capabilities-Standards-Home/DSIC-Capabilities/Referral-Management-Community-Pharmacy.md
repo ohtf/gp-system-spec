@@ -52,4 +52,4 @@ Items on the Roadmap which impact or relate to this Capability
 
 ## Attachments
 
-- [image-20220727-150414.png](../../../.raw/DCSDCS/attachments/12785451009/att12785451023-image-20220727-150414.png)
+- [image-20220727-150414.png](../../../attachments/DCSDCS/12785451009/att12785451023-image-20220727-150414.png)

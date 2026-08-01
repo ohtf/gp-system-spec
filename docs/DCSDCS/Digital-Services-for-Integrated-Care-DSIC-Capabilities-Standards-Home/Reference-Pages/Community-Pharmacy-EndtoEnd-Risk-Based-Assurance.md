@@ -54,4 +54,4 @@ Suppliers must execute their End‑to‑End tests and clearly map them to the ri
 
 ## Attachments
 
-- [Community Pharmacy End to End Risk Log.xlsx](../../../.raw/DCSDCS/attachments/15023800355/att15083012134-Community Pharmacy End to End Risk Log.xlsx)
+- [Community Pharmacy End to End Risk Log.xlsx](../../../attachments/DCSDCS/15023800355/att15083012134-Community Pharmacy End to End Risk Log.xlsx)

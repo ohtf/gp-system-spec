@@ -75,6 +75,6 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../.raw/DCSDCS/attachments/12488474777/att12488474790-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
-- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../.raw/DCSDCS/attachments/12488474777/att12488474793-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
-- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../.raw/DCSDCS/attachments/12488474777/att12488474796-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../attachments/DCSDCS/12488474777/att12488474790-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../attachments/DCSDCS/12488474777/att12488474793-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../attachments/DCSDCS/12488474777/att12488474796-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)

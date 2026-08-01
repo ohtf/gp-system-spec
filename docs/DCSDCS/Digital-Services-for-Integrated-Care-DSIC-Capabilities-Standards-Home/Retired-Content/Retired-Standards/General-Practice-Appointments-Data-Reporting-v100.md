@@ -109,4 +109,4 @@ Suppliers will not be assessed or assured on these Roadmap Items as part of Onbo
 
 ## Attachments
 
-- [hcp type.PNG](../../../../.raw/DCSDCS/attachments/1946288168/att1946288171-hcp type.PNG)
+- [hcp type.PNG](../../../../attachments/DCSDCS/1946288168/att1946288171-hcp type.PNG)

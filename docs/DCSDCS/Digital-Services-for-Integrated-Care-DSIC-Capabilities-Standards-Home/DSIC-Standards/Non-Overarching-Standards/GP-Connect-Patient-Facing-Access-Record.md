@@ -59,6 +59,6 @@ Creating a compliant implementation requires implementing the following dependen
 
 ## Attachments
 
-- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../.raw/DCSDCS/attachments/14303264899/att14303264911-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
-- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../.raw/DCSDCS/attachments/14303264899/att14303264914-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
-- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../.raw/DCSDCS/attachments/14303264899/att14303264917-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.docx](../../../../attachments/DCSDCS/14303264899/att14303264911-NHS e-Referrals Service - Referrer Compliance Document v1.docx)
+- [e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml](../../../../attachments/DCSDCS/14303264899/att14303264914-e-Referrals Service (e-RS) v2.0.1 - Digital Care Services (DCS) Capabilities & Standards - Confluence.mhtml)
+- [NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx](../../../../attachments/DCSDCS/14303264899/att14303264917-NHS e-Referrals Service - Referrer Compliance Document v1.1 (1).docx)

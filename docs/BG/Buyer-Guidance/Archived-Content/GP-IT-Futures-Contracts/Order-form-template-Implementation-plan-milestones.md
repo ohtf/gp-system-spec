@@ -14,8 +14,8 @@ Download the Implementation plan milestones template so that the supplier can pr
 
 **Implementation plan milestones template**
 
-[Implementation plan mile…](../../../../.raw/BG/attachments/12209422525/att12209062105-Implementation plan milestones template_Schedule 2.3.docx)
+[Implementation plan mile…](../../../../attachments/BG/12209422525/att12209062105-Implementation plan milestones template_Schedule 2.3.docx)
 
 ## Attachments
 
-- [Implementation plan milestones template_Schedule 2.3.docx](../../../../.raw/BG/attachments/12209422525/att12209062105-Implementation plan milestones template_Schedule 2.3.docx)
+- [Implementation plan milestones template_Schedule 2.3.docx](../../../../attachments/BG/12209422525/att12209062105-Implementation plan milestones template_Schedule 2.3.docx)

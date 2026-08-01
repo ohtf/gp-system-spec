@@ -16,4 +16,4 @@ DFOCVC Suppliers are required to submit data to NHS E/I regularly to help inform
 
 ## Attachments
 
-- [DFOCVC Solution Usage Metrics V0.6.docx](../../../../.raw/BG/attachments/11720196265/att11719704673-DFOCVC Solution Usage Metrics V0.6.docx)
+- [DFOCVC Solution Usage Metrics V0.6.docx](../../../../attachments/BG/11720196265/att11719704673-DFOCVC Solution Usage Metrics V0.6.docx)

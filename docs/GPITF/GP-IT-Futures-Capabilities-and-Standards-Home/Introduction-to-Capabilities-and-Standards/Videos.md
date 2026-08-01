@@ -48,9 +48,9 @@ Your browser does not support the HTML5 video element
 
 ## Attachments
 
-- [Catalogue On-Boarding Demonstration.mp4](../../../.raw/GPITF/attachments/1483309062/att1483177997-Catalogue On-Boarding Demonstration.mp4)
-- [CATALOGUE ON-BOARDING WEBINAR VIDEO - 05 June 2019 15.31.46.mp4](../../../.raw/GPITF/attachments/1483309062/att1526530066-CATALOGUE ON-BOARDING WEBINAR VIDEO - 05 June 2019 15.31.46.mp4)
-- [PROCUREMENT OVERVIEW WEBINAR - 07 June 2019 10.33.04.mp4](../../../.raw/GPITF/attachments/1483309062/att1539014701-PROCUREMENT OVERVIEW WEBINAR - 07 June 2019 10.33.04.mp4)
-- [GP IT Futures Compiling your Tender - 13 June.mp4](../../../.raw/GPITF/attachments/1483309062/att1539309583-GP IT Futures Compiling your Tender - 13 June.mp4)
-- [GP IT Futures Webinar - Hosting and Infrastructure Standards.pdf](../../../.raw/GPITF/attachments/1483309062/att1555005507-GP IT Futures Webinar - Hosting and Infrastructure Standards.pdf)
-- [GP IT Futures Hosting and Infrastructure Standards Webinar.mp4](../../../.raw/GPITF/attachments/1483309062/att1555628034-GP IT Futures Hosting and Infrastructure Standards Webinar.mp4)
+- [Catalogue On-Boarding Demonstration.mp4](../../../attachments/GPITF/1483309062/att1483177997-Catalogue On-Boarding Demonstration.mp4)
+- [CATALOGUE ON-BOARDING WEBINAR VIDEO - 05 June 2019 15.31.46.mp4](../../../attachments/GPITF/1483309062/att1526530066-CATALOGUE ON-BOARDING WEBINAR VIDEO - 05 June 2019 15.31.46.mp4)
+- [PROCUREMENT OVERVIEW WEBINAR - 07 June 2019 10.33.04.mp4](../../../attachments/GPITF/1483309062/att1539014701-PROCUREMENT OVERVIEW WEBINAR - 07 June 2019 10.33.04.mp4)
+- [GP IT Futures Compiling your Tender - 13 June.mp4](../../../attachments/GPITF/1483309062/att1539309583-GP IT Futures Compiling your Tender - 13 June.mp4)
+- [GP IT Futures Webinar - Hosting and Infrastructure Standards.pdf](../../../attachments/GPITF/1483309062/att1555005507-GP IT Futures Webinar - Hosting and Infrastructure Standards.pdf)
+- [GP IT Futures Hosting and Infrastructure Standards Webinar.mp4](../../../attachments/GPITF/1483309062/att1555628034-GP IT Futures Hosting and Infrastructure Standards Webinar.mp4)

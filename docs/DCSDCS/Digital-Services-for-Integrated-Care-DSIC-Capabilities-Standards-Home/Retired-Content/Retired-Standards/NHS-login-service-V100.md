@@ -42,7 +42,7 @@ Please note this initiative was previously known as Citizen Identity.
 
 Part of this work involves the development of a new simple interface to retrieve and create linkage keys for users, whereby the NHS login platform is used to register and verify users via an online process. As part of this process, the NHS login platform will obtain an NHS number (with appropriate consent) and validate this against PDS and GP Practice Codes (i.e. ODS Codes). This approach will allow the NHS login platform to retrieve linkage keys for users and allow the platform to generate new linkage keys for users where they do not already have one. The latest requirements set can be accessed below:
 
-[Linkage Key API Specific…](../../../../.raw/DCSDCS/attachments/12117573633/att12117573652-Linkage Key API Specification v1.0.docx)
+[Linkage Key API Specific…](../../../../attachments/DCSDCS/12117573633/att12117573652-Linkage Key API Specification v1.0.docx)
 
 # Roadmap  {#NHSloginserviceV1.0.0-Roadmap}
 
@@ -52,4 +52,4 @@ Part of this work involves the development of a new simple interface to retrieve
 
 ## Attachments
 
-- [Linkage Key API Specification v1.0.docx](../../../../.raw/DCSDCS/attachments/12117573633/att12117573652-Linkage Key API Specification v1.0.docx)
+- [Linkage Key API Specification v1.0.docx](../../../../attachments/DCSDCS/12117573633/att12117573652-Linkage Key API Specification v1.0.docx)

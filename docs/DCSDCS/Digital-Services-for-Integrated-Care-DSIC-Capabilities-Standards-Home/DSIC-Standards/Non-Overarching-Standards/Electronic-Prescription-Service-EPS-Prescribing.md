@@ -135,10 +135,10 @@ Items on the Roadmap which impact or relate to this Standard
 
 ## Attachments
 
-- [image2017-12-15_13-11-32.png](../../../../.raw/DCSDCS/attachments/1391133858/att1391140256-image2017-12-15_13-11-32.png)
-- [image2017-12-15_14-24-50.png](../../../../.raw/DCSDCS/attachments/1391133858/att1391140257-image2017-12-15_14-24-50.png)
-- [EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf](../../../../.raw/DCSDCS/attachments/1391133858/att1391140271-EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf)
-- [EPS Compliance Specification v6.9.pdf](../../../../.raw/DCSDCS/attachments/1391133858/att1391140845-EPS Compliance Specification v6.9.pdf)
-- [EPS+v6.10.doc](../../../../.raw/DCSDCS/attachments/1391133858/att1391155442-EPS+v6.10.doc)
-- [EPS Prescribing Systems Compliance Specification v6-10.docx](../../../../.raw/DCSDCS/attachments/1391133858/att1391155560-EPS Prescribing Systems Compliance Specification v6-10.docx)
-- [EPS Prescribing Systems Compliance Specification v6-10.pdf](../../../../.raw/DCSDCS/attachments/1391133858/att1391155564-EPS Prescribing Systems Compliance Specification v6-10.pdf)
+- [image2017-12-15_13-11-32.png](../../../../attachments/DCSDCS/1391133858/att1391140256-image2017-12-15_13-11-32.png)
+- [image2017-12-15_14-24-50.png](../../../../attachments/DCSDCS/1391133858/att1391140257-image2017-12-15_14-24-50.png)
+- [EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf](../../../../attachments/DCSDCS/1391133858/att1391140271-EPS_Prescribing_Systems_Compliance_Specification_-_3_June_2016.pdf)
+- [EPS Compliance Specification v6.9.pdf](../../../../attachments/DCSDCS/1391133858/att1391140845-EPS Compliance Specification v6.9.pdf)
+- [EPS+v6.10.doc](../../../../attachments/DCSDCS/1391133858/att1391155442-EPS+v6.10.doc)
+- [EPS Prescribing Systems Compliance Specification v6-10.docx](../../../../attachments/DCSDCS/1391133858/att1391155560-EPS Prescribing Systems Compliance Specification v6-10.docx)
+- [EPS Prescribing Systems Compliance Specification v6-10.pdf](../../../../attachments/DCSDCS/1391133858/att1391155564-EPS Prescribing Systems Compliance Specification v6-10.pdf)

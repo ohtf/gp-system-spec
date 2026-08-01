@@ -22,6 +22,6 @@ The Capabilities and Standards are structured in the model below.
 
 ## Attachments
 
-- [GP IT Futures Capabilities and Standards model v0.29.jpg](../../../../.raw/DCSDCS/attachments/1391133851/att1410957327-GP IT Futures Capabilities and Standards model v0.29.jpg)
-- [GP IT Futures Capabilities and Standards model v0.30.jpg](../../../../.raw/DCSDCS/attachments/1391133851/att1507131484-GP IT Futures Capabilities and Standards model v0.30.jpg)
-- [GP IT Futures Capabilities and Standards model v0.40.jpg](../../../../.raw/DCSDCS/attachments/1391133851/att11195056357-GP IT Futures Capabilities and Standards model v0.40.jpg)
+- [GP IT Futures Capabilities and Standards model v0.29.jpg](../../../../attachments/DCSDCS/1391133851/att1410957327-GP IT Futures Capabilities and Standards model v0.29.jpg)
+- [GP IT Futures Capabilities and Standards model v0.30.jpg](../../../../attachments/DCSDCS/1391133851/att1507131484-GP IT Futures Capabilities and Standards model v0.30.jpg)
+- [GP IT Futures Capabilities and Standards model v0.40.jpg](../../../../attachments/DCSDCS/1391133851/att11195056357-GP IT Futures Capabilities and Standards model v0.40.jpg)

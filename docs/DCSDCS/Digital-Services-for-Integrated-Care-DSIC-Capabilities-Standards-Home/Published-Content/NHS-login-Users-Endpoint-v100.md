@@ -59,6 +59,6 @@ Items on the Roadmap which impact or relate to this Standard.
 
 ## Attachments
 
-- [NHS login - Interface Specification - Users Endpoint V2 v1.0.docx](../../../.raw/DCSDCS/attachments/15035203688/att15035203701-NHS login - Interface Specification - Users Endpoint V2 v1.0.docx)
-- [NHS login - Interface Specification - Users Endpoint V2 v0.3 - Sent to Proxy.docx](../../../.raw/DCSDCS/attachments/15035203688/att15035203704-NHS login - Interface Specification - Users Endpoint V2 v0.3 - Sent to Proxy.docx)
-- [IM1 PFS Auth Proxy Spec - EMIS-v4-20250915_105747.pdf](../../../.raw/DCSDCS/attachments/15035203688/att15035203707-IM1 PFS Auth Proxy Spec - EMIS-v4-20250915_105747.pdf)
+- [NHS login - Interface Specification - Users Endpoint V2 v1.0.docx](../../../attachments/DCSDCS/15035203688/att15035203701-NHS login - Interface Specification - Users Endpoint V2 v1.0.docx)
+- [NHS login - Interface Specification - Users Endpoint V2 v0.3 - Sent to Proxy.docx](../../../attachments/DCSDCS/15035203688/att15035203704-NHS login - Interface Specification - Users Endpoint V2 v0.3 - Sent to Proxy.docx)
+- [IM1 PFS Auth Proxy Spec - EMIS-v4-20250915_105747.pdf](../../../attachments/DCSDCS/15035203688/att15035203707-IM1 PFS Auth Proxy Spec - EMIS-v4-20250915_105747.pdf)
