@@ -27,7 +27,7 @@ labels: ["interop_standard_retired"]
   - [CIS and Smartcards](#AuthenticationandAccessv1.0.1-CISandSmartcards)
 - [Roadmap](#AuthenticationandAccessv1.0.1-Roadmap)
 
-# Introduction
+# Introduction {#AuthenticationandAccessv1.0.1-Introduction}
 
 Identity and Access Management (IAM) provides a trusted digital identity service for health and care staff that authorises access to health and care information systems. This authentication allows the health and care professional to log on and access those systems securely through a range of access options.
 
@@ -42,29 +42,29 @@ The new NHS Care Identity Service 2 has a number of benefits:
 
 To enable these aims NHS Identity is providing an OpenID Connect (OIDC) solution. OIDC is an Internet Engineering Task Force (IETF) standard that defines a protocol for applications to request a user authentication from an Identity Provider (IdP) such as NHS Care Identity Service 2.
 
-# Requirements
+# Requirements  {#AuthenticationandAccessv1.0.1-Requirements}
 
 | Applicable Suppliers | Requirement | Level |
 | --- | --- | --- |
 | Suppliers of new services or applications (i.e. those which are NOT currently deployed into an operational environment) | NHS Care Identity Service 2 (NHS CIS2) to be used for authenticating staff by implementing and maintaining the latest specification version. | MUST |
 | Suppliers of services which ARE currently deployed into an operational environment and have existing compliance. | CIS (Care Identity Service) or later version (e.g. NHS CIS2) to be used for authenticating staff. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#AuthenticationandAccessv1.0.1-Compliance,AssuranceandTesting}
 
 Compliance and assurance is carried out as part of the overall IG assurance process when connecting to a national service (which is linked to the appropriate RBAC to access a service). Where Smartcards are used for accessing the local system, data compliance and assurance should be carried out to ensure that a user can only access services and patient information based on their allocated RBAC.
 
 For Suppliers of new services or applications, see the Care Identity Service (CIS2) section on Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements.
 
-# Documentation
+# Documentation {#AuthenticationandAccessv1.0.1-Documentation}
 
-### **NHS Care Identity Service 2**
+### **NHS Care Identity Service 2** {#AuthenticationandAccessv1.0.1-NHSCareIdentityService2}
 
 Suppliers of new services or applications, see additional supporting documentation:
 
 - Identity and Access Management - NHS Digital
 - API authorisation
 
-### **CIS and Smartcards**
+### **CIS and Smartcards** {#AuthenticationandAccessv1.0.1-CISandSmartcards}
 
 Click here to view historical documentation
 
@@ -72,7 +72,7 @@ Documentation relating to CIS and Smartcards can be found at  NHS Digital Regis
 
 Technical documentation is hosted at the NHS Identity pages on the NHS developer network.
 
-# Roadmap
+# Roadmap {#AuthenticationandAccessv1.0.1-Roadmap}
 
 | Roadmap Item | Standards and Capabilities | Status | Effective Date | Description | Change Type | Change Route |
 | --- | --- | --- | --- | --- | --- | --- |

@@ -12,14 +12,14 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S4 |
-| Version | 1.0.2 |
-| Type | Capability Specific Standard |
-| Status | Retired |
+| ID {#ViewRecord-Citizen-Standardv1.0.2-ID} | S4 |
+| Version {#ViewRecord-Citizen-Standardv1.0.2-Version} | 1.0.2 |
+| Type {#ViewRecord-Citizen-Standardv1.0.2-Type} | Capability Specific Standard |
+| Status {#ViewRecord-Citizen-Standardv1.0.2-Status} | Retired |
 | Effective Date | 31 Dec 2019 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-# Requirements
+# Requirements {#ViewRecord-Citizen-Standardv1.0.2-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -36,13 +36,13 @@ labels: ["capability_specific_retired"]
 | C4E1 | **GP-PPFS-3.2-11** | **Record Access Level – Full Record - Patient**  Adhere to the following requirements regarding Full Record Access:   - Clinical data held within the Patient Record (coded or otherwise i.e. includes free text data associated and not associated with clinical codes e.g. Consultations, Medications, Pathology Results) - Demographic and Patient administrative data - Documents associated with or embedded within the Patient Record, including annotations associated with any documents. - Pathology and Radiology test results.   See the Patient Information Maintenance - GP Capability for Practice configuration of Record Access Levels.  See E00171 and E00172 in the Patient Information Maintenance - GP Capability for start date restrictions. | MUST |
 | C4E2 | ******GP-**VWRD-9******** | **Record Access Level – Full Record - Proxy**  Adhere to the following requirements regarding Full Record Access:   - Clinical data held within the Patient Record (coded or otherwise i.e. includes free text data associated and not associated with clinical codes e.g. Consultations, Medications, Pathology Results) - Demographic and Patient administrative data - Documents associated with or embedded within the Patient Record, including annotations associated with any documents.   See the Patient Information Maintenance - GP Capability for Practice configuration of Record Access Levels.  See E00171 and E00172 in the Patient Information Maintenance - GP Capability for start date restrictions. | MAY |
 
-# Capability
+# Capability {#ViewRecord-Citizen-Standardv1.0.2-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the View Record - Citizen Capability
 
-# Roadmap
+# Roadmap {#ViewRecord-Citizen-Standardv1.0.2-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

@@ -25,7 +25,7 @@ labels: ["standard"]
 - [Dependencies](#GenericFHIRReceiver-Dependencies)
 - [Roadmap](#GenericFHIRReceiver-Roadmap)
 
-# Introduction
+# Introduction {#GenericFHIRReceiver-Introduction}
 
 The Generic FHIR Receiver is a component which will receive messages to the GP Practice which are:
 
@@ -46,23 +46,23 @@ In summary, the responsibilities of the Generic FHIR Receiver are:
 - Send Infrastructure and Business Acknowledgement messages (which are also FHIR messages which conform to the ITK3 specification) where these have been requested.
 - Raise workflow tasks as appropriate using the data in the payload.
 
-# Requirements
+# Requirements {#GenericFHIRReceiver-Requirements}
 
 Generic FHIR Receiver background and requirements:
 
-[Generic FHIR Receiver In…](Generic-FHIR-Receiver.md)
+[Generic FHIR Receiver In…](../../../../.raw/DCSDCS/attachments/10886316215/att10886316231-Generic FHIR Receiver Interop Capability - Specification v0_5.docx)
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GenericFHIRReceiver-Compliance,AssuranceandTesting}
 
 See the Generic FHIR Receiver section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Dependencies
+# Dependencies {#GenericFHIRReceiver-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md) - Message transport mechanism required to receive ITK3/FHIR messages asynchronously
 
-# Roadmap
+# Roadmap {#GenericFHIRReceiver-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

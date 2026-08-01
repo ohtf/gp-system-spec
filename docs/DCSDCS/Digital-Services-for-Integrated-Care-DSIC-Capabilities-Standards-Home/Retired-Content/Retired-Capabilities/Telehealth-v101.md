@@ -21,11 +21,11 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#Telehealthv1.0.1-Description}
 
 Enables Citizens and Patients that use health monitoring Solutions to share monitoring data with health and care professionals to support remote delivery of care and increase self-care outside of clinical settings.
 
-# Outcomes
+# Outcomes {#Telehealthv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -35,7 +35,7 @@ Enables Citizens and Patients that use health monitoring Solutions to share moni
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C18E1 - share monitoring data with my General Practice
+### C18E1 - share monitoring data with my General Practice {#Telehealthv1.0.1-C18E1-sharemonitoringdatawithmyGeneralPractice}
 
 As a Citizen
 
@@ -43,7 +43,7 @@ I want to share my monitoring data with my General Practice
 
 So that my monitoring data are shared with my General Practice
 
-#### Acceptance criterion 1: share monitoring data with my General Practice
+#### Acceptance criterion 1: share monitoring data with my General Practice {#Telehealthv1.0.1-Acceptancecriterion1:sharemonitoringdatawithmyGeneralPractice}
 
 Given the Citizen consents to share monitoring data with their General Practice
 
@@ -53,7 +53,7 @@ Then the monitoring data are shared with their General Practice
 
 ---
 
-### C18E2 - configure Telehealth for the Practice
+### C18E2 - configure Telehealth for the Practice {#Telehealthv1.0.1-C18E2-configureTelehealthforthePractice}
 
 As a Practice User
 
@@ -61,7 +61,7 @@ I want to configure the Telehealth service for the Practice
 
 So that the Telehealth service is configured for the Practice
 
-#### Acceptance criterion 1: enable the Telehealth service
+#### Acceptance criterion 1: enable the Telehealth service  {#Telehealthv1.0.1-Acceptancecriterion1:enabletheTelehealthservice}
 
 Given the Practice User is permitted to enable the Telehealth service for the Practice
 
@@ -69,7 +69,7 @@ When they choose to enable the Telehealth service for the Practice
 
 Then the Telehealth service is enabled for the Practice
 
-#### Acceptance criterion 2: disable the Telehealth service
+#### Acceptance criterion 2: disable the Telehealth service  {#Telehealthv1.0.1-Acceptancecriterion2:disabletheTelehealthservice}
 
 Given the Practice User is permitted to disable the Telehealth service for the Practice
 
@@ -79,7 +79,7 @@ Then the Telehealth service is disabled for the Practice
 
 ---
 
-### C18E3 - configure Telehealth for the Patient
+### C18E3 - configure Telehealth for the Patient {#Telehealthv1.0.1-C18E3-configureTelehealthforthePatient}
 
 As a Practice User
 
@@ -87,7 +87,7 @@ I want to configure the Telehealth service for a Patient
 
 So that the Telehealth service is configured for the Patient
 
-#### Acceptance criterion 1: enable the Telehealth service
+#### Acceptance criterion 1: enable the Telehealth service  {#Telehealthv1.0.1-Acceptancecriterion1:enabletheTelehealthservice.1}
 
 Given the Practice User is permitted to enable the Telehealth service for a Patient
 
@@ -95,7 +95,7 @@ When they choose to enable the Telehealth service for a Patient
 
 Then the Telehealth service is enabled for the Patient
 
-#### Acceptance criterion 2: disable the Telehealth service
+#### Acceptance criterion 2: disable the Telehealth service {#Telehealthv1.0.1-Acceptancecriterion2:disabletheTelehealthservice.1}
 
 Given the Practice User is permitted to disable the Telehealth service for a Patient
 
@@ -105,7 +105,7 @@ Then the Telehealth service is disabled for the Patient
 
 ---
 
-### C18E4 - manage incoming Telehealth data
+### C18E4 - manage incoming Telehealth data {#Telehealthv1.0.1-C18E4-manageincomingTelehealthdata}
 
 As a Practice User
 
@@ -113,7 +113,7 @@ I want to manage incoming Telehealth data
 
 So that Telehealth data is managed
 
-#### Acceptance criterion 1: manage incoming Telehealth data
+#### Acceptance criterion 1: manage incoming Telehealth data {#Telehealthv1.0.1-Acceptancecriterion1:manageincomingTelehealthdata}
 
 Given the Telehealth service is enabled by the Practice
 

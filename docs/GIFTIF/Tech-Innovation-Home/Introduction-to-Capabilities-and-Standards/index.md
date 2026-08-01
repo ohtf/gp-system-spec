@@ -10,7 +10,7 @@ labels: []
 
 # Introduction to Capabilities and Standards
 
-## What are Capabilities?
+## What are Capabilities? {#IntroductiontoCapabilitiesandStandards-WhatareCapabilities?}
 
 The requirements to deliver General Practice Solutions are grouped into Capabilities. Each Capability describes the business need at the highest level. For example, 'Recording Consultations - GP' describes the need for General Practice staff to be able to make a digital record of any consultation with a patient.
 
@@ -21,7 +21,7 @@ Capabilities will be used by:
 - Suppliers to categorise their products and to see market opportunities
 - Buyers to search for products that meet their needs on the [Buying Catalogue](https://buyingcatalogue.digital.nhs.uk/)
 
-### What are Epics and Acceptance Criteria?
+### What are Epics and Acceptance Criteria? {#IntroductiontoCapabilitiesandStandards-WhatareEpicsandAcceptanceCriteria?}
 
 Epics are individual high level business requirements and describe features relevant to the Capabilities they belong to. All Epics together define the full scope of a Capability.
 
@@ -31,27 +31,27 @@ Epics are classified as either Must or May Epics and all Epics will be assessed 
 
 Each Epic has a unique identifier which allows for the identification of Epics in a consistent manner, e.g. ‘E00092’.
 
-#### Must Epics
+#### Must Epics {#IntroductiontoCapabilitiesandStandards-MustEpics}
 
 Must Epics are mandatory and used to confirm during Capability Assessment stage of Onboarding that a Solution delivers the minimum required for a Capability. A Supplier Solution needs to meet all Must Epics in order to Pass Capability Assessment for a Capability unless it is indicated on the Capability that a Partial Pass is acceptable.
 
 If the Capability is identified as a Capability that can either be offered as Full or Partial Capability, at least one Must Epic must be passed for that Capability to be accepted. If all Must Epics of this type of Capability are accepted the Capability will be accepted as a Full Capability; if at least one but not all Must Epics are accepted the Capability will be accepted as a Partial Capability.
 
-#### May Epics
+#### May Epics {#IntroductiontoCapabilitiesandStandards-MayEpics}
 
 These Epics are not mandatory, however it is recommended a Supplier considers all MAY Epics. Which MAY Epics a Supplier chooses to implement should be determined by their User Research. All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. Any May Epics that are assessed as met will be available to buyers to support them when comparing Solutions on the [Buying Catalogue](https://buyingcatalogue.digital.nhs.uk/).
 
-### What are Additional Implementation Details?
+### What are Additional Implementation Details? {#IntroductiontoCapabilitiesandStandards-WhatareAdditionalImplementationDetails?}
 
 Additional Implementation Details are mandatory details related to a specific Epic and are assessed during the Assurance stage of Onboarding.
 
 These details can include references to other Standards and Suppliers will need to complete assurance activities related to those Standards.
 
-### What is Supporting Information?
+### What is Supporting Information? {#IntroductiontoCapabilitiesandStandards-WhatisSupportingInformation?}
 
 This information may be useful to Suppliers when implementing the related Epic, but is not mandatory and is for guidance only.
 
-## Do I have to build a solution that delivers all Capabilities?
+## Do I have to build a solution that delivers all Capabilities? {#IntroductiontoCapabilitiesandStandards-DoIhavetobuildasolutionthatdeliversallCapabilities?}
 
 For the Tech Innovation Framework Suppliers do not have to provide a Solution that delivers all Capabilities, but Solutions on this Framework will need to as a minimum meet all of the Foundation Capabilities.
 
@@ -59,7 +59,7 @@ Above this minimum scope, Suppliers are free to design and build Solutions that 
 
 Productivity Capability is not applicable for this Framework.
 
-## What are Standards?
+## What are Standards? {#IntroductiontoCapabilitiesandStandards-WhatareStandards?}
 
 Standards describe the technical or operating conditions required to achieve Catalogue Compliance.
 
@@ -70,7 +70,7 @@ Standards will be used by:
 - NHS Digital Solution Assurance to assess Supplier Solutions against in order to award compliance
 - Buyers to assess various Suppliers against each other (levels of compliance) for competitive procurements
 
-## Capabilities and Standards Model
+## Capabilities and Standards Model {#IntroductiontoCapabilitiesandStandards-CapabilitiesandStandardsModel}
 
 The Capabilities and Standards are structured in the model below.
 

@@ -50,7 +50,7 @@ labels: []
   - [Dependencies (Patient facing interface Only)](#IM1-InterfaceMechanismv1.0.0-Dependencies(PatientfacinginterfaceOnly))
 - [Roadmap](#IM1-InterfaceMechanismv1.0.0-Roadmap)
 
-# Introduction
+# Introduction {#IM1-InterfaceMechanismv1.0.0-Introduction}
 
 IM1 is a mechanism for accessing data held in GP Systems (Systems providing one or more Capabilities as part of the GP IT Futures Framework). The interface mechanism should facilitate the following use-cases:
 
@@ -62,7 +62,7 @@ Provider Suppliers acting as consumers of their own interfaces must take note o
 
 Please also note that suppliers must be compliant with the overarching Commercial Standard, and comply with the Model Interface Licence contained within.
 
-## Applicability
+## Applicability {#IM1-InterfaceMechanismv1.0.0-Applicability}
 
 A system or application is required to **provide**IM1 interfaces if ANY of the following are true:
 
@@ -73,7 +73,7 @@ Where a GP Connect interface capability is available, suppliers would be expecte
 
 A system or application may wish to **consume** IM1 interfaces where they have a requirement to access data held in GP Systems.
 
-# Requirements
+# Requirements  {#IM1-InterfaceMechanismv1.0.0-Requirements}
 
 This page describes integration requirements for systems which are required to be an IM1 interface provider and\or consumer.
 
@@ -90,9 +90,9 @@ The following are not in scope:
 - Assurance and testing
 - Mechanisms to get a Consumer Supplier on board and giving access to test environments
 
-## Generic Integration Requirements
+## Generic Integration Requirements {#IM1-InterfaceMechanismv1.0.0-GenericIntegrationRequirements}
 
-### Monitoring & Response Times
+### Monitoring & Response Times {#IM1-InterfaceMechanismv1.0.0-Monitoring&ResponseTimes}
 
 This pertains to individual requests and responses for each message interaction and how these are monitored.
 
@@ -100,7 +100,7 @@ This pertains to individual requests and responses for each message interaction 
 | --- | --- | --- | --- | --- |
 | im1\_resp\_001 | The Provider Integration Architecture must be capable of monitoring requests received by various Consumers, including the capture of response times required for processing the request within the confines of the Supplier Data Centre / Cloud boundary | Provider | Practice & Patient | MUST |
 
-### Authentication and End Points
+### Authentication and End Points  {#IM1-InterfaceMechanismv1.0.0-AuthenticationandEndPoints}
 
 This refers to how Consumer Systems and Users are authenticated and mechanisms for Consumer systems to access the IM1 interfaces
 
@@ -111,7 +111,7 @@ This refers to how Consumer Systems and Users are authenticated and mechanisms f
 | im1\_auth\_003 | For the Practice IM1 where feasible, the access to Provider Endpoints should not be constrained by requiring the Consumer integration components to be present within a Practice or within the GP's workstation/PC | Provider | Practice | SHOULD |
 | im1\_auth\_004 | The access to Provider file Extracts must not be constrained by requiring the Consumer integration components to be present within a Practice or within the GP's workstation/PC for the Bulk IM | Provider | Bulk | SHOULD |
 
-### System Context & Invocation
+### System Context & Invocation  {#IM1-InterfaceMechanismv1.0.0-SystemContext&Invocation}
 
 This refers to the context of the User Session within a Provider Solution and its visibility to the Consumer
 
@@ -121,7 +121,7 @@ This refers to the context of the User Session within a Provider Solution and it
 | im1\_context\_002 | In addition the Provider Solution context information must include, where appropriate (and where subscribed to / requested by Consumer):   - Complete set of changes (additions, deletions, amendments) to patient demographics where applicable - Functional state (e.g. prescribing module selected, add Appointment selected) - Data state (e.g. the drug selected, the problem/diagnosis selected) identified uniquely using the appropriate terminology | Provider | Practice | SHOULD |
 | im1\_context\_003 | The Provider Solution should have a mechanism to launch the Consumer Solution, in a particular Context, by a User of the Provider Solution- This will be dependent on Consumer Solution providing a suitable link via which the Provider could launch / invoke the Consumer Solution | Provider | Practice | MAY |
 
-### Appropriate use of integration capability
+### Appropriate use of integration capability {#IM1-InterfaceMechanismv1.0.0-Appropriateuseofintegrationcapability}
 
 Ensuring the Provider Solution is not impacted by huge influx of request messages and how it handles such scenarios.
 
@@ -133,7 +133,7 @@ Ensuring the Provider Solution is not impacted by huge influx of request message
 | im1\_use\_004 | Where a Provider includes mechanisms to retrieve large sets of data in real time, they must provide guidance on when to use each API call or method- The documentation that describes the supplier's IM1 must also indicate whether the use of any particular Interface Mechanism may adversely affect the performance of the system, e.g. extracting all the clinical data for all patients impedes general system performance and should be run during periods of low usage or when no users are using the system | Provider | Practice & Patient | MUST |
 | im1\_use\_005 | The Consumer must ensure it displays the most up-to date information to its user - Where the information is not up-to date then it should be clearly notified to the User and the User should have visibility of date-time modified for the particular data item | Consumer | All | MUST |
 
-### Interface Version Management
+### Interface Version Management {#IM1-InterfaceMechanismv1.0.0-InterfaceVersionManagement}
 
 It is recognized that suppliers will need to update their interface mechanisms. These requirements ensure version updates are done in a standard manner giving enough notification to Consumers and also providing them the relevant details pertaining to changes.
 
@@ -146,7 +146,7 @@ It is recognized that suppliers will need to update their interface mechanisms. 
 | im1\_ver\_006 | Any new changes in an interface needs to be very clearly documented such that different between latest version and earlier version is very clear | Provider | All | MUST |
 | im1\_ver\_007 | Consumers of IM1 will be notified of deprecated interfaces and will be given suitable notice in order for their Solution to be migrated away from deprecated interfaces and utilize the latest offering of IM1 from the Provider. Consumers must work to implement the latest version | Consumer | All | MUST |
 
-### Error & failure handling
+### Error & failure handling {#IM1-InterfaceMechanismv1.0.0-Error&failurehandling}
 
 How errors in message processing should handled and notified to consumers.
 
@@ -156,17 +156,17 @@ How errors in message processing should handled and notified to consumers.
 | im1\_error\_002 | Error conditions must not result in abrupt disconnection or failure of the overall Provider interface. The provider should gracefully exit when errors occur and return meaningful error messages to the consumer | Provider & Consumer | All | MUST |
 | im1\_error\_003 | Consumer must display the relevant specific error message to the end-user to give them a clear indication as to what went wrong | Consumer | Practice & Patient | MUST |
 
-### Terminology & Coding Data Sets
+### Terminology & Coding Data Sets {#IM1-InterfaceMechanismv1.0.0-Terminology&CodingDataSets}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_code\_001 | Provide a mechanism for a Consumer Supplier to discover versions of any coding schemes used within the Provider Solution (including SNOMED-CT, DM+d, any other standard coding terms) | Provider | Practice and Bulk | MUST |
 
-## Transaction or Practice Integration
+## Transaction or Practice Integration {#IM1-InterfaceMechanismv1.0.0-TransactionorPracticeIntegration}
 
 Requirements are listed in terms of API Calls or Methods categorized by GP IT Futures Capabilities. For existing IM1 Providers none of the API calls should be removed unless an equivalent or an uplifted version is provided.
 
-### Patient Information Maintenance
+### Patient Information Maintenance  {#IM1-InterfaceMechanismv1.0.0-PatientInformationMaintenance}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
@@ -176,7 +176,7 @@ Requirements are listed in terms of API Calls or Methods categorized by GP IT Fu
 | im1\_cap\_004 | Get Full Medical Record | Provider | Practice | MUST |
 | im1\_cap\_005 | File Data in Patient Record | Provider | Practice | MUST |
 
-### Appointments Management
+### Appointments Management {#IM1-InterfaceMechanismv1.0.0-AppointmentsManagement}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ Requirements are listed in terms of API Calls or Methods categorized by GP IT Fu
 | im1\_cap\_008 | Cancel Appointment  **Note**: This should be met via GP Connect requirements as per Interoperability Standard | Provider | Practice | SHOULD |
 | im1\_cap\_009 | Check in a Patient (on arrival) | Provider | Practice | SHOULD |
 
-### Consultation Management
+### Consultation Management {#IM1-InterfaceMechanismv1.0.0-ConsultationManagement}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
@@ -193,40 +193,40 @@ Requirements are listed in terms of API Calls or Methods categorized by GP IT Fu
 | im1\_cap\_011 | Create a new Consultation Record | Provider | Practice | SHOULD |
 | im1\_cap\_012 | Add a document or attachment to a Consultation Record | Provider | Practice | SHOULD |
 
-### Documents Management
+### Documents Management {#IM1-InterfaceMechanismv1.0.0-DocumentsManagement}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_cap\_013 | File Document into a Patient Record | Provider | Practice | MUST |
 | im1\_cap\_014 | Retrieve Documents for a Patient | Provider | Practice | MUST |
 
-### Prescribing
+### Prescribing {#IM1-InterfaceMechanismv1.0.0-Prescribing}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_cap\_016 | Get All Current Medications | Provider | Practice | MUST |
 | im1\_cap\_017 | Prescribe a Drug for a Patient | Provider | Practice | SHOULD |
 
-### Referral Management
+### Referral Management {#IM1-InterfaceMechanismv1.0.0-ReferralManagement}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_cap\_018 | Get All Referrals | Provider | Practice | SHOULD |
 | im1\_cap\_019 | Create a Referral | Provider | Practice | SHOULD |
 
-### Resource Management
+### Resource Management {#IM1-InterfaceMechanismv1.0.0-ResourceManagement}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_cap\_021 | Get Details For Specific Staff | Provider | Practice | MUST |
 
-### Communications Management
+### Communications Management {#IM1-InterfaceMechanismv1.0.0-CommunicationsManagement}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_cap\_022 | Send Message to a Patient | Provider | Practice | MAY |
 
-## Patient/Citizen Facing interfaces
+## Patient/Citizen Facing interfaces {#IM1-InterfaceMechanismv1.0.0-Patient/CitizenFacinginterfaces}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
@@ -234,19 +234,19 @@ Requirements are listed in terms of API Calls or Methods categorized by GP IT Fu
 | im1\_pfs\_002 | The interface mechanism must support the query of services (capabilities) that are available with respect to a specified practice, and to a specific patient. | Provider | Patient | MUST |
 | im1\_pfs\_003 | The interface mechanism must support the query of which patients are associated with a specific authenticated Verified User Account (VUA). | Provider | Patient | SHOULD |
 
-## Non Primary Care Settings
+## Non Primary Care Settings  {#IM1-InterfaceMechanismv1.0.0-NonPrimaryCareSettings}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_nonpc\_001 | In an environment where Provider provides information-sharing across clinical settings, data provided to Practice Facing Consumer systems should include all data (including that from other settings) that is visible to the Provider Solution user.  Where such data is provided to Consumer systems, it must be made clear to the Consumer system which data is managed by the Provider Solution within the context of the Practice (Primary Care), and which is visible as a result of information-sharing mechanisms  Data provided to Patient Facing Consumer systems must only include data for which the Practice acts as Data Controller. | Provider | Practice | SHOULD |
 
-## IM1 Refresh
+## IM1 Refresh  {#IM1-InterfaceMechanismv1.0.0-IM1Refresh}
 
 | ID | Requirement | Consumer or Provider | IM1 Type | Level |
 | --- | --- | --- | --- | --- |
 | im1\_refresh\_001 | The Provider needs to ensure all IM1 APIs are maintained to reflect relevant updates to the Providers Solution, for example new or amended data fields being collected and stored by the Provider.  IM1 release cycles should be aligned with overall Solution release cycle.  The appropriate API versioning should be applied as part of any new release.  This requirement is intended to cover changes initiated by the Provider as part of BAU product maintenance and is distinct from the change process for Minor and Patch Changes, which is intended to cover changes initiated by the Authority | Provider | All | SHOULD |
 
-## Bulk Extracts
+## Bulk Extracts {#IM1-InterfaceMechanismv1.0.0-BulkExtracts}
 
 In order to support the needs of the Practice and its related organisations (e.g. commissioners, organisations responsible for public health) access to bulk clinical data that exists in Provider systems needs to be available, whilst being securely and appropriately controlled.
 
@@ -265,7 +265,7 @@ In order to support the needs of the Practice and its related organisations (e.g
 | im1\_bulk\_012 | Consumer Supplier must be able to demonstrate efficient mechanisms for data ingestion of Bulk extracts for both Full Bulk extracts and Delta drops | Consumer | Bulk | MUST |
 | im1\_bulk\_013 | Consumer must provide an approach strategy for any transformations they plan to undertake, including a clear rationale explaining the transformations, before or during the Consumer's integration development | Consumer | Bulk | MUST |
 
-## Deprecation of Interfaces
+## Deprecation of Interfaces {#IM1-InterfaceMechanismv1.0.0-DeprecationofInterfaces}
 
 In relation to the planned deprecation of IM1 interfaces the following requirements will apply from the time that the interfaces are deprecated:
 
@@ -274,7 +274,7 @@ In relation to the planned deprecation of IM1 interfaces the following requireme
 | im1\_dep\_001 | Deprecated interfaces must not be switched off, decommissioned or have service degraded while there are live consumers using the interface - Relevant SLA's still apply | Provider | All | MUST |
 | im1\_dep\_002 | Deprecated interfaces may be decommissioned where:   1. The supplier has implemented into live a replacement as per the NHS Digital roadmap for the interface AND 2. There are no longer any live consumers of the deprecated interface | Provider | All | MUST |
 
-## Compliance & Assurance
+## Compliance & Assurance {#IM1-InterfaceMechanismv1.0.0-Compliance&Assurance}
 
 On boarding suppliers acting as providers or consumers will be required to evidence compliance against the IM1 interface line item requirements, as detailed on this page.
 
@@ -282,9 +282,9 @@ IM1 consuming suppliers will also need to complete the pairing process, before g
 
 The pairing process will remain the responsibility of the IM1 operations function. For advice and assistance from NHS Operations Function, please contact [im1.team@nhs.net](mailto:im1.team@nhs.net).
 
-## Important terms and definitions
+## Important terms and definitions {#IM1-InterfaceMechanismv1.0.0-Importanttermsanddefinitions}
 
-### Transient Data Definition
+### Transient Data Definition {#IM1-InterfaceMechanismv1.0.0-TransientDataDefinition}
 
 - Application log files for operational diagnostic trace, information, warnings and errors
 - Completed message, scheduled historical operational/non patient record reports and other document correspondence Application archives
@@ -293,7 +293,7 @@ The pairing process will remain the responsibility of the IM1 operations functi
 - Application help information
 - Service configuration settings e.g. Firewall, VPN, SAN setup, Microsoft SQL Server settings, Microsoft IIS machine.config and web.config settings, batch scheduling settings
 
-### Definition of Administration and Clinical Data
+### Definition of Administration and Clinical Data {#IM1-InterfaceMechanismv1.0.0-DefinitionofAdministrationandClinicalData}
 
 **Administrative**: Any data entities or objects which are involved in any aspect of administration of Patient Care and Management
 
@@ -301,13 +301,13 @@ The pairing process will remain the responsibility of the IM1 operations functi
 
 Suppliers wishing to exclude data which falls within either of these definitions from the interfaces must agree this with the Authority.
 
-## Dependencies (Patient facing interface Only)
+## Dependencies (Patient facing interface Only) {#IM1-InterfaceMechanismv1.0.0-Dependencies(PatientfacinginterfaceOnly)}
 
 Creating a compliant implementation of IM1 Patient interface requires implementing the following dependent interface standard:
 
 - NHS login service
 
-# Roadmap
+# Roadmap {#IM1-InterfaceMechanismv1.0.0-Roadmap}
 
 | Roadmap Item |
 | --- |

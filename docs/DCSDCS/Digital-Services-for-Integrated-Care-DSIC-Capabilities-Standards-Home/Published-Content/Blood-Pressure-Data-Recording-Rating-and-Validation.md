@@ -12,11 +12,11 @@ labels: ["reference_page"]
 
 |  |  |
 | --- | --- |
-| ID | R18 |
-| Version | 1.0.1 |
-| Type | Reference |
+| ID {#BloodPressure-DataRecording,RatingandValidation-ID} | R18 |
+| Version {#BloodPressure-DataRecording,RatingandValidation-Version} | 1.0.1 |
+| Type {#BloodPressure-DataRecording,RatingandValidation-Type} | Reference |
 
-# Introduction
+# Introduction {#BloodPressure-DataRecording,RatingandValidation-Introduction}
 
 This page defines the data recording requirements, validation rules, and rating criteria for blood pressure readings. Its purpose is to ensure that recorded values are clinically plausible and that all transmitted data is accurate and reliable.
 
@@ -28,7 +28,7 @@ The following sections are included:
 - **Clinic Blood Pressure Rating Values** – Specifies the parameters used to determine blood pressure ratings based on clinic blood pressure readings.
 - **Ambulatory Blood Pressure Measurement (ABPM) Rating Values** – Specifies the parameters used to determine blood pressure ratings based on Ambulatory Blood Pressure Measurement (ABPM) readings.
 
-## Ambulatory Blood Pressure Measurement (ABPM) SNOMED Codes
+## Ambulatory Blood Pressure Measurement (ABPM) SNOMED Codes {#BloodPressure-DataRecording,RatingandValidation-AmbulatoryBloodPressureMeasurement(ABPM)SNOMEDCodes}
 
 Where Ambulatory Blood Pressure Measurement (ABPM) readings are recorded they are to be recorded using:
 
@@ -37,7 +37,7 @@ Where Ambulatory Blood Pressure Measurement (ABPM) readings are recorded they ar
 - [Average 24 hour blood pressure](https://simplifier.net/guide/gp-connect--update-record--itk3/Home/Build/Handling-observations?version=1.2.1-public-beta)
 - [Average ambulatory blood pressure](https://simplifier.net/guide/gp-connect--update-record--itk3/Home/Build/Handling-observations?version=1.2.1-public-beta)
 
-## Clinic Blood Pressure SNOMED Codes
+## Clinic Blood Pressure SNOMED Codes {#BloodPressure-DataRecording,RatingandValidation-ClinicBloodPressureSNOMEDCodes}
 
 Clinic Blood Pressure readings to be recorded using:
 
@@ -45,7 +45,7 @@ Clinic Blood Pressure readings to be recorded using:
 
 ---
 
-## Blood Pressure Reading Validation
+## Blood Pressure Reading Validation {#BloodPressure-DataRecording,RatingandValidation-BloodPressureReadingValidation}
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ Clinic Blood Pressure readings to be recorded using:
 
 ---
 
-## Clinic Blood Pressure Rating Values
+## Clinic Blood Pressure Rating Values {#BloodPressure-DataRecording,RatingandValidation-ClinicBloodPressureRatingValues}
 
 When determining the rating use the highest value from the diastolic or systolic value. For example, if Diastolic is 70 mmHg and Systolic is 145 mmHg, the rating should be suggested as “High”.
 
@@ -74,7 +74,7 @@ When determining the rating use the highest value from the diastolic or systolic
 | >=90mmHg and <=119mmHg | >=140mmHg and <=179mmHg | High |
 | >=120mmHg | >=180mmHg | Very High |
 
-## Ambulatory Blood Pressure Measurement (ABPM) Blood Pressure Rating Values
+## Ambulatory Blood Pressure Measurement (ABPM) Blood Pressure Rating Values {#BloodPressure-DataRecording,RatingandValidation-AmbulatoryBloodPressureMeasurement(ABPM)BloodPressureRatingValues}
 
 When determining the rating use the highest value from the diastolic or systolic value. For example, if Diastolic is 70 mmHg and Systolic is 145 mmHg, the rating should be suggested as “Stage 1 Hypertension”.
 

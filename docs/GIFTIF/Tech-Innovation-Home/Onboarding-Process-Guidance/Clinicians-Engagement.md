@@ -10,9 +10,9 @@ labels: []
 
 # Clinicians Engagement
 
-# Summary
+# Summary {#CliniciansEngagement-Summary}
 
-#### Living Documents
+#### Living Documents {#CliniciansEngagement-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -26,11 +26,11 @@ The ‘Clinicians Engagement’ activity involves the Programme’s Clinicians w
 - Agree on which Capabilities the Clinicians want to view and in what level of detail
 - Check that you have established important Clinical roles with regards to your Solution (e.g. Clinician Safety Officer)
 
-## Objective
+## Objective {#CliniciansEngagement-Objective}
 
 The output of the sessions and the ongoing collaborative dialogue between you and the Clinicians is to provide recommendations for safety and usability, and to be available for further contact and assistance.
 
-## Actions required of you
+## Actions required of you {#CliniciansEngagement-Actionsrequiredofyou}
 
 1. Attend the initial meeting with the Programme’s Clinicians
 2. Attend live sessions and demonstrate your Solution’s functionality, safety and usability
@@ -38,7 +38,7 @@ The output of the sessions and the ongoing collaborative dialogue between you an
    1. If your Capability Assessment sessions are live demonstrations (rather than pre-recorded videos) it may be possible to combine them with the Clinicians' session - speak to your Supplier Manager for more information.
 3. Act on feedback provided
 
-## Actions required of us
+## Actions required of us {#CliniciansEngagement-Actionsrequiredofus}
 
 1. Arrange the initial meeting with the you and the Programme’s Clinicians
 2. Provide recommendations for changes.

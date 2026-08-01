@@ -26,34 +26,34 @@ labels: ["standard"]
 - [Dependencies](#NHSBSAClaims&Reporting-Dependencies)
 - [Roadmap](#NHSBSAClaims&Reporting-Roadmap)
 
-# Introduction
+# Introduction {#NHSBSAClaims&Reporting-Introduction}
 
 The NHS Business Services Authority (NHSBSA) allows Health or Care Organisations to claim payments for services provided.
 
 NHSBSA Claims & Reporting Standard is a series of APIs that provide reporting and claims services.
 
-# Requirements
+# Requirements {#NHSBSAClaims&Reporting-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | All | **NHSBSA01** | Implement and maintain the following NHSBSA [Manage Your Service (MYS)](https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/dispensing-contractors-information/manage-your-service-mys) - Pharmacy APIs inline with the latest specification version:   - NHSBSA Claim Interface Guide    - NHS Community Pharmacist Consultation Service (CPCS) API client specification only - NHSBSA Contraception API client specification - NHSBSA Hypertension Case-Finding API client specification | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#NHSBSAClaims&Reporting-Compliance,AssuranceandTesting}
 
 To achieve NHSBSA Claims & Reporting compliance, Suppliers MUST develop to the service specific APIs, conduct required testing and be able to demonstrate conformance with the requirements of the service API specifications.
 
 For queries on the APIs, please contact [mys-platform@nhsbsa.nhs.uk](mailto:mys-platform@nhsbsa.nhs.uk).
 
-# Documentation
+# Documentation {#NHSBSAClaims&Reporting-Documentation}
 
 - [Manage Your Service (MYS) - Pharmacy](https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/dispensing-contractors-information/manage-your-service-mys/mys-pharmacy)
 
-# Dependencies
+# Dependencies {#NHSBSAClaims&Reporting-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#NHSBSAClaims&Reporting-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

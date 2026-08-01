@@ -25,28 +25,28 @@ labels: ["standard"]
 - [Dependencies](#VaccinationAdministration(DigiMeds)v1.0.0-Dependencies)
 - [Roadmap](#VaccinationAdministration(DigiMeds)v1.0.0-Roadmap)
 
-# Introduction
+# Introduction {#VaccinationAdministration(DigiMeds)v1.0.0-Introduction}
 
 The Vaccinations Administration (DigiMeds) Standard supports updates to a Patient’s registered GP Practice about vaccinations administered at another Health or Care Organisation.
 
-# Requirements
+# Requirements {#VaccinationAdministration(DigiMeds)v1.0.0-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
 | GP Suppliers | DMPF01 | Implement and maintain the [DigiMeds specification for Vaccination Event Data Flow](https://nhse-dsic.atlassian.net/wiki/download/attachments/10752983078/NHS%20England%20Digimeds%20Specification%20for%20Vaccination%20Event%20Data%20Flow%20Version%201.0%20APPROVED.docx?api=v2) inline with the latest specification version to receive updates of the administration of vaccinations to a Patient at another Health or Care Organisation.  The following vaccinations to be supported:   - BCG - COVID-19 - Hep B - Hib/MenC - Human Papillomavirus (HPV) - Influenza (Flu) - Measles, Mumps, Rubella (MMR) - Measles, Mumps, Rubella, and Varicella (MMRV) - MenACWY - MenB - Pertussis - Pneumococcal - Respiratory Syncytial Virus (RSV) - Rotavirus - Shingles - 3 in 1 - 4 in 1 - 6 in 1 | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#VaccinationAdministration(DigiMeds)v1.0.0-Compliance,AssuranceandTesting}
 
 See the Vaccinations Administration (DigiMeds) section on [Onboarding Overview of the Digital Services for Integrated Care (DSIC) Interoperability Standards and Requirements](../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Dependencies
+# Dependencies {#VaccinationAdministration(DigiMeds)v1.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Generic FHIR Receiver](../DSIC-Standards/Non-Overarching-Standards/Generic-FHIR-Receiver.md)
 - [Messaging Exchange for Social Care and Health (MESH)](../DSIC-Standards/Non-Overarching-Standards/Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 
-# Roadmap
+# Roadmap {#VaccinationAdministration(DigiMeds)v1.0.0-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

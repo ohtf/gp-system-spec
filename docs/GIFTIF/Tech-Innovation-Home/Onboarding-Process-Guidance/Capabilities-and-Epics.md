@@ -10,9 +10,9 @@ labels: []
 
 # Capabilities and Epics
 
-# Summary
+# Summary {#CapabilitiesandEpics-Summary}
 
-#### Living Documents
+#### Living Documents {#CapabilitiesandEpics-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -24,11 +24,11 @@ Before you select the Capabilities and Epics you want to be assessed against, we
 
 Once you have a good understanding of Capabilities and Standards, you will be able to select the Capabilities and Epics you wish to demonstrate using the TIF Solution Registration and Capability Selection Form which will be emailed by your Supplier Manager - open it up at the Capability Selection tab.
 
-# Completing the TIF Solution Registration Form
+# Completing the TIF Solution Registration Form {#CapabilitiesandEpics-CompletingtheTIFSolutionRegistrationForm}
 
 Please ensure you have read [Solution Registration](Solution-Registration.md) to understand the context of completing your TIF Solution Registration Form.
 
-## Capability Selection tab
+## Capability Selection tab {#CapabilitiesandEpics-CapabilitySelectiontab}
 
 In order to complete the Capability selection you need to do the following on the Capability Selection tab:
 
@@ -40,7 +40,7 @@ In order to complete the Capability selection you need to do the following on th
 
    If the Capability has “Full or Partial Capability” status, then you must select the relevant Epics manually. At least 1 MUST Epic has to be delivered.
 
-## Other Capability tabs
+## Other Capability tabs {#CapabilitiesandEpics-OtherCapabilitytabs}
 
 To continue the process, review the individual Capability tabs where you can select further Epics:
 
@@ -53,7 +53,7 @@ To continue the process, review the individual Capability tabs where you can sel
 
 Any concerns or questions about the selections will be sent back to you.
 
-# Completing the TIF Additional Service Form
+# Completing the TIF Additional Service Form {#CapabilitiesandEpics-CompletingtheTIFAdditionalServiceForm}
 
 Additional Services may offer additional Capabilities and Epics, over and above those offered by the Core Solution.
 
@@ -65,11 +65,11 @@ Capabilities should not be split across the Solution and an Additional Service i
 
 Your selections will be reviewed to ensure that they are appropriate and feedback will be provided.
 
-# Adding Capabilities and Epics
+# Adding Capabilities and Epics {#CapabilitiesandEpics-AddingCapabilitiesandEpics}
 
 You have the option to expand your selection of Capabilities and Epics through the Change Request process. Contact your Supplier Manager if you wish to do so.
 
-# Withdrawing Capabilities and Epics
+# Withdrawing Capabilities and Epics {#CapabilitiesandEpics-WithdrawingCapabilitiesandEpics}
 
 If whatever reason you decide you need to withdraw from evidencing a Capability or Epic you will need to do the following:
 

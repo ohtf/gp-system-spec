@@ -10,7 +10,7 @@ labels: []
 
 # Further Competition - Off Catalogue
 
-# Step by step Guide: Further Competition Off Catalogue
+# Step by step Guide: Further Competition Off Catalogue {#FurtherCompetition-OffCatalogue-StepbystepGuide:FurtherCompetitionOffCatalogue}
 
 **Preliminaries**
 
@@ -21,7 +21,7 @@ The terminology used below assumes that the reader has familiarised themselves w
 - [How to buy](../index.md)
 - [Executing a procurement - a step by step guide](index.md)
 
-# Step by step Guide: Further Competition Off Catalogue
+# Step by step Guide: Further Competition Off Catalogue {#FurtherCompetition-OffCatalogue-StepbystepGuide:FurtherCompetitionOffCatalogue.1}
 
 The Further Competition Off Catalogue procedure is for higher value and/or more complex procurements where the shortlisted suppliers are invited to provide written tenders. If you are considering executing one of these procedures, please email GP IT Futures via [gpitfutures@nhs.net](mailto:gpitfutures@nhs.net) with the following details and put the text “Off Catalogue Further Competition:” at the start of the subject line:
 

@@ -66,19 +66,19 @@ labels: ["standard"]
 - [Dependencies](#GP2GPRequestingAdaptor-Dependencies)
 - [Roadmap](#GP2GPRequestingAdaptor-Roadmap)
 
-# Introduction
+# Introduction {#GP2GPRequestingAdaptor-Introduction}
 
 The GP2GP Requesting Adaptor is designed to allow a System Supplier who does not have GP2GP HL7 and instead uses [GP Connect Access Record Structured](GP-Connect-Access-Record-Structured.md) to request an Electronic Health Record (EHR) from a System Supplier using GP2GP HL7. Specifically, this uses ‘Migrate a Patient’s structured record' and ‘Migrate a document’.
 
 This page documents the details of how the Requesting System will interact with the GP2GP Requesting Adaptor. It also details the requirements of the Requesting Site (the GP Practice the Patient is registering with) around the initial registration process and then ingesting/filing the received EHR from the Sending Site.
 
-# Requirements
+# Requirements {#GP2GPRequestingAdaptor-Requirements}
 
-## Registration Process & EHR Request
+## Registration Process & EHR Request {#GP2GPRequestingAdaptor-RegistrationProcess&EHRRequest}
 
 The following section details the initial registration steps that are required before the request for the registering Patients Electronic Health Record from their previous practice can begin via GP2GP and the Requesting Adaptor.
 
-### Step 1 - Patient Registration
+### Step 1 - Patient Registration {#GP2GPRequestingAdaptor-Step1-PatientRegistration}
 
 The first step is for the Patient to provide their demographic details e.g. name, NHS number, address to the GP Practice staff, who will then in turn access PDS.
 
@@ -92,7 +92,7 @@ The first step is for the Patient to provide their demographic details e.g. name
 | **GP2GP\_Req\_04** | If there is no response from PDS (it is unavailable and error has been received) then the user would benefit from being prompted to contact the National Help Desk or their Clinical System Supplier Help Desk to resolve the issue.  The GP2GP process will end until such time is PDS available and a user with appropriate permissions logs in again to perform a PDS trace to find and register the Patient. | SHOULD |
 | **GP2GP\_Req\_05** | In the exceptional scenario where PDS is unavailable, and there is a critical need to record information about the Patient, functionality is accessible to allow a user to electronically record information about the Patient until such time as PDS is available so as to provide continuity of care. | MUST |
 
-### Step 2 - User performs PDS Trace
+### Step 2 - User performs PDS Trace {#GP2GPRequestingAdaptor-Step2-UserperformsPDSTrace}
 
 The GP Practice staff member will now attempt to trace (find) the Patient on PDS
 
@@ -109,7 +109,7 @@ Now that the GP Practice Staff member has selected a Patient to register, the Re
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/12512034968/ReqAdptSteps1234.jpg?api=v2)
 
-### Step 3 - Requesting System - Lookup previous ODS code on PDS
+### Step 3 - Requesting System - Lookup previous ODS code on PDS {#GP2GPRequestingAdaptor-Step3-RequestingSystem-LookuppreviousODScodeonPDS}
 
 The Requesting System will now lookup the Patients current registered ODS code on PDS (the one the Patient is currently registered at and the Requesting System will be requesting the EHR from). This needs to be performed before the Requesting Site updates PDS as in Step 5, otherwise its ODS code will be that of the Patients on PDS.
 
@@ -122,7 +122,7 @@ The Requesting System will now lookup the Patients current registered ODS code o
 | **GP2GP\_Req\_12** | If the `generalPractitioner` ODS Code of the Sending Site is identified as a GP Practice on the same GP Clinical System as the Requesting Site, then the Requesting System will follow the requirements as described in the ‘Internal Transfers’ requirements found on this page. | MUST |
 | **GP2GP\_Req\_13** | Should the `generalPractitioner` data item be null, then the Requesting System queries the PDS `managingOrganisation` field. If this is populated with an ODS code, it will then store this value. This will be the ODS code of either the Patients last previous registered GP Practice or the NHS England repository (Please see Appendix C for more details). | MUST |
 
-### Step 4 - Requesting System Query ODS for previous GP Practice details
+### Step 4 - Requesting System Query ODS for previous GP Practice details {#GP2GPRequestingAdaptor-Step4-RequestingSystemQueryODSforpreviousGPPracticedetails}
 
 The Requesting System will now query ODS for the details of the Patients current registered GP Practice.
 
@@ -137,7 +137,7 @@ The information retrieved from the ODS API about the current GP Practice is pure
 | **GP2GP\_Req\_16** | This information needs to be cached and the most up to date details made available. This is to allow any necessary follow up should the user need to contact the previous GP Practice. | MUST |
 | **GP2GP\_Req\_17** | The failure to obtain the previous GP Practice details from ODS does not prevent the Requesting System from initiating the electronic transfer of the EHR from the Sending Site. | MUST |
 
-### Step 5 - Requesting System updates PDS
+### Step 5 - Requesting System updates PDS {#GP2GPRequestingAdaptor-Step5-RequestingSystemupdatesPDS}
 
 Now the Requesting System has obtained the Patients current GP Practice details it will now update PDS to indicate they are now the registered GP Practice.
 
@@ -151,7 +151,7 @@ Now the Requesting System has obtained the Patients current GP Practice details 
 | **GP2GP\_Req\_21** | If an error is encountered updating PDS the user is to be prompted to contact the National Help Desk or their Clinical System Supplier Help Desk to resolve the issue.  Note: PDS system retries are not possible, but if the user is present and logged in with the appropriate RBAC permissions they may attempt to re-register the Patient. | SHOULD |
 | **GP2GP\_Req\_22** | On receiving a PDS Successful Update Response the following steps are now triggered by the Requesting System to transfer the EHR using the GP2GP Requesting Adaptor | MUST |
 
-### Step 6 - Query SDS API for Provider ASID
+### Step 6 - Query SDS API for Provider ASID {#GP2GPRequestingAdaptor-Step6-QuerySDSAPIforProviderASID}
 
 The Requesting System will now need to retrieve the Accredited System Identifier of the Sending Site (now the Patients previous GP Practice). These are required so they can be passed to the GP2GP Requesting Adaptor so it can route the request via Spine Message Handling Service (MHS).
 
@@ -167,7 +167,7 @@ The Requesting System will now need to retrieve the Accredited System Identifier
 | **GP2GP\_Req\_28** | The failure to perform the lookup on SDS results in the automatic generation of a ticket to the Requesting System Service Desk | SHOULD |
 | **GP2GP\_Req\_29** | If the SDS lookup is successful then the Requesting System will need to build the request for the GP2GP Requesting Adaptor | MUST |
 
-### Step 7 - Build request to migrate structured record
+### Step 7 - Build request to migrate structured record {#GP2GPRequestingAdaptor-Step7-Buildrequesttomigratestructuredrecord}
 
 The GP2GP Requesting Adaptor provides a GP Connect like API facade. The Requesting System will now need to build the request for the EHR and post this to the facade to initiate the EHR transfer..
 
@@ -183,9 +183,9 @@ The GP2GP Requesting Adaptor provides a GP Connect like API facade. The Requesti
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/12512034968/ReqAdpSteps567.jpg?api=v2)
 
-## GP2GP Requesting Adaptor converts and sends HL7 request
+## GP2GP Requesting Adaptor converts and sends HL7 request {#GP2GPRequestingAdaptor-GP2GPRequestingAdaptorconvertsandsendsHL7request}
 
-### Step 8 - Requesting Adaptor validates request
+### Step 8 - Requesting Adaptor validates request {#GP2GPRequestingAdaptor-Step8-RequestingAdaptorvalidatesrequest}
 
 The GP2GP Requesting Adaptor has now received the Requesting Site GP Connect migratestructuredrecord request.
 
@@ -207,19 +207,19 @@ If any of the following headers are missing, then the Migrate Structured endpoin
 
 Any errors will be posted to the GPC API Facade endpoint URL and the request for the EHR will not be processed and this is is picked up by the Requesting System in Step 14.
 
-### Step 9 - Requesting Adaptor validates request
+### Step 9 - Requesting Adaptor validates request {#GP2GPRequestingAdaptor-Step9-RequestingAdaptorvalidatesrequest}
 
 The Requesting Adaptor will now attempt to convert the migratestructuredrecord request to a HL7 request. Should the conversion fail or cannot be sent for any reason it will generate a `500 Internal Server Error` and post to the GP C Facade endpoint URL. The the request for the EHR will not be processed and this is is picked up by the Requesting System when polling the Adaptor in step 14.
 
 Provided the above steps are successful then the Requesting Adaptor will now send the HL7 request to the Sending System via Spine.
 
-## Providing the EHR Process
+## Providing the EHR Process {#GP2GPRequestingAdaptor-ProvidingtheEHRProcess}
 
 There are no changes to the process for existing System Suppliers using GP2GP HL7. So as to provide context this is a high level overview of the steps taken in GP2GP for the Sending Site once it has received the HL7 request.
 
 Please note in the case of failure, all HL7 negative acknowledgements have been mapped to appropriate GP Connect error codes (Please see Appendix A). These will be provided to the Requesting System via the GP2GP Requesting Adaptor as in Step 14 so it can take the appropriate action.
 
-### Step 10 - Sending Site validates the HL7 request
+### Step 10 - Sending Site validates the HL7 request {#GP2GPRequestingAdaptor-Step10-SendingSitevalidatestheHL7request}
 
 As per the GP2GP 2.2b v7.2 HL7 Requirements
 
@@ -229,13 +229,13 @@ As per the GP2GP 2.2b v7.2 HL7 Requirements
 
 *A negative application acknowledgement message shall also be returned if an EHR Request that cannot be fulfilled for other reasons, including GP2GP messaging not enabled (End Point setup but GP2GP configuration switched OFF) (Response code 07)*
 
-### Step 11 - Sending Site generates the HL7 EHR
+### Step 11 - Sending Site generates the HL7 EHR {#GP2GPRequestingAdaptor-Step11-SendingSitegeneratestheHL7EHR}
 
 The Sending Site will now generate the EHR. If any attachments fail to be retrieved placeholders will be created. This will generate tasks for users to print these attachments that will then be sent manually off system via PCSE (Please see Appendix B for further information on PCSE)
 
 If the Sending Site fails to generate the EHR extract it will send a negative acknowledgement (Response code 10)
 
-### Step 12 - Sending Site sends the HL7 EHR
+### Step 12 - Sending Site sends the HL7 EHR {#GP2GPRequestingAdaptor-Step12-SendingSitesendstheHL7EHR}
 
 The Sending Site will now commence thesending of any Common Point to Point messages that form part of the EHR extract.
 
@@ -243,9 +243,9 @@ The Sending system will commence thesending of any Common Point to Point message
 
 The GP2GP Requesting Adaptor will not attempt to convert the HL7 message to FHIR until all Common Point to Point messages have been received.
 
-## Conversion and retrieval of the EHR Process
+## Conversion and retrieval of the EHR Process {#GP2GPRequestingAdaptor-ConversionandretrievaloftheEHRProcess}
 
-### Step 13 - GP2GP Requesting Adaptor converts HL7 EHR to GP C Payload
+### Step 13 - GP2GP Requesting Adaptor converts HL7 EHR to GP C Payload {#GP2GPRequestingAdaptor-Step13-GP2GPRequestingAdaptorconvertsHL7EHRtoGPCPayload}
 
 The GP2GP Requesting Adaptor will now convert the HL7 record to GP Connect FHIR.
 
@@ -255,7 +255,7 @@ At this point it will provide a `200 response` and the GP Connect payload to GP 
 
 Should the conversion have failed it will provide a `500 Internal Server Error` error. This will be posted to the GP Connect API Facade endpoint URL. It will also post a HL7 ack to the incumbent sending site `Error 11 Failed to successfully integrate EHR Extract` so the incumbent system is aware to alert its users to print the EHR and send via PCSE.
 
-### Step 14 - Requesting System polls the adaptor
+### Step 14 - Requesting System polls the adaptor {#GP2GPRequestingAdaptor-Step14-RequestingSystempollstheadaptor}
 
 The Requesting System will need to continually poll the adaptor to retrieve the outcome of any GP2GP transfer.
 
@@ -275,11 +275,11 @@ Should it determine there has been a failure in processing the request it will n
 | **GP2GP\_Req\_40** | The Requesting System must make the user aware that the process has failed for this GP2GP transfer and whether they should expect the printed EHR from the Sending Site via PCSE. Please see Appendix A (Negative Acknowledgments) for further information. | MUST |
 | **GP2GP\_Req\_101** | Where a GP2GP transfer has failed, the Sending Site may attempt a re-send of the EHR. The Requesting System will need to allow receipt of a re-sent EHR that has the same Conversation ID of the EHR that previously failed. The Requesting System will also update its GP2GP workflow associated with the outcome of the resend (if it fails again or is successful). | MUST |
 
-## Prepare to integrate the record
+## Prepare to integrate the record {#GP2GPRequestingAdaptor-Preparetointegratetherecord}
 
 This initial step ensures that the record bundle the NME Requesting Site retrieves is of a format that is valid and can be integrated, before it identifies and retrieves its associated documents.
 
-### Step 15 - Validate incoming FHIR record
+### Step 15 - Validate incoming FHIR record {#GP2GPRequestingAdaptor-Step15-ValidateincomingFHIRrecord}
 
 |  |  |  |
 | --- | --- | --- |
@@ -295,11 +295,11 @@ This initial step ensures that the record bundle the NME Requesting Site retriev
 | **GP2GP\_Req\_48** | In the case of failure the Requesting System updates the GP2GP transfer status as failed | MUST |
 | **GP2GP\_Req\_49** | In the case of failure the Requesting System makes the user aware that validation has failed and no EHR will be available and a printed EHR and attachments will be provided by the Sending Site via PCSE. | MUST |
 
-#### Re GP2GP\_Req\_45:
+#### Re GP2GP\_Req\_45: {#GP2GPRequestingAdaptor-ReGP2GP\_Req\_45:}
 
 GP Connect mandates a sending system to provide the Patient name and the NHS number in the Patient profile when providing a record. In GP2GP HL7 the EHR is not provided with the Patient name only the NHS number. As the GP2GP Requesting adaptor is converting the HL7 record this requirement has been relaxed for the adaptor only as it is a GP Connect Façade API. The GP2GP Requesting adaptor will convert the HL7 to GP Connect and will not provide the Patient name (as it has not received this information in the GP2GP HL7 EHR). This mimics current GP2GP HL7 behaviour. The Requesting System (the NME in this case) will already have the Patient name on their system from the PDS trace and Patient registration process.
 
-### Step 16 - Identifying and retrieving attachments
+### Step 16 - Identifying and retrieving attachments {#GP2GPRequestingAdaptor-Step16-Identifyingandretrievingattachments}
 
 Document references returned are identified within the Patient’s structured record identified via `"resourceType": "DocumentReference"`. The key pieces of information are in the `"attachment"` section which provides the mime-type of the file (MSWord, PDF, etc.), and the URL to retrieve the file and its size on disk in bytes.
 
@@ -317,16 +317,16 @@ Document references returned are identified within the Patient’s structured re
 | **GP2GP\_Req\_57** | If the issue cannot be resolved within 1 hour, then the Requesting System creates a placeholder. This is so as not to delay the integration of the EHR because of a failed document(s) | MUST |
 | **GP2GP\_Req\_58** | The placeholder is a file that is text with a ‘txt’ suffix and MIME type text/plain. | MUST |
 | **GP2GP\_Req\_59** | The file is named as follows:  **AbsentAttachment\_[description]\_[Owning Organisation ODS Code]\_[Date created].txt**  Where [id] is the GP Connect ‘Document Reference Id’ and [description] is the Document Reference ‘Description’.  For example: **AbsentAttachment\_discharge summary\_A12345\_18012022.txt**  The title is labelled with these data items to make it clear what the document is, when it was created and who was the original owner. This is to help users identifying attachments, especially with the pain point where a record moves from A-B-C, where B has missing attachments from A and then C has missing attachments from both A and B and needs to be able to clearly identify where the missing attachments came from originally. | MUST |
-| **GP2GP\_Req\_60** | Within the placeholder file the text is as set out in Appendix D - GP C placeholder.  An example is provided here  [AbsentAttachment\_example](GP2GP-Requesting-Adaptor.md) | MUST |
+| **GP2GP\_Req\_60** | Within the placeholder file the text is as set out in Appendix D - GP C placeholder.  An example is provided here  [AbsentAttachment\_example](../../../../.raw/DCSDCS/attachments/12512034968/att12512034985-AbsentAttachment_example) | MUST |
 | **GP2GP\_Req\_61** | Once all placeholders have been created the Requesting System proceeds to Step 17 | MUST |
 | **GP2GP\_Req\_62** | The Requesting System alerts its users to any placeholders it has created (i.e. document could not be retrieved) and that the user will need to contact the Sending Site should they want a copy. Further information can be found in Appendix D. | MUST |
 | **GP2GP\_Req\_63** | If after the record has been integrated (the completion of Step 17) either   - the Requesting System reaches a resolution on the service incident raised in requirement **GP2GP\_Req\_56** and is able to successfully retrieve the attachment - The user is able to obtain an electronic copy of an attachment from the Sending Site   The Requesting System has the functionality to allow the user todelete the .txt placeholder and insert the retrieved document it related to.  This is because it is preferable to have a placeholder replaced with the actual document so as not to ensure the attachment is available and to prevent the propagation of placeholders in onward transfers | SHOULD |
 
-## Integrate the record
+## Integrate the record {#GP2GPRequestingAdaptor-Integratetherecord}
 
 Once the the electronic Patient record has been validated and all documents retrieved (or placeholders created) the Requesting System will now look to integrate/file all elements into its database, this is all done without any user interaction.
 
-### Step 17 - Automatic Integration of the Record Bundle
+### Step 17 - Automatic Integration of the Record Bundle {#GP2GPRequestingAdaptor-Step17-AutomaticIntegrationoftheRecordBundle}
 
 The following must have occurred before integration of the record can take place.
 
@@ -355,7 +355,7 @@ The following set of requirements follow the same principal for auto-integration
 | **GP2GP\_Req\_74** | If the 72 hours has eclipsed the Requesting System updates the GP2GP transfer status as failed and makes the user aware that no EHR will be available as integration failed and a printed EHR and attachments will be provided by the Sending Site via PCSE. | MUST |
 | **GP2GP\_Req\_102** | When the Requesting System is integrating a re-send of an EHR, it must not overwrite any data that has been entered since the Patient has been registered. | MUST |
 
-### Step 18 - Post integration actions
+### Step 18 - Post integration actions {#GP2GPRequestingAdaptor-Step18-Postintegrationactions}
 
 Once an EHR has been integrated along with all the attachments and any placeholders, there a number of system checks that need to be performed and potential tasks created for the user(s).
 
@@ -373,7 +373,7 @@ Once an EHR has been integrated along with all the attachments and any placehold
 | **GP2GP\_Req\_82** | The Requesting System could implement other optional post integration actions/workflow beyond those listed in these requirements, for example:   - Alerts to all, or other degraded items such as observations, referrals etc. - Alerts to failed documents - Alerts to any chronic conditions   These could be configurable for the user(s) at the Requesting Site (i.e. turned on or off at GP Practice level) | MAY |
 | **GP2GP\_Req\_103** | The Requesting System must preserve any legacy codes it receives from the Sending System (i.e. Read v2/CTv3 or local codes that have been mapped to SNOMED CT). This is to ensure they are available for audit purposes and these codes are made available again for any future GP2GP transfer back to the original system.  Example below, the SNOMED CT code will be used by the Requesting System to populate the record, but the original ctv3 code must also be stored, but does not need to be made available to the user. image-20250321-134838.png | MUST |
 
-### Step 19 - Returning Patients/A-B-A Transfers
+### Step 19 - Returning Patients/A-B-A Transfers {#GP2GPRequestingAdaptor-Step19-ReturningPatients/A-B-ATransfers}
 
 A Returning Patient is where
 
@@ -396,7 +396,7 @@ For the avoidance of doubt, all the requirements set in Steps 16 and 17 apply to
 | **GP2GP\_Req\_87** | The Requesting system provides the user with the ability to view both the received EHR Extract and the Patient’s previous record in a suitably rendered form (i.e. not raw XML) for the user to review. | MUST |
 | **GP2GP\_Req\_88** | The Requesting system provides the user with the ability to compare the received EHR Extract and the Patient’s previous record in a suitably rendered form (i.e. not raw XML) for the user to review. | SHOULD |
 
-### Step 20 - Handling Degrades
+### Step 20 - Handling Degrades {#GP2GPRequestingAdaptor-Step20-HandlingDegrades}
 
 The Requesting System is only responsible for preserving and handling degrades for the FHIR payload it receives via the adaptor. i.e. any loss of data that happened as part of the HL7 to FHIR conversion are out of scope for the Requesting System. The conversion of data from HL7 to FHIR has been clinically risk assured by NHS England.
 
@@ -406,9 +406,9 @@ There is no change in the way the Requesting System Supplier should handle degra
 | --- | --- | --- |
 | **Handling Degrades** | | |
 | **Requirement ID** | **Requirement Text** | **Level** |
-| **GP2GP\_Req\_89** | The Requesting system handles degrades as set out in the GP2GP “*NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling”*.  [NPFIT-PC-BLD-0132.03 GP2…](GP2GP-Requesting-Adaptor.md) | MUST |
+| **GP2GP\_Req\_89** | The Requesting system handles degrades as set out in the GP2GP “*NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling”*.  [NPFIT-PC-BLD-0132.03 GP2…](../../../../.raw/DCSDCS/attachments/12512034968/att12512034988-NPFIT-PC-BLD-0132.03 GP2GP Supplementary Specification on Structured Degrade Handling.pdf) | MUST |
 
-### Step 21 - Audit Requirements
+### Step 21 - Audit Requirements {#GP2GPRequestingAdaptor-Step21-AuditRequirements}
 
 Please note the following requirements only apply to the payload that the Requesting System has retrieved from the GP2GP Requesting Adaptor.
 
@@ -419,7 +419,7 @@ Please note the following requirements only apply to the payload that the Reques
 | **GP2GP\_Req\_90** | Following an automatic integration, the Requesting System adds an entry to the Audit trail as a system action to record that the GP2GP record has been automatically integrated. | MUST |
 | **GP2GP\_Req\_91** | The Requesting System retains the EHR received from the GP2GP Requesting Adaptor in its entirety for audit purposes (the below is from the existing GP2GP requirements, 5.6 Processing and Acknowledging a Received EHR Extract, from GP2GP Requirements Specification 2.2)  *This is defined more specifically as:*  ·       *3 years on-line*  ·       *A further 4 years off-line recoverable within 1 working day (yrs 4 – 10)*  ·       *A further 20 years off-line recoverable within 1 working week (years 11 – 30)*  *The system supplier shall ensure that the Audit Trail is retained for the entire retention period of the records audited, to enable investigations to be carried out when necessary and provide evidence where required by the Authority.* | MUST |
 
-## Internal Transfers
+## Internal Transfers {#GP2GPRequestingAdaptor-InternalTransfers}
 
 In GP2GP one of the largest failure rates can be seen when a Patient registers at a GP Practice that is on the same clinical system as they were previously registered at. This means the GP2GP process is triggered and the clinical system outputs a record from its system into a HL7 payload as the Sending Site and sends via Spine. The same clinical system then ingests the HL7 payload as the Requesting System mapping the HL7 back to its own internal database structure. This inevitably results in a loss of data as not all of the record can be mapped to HL7 and failures may occur in transmitting the record and documents over Spine. This same issue is present in any GP Connect transfer as well.
 
@@ -436,7 +436,7 @@ Any internal transfer need to meet the following requirements regardless of its 
 | **GP2GP\_Req\_94** | The requirements in Step 4 apply but may be sourced from the clinical system rather than the ODS API | MUST |
 | **GP2GP\_Req\_95** | It is assumed that the requirements in Step 18 (post integration actions) regards degrades should be irrelevant if this is a native lossless transfer, but the de-activation of all active repeat medications and the creation of tasks is still mandatory so as not to introduce any clinical risk. | MUST |
 
-## User Experience
+## User Experience {#GP2GPRequestingAdaptor-UserExperience}
 
 Throughout the GP2GP process there are a number of tasks generated for the user. This section provides more information on these.
 
@@ -451,7 +451,7 @@ Throughout the GP2GP process there are a number of tasks generated for the user.
 | **GP2GP\_Req\_99** | The Requesting System provides a facility that allows a User to mark that a record has been reviewed post automatic integration. | MUST |
 | **GP2GP\_Req\_100** | The Requesting System provides, within the record, an indicator on whether or not a record has been reviewed post automatic integration. This is be visible to all users accessing the record. The indicator doesn't obstruct the user from viewing/using the record i.e. must not be a popup that requires the user to dismiss. The indicator is not be included in future GP2GP transfers. | MUST |
 
-### User stories
+### User stories {#GP2GPRequestingAdaptor-Userstories}
 
 ●      ***As an Administrator*** who is responsible for processing new Patient registrations, ***I want*** to know the status of any requested records (e.g. In progress, failed or successful) , ***so that*** I can understand where they are in the process and keep clinicians and the Patient informed.
 
@@ -459,13 +459,13 @@ Throughout the GP2GP process there are a number of tasks generated for the user.
 
 ●      ***As a Clinician*** who is using a EHR that is new to my practice,***I want*** to know if the EHR has not been reviewed and amended as per our local processes, ***so that*** I have confidence in the structure and content of the EHR information.
 
-## Appendix A - Negative Acknowledgments
+## Appendix A - Negative Acknowledgments {#GP2GPRequestingAdaptor-AppendixA-NegativeAcknowledgments}
 
-### Sending System Negative Acknowledgements
+### Sending System Negative Acknowledgements {#GP2GPRequestingAdaptor-SendingSystemNegativeAcknowledgements}
 
 The following are negative acknowledgments that have been received by the GP2GP Adaptor from the Sending System in HL7 and converted to an Operation Outcome that will be posted to the /$gpc.ack endpoint
 
-#### Neg Acks no printed EHR expected
+#### Neg Acks no printed EHR expected {#GP2GPRequestingAdaptor-NegAcksnoprintedEHRexpected}
 
 The following are negative acknowledgements that indicate a total failure by the incumbent to process the request and the process has failed. A printed copy of the EHR is not expected in these circumstances as the Sending System is unable to process the request.
 
@@ -499,14 +499,14 @@ GP2GP NACK case "99" -> *EHR\_EXTRACT\_REQUEST\_NEGATIVE\_ACK\_UNKNOWN*;
 operationErrorCode = "INTERNAL\_SERVER\_ERROR";  
  operationErrorMessage = "GP2GP - This is a code that should only be used in circumstances where no other codes can"
 
-#### Neg Acks printed EHR expected
+#### Neg Acks printed EHR expected {#GP2GPRequestingAdaptor-NegAcksprintedEHRexpected}
 
 GP2GP NACK case "10" -> *EHR\_EXTRACT\_REQUEST\_NEGATIVE\_ACK\_GP2GP\_EHR\_GENERATION\_ERROR*;
 
 operationErrorCode = "INTERNAL\_SERVER\_ERROR";  
  operationErrorMessage = "GP2GP - Failed to successfully generate the EHR";
 
-### GP2GP Requesting Adaptor Negative Acknowledgments
+### GP2GP Requesting Adaptor Negative Acknowledgments {#GP2GPRequestingAdaptor-GP2GPRequestingAdaptorNegativeAcknowledgments}
 
 The following are specific errors that occur as part of the GP2GP Requesting Adaptor process. No printed EHR will be expected in these circumstances as the error has occurred in the adaptor that the incumbent Sending System will be unaware of.
 
@@ -538,27 +538,27 @@ default:
    operationErrorCode = "INTERNAL\_SERVER\_ERROR";  
    operationErrorMessage = "Patient Switching - A general error has occurred";
 
-## Appendix B - Primary Care Support England (PCSE)
+## Appendix B - Primary Care Support England (PCSE) {#GP2GPRequestingAdaptor-AppendixB-PrimaryCareSupportEngland(PCSE)}
 
 Regardless of whether a transfer of the EHR and associated attachments are a success, paper records may need to be sent to the Requesting Site from the Sending Site. This is handled via Primary Care Support England. If the electronic transfer was a failure the Sending Site will be informed via acknowledgments. The Sending Site will then create a task for the user to print the relevant EHR and/or attachments(S). PCSE will then collect the paper records and the print out of the full EHR and any electronic attachments. If the electronic transfer of the EHR was a success but some attachments failed then PCSE will collect the printed attachments. Further detail on the movement of these paper records can be found here:
 
 [How to move medical records - Primary Care Support England](https://pcse.england.nhs.uk/services/medical-records/moving-medical-records)
 
-## Appendix C - Suspended and Orphaned Records
+## Appendix C - Suspended and Orphaned Records {#GP2GPRequestingAdaptor-AppendixC-SuspendedandOrphanedRecords}
 
-### Suspended Patients
+### Suspended Patients {#GP2GPRequestingAdaptor-SuspendedPatients}
 
 A suspended Patient is one that is deducted from a GP Practice but does not register elsewhere. A recent update to PDS means that these Patients will now have their last GP Practice ODS code set on PDS as the `Managingorganisation`. This means that these suspended Patient records that are still held electronically at the GP Practice the Patient was previously registered at can be retrieved using the GP2GP process.
 
-### Orphaned Records
+### Orphaned Records {#GP2GPRequestingAdaptor-OrphanedRecords}
 
 Any Patient that was last registered at a closed GP Practice and has not registered with another GP Practice will have their record transferred to a central NHS repository. Work is ongoing to ensure the electronic health record for these Patients is available via GP2GP when the Patient registers at a new GP Practice. It is expected that this will be be done through querying the PDS `Managingorganisation` that will point to an ODS code assigned to the NHS repository.
 
-## Appendix D - Further information on Attachments
+## Appendix D - Further information on Attachments {#GP2GPRequestingAdaptor-AppendixD-FurtherinformationonAttachments}
 
 The following is important for context on of the entire business process and does not describe any requirements for the NME Requesting System
 
-### Important Information on the failure to retrieve
+### Important Information on the failure to retrieve {#GP2GPRequestingAdaptor-ImportantInformationonthefailuretoretrieve}
 
 It is important to note that when the Requesting System fails to retrieve an attachment from the GP2GP Requesting Adaptor that the Sending Site will be unaware it has failed. Therefore it will not be aware of the need to prompt the user to print the attachment and send via PCSE. This differs from GP2GP behaviour (as described below) where the Sending Site creates the placeholder and is always aware of the need to print any document it fails to send.
 
@@ -568,7 +568,7 @@ It is anticipated that this issue should be very low frequency as the NME Reques
 
 However, should this occur the format for GP C placeholders is documented below:
 
-### GP Connect Attachment Placeholder
+### GP Connect Attachment Placeholder {#GP2GPRequestingAdaptor-GPConnectAttachmentPlaceholder}
 
 Within the placeholder file the text ***must*** be as follows on each row.
 
@@ -590,7 +590,7 @@ The referenced Name, Element and Resource ***must*** be taken from the GP Connec
 | Row 9 | Size | content.attachment.size | Record Bundle Document Reference |
 | Row 10 | Content | content.format | Record Bundle Document Reference |
 
-### Sending Site failure [Existing GP2GP placeholder behaviour]
+### Sending Site failure [Existing GP2GP placeholder behaviour] {#GP2GPRequestingAdaptor-SendingSitefailure[ExistingGP2GPplaceholderbehaviour]}
 
 When a GP2GP HL7 Sending Site fails to retrieve any attachment from its systems, or encounters an error a placeholder is created before it is sent to the GP2GP Requesting Adaptor.
 
@@ -626,7 +626,7 @@ The creation of a placeholder by the Sending Site automatically triggers a task 
 
 No action is required of the Requesting System in this scenario.
 
-### File Size
+### File Size {#GP2GPRequestingAdaptor-FileSize}
 
 As the existing GP2GP service has no specific file size limits, it is envisaged that all attachments regardless of size will be passed to the GP2GP Requesting Adaptor.
 
@@ -634,13 +634,13 @@ GP Connect does have a requirement for an upper file size limit of 100mb from th
 
 However, as the Requesting System will be retrieving the attachments from the GP2GP Requesting Adaptor file storage, that sits on its own infrastructure, there should be no file size limits and all attachments should be provided.
 
-# Dependencies
+# Dependencies {#GP2GPRequestingAdaptor-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [GP Connect Access Record Structured](GP-Connect-Access-Record-Structured.md) - Refer to ‘Migrate a Patient’s structured record' and ‘Migrate a document’ for more information
 
-# Roadmap
+# Roadmap {#GP2GPRequestingAdaptor-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

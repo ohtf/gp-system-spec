@@ -27,20 +27,20 @@ labels: ["standard"]
 - [Dependencies](#BookingandReferralStandard(BaRS)-Dependencies)
 - [Roadmap](#BookingandReferralStandard(BaRS)-Roadmap)
 
-# Introduction
+# Introduction {#BookingandReferralStandard(BaRS)-Introduction}
 
 The NHS Booking and Referral Standard (BaRS) is a set of instructions, rules and guidance on how to use the building blocks of FHIR to digitise workflows. BaRS offers a universal standard way to digitise workflows that support all cross service Patient journeys in the NHS.
 
 See [NHS Booking and Referral Standard](https://simplifier.net/guide/nhsbookingandreferralstandard) for further information.
 
-# Requirements
+# Requirements {#BookingandReferralStandard(BaRS)-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | All | BARS01 | Implement and maintain the [NHS Booking and Referral Standard](https://simplifier.net/guide/nhsbookingandreferralstandard) inline with the latest specification version and as per the Capability to BaRS Core/Application(s) mapping. | MUST |
 
-## Capability to BaRS Core/Application(s) mapping
+## Capability to BaRS Core/Application(s) mapping {#BookingandReferralStandard(BaRS)-CapabilitytoBaRSCore/Application(s)mapping}
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -49,23 +49,23 @@ See [NHS Booking and Referral Standard](https://simplifier.net/guide/nhsbookinga
 | [Referral Management - Community Pharmacy](../../DSIC-Capabilities/Referral-Management-Community-Pharmacy.md) | (error) | (error) | (error) | (tick) | N/A | Referrals into Pharmacy |
 | [Care Navigation](../../DSIC-Capabilities/Care-Navigation.md) | (error) | (error) | (tick) | (error) | Referrals into Pharmacy | N/A |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#BookingandReferralStandard(BaRS)-Compliance,AssuranceandTesting}
 
 See the Booking and Referral Standard (BaRS) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#BookingandReferralStandard(BaRS)-Documentation}
 
 - [BaRS Overview](https://digital.nhs.uk/services/booking-and-referral-standard)
 - [BaRS Implementation Guide](https://simplifier.net/guide/nhsbookingandreferralstandard/home)
 - [API Catalogue - BaRS](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir)
 
-# Dependencies
+# Dependencies {#BookingandReferralStandard(BaRS)-Dependencies}
 
 BaRS provides a list of prerequisites in the [BaRS Principles and Prerequisites](https://simplifier.net/guide/nhsbookingandreferralstandard/Home/About-BaRS/BaRS-Principles-and-Prerequisites?version=1.6.0) section of the implementation guide.
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#BookingandReferralStandard(BaRS)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

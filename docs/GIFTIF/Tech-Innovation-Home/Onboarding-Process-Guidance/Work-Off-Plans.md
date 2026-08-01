@@ -10,9 +10,9 @@ labels: []
 
 # Work Off Plans
 
-# Summary
+# Summary {#WorkOffPlans-Summary}
 
-#### Living Documents
+#### Living Documents {#WorkOffPlans-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -22,16 +22,16 @@ The processes are under continual review and will be amended as required.
 
 A Work Off Plan is a contractual agreement between you and the Programme agreeing that your Solution can be published on the Buying Catalogue whilst you’re still continuing to work towards compliance. This only applies where the non-compliance does not demonstrate a risk to clinical safety or a high risk in other key areas.
 
-# Objective
+# Objective {#WorkOffPlans-Objective}
 
 Your Solution is allowed onto the Buying Catalogue with a Work Off Plan and a deadline agreed for when the outstanding work will be complete.
 
-# Actions required of you
+# Actions required of you {#WorkOffPlans-Actionsrequiredofyou}
 
 1. Approve the Work Off Plan and agree to the delivery deadline
 2. Continue working towards compliance by uploading evidence which is related to your Work Off Plan to Sharepoint
 
-# Actions required of us
+# Actions required of us {#WorkOffPlans-Actionsrequiredofus}
 
 1. Your Supplier Manager will:
 
@@ -43,7 +43,7 @@ Your Solution is allowed onto the Buying Catalogue with a Work Off Plan and a de
    1. Pass it - your Solution is then added to the Buying Catalogue and the items of the Work Off Plan will be listed on the Catalogue
    2. Reject it - your Solution must continue working towards compliance without being added to Buying Catalogue
 
-# Extension and Remediation
+# Extension and Remediation {#WorkOffPlans-ExtensionandRemediation}
 
 If the Work Off Plan delivery date is approaching and it appears that you will not be able to meet your commitments, there is the possibility of your Solution being put into Remediation and your compliant status questioned. This process has several stages and is the method by which your Solution can be removed from the Catalogue.
 

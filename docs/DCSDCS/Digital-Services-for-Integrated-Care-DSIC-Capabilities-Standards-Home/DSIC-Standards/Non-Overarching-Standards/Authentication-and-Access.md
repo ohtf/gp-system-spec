@@ -26,7 +26,7 @@ labels: ["standard"]
 - [Dependencies](#AuthenticationandAccess-Dependencies)
 - [Roadmap](#AuthenticationandAccess-Roadmap)
 
-# Introduction
+# Introduction {#AuthenticationandAccess-Introduction}
 
 Identity and Access Management (IAM) provides a trusted digital identity service for Health and Care Professionals to authenticate their identity when accessing national clinical information systems. This authentication allows the Health and Care Professional to log on and access those systems securely through a range of access options.
 
@@ -41,29 +41,29 @@ NHS CIS2 has a number of main aims:
 
 To enable these aims, the [CIS2 authentication service (CIA)](https://digital.nhs.uk/services/identity-and-access-management/nhs-care-identity-service-2/care-identity-authentication) is providing an [OpenID Connect (OIDC)](https://openid.net/developers/specs/) Solution. OIDC is an Internet Engineering Task Force (IETF) standard that defines a protocol for applications to request a user authentication from an Identity Provider (IdP) such as NHS CIS2.
 
-# Requirements
+# Requirements  {#AuthenticationandAccess-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
 | **ID** | **Requirement** | **Level** |
 | AA01 | Implement and maintain the latest specification version of [NHS Care Identity Service 2 (NHS CIS2)](https://digital.nhs.uk/services/identity-and-access-management/nhs-care-identity-service-2/care-identity-authentication) for the authentication of Health or Care Professionals accessing NHS systems and national services | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#AuthenticationandAccess-Compliance,AssuranceandTesting}
 
 See the Care Identity Service (CIS2) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#AuthenticationandAccess-Documentation}
 
 - [NHS Care Identity Service 2](https://digital.nhs.uk/services/care-identity-service/applications-and-services/nhs-care-identity-service-2)
 - [NHS CIS2 Authentication guidance for developers](https://digital.nhs.uk/services/care-identity-service/applications-and-services/cis2-authentication/guidance-for-developers)
 - [OpenID Connect (OIDC) detailed guidance](https://digital.nhs.uk/services/identity-and-access-management/nhs-care-identity-service-2/care-identity-authentication/guidance-for-developers/detailed-guidance)
 - [Onboard to NHS CIS2 Authentication](https://digital.nhs.uk/services/care-identity-service/applications-and-services/cis2-authentication/onboarding-journey)
 
-# Dependencies
+# Dependencies {#AuthenticationandAccess-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#AuthenticationandAccess-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

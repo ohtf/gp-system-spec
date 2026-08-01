@@ -21,13 +21,13 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#UnifiedCareRecordV1.0.1-Description}
 
 Given that a Patient/Service User may have data recorded in many different systems, a Unified Care Record provides a means of bringing this data together, in one place, to enable Health and Care Professionals to have a holistic view of a Patient/Service User's health and care record. A Unified Care Record is intended to encourage a Patient/Service User-centred approach to care, and improve efficiency and safety as well as providing Health and Care Professionals with a comprehensive record that enables them to make more informed assessments and thus better care and treatment decisions.
 
 This unified record can be made available to Health and Care Professionals involved in the direct care of a Patient/Service User and where there are data sharing agreements in place between the relevant data-sharing organisations. Data is drawn from the relevant systems and presented to the Health and Care Professional. The Unified Care Record may additionally provide the ability for the Health and Care Professional to tailor the view of the information to better meet their needs. This may include Patients/Service Users themselves or a Proxy acting on their behalf.
 
-# Outcomes
+# Outcomes {#UnifiedCareRecordV1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -36,7 +36,7 @@ This unified record can be made available to Health and Care Professionals invo
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C39E1 - view Unified Care Record
+### C39E1 - view Unified Care Record {#UnifiedCareRecordV1.0.1-C39E1-viewUnifiedCareRecord}
 
 As a Health or Care Professional providing care to a Patient/Service User
 
@@ -44,7 +44,7 @@ I want to view their Unified Care Record
 
 So that I can get a comprehensive view of their health and care records from other systems enabling me to make more informed assessments and take better care and treatment decisions
 
-#### Acceptance criterion 1: view Unified Care Record
+#### Acceptance criterion 1: view Unified Care Record {#UnifiedCareRecordV1.0.1-Acceptancecriterion1:viewUnifiedCareRecord}
 
 Given data for a Patient/Service User exists in systems across multiple organisations
 
@@ -54,7 +54,7 @@ Then the Patient/Service User's data is retrieved from the systems
 
 And the Patient/Service User data is displayed to the user
 
-#### Acceptance criterion 2: understand source of Unified Care Record data
+#### Acceptance criterion 2: understand source of Unified Care Record data {#UnifiedCareRecordV1.0.1-Acceptancecriterion2:understandsourceofUnifiedCareRecorddata}
 
 Given Patient/Service User data from multiple systems can be accessed via the Unified Care Record
 
@@ -66,7 +66,7 @@ And the source of the data can be identified by the user
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C39E2 - Patient/Service User views the Unified Care Record
+### C39E2 - Patient/Service User views the Unified Care Record {#UnifiedCareRecordV1.0.1-C39E2-Patient/ServiceUserviewstheUnifiedCareRecord}
 
 As a Patient/Service User
 
@@ -74,7 +74,7 @@ I want to be able to view my Unified Care Record
 
 So that I can be assured that everyone involved with my care has the correct and complete information about me
 
-#### Acceptance criterion 1: Patient/Service User Views Unified Care Record
+#### Acceptance criterion 1: Patient/Service User Views Unified Care Record {#UnifiedCareRecordV1.0.1-Acceptancecriterion1:Patient/ServiceUserViewsUnifiedCareRecord}
 
 Given Patient/Service User’s data from multiple systems can be accessed via the Unified Care Record
 
@@ -88,7 +88,7 @@ And their data is displayed
 
 ---
 
-### C39E3 - Default Views
+### C39E3 - Default Views {#UnifiedCareRecordV1.0.1-C39E3-DefaultViews}
 
 As a Health or Care Professional
 
@@ -96,7 +96,7 @@ I want to be able to configure a default view when I access a Patient/Service U
 
 So that I can immediately access the right information to support the health or care-related task I am undertaking
 
-#### Acceptance criterion 1: configure default Unified Care Record view
+#### Acceptance criterion 1: configure default Unified Care Record view {#UnifiedCareRecordV1.0.1-Acceptancecriterion1:configuredefaultUnifiedCareRecordview}
 
 Given the Unified Care Record solution can access Patient/Service Users’ data from multiple sources
 

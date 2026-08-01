@@ -27,11 +27,11 @@ labels: ["standard"]
 - [Dependencies](#ValidatedRelationshipServicev2.0.0-Dependencies)
 - [Roadmap](#ValidatedRelationshipServicev2.0.0-Roadmap)
 
-# Introduction
+# Introduction {#ValidatedRelationshipServicev2.0.0-Introduction}
 
 The Validated Relationship Service - FHIR API enables a Solution to access the Validated Relationship Service. This is the national electronic database of relationships that have been verified for the purpose of enabling individuals to access healthcare services on behalf of those they care for. The relationships held by this service are strictly for the purpose of enabling access to healthcare services.
 
-# Requirements
+# Requirements {#ValidatedRelationshipServicev2.0.0-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
@@ -42,7 +42,7 @@ The Validated Relationship Service - FHIR API enables a Solution to access the V
 | VRS05 | **Reliability - DLQ Retry**  Events or requests in the DLQ must be retried after the cause of failure has been resolved, within 1 working day. | MUST |
 | VRS06 | **Reliability - Exponential Backoff Strategy**  Retry logic for failed request processing must follow an exponential backoff strategy to prevent system overload and ensure safe reprocessing. | MUST |
 
-## Validated Relationship Service Operations by Capability Mapping
+## Validated Relationship Service Operations by Capability Mapping {#ValidatedRelationshipServicev2.0.0-ValidatedRelationshipServiceOperationsbyCapabilityMapping}
 
 Dependent on the care setting or system, the operations required may differ. The table below shows which Validated Relationship Service Operations are required to be implement based on the Capability being delivered.
 
@@ -50,23 +50,23 @@ Dependent on the care setting or system, the operations required may differ. The
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | (error) | (error) | (tick) | (tick) | (tick) | (tick) | (tick) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#ValidatedRelationshipServicev2.0.0-Compliance,AssuranceandTesting}
 
 See the Validated Relationship Service section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#ValidatedRelationshipServicev2.0.0-Documentation}
 
 - [National Proxy Service Integration Documents](https://nhsdigital.github.io/national-proxy-service-integration-docs/)
 - [Validated Relationship Service - FHIR API](https://digital.nhs.uk/developer/api-catalogue/validated-relationship-service)
 
-# Dependencies
+# Dependencies {#ValidatedRelationshipServicev2.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - [Authentication and Access](../DSIC-Standards/Non-Overarching-Standards/Authentication-and-Access.md) - using NHS Care Identity Service 2 API
 - [Multicast Notification Service (MNS)](../DSIC-Standards/Non-Overarching-Standards/Multicast-Notification-Service-MNS.md) Standard
 
-# Roadmap
+# Roadmap {#ValidatedRelationshipServicev2.0.0-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard.
 

@@ -20,11 +20,11 @@ The Interactive Capability and Standards Map shows all connections between the G
 
 This allows you to see which Standards are associated with any given Capability and provides an overview of what would need to be implemented to deliver each Capability.
 
-#### Getting Started
+#### Getting Started {#InteractiveCapabilityandStandardsMap-GettingStarted}
 
 To view the map in the context of a Capability or Standard, simply hover your mouse cursor over the Capability or Standard element - this will fade out unrelated content.
 
-##### Capability Specific Standards
+##### Capability Specific Standards {#InteractiveCapabilityandStandardsMap-CapabilitySpecificStandards}
 
 Some Capabilities have Capability Specific Standards, these are indicated on the map (see the Legend).
 
@@ -32,7 +32,7 @@ To view the associated Capability Specific Standards, you need to view the Popov
 
 For instructions on doing this and further features see [below](Interactive-Capability-and-Standards-Map.md).
 
-## Further instructions for using the map
+## Further instructions for using the map {#InteractiveCapabilityandStandardsMap-Furtherinstructionsforusingthemap}
 
 Before navigating your way around the map, it is recommended to press the **[** key on keyboard to minimise the left hand tree and launch your browser in full screen mode (**F11**).
 

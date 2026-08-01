@@ -52,13 +52,13 @@ labels: ["interop_standard_retired"]
 - [Deprecated Standards](#InteroperabilityStandardv15.2.0-DeprecatedStandards)
 - [Roadmap](#InteroperabilityStandardv15.2.0-Roadmap)
 
-# Introduction
+# Introduction {#InteroperabilityStandardv15.2.0-Introduction}
 
 This Standard replaces General Practice Systems of Choice (GPSoC) requirements relating to integration and interoperability. It provides a single place for system Suppliers to find out which interfaces they need to implement and to access the required documentation.
 
 Future changes to interfaces will be communicated via the Roadmap.
 
-# Notes on quality and consistency of interface documentation
+# Notes on quality and consistency of interface documentation {#InteroperabilityStandardv15.2.0-Notesonqualityandconsistencyofinterfacedocumentation}
 
 There are a large number of interfaces that GP systems need to implement. These interfaces, and their documentation, have been created over a very long period of time by a number of different organisations and programmes. The static nature of the GP systems market (no new entrants needing to implement) means that historically there has been limited justification and appetite for modernising or standardising existing documentation. This means that the format, quality and consistency of interface documentation is currently extremely variable.
 
@@ -76,7 +76,7 @@ Until these issues can be addressed Suppliers and system implementers should exp
 
 Suppliers should contact the NHS Digital team at gpitfutures@nhs.net to resolve any documentation issues which block them from delivering compliant implementations.
 
-# Interoperability principles
+# Interoperability principles {#InteroperabilityStandardv15.2.0-Interoperabilityprinciples}
 
 These interoperability principles are a SHOULD and Suppliers are expected to adhere to them wherever possible.  Whilst adherence will not be assessed at onboarding, NHSD will expect any deviation from these principles to be supported by a valid rationale on delivery of interfaces.  NHSD may use adherence to these principles to guide decision making in circumstances of non-compliance or partial compliance against assured Standards.
 
@@ -90,7 +90,7 @@ These interoperability principles are a SHOULD and Suppliers are expected to a
 8. **Interfaces must be system agnostic and semantically standardised**. Systems must not expose their internal complexity and data structures on interfaces, nor should they expect systems they interface with to understand their internal data encodings and semantics.
 9. **Use decoupled integration patterns wherever possible**. Decoupling should be achieved using appropriate integration patterns such as publish-subscribe and event-based architectures.
 
-## Interoperability non-functional requirements
+## Interoperability non-functional requirements {#InteroperabilityStandardv15.2.0-Interoperabilitynon-functionalrequirements}
 
 The following overarching requirements apply to all interfaces in the scope of the Interoperability Standard which are offered by a Solution.    
 
@@ -105,7 +105,7 @@ The following overarching requirements apply to all interfaces in the scope of t
 | ISNFR07 | Within the scope of interfaces specified within the Standard, Suppliers must not offer differential service, e.g all API functionality and behaviour will be equally available to all API consumers, including the API provider's own apps. | MUST |
 | ISNFR08 | Suppliers should not offer multiple APIs for the same purpose, e.g. there should not be multiple, different Appointments Booking APIs. Suppliers are free to offer APIs to different consumers under different commercial terms if permitted by the contract and framework, but they should offer only one technical API for each purpose. | SHOULD |
 
-## Minimum non-functional requirements for interfaces built to the Authority's specifications
+## Minimum non-functional requirements for interfaces built to the Authority's specifications {#InteroperabilityStandardv15.2.0-Minimumnon-functionalrequirementsforinterfacesbuilttotheAuthority'sspecifications}
 
 Where an interface/extract is built to the Authority's functional specifications, e.g. IM1 - Interface Mechanism, GP Connect the following requirements apply to the production implementation. For requirements relating to performance and availability Suppliers should refer to the Service Level Agreement.
 
@@ -114,11 +114,11 @@ Where an interface/extract is built to the Authority's functional specifications
 | ASNFR01 | Data currency. Updates to systems made through non-API mechanisms (e.g. user interface) should be available on APIs in real time, i.e. as soon as the update transaction is committed. | SHOULD |
 | ASNFR02 | Data currency. Updates made through APIs must be available on APIs in real time, i.e. as soon as the update transaction is committed. | MUST |
 
-# Capability-independent interoperability Standards
+# Capability-independent interoperability Standards {#InteroperabilityStandardv15.2.0-Capability-independentinteroperabilityStandards}
 
 This section lists the interoperability requirements which are not linked to single capabilities. These are typically (but not exclusively) supporting Standards such as communications protocols or related technical Standards.
 
-## Spine
+## Spine {#InteroperabilityStandardv15.2.0-Spine}
 
 The NHS Spine provides national interoperability infrastructure as well as specific national services, for example the Personal Demographics Service (PDS) listed further below under Dependencies. 
 
@@ -127,7 +127,7 @@ Two specific Spine components are key supporting Standards for a number of the 
 - External Interface Specification (EIS) describes how to connect to NHS Spine services
 - NHS Messaging Implementation Manual (MIM) describes the message formats used for Spine interactions
 
-## IM1 - Interface Mechanism
+## IM1 - Interface Mechanism {#InteroperabilityStandardv15.2.0-IM1-InterfaceMechanism}
 
 IM1 - Interface Mechanism is a mechanism for accessing data held in GP Systems (Systems providing one or more Capabilities as part of the GP IT Futures Framework). The interface mechanism facilitates three use-cases (Patient, Bulk and Practice) which are detailed within the IM1 page.
 
@@ -138,22 +138,22 @@ A system or application is required to **provide**IM1 interfaces if ANY of the f
 - It offered IM1 interfaces under GPSoC
 - It offers ALL Foundation Capabilities
 
-## Authentication and authorisation
+## Authentication and authorisation {#InteroperabilityStandardv15.2.0-Authenticationandauthorisation}
 
 Standards for confirming the identity of service users and controlling their access to services or specific resources.
 
 - Authentication and Access
 - NHS login service
 
-## Communications
+## Communications {#InteroperabilityStandardv15.2.0-Communications}
 
 - Email (system accounts for automated sending for purposes such as notifications)
 
-## Generic FHIR Receiver
+## Generic FHIR Receiver  {#InteroperabilityStandardv15.2.0-GenericFHIRReceiver}
 
 - Generic FHIR Receiver (a component which will receive messages to the GP Practice)
 
-# Capability-specific interoperability Standards
+# Capability-specific interoperability Standards {#InteroperabilityStandardv15.2.0-Capability-specificinteroperabilityStandards}
 
 This section details the interoperability requirements which are associated with each Capability.
 
@@ -161,22 +161,22 @@ Some interdependencies between individual interface Standards exist. Creating a 
 
 Suppliers need to comply with all of the requirements that are associated with the Capability/Capabilities which the Supplier is offering.
 
-## Foundation Capabilities
+## Foundation Capabilities {#InteroperabilityStandardv15.2.0-FoundationCapabilities}
 
-### Patient Information Maintenance - GP
+### Patient Information Maintenance - GP {#InteroperabilityStandardv15.2.0-PatientInformationMaintenance-GP}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism Provider requirements (if offering all Foundation capabilities) | - NHS login service (Foundation Solution Suppliers requirements) |
 | NHAIS HA/GP Links | - Messaging Exchange for Social Care and Health (MESH) |
-| Personal Demographics Service (PDS) | PDS FHIR API For Suppliers of new services or applications:   - Authentication and Access- using NHS Care Identity Service 2 API - SDS FHIR API  2018 PDS Integration Requirements – v1.0 or older For Suppliers of services which ARE currently deployed into an operational environment:   - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM) - Authentication and Access |
-| GP2GP | GP2GP FHIR Implementation For Suppliers of new services or applications:   - GP2GP Requesting Adaptor - GP2GP Sending Adaptor - Personal Demographics Service (PDS) - using FHIR API - Spine Directory Service - FHIR API - GP Connect - Access Record Structured API v1.6.0 - GP Registrations Management Information API  GP2GP HL7 For Suppliers of services which ARE currently deployed into an operational environment:   - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM) |
-| Summary Care Record (SCR) | Summary Care Record FHIR API For Suppliers of new services or applications:   - Authentication and Access - using NHS Care Identity Service 2 API  NHS Summary Care Record Service - GP Summary Requirements v5.8.3 For Suppliers of services which ARE currently deployed into an operational environment:   - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM) - Spine Mini Services (optional) - Authentication and Access |
+| Personal Demographics Service (PDS) | PDS FHIR API {#InteroperabilityStandardv15.2.0-PDSFHIRAPI} For Suppliers of new services or applications:   - Authentication and Access- using NHS Care Identity Service 2 API - SDS FHIR API  2018 PDS Integration Requirements – v1.0 or older {#InteroperabilityStandardv15.2.0-2018PDSIntegrationRequirements–v1.0orolder} For Suppliers of services which ARE currently deployed into an operational environment:   - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM) - Authentication and Access |
+| GP2GP | GP2GP FHIR Implementation {#InteroperabilityStandardv15.2.0-GP2GPFHIRImplementation} For Suppliers of new services or applications:   - GP2GP Requesting Adaptor - GP2GP Sending Adaptor - Personal Demographics Service (PDS) - using FHIR API - Spine Directory Service - FHIR API - GP Connect - Access Record Structured API v1.6.0 - GP Registrations Management Information API  GP2GP HL7 {#InteroperabilityStandardv15.2.0-GP2GPHL7} For Suppliers of services which ARE currently deployed into an operational environment:   - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM) |
+| Summary Care Record (SCR) | Summary Care Record FHIR API {#InteroperabilityStandardv15.2.0-SummaryCareRecordFHIRAPI} For Suppliers of new services or applications:   - Authentication and Access - using NHS Care Identity Service 2 API  NHS Summary Care Record Service - GP Summary Requirements v5.8.3 {#InteroperabilityStandardv15.2.0-NHSSummaryCareRecordService-GPSummaryRequirementsv5.8.3} For Suppliers of services which ARE currently deployed into an operational environment:   - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM) - Spine Mini Services (optional) - Authentication and Access |
 | GP Connect Access Record HTML (Provider requirements) | - Personal Demographics Service (PDS) |
 | GP Connect Access Record Structured (Provider requirements) | - Personal Demographics Service (PDS) |
 | GP Connect Send Document (Receiver requirements) | - Interoperability Toolkit (ITK) - ITK3 Messaging Distribution - Messaging Exchange for Social Care and Health (MESH) - Generic FHIR Receiver (Receiver Solutions only) |
 | GP Connect Update Record (Receiver requirements) | - Interoperability Toolkit (ITK) - ITK3 Messaging Distribution - Messaging Exchange for Social Care and Health (MESH) - Personal Demographics Service (PDS) \* or Spine Mini Services   \*May be sourced indirectly by existing PDS interface provided by a Patient Information Maintenance - GP (PIM) Solution, either via API to this Solution, or as a shared application resource if delivered as part of the same Solution. |
-| 111 | **Without Using NHS 111 Report Adaptor**  - Interoperability Toolkit (ITK) - Clinical Document Architecture (CDA) |
+| 111 | **Without Using NHS 111 Report Adaptor** {#InteroperabilityStandardv15.2.0-WithoutUsingNHS111ReportAdaptor}  - Interoperability Toolkit (ITK) - Clinical Document Architecture (CDA) |
 | GPES Data Extraction | - Messaging Exchange for Social Care and Health (MESH) |
 | Secure Electronic File Transfer (SEFT) (in order to meet Primary Care Clinical Terminology Usage Report) |  |
 | Digital Medicines and Pharmacy FHIR Payload | - Generic FHIR Receiver |
@@ -184,7 +184,7 @@ Suppliers need to comply with all of the requirements that are associated with t
 | GP Data for Planning and Research | - Messaging Exchange for Social Care and Health (MESH) \*   \*May alternatively use AWS Direct S3-S3 transfers as the secure transport mechanism |
 | Transfer of Care FHIR Payload | - Workflow - Generic FHIR Receiver |
 
-### Consultation Management - GP
+### Consultation Management - GP {#InteroperabilityStandardv15.2.0-ConsultationManagement-GP}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
@@ -192,7 +192,7 @@ Suppliers need to comply with all of the requirements that are associated with t
 | Electronic Yellow Card Reporting |  |
 | Messaging Exchange for Social Care and Health (MESH) (in order to meet eMED3 Fitnotes) |  |
 
-### Appointments Management - GP
+### Appointments Management - GP {#InteroperabilityStandardv15.2.0-AppointmentsManagement-GP}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
@@ -201,90 +201,90 @@ Suppliers need to comply with all of the requirements that are associated with t
 | Messaging Exchange for Social Care and Health (MESH)  Or  Secure Electronic File Transfer (SEFT)  (in order to meet General Practice Appointments Data Reporting) |  |
 | GP Data for Planning and Research | - Messaging Exchange for Social Care and Health (MESH) \*   \*May alternatively use AWS Direct S3-S3 transfers as the secure transport mechanism |
 
-### Prescribing
+### Prescribing {#InteroperabilityStandardv15.2.0-Prescribing}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism Provider requirements (if offering all Foundation capabilities) | - NHS login service (Foundation Solution Suppliers requirements) |
-| Electronic Prescription Service (EPS) - Prescribing | EPS FHIR API - Prescribing API For Suppliers of new services or applications:   - Personal Demographics Service (PDS) - using PDS FHIR API - Authentication and Access - using NHS Care Identity Service 2 API - Signing Service API  EPS Prescribing Systems Compliance Specification v6.11 or older For Suppliers of services which ARE currently deployed into an operational environment:   - Personal Demographics Service (PDS) \* - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM)   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
+| Electronic Prescription Service (EPS) - Prescribing | EPS FHIR API - Prescribing API {#InteroperabilityStandardv15.2.0-EPSFHIRAPI-PrescribingAPI} For Suppliers of new services or applications:   - Personal Demographics Service (PDS) - using PDS FHIR API - Authentication and Access - using NHS Care Identity Service 2 API - Signing Service API  EPS Prescribing Systems Compliance Specification v6.11 or older {#InteroperabilityStandardv15.2.0-EPSPrescribingSystemsComplianceSpecificationv6.11orolder} For Suppliers of services which ARE currently deployed into an operational environment:   - Personal Demographics Service (PDS) \* - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM)   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
 
-### Referral Management - GP
-
-| **Interoperability Requirement** | **Dependencies** |
-| --- | --- |
-| IM1 - Interface Mechanism Provider requirements  (if offering all Foundation capabilities) | - NHS login service (Foundation Solution Suppliers requirements) |
-| e-Referral Service (eRS) | e-Referral Service FHIR API - Primary Care Referrer For Suppliers of new services or applications:   - Personal Demographics Service (PDS) - using PDS FHIR API - Authentication and Access - using NHS Care Identity Service 2 API  NHS e-Referrals Service - Referrer Compliance Document v1 For Suppliers of services which ARE currently deployed into an operational environment:   - Personal Demographics Service (PDS) \* - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM)   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
-
-### Resource Management
+### Referral Management - GP {#InteroperabilityStandardv15.2.0-ReferralManagement-GP}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism Provider requirements  (if offering all Foundation capabilities) | - NHS login service (Foundation Solution Suppliers requirements) |
+| e-Referral Service (eRS) | e-Referral Service FHIR API - Primary Care Referrer {#InteroperabilityStandardv15.2.0-e-ReferralServiceFHIRAPI-PrimaryCareReferrer} For Suppliers of new services or applications:   - Personal Demographics Service (PDS) - using PDS FHIR API - Authentication and Access - using NHS Care Identity Service 2 API  NHS e-Referrals Service - Referrer Compliance Document v1 {#InteroperabilityStandardv15.2.0-NHSe-ReferralsService-ReferrerComplianceDocumentv1} For Suppliers of services which ARE currently deployed into an operational environment:   - Personal Demographics Service (PDS) \* - External Interface Specification (EIS) - NHS Messaging Implementation Manual (MIM)   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
 
-## Non-foundation capabilities
+### Resource Management {#InteroperabilityStandardv15.2.0-ResourceManagement}
 
-### Communication Management
+| **Interoperability Requirement** | **Dependencies** |
+| --- | --- |
+| IM1 - Interface Mechanism Provider requirements  (if offering all Foundation capabilities) | - NHS login service (Foundation Solution Suppliers requirements) |
+
+## Non-foundation capabilities {#InteroperabilityStandardv15.2.0-Non-foundationcapabilities}
+
+### Communication Management {#InteroperabilityStandardv15.2.0-CommunicationManagement}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | Email |  |
 
-### Appointments Management - Citizen
+### Appointments Management - Citizen {#InteroperabilityStandardv15.2.0-AppointmentsManagement-Citizen}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism (Patient interface Consumer) | NHS login service |
 
-### Prescription Ordering – Citizen
+### Prescription Ordering – Citizen {#InteroperabilityStandardv15.2.0-PrescriptionOrdering–Citizen}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism (Patient interface Consumer) | NHS login service |
 
-### View Record - Citizen
+### View Record - Citizen {#InteroperabilityStandardv15.2.0-ViewRecord-Citizen}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism (Patient interface Consumer) | NHS login service |
 
-### Digital Diagnostics
+### Digital Diagnostics {#InteroperabilityStandardv15.2.0-DigitalDiagnostics}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | Digital Diagnostics & Pathology Messaging | Messaging Exchange for Social Care and Health (MESH |
 | Screening messaging | Messaging Exchange for Social Care and Health (MESH |
 
-### Communicate with Practice - Citizen
+### Communicate with Practice - Citizen {#InteroperabilityStandardv15.2.0-CommunicatewithPractice-Citizen}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | IM1 - Interface Mechanism (Patient interface Consumer) | NHS login service |
 
-## Capabilities to support new ways of working
+## Capabilities to support new ways of working {#InteroperabilityStandardv15.2.0-Capabilitiestosupportnewwaysofworking}
 
-### Cross-organisation Appointment Booking
+### Cross-organisation Appointment Booking {#InteroperabilityStandardv15.2.0-Cross-organisationAppointmentBooking}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | GP Connect Appointment Management (Consumer requirements) | - Personal Demographics Service (PDS) \* or Spine Mini Services   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
 
-### Unified Care Record
+### Unified Care Record {#InteroperabilityStandardv15.2.0-UnifiedCareRecord}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | - GP Connect Access Record HTML (Consumer requirements)   Or   - GP Connect Access Record Structured (Consumer requirements) | - Personal Demographics Service (PDS) \* or Spine Mini Services   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
 
-### Medicines Optimisation
+### Medicines Optimisation {#InteroperabilityStandardv15.2.0-MedicinesOptimisation}
 
 | **Interoperability Requirement** | **Dependencies** |
 | --- | --- |
 | - GP Connect Access Record Structured (Consumer requirements) | - Personal Demographics Service (PDS) \* or Spine Mini Services   \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution. |
 
-# Deprecated Standards
+# Deprecated Standards {#InteroperabilityStandardv15.2.0-DeprecatedStandards}
 
 There are currently no Deprecated Standards.
 
-# Roadmap
+# Roadmap {#InteroperabilityStandardv15.2.0-Roadmap}
 
 | Title |
 | --- |

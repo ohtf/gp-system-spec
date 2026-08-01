@@ -27,13 +27,13 @@ labels: ["standard"]
 - [Dependencies](#PatientDataManagerv0.1.1-Dependencies)
 - [Roadmap](#PatientDataManagerv0.1.1-Roadmap)
 
-# Introduction
+# Introduction {#PatientDataManagerv0.1.1-Introduction}
 
 The Patient Data Manager FHIR API enables NHS products to store, retrieve, and manage Patient health and care data in a standardised, interoperable format.
 
 See [Patient Data Manager FHIR API](https://digital.nhs.uk/developer/api-catalogue/patient-data-manager) for further information.
 
-# Requirements
+# Requirements {#PatientDataManagerv0.1.1-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
@@ -49,30 +49,30 @@ See [Patient Data Manager FHIR API](https://digital.nhs.uk/developer/api-catalog
 | PDM10 | **Reliability - Dead Letter Queue (DLQ)**  Un-processable events or requests stemming from background processing to be published to a DLQ for investigation and out-of-band processing.  Examples may include, but are not limited to:   - Create a resource - Get a specific resource | MUST |
 | PDM11 | **Reliability - DLQ Retry**  The cause of failure and events or requests in the dead letter queue (DLQ) to be retried after the cause of failure has been resolved, within 1 working days.  Examples may include, but are not limited to:   - Create a resource - Get a specific resource | MUST |
 
-## Patient Data Manager FHIR API Operations
+## Patient Data Manager FHIR API Operations {#PatientDataManagerv0.1.1-PatientDataManagerFHIRAPIOperations}
 
 | **Capability** | **FHIR Resources** | **Post a bundle of operations** | **Search the datastore using GET** | **Update or create a specific resource based on conditions** | **Create a resource** | **Get a specific resource** | **Update or create a specific resource** | **Delete a specific resource** | **Search the datastore using POST** | **Post a Document bundle** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | [NHS Health Check online](https://nhsdigital.github.io/digital-health-checks-public/) | (tick) | (error) | (error) | (tick) | (tick) | (error) | (error) | (error) | (error) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#PatientDataManagerv0.1.1-Compliance,AssuranceandTesting}
 
 See the Patient Data Manager FHIR API section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#PatientDataManagerv0.1.1-Documentation}
 
 - [Patient Data Manager FHIR API](https://digital.nhs.uk/developer/api-catalogue/patient-data-manager#overview--overview)
 - [Patient Data Manager (PDM)](https://digital.nhs.uk/services/patient-data-manager)
 - [NHS Health Check online Developer Documentation](https://nhsdigital.github.io/digital-health-checks-public/)
 
-# Dependencies
+# Dependencies {#PatientDataManagerv0.1.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - [Authentication and Access](../DSIC-Standards/Non-Overarching-Standards/Authentication-and-Access.md) - using NHS Care Identity Service 2 API
 - [Multicast Notification Service (MNS)](../DSIC-Standards/Non-Overarching-Standards/Multicast-Notification-Service-MNS.md) Standard
 
-# Roadmap
+# Roadmap {#PatientDataManagerv0.1.1-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

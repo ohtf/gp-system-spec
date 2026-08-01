@@ -19,7 +19,7 @@ labels: ["overarching_standard_retired"]
 | Effective Date | 10 Aug 2020 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-# Description
+# Description {#BusinessContinuityandDisasterRecoveryv1.1.0-Description}
 
 Ensures that suppliers Solutions are supported by robust business continuity plans and disaster recovery measures.
 
@@ -34,7 +34,7 @@ Following receipt of the draft BCDR Plan (see standards BD-DR-17 and BC-DR-18) 
 - Review and comment on the draft BCDR Plan as soon as reasonably practicable; and
 - Notify the Supplier in writing that it approves or rejects their draft BCDR Plan no later than twenty (20) Working Days after the date on which the draft BCDR Plan is first delivered to NHS Digital.
 
-# Requirements
+# Requirements {#BusinessContinuityandDisasterRecoveryv1.1.0-Requirements}
 
 | Requirement ID | Requirement Text | Level |
 | --- | --- | --- |
@@ -64,13 +64,13 @@ Following receipt of the draft BCDR Plan (see standards BD-DR-17 and BC-DR-18) 
 | **BC-DR-23** | **Plan review**  The supplier shall review the BCDR plan and the risk analysis on which it is based on a regular basis and as a minimum once every 12 months. Upon update, the BCDR Plan shall be re-issued to NHS Digital.   NHS Digital may wish to provide feedback to the Supplier. | MUST |
 | **BC-DR-24** | **Data centre inspection** The supplier will, at the request of NHS Digital, facilitate an inspection of the data centre(s) hosting the services to validate that the hosting arrangements described in their BCDR plans are consistent with the configuration and capability of the data centre(s). Repeat inspections will be determined based on the outcome of the inspection. | MUST |
 
-# Capabilities
+# Capabilities {#BusinessContinuityandDisasterRecoveryv1.1.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#BusinessContinuityandDisasterRecoveryv1.1.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

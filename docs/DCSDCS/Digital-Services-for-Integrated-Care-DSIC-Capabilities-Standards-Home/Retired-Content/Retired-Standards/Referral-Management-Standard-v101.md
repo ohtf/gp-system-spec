@@ -12,13 +12,13 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S11 |
-| Version | 1.0.1 |
+| ID {#ReferralManagement-Standardv1.0.1-ID} | S11 |
+| Version {#ReferralManagement-Standardv1.0.1-Version} | 1.0.1 |
 | Type | Capability Specific Standard |
-| Status | Retired |
-| Effective Date | 31 Dec 2019 |
+| Status {#ReferralManagement-Standardv1.0.1-Status} | Retired |
+| Effective Date {#ReferralManagement-Standardv1.0.1-EffectiveDate} | 31 Dec 2019 |
 
-# Requirements
+# Requirements  {#ReferralManagement-Standardv1.0.1-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -27,13 +27,13 @@ labels: ["capability_specific_retired"]
 | C11E1 | **GP-REFM-03** | **Inter-provider transfer Administrative Minimum Data Set (ISB0112)**  Adhere to the Inter-provider transfer Administrative Minimum Data Set (ISB0112) Standard. | MUST |
 | C11E2 | **GP-WF-5.1-04** | **Referrals Reporting**  Ability to generate a report on Referrals (list of Referrals with associated status by Referrer by Recipient Target (Service, Organisation and/or Individual) within a date range) | MUST |
 
-# Capability
+# Capability {#ReferralManagement-Standardv1.0.1-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Referral Management - GP Capability
 
-# Roadmap
+# Roadmap {#ReferralManagement-Standardv1.0.1-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

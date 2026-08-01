@@ -26,7 +26,7 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#GPConnectv4.0.1-Dependencies)
 - [Roadmap](#GPConnectv4.0.1-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectv4.0.1-Introduction}
 
 GP Connect allows authorised clinical staff to share and view GP Practice clinical information and data between IT systems, quickly and efficiently.
 
@@ -41,13 +41,13 @@ GP Connect currently includes the following standards:
 
 A demonstrator application of the GP Connect FHIR APIs is available, as is additional information at NHS Digital's GP Connect homepage.
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectv4.0.1-Compliance,AssuranceandTesting}
 
 To achieve GP Connect compliance, as a Provider suppliers will need to complete the relevant NHS Digital Assurance Approach detailed under each of the specific requirement pages. To achieve GP Connect compliance as a Consumer, suppliers will need to follow the SCAL (Supplier Conformance Assessment List). More detail on this can be found here.
 
 For advice, access to testing resources, and support contact gpconnect@nhs.net.
 
-# Requirements
+# Requirements {#GPConnectv4.0.1-Requirements}
 
 The current GP Connect Specifications are:
 
@@ -58,11 +58,11 @@ The current GP Connect Specifications are:
 
 For the definitive list of GP Connect API versions please see GP Connect Specification Versions.
 
-# Documentation
+# Documentation {#GPConnectv4.0.1-Documentation}
 
 All technical documentation, including information on testing, environments and assurance, is hosted on NHS Developer Network.
 
-# Dependencies
+# Dependencies {#GPConnectv4.0.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
@@ -78,7 +78,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 \*May be sourced indirectly by existing PDS interface provided by PIM solution, either via API to PIM solution, or as a shared application resource if delivered as part of the same solution.
 
-# Roadmap
+# Roadmap {#GPConnectv4.0.1-Roadmap}
 
 | Roadmap Item |
 | --- |

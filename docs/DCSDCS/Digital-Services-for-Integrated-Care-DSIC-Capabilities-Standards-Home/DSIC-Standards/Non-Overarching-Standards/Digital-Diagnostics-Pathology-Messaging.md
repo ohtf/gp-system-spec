@@ -30,25 +30,25 @@ labels: ["standard"]
 - [Dependencies](#DigitalDiagnostics&PathologyMessaging-Dependencies)
 - [Roadmap](#DigitalDiagnostics&PathologyMessaging-Roadmap)
 
-# Introduction
+# Introduction {#DigitalDiagnostics&PathologyMessaging-Introduction}
 
 Pathology messaging involves the electronic transmission of results of pathology tests to GP systems in response to a test request placed with laboratories.
 
-# Requirements
+# Requirements {#DigitalDiagnostics&PathologyMessaging-Requirements}
 
 To comply with the Digital Diagnostics & Pathology Messaging Standard there are currently two implementation options:
 
 1. Using Lab Results adaptor
 2. Without using Lab Results adaptor
 
-### **Using Lab Results Adaptor**
+### **Using Lab Results Adaptor** {#DigitalDiagnostics&PathologyMessaging-UsingLabResultsAdaptor}
 
 |  |  |  |
 | --- | --- | --- |
 | **ID** | **Requirement** | **Level** |
 | DDP05 | If implementing Digital Diagnostics & Pathology Messaging using the Lab Results adaptor (aka EDIFACT adaptor):   - Suppliers to Implement and maintain the adapter inline with the latest specification of the[Lab Results adaptor - NHS Digital](https://digital.nhs.uk/developer/api-catalogue/lab-results-adaptor)   The adaptor provides a pre-assured implementation of the Digital Diagnostics & Pathology Messaging Standard and covers requirements DDP02, DDP03 and DDP04 below. | MUST |
 
-### **Without using Lab results Adaptor**
+### **Without using Lab results Adaptor** {#DigitalDiagnostics&PathologyMessaging-WithoutusingLabresultsAdaptor}
 
 |  |  |  |
 | --- | --- | --- |
@@ -57,15 +57,15 @@ To comply with the Digital Diagnostics & Pathology Messaging Standard there are
 | DDP03 | Retransmission of a Pathology PMIP EDIFACT Acknowledgement message MUST be solely in response to a request from the receiving organisation: automatic retransmission is not acceptable. | MUST |
 | DDP04 | The EDI management software for EDIFACT messages MUST comply with the requirements specified in 'Core Functional Requirements for EDI Management Software in the NHS', sections:   - General - Sending Interchanges - Receiving Interchanges | MUST |
 
-#### NPFIT-FNT-TO-TAR-0103.01 Pathology Messaging - GP System Requirements
+#### NPFIT-FNT-TO-TAR-0103.01 Pathology Messaging - GP System Requirements {#DigitalDiagnostics&PathologyMessaging-NPFIT-FNT-TO-TAR-0103.01PathologyMessaging-GPSystemRequirements}
 
-#### Introduction
+#### Introduction {#DigitalDiagnostics&PathologyMessaging-Introduction.1}
 
 This document has been written as an update to the suite of pathology messaging documents published in 2000 by the Pathology Messaging Enabler Programme and subsequently the Pathology Messaging Implementation Programme.   
 The previously published, and still mostly current, documentation comprises MS Word 232 files in 14 folders with many thousands of hyperlinks between the documents resulting in a 'pack' or approximately 32Mb. Since its publication, much of the messaging infrastructure used to carry messages between organisations has been replaced, the organisation who authored the requirements has been decommissioned and the tooling to generate and maintain the hyperlinks is also no longer available. Some of the requirements have also changed (e.g. the need to encrypt the messages).  
 For convenience, and to align with common reference, the documentation is referred to as the 'PMIP Specs' and will be referred to as such within this document.
 
-#### Document Purpose
+#### Document Purpose {#DigitalDiagnostics&PathologyMessaging-DocumentPurpose}
 
 The purpose of this document is:
 
@@ -73,7 +73,7 @@ The purpose of this document is:
 - to highlight any obsolete requirements and
 - to document any changed requirements.
 
-#### Audience
+#### Audience {#DigitalDiagnostics&PathologyMessaging-Audience}
 
 The intended audiences for this document are:
 
@@ -82,7 +82,7 @@ The intended audiences for this document are:
 - Laboratory 'Middleware' Suppliers
 - Any NHS/DHSC Authority who is or may become the owner or custodian of these requirements
 
-#### Document Scope
+#### Document Scope {#DigitalDiagnostics&PathologyMessaging-DocumentScope}
 
 The scope of the requirements is Laboratory to GP Practice Results Messaging for the following clinical disciplines:
 
@@ -92,7 +92,7 @@ The scope of the requirements is Laboratory to GP Practice Results Messaging for
 
 The requirements do NOT cover any other disciplines, lab to lab messaging or test requests/orders.
 
-#### Description of Documentation
+#### Description of Documentation {#DigitalDiagnostics&PathologyMessaging-DescriptionofDocumentation}
 
 The PMIP Specs were published to GP system Suppliers under the 'RFA' scheme, the latest version being RFA99 v1.2. Within this release they were listed under the 'Clinical Messages' folder. At the time, the intention was to produce further clinical messaging requirements for domains such as Radiology and Discharge and so the requirements were written generically and structured in such as way as to allow other domains to be readily added with little change.  
 Beneath the 'Clinical Messages' folder are 14 sub-folders, each of which is listed and described in the table below.
@@ -115,7 +115,7 @@ Beneath the 'Clinical Messages' folder are 14 sub-folders, each of which is list
 | SRID | **Using Sender/Recipient Identifiers**  Provides guidance to Suppliers/organisations on how to use Sender/Recipient Identifiers within the NHS EDI Naming Schema when implementing electronic messaging. |
 | TCON | **Technical Messaging and Networking Requirements for Secure EDI**  Contains the technical messaging and networking requirements for Trusts and General Practice use of secure EDI. |
 
-#### Terminology & High-Level Requirement Changes
+#### Terminology & High-Level Requirement Changes {#DigitalDiagnostics&PathologyMessaging-Terminology&High-LevelRequirementChanges}
 
 The major changes to the Pathology messaging environment that have occurred since 2000 are described below. The impact of these changes varied with any consequential changes to messaging systems having been made and the systems have now been operating successfully without change for approximately 10 years. However, the PMIP Specs have not been updated to reflect these changes and it is therefore necessary to document the changes to enable a new reader to fully understand the requirements.
 
@@ -137,7 +137,7 @@ The major changes to the Pathology messaging environment that have occurred sinc
 | 7 | Change: Many of the folders have a document containing a **Glossary** and many of these glossary items no longer exist or are no longer applicable, for example   - GPnet - GPPL - Healthlink - NHSIA - NWN - OCS:this is now the Organisation Data Service - PMEP - PMIP - Project Connect |
 |  | Consequence: These are historical projects or organisations and there are no materials from these entities that are required as part of the Pathology Messaging specifications and thus none need to be sought. |
 
-#### Requirements Applicable to GP Systems
+#### Requirements Applicable to GP Systems {#DigitalDiagnostics&PathologyMessaging-RequirementsApplicabletoGPSystems}
 
 The requirements applicable to GP systems are contained in the following subsections of the PMIP Specs:
 
@@ -160,7 +160,7 @@ Note: Some of the documents in the above sections will contain requirements for 
 
 GP Suppliers will find it useful to read the CEP section which documents the requirements for Pathology laboratory systems as this provides useful information on how they populate messages.
 
-#### High Level Requirements
+#### High Level Requirements {#DigitalDiagnostics&PathologyMessaging-HighLevelRequirements}
 
 |  |  |  |
 | --- | --- | --- |
@@ -170,7 +170,7 @@ GP Suppliers will find it useful to read the CEP section which documents the req
 | PM4.1.02.1 | Systems MUST meet the Patient Matching (automatic and manual) requirements in the CDA Document Receiver Requirements in place of those listed in CEG\_04\_C\_008. | MUST |
 | PM4.1.02.2 | System MUST support the 'Clinical Review' action (see CDA Document Receiver Requirements) instead of, or in addition to, the 'Viewed' status as specified in CEG\_04\_D\_008. A clinical user must now consciously indicate (by confirming that the action has taken place) that the report/document has been clinically reviewed rather than it being inferred by the system if the report/document has been displayed. | MUST |
 
-#### Changes since initial publication of requirements
+#### Changes since initial publication of requirements {#DigitalDiagnostics&PathologyMessaging-Changessinceinitialpublicationofrequirements}
 
 The main changes to the requirements since their initial publication are:
 
@@ -189,7 +189,7 @@ The main changes to the requirements since their initial publication are:
 | PM4.2.03.1 | All implemented instances of the System MUST be updated with each new release of the PBCL by the implementation date for GP systems as documented in the PBCL Release Note. This will be no sooner than 1 month from the release date. | MUST |
 | PM4.2.04 | Within LSR\_04\_C\_001.doc the Interchange number sequence should read 1..99,999,999 and not 1..999,999. Systems MUST restart Interchange numbering upon reaching 99,999,999 with the next Interchange being 1. | MUST |
 
-#### Recent Changes
+#### Recent Changes {#DigitalDiagnostics&PathologyMessaging-RecentChanges}
 
 During 2011-2012 a number of changes have been introduced into the Pathology Messaging domain. These have centred on the use of UOMs by laboratories. The changes are documented in the PBCL release documentation as published on TRUD and fall into three categories
 
@@ -206,15 +206,15 @@ The implications of these changes on GP systems will vary depending on the way i
 | PM4.3.02 | Systems MAY validate received Pathology results against the UOM file to check for:   - A valid UOM (against the list of valid UOMs) - A correct UOM for the test (where a default UOM is specified)  If validation fails, the system MUST NOT change the onward processing of the message, i.e. it MUST continue to appear in the 'In-Tray' for the system. Such failed validations MAY be indicated to the user and SHOULD be logged in Audit Trails. | MAY  IF validation fails:  MUST , SHOULD |
 | PM4.3.03 | Systems SHOULD NOT combine results (e.g. in graphical form) for a test if the PBCL\_CombinationCategory value for the test is '3' (Do not combine).  Note: Suppliers should seek latest documentation on combination category from the [PBCL Release Pack](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/38) or other relevant source. | SHOULD NOT |
 
-#### Detailed Requirement Changes & Errata
+#### Detailed Requirement Changes & Errata {#DigitalDiagnostics&PathologyMessaging-DetailedRequirementChanges&Errata}
 
 This section details errata and requirement changes in individual documents with the PMIP Specs.
 
-#### ACK
+#### ACK {#DigitalDiagnostics&PathologyMessaging-ACK}
 
 None
 
-#### CEG
+#### CEG {#DigitalDiagnostics&PathologyMessaging-CEG}
 
 |  |  |  |
 | --- | --- | --- |
@@ -231,7 +231,7 @@ None
 | CEG\_07\_B\_008 | $1  $2 | Ignore all references to cryptography and 'Digital Stamps'.  For MMHS message ID, read MESH 'sequence identifier' (see MESH File Interface Specification). For MHS Address, read MESH Mailbox ID. |
 | CEG\_09\_A\_008 | $2 | MESH Identifiers are issued by The Authority. |
 
-#### CEP
+#### CEP {#DigitalDiagnostics&PathologyMessaging-CEP}
 
 |  |  |  |
 | --- | --- | --- |
@@ -252,7 +252,7 @@ None
 | CEP\_21\_D\_003 | $3 | For MMHS Address, read MESH Mailbox ID.  For MMHS message ID, read MESH 'sequence identifier' (see MESH File Interface Specification) |
 | CEP\_21\_E\_003 | $3 | For MMHS message ID, read MESH 'sequence identifier' (see MESH File Interface Specification) |
 
-#### EDIG
+#### EDIG {#DigitalDiagnostics&PathologyMessaging-EDIG}
 
 |  |  |  |
 | --- | --- | --- |
@@ -262,15 +262,15 @@ None
 | EDIG\_04\_B\_005 | All | Ignore the whole document. |
 | EDIG\_05\_A\_005 | All | Ignore all references to cryptography and 'Digital Stamps'. |
 
-#### ISR
+#### ISR {#DigitalDiagnostics&PathologyMessaging-ISR}
 
 This document provides a record of issues raised during development and early trials and provides an audit record and justification for changes resulting in the current PMIP Specs. There are several references to projects, organisations and technologies that have been superseded and which are documented elsewhere in this document. As the ISR document does not contain any requirements it has not been analysed and therefore revisions or interpretations have not been made. Readers should therefore not regard the contents of this document as authoritative in any way.
 
-#### JCG
+#### JCG {#DigitalDiagnostics&PathologyMessaging-JCG}
 
 The JCG document is similar to the ISR document in that it does not contain any formal requirements for systems. It does, however, provide a useful reference to the original GP User Requirement and much of the content, aside from references to projects, organisations and technologies that have been superseded, is as valid today as it was when it was written. The user requirements therein are encapsulated elsewhere in the PMIP Specs and as such, any formal changes are captured in changes to other documents within the set.
 
-#### LSR
+#### LSR {#DigitalDiagnostics&PathologyMessaging-LSR}
 
 |  |  |  |
 | --- | --- | --- |
@@ -279,29 +279,29 @@ The JCG document is similar to the ISR document in that it does not contain any 
 
 None
 
-#### MREJ
+#### MREJ {#DigitalDiagnostics&PathologyMessaging-MREJ}
 
 None
 
-#### PMEP
+#### PMEP {#DigitalDiagnostics&PathologyMessaging-PMEP}
 
 None
 
-#### READ
+#### READ {#DigitalDiagnostics&PathologyMessaging-READ}
 
 |  |  |  |
 | --- | --- | --- |
 | **Filename** | **Section / Page** | **Description** |
 | READ\_02\_A\_001 | $1  $2  $3  $4 | Web link to leeds.ac.uk is no longer valid. For PBCL files go to TRUD (<https://isd.digital.nhs.uk/trud3/user/guest/group/0/home>)  Ignore reference to "Labsetv1.002.txt", references to number of records, release dates, etc – see TRUD website for latest version.  Ignore section 3 – release dates and implementation timescales are contained in the PBCL release notes (See TRUD website).  Ignore this section. |
 
-#### SRID
+#### SRID {#DigitalDiagnostics&PathologyMessaging-SRID}
 
 |  |  |  |
 | --- | --- | --- |
 | **Filename** | **Section / Page** | **Description** |
 | SRID\_01\_A\_001 | $2    $4    $9 | Ignore reference to NHSIA Helpline. Contact NHS CFH Networking Address Registration Manager.  For "NHS Telecommunications Branch" read "Networking Address Registration Manager, NHS CFH".  Ignore reference to "Project Connect Tracking Database".  The "Project Connect Tracking Database" was replaced by "NHS CFH Tracking Database". This was subsequent 'formally discontinued' as the mechanism for email contact management. It was replaced with an NHSmail-only list mapping laboratories to email addresses. This is maintained by The Authority Solution Assurance Service Desk.  Ignore reference to NHSIA tel num. |
 
-#### TCON
+#### TCON {#DigitalDiagnostics&PathologyMessaging-TCON}
 
 |  |  |  |
 | --- | --- | --- |
@@ -311,13 +311,13 @@ None
 | TCON\_04\_B\_005 | Various  $3  $4 | Ignore all sections on and references to cryptography.  Ignore whole section.  Ignore whole section. |
 | TCON\_04\_C\_005 | All | Ignore whole document. |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DigitalDiagnostics&PathologyMessaging-Compliance,AssuranceandTesting}
 
 See the Digital Diagnostics and Pathology Messaging section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#DigitalDiagnostics&PathologyMessaging-Documentation}
 
-### **Using Lab Results adaptor**
+### **Using Lab Results adaptor** {#DigitalDiagnostics&PathologyMessaging-UsingLabResultsadaptor}
 
 For Suppliers of new services or applications:
 
@@ -326,7 +326,7 @@ For Suppliers of new services or applications:
 
 It is recommended to read GP software developer guide in conjunction with the adaptor documentation.
 
-### **Without using Lab Results adaptor**
+### **Without using Lab Results adaptor** {#DigitalDiagnostics&PathologyMessaging-WithoutusingLabResultsadaptor}
 
 We are aware that there are older versions of PMIP documentation available online from archived websites. The links to the documentation provided on this site are the authoritative ones. So users are strongly recommended to use these versions in preference to any other versions.
 
@@ -335,13 +335,13 @@ We are aware that there are older versions of PMIP documentation available onlin
 
 Note: the link above does not currently hold the EDIFACT message specifications themselves. They have now been uploaded to the[**NHS Developer Network**](https://developer.nhs.uk/downloads-data/pathology-message-specifications-pmep-pmip/)
 
-# Dependencies
+# Dependencies {#DigitalDiagnostics&PathologyMessaging-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standard:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 
-# Roadmap
+# Roadmap {#DigitalDiagnostics&PathologyMessaging-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

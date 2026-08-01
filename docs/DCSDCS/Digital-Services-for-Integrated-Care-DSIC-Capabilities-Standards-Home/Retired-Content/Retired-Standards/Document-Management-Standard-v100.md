@@ -12,13 +12,13 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S9 |
-| Version | 1.0.0 |
-| Type | Capability Specific Standard |
-| Status | Retired |
-| Effective Date | 01 Apr 2019 |
+| ID {#DocumentManagement-Standardv1.0.0-ID} | S9 |
+| Version {#DocumentManagement-Standardv1.0.0-Version} | 1.0.0 |
+| Type {#DocumentManagement-Standardv1.0.0-Type} | Capability Specific Standard |
+| Status {#DocumentManagement-Standardv1.0.0-Status} | Retired |
+| Effective Date {#DocumentManagement-Standardv1.0.0-EffectiveDate} | 01 Apr 2019 |
 
-# Requirements
+# Requirements {#DocumentManagement-Standardv1.0.0-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -30,13 +30,13 @@ labels: ["capability_specific_retired"]
 | Epic 3 | **GP-DM-7-03** | **Document Attributes**  Manually record and update  document attributes such as:   - Document type - Category - Source | MUST |
 | Epic 4 | **GP-DM-7-04** | **Coded Entries**  Manually code clinical entries and store in the Patient's record by:   - Coding from a review of a document - Recording values associated with a code   For further information, see SNOMED CT | MUST |
 
-# Capability
+# Capability {#DocumentManagement-Standardv1.0.0-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Document Management Capability
 
-# Roadmap
+# Roadmap {#DocumentManagement-Standardv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

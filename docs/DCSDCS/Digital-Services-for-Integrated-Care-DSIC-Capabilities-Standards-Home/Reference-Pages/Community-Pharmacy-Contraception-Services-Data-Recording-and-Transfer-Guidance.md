@@ -16,7 +16,7 @@ labels: ["reference_page"]
 | **Version** | 1.0.0 |
 | **Type** | Reference |
 
-# Data Recording and Transfer
+# Data Recording and Transfer {#CommunityPharmacyContraceptionServices-DataRecordingandTransferGuidance-DataRecordingandTransfer}
 
 Community Pharmacy Solutions need to maintain comprehensive and accurate clinical records to support safe and effective ongoing service delivery.
 

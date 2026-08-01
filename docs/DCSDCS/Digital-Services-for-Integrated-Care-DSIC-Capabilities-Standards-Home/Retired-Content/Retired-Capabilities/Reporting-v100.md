@@ -12,7 +12,7 @@ labels: ["capability_retired"]
 
 |  |  |
 | --- | --- |
-| ID | C16 |
+| ID {#Reportingv1.0.0-ID} | C16 |
 | Version | 1.0.0 |
 | Type | Capability |
 | Status | Retired |
@@ -20,11 +20,11 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#Reportingv1.0.0-Description}
 
 Enables reporting and analysis of data from other Capabilities in the Practice Solution to support clinical care and Practice management.
 
-# Outcomes
+# Outcomes {#Reportingv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -32,7 +32,7 @@ Enables reporting and analysis of data from other Capabilities in the Practice S
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### Epic 1 - report data from other Capabilities
+### Epic 1 - report data from other Capabilities {#Reportingv1.0.0-Epic1-reportdatafromotherCapabilities}
 
 As a Practice User
 
@@ -40,7 +40,7 @@ I want Reports to use data from other Capabilities
 
 So that Reports use data from other Capabilities
 
-#### Acceptance criterion 1: report data from other Capabilities
+#### Acceptance criterion 1: report data from other Capabilities {#Reportingv1.0.0-Acceptancecriterion1:reportdatafromotherCapabilities}
 
 Given the Practice User is permitted to use data from other Capabilities
 
@@ -48,7 +48,7 @@ When the Practice User chooses to use Reports
 
 Then the Reports use data from other Capabilities
 
-#### Acceptance criterion 2: querying data
+#### Acceptance criterion 2: querying data {#Reportingv1.0.0-Acceptancecriterion2:queryingdata}
 
 Given the Practice User is permitted to use data from other Capabilities
 

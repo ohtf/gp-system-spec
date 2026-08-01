@@ -10,9 +10,9 @@ labels: []
 
 # Prepare Solution Listing Page
 
-# Summary
+# Summary {#PrepareSolutionListingPage-Summary}
 
-#### Living Documents
+#### Living Documents {#PrepareSolutionListingPage-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -24,11 +24,11 @@ Having successfully passed both the Capabilities Assessment and the Standards Co
 
 If the your progress towards completing Standards Assurance has been delayed or blocked, it may be possible to agree a Work Off Plan which will allow your Solution to be published on the Buying Catalogue while you continue to work towards full compliance.
 
-# Objectives
+# Objectives {#PrepareSolutionListingPage-Objectives}
 
 Accurate details of your Solution are published on the Buying Catalogue.
 
-# Actions required of you
+# Actions required of you {#PrepareSolutionListingPage-Actionsrequiredofyou}
 
 1. Complete the Catalogue Listing template when emailed to you by the NHSE team. There are a number of sections which need to be filled out but you can delete any which aren’t relevant to your Solution:
 
@@ -53,7 +53,7 @@ Accurate details of your Solution are published on the Buying Catalogue.
 2. Upload the completed Catalogue Solution Listing template to SharePoint and email your Supplier Manager copying in [buying.catalogue@nhs.net](mailto:buying.catalogue@nhs.net)
 3. When prompted by your Supplier Manager, sign off the Solution Listing final version, email it to the Supplier Manager and upload to SharePoint
 
-# Actions required of us
+# Actions required of us {#PrepareSolutionListingPage-Actionsrequiredofus}
 
 1. Email the Catalogue Listing template to you
 2. Review and check the template once returned to us

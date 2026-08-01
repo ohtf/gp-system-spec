@@ -21,7 +21,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#SharedCarePlansv1.0.1-Description}
 
 Shared Care Plans support a Patient-centred approach to care. It allows Health and Care Professionals to view and maintain a single, shared Plan for the Patient/Service User rather than holding separate and disconnected Plans within the individual health and care organisations. It encourages a collaborative approach to supporting Patients/Service Users to meet their health and care needs, including Patients/Service Users with long-term conditions or in residential care. Health or Care Professionals with appropriate access rights involved in delivering care for the Patient/Service User can see and contribute to a Patient/Service User's Care Plan. Guardians, Caregivers with appropriate access rights or the Patient/Service User can also view and update them.
 
@@ -35,7 +35,7 @@ Examples of Care Plans include:
 - Advanced Care Plan - Following a discussion with the individual about their future wishes and priorities regarding the type of care they would wish to receive and where they wish to be cared for, the plan may be enacted if they lose capacity or are unable to express a preference in the future
 - Escalation Plan - contains the support the Patient/Service User would receive in managing potential future events relating to their condition(s). It may cover what to do when Patient/Service User's condition deteriorates and may include instructions for emergency care professionals (e.g. paramedics)
 
-# Outcomes
+# Outcomes {#SharedCarePlansv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -46,7 +46,7 @@ Examples of Care Plans include:
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C36E1 - create Shared Care Plan
+### C36E1 - create Shared Care Plan  {#SharedCarePlansv1.0.1-C36E1-createSharedCarePlan}
 
 As a Care Team Member
 
@@ -54,7 +54,7 @@ I want to be able to create Shared Care Plans
 
 So that I can collaborate with other Care Team Members in delivering care to a Patient/Service User
 
-#### Acceptance criterion 1: Care Team Member creates a Shared Care Plan for the Patient/Service User
+#### Acceptance criterion 1: Care Team Member creates a Shared Care Plan for the Patient/Service User {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMembercreatesaSharedCarePlanforthePatient/ServiceUser}
 
 Given that the Patient/Service User has been assessed as 'in need of planned care'
 
@@ -70,7 +70,7 @@ And the Care Plan can be shared with other Care Team Members
 
 ---
 
-### C36E2 - view Shared Care Plan
+### C36E2 - view Shared Care Plan  {#SharedCarePlansv1.0.1-C36E2-viewSharedCarePlan}
 
 As a Care Team Member
 
@@ -78,7 +78,7 @@ I want to be able to view the Shared Care Plan for a Patient/Service User
 
 So that I can understand the Patient/Service User's Plan and use it to deliver the right care
 
-#### Acceptance criterion 1: Care Team Member views a Shared Care Plan for the Patient/Service User
+#### Acceptance criterion 1: Care Team Member views a Shared Care Plan for the Patient/Service User {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMemberviewsaSharedCarePlanforthePatient/ServiceUser}
 
 Given that the Patient/Service User’s Shared Care Plan has been defined
 
@@ -90,7 +90,7 @@ Then the Shared Care Plan for the Patient/Service User is displayed
 
 ---
 
-### C36E3 - amend Shared Care Plan
+### C36E3 - amend Shared Care Plan {#SharedCarePlansv1.0.1-C36E3-amendSharedCarePlan}
 
 As a Care Team Member
 
@@ -98,7 +98,7 @@ I want to be able to amend Shared Care Plans
 
 So that progress against the Shared Care Plan can be tracked and the Shared Care Plan can be updated to align to any change in needs of the Patient/Service User
 
-#### Acceptance criterion 1: Shared Care Plan is amended by a Care Team Member or Patient/Service User
+#### Acceptance criterion 1: Shared Care Plan is amended by a Care Team Member or Patient/Service User {#SharedCarePlansv1.0.1-Acceptancecriterion1:SharedCarePlanisamendedbyaCareTeamMemberorPatient/ServiceUser}
 
 Given that the Patient/Service User’s Shared Care Plan has been defined
 
@@ -110,7 +110,7 @@ Then the Shared Care Plan can be amended
 
 ---
 
-### C36E4 - close Shared Care Plan
+### C36E4 - close Shared Care Plan  {#SharedCarePlansv1.0.1-C36E4-closeSharedCarePlan}
 
 As a Care Team Member
 
@@ -118,7 +118,7 @@ I want to be able to close a Shared Care Plan when it is no longer needed
 
 So that I have an accurate view of active and inactive Shared Care Plans
 
-#### Acceptance criterion 1: Care Team Member closes the Shared Care Plan
+#### Acceptance criterion 1: Care Team Member closes the Shared Care Plan {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMemberclosestheSharedCarePlan}
 
 Given that the Patient/Service User’s Shared Care Plan has been defined
 
@@ -130,7 +130,7 @@ Then the Shared Care Plan can be closed or made inactive
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C36E5 - assign Shared Care Plan actions
+### C36E5 - assign Shared Care Plan actions {#SharedCarePlansv1.0.1-C36E5-assignSharedCarePlanactions}
 
 As a Care Team Member
 
@@ -138,7 +138,7 @@ I want to be able to assign actions to a member of the Care Team, the Patient/Se
 
 So that I can track progress against the Shared Care Plan and ensure the outcomes are achieved
 
-#### Acceptance criterion 1:  assign action to Care Team Member, Patient/Service User or Carer
+#### Acceptance criterion 1:  assign action to Care Team Member, Patient/Service User or Carer {#SharedCarePlansv1.0.1-Acceptancecriterion1:assignactiontoCareTeamMember,Patient/ServiceUserorCarer}
 
 Given that the Patient/Service User’s Shared Care Plan has been defined
 
@@ -152,7 +152,7 @@ And progress can be tracked
 
 ---
 
-### C36E6 - access Shared Care Plans remotely
+### C36E6 - access Shared Care Plans remotely {#SharedCarePlansv1.0.1-C36E6-accessSharedCarePlansremotely}
 
 As a Care Team Member
 
@@ -160,7 +160,7 @@ I want to be able to access and update Shared Care Plans when I am away from my 
 
 So that I can improve productivity by being able to maintain the Shared Care Plan even when I am working remotely
 
-#### Acceptance criterion 1: Care Team Members can view and update the Shared Care Plan during field visits
+#### Acceptance criterion 1: Care Team Members can view and update the Shared Care Plan during field visits {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMemberscanviewandupdatetheSharedCarePlanduringfieldvisits}
 
 Given that there is a Shared Care Plan for the Patient/Service User
 
@@ -172,7 +172,7 @@ And any updates to the Shared Care Plan can be made
 
 ---
 
-### C36E7 - search and view Shared Care Plans
+### C36E7 - search and view Shared Care Plans {#SharedCarePlansv1.0.1-C36E7-searchandviewSharedCarePlans}
 
 As a Care Team Member
 
@@ -180,7 +180,7 @@ I want to be able to search for the Shared Care Plan for Patients/Service Users
 
 So that I can access the relevant Shared Care Plan details
 
-#### Acceptance criterion 1: Care Team Member searches for and views Shared Care Plans
+#### Acceptance criterion 1: Care Team Member searches for and views Shared Care Plans {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMembersearchesforandviewsSharedCarePlans}
 
 Given Shared Care Plans have been set up for Patients/Service Users
 
@@ -192,7 +192,7 @@ And one or more Shared Care Plans can be selected to be viewed
 
 ---
 
-### C36E8 - real-time access to Shared Care Plans
+### C36E8 - real-time access to Shared Care Plans {#SharedCarePlansv1.0.1-C36E8-real-timeaccesstoSharedCarePlans}
 
 As a Care Team Member
 
@@ -200,7 +200,7 @@ I want to have continuous access to the current version of a Shared Care Plan wi
 
 So that I can make informed decisions for the Patient/Service User based on the most up-to-date information available in the Shared Care Plan
 
-#### Acceptance criterion 1: Shared Care Plans availability
+#### Acceptance criterion 1: Shared Care Plans availability {#SharedCarePlansv1.0.1-Acceptancecriterion1:SharedCarePlansavailability}
 
 Given that there is a Shared Care Plan for the Patient/Service User
 
@@ -210,7 +210,7 @@ Then the Shared Care Plan is available to view and / or update
 
 ---
 
-### C36E9 - notifications
+### C36E9 - notifications {#SharedCarePlansv1.0.1-C36E9-notifications}
 
 As a Care Team Member, Patient/Service User or other person who has access to a Shared Care Plan
 
@@ -218,7 +218,7 @@ I want to be able to send and receive notifications in relation to a Shared Care
 
 So that I can ensure that everyone who is involved in the health or care of the Patient/Service User is kept up to date with any changes to the Shared Care Plan
 
-#### Acceptance criterion 1: send message in relation to Shared Care Plan
+#### Acceptance criterion 1: send message in relation to Shared Care Plan {#SharedCarePlansv1.0.1-Acceptancecriterion1:sendmessageinrelationtoSharedCarePlan}
 
 Given that the Care Team Member(s), Patient/Service User or other has authorised access to the Shared Care Plan Solution
 
@@ -228,7 +228,7 @@ Then a message or notification can be sent to one or more recipients
 
 And the message can be read only by the intended recipient(s)
 
-#### Acceptance criterion 2: receive message in relation to Shared Care Plan
+#### Acceptance criterion 2: receive message in relation to Shared Care Plan {#SharedCarePlansv1.0.1-Acceptancecriterion2:receivemessageinrelationtoSharedCarePlan}
 
 Given that the Care Team Member(s), Patient/Service User or other has authorised access to the Shared Care Plan Solution
 
@@ -240,7 +240,7 @@ And they can view the message or notification
 
 ---
 
-### C36E10 - reports
+### C36E10 - reports {#SharedCarePlansv1.0.1-C36E10-reports}
 
 As a Care Team Member
 
@@ -248,7 +248,7 @@ I want to have access to custom reports relating to the Shared Care Plans for my
 
 So that I can use the information to plan my work better
 
-#### Acceptance criterion 1: Care Team Member views reports
+#### Acceptance criterion 1: Care Team Member views reports {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMemberviewsreports}
 
 Given that the Care Team Member(s) has access to the Shared Care Plans for one or more Patients/Service Users
 
@@ -260,7 +260,7 @@ Then a report can be run to create the relevant output relating to Shared Care 
 
 ---
 
-### C36E11 - manage Shared Care Plan templates
+### C36E11 - manage Shared Care Plan templates {#SharedCarePlansv1.0.1-C36E11-manageSharedCarePlantemplates}
 
 As a Care Team Member
 
@@ -268,7 +268,7 @@ I want to be able to maintain Shared Care Plan templates or utilise preloaded Sh
 
 So that I can improve efficiency by using existing templates to create Shared Care Plans
 
-#### Acceptance criterion 1: Use preloaded Shared Care Plan templates
+#### Acceptance criterion 1: Use preloaded Shared Care Plan templates {#SharedCarePlansv1.0.1-Acceptancecriterion1:UsepreloadedSharedCarePlantemplates}
 
 Given that the Care Team Members have authorised access to the Shared Care Plan Solution
 
@@ -278,7 +278,7 @@ Then they can access an existing template
 
 And use the template to create the Shared Care Plan for the Patient/Service User
 
-#### Acceptance criterion 2: maintain Shared Care Plan templates
+#### Acceptance criterion 2: maintain Shared Care Plan templates {#SharedCarePlansv1.0.1-Acceptancecriterion2:maintainSharedCarePlantemplates}
 
 Given that a Care Team Member has authorised access to maintain templates in the Shared Care Plan Solution
 
@@ -288,7 +288,7 @@ Then the Care Team Member can create, update or delete the relevant Shared Care
 
 ---
 
-### C36E12 - manage care schedules
+### C36E12 - manage care schedules {#SharedCarePlansv1.0.1-C36E12-managecareschedules}
 
 As a Care Team Member
 
@@ -296,7 +296,7 @@ I want to be able to manage my care schedule
 
 So that I can plan my upcoming Patient/Service User visits and actions relating to their Shared Care Plan
 
-#### Acceptance criterion 1: Care Team Member manages care schedules
+#### Acceptance criterion 1: Care Team Member manages care schedules {#SharedCarePlansv1.0.1-Acceptancecriterion1:CareTeamMembermanagescareschedules}
 
 Given that a Care Team Member has authorised access to the Shared Care Plan Solution
 

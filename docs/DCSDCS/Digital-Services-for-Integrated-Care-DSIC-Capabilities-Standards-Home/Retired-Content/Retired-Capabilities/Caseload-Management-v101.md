@@ -21,7 +21,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#CaseloadManagementv1.0.1-Description}
 
 The Caseload Management Capability supports the allocation of appropriate Health and Care Professionals to Patients/Service Users who are in need of healthcare or support.
 
@@ -35,7 +35,7 @@ Although the Capability is not about maintaining a clinical or care record for t
 
 It may also support delivery of service improvements through reporting and analysis and the use of care pathways and packages.
 
-# Outcomes
+# Outcomes {#CaseloadManagementv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -44,7 +44,7 @@ It may also support delivery of service improvements through reporting and analy
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C22E1 - manage Cases
+### C22E1 - manage Cases {#CaseloadManagementv1.0.1-C22E1-manageCases}
 
 As a Caseload Manager
 
@@ -52,7 +52,7 @@ I want to capture details of Patient/Service User cases (e.g. Referrals and Ser
 
 So that I can understand demand and use these to generate Caseloads and contact schedules
 
-#### Acceptance criterion 1: create Case
+#### Acceptance criterion 1: create Case {#CaseloadManagementv1.0.1-Acceptancecriterion1:createCase}
 
 Given that Referrals and Service Requests can be made
 
@@ -64,7 +64,7 @@ Then the case can be created
 
 And information about the case can be captured
 
-#### Acceptance criterion 2: view Case
+#### Acceptance criterion 2: view Case {#CaseloadManagementv1.0.1-Acceptancecriterion2:viewCase}
 
 Given the user is permitted to view cases
 
@@ -72,7 +72,7 @@ When they choose to view a Patient/Service User's case
 
 Then the Patient/Service User's case is displayed
 
-#### Acceptance criterion 3: amend Case
+#### Acceptance criterion 3: amend Case {#CaseloadManagementv1.0.1-Acceptancecriterion3:amendCase}
 
 Given the user is permitted to amend cases
 
@@ -80,7 +80,7 @@ When a change to a Patient/Service User's case is required
 
 Then the Patient/Service User's case can be amended
 
-#### Acceptance criterion 4: close Case
+#### Acceptance criterion 4: close Case {#CaseloadManagementv1.0.1-Acceptancecriterion4:closeCase}
 
 Given the user is permitted to close cases
 
@@ -90,7 +90,7 @@ Then the case can be closed or made inactive
 
 ---
 
-### C22E2 - maintain Caseloads
+### C22E2 - maintain Caseloads {#CaseloadManagementv1.0.1-C22E2-maintainCaseloads}
 
 As a Caseload Manager
 
@@ -98,7 +98,7 @@ I want to maintain Caseloads
 
 So that staff and equipment are allocated to cases efficiently and Patients/Service Users receive optimum care
 
-#### Acceptance criterion 1: create Caseload
+#### Acceptance criterion 1: create Caseload {#CaseloadManagementv1.0.1-Acceptancecriterion1:createCaseload}
 
 Given that the user is permitted to create Caseloads
 
@@ -108,7 +108,7 @@ When the user chooses to create a Caseload to support Patient/Service User car
 
 Then the Caseload is created
 
-#### Acceptance criterion 2: view Caseload
+#### Acceptance criterion 2: view Caseload {#CaseloadManagementv1.0.1-Acceptancecriterion2:viewCaseload}
 
 Given that the user is permitted to view Caseloads
 
@@ -118,7 +118,7 @@ When the user chooses to view a Caseload
 
 Then the Caseload is displayed
 
-#### Acceptance criterion 3: amend Caseload
+#### Acceptance criterion 3: amend Caseload {#CaseloadManagementv1.0.1-Acceptancecriterion3:amendCaseload}
 
 Given that the user is permitted to amend Caseloads
 
@@ -126,7 +126,7 @@ When a change to the Caseload is required (e.g. additional cases added)
 
 Then the Caseload can be amended
 
-#### Acceptance criterion 4: delete Caseload
+#### Acceptance criterion 4: delete Caseload {#CaseloadManagementv1.0.1-Acceptancecriterion4:deleteCaseload}
 
 Given that the user is permitted to delete Caseloads
 
@@ -134,7 +134,7 @@ When the user chooses to delete a Caseload
 
 Then the Caseload is deleted
 
-#### Acceptance criterion 5: share Caseload with Health and Care Professionals
+#### Acceptance criterion 5: share Caseload with Health and Care Professionals {#CaseloadManagementv1.0.1-Acceptancecriterion5:shareCaseloadwithHealthandCareProfessionals}
 
 Given that the Caseload has been created
 
@@ -144,7 +144,7 @@ Then the Caseload can be shared with the relevant Health and Care Professionals
 
 ---
 
-### C22E3 - generate and manage contact schedules
+### C22E3 - generate and manage contact schedules {#CaseloadManagementv1.0.1-C22E3-generateandmanagecontactschedules}
 
 As a Caseload Manager
 
@@ -152,7 +152,7 @@ I want to generate individual contact schedules
 
 So that Health and Care Professionals can understand and manage their workload
 
-#### Acceptance criterion 1: create contact schedule
+#### Acceptance criterion 1: create contact schedule {#CaseloadManagementv1.0.1-Acceptancecriterion1:createcontactschedule}
 
 Given that the user is permitted to create contact schedules
 
@@ -162,7 +162,7 @@ When the user chooses to create a contact schedule for a Health or Care Profes
 
 Then the contact schedule is created
 
-#### Acceptance criterion 2: view contact schedule
+#### Acceptance criterion 2: view contact schedule {#CaseloadManagementv1.0.1-Acceptancecriterion2:viewcontactschedule}
 
 Given that the user is permitted to view contact schedules
 
@@ -172,7 +172,7 @@ When the user chooses to view a contact schedule for a Health or Care Professi
 
 Then the contact schedule is displayed
 
-#### Acceptance criterion 3: amend contact schedule
+#### Acceptance criterion 3: amend contact schedule {#CaseloadManagementv1.0.1-Acceptancecriterion3:amendcontactschedule}
 
 Given that the user is permitted to amend contact schedules
 
@@ -182,7 +182,7 @@ When the user chooses to amend the contact schedule for a Health or Care Profes
 
 Then the contact schedule is amended
 
-#### Acceptance criterion 4: delete contact schedule
+#### Acceptance criterion 4: delete contact schedule {#CaseloadManagementv1.0.1-Acceptancecriterion4:deletecontactschedule}
 
 Given that the user is permitted to delete contact schedules
 
@@ -194,7 +194,7 @@ Then the contact schedule is deleted
 
 ---
 
-### C22E4 - update Case details
+### C22E4 - update Case details {#CaseloadManagementv1.0.1-C22E4-updateCasedetails}
 
 As a Health or Care Professional
 
@@ -202,7 +202,7 @@ I want to be able to update the details for cases assigned to me
 
 So that there is an accurate record of the case (e.g. contacts, status, outcome)
 
-#### Acceptance criterion 1: update Case details
+#### Acceptance criterion 1: update Case details {#CaseloadManagementv1.0.1-Acceptancecriterion1:updateCasedetails}
 
 Given a case has been assigned to a Health or Care Professional
 
@@ -214,7 +214,7 @@ Then they are able to update the details held about the case
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C22E5 - review and comment on Caseload
+### C22E5 - review and comment on Caseload {#CaseloadManagementv1.0.1-C22E5-reviewandcommentonCaseload}
 
 As a Health or Care Professional
 
@@ -222,7 +222,7 @@ I want to be able to view and comment on my Caseload
 
 So that I understand the cases assigned to me and can raise any issues
 
-#### Acceptance criterion 1: view and comment on Caseload
+#### Acceptance criterion 1: view and comment on Caseload {#CaseloadManagementv1.0.1-Acceptancecriterion1:viewandcommentonCaseload}
 
 Given a Caseload has been assigned to a Health or Care Professional
 
@@ -234,7 +234,7 @@ Then they are able to comment on the elements of the Caseload
 
 ---
 
-### C22E6 - review and comment on contact schedule
+### C22E6 - review and comment on contact schedule {#CaseloadManagementv1.0.1-C22E6-reviewandcommentoncontactschedule}
 
 As a Health or Care Professional
 
@@ -242,7 +242,7 @@ I want to view and comment on my contact schedule
 
 So that I can manage my workload and can raise any issues
 
-#### Acceptance criterion 1: view and comment on contact schedule
+#### Acceptance criterion 1: view and comment on contact schedule {#CaseloadManagementv1.0.1-Acceptancecriterion1:viewandcommentoncontactschedule}
 
 Given a contact schedule has been assigned to a Health or Care Professional
 
@@ -254,7 +254,7 @@ Then they are able to comment on the elements of the contact schedule
 
 ---
 
-### C22E7 - view and update Patient/Service User's Health or Care Record
+### C22E7 - view and update Patient/Service User's Health or Care Record {#CaseloadManagementv1.0.1-C22E7-viewandupdatePatient/ServiceUser'sHealthorCareRecord}
 
 As a Health or Care Professional
 
@@ -262,7 +262,7 @@ I want to be able to view and updated the health or care record for a Patient/Se
 
 So that I can use the information to better understand their needs and can contribute to a more complete and accurate record of their healthcare
 
-#### Acceptance criterion 1: view Health or Care Record
+#### Acceptance criterion 1: view Health or Care Record {#CaseloadManagementv1.0.1-Acceptancecriterion1:viewHealthorCareRecord}
 
 Given a Patient/Service User has health or care records held by other Service Providers
 
@@ -272,7 +272,7 @@ When the Patient/Service User's record is accessed
 
 Then the record(s) held by other Service Providers can be viewed
 
-#### Acceptance criterion 2: update Health or Care Record
+#### Acceptance criterion 2: update Health or Care Record {#CaseloadManagementv1.0.1-Acceptancecriterion2:updateHealthorCareRecord}
 
 Given a Patient/Service User has health or care records held by other Service Providers
 
@@ -284,7 +284,7 @@ Then the record(s) held by other Service Providers can be updated
 
 ---
 
-### C22E8 - reporting
+### C22E8 - reporting {#CaseloadManagementv1.0.1-C22E8-reporting}
 
 As a Caseload Manager
 
@@ -292,7 +292,7 @@ I want to generate reports relating to cases and Caseload
 
 So that I can better manage and plan the delivery of care for Patients/Service Users
 
-#### Acceptance criterion 1: report based on a range of selection criteria
+#### Acceptance criterion 1: report based on a range of selection criteria {#CaseloadManagementv1.0.1-Acceptancecriterion1:reportbasedonarangeofselectioncriteria}
 
 Given that information is available relating to cases and caseloads
 
@@ -304,7 +304,7 @@ And the output can be analysed to identify trends or performance
 
 ---
 
-### C22E9 - Care Pathway templates
+### C22E9 - Care Pathway templates {#CaseloadManagementv1.0.1-C22E9-CarePathwaytemplates}
 
 As a Caseload Manager
 
@@ -312,7 +312,7 @@ I want to be able to define Care Pathway templates
 
 So that I can standardise delivery of care and create a more consistent experience for Patients/Service Users
 
-#### Acceptance criterion 1: create Care Package template
+#### Acceptance criterion 1: create Care Package template {#CaseloadManagementv1.0.1-Acceptancecriterion1:createCarePackagetemplate}
 
 Given the Caseload Manager is permitted to create Care Package templates
 

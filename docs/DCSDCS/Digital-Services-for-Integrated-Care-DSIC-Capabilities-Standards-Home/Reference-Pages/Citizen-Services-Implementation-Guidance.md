@@ -12,11 +12,11 @@ labels: ["reference_page"]
 
 |  |  |
 | --- | --- |
-| ID | R8 |
-| Version | 2.0.0 |
-| Type | Reference |
+| ID {#CitizenServicesImplementationGuidance-ID} | R8 |
+| Version {#CitizenServicesImplementationGuidance-Version} | 2.0.0 |
+| Type {#CitizenServicesImplementationGuidance-Type} | Reference |
 
-# Introduction
+# Introduction {#CitizenServicesImplementationGuidance-Introduction}
 
 Citizen Services allow a Patient (or in some instances a person acting as a Proxy for a Patient) to access Solutions that allow them to perform certain actions online (e.g. via an internet web browser or an App on a Phone). As a minimum, this includes:
 
@@ -26,7 +26,7 @@ Citizen Services allow a Patient (or in some instances a person acting as a Prox
 
 The services that are available to a Citizen are configured by their registered GP Practice using their Core Clinical Solution.
 
-## Citizen Capabilities
+## Citizen Capabilities {#CitizenServicesImplementationGuidance-CitizenCapabilities}
 
 To support these Citizen Services, a number of Citizen Capabilities exist which Suppliers can choose to build Solutions to meet:
 
@@ -38,7 +38,7 @@ Suppliers can choose to build Solutions that meet one or many of these Citizen C
 
 Requirements relating to enabling and disabling these Citizen Services at a Patient and Practice level are mandated in the [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Capability.
 
-## Scenarios
+## Scenarios {#CitizenServicesImplementationGuidance-Scenarios}
 
 There are two main scenarios in terms of Citizen Services implementation:
 
@@ -62,13 +62,13 @@ As indicated by the diagram, linkage between the Citizen Services Solutions and 
 
 ![Citizen access diagram.png](https://nhse-dsic.atlassian.net/wiki/download/attachments/11962974263/Citizen%20access%20diagram.png?api=v2)
 
-# Structure and Lifecycle of Citizen Online Accounts
+# Structure and Lifecycle of Citizen Online Accounts {#CitizenServicesImplementationGuidance-StructureandLifecycleofCitizenOnlineAccounts}
 
 This section is essential reading for Suppliers as it articulates the different types of account a Citizen can have, how they differ and the processes involved in their maintenance. It is primarily focused on the Scenario 2 where two different Solutions need to be integrated to provide access to Citizen Services for a Patient.
 
 This information is intended to be guidance only and does not supersede or replace any mandatory requirements contained within any related Capabilities and Standards.
 
-## Account Types
+## Account Types {#CitizenServicesImplementationGuidance-AccountTypes}
 
 Depending on the implementation scenario, as a minimum a Citizen is likely to need up to two accounts as outlined in the table below.
 
@@ -79,7 +79,7 @@ Depending on the implementation scenario, as a minimum a Citizen is likely to ne
 
 Where the Citizen Capabilities are being provided by the same Solution as the Core Clinical Solution (Scenario 1), it is possible only the VUA account will be required.
 
-## Account Structure and Relationships
+## Account Structure and Relationships {#CitizenServicesImplementationGuidance-AccountStructureandRelationships}
 
 The following describes a typical approach to account structure and relationships between accounts.
 
@@ -88,7 +88,7 @@ The following describes a typical approach to account structure and relationship
   - Where the Citizen Capabilities are being provided by the same Solution as the Core Clinical Solution (Scenario 1), the VUA may be the only account required and may also hold a Username and Password to be used by the Citizen to access Citizen Services
 - An Online Service Account (OSA) consists of only a Username and Password, which may be different to the credentials of both the VUA and any other OSA held by the Citizen.
 
-### Account Linkage (IM1 - Interface Mechanism only)
+### Account Linkage (IM1 - Interface Mechanism only) {#CitizenServicesImplementationGuidance-AccountLinkage(IM1-InterfaceMechanismonly)}
 
 Where the Core Clinical Solution is different to the Citizen Services Solution (Scenario 2), in order for a Citizen to gain access to Citizen Services a connection will need to be established between an Online Service Account (OSA) and a Verified User Account (VUA) in the [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Solution.
 
@@ -98,31 +98,31 @@ Once an Online Service Account has been linked to a VUA this then the Citizen c
 
 See [NHS login service](../DSIC-Standards/Non-Overarching-Standards/NHS-login-service.md) for more information on Account Linkage and the associated requirements.
 
-#### IM1 - Interface Mechanism
+#### IM1 - Interface Mechanism {#CitizenServicesImplementationGuidance-IM1-InterfaceMechanism}
 
 ![Example - IM1 Interface Mechanism.png](https://nhse-dsic.atlassian.net/wiki/download/attachments/11962974263/Example%20-%20IM1%20Interface%20Mechanism.png?api=v2)
 
-#### GP Connect (Patient Facing APIs)
+#### GP Connect (Patient Facing APIs) {#CitizenServicesImplementationGuidance-GPConnect(PatientFacingAPIs)}
 
 ![Example - GP Connect Patient Facing APIs.png](https://nhse-dsic.atlassian.net/wiki/download/attachments/11962974263/Example%20-%20GP%20Connect%20Patient%20Facing%20APIs.png?api=v2)
 
-## Example Processes
+## Example Processes {#CitizenServicesImplementationGuidance-ExampleProcesses}
 
 The below diagrams represent example processes for Citizens accessing Citizen Services and may differ to what has been implemented by Suppliers of Citizen Services Solutions
 
-### Scenario 1: Citizen Services Process - Single Solution
+### Scenario 1: Citizen Services Process - Single Solution {#CitizenServicesImplementationGuidance-Scenario1:CitizenServicesProcess-SingleSolution}
 
 ![Scenario 1 - Citizen Services Process - Single Solution.png](https://nhse-dsic.atlassian.net/wiki/download/attachments/11962974263/Scenario%201%20-%20Citizen%20Services%20Process%20-%20Single%20Solution.png?api=v2)
 
-### Scenario 2: Citizen Services Process - Integrated Solutions (IM1 - Interface Mechanism)
+### Scenario 2: Citizen Services Process - Integrated Solutions (IM1 - Interface Mechanism) {#CitizenServicesImplementationGuidance-Scenario2:CitizenServicesProcess-IntegratedSolutions(IM1-InterfaceMechanism)}
 
 ![Scenario 2 - Citizen Services Process - Integrated Solutions (IM1 - Interface Mechanism).png](https://nhse-dsic.atlassian.net/wiki/download/attachments/11962974263/Scenario%202%20-%20Citizen%20Services%20Process%20-%20Integrated%20Solutions%20(IM1%20-%20Interface%20Mechanism).png?api=v2)
 
-### Scenario 3: Citizen Services Process - Integrated Solutions (GP Connect (Patient Facing APIs))
+### Scenario 3: Citizen Services Process - Integrated Solutions (GP Connect (Patient Facing APIs)) {#CitizenServicesImplementationGuidance-Scenario3:CitizenServicesProcess-IntegratedSolutions(GPConnect(PatientFacingAPIs))}
 
 ![Scenario 3 - Citizen Services Process - Integrated Solutions (GP Connect Patient Facing APIs).png](https://nhse-dsic.atlassian.net/wiki/download/attachments/11962974263/Scenario%203%20-%20Citizen%20Services%20Process%20-%20Integrated%20Solutions%20(GP%20Connect%20Patient%20Facing%20APIs).png?api=v2)
 
-## Online Accounts and Proxy Service Access
+## Online Accounts and Proxy Service Access {#CitizenServicesImplementationGuidance-OnlineAccountsandProxyServiceAccess}
 
 In some circumstances Citizens can be granted access to Citizen Services on behalf of another Citizen (i.e. as their Proxy). For example, as a parent booking Appointments for a Child. Citizen Services account structures that are created to support this can vary depending on the location of the records involved and also the Suppliers' Solution architecture:
 
@@ -133,11 +133,11 @@ In some circumstances Citizens can be granted access to Citizen Services on beh
 
 ---
 
-# Further Guidance
+# Further Guidance {#CitizenServicesImplementationGuidance-FurtherGuidance}
 
 This section provides supporting information relevant to the different functionality required to support Citizen Services.
 
-## Verified User Account (VUA) Management
+## Verified User Account (VUA) Management {#CitizenServicesImplementationGuidance-VerifiedUserAccount(VUA)Management}
 
 As described above, a Verified User Account (VUA) is the Practice based account for a Citizen who can be a registered Patient or a person acting as a Proxy for a Patient. It is created by the [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Solution which holds the Patient Record.
 
@@ -161,7 +161,7 @@ Typically the following data would be recorded in relation to a VUA:
 
 Data items marked with \* will typically be Solution-generated and non-editable.
 
-### **VUA details display**
+### **VUA details display** {#CitizenServicesImplementationGuidance-VUAdetailsdisplay}
 
 It’s recommended the following VUA details and historic information are able to be displayed to a User in the [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Solution:
 
@@ -174,7 +174,7 @@ It’s recommended the following VUA details and historic information are able t
 - Registration for Services (including date and time)
 - Current and historic Account Linkages
 
-### VUA Linkage Key (IM1 - Interface Mechanism only)
+### VUA Linkage Key (IM1 - Interface Mechanism only) {#CitizenServicesImplementationGuidance-VUALinkageKey(IM1-InterfaceMechanismonly)}
 
 VUA Linkage Key creation and retrieval is required to be implemented as per the [NHS login service](../DSIC-Standards/Non-Overarching-Standards/NHS-login-service.md) Standard to Support linking VUAs to OSAs when integrating via IM1 - Interface Mechanism.
 
@@ -183,7 +183,7 @@ Each VUA Linkage Key will be:
 - As per Authority defined requirements within [Information Governance](../DSIC-Standards/Overarching-Standards/Information-Governance.md), including being supportive of complexity management and enforcing suitable strength and character restrictions
 - Re-usable i.e. the same VUA Linkage Key for each/all Services accessed
 
-### VUA Status
+### VUA Status {#CitizenServicesImplementationGuidance-VUAStatus}
 
 VUAs should be able to have the following statuses as a minimum to support the different stages of the VUA lifecycle:
 
@@ -200,7 +200,7 @@ VUAs should be able to have the following statuses as a minimum to support the d
   - Identity Verification
   - VUA-Patient Association with at least one Patient Record
 
-## VUA-Patient Association
+## VUA-Patient Association {#CitizenServicesImplementationGuidance-VUA-PatientAssociation}
 
 In order for a Citizen to access online services for a Patient, their VUA will need to be associated with at least one Patient Record within a [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Solution.
 
@@ -221,7 +221,7 @@ Typically the following data would be recorded in relation to each VUA-Patient A
 
 See [DAPB3051 (previously DCB3051): Identity Verification and Authentication Standard for Digital Health and Care Services - NHS England Digital](https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/dapb3051-identity-verification-and-authentication-standard-for-digital-health-and-care-services)for information on Proxy access.
 
-## Identity Verification
+## Identity Verification {#CitizenServicesImplementationGuidance-IdentityVerification}
 
 Identity Verification functionality is provided by the [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Solution and is intended to support local Practice Policy on recording Identity Verification for Patients in relation to Citizen Services.
 
@@ -249,7 +249,7 @@ Typically the following data would be recorded in relation to Identity Verificat
         - Other
 - Attached evidence - e.g. copy of or link to an image of the identity document
 
-## Online Service Account (OSA)
+## Online Service Account (OSA) {#CitizenServicesImplementationGuidance-OnlineServiceAccount(OSA)}
 
 As described above, an Online Service Account is an account held by the Citizen Services Solution to enable access to Citizen Services where this is a separate Solution to the Foundation Solution.
 
@@ -261,13 +261,13 @@ Where required, a Citizen Service Solution would typically allow a Citizen to:
 
 All account Credentials to be created/assigned as per [Authentication](../DSIC-Standards/Overarching-Standards/Information-Governance.md) requirements.
 
-## Appointments Management - Citizen
+## Appointments Management - Citizen {#CitizenServicesImplementationGuidance-AppointmentsManagement-Citizen}
 
 Functionality allowing Citizens to manage Appointments online either for themselves or on behalf of someone else (as a Proxy) will be provided by the [Appointments Management - Citizen](../DSIC-Capabilities/Appointments-Management-Citizen.md) Solution.
 
 This functionality will allow Citizens to book appointments based on availability defined by the [Appointments Management - GP](../DSIC-Capabilities/Appointments-Management-GP.md) Solution (adhering to any additional rules and restrictions defined) through the provision and consumption of Patient interfaces as per the [IM1 - Interface Mechanism](../DSIC-Standards/Non-Overarching-Standards/IM1-Interface-Mechanism.md) Standard.
 
-## View Record - Citizen
+## View Record - Citizen {#CitizenServicesImplementationGuidance-ViewRecord-Citizen}
 
 Functionality allowing Citizens to access Patient Record information either for themselves or on behalf of someone else (as a Proxy) will be provided by the [View Record - Citizen](../DSIC-Capabilities/View-Record-Citizen.md) Solution.
 
@@ -289,17 +289,17 @@ It is recommended that Citizens have the ability to:
   - Problem (where available)
   - Source/Provenance (Organisation/System, User/Role, Name)
 
-### View Record - Access Levels
+### View Record - Access Levels {#CitizenServicesImplementationGuidance-ViewRecord-AccessLevels}
 
 The different levels of Patient Record access are:
 
-#### Summary Information Record
+#### Summary Information Record {#CitizenServicesImplementationGuidance-SummaryInformationRecord}
 
 When enabled for a Patient, the Summary Information dataset (and \*only\* that data) will be made available irrespective of any agreement with the Patient regarding their actual [Summary Care Record](../DSIC-Standards/Non-Overarching-Standards/Summary-Care-Record-SCR.md) (i.e. if certain information for the Patient is excluded from their Summary Care Record, this information will not automatically be excluded from the Summary Information Record and vice versa).
 
 The Summary Information Record dataset is defined [here](https://simplifier.net/guide/GP-Connect-Patient-Facing-Access-Record/Home/Build/Permission-Levels?version=current).
 
-#### Detailed Coded Record
+#### Detailed Coded Record {#CitizenServicesImplementationGuidance-DetailedCodedRecord}
 
 Detailed Coded Record Access builds on the data already made available through the Summary Information Record dataset and additionally includes all data held as coded data (See [Data Standards](../DSIC-Standards/Overarching-Standards/Data-Standards.md) for definition of coded data and associated requirements) within the Patient Record, excluding associated free text.
 
@@ -307,7 +307,7 @@ The Detailed Coded Record dataset is defined [here](https://simplifier.net/guide
 
 Since this builds upon the data provided to the Citizen via the Summary Information Record, the Detailed Coded Record cannot be enabled without the Summary Information Record also being enabled.
 
-#### View Documents
+#### View Documents {#CitizenServicesImplementationGuidance-ViewDocuments}
 
 View Documents builds on the data already made available through the Summary Information Record and Detailed Coded Record datasets, but also includes the ability for Citizens to be able to view all clinical and administrative documents (inc. Pathology and Radiology test results) made available by the GP Practice.
 
@@ -315,11 +315,11 @@ The Documents dataset is defined [here](https://simplifier.net/guide/GP-Connect-
 
 Citizens will not be able to view any clinical or administrative documents until they have been reviewed by the GP Practice. Typically this would mean the documents are marked as ‘Restricted from View Record’ until a review has taken place and the document deemed appropriate to be displayed online to the Citizen.
 
-#### View Full Record
+#### View Full Record {#CitizenServicesImplementationGuidance-ViewFullRecord}
 
 View Full Record builds on the data already made available through the previous levels and the Full Patient Record dataset is defined [here](https://simplifier.net/guide/GP-Connect-Patient-Facing-Access-Record/Home/Build/Permission-Levels?version=current).
 
-### Individual Elements of Patient Record - ‘Restricted from View Record’
+### Individual Elements of Patient Record - ‘Restricted from View Record’ {#CitizenServicesImplementationGuidance-IndividualElementsofPatientRecord-‘RestrictedfromViewRecord’}
 
 In addition to the different levels of access to the Patient Record, individual elements of the Patient Record can also be marked as ‘Restricted from View Record’ allowing specific elements of the Patient Record to be hidden from Citizens when viewing the Patient Record information online.
 
@@ -327,13 +327,13 @@ All/any elements of a Patient Record marked as 'Restricted from View Record' wil
 
 For example, where Service Configuration determines Detailed Coded Record enabled with a Start Date of 1st February 2013 but a Clinician has reviewed a Patient’s Record back to 1st January 2010, any elements of the Patient Record not marked as ‘Restricted from View Record’ as part of the Record review/preparation (between January 2010 and February 2013) to display in addition to those displaying due to the Detailed Coded Record configuration.
 
-## Prescription Ordering - Citizen
+## Prescription Ordering - Citizen {#CitizenServicesImplementationGuidance-PrescriptionOrdering-Citizen}
 
 Functionality allowing Citizens to manage requests for Repeat medication and EPS Nominated Pharmacy preferences online either for themselves or on behalf of someone else (as a Proxy) will be provided by the [Prescription Ordering - Citizen](../DSIC-Capabilities/Prescription-Ordering-Citizen.md) Solution. This functionality may also allow Citizens to manage requests for Acute medication, Preferred Pharmacy preferences and view additional medication information (e.g. how to use it and the implications of doing so).
 
 Any submitted medication requests or Pharmacy preference changes will be received and managed by the [Prescribing](../DSIC-Capabilities/Prescribing.md) Solution through the provision and consumption of Patient interfaces as per the [IM1 - Interface Mechanism](../DSIC-Standards/Non-Overarching-Standards/IM1-Interface-Mechanism.md) Standard or [GP Connect (Patient Facing) Prescriptions](../DSIC-Standards/Non-Overarching-Standards/GP-Connect-Patient-Facing-Prescriptions.md) Standard.
 
-## Enabling/Disabling Citizen Services
+## Enabling/Disabling Citizen Services {#CitizenServicesImplementationGuidance-Enabling/DisablingCitizenServices}
 
 The enabling and disabling of the above Citizen Services at both a Patient and Practice level will be configured by the GP Practice using the [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Solution. It is recommended that the ability for Health or Care Professionals to record a reason when disabling Citizen Services is provided by this Solution.
 

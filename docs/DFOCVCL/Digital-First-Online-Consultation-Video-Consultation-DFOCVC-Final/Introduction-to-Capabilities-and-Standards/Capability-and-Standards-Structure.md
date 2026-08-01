@@ -12,7 +12,7 @@ labels: []
 
 Each Capability will have a Title, Description, Outcomes, Epics and Acceptance Criteria and then some or all of the other elements to give more detail as necessary. This section describes the structure of a Capability and the detail within it.
 
-## Capabilities and Standards Structure
+## Capabilities and Standards Structure {#CapabilityandStandardsStructure-CapabilitiesandStandardsStructure}
 
 Capabilities and Standards will each have the content detailed in the table below.
 
@@ -26,18 +26,18 @@ Capabilities and Standards will each have the content detailed in the table belo
 | **Effective Date** | Those Standards that are mandated under the Catalogue Agreement will have an Effective Date by which suppliers must comply with the Standard.  Suppliers will need to have achieved compliance against all Effective Standards (see Status above) in order to onboard on to the Catalogue and be awarded a place on the Digital First Online Consultation & Video Consultation Framework |
 | **Framework(s)** | Indicates the commercial Frameworks a Capability or Standard is applicable to |
 
-### Capability Structure
+### Capability Structure {#CapabilityandStandardsStructure-CapabilityStructure}
 
 |  |  |
 | --- | --- |
 | **Description** | A concise description of the purpose of the Capability |
 | **Outcomes** | The Outcomes section describes the main users of the Capability and the outcomes they want to achieve from using the Solution. |
-| **Epics and Acceptance Criteria** | Epics are individual high level business requirements and describe features relevant to the Capabilities they belong to. All Epics together define the full scope of a Capability.  The Acceptance Criteria associated with an Epic define the minimum expected functions a Supplier’s Solution must deliver and are test scenarios that will be used during Capability Assessment stage of Onboarding to establish whether a Supplier’s Solution meets the Epic or not. In order to pass any Epic, all associated Acceptance Criteria for that Epic must pass the assessment.  Each Epic has a unique identifier which allows for the identification of Epics in a consistent manner, e.g. E00001.  Epics are classified as either Must or May Epics and all Epics will be assessed during the Capability Assessment stage of Onboarding. Must Epics Must Epics are used to confirm during Capability Assessment stage of Onboarding that a Solution delivers a Capability at the highest level. A Supplier Solution needs to meet all Must Epics in order to Pass Capability Assessment for a Capability. May Epics All May Epics will be evaluated during the Capability Assessment Stage of On-boarding. These Epics are not mandatory, however they allow Suppliers to specify which features their Solution offers. Any May Epics that are assessed as met will be available to buyers to support them when comparing Solutions. |
+| **Epics and Acceptance Criteria** | Epics are individual high level business requirements and describe features relevant to the Capabilities they belong to. All Epics together define the full scope of a Capability.  The Acceptance Criteria associated with an Epic define the minimum expected functions a Supplier’s Solution must deliver and are test scenarios that will be used during Capability Assessment stage of Onboarding to establish whether a Supplier’s Solution meets the Epic or not. In order to pass any Epic, all associated Acceptance Criteria for that Epic must pass the assessment.  Each Epic has a unique identifier which allows for the identification of Epics in a consistent manner, e.g. E00001.  Epics are classified as either Must or May Epics and all Epics will be assessed during the Capability Assessment stage of Onboarding. Must Epics {#CapabilityandStandardsStructure-MustEpics} Must Epics are used to confirm during Capability Assessment stage of Onboarding that a Solution delivers a Capability at the highest level. A Supplier Solution needs to meet all Must Epics in order to Pass Capability Assessment for a Capability. May Epics {#CapabilityandStandardsStructure-MayEpics} All May Epics will be evaluated during the Capability Assessment Stage of On-boarding. These Epics are not mandatory, however they allow Suppliers to specify which features their Solution offers. Any May Epics that are assessed as met will be available to buyers to support them when comparing Solutions. |
 | **Overarching Standards** | Overarching Standards apply to all Suppliers irrespective of the Capabilities their Solutions support.  Suppliers will be assured against Overarching Standards during the Standards Assessment stage of Onboarding. |
 | **Interoperability Standard** | This Standard provides a single place for Suppliers to find out which interfaces they need to implement and to access the required documentation. It also contains overarching requirements that apply to all interfaces in the scope of the Interoperability Standard which are offered by a Solution. |
 | **Roadmap** | The Roadmap section summarises future changes and opportunities for Suppliers in relation to the Capability or Standard. These are linked to the individual Roadmap pages which provide further information on the Roadmap item. |
 
-### Standard Structure
+### Standard Structure {#CapabilityandStandardsStructure-StandardStructure}
 
 |  |  |
 | --- | --- |

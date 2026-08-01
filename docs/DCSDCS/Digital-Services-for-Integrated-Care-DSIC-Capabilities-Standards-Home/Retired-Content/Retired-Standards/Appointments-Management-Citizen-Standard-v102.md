@@ -15,11 +15,11 @@ labels: ["capability_specific_retired"]
 | ID | S1 |
 | Version | 1.0.2 |
 | Type | Capability Specific Standard |
-| Status | Retired |
+| Status {#AppointmentsManagement-Citizen-Standardv1.0.2-Status} | Retired |
 | Effective Date | 31 Dec 2019 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-# Requirements
+# Requirements {#AppointmentsManagement-Citizen-Standardv1.0.2-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -30,13 +30,13 @@ labels: ["capability_specific_retired"]
 | C1E1 | **GP-PPFS-3.2-04** | **Transactional Services - Appointments Service**  Support Appointment management rules and restrictions via the management of Sessions and individual Appointment Slots (see E00221 in the Appointments Management - GP Capability), in addition:   - Preventing duplicate Appointment Booking | MUST |
 | C1E1 | **GP-PPFS-3.2-05A** | **Transactional Services - Appointments for Citizens with an OSA**  Support Appointments that can be made available, and then used by Citizen Service Users (see E00221 in the Appointments Management - GP Capability). Citizens with an Online Service Account (OSA) will only be able to view or cancel Appointments that they themselves have booked online.  Citizens with an OSA are able to book one Appointment to complete their registration for Citizen Services. | MUST |
 
-# Capability
+# Capability {#AppointmentsManagement-Citizen-Standardv1.0.2-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Appointments Management - Citizen Capability
 
-# Roadmap
+# Roadmap {#AppointmentsManagement-Citizen-Standardv1.0.2-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

@@ -12,12 +12,12 @@ labels: ["standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S77 |
-| Version | 4.0.0 |
-| Type | Standard |
-| Status | Retired |
-| Effective Date | 01 Sep 2025 |
-| Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
+| ID {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-ID} | S77 |
+| Version {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Version} | 4.0.0 |
+| Type {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Type} | Standard |
+| Status {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Status} | Retired |
+| Effective Date {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-EffectiveDate} | 01 Sep 2025 |
+| Contracting Vehicle(s) {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-ContractingVehicle(s)} | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
 - [Introduction](#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Introduction)
 - [Requirements](#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Requirements)
@@ -26,21 +26,21 @@ labels: ["standard_retired"]
 - [Dependencies](#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Dependencies)
 - [Roadmap](#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Roadmap)
 
-# Introduction
+# Introduction {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Introduction}
 
 The Digital Medicines initiative aims to positively transform the way that Patients manage their medicines, promote new models of care as well as improve the medicines supply chain and the provision of medicines data. At a high-level, this all involves the adoption of digital Prescriptions to replace inefficient and cumbersome paper versions, utilising appropriate technologies to fully engage in the end-to-end Patient pathway, alongside supporting the adoption of technology to deliver a fully digitised medicines supply chain.
 
 The Digital Medicines Specification utilises the Generic FHIR Receiver and supports the following requirements as part of its MVP.
 
-# Requirements
+# Requirements {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| Applicable Suppliers | ID | Requirement | Level |
-| GP Suppliers | DMPF1 | **Vaccination Administration**  Implement and maintain the vaccination [Digital Medicines and Pharmacy FHIR Payload](https://nhse-dsic.atlassian.net/wiki/download/attachments/10752983078/NHS%20England%20Digimeds%20Specification%20for%20Vaccination%20Event%20Data%20Flow%20Version%201.0%20APPROVED.docx?api=v2) inline with the latest specification version to receive notifications of the administration of vaccinations to a Patient at another Health or Care Organisation.  The following vaccinations to be supported:   - COVID-19 - Pertussis - Influenza (Flu) - Respiratory Syncytial Virus (RSV) - Measles, Mumps, Rubella (MMR) - Human Papillomavirus (HPV) - 3 in 1 - MenACWY | MUST |
-| GP Suppliers | DMPF2 | **GP Connect - Emergency Supply of Medications (ITK3)** Implement and maintain the Pharmacy Emergency Medication Supply Digital Medicines and Pharmacy FHIR Payload inline with the latest specification version to receive notifications of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
+| Applicable Suppliers {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-ApplicableSuppliers} | ID {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-ID.1} | Requirement {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Requirement} | Level {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Level} |
+| GP Suppliers | DMPF1 {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-DMPF1} | **Vaccination Administration**  Implement and maintain the vaccination [Digital Medicines and Pharmacy FHIR Payload](https://nhse-dsic.atlassian.net/wiki/download/attachments/10752983078/NHS%20England%20Digimeds%20Specification%20for%20Vaccination%20Event%20Data%20Flow%20Version%201.0%20APPROVED.docx?api=v2) inline with the latest specification version to receive notifications of the administration of vaccinations to a Patient at another Health or Care Organisation.  The following vaccinations to be supported:   - COVID-19 - Pertussis - Influenza (Flu) - Respiratory Syncytial Virus (RSV) - Measles, Mumps, Rubella (MMR) - Human Papillomavirus (HPV) - 3 in 1 - MenACWY | MUST |
+| GP Suppliers | DMPF2 {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-DMPF2} | **GP Connect - Emergency Supply of Medications (ITK3)** {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-GPConnect-EmergencySupplyofMedications(ITK3)} Implement and maintain the Pharmacy Emergency Medication Supply Digital Medicines and Pharmacy FHIR Payload inline with the latest specification version to receive notifications of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Compliance,AssuranceandTesting}
 
 The understanding that clinical risk and assurance responsibilities are formally acknowledged by System Suppliers and based on the knowledge that appropriate functional assurance will be performed by the Solutions Assurance team which is crucial to mitigating many of the clinical risks identified, the following clinical assurance approach is recommended:
 
@@ -57,20 +57,20 @@ The understanding that clinical risk and assurance responsibilities are formally
 
 The focus of the witness testing will be on the user workflow ensuring the positive and negative messages are prominent to the user and to provide a “sense check” of the PDF transformation of the message received by the GP System.
 
-# Documentation
+# Documentation {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Documentation}
 
 - Digital Medicine - FHIR
 - API and Integration Catalogue
 - API Catalogue - Digital Medicine - FHIR
 - PRSB - Pharmacy information flows
 
-# Dependencies
+# Dependencies {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - Generic FHIR Receiver
 
-# Roadmap
+# Roadmap {#DigitalMedicinesandPharmacyFHIRPayloadv4.0.0-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

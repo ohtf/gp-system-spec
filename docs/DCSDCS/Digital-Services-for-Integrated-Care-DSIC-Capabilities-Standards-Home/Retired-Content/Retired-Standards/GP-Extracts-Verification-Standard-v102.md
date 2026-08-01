@@ -12,14 +12,14 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S10 |
-| Version | 1.0.2 |
-| Type | Capability Specific Standard |
-| Status | Retired |
+| ID {#GPExtractsVerification-Standardv1.0.2-ID} | S10 |
+| Version {#GPExtractsVerification-Standardv1.0.2-Version} | 1.0.2 |
+| Type {#GPExtractsVerification-Standardv1.0.2-Type} | Capability Specific Standard |
+| Status {#GPExtractsVerification-Standardv1.0.2-Status} | Retired |
 | Effective Date | 31 Dec 2019 |
 | Framework(s) | - GP IT Futures - Tech Innovation |
 
-# Requirements
+# Requirements {#GPExtractsVerification-Standardv1.0.2-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -40,13 +40,13 @@ labels: ["capability_specific_retired"]
 | C10E1 | **GP-PF-7.2** | **Search Result Content**  When conducting the search in GP Extracts Verification - Standard#GP-PF-7.1.2:  - The Search and associated Reason to match exactly the extraction logic as set out in the 'Business Rules' (as per requirement GP Extracts Verification - Standard#GP-PF-5.2) - The Search and associated Reason to identify the stage in the extraction logic and the reason for the Patient being excluded or included (related to requirement GP Extracts Verification - Standard#GP-PF-5.2.1) - The Search and associated Reason to provide additional relevant information to the logical steps which identifies why the Patient has been excluded or included (as per requirement GP Extracts Verification - Standard#GP-PF-5.2.2) -The Reason to be provided as a plain English description of why the Patient has been excluded or included (as per requirement GP Extracts Verification - Standard#GP-PF-5.2.3) | MUST |
 | C10E2 | **GP-PF-9** | **Non-Payment National Extracts**  Implement all requirements within this Capability for non-payment national extracts.  See Current Live Extract Specifications section for information on current live extracts and which are defined as non-payment extracts. | MAY |
 
-# Capability
+# Capability {#GPExtractsVerification-Standardv1.0.2-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the GP Extracts Verification Capability
 
-# Roadmap
+# Roadmap {#GPExtractsVerification-Standardv1.0.2-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

@@ -12,19 +12,19 @@ labels: ["capability_retired"]
 
 |  |  |
 | --- | --- |
-| ID | C19 |
+| ID {#UnstructuredDataExtractionv1.0.0-ID} | C19 |
 | Version | 1.0.0 |
-| Type | Capability |
+| Type {#UnstructuredDataExtractionv1.0.0-Type} | Capability |
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#UnstructuredDataExtractionv1.0.0-Description}
 
 Enables automated and manual interpretation and extraction of structured data from paper documents and unstructured electronic documents to support their classification and matching with Patient Records.
 
-# Outcomes
+# Outcomes {#UnstructuredDataExtractionv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -32,7 +32,7 @@ Enables automated and manual interpretation and extraction of structured data fr
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### Epic 1 - document classification
+### Epic 1 - document classification {#UnstructuredDataExtractionv1.0.0-Epic1-documentclassification}
 
 As a Practice User
 
@@ -40,7 +40,7 @@ I want Document classification
 
 So that Documents are classified
 
-#### Acceptance criterion 1: view document classification
+#### Acceptance criterion 1: view document classification {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion1:viewdocumentclassification}
 
 Given the Practice User is permitted to view document classifications
 
@@ -54,7 +54,7 @@ And the document classification is displayed
 
 And the document coded entries are displayed
 
-#### Acceptance criterion 2: automated document classification
+#### Acceptance criterion 2: automated document classification {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion2:automateddocumentclassification}
 
 Given automated document classification is enabled
 
@@ -62,7 +62,7 @@ When there are documents to be classified
 
 Then automated document classification occurs
 
-#### Acceptance criterion 3: approve automated document classification
+#### Acceptance criterion 3: approve automated document classification {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion3:approveautomateddocumentclassification}
 
 Given the Practice User is permitted to classify documents
 
@@ -72,7 +72,7 @@ When the Practice User chooses to approve the automated document classification
 
 Then the automated document classification is retained
 
-#### Acceptance criterion 4: reject automated document classification
+#### Acceptance criterion 4: reject automated document classification {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion4:rejectautomateddocumentclassification}
 
 Given the Practice User is permitted to classify documents
 
@@ -82,7 +82,7 @@ When the Practice User chooses to reject the automated document classification
 
 Then the automated document classification is removed
 
-#### Acceptance criterion 5: classify a document
+#### Acceptance criterion 5: classify a document {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion5:classifyadocument}
 
 Given the Practice User is permitted to classify documents
 
@@ -90,7 +90,7 @@ When the Practice User chooses to classify a document
 
 Then the document is classified
 
-#### Acceptance criterion 6: amend document classification
+#### Acceptance criterion 6: amend document classification {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion6:amenddocumentclassification}
 
 Given the Practice User is permitted to classify documents
 
@@ -100,7 +100,7 @@ Then the document classification is amended
 
 ---
 
-### Epic 2 - manage Document Classification rules
+### Epic 2 - manage Document Classification rules {#UnstructuredDataExtractionv1.0.0-Epic2-manageDocumentClassificationrules}
 
 As a Practice User
 
@@ -108,7 +108,7 @@ I want to manage Document Classification rules
 
 So that there are Document Classification rules
 
-#### Acceptance criterion 1: create Document Classification rules
+#### Acceptance criterion 1: create Document Classification rules {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion1:createDocumentClassificationrules}
 
 Given the Practice User is permitted to create Document Classification rules
 
@@ -116,7 +116,7 @@ When the Practice User chooses to create a Document Classification rule
 
 Then the Document Classification rule is created
 
-#### Acceptance criterion 2: amend Document Classification rules
+#### Acceptance criterion 2: amend Document Classification rules {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion2:amendDocumentClassificationrules}
 
 Given the Practice User is permitted to amend Document Classification rules
 
@@ -124,7 +124,7 @@ When the Practice User chooses to amend a Document Classification rule
 
 Then the Document Classification rule is amended
 
-#### Acceptance criterion 3: enable Document Classification rules
+#### Acceptance criterion 3: enable Document Classification rules {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion3:enableDocumentClassificationrules}
 
 Given the Practice User is permitted to enable Document Classification rules
 
@@ -132,7 +132,7 @@ When the Practice User chooses to enable a Document Classification rule
 
 Then the Document Classification rule is enabled
 
-#### Acceptance criterion 4: disable Document Classification rules
+#### Acceptance criterion 4: disable Document Classification rules {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion4:disableDocumentClassificationrules}
 
 Given the Practice User is permitted to disable Document Classification rules
 
@@ -140,7 +140,7 @@ When the Practice User chooses to disable a Document Classification rule
 
 Then the Document Classification rule is disabled
 
-#### Acceptance criterion 5: delete Document Classification rules
+#### Acceptance criterion 5: delete Document Classification rules {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion5:deleteDocumentClassificationrules}
 
 Given the Practice User is permitted to delete Document Classification rules
 
@@ -150,7 +150,7 @@ Then the Document Classification rule is deleted
 
 ---
 
-### Epic 3 - document and Patient matching
+### Epic 3 - document and Patient matching {#UnstructuredDataExtractionv1.0.0-Epic3-documentandPatientmatching}
 
 As a Practice User
 
@@ -158,7 +158,7 @@ I want Documents to be matched with Patients
 
 So that Documents are matched with Patients
 
-#### Acceptance criterion 1: view Patient matching
+#### Acceptance criterion 1: view Patient matching {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion1:viewPatientmatching}
 
 Given the Practice User is permitted to view the matched Patient for a document
 
@@ -166,7 +166,7 @@ When the document is matched to a Patient
 
 Then the Practice User can see the matched Patient
 
-#### Acceptance criterion 2: automated document and Patient matching
+#### Acceptance criterion 2: automated document and Patient matching {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion2:automateddocumentandPatientmatching}
 
 Given automated document and Patient matching is enabled
 
@@ -174,7 +174,7 @@ When there are documents to be matched with Patients
 
 Then the documents are automatically matched with Patients
 
-#### Acceptance criterion 3: approve automated document and Patient matching
+#### Acceptance criterion 3: approve automated document and Patient matching {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion3:approveautomateddocumentandPatientmatching}
 
 Given the Practice User is permitted to match documents with Patients
 
@@ -184,7 +184,7 @@ When the Practice User chooses to approve an automated document and Patient matc
 
 Then the document is matched with the Patient
 
-#### Acceptance criterion 4: reject automated document and Patient matching
+#### Acceptance criterion 4: reject automated document and Patient matching {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion4:rejectautomateddocumentandPatientmatching}
 
 Given the Practice User is permitted to match documents with Patients
 
@@ -194,7 +194,7 @@ When the Practice User chooses to reject an automated document and Patient match
 
 Then the document is no longer matched to the Patient
 
-#### Acceptance criterion 5: match documents to Patients
+#### Acceptance criterion 5: match documents to Patients {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion5:matchdocumentstoPatients}
 
 Given the Practice User is permitted to match documents with Patients
 
@@ -202,7 +202,7 @@ When the Practice User chooses to match a document with a Patient
 
 Then the document is matched with the Patient
 
-#### Acceptance criterion 6: remove document and Patient matching
+#### Acceptance criterion 6: remove document and Patient matching {#UnstructuredDataExtractionv1.0.0-Acceptancecriterion6:removedocumentandPatientmatching}
 
 Given the Practice User is permitted to match documents with Patients
 

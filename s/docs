@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+# Serve the documentation site locally for review.
+#
+# Binds the first free port in 8000-8030 rather than a fixed one, so several
+# repos' docs servers can run at once. Pass -a/--dev-addr to override.
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+# Honour an explicit address if the caller supplied one.
+for arg in "$@"; do
+  case "$arg" in
+    -a|--dev-addr|-a=*|--dev-addr=*)
+      exec zensical serve "$@"
+      ;;
+  esac
+done
+
+# zensical binds "localhost", which often resolves to IPv6 ::1, so an IPv4-only
+# connect probe would miss an existing listener. ss/lsof see every family.
+listening() {
+  local port=$1
+  if command -v ss >/dev/null 2>&1; then
+    ss -ltn 2>/dev/null | awk '{print $4}' | grep -qE "[:.]${port}$"
+  elif command -v lsof >/dev/null 2>&1; then
+    lsof -iTCP -sTCP:LISTEN -P -n 2>/dev/null | grep -qE "[:.]${port} "
+  else
+    # Last-resort fallback: IPv4 connect probe.
+    (exec 3<>"/dev/tcp/127.0.0.1/${port}") >/dev/null 2>&1
+  fi
+}
+
+port=""
+for candidate in $(seq 8000 8030); do
+  if ! listening "$candidate"; then
+    port=$candidate
+    break
+  fi
+done
+
+if [ -z "$port" ]; then
+  echo "s/docs: no free port in 8000-8030" >&2
+  exit 1
+fi
+
+echo "s/docs: serving on http://localhost:${port}"
+exec zensical serve --dev-addr "localhost:${port}" "$@"

@@ -16,11 +16,11 @@ labels: ["reference_page"]
 | **Version** | 1.0.0 |
 | **Type** | Reference |
 
-# Introduction
+# Introduction {#CommunityPharmacyBestPracticeGuidelinestoImproveUsabilityinDigitalSystems-Introduction}
 
 This page provides guidance on enhancing usability in Digital Solutions for Community Pharmacy Clinical Services. The guidance is informed by User Research conducted with Pharmacists and Pharmacy Technicians, with the objective of improving usability, reducing cognitive load, and enhancing the overall user experience. These recommendations are intended as practical suggestions to promote better system usability.
 
-# Best Practice for Consultation Recording
+# Best Practice for Consultation Recording {#CommunityPharmacyBestPracticeGuidelinestoImproveUsabilityinDigitalSystems-BestPracticeforConsultationRecording}
 
 Pharmacists and Pharmacy Technicians (referred to as Health or Care Professionals) providing Consultations for Community Pharmacy Clinical Services require simple, quick, intuitive and easy-to-use systems that enable them to focus on Patient care. The following best practices are recommended for the design and development of Digital Solutions that support the recording of Pharmacy Consultation Information:
 

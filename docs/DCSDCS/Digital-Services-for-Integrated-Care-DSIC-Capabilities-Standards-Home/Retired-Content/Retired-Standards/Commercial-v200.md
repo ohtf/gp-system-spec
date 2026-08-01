@@ -18,21 +18,21 @@ labels: ["overarching_standard_retired"]
 | Status | Retired |
 | Effective Date | 31 Dec 2020 |
 
-# Description
+# Description {#Commercialv2.0.0-Description}
 
 This Standard underpins all commercial activity relating to the Catalogue. It does this by defining a number of rules governing the commercial relationship of relevant parties and by setting out standards of behaviour and principles of access to data and services charges.
 
-# Requirements
+# Requirements  {#Commercialv2.0.0-Requirements}
 
-[Commercial Standard and …](Commercial-v200.md)
+[Commercial Standard and …](../../../../.raw/DCSDCS/attachments/11355554733/att11355554745-Commercial Standard and Model Interface Licence 200309.docx)
 
-# Capabilities
+# Capabilities {#Commercialv2.0.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#Commercialv2.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

@@ -30,7 +30,7 @@ labels: ["overarching_standard"]
 - [Additional Information](#Hosting&Infrastructure-AdditionalInformation)
 - [Roadmap](#Hosting&Infrastructure-Roadmap)
 
-# Introduction
+# Introduction {#Hosting&Infrastructure-Introduction}
 
 Supports best practices for infrastructure and hosting of systems. For example, ensuring that systems are cost effective, secure, reliable, resilient, safe, manageable and energy efficient.
 
@@ -59,7 +59,7 @@ The standards to support infrastructure and hosting are split into two sections,
 - Cloud – Based on published NHS wide risk assessments and guidance
 - Co-Location / provider facilities – specific requirements & assurance processes
 
-# Baseline Assurance Standard Requirements
+# Baseline Assurance Standard Requirements {#Hosting&Infrastructure-BaselineAssuranceStandardRequirements}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md). Completing the BAS is the first step to achieving full assurance with the Overarching Standards allowing Supplier Solutions to be published on the Buying Catalogue. Upon meeting this Standard, Solutions are required to meet any remaining Further Requirements in the Overarching Standards in the timeframe applicable to the Contracting Vehicle.
 
@@ -67,7 +67,7 @@ All Baseline Assurance Requirements can be found [here](Baseline-Assurance-Stand
 
 The following tables of Requirements are the Requirements in the Baseline Assurance Standard related to the Hosting and Infrastructure Standard.
 
-## NHS Cloud Hosting Standards & Guidance
+## NHS Cloud Hosting Standards & Guidance {#Hosting&Infrastructure-NHSCloudHostingStandards&Guidance}
 
 The following is a summary of the "NHS and social care data: off-shoring and the use of public cloud services" gathered from cloud guidance information published by the Authority. It makes clear what evidence is to be sought from a Supplier, where it is deemed necessary to assure compliance with the 4 step process.
 
@@ -78,7 +78,7 @@ Some key points of note:
 - Data Controllers need to understand the risks of moving to cloud, and any impact
 - Data controllers must take into account the standard CIA triad (Confidentiality, Integrity, Availability), and also other relevant factors, including, but not limited to, cost, security, resilience, capability and funding
 
-## The Authority's Associated Cloud Guidance Links:
+## The Authority's Associated Cloud Guidance Links: {#Hosting&Infrastructure-TheAuthority'sAssociatedCloudGuidanceLinks:}
 
 - [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services)
 
@@ -90,9 +90,9 @@ Some key points of note:
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | CH3.0 | **Implement the appropriate controls**  Care organisations, such as GPs, retain the data controller responsibilities and they are therefore ultimately responsible for ensuring that proportionate controls are put in place to mitigate all risks. The data controllers may rightly request to see these controls (proposed by the Supplier) before considering any migration to cloud. | MUST | **Full Assessment**  Self-certification description to include:   - Confirmation that where there are many data controllers using a Solution (e.g. GP system), the communication strategy to inform all data controllers of any data risks identified will be made available to the Authority prior to implementation. - Confirmation that a Data Protection Impact Assessment (DPIA) has been completed and will be provided to the Authority if requested. - Confirmation that the relevant data protection legislation is adhered to.   Supporting evidence to include:   - Documentation or statements that cover all aspects listed within [Section 8. Appendix A - detailed advice and guidance](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-security-good-practice-guide/8.-appendix-a---detailed-advice-and-guidance) of [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services).   **Note:** To submit this evidence, download and complete the [Cloud Good Practice Guide](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134324/Hosting%20and%20Infrastructure_Cloud%20Standards_Good%20Practice%20Guide.xlsx?api=v2) template for the data classification level identified in CH2.0. | **Self-certification with Supporting Evidence**  Self-certification description to include:   - Confirmation that where there are many data controllers using a Solution (e.g. GP system), the communication strategy to inform all data controllers of any data risks identified will be made available to the Authority prior to implementation. - Confirmation that a Data Protection Impact Assessment (DPIA) has been completed and will be provided to the Authority if requested. - Confirmation that the relevant data protection legislation is adhered to.   Supporting evidence to include:   - Documentation or statements that cover all aspects listed within [Section 8. Appendix A - detailed advice and guidance](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-security-good-practice-guide/8.-appendix-a---detailed-advice-and-guidance) of [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services).   **Note:** To submit this evidence, download and complete the [Cloud Good Practice Guide](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134324/Hosting%20and%20Infrastructure_Cloud%20Standards_Good%20Practice%20Guide.xlsx?api=v2) template for the data classification level identified in CH2.0. | **Self-certification with Supporting Evidence**  Self-certification description to include:   - Confirmation that where there are many data controllers using a Solution (e.g. GP system), the communication strategy to inform all data controllers of any data risks identified will be made available to the Authority prior to implementation. - Confirmation that a Data Protection Impact Assessment (DPIA) has been completed and will be provided to the Authority if requested. - Confirmation that the relevant data protection legislation is adhered to.   Supporting evidence to include:   - Documentation or statements that cover all aspects listed within [Section 8. Appendix A - detailed advice and guidance](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-security-good-practice-guide/8.-appendix-a---detailed-advice-and-guidance) of [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services).   **Note:** To submit this evidence, download and complete the [Cloud Good Practice Guide](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134324/Hosting%20and%20Infrastructure_Cloud%20Standards_Good%20Practice%20Guide.xlsx?api=v2) template for the data classification level identified in CH2.0. |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | CH4.0 | **Monitoring the Implementation**  All cloud providers take on data processor responsibilities, with Care organisations (e.g. GP practices) retaining the data controller responsibilities, and they must ensure the selected cloud provider remains fit for purpose. | MUST | **Self-certification** | **Self-certification** | **Self-certification** |
 
-## Co-location and Provider Data Centre Hosting & Infrastructure Requirements
+## Co-location and Provider Data Centre Hosting & Infrastructure Requirements {#Hosting&Infrastructure-Co-locationandProviderDataCentreHosting&InfrastructureRequirements}
 
-## Scope
+## Scope {#Hosting&Infrastructure-Scope}
 
 The scope of this document covers the infrastructure requirements a Supplier must meet when providing services where a Supplier has co located their service & infrastructure within a data centre providers facilities OR where the Supplier is using their own facilities. The requirements will cover a number of aspects including but not limited to:
 
@@ -146,11 +146,11 @@ For the avoidance of doubt these requirements do not cover cloud provision.
 | Due to the sensitive nature of the information in this section, the details are held in the file "Co-location and Provider Data Centre Hosting & Infrastructure Requirements - Security" and can be requested by emailing [england.buying.catalogue@nhs.net](mailto:england.buying.catalogue@nhs.net). | | | | | | |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | SEC1.0 | The Supplier will comply with all requirements in the "Co-location and Provider Data Centre Hosting & Infrastructure Requirements - Security" file. | MUST | Refer to “Co-location and Provider Data Centre Hosting & Infrastructure Requirements - Security” file for details. | Refer to “Co-location and Provider Data Centre Hosting & Infrastructure Requirements - Security” file for details. | Refer to “Co-location and Provider Data Centre Hosting & Infrastructure Requirements - Security” file for details. |
 
-# Further Requirements
+# Further Requirements {#Hosting&Infrastructure-FurtherRequirements}
 
 Suppliers must complete assurance for these Requirements in addition to Requirements in the Baseline Assurance Standard in order to achieve full compliance with the Hosting and Infrastructure Standard. Suppliers can complete these at the same time as requirements within the Baseline Assurance Standard or following the publication on the Buying Catalogue subject to meeting the timeframe applicable to the Contracting Vehicle.
 
-## Co-location and Provider Data Centre Hosting & Infrastructure Requirements
+## Co-location and Provider Data Centre Hosting & Infrastructure Requirements {#Hosting&Infrastructure-Co-locationandProviderDataCentreHosting&InfrastructureRequirements.1}
 
 | **Applicable Contracting Vehicle(s)** | **ID** | **Requirement** | **Level** | **Category A** | **Category B** | **Category C** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -240,11 +240,11 @@ Suppliers must complete assurance for these Requirements in addition to Requirem
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | HD3.0 | Capacity Reporting:  The Supplier to provide memory, CPU, network and disk utilisation grouping by the sub systems utilising the resources as part of a capacity performance and planning review. | MUST | **Self-certification** | **N/A** | **N/A** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | HD5.0 | The Supplier to provide a Hosting strategy roadmap to the Authority detailing where new technology advances could be exploited within the hosting arena.  **Note:** This could include advances in IaaS, SaaS, PaaS that may become viable within the term of the contract. | MUST | **Self-certification** | **N/A** | **N/A** |
 
-# Additional Information
+# Additional Information {#Hosting&Infrastructure-AdditionalInformation}
 
 See [Recommended Best Practices](../../Reference-Pages/Recommended-Best-Practices.md)
 
-# Roadmap
+# Roadmap {#Hosting&Infrastructure-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

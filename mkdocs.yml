@@ -3,3 +3,6 @@ site_description: Unofficial preservation mirror of NHS England GP IT Confluence
 
 theme:
   variant: classic
+
+extra_css:
+  - stylesheets/extra.css

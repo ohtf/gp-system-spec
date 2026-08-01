@@ -12,11 +12,11 @@ labels: ["reference_page"]
 
 |  |  |
 | --- | --- |
-| ID | R16 |
-| Version | 1.0.0 |
-| Type | Reference |
+| ID {#PharmacyFirstUrgentMedicineSupplySchedule3,4and5ControlledDrugs5DaysMaximumQuantityData-ID} | R16 |
+| Version {#PharmacyFirstUrgentMedicineSupplySchedule3,4and5ControlledDrugs5DaysMaximumQuantityData-Version} | 1.0.0 |
+| Type {#PharmacyFirstUrgentMedicineSupplySchedule3,4and5ControlledDrugs5DaysMaximumQuantityData-Type} | Reference |
 
-# Introduction
+# Introduction {#PharmacyFirstUrgentMedicineSupplySchedule3,4and5ControlledDrugs5DaysMaximumQuantityData-Introduction}
 
 This page details the Schedule 3, 4 and 5 Controlled Drugs where validation on the Maximum Quantity is to be implemented to ensure the Quantity recorded does not exceed the Maximum Quantity for 5 days supply.
 

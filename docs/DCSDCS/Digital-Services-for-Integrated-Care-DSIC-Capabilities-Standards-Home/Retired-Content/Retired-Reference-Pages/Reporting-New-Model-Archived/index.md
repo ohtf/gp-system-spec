@@ -10,11 +10,11 @@ labels: []
 
 # Reporting - New Model (Archived)
 
-## Introduction
+## Introduction {#Reporting-NewModel(Archived)-Introduction}
 
 A new reporting model has been introduced to ensure individual reporting requirements are delivered by the most appropriate suppliers' Solutions and to allow for the inclusion of specialist reporting Solutions through the introduction of a new Reporting Capability.
 
-## The Model
+## The Model {#Reporting-NewModel(Archived)-TheModel}
 
 The below diagram represents the new model and how Capabilities and Standards are linked in relation to reporting. Specific individual reporting requirements are now part of the relevant Capability (e.g. Appointments reporting under Appointments Management - GP Capability). Suppliers delivering these Capabilities will need to implement these reporting requirements also.
 
@@ -26,11 +26,11 @@ In the new Capability and Standards model, pre-existing reporting requirements a
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133644/image2019-3-27_15-49-34.png?api=v2)
 
-### Reporting Standards
+### Reporting Standards {#Reporting-NewModel(Archived)-ReportingStandards}
 
 There are now Standards which hold requirements around transmitting data to NHS Digital and all the data fields required for these submissions. These Standards are either Interoperability Standards (e.g. [GPES Data Extraction](#)), Context Specific Standards (e.g. [Management Information (MI) Reporting](#)) or Capability Specific Standards (e.g. [Primary Care Clinical Terminology Usage Report](#)) depending on mechanism for delivery and number of associated Capabilities. The data items within these Standards will be delivered by the suppliers implementing Solutions for the relevant associated Capabilities. The Standards section within each Capability will direct suppliers to the relevant associated Standards for that Capability.
 
-### Common Reporting Standard
+### Common Reporting Standard {#Reporting-NewModel(Archived)-CommonReportingStandard}
 
 There is now a [Common Reporting standard](#), which holds the general reporting requirements such as the ability to create reports and save them as templates. All suppliers offering one or more of the of the following Capabilities will need to meet this standard:
 
@@ -38,7 +38,7 @@ There is now a [Common Reporting standard](#), which holds the general reporting
 
 There are no items with the selected labels at this time.
 
-### New Reporting Capability
+### New Reporting Capability {#Reporting-NewModel(Archived)-NewReportingCapability}
 
 Suppliers can now choose to offer Solutions that support the new [Reporting](../../../DSIC-Capabilities/Reporting.md) Capability. This will allow suppliers that specialise in reporting Solutions to enter the market and will allow them to provide practices with useful functionality around dashboards and reporting, utilising multiple data items from numerous Capabilities.
 

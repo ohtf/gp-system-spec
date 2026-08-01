@@ -14,30 +14,30 @@ The following section tries to anticipate some of the common scenarios you will 
 
 It should be noted that this version of the guidance reflects the MVP (minimum viable product) status of the current [Buying Catalogue](http://buyingcatalogue.digital.nhs.uk) as released. Further releases will encode these actions within a controlled digital workflow; the current guidance reflects the manual nature of the activities to be taken at this time.
 
-# Common Business Change Actions
+# Common Business Change Actions {#Commonpurchasingandbusinesschangescenarios-CommonBusinessChangeActions}
 
-### A Catalogue Solution is no longer required
+### A Catalogue Solution is no longer required {#Commonpurchasingandbusinesschangescenarios-ACatalogueSolutionisnolongerrequired}
 
 Acting on behalf of the Call Off Ordering Party [you will need to](How-to-buy/Ordering-Solutions-Service-changes.md) contact the contracted Supplier to either:
 
 - give notice to terminate the Call Off in its entirety. As long as this is after the Initial Term of the contract you simply need to write to them to serve notice and there will be no penalty for doing so. Should you wish to terminate a Call Off during the Initial Term you will generally incur a penalty in accordance with the [contract](Contractual-Overview.md). Termination of the Call Off will automatically terminate all associated Service Instances.
 - give notice to terminate a Service Instance. Again, as long as this is after the Initial Term you will not incur a penalty; you should simply contact your contracted Supplier and agree the appropriate variation to the [Call Off Order Form.](GP-IT-Futures-Contracts/index.md)
 
-### A practice is ceasing
+### A practice is ceasing {#Commonpurchasingandbusinesschangescenarios-Apracticeisceasing}
 
 Acting on behalf of the Call Off Ordering Party you will need to contact the contracted Supplier to agree a variation to the [Call Off Order Form](GP-IT-Futures-Contracts/index.md) that enacts the termination of the provision of the relevant Catalogue Solution(s) for the Service Instance. Information then needs to be captured on the order tracker see [Ordering Solutions / Service Changes](How-to-buy/Ordering-Solutions-Service-changes.md).
 
-### A practice is merging
+### A practice is merging {#Commonpurchasingandbusinesschangescenarios-Apracticeismerging}
 
 If you wish to merge practices the you will need to contact the contracted Supplier to agree a variation to the [Call Off Order Form](GP-IT-Futures-Contracts/index.md) to reflect the change in Service Instances. Where a Service Instance is ceasing through merger this should not incur a penalty even where the this variation occurs within the Initial Term for that Service Instance. Information then needs to be captured on the order tracker see [Ordering Solutions / Service Changes](How-to-buy/Ordering-Solutions-Service-changes.md).
 
-### A new practice is coming into being
+### A new practice is coming into being {#Commonpurchasingandbusinesschangescenarios-Anewpracticeiscomingintobeing}
 
 If you wish to add a new practice to the Call Off you will need to contact the contracted Supplier to agree a variation to the [Call Off Order Form](GP-IT-Futures-Contracts/index.md) to reflect the commissioning of a new Service Instance. Often in such a scenario you will not have existing information to establish an initial patient number size, in which case simply estimate this based on your best available information, the standard reconciliation processes associated with our invoicing procedure with establish the correct position at the first available opportunity. Information then needs to be captured on the order tracker see [Ordering Solutions / Service Changes](How-to-buy/Ordering-Solutions-Service-changes.md).
 
-# Common Purchasing scenarios
+# Common Purchasing scenarios {#Commonpurchasingandbusinesschangescenarios-CommonPurchasingscenarios}
 
-## Commission a Video Conferencing solution
+## Commission a Video Conferencing solution {#Commonpurchasingandbusinesschangescenarios-CommissionaVideoConferencingsolution}
 
 A range of assured Video Conferencing solutions are currently contracted and paid for centrally.
 
@@ -45,7 +45,7 @@ If you wish to order these services, select the [Catalogue Solution(s)](http://b
 
 If you wish to order a solution which is not subject to a central contract then you will need to purchase this yourself using the standard purchasing procedures.
 
-### I wish to recontract for a Catalogue Solution currently deployed to my users without conducting a competitive process
+### I wish to recontract for a Catalogue Solution currently deployed to my users without conducting a competitive process {#Commonpurchasingandbusinesschangescenarios-IwishtorecontractforaCatalogueSolutioncurrentlydeployedtomyuserswithoutconductingacompetitiveprocess}
 
 For information about the procurement procedures see:
 
@@ -57,7 +57,7 @@ Note that there are financial limits to the contracts placed using the Direct Aw
 
 As indicated above, it may be the case that you do not have the option to avoid conducting a competitive process where a Foundation Solution contract breaches the financial limits for accessing the [Direct Award](How-to-buy/Executing-a-procurement-a-step-by-step-guide/Direct-Award.md) procedure.
 
-### I wish to secure a Catalogue Solution for one or more Service Recipients using the information on the Buying Catalogue only
+### I wish to secure a Catalogue Solution for one or more Service Recipients using the information on the Buying Catalogue only {#Commonpurchasingandbusinesschangescenarios-IwishtosecureaCatalogueSolutionforoneormoreServiceRecipientsusingtheinformationontheBuyingCatalogueonly}
 
 For information about the procurement procedures see:
 
@@ -71,7 +71,7 @@ As indicated above, it may be the case that you do not have the option to avoid 
 
 Please note that it is your responsibility to comply with the Procurement Regulations as well as your own organisational standing financial instructions and Procurement Policies at all times.
 
-### I wish to secure one or more Catalogue Solutions for one or more Service Recipients where you require suppliers to tender
+### I wish to secure one or more Catalogue Solutions for one or more Service Recipients where you require suppliers to tender   {#Commonpurchasingandbusinesschangescenarios-IwishtosecureoneormoreCatalogueSolutionsforoneormoreServiceRecipientswhereyourequiresupplierstotender}
 
 For information about the Further Competition Procedure please visit [here](How-to-buy/Executing-a-procurement-a-step-by-step-guide/Further-Competition-Off-Catalogue.md)
 

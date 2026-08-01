@@ -23,7 +23,7 @@ labels: ["standard"]
 - [Dependencies](#NHSMessagingImplementationManual(MIM)-Dependencies)
 - [Roadmap](#NHSMessagingImplementationManual(MIM)-Roadmap)
 
-# Introduction
+# Introduction {#NHSMessagingImplementationManual(MIM)-Introduction}
 
 The messaging implementation manual (MIM) defines HL7v3 message standards. Individual interfaces within this Interoperability Standard will refer to specific releases of the MIM where their messaging specifications are defined.
 
@@ -31,11 +31,11 @@ The official source of MIM documentation is the Terminology Reference Data Updat
 
 The latest version of the MIM is 7.2.02, this version will apply unless otherwise stated. Note some interfaces within the Standard do use earlier versions of the MIM
 
-# Dependencies
+# Dependencies {#NHSMessagingImplementationManual(MIM)-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#NHSMessagingImplementationManual(MIM)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

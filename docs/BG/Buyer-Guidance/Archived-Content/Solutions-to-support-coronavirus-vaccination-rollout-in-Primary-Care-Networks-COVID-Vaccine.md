@@ -10,9 +10,9 @@ labels: []
 
 # Solutions to support coronavirus vaccination rollout in Primary Care Networks – COVID Vaccine
 
-## The current scope is for appointment management solutions, but this will develop over time.
+## The current scope is for appointment management solutions, but this will develop over time. {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Thecurrentscopeisforappointmentmanagementsolutions,butthiswilldevelopovertime.}
 
-### Advice on appointment management solutions
+### Advice on appointment management solutions {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Adviceonappointmentmanagementsolutions}
 
 Software solutions can increase automation of the process of booking patients into coronavirus vaccination appointments. This can include enabling patients to directly book appointments online and automating reminders to those who have not yet booked.
 
@@ -20,7 +20,7 @@ To support Primary Care Networks (PCNs) to manage appointment booking in the mos
 
 National funding will cover the cost of the booking solutions themselves, and there will also be £2 million of funding for Clinical Commission Groups (CCGs) and Primary Care Networks (PCNs) to support the network costs of additional SMS messages.
 
-### Assurance of solutions
+### Assurance of solutions {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Assuranceofsolutions}
 
 We've developed [national requirements for automated appointment management solutions](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR/overview?homepageId=2717090030) and have invited suppliers on the Digital Care Services Catalogue to apply to provide these via a call-off arrangement.
 
@@ -28,7 +28,7 @@ Solutions will be progressed through the assurance approach very quickly - it's�
 
 PCNs and CCGs should consider this when comparing solutions that have been assured and deciding which system to use.
 
-### Appointment management solutions
+### Appointment management solutions {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Appointmentmanagementsolutions}
 
 The national contract has now been established. Below are the solutions we currently expect to participate in the contract once they have been through assurance.
 
@@ -51,11 +51,11 @@ PCNs can decide to use a system in advance of assurance being in place, on the a
 
 PCNs may continue to use existing booking solutions where preferred. If PCNs choose to procure and pay for booking solutions locally, NHS England and NHS Improvement advise that there is a process to ensure the system meets the [published requirements](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR/overview?homepageId=2717090030), as well as relevant standards on IG, clinical safety and cyber security.
 
-## Assurance matrix
+## Assurance matrix {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Assurancematrix}
 
-[COVID19 Appointments Man…](Solutions-to-support-coronavirus-vaccination-rollout-in-Primary-Care-Networks-COVID-Vaccine.md)
+[COVID19 Appointments Man…](../../../.raw/BG/attachments/10584916017/att10618404886-COVID19 Appointments Managent Capability 2212.xlsx)
 
-## Procurement through the GP IT Futures framework
+## Procurement through the GP IT Futures framework {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-ProcurementthroughtheGPITFuturesframework}
 
 These services will be funded centrally, so are available free of charge to PCNs, excluding costs of additional SMS messages. Separate funding of £2 million is available to support SMS messaging costs. There is no tie in to the solution selected now and commissioners can change to another solution if they wish to, giving one month’s notice.
 
@@ -73,7 +73,7 @@ Once a solution is under the national contract, the process for a PCN to obtain 
 
 1. Once completed, we will place the order on contract and advise the PCN or CCG of their need to participate in confirmation of ‘Service Live’, functioning appropriately as per contract requirements for their Service Instance (M1, m2).
 
-## Further information
+## Further information {#SolutionstosupportcoronavirusvaccinationrolloutinPrimaryCareNetworks–COVIDVaccine-Furtherinformation}
 
 1. [Coronavirus vaccinations](https://digital.nhs.uk/coronavirus/vaccinations)
 

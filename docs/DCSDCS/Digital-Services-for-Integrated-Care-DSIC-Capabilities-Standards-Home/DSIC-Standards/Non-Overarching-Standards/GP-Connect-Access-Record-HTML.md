@@ -26,11 +26,11 @@ labels: ["standard"]
 - [Dependencies](#GPConnectAccessRecordHTML-Dependencies)
 - [Roadmap](#GPConnectAccessRecordHTML-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectAccessRecordHTML-Introduction}
 
 The GP Connect Access Record HTML API provides Health and Care Professionals with read only access to a Patient’s GP Practice Electronic Patient Record (EPR) by requesting sections or headings. Where appropriate, a date range can be defined to filter the retrieval of larger sections. These views can be incorporated directly into Consumer Solutions.
 
-# Requirements
+# Requirements {#GPConnectAccessRecordHTML-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -38,17 +38,17 @@ The GP Connect Access Record HTML API provides Health and Care Professionals wit
 | Provider | **GPCARH01** | Implement and maintain the [GP Connect Access Record HTML](https://simplifier.net/guide/gp-connect-access-record-html?version=current) Provider requirements inline with the latest specification version. | MUST |
 | Consumer | **GPCARH02** | Implement and maintain the [GP Connect Access Record HTML](https://simplifier.net/guide/gp-connect-access-record-html?version=current) Consumer requirements inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectAccessRecordHTML-Compliance,AssuranceandTesting}
 
 To achieve GP Connect compliance as a Provider, see the GP Connect Access Record HTML - Provider section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
 To achieve GP Connect compliance as a Consumer, Suppliers will need to follow the Supplier Conformance Assessment List (SCAL). More detail on this can be found [here](https://github.com/nhsconnect/gpc-consumer-support/wiki/Assurance-process-overview). For advice, access to testing resources, and support contact [gpconnect@nhs.net](mailto:gpconnect@nhs.net).
 
-# Documentation
+# Documentation {#GPConnectAccessRecordHTML-Documentation}
 
 - [GP Connect - Access Record HTML](https://simplifier.net/guide/gp-connect-access-record-html?version=current)
 
-# Dependencies
+# Dependencies {#GPConnectAccessRecordHTML-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
@@ -56,7 +56,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 \*May be sourced indirectly by existing PDS interface provided by a Patient Information Maintenance - GP Solution, either via API to this Solution, or as a shared application resource if delivered as part of the same Solution.
 
-# Roadmap
+# Roadmap {#GPConnectAccessRecordHTML-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

@@ -10,9 +10,9 @@ labels: []
 
 # Change Requests
 
-# Summary
+# Summary {#ChangeRequests-Summary}
 
-#### Living Documents
+#### Living Documents {#ChangeRequests-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -22,12 +22,12 @@ The processes are under continual review and will be amended as required.
 
 When you want to make a change to the scope of your Solution, and have this change displayed on the Buying Catalogue, you must register the change through the Onboarding Process and, where necessary, have it assured.
 
-# Objectives
+# Objectives {#ChangeRequests-Objectives}
 
 - You can increase the scope of your Solution
 - The Buying Catalogue and the Programme’s compliance records are kept up to date with the correct Solutions offered by you
 
-# Actions required of you
+# Actions required of you {#ChangeRequests-Actionsrequiredofyou}
 
 - Complete the Catalogue Solution Change Request form and upload it to SharePoint
 - Email your Supplier Manager copying in [buying.catalogue@nhs.net](mailto:buying.catalogue@nhs.net) to inform them that the Catalogue Solution Change Request form has been uploaded
@@ -35,7 +35,7 @@ When you want to make a change to the scope of your Solution, and have this chan
 - Sign off the Change Request form which has the Programme’s outcome
 - Sign off changes on Marketing Page
 
-# Actions required of us
+# Actions required of us {#ChangeRequests-Actionsrequiredofus}
 
 - Review the Catalogue Solution Change Request form
 - Perform checks to ensure that the changes are in line with the needs and objectives of the Framework

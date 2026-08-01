@@ -20,7 +20,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#Cross-organisationAppointmentBookingv1.0.0-Description}
 
 Cross-Organisation Appointment Booking supports Health and Care Professionals and others to make Appointments for Patients/Service Users across traditional Organisation boundaries. For example, Service Providers working across Integrated and Federated Care, Super Partnerships and Health and Care Professionals within multi-disciplinary teams. This collaborative approach to offering Appointments creates efficiencies in resourcing, and by giving Patients/Service Users a greater variety of Appointments, creates a better experience for the Patient/Service User.
 
@@ -32,7 +32,7 @@ Examples of the use of Cross-Organisation Appointment Booking include:
 - Shared Appointment management across a group of organisations to allow Patients/Service Users to be triaged to the most appropriate service to meet the Patient/Service User's need
 - Making specified Appointment slots available to external organisations such as an NHS 111 service so the service can book an Appointment on behalf of the Patient /Service User with their GP Practice
 
-# Outcomes
+# Outcomes {#Cross-organisationAppointmentBookingv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -42,7 +42,7 @@ Examples of the use of Cross-Organisation Appointment Booking include:
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### EpicCB1 - make Appointments available to external organisations
+### EpicCB1 - make Appointments available to external organisations  {#Cross-organisationAppointmentBookingv1.0.0-EpicCB1-makeAppointmentsavailabletoexternalorganisations}
 
 As a Service Provider
 
@@ -50,7 +50,7 @@ I want to be able to manage my Appointment slots
 
 So that I can make certain slots available to be booked by other Service Providers and manage how they are used
 
-#### Acceptance criterion 1: create Appointment slots that can be booked by other organisations
+#### Acceptance criterion 1: create Appointment slots that can be booked by other organisations {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:createAppointmentslotsthatcanbebookedbyotherorganisations}
 
 Given there are Appointment slots that are to be made available to be booked by external Service Providers
 
@@ -60,7 +60,7 @@ Then Appointment slots can be created that can be booked externally
 
 And rules can be defined relating to Booking or usage of the Appointment Slots (e.g. which organisations can book)
 
-#### Acceptance criterion 2: amend Appointment slots that can be booked by other organisations
+#### Acceptance criterion 2: amend Appointment slots that can be booked by other organisations {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:amendAppointmentslotsthatcanbebookedbyotherorganisations}
 
 Given that Appointment slots have been created
 
@@ -72,7 +72,7 @@ And rules relating to Booking or usage of the Appointment Slots (e.g. which orga
 
 ---
 
-### EpicCB2 - search externally bookable Appointment slots
+### EpicCB2 - search externally bookable Appointment slots {#Cross-organisationAppointmentBookingv1.0.0-EpicCB2-searchexternallybookableAppointmentslots}
 
 As a Health or Care Professional
 
@@ -80,7 +80,7 @@ I want to be able to search the Appointment slots made available by another Or
 
 So that I can find the Appointment slot most appropriate to meet the needs of the Patient/Service User
 
-#### Acceptance criterion 1: search Appointment slots
+#### Acceptance criterion 1: search Appointment slots {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:searchAppointmentslots}
 
 Given that Appointment slots have been made available to external Organisations to book
 
@@ -92,7 +92,7 @@ Then one or more adjacent Slots can be selected to book
 
 ---
 
-### EpicCB3 - book externally bookable Appointment slots
+### EpicCB3 - book externally bookable Appointment slots {#Cross-organisationAppointmentBookingv1.0.0-EpicCB3-bookexternallybookableAppointmentslots}
 
 As a Health or Care Professional
 
@@ -100,7 +100,7 @@ I want to book Patients/Service Users into Appointment slots made available by a
 
 So that I can meet the Appointment needs of my Patients/Service Users
 
-#### Acceptance criterion 1: organisation user books available Appointment slot
+#### Acceptance criterion 1: organisation user books available Appointment slot {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:organisationuserbooksavailableAppointmentslot}
 
 Given that Appointment slots have been made available to external Organisations to book
 
@@ -114,7 +114,7 @@ And the booking is confirmed
 
 ---
 
-### EpicCB4 - maintain Appointments
+### EpicCB4 - maintain Appointments {#Cross-organisationAppointmentBookingv1.0.0-EpicCB4-maintainAppointments}
 
 As a Service Provider
 
@@ -122,7 +122,7 @@ I want to be able to maintain the Appointments made for Patients/Service Users
 
 So that I can ensure booked Appointments continue to align to the Patient/Service User's needs
 
-#### Acceptance criterion 1: view Appointments
+#### Acceptance criterion 1: view Appointments {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:viewAppointments}
 
 Given that Appointment slots have been booked for Patients/Service Users
 
@@ -132,7 +132,7 @@ Then all Appointments booked with external Organisations can be viewed
 
 And the details of the Appointment(s) can be viewed
 
-#### Acceptance criterion 2: amend Appointment
+#### Acceptance criterion 2: amend Appointment {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:amendAppointment}
 
 Given that Appointment slots have been booked for Patients/Service Users
 
@@ -140,7 +140,7 @@ When the need to amend an Appointment slot is identified
 
 Then the Appointment details for the Patient/Service User is amended
 
-#### Acceptance criterion 3: cancel Appointment
+#### Acceptance criterion 3: cancel Appointment {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion3:cancelAppointment}
 
 Given that Appointment slots have been booked for Patients/Service Users
 
@@ -150,7 +150,7 @@ Then the Appointment for the Patient/Service User is cancelled
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### EpicCB5 - notifications
+### EpicCB5 - notifications {#Cross-organisationAppointmentBookingv1.0.0-EpicCB5-notifications}
 
 As a Health or Care Professional
 
@@ -158,7 +158,7 @@ I want to receive notifications in relation to Bookings I have made into slots 
 
 So that I am aware of Bookings and any changes and can act on these
 
-#### Acceptance criterion 1: receive notification about Appointments
+#### Acceptance criterion 1: receive notification about Appointments {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:receivenotificationaboutAppointments}
 
 Given that an Appointment has been booked for the Patient/Service User with an external Organisation
 
@@ -170,7 +170,7 @@ Then the recipients receive a notification that the Appointment has been booked
 
 And the notification contains information about the Appointment
 
-#### Acceptance criterion 2: receive notification about change to Appointment
+#### Acceptance criterion 2: receive notification about change to Appointment {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:receivenotificationaboutchangetoAppointment}
 
 Given that an Appointment has been booked for the Patient/Service User with an external organisation
 
@@ -184,7 +184,7 @@ And the notification contains information about the changes to the Appointment
 
 ---
 
-### EpicCB6 - manage Appointment Requests
+### EpicCB6 - manage Appointment Requests {#Cross-organisationAppointmentBookingv1.0.0-EpicCB6-manageAppointmentRequests}
 
 As a Health or Care Professional
 
@@ -192,7 +192,7 @@ I want to request a specific Appointment for a Patient/Service User with an ext
 
 So that I can obtain the Appointment that best fits the needs of the Patient/Service User
 
-#### Acceptance criterion 1: make a request for an Appointment slot
+#### Acceptance criterion 1: make a request for an Appointment slot {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:makearequestforanAppointmentslot}
 
 Given that an Appointment is required for a Patient/Service User with an external Organisation
 
@@ -204,7 +204,7 @@ And information relating to the requested Appointment can be provided
 
 And the request can be sent to the relevant external Organisation
 
-#### Acceptance criterion 2: amend request for an Appointment slot
+#### Acceptance criterion 2: amend request for an Appointment slot {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:amendrequestforanAppointmentslot}
 
 Given a request for an Appointment slot has been sent to an external Organisation
 
@@ -214,7 +214,7 @@ Then the Appointment request can be amended
 
 And the revised Appointment request can be sent to the relevant external Organisation
 
-#### Acceptance criterion 3: respond to Appointment request
+#### Acceptance criterion 3: respond to Appointment request {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion3:respondtoAppointmentrequest}
 
 Given that an Organisation makes Appointment slots available to external Organisations to book
 
@@ -226,7 +226,7 @@ And the request can be responded to (accepted or rejected)
 
 ---
 
-### EpicCB7 - booking approval
+### EpicCB7 - booking approval {#Cross-organisationAppointmentBookingv1.0.0-EpicCB7-bookingapproval}
 
 As a Service Provider
 
@@ -234,7 +234,7 @@ I want to be able to create Appointment slots that require approval by my Organi
 
 So that I can better manage the Booking of Appointment slots by external Organisations
 
-#### Acceptance criterion 1: create Appointment slots that need approval
+#### Acceptance criterion 1: create Appointment slots that need approval {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:createAppointmentslotsthatneedapproval}
 
 Given that an Organisation makes Appointments available to external Organisations to book
 
@@ -242,7 +242,7 @@ When the Organisation identifies Appointment slots that require approval before 
 
 Then the Appointment slots can be identified as requiring approval
 
-#### Acceptance criterion 2: book Appointment slot that requires approval
+#### Acceptance criterion 2: book Appointment slot that requires approval {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:bookAppointmentslotthatrequiresapproval}
 
 Given that an Organisation has made Appointment slots available to external Organisations to book
 
@@ -254,7 +254,7 @@ Then the request for the Appointment slot is sent to the Provider of the Appoint
 
 And the requestor can identify that the Appointment slot requires approval before being confirmed
 
-#### Acceptance criterion 3: respond to request for Appointment slot
+#### Acceptance criterion 3: respond to request for Appointment slot {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion3:respondtorequestforAppointmentslot}
 
 Given that an Organisation has made Appointment slots available to external Organisations to book
 
@@ -268,7 +268,7 @@ And the requestor is notified of the outcome
 
 ---
 
-### EpicCB8 - report on usage of Cross-Organisation Appointments
+### EpicCB8 - report on usage of Cross-Organisation Appointments {#Cross-organisationAppointmentBookingv1.0.0-EpicCB8-reportonusageofCross-OrganisationAppointments}
 
 As a Manager
 
@@ -276,7 +276,7 @@ I want to have access to custom reports relating to externally bookable Appointm
 
 So that I can make informed decisions relating to these Appointments
 
-#### Acceptance criterion 1: report on use of Appointments by external organisations
+#### Acceptance criterion 1: report on use of Appointments by external organisations {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:reportonuseofAppointmentsbyexternalorganisations}
 
 Given that an organisation has made Appointments available to external organisations to book
 
@@ -286,7 +286,7 @@ When the Manager wants to report on use of their Organisation’s Appointments 
 
 Then a report can be run to create output relating to the use of externally bookable Appointment slots
 
-#### Acceptance criterion 2: report on use of other organisation’s Appointments
+#### Acceptance criterion 2: report on use of other organisation’s Appointments {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:reportonuseofotherorganisation’sAppointments}
 
 Given that an organisation has booked Appointments for their Patients/Service Users with external organisations
 
@@ -298,7 +298,7 @@ Then a report can be run to create output relating to the use of externally boo
 
 ---
 
-### EpicCB9 - manage Cross-Organisation Appointment Booking templates
+### EpicCB9 - manage Cross-Organisation Appointment Booking templates {#Cross-organisationAppointmentBookingv1.0.0-EpicCB9-manageCross-OrganisationAppointmentBookingtemplates}
 
 As a Service Provider
 
@@ -306,7 +306,7 @@ I want to be able to maintain templates for Appointment slots
 
 So that I can improve efficiency by using existing templates to create externally bookable Appointment slots
 
-#### Acceptance criterion 1: maintain Appointment slot template
+#### Acceptance criterion 1: maintain Appointment slot template {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion1:maintainAppointmentslottemplate}
 
 Given that there is a need to create Appointment slots that can be made available to external Service Providers to book
 
@@ -314,7 +314,7 @@ When a change is required relating to an Appointment slot template
 
 Then the relevant template for externally bookable Appointment slots can be created, updated or deleted
 
-#### Acceptance criterion 2: Use booking slot template
+#### Acceptance criterion 2: Use booking slot template {#Cross-organisationAppointmentBookingv1.0.0-Acceptancecriterion2:Usebookingslottemplate}
 
 Given that one or more templates exist to support the creation of Appointment slots
 

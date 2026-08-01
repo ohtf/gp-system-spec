@@ -18,7 +18,7 @@ labels: ["overarching_standard_retired"]
 | Status | Retired |
 | Effective Date | 31 Dec 2020 |
 
-# Description
+# Description {#ServiceManagementv2.0.0-Description}
 
 Supports suppliers in the delivery and management of services that support and provide their Solutions.Service Management Standard comprises the following requirements:
 
@@ -29,7 +29,7 @@ With regard to performance management, remedies associated with poor performance
 - For Type 1 Catalogue Solutions: in schedule 2.5 (Performance Levels) of the GPITF Framework 1 Lot 1 Framework Agreement; and
 - For Type 2 Catalogue Solutions: in schedule 2.1 (Performance Levels) of the GPITF Framework 1 Lot 1 Call Off Agreement
 
-# Requirements
+# Requirements {#ServiceManagementv2.0.0-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -54,22 +54,22 @@ With regard to performance management, remedies associated with poor performance
 | **SM018** | The Supplier shall raise Problems for the root cause of all HSSIs and shall, unless otherwise agreed with the Service Management Agent acting reasonably, fix the Problem within 60 Working Days. | MUST | Type 1 only |
 | **SM019** | The Supplier shall, within 10 Working Days of the receipt of a request from the Service Management Agent, provide evidence to demonstrate that they are compliant with one or more of the obligations set out in this document. The Service Management Agent shall only issue such requests where a breach of the obligations set out in this document are reasonably suspected to have occurred. | MUST | Both |
 
-## Performance Regime Template For Type 2 Catalogue Solutions
+## Performance Regime Template For Type 2 Catalogue Solutions {#ServiceManagementv2.0.0-PerformanceRegimeTemplateForType2CatalogueSolutions}
 
 - [Performance Regime Template for Type 2 Catalogue Solutions.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/10694131891/Performance%20Regime%20Template%20for%20Type%202%20Catalogue%20Solutions.docx?version=1&modificationDate=1610466125023&cacheVersion=1&api=v2)
 
-## Other Documents Referenced Within Components Of The Standard
+## Other Documents Referenced Within Components Of The Standard {#ServiceManagementv2.0.0-OtherDocumentsReferencedWithinComponentsOfTheStandard}
 
 - [GPITF Balanced Scorecard](https://nhse-dsic.atlassian.net/wiki/download/attachments/10694131891/GPITF%20Balanced%20Scorecard%20v2.0.1%20200226.xlsx?version=1&modificationDate=1610466179358&cacheVersion=1&api=v2)– referenced in document “GPITF Type 1 Catalogue Solution Service Levels”
 - [HSSI Report Template](https://nhse-dsic.atlassian.net/wiki/download/attachments/10694131891/HSSI%20Report%20Template.docx?version=1&modificationDate=1610466209858&cacheVersion=1&api=v2) – referenced in document “GPITF Framework 1 – Incident Management Related Obligations”
 
-# Capabilities
+# Capabilities {#ServiceManagementv2.0.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#ServiceManagementv2.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

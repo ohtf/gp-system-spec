@@ -26,13 +26,13 @@ labels: ["standard"]
 - [Dependencies](#GPConnectSendDocument-Dependencies)
 - [Roadmap](#GPConnectSendDocument-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectSendDocument-Introduction}
 
 GP Connect Send Document provides a simple and standardised means of sending a document, such as a PDF, an image, or HTML file to a GP Practice Receiver Solution. Each message sent using GP Connect Send Document makes use of the GP Connect Messaging components, Messaging Exchange for Social Care and Health (MESH) and ITK3 Messaging Distribution to deliver the message.
 
 See [Send Document (developer.nhs.uk)](https://simplifier.net/guide/gp-connect-send-document/Home/Introduction/Introduction) for further information.
 
-# Requirements
+# Requirements {#GPConnectSendDocument-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -40,19 +40,19 @@ See [Send Document (developer.nhs.uk)](https://simplifier.net/guide/gp-connect-s
 | Receiver | GPCSD01 | Implement and maintain the [GP Connect Send Document](https://simplifier.net/guide/gp-connect-send-document/Home/Introduction/Release-notes?version=2.0.2-public-beta) Receiver requirements inline with the latest specification version. | MUST |
 | Sender | GPCSD02 | Implement and maintain the [GP Connect Send Document](https://simplifier.net/guide/gp-connect-send-document/Home/Introduction/Release-notes?version=2.0.2-public-beta) Sender requirements inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectSendDocument-Compliance,AssuranceandTesting}
 
 To achieve GP Connect compliance as a Receiver, see the GP Connect Send Document - Receiver section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
 To achieve GP Connect compliance as a Sender, Suppliers will need to follow the Supplier Conformance Assessment List (SCAL). More detail on this can be found [here](https://github.com/nhsconnect/gpc-consumer-support/wiki/Assurance-process-overview). For advice, access to testing resources, and support contact [gpconnect@nhs.net](mailto:gpconnect@nhs.net).
 
-# Documentation
+# Documentation {#GPConnectSendDocument-Documentation}
 
 - [Developer Implementation Guide](https://simplifier.net/guide/gp-connect-send-document/Home)
 - [GP Connect service information](https://digital.nhs.uk/services/gp-connect)
 - [Develop GP Connect services](https://digital.nhs.uk/services/gp-connect/develop-gp-connect-services)
 
-# Dependencies
+# Dependencies {#GPConnectSendDocument-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
@@ -60,7 +60,7 @@ Creating a compliant implementation requires implementing the following dependen
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 - [Generic FHIR Receiver](Generic-FHIR-Receiver.md) (Receiver Solutions only)
 
-# Roadmap
+# Roadmap {#GPConnectSendDocument-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

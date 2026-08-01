@@ -10,7 +10,7 @@ labels: []
 
 # Digital Pathways Solution Registry (Market Engagement) Home
 
-### Welcome to the Digital Pathways Solution Registry Capabilities and Standards site
+### Welcome to the Digital Pathways Solution Registry Capabilities and Standards site {#DigitalPathwaysSolutionRegistry(MarketEngagement)Home-WelcometotheDigitalPathwaysSolutionRegistryCapabilitiesandStandardssite}
 
 The Digital Pathways Solution Registry is a list of Suppliers who have self-declared their Solution complies with the Digital Pathways Solution Registry Capabilities and Standards. The Digital Pathways Solution Registry is always live, and the purpose is to inform and support buyers to use the Supplier self-declared information held in the Registry to further develop their strategy to buy.
 
@@ -32,7 +32,7 @@ View the [**Master Glossary**](Master-Glossary.md) for definitions of key terms.
 
 For guidance on the current best practices throughout the IT industry when provisioning, deploying and operating infrastructure and services, please view the [**Recommended Best Practices**](Recommended-Best-Practices.md) page.
 
-## Overarching Standards
+## Overarching Standards {#DigitalPathwaysSolutionRegistry(MarketEngagement)Home-OverarchingStandards}
 
 - [**Accessibility Standard (Web Based)**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Accessibility-Standard-Web-Based.md)
 
@@ -112,7 +112,7 @@ More...
 
 Defines the training activities and collateral expected from Suppliers to support the buyers and users of their Solutions.
 
-## Capabilities
+## Capabilities {#DigitalPathwaysSolutionRegistry(MarketEngagement)Home-Capabilities}
 
 - [**Care Navigation**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Care-Navigation.md)
 

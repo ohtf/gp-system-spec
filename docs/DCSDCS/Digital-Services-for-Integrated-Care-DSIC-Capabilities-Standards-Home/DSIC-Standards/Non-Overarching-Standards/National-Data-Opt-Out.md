@@ -25,11 +25,11 @@ labels: ["standard"]
 - [Dependencies](#NationalDataOpt-Out-Dependencies)
 - [Roadmap](#NationalDataOpt-Out-Roadmap)
 
-# Introduction
+# Introduction {#NationalDataOpt-Out-Introduction}
 
 The National Data Opt-Out Service has been established to ensure that a mechanism is developed and available for Health and Social Care organisations to use that will enable a Patient’s preference to be honoured accordingly, e.g. if a Patient’s preference is to opt-out then their data is to be withheld from being shared from appropriate disclosures – this is known as the ‘Upholding’ of an opt-out.
 
-# Requirements
+# Requirements {#NationalDataOpt-Out-Requirements}
 
 National Data Opt-Out applies to all in-scope data from GP systems including any exports, extracts, releases, disseminations and disclosures from GP systems as defined by National Data Opt-Outs Operational Policy.
 
@@ -41,19 +41,19 @@ Supplier Solutions need to retrieve the National Data Opt-Out Status before usin
 |  |  |  |
 | --- | --- | --- |
 | **ID** | **Requirement** | **Level** |
-| **NDOP-01** | Implement and maintain National Data Opt-Out inline with the final set of National Data Opt-Out requirements, v2.0 published April 2019:  [NDOP GP IT Change requir…](National-Data-Opt-Out.md) | MUST |
+| **NDOP-01** | Implement and maintain National Data Opt-Out inline with the final set of National Data Opt-Out requirements, v2.0 published April 2019:  [NDOP GP IT Change requir…](../../../../.raw/DCSDCS/attachments/11931680923/att11931680937-NDOP GP IT Change requirements v2.0 29Apr2019.docx) | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#NationalDataOpt-Out-Compliance,AssuranceandTesting}
 
 See the National Data Opt-Out (NDOP) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Dependencies
+# Dependencies {#NationalDataOpt-Out-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standard:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 
-# Roadmap
+# Roadmap {#NationalDataOpt-Out-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

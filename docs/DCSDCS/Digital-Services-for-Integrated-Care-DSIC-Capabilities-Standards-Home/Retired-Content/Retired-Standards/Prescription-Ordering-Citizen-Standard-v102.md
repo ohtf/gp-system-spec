@@ -15,11 +15,11 @@ labels: ["capability_specific_retired"]
 | ID | S3 |
 | Version | 1.0.2 |
 | Type | Capability Specific Standard |
-| Status | Retired |
-| Effective Date | 31 Dec 2019 |
+| Status {#PrescriptionOrdering-Citizen-Standardv1.0.2-Status} | Retired |
+| Effective Date {#PrescriptionOrdering-Citizen-Standardv1.0.2-EffectiveDate} | 31 Dec 2019 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") |
 
-# Requirements
+# Requirements {#PrescriptionOrdering-Citizen-Standardv1.0.2-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -44,13 +44,13 @@ labels: ["capability_specific_retired"]
 | C3E3 | **GP-ORPR-3.02** | **Prescription Management - Preferred Pharmacy - Amend/Cancel - Patient**  Allow Patients to amend their Preferred Pharmacy, by selecting from a list of pharmacies (sourced from ODS and as defined by the Practice - See E00126 in the Prescribing Capability).  Option will only be available if the Patient is NOT participating in EPS and will not change the Patient’s Nominated Pharmacy. | MAY |
 | C3E8 | **GP-ORPR-13** | **Prescription Management - Preferred Pharmacy - Amend/Cancel - Proxy**  Allow Proxies to amend the Patient's Preferred Pharmacy, by selecting from a list of pharmacies (sourced from ODS and as defined by the Practice - See E00126 in the Prescribing Capability).  Option will only be available if the Patient is NOT participating in EPS and will not change the Patient’s Nominated Pharmacy. | MAY |
 
-# Capability
+# Capability {#PrescriptionOrdering-Citizen-Standardv1.0.2-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Prescription Ordering – Citizen Capability
 
-# Roadmap
+# Roadmap {#PrescriptionOrdering-Citizen-Standardv1.0.2-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

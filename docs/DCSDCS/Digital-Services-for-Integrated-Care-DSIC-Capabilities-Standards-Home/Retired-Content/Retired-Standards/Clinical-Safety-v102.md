@@ -12,19 +12,19 @@ labels: ["overarching_standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S25 |
-| Version | 1.0.2 |
-| Type | Overarching Standard |
-| Status | Retired |
-| Effective Date | 16 Dec 2024 |
-| Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
+| ID {#ClinicalSafetyv1.0.2-ID} | S25 |
+| Version {#ClinicalSafetyv1.0.2-Version} | 1.0.2 |
+| Type {#ClinicalSafetyv1.0.2-Type} | Overarching Standard |
+| Status {#ClinicalSafetyv1.0.2-Status} | Retired |
+| Effective Date {#ClinicalSafetyv1.0.2-EffectiveDate} | 16 Dec 2024 |
+| Contracting Vehicle(s) {#ClinicalSafetyv1.0.2-ContractingVehicle(s)} | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) |
 
 - [Introduction](#ClinicalSafetyv1.0.2-Introduction)
 - [Requirements](#ClinicalSafetyv1.0.2-Requirements)
 - [Applicable Capabilities](#ClinicalSafetyv1.0.2-ApplicableCapabilities)
 - [Roadmap](#ClinicalSafetyv1.0.2-Roadmap)
 
-# Introduction
+# Introduction {#ClinicalSafetyv1.0.2-Introduction}
 
 Supports the management of clinical risk and Patient safety.
 
@@ -36,19 +36,19 @@ This is not intended to be an exhaustive list of relevant regulations and Standa
 
 Please note that compliance with the Clinical Safety Standard requires Suppliers to have a Clinical Safety Officer (CSO) in place. Any Suppliers who don't currently have a CSO in place, will not be awarded compliance with this Standard until this has been addressed.
 
-# Requirements
+# Requirements {#ClinicalSafetyv1.0.2-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| Applicable Contracting Vehicle(s) | ID | Requirement | Level |
-| All | GP-08.4.3.01 | **Compliance with Clinical Risk Management: Its Application in the Manufacture of Health IT Systems**  The Supplier shall be required to be compliant with the following Standard in respect of Clinical Safety:   - DCB0129: Clinical Risk Management: its Application in the Manufacture of Health IT Systems   The submitted safety documents shall be fit for purpose to enable the deploying organisations to undertake an informed risk assessment in line with the requirements specified in the following Standard:   - DCB0160: Clinical Risk Management: its Application in the Deployment and Use of Health IT Systems is a complimentary Standard applicable to Health Organisations | MUST |
-| All | GP-MW-2.1-1 | **MHRA Compliance**  The Supplier shall consider whether their Solution falls under the MD regulation using the relevant UK MDR 2002 guidance and declare whether the Solution is classed as a Medical Device within the CSCR. For information see the MHRA website.  Note: This is only for information and completeness purposes and the Clinical Safety Group will not undertake any assessment against compliance with MHRA MD Standards. | MUST |
+| Applicable Contracting Vehicle(s) {#ClinicalSafetyv1.0.2-ApplicableContractingVehicle(s)} | ID {#ClinicalSafetyv1.0.2-ID.1} | Requirement {#ClinicalSafetyv1.0.2-Requirement} | Level {#ClinicalSafetyv1.0.2-Level} |
+| All | GP-08.4.3.01 {#ClinicalSafetyv1.0.2-GP-08.4.3.01} | **Compliance with Clinical Risk Management: Its Application in the Manufacture of Health IT Systems**  The Supplier shall be required to be compliant with the following Standard in respect of Clinical Safety:   - DCB0129: Clinical Risk Management: its Application in the Manufacture of Health IT Systems   The submitted safety documents shall be fit for purpose to enable the deploying organisations to undertake an informed risk assessment in line with the requirements specified in the following Standard:   - DCB0160: Clinical Risk Management: its Application in the Deployment and Use of Health IT Systems is a complimentary Standard applicable to Health Organisations | MUST |
+| All | GP-MW-2.1-1 {#ClinicalSafetyv1.0.2-GP-MW-2.1-1} | **MHRA Compliance**  The Supplier shall consider whether their Solution falls under the MD regulation using the relevant UK MDR 2002 guidance and declare whether the Solution is classed as a Medical Device within the CSCR. For information see the MHRA website.  Note: This is only for information and completeness purposes and the Clinical Safety Group will not undertake any assessment against compliance with MHRA MD Standards. | MUST |
 
-# Applicable Capabilities
+# Applicable Capabilities {#ClinicalSafetyv1.0.2-ApplicableCapabilities}
 
 All Suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#ClinicalSafetyv1.0.2-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

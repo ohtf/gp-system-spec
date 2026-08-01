@@ -26,22 +26,22 @@ labels: ["standard"]
 - [Dependencies](#DigitalMedicinesandPharmacyFHIRPayload-Dependencies)
 - [Roadmap](#DigitalMedicinesandPharmacyFHIRPayload-Roadmap)
 
-# Introduction
+# Introduction {#DigitalMedicinesandPharmacyFHIRPayload-Introduction}
 
 The Digital Medicines initiative aims to positively transform the way that Patients manage their medicines, promote new models of care as well as improve the medicines supply chain and the provision of medicines data. At a high-level, this all involves the adoption of digital Prescriptions to replace inefficient and cumbersome paper versions, utilising appropriate technologies to fully engage in the end-to-end Patient pathway, alongside supporting the adoption of technology to deliver a fully digitised medicines supply chain.
 
 The Digital Medicines Specification utilises the [Generic FHIR Receiver](Generic-FHIR-Receiver.md) for receiving Solutions and supports the following requirements as part of its MVP.
 
-# Requirements
+# Requirements {#DigitalMedicinesandPharmacyFHIRPayload-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | GP Suppliers | DMPF1 | **Vaccination Administration**  Implement and maintain the vaccination [Digital Medicines and Pharmacy FHIR Payload](https://nhse-dsic.atlassian.net/wiki/download/attachments/10752983078/NHS%20England%20Digimeds%20Specification%20for%20Vaccination%20Event%20Data%20Flow%20Version%201.0%20APPROVED.docx?api=v2) inline with the latest specification version to receive notifications of the administration of vaccinations to a Patient at another Health or Care Organisation.  The following vaccinations to be supported:   - BCG - COVID-19 - Hep B - Hib/MenC - Human Papillomavirus (HPV) - Influenza (Flu) - Measles, Mumps, Rubella (MMR) - Measles, Mumps, Rubella, and Varicella (MMRV) - MenACWY - MenB - Pertussis - Pneumococcal - Respiratory Syncytial Virus (RSV) - Rotavirus - Shingles - 3 in 1 - 4 in 1 - 6 in 1 | MUST |
-| GP Suppliers | DMPF2 | **GP Connect - Emergency Supply of Medications (ITK3)** - Receiver Implement and maintain the [GP Connect - Emergency Supply of Medications (ITK3) Payload](https://simplifier.net/guide/GP-Connect-DigiMeds-Emergency-Supply-of-Medicines/Home?version=1.3.0-public-beta) (formerly part of the Digital Medicines (DigiMeds) specification) inline with the latest specification version to receive notifications of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
-| Community Pharmacy Suppliers | DMPF3 | **GP Connect - Emergency Supply of Medications (ITK3)** - Sender Implement and maintain the [GP Connect - Emergency Supply of Medications (ITK3) Payload](https://simplifier.net/guide/GP-Connect-DigiMeds-Emergency-Supply-of-Medicines/Home?version=1.3.0-public-beta) (formerly part of the Digital Medicines (DigiMeds) specification) inline with the latest specification version to send notifications of emergency medication(s) supplied to a Patient at a Pharmacy to their registered GP Practice. | MUST |
+| GP Suppliers | DMPF2 | **GP Connect - Emergency Supply of Medications (ITK3)** - Receiver {#DigitalMedicinesandPharmacyFHIRPayload-GPConnect-EmergencySupplyofMedications(ITK3)-Receiver} Implement and maintain the [GP Connect - Emergency Supply of Medications (ITK3) Payload](https://simplifier.net/guide/GP-Connect-DigiMeds-Emergency-Supply-of-Medicines/Home?version=1.3.0-public-beta) (formerly part of the Digital Medicines (DigiMeds) specification) inline with the latest specification version to receive notifications of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
+| Community Pharmacy Suppliers | DMPF3 | **GP Connect - Emergency Supply of Medications (ITK3)** - Sender {#DigitalMedicinesandPharmacyFHIRPayload-GPConnect-EmergencySupplyofMedications(ITK3)-Sender} Implement and maintain the [GP Connect - Emergency Supply of Medications (ITK3) Payload](https://simplifier.net/guide/GP-Connect-DigiMeds-Emergency-Supply-of-Medicines/Home?version=1.3.0-public-beta) (formerly part of the Digital Medicines (DigiMeds) specification) inline with the latest specification version to send notifications of emergency medication(s) supplied to a Patient at a Pharmacy to their registered GP Practice. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DigitalMedicinesandPharmacyFHIRPayload-Compliance,AssuranceandTesting}
 
 The understanding that clinical risk and assurance responsibilities are formally acknowledged by System Suppliers and based on the knowledge that appropriate functional assurance will be performed by the Solutions Assurance team which is crucial to mitigating many of the clinical risks identified, the following clinical assurance approach is recommended:
 
@@ -58,20 +58,20 @@ The understanding that clinical risk and assurance responsibilities are formally
 
 The focus of the witness testing will be on the user workflow ensuring the positive and negative messages are prominent to the user and to provide a “sense check” of the PDF transformation of the message received by the GP System.
 
-# Documentation
+# Documentation {#DigitalMedicinesandPharmacyFHIRPayload-Documentation}
 
 - [Digital Medicine - FHIR](https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir)
 - [API and Integration Catalogue](https://digital.nhs.uk/developer/api-catalogue)
 - [API Catalogue - Digital Medicine - FHIR](https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir)
 - [PRSB - Pharmacy information flows](https://theprsb.org/standards/pharmacyinformationflows/)
 
-# Dependencies
+# Dependencies {#DigitalMedicinesandPharmacyFHIRPayload-Dependencies}
 
 Creating a compliant implementation requires GP Suppliers to implement the following dependent interface Standards:
 
 - [Generic FHIR Receiver](Generic-FHIR-Receiver.md) - receiver Solutions
 
-# Roadmap
+# Roadmap {#DigitalMedicinesandPharmacyFHIRPayload-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

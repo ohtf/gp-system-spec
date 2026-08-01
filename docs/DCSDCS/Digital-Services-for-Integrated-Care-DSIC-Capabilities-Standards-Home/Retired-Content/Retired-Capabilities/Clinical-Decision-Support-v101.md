@@ -21,11 +21,11 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#ClinicalDecisionSupportv1.0.1-Description}
 
 Supports clinical decision-making to improve Patient safety at the point of care.
 
-# Outcomes
+# Outcomes {#ClinicalDecisionSupportv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -35,7 +35,7 @@ Supports clinical decision-making to improve Patient safety at the point of care
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C6E1 - access to Clinical Decision Support
+### C6E1 - access to Clinical Decision Support {#ClinicalDecisionSupportv1.0.1-C6E1-accesstoClinicalDecisionSupport}
 
 As a Practice User
 
@@ -43,7 +43,7 @@ I want access to Clinical Decision Support
 
 So that I have Clinical Decision Support
 
-#### Acceptance criterion 1: access to Clinical Decision Support
+#### Acceptance criterion 1: access to Clinical Decision Support {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion1:accesstoClinicalDecisionSupport}
 
 Given the Practice User is permitted to use Clinical Decision Support
 
@@ -51,7 +51,7 @@ When Clinical Decision Support is triggered
 
 Then they can have Clinical Decision Support
 
-#### Acceptance criterion 2:  Clinical Decision Support audit
+#### Acceptance criterion 2:  Clinical Decision Support audit  {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion2:ClinicalDecisionSupportaudit}
 
 Given the Practice User is permitted to use Clinical Decision Support
 
@@ -67,7 +67,7 @@ And the source documentation used is displayed
 
 And the criteria used is displayed
 
-#### Acceptance criterion 3: view Clinical Decision Support tool version history
+#### Acceptance criterion 3: view Clinical Decision Support tool version history {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion3:viewClinicalDecisionSupporttoolversionhistory}
 
 Given the Practice User is permitted to use Clinical Decision Support
 
@@ -83,7 +83,7 @@ And date and time of update is displayed
 
 ---
 
-### C6E2 - local configuration for Clinical Decision Support triggering
+### C6E2 - local configuration for Clinical Decision Support triggering {#ClinicalDecisionSupportv1.0.1-C6E2-localconfigurationforClinicalDecisionSupporttriggering}
 
 As a Practice User
 
@@ -91,7 +91,7 @@ I want to configure Clinical Decision Support triggering
 
 So that the rules for Clinical Decision Support triggering are applied
 
-#### Acceptance criterion 1: configure Clinical Decision Support triggering by Staff Member
+#### Acceptance criterion 1: configure Clinical Decision Support triggering by Staff Member {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion1:configureClinicalDecisionSupporttriggeringbyStaffMember}
 
 Given the Practice User is permitted to configure Clinical Decision Support triggering
 
@@ -99,7 +99,7 @@ When the Practice User chooses to configure Clinical Decision Support triggeri
 
 Then the configuration is applied to the Staff Member
 
-#### Acceptance criterion 2: configure Clinical Decision Support triggering by staff role
+#### Acceptance criterion 2: configure Clinical Decision Support triggering by staff role {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion2:configureClinicalDecisionSupporttriggeringbystaffrole}
 
 Given the Practice User is permitted to configure Clinical Decision Support triggering
 
@@ -107,7 +107,7 @@ When the Practice User chooses to configure Clinical Decision Support triggerin
 
 Then the configuration is applied to the staff role
 
-#### Acceptance criterion 3: enable triggering of tools
+#### Acceptance criterion 3: enable triggering of tools {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion3:enabletriggeringoftools}
 
 Given the Practice User is permitted to configure Clinical Decision Support
 
@@ -115,7 +115,7 @@ When the Practice User chooses to enable triggering of an individual tool
 
 Then the triggering of a tool is enabled
 
-#### Acceptance criterion 4: disable triggering of tools
+#### Acceptance criterion 4: disable triggering of tools {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion4:disabletriggeringoftools}
 
 Given the Practice User is permitted to configure Clinical Decision Support
 
@@ -125,7 +125,7 @@ Then the triggering of a tool is disabled
 
 ---
 
-### C6E3 - view Clinical Decision Support reports
+### C6E3 - view Clinical Decision Support reports {#ClinicalDecisionSupportv1.0.1-C6E3-viewClinicalDecisionSupportreports}
 
 As a Practice User
 
@@ -133,7 +133,7 @@ I want to view Clinical Decision Support reports
 
 So that I can view reports on Clinical Decision Support
 
-#### Acceptance criterion 1: view Clinical Decision Support reports
+#### Acceptance criterion 1: view Clinical Decision Support reports {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion1:viewClinicalDecisionSupportreports}
 
 Given the Practice User is permitted to view Clinical Decision Support reports
 
@@ -143,7 +143,7 @@ Then the report is displayed
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C6E4 - configuration for custom Clinical Decision Support
+### C6E4 - configuration for custom Clinical Decision Support {#ClinicalDecisionSupportv1.0.1-C6E4-configurationforcustomClinicalDecisionSupport}
 
 As a Practice User
 
@@ -151,7 +151,7 @@ I want to configure custom Clinical Decision Support
 
 So that the rules for custom Clinical Decision Support are applied
 
-#### Acceptance criterion 1: configure custom Clinical Decision Support
+#### Acceptance criterion 1: configure custom Clinical Decision Support  {#ClinicalDecisionSupportv1.0.1-Acceptancecriterion1:configurecustomClinicalDecisionSupport}
 
 Given the Practice User is permitted to configure Clinical Decision Support
 

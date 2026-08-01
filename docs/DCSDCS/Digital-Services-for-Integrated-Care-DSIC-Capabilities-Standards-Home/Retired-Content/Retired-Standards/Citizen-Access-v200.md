@@ -18,7 +18,7 @@ labels: ["context_specific_retired"]
 | Status | Retired |
 | Effective Date | 31 Jul 2020 |
 
-# Description
+# Description {#CitizenAccessv2.0.0-Description}
 
 Supports Citizens to access their services safely and securely. Also supports Citizens in viewing and updating Patient information online.
 
@@ -34,13 +34,13 @@ The terms Online Service Account (OSA), Verified User Account (VUA) and Link
 
 Click here to view more information on the structure and lifecycle of Citizen online accounts
 
-# Structure and Lifecycle of Patient Online Accounts
+# Structure and Lifecycle of Patient Online Accounts {#CitizenAccessv2.0.0-StructureandLifecycleofPatientOnlineAccounts}
 
 Previous GPSoC requirements for Patients' online accounts were extremely confusing and difficult to understand. This document is essential reading for Solution providers as it seeks to more clearly articulate the different types of account a Patient can have, how they differ and the processes involved in their creation. There have been some minor changes in terminology intended to address the issue that certain terms (ROSU, OSU) were inappropriately attached to the Citizen, when they in fact described the state of an account.
 
-# Patient Account Model
+# Patient Account Model {#CitizenAccessv2.0.0-PatientAccountModel}
 
-## Account Types
+## Account Types {#CitizenAccessv2.0.0-AccountTypes}
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/1754366487/Account%20Types.jpg?api=v2)
 
@@ -54,7 +54,7 @@ A Citizen (who need not be a registered Patient) can have three types of account
 
 From these definitions we can see that a Patient can hold multiple types of accounts simultaneously, e.g. a VUA at their registered Practice, an OSA with an Appointment Booking application and a LOSA linked to a VUA different from their registered Practice allowing access to another Patient's Record. This is why the old terminology of OSU/ROSU has been removed - a Citizen is not necessarily either a ROSU or an OSU exclusively. It is more accurate, and requirements are more understandable, to relate what service access is being required to the type of account being used to access it.
 
-## Account Structure and Relationships
+## Account Structure and Relationships {#CitizenAccessv2.0.0-AccountStructureandRelationships}
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/1754366487/Account%20Structure%20(1).jpg?api=v2)
 
@@ -64,7 +64,7 @@ An Online Service Account consists of only a user name and password, which may b
 
 A Linked Online Service Account differs from an Online Service Account only in that it also consists of the Account Linkage Key, Practice ODS code and Supplier's Patient ID to enable the correct VUA account to be identified and linked.
 
-## Account Lifecycle
+## Account Lifecycle {#CitizenAccessv2.0.0-AccountLifecycle}
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/1754366487/Account%20Lifecycle%202%20(1).jpg?api=v2)
 
@@ -74,7 +74,7 @@ For further information on Identity Verification please see DCB3051 for Identit
 
 Note that the authority does not limit how many VUAs may be associated with an LOSA, i.e. a Supplier could allow a service user to associate their OSA with both their own VUA and one for whom they're acting as a proxy so that they can manage both themselves and another Patient through a single login (see proxy service access below).
 
-# Online Accounts and Proxy Service Access
+# Online Accounts and Proxy Service Access {#CitizenAccessv2.0.0-OnlineAccountsandProxyServiceAccess}
 
 In some circumstances Citizens can be granted access to Citizen services on behalf of another Patient i.e. as their proxy. For example, as a parent booking Appointments for a Child. The way that service account structures are created to support this can vary depending on the location of the records involved and also the Suppliers' Solution architecture:
 
@@ -87,7 +87,7 @@ Citizens will be able to access all enabled Citizen Services functionality as we
 
 A Citizen will be able to access Citizen Services for more than one Patient where required and receive notifications (e.g. around updates to Service Access and verification of Contact Details). Citizens will also be able to request to make changes to demographic information (either for themselves or for Patients that they are acting on behalf of).
 
-# Requirements
+# Requirements  {#CitizenAccessv2.0.0-Requirements}
 
 | Requirement ID | Requirement Text | Level |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ A Citizen will be able to access Citizen Services for more than one Patient wher
 | **GP-SPFS-5.3-09** | **Citizen Communication/Notification - Patient**  Any communication directly between Citizen Services and the Patient containing or based on information from the Patient Information Maintenance (PIM) Solution to use the Patient's Preferred Verified Contact Details (as obtained from the PIM Solution)   - Where Preferred Verified Contact Details have not been recorded, any verified Contact Details to be used. - Where no Contact Details have been verified, Patient to be informed via any Contact Details provided, however, Patient Details (with the exception of Patient Name (Title, Forename(s) and Family Name) will not be included within the Communication | MUST |
 | **CA20** | **Citizen Communication/Notification - Proxy**  Any communication directly between Citizen Services and the Proxy containing or based on information from the Patient Information Maintenance (PIM) Solution to use the Proxy's Preferred Verified Contact Details (as obtained from the PIM Solution)   - Where Preferred Verified Contact Details have not been recorded, any verified Contact Details to be used. - Where no Contact Details have been verified, Proxy to be informed via any Contact Details provided, however, Patient Details (with the exception of Patient Name (Title, Forename(s) and Family Name) will not be included within the Communication | MUST |
 
-# Capabilities
+# Capabilities {#CitizenAccessv2.0.0-Capabilities}
 
 **Applicable Capabilities**
 
@@ -143,7 +143,7 @@ All supplier Solutions delivering one or more of the of the following Capabiliti
 
 There are no items with the selected labels at this time.
 
-# Roadmap
+# Roadmap {#CitizenAccessv2.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

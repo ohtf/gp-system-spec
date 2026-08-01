@@ -21,7 +21,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#CareHomesv1.0.1-Description}
 
 The Care Home Capability supports the provision of health and care services to Residents who are residing in a Care Home.
 
@@ -35,7 +35,7 @@ The Capability has the potential to support a much wider range of operational an
 
 The Capability may also contribute to improvements in performance through provision of data for analysis.
 
-# Outcomes
+# Outcomes {#CareHomesv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -46,7 +46,7 @@ The Capability may also contribute to improvements in performance through provis
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C21E1 - maintain Resident's Care Home Record
+### C21E1 - maintain Resident's Care Home Record {#CareHomesv1.0.1-C21E1-maintainResident'sCareHomeRecord}
 
 As a Health or Care Professional with a legitimate relationship to a Care Home Resident
 
@@ -54,7 +54,7 @@ I want to maintain a comprehensive record of the Resident and their care
 
 So that I can ensure that a comprehensive record of their care is maintained and is accessible
 
-#### Acceptance criterion 1: create Resident's record
+#### Acceptance criterion 1: create Resident's record {#CareHomesv1.0.1-Acceptancecriterion1:createResident'srecord}
 
 Given the user has the correct permissions to create a Resident record
 
@@ -64,7 +64,7 @@ Then the record for the Resident can be created
 
 And details about the Resident can be recorded
 
-#### Acceptance criterion 2: view Resident's record
+#### Acceptance criterion 2: view Resident's record {#CareHomesv1.0.1-Acceptancecriterion2:viewResident'srecord}
 
 Given a user (e.g. Health or Care Professional, Care Home Staff Member) has permissions to view the Resident's record
 
@@ -72,7 +72,7 @@ When they choose to view the Resident's record
 
 Then they can view the Resident's record
 
-#### Acceptance criterion 3: amend Resident's record
+#### Acceptance criterion 3: amend Resident's record {#CareHomesv1.0.1-Acceptancecriterion3:amendResident'srecord}
 
 Given the user has the correct permissions to amend a Resident record
 
@@ -80,7 +80,7 @@ When an update to a Resident's record is required
 
 Then the record for the Resident can be updated
 
-#### Acceptance criterion 4: close Resident's record
+#### Acceptance criterion 4: close Resident's record {#CareHomesv1.0.1-Acceptancecriterion4:closeResident'srecord}
 
 Given the user has the correct permissions to close a Resident record
 
@@ -90,7 +90,7 @@ Then the record for the Resident can be closed or made inactive
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C21E2 - maintain Resident Proxy preferences
+### C21E2 - maintain Resident Proxy preferences  {#CareHomesv1.0.1-C21E2-maintainResidentProxypreferences}
 
 As a Care Home Manager
 
@@ -98,7 +98,7 @@ I want to maintain records of a Resident's consent preferences regarding a Pr
 
 So that I can ensure a Resident's consent preferences are correct
 
-#### Acceptance criterion 1: maintain Resident's preferences regarding Proxies
+#### Acceptance criterion 1: maintain Resident's preferences regarding Proxies {#CareHomesv1.0.1-Acceptancecriterion1:maintainResident'spreferencesregardingProxies}
 
 Given a Resident has nominated a Proxy
 
@@ -112,7 +112,7 @@ And amend the record to reflect the details of the proxy
 
 And record the Resident's preferences with regard to the Proxy and decision-making circumstances
 
-#### Acceptance criterion 2: Proxy accesses Resident's record
+#### Acceptance criterion 2: Proxy accesses Resident's record {#CareHomesv1.0.1-Acceptancecriterion2:ProxyaccessesResident'srecord}
 
 Given a Resident has nominated a Proxy to have access to view their record
 
@@ -120,7 +120,7 @@ When the Resident's preferences regarding the Proxy are recorded
 
 Then the Proxy can view the Resident's record
 
-#### Acceptance criterion 3: treatment assent given by Proxy
+#### Acceptance criterion 3: treatment assent given by Proxy {#CareHomesv1.0.1-Acceptancecriterion3:treatmentassentgivenbyProxy}
 
 Given a Resident's Care Plan requires agreement for a treatment to go ahead
 
@@ -132,7 +132,7 @@ Then details of the decision being made by the Proxy (rather than the Resident 
 
 ---
 
-### C21E3 - view and maintain End of Life Care Plans
+### C21E3 - view and maintain End of Life Care Plans {#CareHomesv1.0.1-C21E3-viewandmaintainEndofLifeCarePlans}
 
 As a Care Home Manager
 
@@ -140,7 +140,7 @@ I want to ensure that everyone involved in a Resident's care can view and maint
 
 So that a Resident's wishes regarding End of Life Care are recorded and can be respected should the plan be enacted
 
-#### Acceptance criterion 1: create an End of Life Care Plan for a Resident
+#### Acceptance criterion 1: create an End of Life Care Plan for a Resident {#CareHomesv1.0.1-Acceptancecriterion1:createanEndofLifeCarePlanforaResident}
 
 Given the user has the correct permissions to create an End of Life Care Plan for a Resident
 
@@ -154,7 +154,7 @@ And the Resident's record indicates that the plan exists
 
 And the End of Life Care Plan's existence can be communicated to other interested parties (e.g. G.P.)
 
-#### Acceptance criterion 2: view End of Life Care Plan for a Resident
+#### Acceptance criterion 2: view End of Life Care Plan for a Resident {#CareHomesv1.0.1-Acceptancecriterion2:viewEndofLifeCarePlanforaResident}
 
 Given a user (e.g. Health or Care Professional, Care Home Staff Member) has permissions to view the End of Life Care Plan
 
@@ -162,7 +162,7 @@ When they choose to view the End of Life Care Plan
 
 Then they can view the Resident's End of Life Care Plan
 
-#### Acceptance criterion 3: amend an End of Life Care Plan for a Resident
+#### Acceptance criterion 3: amend an End of Life Care Plan for a Resident {#CareHomesv1.0.1-Acceptancecriterion3:amendanEndofLifeCarePlanforaResident}
 
 Given the user has the correct permissions to amend an End of Life Care Plan for a Resident
 
@@ -170,7 +170,7 @@ When a change is required to an End of Life Care Plan for a Resident
 
 Then the End of Life Care Plan for the Resident can be amended
 
-#### Acceptance criterion 4: close an End of Life Care Plan for a Resident
+#### Acceptance criterion 4: close an End of Life Care Plan for a Resident {#CareHomesv1.0.1-Acceptancecriterion4:closeanEndofLifeCarePlanforaResident}
 
 Given the user has the correct permissions to close an End of Life Care Plan for a Resident
 
@@ -178,7 +178,7 @@ When the End of Life Care Plan for a Resident is no longer required
 
 Then the End of Life Care Plan for the Resident can be closed or made inactive
 
-#### Acceptance criterion 5: record the existence of an externally held but accessible End of Life Care Plan for a Resident
+#### Acceptance criterion 5: record the existence of an externally held but accessible End of Life Care Plan for a Resident {#CareHomesv1.0.1-Acceptancecriterion5:recordtheexistenceofanexternallyheldbutaccessibleEndofLifeCarePlanforaResident}
 
 Given a Record exists for a Resident
 
@@ -188,7 +188,7 @@ Then information about the existing End of Life Care Plan can be recorded (e.g
 
 ---
 
-### C21E4 - record incident and adverse events
+### C21E4 - record incident and adverse events {#CareHomesv1.0.1-C21E4-recordincidentandadverseevents}
 
 As a Health or Care Professional providing a service to the Resident
 
@@ -196,7 +196,7 @@ I want to record details of any Resident-related incidents or adverse events and
 
 So that I can ensure that others involved in their care can contribute to any immediate care decisions and any mitigating actions to prevent further occurrence of such events
 
-#### Acceptance criterion 1: generate an incident or adverse event report
+#### Acceptance criterion 1: generate an incident or adverse event report  {#CareHomesv1.0.1-Acceptancecriterion1:generateanincidentoradverseeventreport}
 
 Given there is provision to record information about incident or adverse events
 
@@ -206,7 +206,7 @@ Then a record of the incident or adverse event can be created
 
 And the record can be maintained
 
-#### Acceptance criterion 2: receive an automatic incident or adverse event report notification
+#### Acceptance criterion 2: receive an automatic incident or adverse event report notification {#CareHomesv1.0.1-Acceptancecriterion2:receiveanautomaticincidentoradverseeventreportnotification}
 
 Given an incident or adverse event has arisen concerning a Resident
 
@@ -218,7 +218,7 @@ Then notifications are sent to the relevant recipients
 
 ---
 
-### C21E5 - maintain Staff Records
+### C21E5 - maintain Staff Records {#CareHomesv1.0.1-C21E5-maintainStaffRecords}
 
 As a Care Home Manager
 
@@ -226,7 +226,7 @@ I want to be able to maintain accurate records for Staff Members
 
 So that I can use the information to generate schedules and assign appropriate staff to undertake activities related to Resident care
 
-#### Acceptance criterion 1: maintain staff record
+#### Acceptance criterion 1: maintain staff record {#CareHomesv1.0.1-Acceptancecriterion1:maintainstaffrecord}
 
 Given a record is required for Staff Members
 
@@ -240,7 +240,7 @@ And information about the Staff Member can be recorded
 
 ---
 
-### C21E6 - maintain Staff Task schedules
+### C21E6 - maintain Staff Task schedules {#CareHomesv1.0.1-C21E6-maintainStaffTaskschedules}
 
 As a Care Home Manager
 
@@ -248,7 +248,7 @@ I want to be able to create and maintain schedules
 
 So that tasks relating to Resident care are delivered efficiently (i.e. right time) and effectively (i.e. right person and skills)
 
-#### Acceptance criterion 1: create Staff schedules
+#### Acceptance criterion 1: create Staff schedules {#CareHomesv1.0.1-Acceptancecriterion1:createStaffschedules}
 
 Given care-related tasks are required (e.g. medication administration, dressing changes, bed changes, etc) for Residents at defined frequencies
 
@@ -264,7 +264,7 @@ And reports on any unassigned tasks or conflicts
 
 And the schedule can be saved
 
-#### Acceptance criterion 2: manually amend Staff schedules
+#### Acceptance criterion 2: manually amend Staff schedules {#CareHomesv1.0.1-Acceptancecriterion2:manuallyamendStaffschedules}
 
 Given a schedule of tasks has been created
 
@@ -278,7 +278,7 @@ And the changes to the schedule can be saved
 
 ---
 
-### C21E7 - manage Tasks
+### C21E7 - manage Tasks {#CareHomesv1.0.1-C21E7-manageTasks}
 
 As a Care Home Manager
 
@@ -286,7 +286,7 @@ I want to monitor the status of tasks assigned to members of staff
 
 So that I can identify and respond to any issues with delivery of care tasks
 
-#### Acceptance criterion 1: monitor Task progress
+#### Acceptance criterion 1: monitor Task progress {#CareHomesv1.0.1-Acceptancecriterion1:monitorTaskprogress}
 
 Given a schedule of routine tasks has been created
 
@@ -298,7 +298,7 @@ When the report or dashboard of progress is selected
 
 Then information relating to the progress of tasks (e.g. start time, status) can be viewed
 
-#### Acceptance criterion 2: generate Task reminder
+#### Acceptance criterion 2: generate Task reminder {#CareHomesv1.0.1-Acceptancecriterion2:generateTaskreminder}
 
 Given a Staff Member has been assigned a task to commence at a scheduled time
 
@@ -312,7 +312,7 @@ And a further reminder can be sent if the task becomes overdue
 
 ---
 
-### C21E8 - reporting
+### C21E8 - reporting {#CareHomesv1.0.1-C21E8-reporting}
 
 As a Care Home Manager
 
@@ -320,7 +320,7 @@ I want to generate reports relating to the care provided to Residents
 
 So that I can better plan and manage the delivery of care
 
-#### Acceptance criterion 1: reports based on a range of selection criteria
+#### Acceptance criterion 1: reports based on a range of selection criteria {#CareHomesv1.0.1-Acceptancecriterion1:reportsbasedonarangeofselectioncriteria}
 
 Given that information relating to care of Residents is available (e.g. Resident records, information about care tasks or incidents or adverse events)
 

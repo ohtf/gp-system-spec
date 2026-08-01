@@ -10,9 +10,9 @@ labels: []
 
 # Solution Registration
 
-# Summary
+# Summary {#SolutionRegistration-Summary}
 
-#### Living Documents
+#### Living Documents {#SolutionRegistration-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -22,12 +22,12 @@ The processes are under continual review and will be amended as required.
 
 The Solution Registration activity involves collecting information about you and your Solution so that we have an accurate record of the products you wish to advertise on the Buying Catalogue.
 
-# Outcomes
+# Outcomes {#SolutionRegistration-Outcomes}
 
 - You will have formally submitted your products to the TIF Onboarding Process
 - We have a complete and verified record about you and your products
 
-# Actions Required
+# Actions Required {#SolutionRegistration-ActionsRequired}
 
 The following is a process guide to follow in order to begin registration, it details what actions are required by you, the Supplier, and by us, the Programme.
 

@@ -26,11 +26,11 @@ labels: ["standard"]
 - [Dependencies](#GPConnectUpdateRecord-Dependencies)
 - [Roadmap](#GPConnectUpdateRecord-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectUpdateRecord-Introduction}
 
 GP Connect Update Record provides a simple and standardised means for a Sender Solution to send structured data to a GP Practice Receiver Solution so that it can be added to a Patient’s GP Practice Electronic Patient Record (EPR).
 
-# Requirements
+# Requirements {#GPConnectUpdateRecord-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -38,17 +38,17 @@ GP Connect Update Record provides a simple and standardised means for a Sender S
 | Receiver | GPCUR01 | Implement and maintain the [GP Connect Update Record - ITK3](https://simplifier.net/guide/gp-connect--update-record--itk3/home/introduction/release-notes?version=1.2.1-public-beta) Receiver requirements inline with the latest specification version. | MUST |
 | Sender | GPCUR02 | Implement and maintain the [GP Connect Update Record - ITK3](https://simplifier.net/guide/gp-connect--update-record--itk3/home/introduction/release-notes?version=1.2.1-public-beta) Sender requirements inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectUpdateRecord-Compliance,AssuranceandTesting}
 
 See the GP Connect Update Record - Sender/Receiver section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#GPConnectUpdateRecord-Documentation}
 
 - [Developer Implementation Guide](https://simplifier.net/guide/gp-connect--update-record--itk3/Home/Introduction/Introduction?version=1.2.1-public-beta)
 - [GP Connect service information](https://digital.nhs.uk/services/gp-connect)
 - [Develop GP Connect services](https://digital.nhs.uk/services/gp-connect/develop-gp-connect-services)
 
-# Dependencies
+# Dependencies {#GPConnectUpdateRecord-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards
 
@@ -58,7 +58,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 \*May be sourced indirectly by existing PDS interface provided by a Patient Information Maintenance - GP Solution, either via API to this Solution, or as a shared application resource if delivered as part of the same Solution.
 
-# Roadmap
+# Roadmap {#GPConnectUpdateRecord-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

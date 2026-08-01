@@ -12,12 +12,12 @@ labels: ["interop_standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S56 |
-| Version | 2.1.0 |
-| Type | Interoperability Standard |
-| Status | Retired |
-| Effective Date | 06 Jun 2024 |
-| Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
+| ID {#PersonalDemographicsService(PDS)v2.1.0-ID} | S56 |
+| Version {#PersonalDemographicsService(PDS)v2.1.0-Version} | 2.1.0 |
+| Type {#PersonalDemographicsService(PDS)v2.1.0-Type} | Interoperability Standard |
+| Status {#PersonalDemographicsService(PDS)v2.1.0-Status} | Retired |
+| Effective Date {#PersonalDemographicsService(PDS)v2.1.0-EffectiveDate} | 06 Jun 2024 |
+| Framework(s) {#PersonalDemographicsService(PDS)v2.1.0-Framework(s)} | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
 - [Introduction](#PersonalDemographicsService(PDS)v2.1.0-Introduction)
 - [Requirements](#PersonalDemographicsService(PDS)v2.1.0-Requirements)
@@ -32,26 +32,26 @@ labels: ["interop_standard_retired"]
   - [2018 PDS Integration Requirements – v1.0 or older](#PersonalDemographicsService(PDS)v2.1.0-2018PDSIntegrationRequirements–v1.0orolder.1)
 - [Roadmap](#PersonalDemographicsService(PDS)v2.1.0-Roadmap)
 
-# Introduction
+# Introduction {#PersonalDemographicsService(PDS)v2.1.0-Introduction}
 
 The Personal Demographics Service (PDS) is the national electronic database of NHS Patient details such as name, address, date of birth and NHS Number (known as demographic information).
 
-# Requirements
+# Requirements  {#PersonalDemographicsService(PDS)v2.1.0-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
-| Suppliers of services which ARE currently deployed into an operational environment, and have existing PDS compliance. | PDS01 | PDS Integration Requirements 2006-B, or a later version (e.g. 2018 PDS Integration Requirements – v1.0 or PDS FHIR API). | MUST |
-| Suppliers of new services or applications (i.e. those which are NOT currently deployed into an operational environment with existing PDS compliance). | PDS02 | Implement and maintain the Personal Demographics Service (PDS) FHIR API inline with the latest specification version. | MUST |
+| Suppliers of services which ARE currently deployed into an operational environment, and have existing PDS compliance. | PDS01 {#PersonalDemographicsService(PDS)v2.1.0-PDS01} | PDS Integration Requirements 2006-B, or a later version (e.g. 2018 PDS Integration Requirements – v1.0 or PDS FHIR API). | MUST |
+| Suppliers of new services or applications (i.e. those which are NOT currently deployed into an operational environment with existing PDS compliance). | PDS02 {#PersonalDemographicsService(PDS)v2.1.0-PDS02} | Implement and maintain the Personal Demographics Service (PDS) FHIR API inline with the latest specification version. | MUST |
 
 All Suppliers are encouraged to work towards compliance with the latest version as above.
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#PersonalDemographicsService(PDS)v2.1.0-Compliance,AssuranceandTesting}
 
-### PDS FHIR API
+### PDS FHIR API {#PersonalDemographicsService(PDS)v2.1.0-PDSFHIRAPI}
 
 For Suppliers of new services or applications, see the Personal Demographics Service (PDS) section on Onboarding Overview of the Digital Services for Integrated Care (DSIC) Interoperability Standards and Requirements.
 
-### 2018 PDS Integration Requirements – v1.0 or older
+### 2018 PDS Integration Requirements – v1.0 or older {#PersonalDemographicsService(PDS)v2.1.0-2018PDSIntegrationRequirements–v1.0orolder}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -72,11 +72,11 @@ The documents that define and support the compliance assurance and testing acti
 
 For advice and support from the NHS Business Partners Programme, please contact businesspartners@nhs.net or visit https://digital.nhs.uk/services/nhs-business-partners
 
-# Documentation
+# Documentation {#PersonalDemographicsService(PDS)v2.1.0-Documentation}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
-### PDS FHIR API
+### PDS FHIR API {#PersonalDemographicsService(PDS)v2.1.0-PDSFHIRAPI.1}
 
 For Suppliers of new services or applications:
 
@@ -86,7 +86,7 @@ For Suppliers of new services or applications:
 
 It is recommended to read GP software developer guide in conjunction with the API documentation.
 
-### 2018 PDS Integration Requirements – v1.0
+### 2018 PDS Integration Requirements – v1.0 {#PersonalDemographicsService(PDS)v2.1.0-2018PDSIntegrationRequirements–v1.0}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -110,9 +110,9 @@ The following document provides useful background information on how a supplier 
 
 - NPFIT-FNT-TO-DSD-0120.06 BUC Sensitive Patients - LocalBusiness Processes v1.0.doc
 
-# Dependencies
+# Dependencies {#PersonalDemographicsService(PDS)v2.1.0-Dependencies}
 
-### PDS FHIR API
+### PDS FHIR API {#PersonalDemographicsService(PDS)v2.1.0-PDSFHIRAPI.2}
 
 For Suppliers of new services or applications
 
@@ -121,7 +121,7 @@ Creating a compliant implementation requires implementing the following dependen
 - Authentication and Access - using NHS Care Identity Service 2 API
 - SDS FHIR API
 
-### 2018 PDS Integration Requirements – v1.0 or older
+### 2018 PDS Integration Requirements – v1.0 or older {#PersonalDemographicsService(PDS)v2.1.0-2018PDSIntegrationRequirements–v1.0orolder.1}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -133,7 +133,7 @@ Creating a compliant implementation previously required implementing the followi
 - NHS Messaging Implementation Manual (MIM)
 - Authentication and Access
 
-# Roadmap
+# Roadmap {#PersonalDemographicsService(PDS)v2.1.0-Roadmap}
 
 | **Items on the Roadmap which impact or relate to this Standard** |
 | --- |

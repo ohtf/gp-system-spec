@@ -12,30 +12,30 @@ labels: ["supp_care_standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | SCS1 |
-| Version | 1.0.0 |
-| Type | Supplementary Care Standard |
-| Status | Retired |
-| Effective Date | 30 Aug 2024 |
-| Framework | N/A |
+| ID {#CommunityPharmacyClinicalServicesV1.0.0-ID} | SCS1 |
+| Version {#CommunityPharmacyClinicalServicesV1.0.0-Version} | 1.0.0 |
+| Type {#CommunityPharmacyClinicalServicesV1.0.0-Type} | Supplementary Care Standard |
+| Status {#CommunityPharmacyClinicalServicesV1.0.0-Status} | Retired |
+| Effective Date {#CommunityPharmacyClinicalServicesV1.0.0-EffectiveDate} | 30 Aug 2024 |
+| Framework {#CommunityPharmacyClinicalServicesV1.0.0-Framework} | N/A |
 
-# Description
+# Description {#CommunityPharmacyClinicalServicesV1.0.0-Description}
 
 Supports Referrals to Community Pharmacy and the management of Community Pharmacy Consultations. Also supports the submission of data to the NHS Business Services Authority (NHSBSA) for payment purposes.
 
-# Functional Requirements
+# Functional Requirements {#CommunityPharmacyClinicalServicesV1.0.0-FunctionalRequirements}
 
 |  |  |  |
 | --- | --- | --- |
-| ID | Requirement | Level |
+| ID {#CommunityPharmacyClinicalServicesV1.0.0-ID.1} | Requirement {#CommunityPharmacyClinicalServicesV1.0.0-Requirement} | Level {#CommunityPharmacyClinicalServicesV1.0.0-Level} |
 | SCSCP01 | Adhere to all Epics (MUST and MAY) in the Consultation Management - Community Pharmacy Capability | MUST |
 | SCSCP02 | Adhere to all Epics (MUST and MAY) in the Referral Management - Community Pharmacy Capability | MUST |
 
-# Secondary Artefacts
+# Secondary Artefacts {#CommunityPharmacyClinicalServicesV1.0.0-SecondaryArtefacts}
 
 Currently, there are no Secondary Artefacts in this Supplementary Care Standard.
 
-# Roadmap
+# Roadmap {#CommunityPharmacyClinicalServicesV1.0.0-Roadmap}
 
 | **Items on the Roadmap which impact or relate to this Supplementary Care Standard** |
 | --- |

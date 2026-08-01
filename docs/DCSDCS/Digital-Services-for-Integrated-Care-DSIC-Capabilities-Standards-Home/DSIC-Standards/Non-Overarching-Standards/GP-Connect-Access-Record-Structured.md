@@ -27,11 +27,11 @@ labels: ["standard"]
 - [Dependencies](#GPConnectAccessRecordStructured-Dependencies)
 - [Roadmap](#GPConnectAccessRecordStructured-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectAccessRecordStructured-Introduction}
 
 The GP Connect Access Record Structured API enables a Solution to request and consume a Patient’s GP Practice Electronic Patient Record (EPR) in a structured and coded format that is machine readable. The data will be made available via a standard API. Structured data allows the Consumer Solution to import and process the Patient data in the way it requires to best support Patients and the Health and Care Professionals treating them.
 
-# Requirements
+# Requirements {#GPConnectAccessRecordStructured-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ The GP Connect Access Record Structured API enables a Solution to request and co
 | Provider | GPCARS01 | Implement and maintain the [GP Connect Access Record Structured](https://simplifier.net/guide/gp-connect-access-record-structured?version=current) Provider requirements inline with the latest specification version as per the Data by Capability section | MUST |
 | Consumer | GPCARS02 | Implement and maintain the [GP Connect Access Record Structured](https://simplifier.net/guide/gp-connect-access-record-structured?version=current) Consumer requirements inline with the latest specification version as per the Data by Capability section | MUST |
 
-# Data by Capability Mapping
+# Data by Capability Mapping {#GPConnectAccessRecordStructured-DatabyCapabilityMapping}
 
 |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,15 +47,15 @@ The GP Connect Access Record Structured API enables a Solution to request and co
 | [Patient Information Maintenance - GP](../../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) |
 | [Consultation Management - Community Pharmacy](../../DSIC-Capabilities/Consultation-Management-Community-Pharmacy.md) | (tick) | (tick) | (tick) | (error) | (error) | (error) | (error) | (error) | (error) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectAccessRecordStructured-Compliance,AssuranceandTesting}
 
 See the GP Connect Access Record Structured - Provider/Consumer section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#GPConnectAccessRecordStructured-Documentation}
 
 - [GP Connect - Access Record Structured](https://simplifier.net/guide/gp-connect-access-record-structured?version=current)
 
-# Dependencies
+# Dependencies {#GPConnectAccessRecordStructured-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
@@ -63,7 +63,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 \*May be sourced indirectly by existing PDS interface provided by a Patient Information Maintenance - GP Solution, either via API to this Solution, or as a shared application resource if delivered as part of the same Solution.
 
-# Roadmap
+# Roadmap {#GPConnectAccessRecordStructured-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

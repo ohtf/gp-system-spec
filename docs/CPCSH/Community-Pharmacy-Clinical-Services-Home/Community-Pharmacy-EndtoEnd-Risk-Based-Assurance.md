@@ -16,7 +16,7 @@ labels: []
 | **Version** | 1.0.1 |
 | **Type** | Reference |
 
-## End-to-End Risk-Based Assurance Approach
+## End-to-End Risk-Based Assurance Approach {#CommunityPharmacyEnd‑to‑EndRiskBasedAssurance-End-to-EndRisk-BasedAssuranceApproach}
 
 As part of onboarding to the NHS Buying Catalogue, Community Pharmacy Suppliers are required to demonstrate that their Solution safely supports end‑to‑end clinical and data journeys, bringing together individual Capabilities and related integrations.
 
@@ -28,13 +28,13 @@ An End‑to‑End journey represents a realistic clinical or operational workflo
 
 ---
 
-## End-to-End Risk Log
+## End-to-End Risk Log {#CommunityPharmacyEnd‑to‑EndRiskBasedAssurance-End-to-EndRiskLog}
 
 The Solutions Assurance Team has produced a [Community Pharmacy End-to-End Risk Log](https://nhse-dsic.atlassian.net/wiki/download/attachments/15023800355/Community%20Pharmacy%20End%20to%20End%20Risk%20Log.xlsx?api=v2) for reference, which captures the key risks that arise across the full journey: from referral receipt, through consultation delivery, including consent and record access, to GP record update and payment claim submission.
 
 ---
 
-## **Using the End‑to‑End Risk Log**
+## **Using the End‑to‑End Risk Log** {#CommunityPharmacyEnd‑to‑EndRiskBasedAssurance-UsingtheEnd‑to‑EndRiskLog}
 
 Suppliers are expected to:
 
@@ -46,7 +46,7 @@ The test scripts provided by the Solutions Assurance team is not prescriptive. H
 
 ---
 
-## **Test Execution and Assurance**
+## **Test Execution and Assurance** {#CommunityPharmacyEnd‑to‑EndRiskBasedAssurance-TestExecutionandAssurance}
 
 Suppliers must execute their End‑to‑End tests and clearly map them to the risks they mitigate. Test execution will be witnessed by the Solutions Assurance team, who will review the test evidence as part of assurance.
 

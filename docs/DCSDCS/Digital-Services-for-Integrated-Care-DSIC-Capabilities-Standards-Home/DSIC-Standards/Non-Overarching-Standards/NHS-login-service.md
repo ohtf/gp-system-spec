@@ -28,7 +28,7 @@ labels: ["standard"]
 - [Dependencies](#NHSloginservice-Dependencies)
 - [Roadmap](#NHSloginservice-Roadmap)
 
-# Introduction
+# Introduction {#NHSloginservice-Introduction}
 
 The NHS login Programme has developed a single, secure and easy-to-use system for verifying the identity of Citizens and Services requesting access to digital health records so that we can ensure people only access information about themselves and those in their care. Additional information can be found on the [NHS login page](https://www.nhs.uk/nhs-services/nhs-login/) on The Authority's website.
 
@@ -40,7 +40,7 @@ Future phases on the Roadmap (see below) will require GP Solutions to:
 
 Please note this initiative was previously known as Citizen Identity.
 
-# Requirements
+# Requirements  {#NHSloginservice-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -48,27 +48,27 @@ Please note this initiative was previously known as Citizen Identity.
 | Foundation Solution Suppliers | **NL01** | **GP Linkage Key**  Suppliers to provide an interface that allows the creation and retrieval of Linkage information when presented with an NHS Number. The Linkage Key information will then be used for subsequent IM1 interactions. | MUST |
 | Citizen Services Solution Suppliers | **NL02** | **NHS Login Integration**  Suppliers to implement and maintain the NHS login integration inline with the latest documentation and offer the "Continue with NHS login" button on the front of Service for new and returning users. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing  {#NHSloginservice-Compliance,AssuranceandTesting}
 
 See the NHS Login Service section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#NHSloginservice-Documentation}
 
-## GP Linkage Key
+## GP Linkage Key {#NHSloginservice-GPLinkageKey}
 
 Part of this work involves the development of a new simple interface to retrieve and create Linkage Keys for users, whereby the NHS login platform is used to register and verify users via an online process. As part of this process, the NHS login platform will obtain an NHS number (with appropriate consent) and validate this against PDS and GP Practice Codes (i.e. ODS Codes). This approach will allow the NHS login platform to retrieve Linkage Keys for users and allow the platform to generate new Linkage Keys for users where they do not already have one. The latest requirements set can be accessed below:
 
-[Linkage Key API Specific…](NHS-login-service.md)
+[Linkage Key API Specific…](../../../../.raw/DCSDCS/attachments/1391133874/att1391149290-Linkage Key API Specification v1.0.docx)
 
-## Using NHS Login Integration
+## Using NHS Login Integration  {#NHSloginservice-UsingNHSLoginIntegration}
 
 Full details of how to integrate with NHS login and if you are eligible can be found on the [Apply for NHS login - NHS Digital](https://digital.nhs.uk/services/nhs-login/nhs-login-for-partners-and-developers/nhs-login-integration-toolkit/apply-for-nhs-login) and [NHS login Integration Toolkit](https://digital.nhs.uk/services/nhs-login/nhs-login-for-partners-and-developers/nhs-login-integration-toolkit)
 
-# Dependencies
+# Dependencies {#NHSloginservice-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#NHSloginservice-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

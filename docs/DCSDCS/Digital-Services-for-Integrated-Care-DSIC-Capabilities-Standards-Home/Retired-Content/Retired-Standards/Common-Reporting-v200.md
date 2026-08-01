@@ -18,7 +18,7 @@ labels: ["context_specific_retired"]
 | Status | Retired |
 | Effective Date | 31 Dec 2020 |
 
-# Description
+# Description {#CommonReportingv2.0.0-Description}
 
 Supports the reporting needs that are common to General Practices and includes searchable report templates.
 
@@ -30,22 +30,22 @@ A report can be a summary view of Search Results, that can include aggregate inf
 
 Reporting functionality will be used to report on the clinical care, performance and activity of individual Patients. It will provide Organisations with the ability to define and manage locally defined reports. This includes Supplier defined reports to support known standard Reporting requirements; as well as reacting to evolving Reporting Requirements to support public health directives and initiatives as defined by NHS England.
 
-# Requirements
+# Requirements {#CommonReportingv2.0.0-Requirements}
 
 | Requirement ID | Requirement Text | Level |
 | --- | --- | --- |
-| **GP-11.1-01** | **Define Search Criteria**  Use all/any combination of coded or structured data held within or linked to the Patient Record as Search Criteria.   - Enter future and/or historical dates into Search Criteria e.g. allowing ability to search for future Appointments or Patients born in a certain year - Enter Defined time periods to report on (hours, days, weeks, months) - Allow Users to explicitly indicate that they wish to include deceased and/or Inactive Patients within Search Results where the Patient Record meets Search Criteria. Where the output can include sensitive data for Patients with whom a User has no Legitimate Relationship, the reason selected for accessing these records (as specified in Information Governance standard) shall be applied to all affected Patients in a single step - Allow Users to enter data as Search Criteria that is deemed to be inactive and possibly prevented from ongoing data entry into a Patient record i.e. search on a previously active term | MUST |
+| **GP-11.1-01** {#CommonReportingv2.0.0-GP-11.1-01GP-11.1-01} | **Define Search Criteria**  Use all/any combination of coded or structured data held within or linked to the Patient Record as Search Criteria.   - Enter future and/or historical dates into Search Criteria e.g. allowing ability to search for future Appointments or Patients born in a certain year - Enter Defined time periods to report on (hours, days, weeks, months) - Allow Users to explicitly indicate that they wish to include deceased and/or Inactive Patients within Search Results where the Patient Record meets Search Criteria. Where the output can include sensitive data for Patients with whom a User has no Legitimate Relationship, the reason selected for accessing these records (as specified in Information Governance standard) shall be applied to all affected Patients in a single step - Allow Users to enter data as Search Criteria that is deemed to be inactive and possibly prevented from ongoing data entry into a Patient record i.e. search on a previously active term | MUST |
 | **CR-01** | **Synthetic Patients**  Allow Users to explicitly indicate that they wish to include synthetic Patients within search results where the Patient Record meets Search Criteria (default to exclude synthetic records).  Where a patient or data about a synthetic patient is included, this will be clearly indicated in search results. | MAY |
 | **GP-11.3-06** | **Reporting by Age/Sex**  Ability to generate Patient-based reports on Age/Sex analysis (number of Patients falling within User-definable age/Sex bands) | MUST |
-| **GP-11.1-02** | **Save Search Criteria**  Save Search Criteria, allocating a User-defined name   - Allow saved search criteria to be re-used/re-run | MUST |
+| **GP-11.1-02** {#CommonReportingv2.0.0-GP-11.1-02} | **Save Search Criteria**  Save Search Criteria, allocating a User-defined name   - Allow saved search criteria to be re-used/re-run | MUST |
 | **GP-11.1-04** | **SNOMED CT Reporting**   All searching and reporting functionality will be specified in the SNOMED CT hierarchy where appropriate. Existing reports will need to provide correct results after the introduction of new content  captured using SNOMED CT, and new reports need to operate correctly over historic data even when specified in SNOMED CT. This will include but is not limited to:   - eMed3 - QOF - Practice reports - National audits - National screening   See Data Standards and SNOMED CT for further information | MUST |
 | **GP-11.3-07** | **Temporary/local Clinical Terms Reporting**  Ability to generate a Patient-based report on Temporary/local Clinical Terms as per SNOMED CT (list of Patients who have an active temporary or local term within their Patient Record, by Clinical Term)  See Data Standards for Temporary/local Clinical terms definition. | MUST |
-| **GP-11.2-01** | **Generate Search Results**  Generate Search Results by applying a Search Criteria to Patient Records   - Display these results in a list containing a subset of data items from the Patient Record – Practice to define this subset from all structured data items | MUST |
-| **GP-11.2-02** | **Save Search Results**  Save Search Results, allocating a User-defined name   - Allow saved search results to be re-used/re-accessed | MUST |
-| **GP-11.2-04** | **Use Search Results**  Use Search Results   - Access/view selected Patient Record - Produce communication – individual and/or batch | MUST |
-| **GP-11.3-01** | **Report Templates**  Define, amend and delete report templates. Each template will need to have as a minimum:   - Unique identifier and/or name - Version | MUST |
-| **GP-11.3-02** | **Generate Report**  Create/generate a report by applying a locally defined report template to the results of Search Criteria – a report can be a summary view of Search Results or detailed Search Results list.  Users will have the ability to:   - Preview report - Navigate to Search Results i.e. see individual Patient Records that contribute to report content - Save report allocating a User-defined name, for future reference - Re-run report (for same or different date ranges) - Run a report adhoc - Print report - Schedule the automated running of reports at a specified date/time | MUST |
-| **GP-11.3-05** | **Create/Save report from default template**  Modify/customise standard reports and save as own report template | MUST |
+| **GP-11.2-01** {#CommonReportingv2.0.0-GP-11.2-01} | **Generate Search Results**  Generate Search Results by applying a Search Criteria to Patient Records   - Display these results in a list containing a subset of data items from the Patient Record – Practice to define this subset from all structured data items | MUST |
+| **GP-11.2-02** {#CommonReportingv2.0.0-GP-11.2-02} | **Save Search Results**  Save Search Results, allocating a User-defined name   - Allow saved search results to be re-used/re-accessed | MUST |
+| **GP-11.2-04** {#CommonReportingv2.0.0-GP-11.2-04GP-11.2-04} | **Use Search Results**  Use Search Results   - Access/view selected Patient Record - Produce communication – individual and/or batch | MUST |
+| **GP-11.3-01** {#CommonReportingv2.0.0-GP-11.3-01} | **Report Templates**  Define, amend and delete report templates. Each template will need to have as a minimum:   - Unique identifier and/or name - Version | MUST |
+| **GP-11.3-02** {#CommonReportingv2.0.0-GP-11.3-02} | **Generate Report**  Create/generate a report by applying a locally defined report template to the results of Search Criteria – a report can be a summary view of Search Results or detailed Search Results list.  Users will have the ability to:   - Preview report - Navigate to Search Results i.e. see individual Patient Records that contribute to report content - Save report allocating a User-defined name, for future reference - Re-run report (for same or different date ranges) - Run a report adhoc - Print report - Schedule the automated running of reports at a specified date/time | MUST |
+| **GP-11.3-05** {#CommonReportingv2.0.0-GP-11.3-05} | **Create/Save report from default template**  Modify/customise standard reports and save as own report template | MUST |
 | **GP-11.3-08** | **Identify where Patient is included/excluded for each criteria **in a report****  Ability for Users to identify at what point of the specified report criteria a Patient has been included or excluded (even if they are excluded from the overall report results).  For example, for a report with three specified criteria, indicate for a Patient the reason why they were included or excluded for each criterion. | MAY |
 | **GP-11.3-09** | **Identify why Patient is included **for each criteria**in a report**  Ability for Users to identify the reason why a Patient has been included based on the specified report criteria (e.g. the relevant SNOMED code was recorded).  For example, for a report with three specified criteria, indicate for a Patient the reason why they were included or excluded for each criterion. | MAY |
 | **GP-11.3-10** | **Show results using most up to date Patient Record data**  For GP-11.3-08, depending on the reporting mechanism, the data used for reporting might not match the data in the Patient Record at the time of running a report. In this case, Users will have the ability to see the results of GP-11.3-08 using the most up to date data from the Patient Record. | MAY |
@@ -63,7 +63,7 @@ Reporting functionality will be used to report on the clinical care, performance
 | **CR-03** | **Provide Reporting Functions**  Reporting functions to be provided whenever the Catalogue Solution is available for use by a customer. | SHOULD |
 | **CR-04** | **Reporting Functions to use up to date data**  Data used in reporting to be fully up to date to enable decisions to be made without compromising patient care. | SHOULD |
 
-# Capabilities
+# Capabilities {#CommonReportingv2.0.0-Capabilities}
 
 **Applicable Capabilities**
 
@@ -73,7 +73,7 @@ All supplier Solutions delivering one or more of the of the following Capabiliti
 
 There are no items with the selected labels at this time.
 
-# Roadmap
+# Roadmap {#CommonReportingv2.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

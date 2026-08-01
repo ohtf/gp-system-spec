@@ -27,13 +27,13 @@ labels: []
 - [Dependencies](#e-ReferralsService(e-RS)v2.0.0-Dependencies)
 - [Roadmap](#e-ReferralsService(e-RS)v2.0.0-Roadmap)
 
-# Introduction
+# Introduction {#e-ReferralsService(e-RS)v2.0.0-Introduction}
 
 The NHS e-Referral Service (NHS e-RS) combines electronic booking with a choice of place, date and time for first hospital or clinic Appointments. Patients can choose their initial hospital or clinic Appointment, book it in the GP surgery at the point of referral, or later at home on the phone or online.
 
 Service integration is presently supported through the Health and Social Care Network (HSCN) -based HL7 message interactions from the NHS Connecting for [Health Message Implementation Manual (MiM)](../../DSIC-Standards/Non-Overarching-Standards/NHS-Messaging-Implementation-Manual-MIM.md).
 
-# Compliance and Assurance
+# Compliance and Assurance {#e-ReferralsService(e-RS)v2.0.0-ComplianceandAssurance}
 
 To gain access to e-RS suppliers follow the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -49,25 +49,25 @@ These specifications contain a set of generic requirements applicable to all sys
 
 For advice, access to the documentation, and support from the NHS Business Partners programme, please contact [businesspartners@nhs.net](mailto:businesspartners@nhs.net)or visit <https://digital.nhs.uk/services/nhs-business-partners>
 
-# Testing
+# Testing {#e-ReferralsService(e-RS)v2.0.0-Testing}
 
 The design and testing of Supplier Solutions are based upon the NHS Connecting for Health MIM version 2.3 and 3.1.09.
 
 System Suppliers can access the updated data dictionary for the NHS e-RS. Other technical messaging documents can be found on the archived [Choose and Book site.](https://webarchive.nationalarchives.gov.uk/20160921151419/http://digital.nhs.uk/referrals)
 
-# Requirements
+# Requirements {#e-ReferralsService(e-RS)v2.0.0-Requirements}
 
 Please see requirements in the document below.
 
-[NHS e-Referrals Service …](e-Referrals-Service-e-RS-v200.md)
+[NHS e-Referrals Service …](../../../../.raw/DCSDCS/attachments/11910348809/att11910348829-NHS e-Referrals Service - Referrer Compliance Document v1.1.docx)
 
-# Documentation
+# Documentation {#e-ReferralsService(e-RS)v2.0.0-Documentation}
 
 Developer resources are available on the official [e-Referral Service landing page](https://digital.nhs.uk/services/nhs-e-referral-service) on NHS Digital's website; the [Document Library](https://digital.nhs.uk/services/nhs-e-referral-service/document-library) is a component part of e-RS' requirements for suppliers seeking guidance and any implementation documentation.
 
 If you are interested in learning more about the NHS e-RS APIs, please visit the [NHS Digital Developer Network website](https://developer.nhs.uk/apis/).
 
-# Dependencies
+# Dependencies {#e-ReferralsService(e-RS)v2.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
@@ -77,7 +77,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution.
 
-# Roadmap
+# Roadmap {#e-ReferralsService(e-RS)v2.0.0-Roadmap}
 
 | Roadmap Item |
 | --- |

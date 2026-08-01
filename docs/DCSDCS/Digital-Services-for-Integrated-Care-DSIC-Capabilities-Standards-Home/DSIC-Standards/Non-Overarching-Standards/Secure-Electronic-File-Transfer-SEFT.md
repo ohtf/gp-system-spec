@@ -24,11 +24,11 @@ labels: ["standard"]
 - [Dependencies](#SecureElectronicFileTransfer(SEFT)-Dependencies)
 - [Roadmap](#SecureElectronicFileTransfer(SEFT)-Roadmap)
 
-# Introduction
+# Introduction  {#SecureElectronicFileTransfer(SEFT)-Introduction}
 
 SEFT is an Authority implementation of Tibco's MFT (Managed File Transfer) product. It is used as the transport mechanism in a number of different interfaces. Additional information about SEFT and a quick help guide are available at [The Authority's website](https://digital.nhs.uk/services/transfer-data-securely/secure-electronic-file-transfer-seft-users-quick-help-guide).
 
-#### IP Addresses and Ports
+#### IP Addresses and Ports {#SecureElectronicFileTransfer(SEFT)-IPAddressesandPorts}
 
 IP Addresses and ports required for SEFT are:
 
@@ -38,15 +38,15 @@ IP Addresses and ports required for SEFT are:
 | [www.seftprod.hscic.gov.uk](http://www.seftprod.hscic.gov.uk) | 194.189.27.150 | - 443 (https) - 22 (ssh) |
 | [www.seftprod.hscic.gov.uk](http://www.seftprod.hscic.gov.uk) | 10.97.88.36443 | - 443 (https) - 22 (ssh) |
 
-# Documentation
+# Documentation {#SecureElectronicFileTransfer(SEFT)-Documentation}
 
 The 3rd party set up guide is intended to give a step-by-step guide to setting up a Secure File Transfer Protocol (SFTP) transfer from a Windows platform (server or desktop) using freely available tools from the internet: [3rd Party Set Up.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134107/3rd%20Party%20Set%20Up.docx?version=1&modificationDate=1527608598361&cacheVersion=1&api=v2)
 
-# Dependencies
+# Dependencies {#SecureElectronicFileTransfer(SEFT)-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#SecureElectronicFileTransfer(SEFT)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

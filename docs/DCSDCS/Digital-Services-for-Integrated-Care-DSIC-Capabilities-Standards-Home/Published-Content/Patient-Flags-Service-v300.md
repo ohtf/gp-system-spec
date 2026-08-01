@@ -27,18 +27,18 @@ labels: ["standard"]
 - [Dependencies](#PatientFlagsServicev3.0.0-Dependencies)
 - [Roadmap](#PatientFlagsServicev3.0.0-Roadmap)
 
-# Introduction
+# Introduction {#PatientFlagsServicev3.0.0-Introduction}
 
 The Patient Flags Service allows Health or Care Professionals to access and update Patient Flags and associated supporting resources.
 
-# Requirements
+# Requirements {#PatientFlagsServicev3.0.0-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
 | GP Suppliers | PFS-001 | Implement and maintain the [Patient Flags Service - FHIR API](https://digital.nhs.uk/developer/api-catalogue/patient-flags-service---fhir-api) inline with the latest API specification version for the Patient Flags and associated supporting resources as per the Flag Implementation by Capability Mapping section. | MUST |
 | PFS-002 | The [Patient Flags Service - FHIR API](https://digital.nhs.uk/developer/api-catalogue/patient-flags-service---fhir-api) to be called to retrieve the latest Patient Flag information when a notification from the [Multicast Notification Service (MNS)](../DSIC-Standards/Non-Overarching-Standards/Multicast-Notification-Service-MNS.md) is processed. | MUST |
 
-## Flag Implementation by Capability Mapping
+## Flag Implementation by Capability Mapping {#PatientFlagsServicev3.0.0-FlagImplementationbyCapabilityMapping}
 
 | **Capability** | **Flag** | **Create Flag** | **Create Supporting Resource** | **View Flag** | **View Supporting Resource** | **Amend Flag** | **Delete Flag** | **Delete Supporting Resource** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -46,15 +46,15 @@ The Patient Flags Service allows Health or Care Professionals to access and upda
 | Child Protection - Information Sharing (CP-IS) Flag | (error) | (error) | (tick) | (tick) | (error) | (error) | (error) |
 | Female Genital Mutilation (FGM) Flag | (tick) | (error) | (tick) | (error) | (error) | (tick) | (error) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#PatientFlagsServicev3.0.0-Compliance,AssuranceandTesting}
 
 See the Patient Flags Service section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#PatientFlagsServicev3.0.0-Documentation}
 
 - [Patient Flags FHIR API (NHS England)](https://digital.nhs.uk/developer/api-catalogue/patient-flags-service---fhir-api#overview--overview)
 
-# Dependencies
+# Dependencies {#PatientFlagsServicev3.0.0-Dependencies}
 
 - Creating a compliant implementation requires implementing the following dependent interface Standards:
 
@@ -62,7 +62,7 @@ See the Patient Flags Service section on [Onboarding Overview of the Digital C
   - [Multicast Notification Service (MNS)](../DSIC-Standards/Non-Overarching-Standards/Multicast-Notification-Service-MNS.md)
   - [Authentication and Access](../DSIC-Standards/Non-Overarching-Standards/Authentication-and-Access.md) - using NHS Care Identity Service 2 API (unless Patient Flags Service is implemented using [Application-Restricted access](https://digital.nhs.uk/developer/api-catalogue/patient-flags-service---fhir-api#overview--security-and-authorisation))
 
-# Roadmap
+# Roadmap {#PatientFlagsServicev3.0.0-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard:
 

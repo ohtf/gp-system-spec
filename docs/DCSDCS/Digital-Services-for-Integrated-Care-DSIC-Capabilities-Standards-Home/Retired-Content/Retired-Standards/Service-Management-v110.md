@@ -18,21 +18,21 @@ labels: []
 | Status | Retired |
 | Effective Date | 28 Jun 2019 |
 
-# Description
+# Description {#ServiceManagementv1.1.0-Description}
 
 Supports suppliers in the delivery and management of services that support and provide their Solutions.
 
-# Requirements
+# Requirements {#ServiceManagementv1.1.0-Requirements}
 
-[Service Management Stand…](Service-Management-v110.md)
+[Service Management Stand…](../../../../.raw/DCSDCS/attachments/10612342973/att10612342985-Service Management Standard v4.2.docx)
 
-# Capabilities
+# Capabilities {#ServiceManagementv1.1.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#ServiceManagementv1.1.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

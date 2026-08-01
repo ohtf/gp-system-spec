@@ -22,10 +22,10 @@ import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, parse_qs, quote
+from urllib.parse import urljoin, urlparse, parse_qs, quote, unquote_plus
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from markdownify import markdownify as md
 
 # ---------------------------------------------------------------------------
@@ -255,24 +255,39 @@ def download_attachments(
             ]
             last_error = None
             for url in candidates:
+                partial = att_path.with_suffix(att_path.suffix + ".part")
                 try:
-                    r = session.get(url, timeout=60, allow_redirects=True)
-                    r.raise_for_status()
-                    # The legacy endpoint answers 202 with an empty body for
-                    # phantom attachment records (duplicates whose title is a
-                    # URL-encoded string). Writing those would create 0-byte
-                    # files that look like successfully archived content.
-                    if r.status_code != 200 or not r.content:
-                        raise RuntimeError(
-                            f"no content (HTTP {r.status_code}, {len(r.content)} bytes)"
-                        )
-                    att_path.write_bytes(r.content)
+                    # Stream to disk: some attachments are >100MB webinar
+                    # recordings, which a flat socket timeout on a buffered
+                    # read aborts part-way through.
+                    with session.get(
+                        url, timeout=(30, 120), allow_redirects=True, stream=True
+                    ) as r:
+                        r.raise_for_status()
+                        # The legacy endpoint answers 202 with an empty body for
+                        # phantom attachment records (duplicates whose title is a
+                        # URL-encoded string). Writing those would create 0-byte
+                        # files that look like successfully archived content.
+                        if r.status_code != 200:
+                            raise RuntimeError(f"no content (HTTP {r.status_code})")
+                        written = 0
+                        with partial.open("wb") as fh:
+                            for chunk in r.iter_content(chunk_size=1 << 20):
+                                if chunk:
+                                    fh.write(chunk)
+                                    written += len(chunk)
+                        if not written:
+                            raise RuntimeError("no content (empty body)")
+                    # Only publish the final name once the body is fully written,
+                    # so an interrupted transfer cannot masquerade as a good file.
+                    partial.replace(att_path)
                     delay()
                     results.append({"id": att_id, "filename": filename, "path": str(att_path), "status": "ok"})
                     last_error = None
                     break
                 except Exception as exc:
                     last_error = exc
+                    partial.unlink(missing_ok=True)
                     delay()
             if last_error is not None:
                 print(f"  WARN: attachment failed {filename}: {last_error}", file=sys.stderr)
@@ -338,6 +353,56 @@ def child_index_markdown(
     return "\n".join(lines)
 
 
+def attachment_disk_name(attachment_id: str, filename: str) -> str:
+    """On-disk name for an attachment, matching download_attachments()."""
+    safe_name = re.sub(r"[^\w\s.\-\[\]()]", "_", filename)[:150].strip() or attachment_id
+    return f"{attachment_id}-{safe_name}"
+
+
+def local_attachment_link(href: str, current_path: Path) -> str | None:
+    """
+    Resolve a Confluence attachment-preview href to the mirrored file.
+
+    Returns a path relative to the page, or None when the href is not an
+    attachment preview or the file was not downloaded.
+    """
+    query = parse_qs(urlparse(href).query)
+    preview = query.get("preview", [None])[0]
+    if not preview:
+        return None
+    # preview is "/<pageId>/<attachmentId>/<filename>", percent- and plus-encoded.
+    parts = unquote_plus(preview).strip("/").split("/")
+    if len(parts) != 3:
+        return None
+    page_id, attachment_id, filename = parts
+
+    try:
+        space_key = current_path.relative_to(DOCS_ROOT).parts[0]
+    except (ValueError, IndexError):
+        return None
+
+    # The API reports attachment ids with an "att" prefix; the preview URL does not.
+    if not attachment_id.startswith("att"):
+        attachment_id = f"att{attachment_id}"
+
+    attachment_dir = DOCS_ROOT / ".raw" / space_key / "attachments" / page_id
+    # Files fetched before filename sanitisation was introduced kept the raw
+    # Confluence title on disk, so accept either spelling.
+    candidates = [
+        attachment_dir / attachment_disk_name(attachment_id, filename),
+        attachment_dir / f"{attachment_id}-{filename}",
+    ]
+    for target in candidates:
+        if target.exists():
+            return os.path.relpath(target, current_path.parent)
+
+    # Last resort: match on the attachment id prefix, whatever the stored name.
+    if attachment_dir.is_dir():
+        for target in attachment_dir.glob(f"{attachment_id}-*"):
+            return os.path.relpath(target, current_path.parent)
+    return None
+
+
 def html_to_markdown(
     html: str, base_url: str, id_to_relpath: dict[str, str], current_path: Path
 ) -> str:
@@ -354,9 +419,29 @@ def html_to_markdown(
     for tag in soup.find_all(class_=re.compile(r"aui-icon|expand-control-icon")):
         tag.decompose()
 
+    # Preserve Confluence heading anchors. Confluence's TOC macro and its
+    # cross-page links target ids like "ClinicalSafety-Introduction", but a
+    # Markdown renderer derives its own slug ("introduction"), so every one of
+    # those links would 404 in-page. Carry the original id through as an
+    # attr_list attribute so both the mirrored TOCs and inbound anchor links
+    # keep working, and the anchors still match the original source URLs.
+    for heading in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
+        heading_id = heading.get("id")
+        if heading_id and heading.get_text(strip=True):
+            heading.append(NavigableString(f" {{#{heading_id}}}"))
+
     # Rewrite internal page links
     for a in soup.find_all("a", href=True):
         href = a["href"]
+
+        # Confluence links an attachment as a preview of its parent page:
+        #   /wiki/spaces/BG/pages/<pageId>/Title?preview=/<pageId>/<attId>/<name>
+        # The path matches the page-link pattern below, so without this branch the
+        # link collapses to the page itself and the attachment reference is lost.
+        if attachment := local_attachment_link(href, current_path):
+            a["href"] = attachment
+            continue
+
         m = re.search(r"/pages/(\d+)", href)
         if m:
             pid = m.group(1)
@@ -569,6 +654,10 @@ def validate(spaces: list[str]) -> list[str]:
     for failure in load_failure_report()["failures"]:
         if failure["status"] == "unresolved":
             issues.append(f"unresolved failure: {failure['message']}")
+        elif failure["status"] == "deferred":
+            # Deferred items are known, recorded omissions awaiting a decision.
+            # They must not fail validation, but must never become invisible.
+            print(f"NOTE: deferred - {failure['message']}", file=sys.stderr)
     return issues
 
 

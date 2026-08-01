@@ -10,9 +10,9 @@ labels: []
 
 # Associated Services
 
-# Summary
+# Summary {#AssociatedServices-Summary}
 
-#### Living Documents
+#### Living Documents {#AssociatedServices-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -30,7 +30,7 @@ You should check all of the details and correct any which are wrong or outdated,
 
 You should inform your Supplier Manager if we have a record of any Associated Services which are not applicable, or if you are adding any further Associated Services.
 
-# What is an Associated Service?
+# What is an Associated Service? {#AssociatedServices-WhatisanAssociatedService?}
 
 As described in the Catalogue Onboarding Process ancillary document,
 
@@ -40,7 +40,7 @@ You do not have to offer Associated Services and Buyers cannot be required to pu
 
 For more information, see the Catalogue Onboarding Process ancillary document.
 
-# Outcomes
+# Outcomes {#AssociatedServices-Outcomes}
 
 At the end of the Associated Service registration activity you will have:
 
@@ -54,9 +54,9 @@ At the end of the Associated Service registration activity we will have:
 - provided you with your Associated Services Form(s).
 - a confirmed record of the Associated Services you wish to register.
 
-# Completing Associated Services Registration
+# Completing Associated Services Registration {#AssociatedServices-CompletingAssociatedServicesRegistration}
 
-## Actions required of you
+## Actions required of you {#AssociatedServices-Actionsrequiredofyou}
 
 1. Read the “Instructions” tab on the Associated Services form.
 2. Review/correct and complete the information already added to Associated Services Form(s), provided by your Supplier Manager.
@@ -64,13 +64,13 @@ At the end of the Associated Service registration activity we will have:
 4. Update existing or complete new Associated Services Forms for any Associated Services of which we are not aware.
 5. Return to us all of your completed Associated Services Forms, along with your Solution Registration Form, to [buying.catalogue@nhs.net](mailto:buying.catalogue@nhs.net), copying in your Supplier Manager.
 
-## Actions required of us
+## Actions required of us {#AssociatedServices-Actionsrequiredofus}
 
 1. Populate your Associated Services Form(s) with information we already hold.
 2. Share your pre-populated Associated Services Form(s) with you for review and completion.
 3. Reviewed your Associated Service(s) details and queried or confirmed them.
 
-# Associated Services Form
+# Associated Services Form {#AssociatedServices-AssociatedServicesForm}
 
 You will have been provided with a pre-populated Associated Services Form for each product (i.e. Catalogue Solution or Additional Service) that you indicated as having Associated Services in your tender application.
 

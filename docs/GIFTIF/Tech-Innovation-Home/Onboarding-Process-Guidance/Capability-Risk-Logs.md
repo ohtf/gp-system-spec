@@ -10,9 +10,9 @@ labels: []
 
 # Capability Risk Logs
 
-# Summary
+# Summary {#CapabilityRiskLogs-Summary}
 
-#### Living Documents
+#### Living Documents {#CapabilityRiskLogs-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -32,7 +32,7 @@ When you are ready to deliver evidence for your Capability Risk Log, you will ha
 
 Epics and risks are assessed in different ways by different teams. If you are unable to sufficiently mitigate a risk then you may not be permitted to advertise your Solution as offering the related Epics on the Buying Catalogue, even if the Epic has been passed during Capability Assessment
 
-# Outcomes
+# Outcomes {#CapabilityRiskLogs-Outcomes}
 
 At the end of the Capability Risk Log you should have:
 
@@ -45,15 +45,15 @@ At the end of the Capability Risk Log we will have:
 - a record of Capability Risk Log assessments which are up-to-date and contain the full history of the assessment.
 - assessed your mitigation of identified risks and provided an outcome, with feedback where applicable.
 
-# Withdrawing Epics with Risks
+# Withdrawing Epics with Risks {#CapabilityRiskLogs-WithdrawingEpicswithRisks}
 
 You have the option to withdraw Capabilities and Epics from your selection if you do not believe that you can meet the requirements of the Epic(s) or sufficiently mitigate the risks.
 
 We will review any risks which have not been sufficiently mitigated. **We may still require you to mitigate the risk(s) on the grounds of safety and security, even if you continue to withdraw the Epic.**
 
-# Completing the TIF Capability Risk Logs Activity
+# Completing the TIF Capability Risk Logs Activity {#CapabilityRiskLogs-CompletingtheTIFCapabilityRiskLogsActivity}
 
-## Actions required of you
+## Actions required of you {#CapabilityRiskLogs-Actionsrequiredofyou}
 
 1. Download the Capability Risk Log file from your SharePoint folder and update/complete the file.
 2. Save any requested risk mitigation evidence, such as video files, that you wish to provide in your SharePoint folder.
@@ -64,7 +64,7 @@ We will review any risks which have not been sufficiently mitigated. **We may st
 
    1. Note that we will review these requests and inform you whether any associated risks still need to be mitigated in order to pass the Capability Risk Log.
 
-## Actions required of us
+## Actions required of us {#CapabilityRiskLogs-Actionsrequiredofus}
 
 1. Provide you with the Capability Risk Log files you need to complete, based on your Capability selections.
 2. Regularly check in with you to support your progress completing the Capability Risk Log files.
@@ -73,13 +73,13 @@ We will review any risks which have not been sufficiently mitigated. **We may st
 5. Provide you with an outcome of the assessment including feedback where necessary.
 6. Review any Epics you request to withdraw and inform you whether associated risks must still be mitigated in order to pass the Capability Risk Log
 
-# Providing Evidence for Capability Risk Logs
+# Providing Evidence for Capability Risk Logs {#CapabilityRiskLogs-ProvidingEvidenceforCapabilityRiskLogs}
 
 You may provide evidence for your Capability Risk Log either through a Live Witness Assessment or through video files uploaded to SharePoint.
 
 You may wish to provide evidence for your Capability Risk Log at the same time that you provide evidence for your Capability Assessment. If attending a Live Witness Assessment, we will attempt to arrange a combined session where you can provide evidence for your Capability Assessment and your Capability Risk Log at the same time; if this is not convenient then separate sessions can be arranged.
 
-## Live Witness Assessments
+## Live Witness Assessments {#CapabilityRiskLogs-LiveWitnessAssessments}
 
 You may demonstrate your Solution through a Live Witness Assessment. These are done remotely via a video conference (Microsoft Teams) with the Solutions Assurance Team.
 
@@ -89,13 +89,13 @@ You may be asked questions to ensure that your Solution is understood and that a
 
 We strongly advise that you do a practice run of your evidence before attending a Live Witness Assessment.
 
-## Video Assessments
+## Video Assessments {#CapabilityRiskLogs-VideoAssessments}
 
 You may demonstrate your Solution through pre-recorded video files which show your Solution. These should be uploaded to your secure SharePoint location.
 
 We will review the evidence and may send email questions, however it is your responsibility to provide all of the evidence required for the assessment.
 
-### Producing Video Files
+### Producing Video Files {#CapabilityRiskLogs-ProducingVideoFiles}
 
 You should bear in mind the following when providing video files for assessment:
 
@@ -106,9 +106,9 @@ You should bear in mind the following when providing video files for assessment:
 - Onscreen or voiceover narration is optional but recommended.
 - Running orders with timestamps are requested, particularly for long videos.
 
-# Additional Material
+# Additional Material {#CapabilityRiskLogs-AdditionalMaterial}
 
-## Capabilities with Risk Logs
+## Capabilities with Risk Logs {#CapabilityRiskLogs-CapabilitieswithRiskLogs}
 
 - [Appointments Management - GP](../../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Appointments-Management-GP.md)
 - [Patient Information Maintenance - GP](../../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Patient-Information-Maintenance-GP.md)

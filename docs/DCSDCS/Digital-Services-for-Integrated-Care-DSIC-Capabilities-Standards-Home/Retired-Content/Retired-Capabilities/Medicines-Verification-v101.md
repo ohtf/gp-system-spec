@@ -21,11 +21,11 @@ labels: ["capability_retired"]
 
 Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
 
-# Description
+# Description {#MedicinesVerificationv1.0.1-Description}
 
 Supports compliance with the Falsified Medicines Directive and minimise the risk that falsified medicinal products are supplied to the public.
 
-# Outcomes
+# Outcomes {#MedicinesVerificationv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -33,7 +33,7 @@ Supports compliance with the Falsified Medicines Directive and minimise the risk
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C40E1 - verify Medicinal Product Unique Identifiers
+### C40E1 - verify Medicinal Product Unique Identifiers {#MedicinesVerificationv1.0.1-C40E1-verifyMedicinalProductUniqueIdentifiers}
 
 As a Practice User
 
@@ -41,7 +41,7 @@ I want to verify Medicinal Product Unique Identifiers
 
 So that the Medicinal Product Unique Identifiers are verified
 
-#### Acceptance criterion 1: verify Medicinal Product Unique Identifiers
+#### Acceptance criterion 1: verify Medicinal Product Unique Identifiers {#MedicinesVerificationv1.0.1-Acceptancecriterion1:verifyMedicinalProductUniqueIdentifiers}
 
 Given the Practice User is permitted to verify Medicinal Product Unique Identifiers
 
@@ -51,7 +51,7 @@ And the authenticity of Medicinal Product Unique Identifier is verified
 
 Then the Medicinal Product Unique Identifier is verified
 
-#### Acceptance criterion 2: fail to verify Medicinal Products for supply to the public
+#### Acceptance criterion 2: fail to verify Medicinal Products for supply to the public {#MedicinesVerificationv1.0.1-Acceptancecriterion2:failtoverifyMedicinalProductsforsupplytothepublic}
 
 Given the Practice User is permitted to verify Medicinal Product Unique Identifiers
 
@@ -63,7 +63,7 @@ Then the Medicinal Product Unique Identifier is not verified
 
 ---
 
-### C40E2 - decommission Medicinal Products
+### C40E2 - decommission Medicinal Products {#MedicinesVerificationv1.0.1-C40E2-decommissionMedicinalProducts}
 
 As a Practice User
 
@@ -71,7 +71,7 @@ I want to decommission Medicinal Products
 
 So that Medicinal Products are decommissioned
 
-#### Acceptance criterion 1: decommission Medicinal Products
+#### Acceptance criterion 1: decommission Medicinal Products {#MedicinesVerificationv1.0.1-Acceptancecriterion1:decommissionMedicinalProducts}
 
 Given the Practice User is permitted to decommission Medicinal Products
 
@@ -85,7 +85,7 @@ Then the Medicinal Product is decommissioned
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C40E3 - record the integrity of Anti-tampering Devices
+### C40E3 - record the integrity of Anti-tampering Devices {#MedicinesVerificationv1.0.1-C40E3-recordtheintegrityofAnti-tamperingDevices}
 
 As a Practice User
 
@@ -93,7 +93,7 @@ I want to record the integrity of Anti-tampering Devices
 
 So that the integrity of Anti-tampering Devices is recorded
 
-#### Acceptance criterion 1: record the integrity of Anti-tampering Devices
+#### Acceptance criterion 1: record the integrity of Anti-tampering Devices {#MedicinesVerificationv1.0.1-Acceptancecriterion1:recordtheintegrityofAnti-tamperingDevices}
 
 Given the Practice User is permitted to record the integrity of Anti-tampering Devices
 
@@ -114,7 +114,7 @@ Suppliers will have to attain compliance with these Standards during the compl
 - Interoperability Standard
 - Overarching Standards
 
-# Roadmap
+# Roadmap {#MedicinesVerificationv1.0.1-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Capability**
 

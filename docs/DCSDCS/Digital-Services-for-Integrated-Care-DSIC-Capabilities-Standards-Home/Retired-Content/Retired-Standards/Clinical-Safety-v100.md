@@ -19,7 +19,7 @@ labels: ["overarching_standard_retired"]
 | Effective Date | 01 Apr 2019 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-# Description
+# Description {#ClinicalSafetyv1.0.0-Description}
 
 Supports the management of clinical risk and Patient safety.
 
@@ -33,20 +33,20 @@ Please note
 
 Please note that compliance with the Clinical Safety Standard requires suppliers to have a Clinical Safety Officer (CSO) in place. Any suppliers who don't currently have a CSO in place, will not be awarded compliance with this standard until this has been addressed.
 
-# Requirements
+# Requirements {#ClinicalSafetyv1.0.0-Requirements}
 
 | Requirement ID | Requirement Text | Level |
 | --- | --- | --- |
-| GP-08.4.3.01 | **Compliance with Clinical Risk Management: Its Application in the Manufacture of Health IT Systems**  The supplier shall be required to be compliant with the following Standard in respect of Clinical Safety:   - DCB0129: Clinical Risk Management: its Application in the Manufacture of Health IT Systems   DCB0160: Clinical Risk Management: its Application in the Deployment and Use of Health IT Systems is a complimentary standard applicable to Health Organisations. | MUST |
+| GP-08.4.3.01 {#ClinicalSafetyv1.0.0-GP-08.4.3.01} | **Compliance with Clinical Risk Management: Its Application in the Manufacture of Health IT Systems**  The supplier shall be required to be compliant with the following Standard in respect of Clinical Safety:   - DCB0129: Clinical Risk Management: its Application in the Manufacture of Health IT Systems   DCB0160: Clinical Risk Management: its Application in the Deployment and Use of Health IT Systems is a complimentary standard applicable to Health Organisations. | MUST |
 | **GP-MW-2.1-1** | **MHRA Compliance**  Compliance with MHRA medical device standards where the Solution is considered by the supplier to be a medical device.  See also Medical device stand-alone software including apps (including IVDMDs) and Medical Device Regulation (EU) 2017/745 | MUST |
 
-# Capabilities
+# Capabilities {#ClinicalSafetyv1.0.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#ClinicalSafetyv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

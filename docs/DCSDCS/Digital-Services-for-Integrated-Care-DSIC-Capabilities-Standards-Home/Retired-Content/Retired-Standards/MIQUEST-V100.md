@@ -18,7 +18,7 @@ labels: ["interop_standard_retired"]
 | Status | Retired |
 | Effective Date | N/A |
 
-# Summary
+# Summary {#MIQUESTV1.0.0-Summary}
 
 MIQUEST is a management information solution which allows Practice Users to define queries which are executed by Solution Suppliers who then return the resulting data to the practice.
 

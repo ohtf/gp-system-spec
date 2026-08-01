@@ -20,7 +20,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#e-Consultations(Patient/ServiceUsertoProfessional)-Description}
 
 The e-Consultations (Patient/Service User to Professional) Capability allows Patients/Service Users to request and receive support relating to their healthcare concerns. They can make requests to the relevant Healthcare Organisation, at a time convenient to them, for support in relation to their healthcare conditions.
 
@@ -32,7 +32,7 @@ The Capability may provide the Patient/Service User with instant self-help advi
 - Medication review
 - Direct care advice (from a Health or Care Professional)
 
-# Outcomes
+# Outcomes {#e-Consultations(Patient/ServiceUsertoProfessional)-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -42,7 +42,7 @@ The Capability may provide the Patient/Service User with instant self-help advi
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C28E1 - Patient/Service User requests support
+### C28E1 - Patient/Service User requests support {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E1-Patient/ServiceUserrequestssupport}
 
 As a Patient/Service User
 
@@ -50,7 +50,7 @@ I want to be able to make a request for support in relation to a healthcare conc
 
 So that I can receive the most appropriate support (e.g. advice or a consultation) from a Healthcare Organisation
 
-#### Acceptance criterion 1: Patient/Service User requests advice or consultation
+#### Acceptance criterion 1: Patient/Service User requests advice or consultation {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:Patient/ServiceUserrequestsadviceorconsultation}
 
 Given that Patients/Service Users can request support in respect to a healthcare concern
 
@@ -64,7 +64,7 @@ And the request can be sent to the Healthcare Organisation
 
 ---
 
-### C28E2 -  respond to request for support from Patient/Service User
+### C28E2 -  respond to request for support from Patient/Service User {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E2-respondtorequestforsupportfromPatient/ServiceUser}
 
 As a Health or Care Professional
 
@@ -72,7 +72,7 @@ I want to be able to review and respond to a request submitted by a Patient/Ser
 
 So that I can respond to their request in the most appropriate way (e.g. refer them to other services, offer advice or a consultation or clinical tests)
 
-#### Acceptance criterion 1: view request for support from Patient/Service User
+#### Acceptance criterion 1: view request for support from Patient/Service User {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:viewrequestforsupportfromPatient/ServiceUser}
 
 Given that a request for support in respect to a healthcare concern has been received
 
@@ -82,7 +82,7 @@ Then they can view the request for support
 
 And any additional information provided in the request can be viewed (e.g. their condition, contact information or what they would like to achieve)
 
-#### Acceptance criterion 2: respond to Patient/Service User's request for support
+#### Acceptance criterion 2: respond to Patient/Service User's request for support {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion2:respondtoPatient/ServiceUser'srequestforsupport}
 
 Given that a request for support has been viewed by a Health or Care Professional
 
@@ -94,7 +94,7 @@ And the Health or Care Professional can provide advice or information (e.g. offe
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C28E3 - Patient/Service User makes administrative request
+### C28E3 - Patient/Service User makes administrative request {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E3-Patient/ServiceUsermakesadministrativerequest}
 
 As a Healthcare Service Provider
 
@@ -102,7 +102,7 @@ I want Patients/Service Users to be able to make administrative requests (e.g. r
 
 So that the overhead of processing these requests is reduced
 
-#### Acceptance criterion 1: Patient makes administrative request
+#### Acceptance criterion 1: Patient makes administrative request {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:Patientmakesadministrativerequest}
 
 Given that Patients/Service Users can make administrative requests in relation to their health and care needs
 
@@ -114,7 +114,7 @@ And the Patient/Service can provide information about the nature of their reques
 
 And the administrative request can be sent to the Healthcare Organisation
 
-#### Acceptance criterion 2: receive administrative request
+#### Acceptance criterion 2: receive administrative request {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion2:receiveadministrativerequest}
 
 Given that Patients/Service Users can make administrative requests in relation to their health and care needs
 
@@ -126,7 +126,7 @@ And a response can be sent to the Patient/Service User
 
 ---
 
-### C28E4 -  link requests and responses to Patient/Service User Record
+### C28E4 -  link requests and responses to Patient/Service User Record {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E4-linkrequestsandresponsestoPatient/ServiceUserRecord}
 
 As a Health or Care Professional
 
@@ -134,7 +134,7 @@ I want to be able to link requests and responses to the Patient/Service User's r
 
 So that I have a complete record of interactions with the Patient/Service User
 
-#### Acceptance criterion 1: Patient/Service User’s request is linked to their details
+#### Acceptance criterion 1: Patient/Service User’s request is linked to their details {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:Patient/ServiceUser’srequestislinkedtotheirdetails}
 
 Given that Patients/Service Users can request support in respect to a healthcare concern
 
@@ -144,7 +144,7 @@ Then the request can be linked to information about the Patient/Service User�
 
 And the request can be viewed as part of the information about the Patient/Service User held by the Healthcare Organisation
 
-#### Acceptance criterion 2: Health or Care Professional’s response is linked to Patient/Service User’s details
+#### Acceptance criterion 2: Health or Care Professional’s response is linked to Patient/Service User’s details {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion2:HealthorCareProfessional’sresponseislinkedtoPatient/ServiceUser’sdetails}
 
 Given that a Patient/Service User has requested support in relation to a healthcare concern
 
@@ -156,7 +156,7 @@ And the response can be viewed as part of the information about the Patient/Serv
 
 ---
 
-### C28E5 - self-help and signposting
+### C28E5 - self-help and signposting {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E5-self-helpandsignposting}
 
 As a Health or Care Professional
 
@@ -164,7 +164,7 @@ I want to enable Patients/Service Users to access information relating to their 
 
 So that they can self-care through provision of relevant information or sign-posting to relevant services
 
-#### Acceptance criterion 1: Patient/Service User views information relating to their healthcare condition
+#### Acceptance criterion 1: Patient/Service User views information relating to their healthcare condition {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:Patient/ServiceUserviewsinformationrelatingtotheirhealthcarecondition}
 
 Given that the Patient has concerns in respect to a healthcare condition
 
@@ -172,7 +172,7 @@ When they request information relating to their healthcare condition
 
 Then they can view information relating to their condition (e.g. videos, self-help guides)
 
-#### Acceptance criterion 2: Patient/Service User is sign-posted to services
+#### Acceptance criterion 2: Patient/Service User is sign-posted to services {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion2:Patient/ServiceUserissign-postedtoservices}
 
 Given that the Patient has concerns in respect to a healthcare condition
 
@@ -182,7 +182,7 @@ Then they can view information on relevant services (e.g. NHS111, NHS Choices)
 
 ---
 
-### C28E6 - Live Consultation: Patient/Service User and Health and Care Professionals
+### C28E6 - Live Consultation: Patient/Service User and Health and Care Professionals {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E6-LiveConsultation:Patient/ServiceUserandHealthandCareProfessionals}
 
 As a Health or Care Professional
 
@@ -190,7 +190,7 @@ I want to be able to conduct a live consultation with a Patient/Service User wh
 
 So that I can provide healthcare support to the Patient/Service User when face to face consultation is not feasible
 
-#### Acceptance criterion 1: Patient/Service User has a consultation with a Health or Care Professional
+#### Acceptance criterion 1: Patient/Service User has a consultation with a Health or Care Professional {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:Patient/ServiceUserhasaconsultationwithaHealthorCareProfessional}
 
 Given that a facility to support live consultations is available
 
@@ -204,7 +204,7 @@ And the recording can be linked to information about the Patient/Service Use
 
 ---
 
-### C28E7 - group e-Consultations
+### C28E7 - group e-Consultations {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E7-groupe-Consultations}
 
 As a Health and Care Professional
 
@@ -212,7 +212,7 @@ I want to be able to conduct group e-Consultations
 
 So that I can provide support to a group of Patients/Service Users in the most convenient and cost effective way
 
-#### Acceptance criterion 1: Health and Care Professional conducts group e-Consultation
+#### Acceptance criterion 1: Health and Care Professional conducts group e-Consultation {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:HealthandCareProfessionalconductsgroupe-Consultation}
 
 Given that there are Patients/Service Users who participate in group Consultations
 
@@ -224,7 +224,7 @@ And the relevant Patients/Service Users can participate in the group e-Consultat
 
 ---
 
-### C28E8 - reports
+### C28E8 - reports {#e-Consultations(Patient/ServiceUsertoProfessional)-C28E8-reports}
 
 As a Manager
 
@@ -232,7 +232,7 @@ I want to have access to custom reports relating to e-Consultations
 
 So that I can make informed decisions
 
-#### Acceptance criterion 1: report on use of e-Consultations
+#### Acceptance criterion 1: report on use of e-Consultations {#e-Consultations(Patient/ServiceUsertoProfessional)-Acceptancecriterion1:reportonuseofe-Consultations}
 
 Given that Patients/Service Users can make healthcare-related requests via the e-Consultations solution
 

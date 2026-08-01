@@ -29,7 +29,7 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#NationalMedicinesVerificationSystemv1.0.0-Dependencies)
 - [Roadmap](#NationalMedicinesVerificationSystemv1.0.0-Roadmap)
 
-# Introduction
+# Introduction {#NationalMedicinesVerificationSystemv1.0.0-Introduction}
 
 The Falsified Medicines Directive is an EU directive (EU legislation EU/2011/62) that will become UK law (regardless of Brexit) on 9th February 2019. Any prescribed medicines dispensed beyond that date will require a 2D barcode to be scanned to "decommission" the medicine from the supply chain. This ruling applies to *all* events where a medicine is dispensed.  This will particularly impact dispensing doctors but also clinicians providing vaccinations etc.  GP practices will therefore be subject to the same processes as pharmacists.  Failure to comply with this law beyond the effective date will be a criminal offence and so GP practices are required to have a Solution in place to support this process.
 
@@ -48,7 +48,7 @@ Integration with the National Medicine Verification System (NMVS) is via a web s
 
 The NMVS API allows clients to verify the status of medicines and decommission medicines from the supply chain via single or bulk operations and supports synchronous and asynchonous connection modes.
 
-## Resources
+## Resources {#NationalMedicinesVerificationSystemv1.0.0-Resources}
 
 https://www.securmed.org.uk/what-is-fmd/
 
@@ -56,11 +56,11 @@ https://www.securmed.org.uk/wp-content/uploads/2018/09/arvato\_it\_ssp\_workshop
 
 https://ukfmdworkinggroup.wordpress.com/faqs/
 
-# Compliance and Assurance
+# Compliance and Assurance {#NationalMedicinesVerificationSystemv1.0.0-ComplianceandAssurance}
 
 Suppliers need to register on the NMVS portal and undertake the baseline testing process as described.
 
-# Testing
+# Testing {#NationalMedicinesVerificationSystemv1.0.0-Testing}
 
 For interface testing details please refer to the NMVS portal (registration required).
 
@@ -71,25 +71,25 @@ The broad stages are:
 - Test interface
 - Undergo Baseline Testing
 
-# Environments
+# Environments {#NationalMedicinesVerificationSystemv1.0.0-Environments}
 
 The "NMVS Sandbox" has web services endpoints for testing connected applications.
 
 For details please refer to the NMVS portal (registration required).
 
-# Requirements
+# Requirements {#NationalMedicinesVerificationSystemv1.0.0-Requirements}
 
 | ID | Description | Level |
 | --- | --- | --- |
 | NMV-01 | Solutions which implement the Medicines Verification capability must be compliant with the National Medicines Verification System. | MUST |
 
-# Documentation
+# Documentation {#NationalMedicinesVerificationSystemv1.0.0-Documentation}
 
 Implementation Guide and testing documentation available on the NMVS portal (registration required).
 
-# Dependencies
+# Dependencies {#NationalMedicinesVerificationSystemv1.0.0-Dependencies}
 
-# Roadmap
+# Roadmap {#NationalMedicinesVerificationSystemv1.0.0-Roadmap}
 
 | Title |
 | --- |

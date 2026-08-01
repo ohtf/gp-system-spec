@@ -14,7 +14,7 @@ Download and complete the template to document any changes you’ve agreed with 
 
 **Associated Service billing and requirements template**
 
-[Associated Service billi…](Order-form-template-Associated-Service-billing-and-requirements.md)
+[Associated Service billi…](../../../../.raw/BG/attachments/12209389727/att12209553663-Associated Service billing and requirements template_Schedule 2.3.docx)
 
 ## Attachments
 

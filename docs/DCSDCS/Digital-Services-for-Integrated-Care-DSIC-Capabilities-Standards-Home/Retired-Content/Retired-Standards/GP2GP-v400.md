@@ -27,15 +27,15 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#GP2GPv4.0.0-Dependencies)
 - [Roadmap](#GP2GPv4.0.0-Roadmap)
 
-# Introduction
+# Introduction {#GP2GPv4.0.0-Introduction}
 
 The GP2GP record transfer mechanism enables a patient's record to be electronically transferred directly and securely when they move from one practice to another.
 
-# Compliance and Assurance
+# Compliance and Assurance {#GP2GPv4.0.0-ComplianceandAssurance}
 
 The compliance baseline for GP2GP and document locations were correct at the time of original publication, but referenced documents can now be found embedded on this page, below. The exceptions to this are the references to the NHS Messaging Implementation Manual (MIM) and External Interface Specification (EIS) (follow these links for details).
 
-[GP2GP 1.1a Compliance Mo…](GP2GP-v400.md)
+[GP2GP 1.1a Compliance Mo…](../../../../.raw/DCSDCS/attachments/12512034823/att12512034909-GP2GP 1.1a Compliance Module.doc)
 
 The GP2GP assurance is split into 2 streams:
 
@@ -44,22 +44,22 @@ The GP2GP assurance is split into 2 streams:
 
 For advice and support on assurance please contact [businesspartners@nhs.net](mailto:businesspartners@nhs.net) or visit <https://digital.nhs.uk/services/nhs-business-partners>
 
-# Requirements
+# Requirements {#GP2GPv4.0.0-Requirements}
 
 | ID | Description | Level |
 | --- | --- | --- |
 | GP2GP00 | Suppliers must meet the requirements for GP2GP 1.1a | MUST |
-| GP2GP01 | Suppliers must meet the requirements for GP2GP 2.2a  [HSCIC-PC-BLD-0068 26 GP2…](GP2GP-v400.md) | MUST |
+| GP2GP01 | Suppliers must meet the requirements for GP2GP 2.2a  [HSCIC-PC-BLD-0068 26 GP2…](../../../../.raw/DCSDCS/attachments/12512034823/att12512034837-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf) | MUST |
 | GP2GP02 | Suppliers must make available documentation to ensure that suppliers receiving GP2GP messages are fully able to interpret, consume and process the data to minimise data loss and degradation. This must include (but is not limited to):   - Structure of data - Any know issues or anomalies and how they should be handled - Code sets and associated meanings - Field specifications (types, lengths etc.) | MUST |
 | GP2GP03 | Suppliers must provide support to receivers of GP2GP messages to resolve any issues with interpreting, consuming and processing received messages | MUST |
-| GP2GP04 | Suppliers must meet the requirements for GP2GP 2.2b  [HSCIC-PC-BLD-0068 26 GP2…](GP2GP-v400.md) | MUST |
+| GP2GP04 | Suppliers must meet the requirements for GP2GP 2.2b  [HSCIC-PC-BLD-0068 26 GP2…](../../../../.raw/DCSDCS/attachments/12512034823/att12512034837-HSCIC-PC-BLD-0068 26 GP2GP R2 2 Requirements Specification v7.2.pdf) | MUST |
 | GP2GP05 | Suppliers must implement and maintain the GP Registrations Management Information API inline with the latest specification version | MUST |
 
-## Message Fragments and Examples
+## Message Fragments and Examples {#GP2GPv4.0.0-MessageFragmentsandExamples}
 
-[NPFIT-FNT-TO-TIN-0562[1]…](GP2GP-v400.md)
+[NPFIT-FNT-TO-TIN-0562[1]…](../../../../.raw/DCSDCS/attachments/12512034823/att12512034843-NPFIT-FNT-TO-TIN-0562[1].02 GP2GP Message Fragments and Examples.doc)
 
-## Supplementary specifications
+## Supplementary specifications {#GP2GPv4.0.0-Supplementaryspecifications}
 
 The following supplemental specifications contain additional requirements and guidance for GP2GP implementation:
 
@@ -103,14 +103,14 @@ NPFIT-FNT-TO-TAR-0017.07 Compliance Requirements for Patient Registration.pdf
 
 NPFIT-FNT-TO-TIN-0289.08 GP2GP Supplementary Specification on Handling Attachment Types.pdf
 
-# Dependencies
+# Dependencies {#GP2GPv4.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - External Interface Specification (EIS)
 - NHS Messaging Implementation Manual (MIM)
 
-# Roadmap
+# Roadmap {#GP2GPv4.0.0-Roadmap}
 
 | Title |
 | --- |

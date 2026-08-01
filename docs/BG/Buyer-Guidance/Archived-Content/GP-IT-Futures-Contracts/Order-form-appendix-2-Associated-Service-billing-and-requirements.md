@@ -14,7 +14,7 @@ Download and complete the template to document any changes you’ve agreed with 
 
 **Appendix 2: Associated Service billing and requirements**
 
-[Appendix 2\_Associated Se…](Order-form-appendix-2-Associated-Service-billing-and-requirements.md)
+[Appendix 2\_Associated Se…](../../../../.raw/BG/attachments/12209684600/att12209422518-Appendix 2_Associated Service billing and requirements_Schedule 2.3.docx)
 
 ## Attachments
 

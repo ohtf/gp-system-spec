@@ -14,7 +14,7 @@ An unsuccessful bidder letter is the decision notice sent out to all unsuccessfu
 
 It is important that the descriptive section of the letter where bidders are informed of the relative advantages and characteristics of the winning bid is drafted in a way that is bespoke and individual to each unsuccessful bid.  Including the same standard paragraph for each unsuccessful bidder is unlikely to meet the requirements for unsuccessful bidders to be afforded a clear understanding of the ways in which the winning bid scored more highly than their own.
 
-## Direct Award (where applicable) and Further Competition on Catalogue
+## Direct Award (where applicable) and Further Competition on Catalogue {#Samplefeedbackletter-DirectAward(whereapplicable)andFurtherCompetitiononCatalogue}
 
 **[*****On Customer Organisation’s headed paper*****]**
 
@@ -36,7 +36,7 @@ The reasons for the decision, including the characteristics and relative advanta
 
 Yours sincerely
 
-## Further Competition off Catalogue
+## Further Competition off Catalogue {#Samplefeedbackletter-FurtherCompetitionoffCatalogue}
 
 **[*****On Customer Organisation’s headed paper*****]**
 

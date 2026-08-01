@@ -10,9 +10,9 @@ labels: []
 
 # Previous Assurance Checks
 
-# Summary
+# Summary {#PreviousAssuranceChecks-Summary}
 
-#### Living Documents
+#### Living Documents {#PreviousAssuranceChecks-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -22,17 +22,17 @@ The processes are under continual review and will be amended as required.
 
 The Previous Assurance Checks activity involves identifying and reviewing compliance gaps for Technical Innovation Framework Solutions previously submitted to other frameworks.
 
-# Objectives
+# Objectives {#PreviousAssuranceChecks-Objectives}
 
 - To prevent duplicating effort for both you and the Programme re-assuring a Solution against requirements.
 
-# Actions required of you
+# Actions required of you {#PreviousAssuranceChecks-Actionsrequiredofyou}
 
 1. When requested by the Programme provide a confirmation statement that this is the same Solution and that it is appropriate to use previous compliance status.
 2. When emailed to you by the Programme upload the completed Traceability Matrix (TM) to SharePoint together with the rest of the documentation supporting the assurance needs of the Solution. Inform via email the Supplier Manager copying Buying Catalogue [buying.catalogue@nhs.net](mailto:buying.catalogue@nhs.net)
 3. Follow the regular TIF Standards Assurance Process
 
-# Actions required of us
+# Actions required of us {#PreviousAssuranceChecks-Actionsrequiredofus}
 
 1. Request the confirmation statement for the Solution via email
 2. Review the Solution and confirm whether Previous Assurance Checks are appropriate or not.

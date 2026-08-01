@@ -12,14 +12,14 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S19 |
+| ID {#UnstructuredDataExtraction-Standardv1.0.1-ID} | S19 |
 | Version | 1.0.1 |
 | Type | Capability Specific Standard |
-| Status | Retired |
+| Status {#UnstructuredDataExtraction-Standardv1.0.1-Status} | Retired |
 | Effective Date | 31 Dec 2019 |
 | Framework(s) | - GP IT Futures - Tech Innovation |
 
-# Requirements
+# Requirements {#UnstructuredDataExtraction-Standardv1.0.1-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -28,13 +28,13 @@ labels: ["capability_specific_retired"]
 | C19E1, C19E2 | **GP-DM-4.2-04** | **Assignation/categorisation - Automatically recording attributes**  Automatically (using document properties, classification and/or content) ascertain and record characteristics/attributes such as document type, category and source, according to locally defined configuration - User confirmation required before characteristics or attributes are saved. | MUST |
 | C19E1, C19E2 | **GP-DM-4.4-20** | **Viewing and managing documents - Associated coded entries**  Generate associated coded clinical entries and store in the Patient’s Record   - Manually code from review of a document - Manually record values associated with a code - Automatically code from detail within document properties (header file / document metadata) and/or content of a document - User confirmation required before coding is saved | MUST |
 
-# Capability
+# Capability {#UnstructuredDataExtraction-Standardv1.0.1-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Unstructured Data Extraction Capability
 
-# Roadmap
+# Roadmap {#UnstructuredDataExtraction-Standardv1.0.1-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

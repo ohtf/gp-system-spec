@@ -27,18 +27,18 @@ labels: ["standard"]
 - [Dependencies](#MulticastNotificationService(MNS)-Dependencies)
 - [Roadmap](#MulticastNotificationService(MNS)-Roadmap)
 
-# Introduction
+# Introduction {#MulticastNotificationService(MNS)-Introduction}
 
 The Multicast Notification Service (MNS) allows digital health and care services to publish and receive Patient-related state changes from a single centralised system.
 
-# Requirements
+# Requirements {#MulticastNotificationService(MNS)-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | GP Suppliers | **MNS01** | Subscribe to and implement the receipt of [Validated GP Registration Request](https://digital.nhs.uk/developer/api-catalogue/multicast-notification-service/validated-gp-registration-request-event) signals inline with the latest specification version. | MUST |
 
-## Message Implementation
+## Message Implementation {#MulticastNotificationService(MNS)-MessageImplementation}
 
 Dependent on the care setting or system, the signals needing to be subscribed to may differ. The table below shows which MNS signals are required to be implement based on the Capability being delivered.
 
@@ -47,21 +47,21 @@ Dependent on the care setting or system, the signals needing to be subscribed to
 | **Capability** | **Applicable Requirement** | **Signal** |
 | [Patient Information Maintenance - GP](../../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | MNS01 | Validated GP Registration Request |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#MulticastNotificationService(MNS)-Compliance,AssuranceandTesting}
 
 See the Multicast Notification Service (MNS) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#MulticastNotificationService(MNS)-Documentation}
 
 - [API Catalogue - Multicast Notification Service API](https://digital.nhs.uk/developer/api-catalogue/multicast-notification-service)
 
-# Dependencies
+# Dependencies {#MulticastNotificationService(MNS)-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md) - if signals received via MESH
 
-# Roadmap
+# Roadmap {#MulticastNotificationService(MNS)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

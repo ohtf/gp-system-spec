@@ -20,13 +20,13 @@ labels: ["capability_retired"]
 
 Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
 
-# Description
+# Description {#GPExtractsVerificationv1.0.0-Description}
 
 Aggregated data is extracted from GP Practices via the General Practice Extraction Service (GPES) and sent to the Calculating Quality Reporting Service (CQRS), both operated by NHS Digital. Calculations performed by the CQRS determine how much money a GP Practice should be paid for National Services.
 
 The data extracted in this process is based on information recorded in individual Patient Records. The GP Extracts Verification Capability provides Practices with reports and search tools to establish which Patients will be or have/have not been included in these payment extracts and calculations. These reports and tools will ultimately support data quality investigations and improvements.
 
-# Outcomes
+# Outcomes {#GPExtractsVerificationv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -34,7 +34,7 @@ The data extracted in this process is based on information recorded in individua
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### Epic 1 - view GPES payment extract reports
+### Epic 1 - view GPES payment extract reports {#GPExtractsVerificationv1.0.0-Epic1-viewGPESpaymentextractreports}
 
 As a Practice User
 
@@ -42,7 +42,7 @@ I want to view reports for national GPES payment extractions
 
 So that I can identify included and excluded patients
 
-#### Acceptance criterion 1: view future GPES payment extract reports
+#### Acceptance criterion 1: view future GPES payment extract reports {#GPExtractsVerificationv1.0.0-Acceptancecriterion1:viewfutureGPESpaymentextractreports}
 
 Given the Practice User is permitted to view GPES payment extract reports
 
@@ -50,7 +50,7 @@ When the Practice User chooses to view a future GPES payment extract report
 
 Then the GPES payment extract report is displayed
 
-#### Acceptance criterion 2: view previous GPES payment extract reports
+#### Acceptance criterion 2: view previous GPES payment extract reports {#GPExtractsVerificationv1.0.0-Acceptancecriterion2:viewpreviousGPESpaymentextractreports}
 
 Given the Practice User is permitted to view GPES payment extract reports
 
@@ -58,7 +58,7 @@ When the Practice User chooses to view a previous GPES payment extract report
 
 Then the GPES payment extract report is displayed
 
-#### Acceptance criterion 3: view a GPES payment extract reports for a Patient
+#### Acceptance criterion 3: view a GPES payment extract reports for a Patient {#GPExtractsVerificationv1.0.0-Acceptancecriterion3:viewaGPESpaymentextractreportsforaPatient}
 
 Given the Practice User is permitted to view GPES payment extract reports
 
@@ -68,7 +68,7 @@ Then the reason for inclusion or exclusion is displayed
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### Epic 2 - view national GPES non-payment extract reports
+### Epic 2 - view national GPES non-payment extract reports {#GPExtractsVerificationv1.0.0-Epic2-viewnationalGPESnon-paymentextractreports}
 
 As a Practice User
 
@@ -76,7 +76,7 @@ I want to view reports for national GPES non-payment extractions
 
 So that I can identify included and excluded patients
 
-#### Acceptance criterion 1: view future GPES non-payment extract reports
+#### Acceptance criterion 1: view future GPES non-payment extract reports {#GPExtractsVerificationv1.0.0-Acceptancecriterion1:viewfutureGPESnon-paymentextractreports}
 
 Given the Practice User is permitted to view GPES non-payment extract reports
 
@@ -84,7 +84,7 @@ When the Practice User chooses to view a future GPES non-payment extract report
 
 Then the GPES non-payment extract report is displayed
 
-#### Acceptance criterion 2: view previous GPES non-payment extract reports
+#### Acceptance criterion 2: view previous GPES non-payment extract reports {#GPExtractsVerificationv1.0.0-Acceptancecriterion2:viewpreviousGPESnon-paymentextractreports}
 
 Given the Practice User is permitted to view GPES non-payment extract reports
 
@@ -92,7 +92,7 @@ When the Practice User chooses to view a GPES non-payment extract report
 
 Then the GPES non-payment extract report is displayed
 
-#### Acceptance criterion 3: view a GPES non-payment extract reports for a Patient
+#### Acceptance criterion 3: view a GPES non-payment extract reports for a Patient {#GPExtractsVerificationv1.0.0-Acceptancecriterion3:viewaGPESnon-paymentextractreportsforaPatient}
 
 Given the Practice User is permitted to view GPES non-payment extract reports
 

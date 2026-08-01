@@ -21,11 +21,11 @@ labels: ["capability_retired"]
 
 Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
 
-# Description
+# Description {#Scanningv1.0.1-Description}
 
 Support the conversion of paper documentation into digital format preserving the document quality and structure.
 
-# Outcomes
+# Outcomes {#Scanningv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -33,7 +33,7 @@ Support the conversion of paper documentation into digital format preserving the
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C17E1 - scan documents
+### C17E1 - scan documents {#Scanningv1.0.1-C17E1-scandocuments}
 
 As a Practice User
 
@@ -41,7 +41,7 @@ I want to scan documents
 
 So that there are digital files of the documents
 
-#### Acceptance criterion 1: scan document
+#### Acceptance criterion 1: scan document {#Scanningv1.0.1-Acceptancecriterion1:scandocument}
 
 Given the Practice User is permitted to scan documents
 
@@ -49,7 +49,7 @@ When they choose to scan a document
 
 Then a digital file of the document is created
 
-#### Acceptance criterion 2: scan multi-page documents
+#### Acceptance criterion 2: scan multi-page documents {#Scanningv1.0.1-Acceptancecriterion2:scanmulti-pagedocuments}
 
 Given the Practice User is permitted to scan documents
 
@@ -59,7 +59,7 @@ Then a single digital file of the document is created
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C17E2 - image enhancement
+### C17E2 - image enhancement {#Scanningv1.0.1-C17E2-imageenhancement}
 
 As a Practice User
 
@@ -67,7 +67,7 @@ I want to enhance images of scanned documents
 
 So that this can be applied to my digital files
 
-#### Acceptance criterion 1: image enhancement
+#### Acceptance criterion 1: image enhancement {#Scanningv1.0.1-Acceptancecriterion1:imageenhancement}
 
 Given the Practice User is permitted to scan documents
 

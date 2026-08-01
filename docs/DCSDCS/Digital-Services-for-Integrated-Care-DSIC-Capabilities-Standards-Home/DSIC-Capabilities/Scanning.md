@@ -20,11 +20,11 @@ labels: ["capability"]
 | **Effective Date** | 22 May 2023 |
 | **Contracting Vehicle(s)** | - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
-# Description
+# Description {#Scanning-Description}
 
 Supports the conversion of paper documentation into digital format.
 
-# Outcomes
+# Outcomes {#Scanning-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -33,14 +33,14 @@ Supports the conversion of paper documentation into digital format.
 |  |
 | --- |
 | **MUST Epics - Describes the minimum functionality required to deliver a Capability. Solutions MUST be successfully evaluated against each Epic and Acceptance Criteria via Capability Assessment in order to be associated with this Capability.** |
-| E00406 - scan documents As a Health or Care Professional  I want to scan paper documents  So that there are digital files of the documents Acceptance criterion 1: scan single page document Given the Health or Care Professional is permitted to scan documents  When the Health or Care Professional selects to scan a single page document  Then a digital file of the document is created Acceptance criterion 2: scan multi-page documents Given the Health or Care Professional is permitted to scan documents  When the Health or Care Professional selects to scan a multi-page document  Then a single digital file is created |
+| E00406 - scan documents {#Scanning-E00406-scandocuments} As a Health or Care Professional  I want to scan paper documents  So that there are digital files of the documents Acceptance criterion 1: scan single page document {#Scanning-Acceptancecriterion1:scansinglepagedocument} Given the Health or Care Professional is permitted to scan documents  When the Health or Care Professional selects to scan a single page document  Then a digital file of the document is created Acceptance criterion 2: scan multi-page documents {#Scanning-Acceptancecriterion2:scanmulti-pagedocuments} Given the Health or Care Professional is permitted to scan documents  When the Health or Care Professional selects to scan a multi-page document  Then a single digital file is created |
 
 |  |
 | --- |
 | **MAY Epics - Describes additional functionality associated with the Capability. Suppliers should consider all MAY Epics as part of their User Research. Suppliers can choose to map their Solutions to these Epics and they will be evaluated via Capability Assessment. Contracting Authorities or purchasing organisations may require these Epics as product qualification or requirements criteria.** |
-| E00407 - document image enhancement As a Health or Care Professional  I want images of scanned documents to be enhanced  So that the scanned documents are better quality Acceptance criterion 1: document image enhancement Given the Health or Care Professional is permitted to scan documents  When the Health or Care Professional selects to enhance an image  Then the image is enhanced |
+| E00407 - document image enhancement {#Scanning-E00407-documentimageenhancement} As a Health or Care Professional  I want images of scanned documents to be enhanced  So that the scanned documents are better quality Acceptance criterion 1: document image enhancement {#Scanning-Acceptancecriterion1:documentimageenhancement} Given the Health or Care Professional is permitted to scan documents  When the Health or Care Professional selects to enhance an image  Then the image is enhanced |
 
-## Roadmap
+## Roadmap {#Scanning-Roadmap}
 
 Items on the Roadmap which impact or relate to this Capability
 

@@ -21,7 +21,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-## Description
+## Description {#Cross-organisationWorkflowToolsV1.0.1-Description}
 
 A Cross-Organisation workflow can be defined as a series of tasks undertaken across different organisations by Health and Care Professionals in support of a particular clinical or business process. The Cross-organisation Workflow Tools capability supports such workflows and enables organisations to efficiently manage events throughout the various stages of a process through the automation of standard, repeatable processes.
 
@@ -36,7 +36,7 @@ Examples of Cross-Organisation workflows include:
 - The assessment of arrangements to support the transfer of a patient (e.g. discharge from hospital to home)
 - The review of a document (e.g. Care Plan) by all appropriate staff/organisations involved
 
-# Outcomes
+# Outcomes {#Cross-organisationWorkflowToolsV1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -46,7 +46,7 @@ Examples of Cross-Organisation workflows include:
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C24E1 - use Workflow to run a Cross-organisational Process
+### C24E1 - use Workflow to run a Cross-organisational Process {#Cross-organisationWorkflowToolsV1.0.1-C24E1-useWorkflowtorunaCross-organisationalProcess}
 
 As a Manager
 
@@ -54,7 +54,7 @@ I want to be able to initiate, run and monitor cross-organisational workflows
 
 So that I can ensure the workflows are effectively supporting cross-organisational business and clinical processes
 
-#### Acceptance criterion 1: initiate cross-organisational workflow
+#### Acceptance criterion 1: initiate cross-organisational workflow {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:initiatecross-organisationalworkflow}
 
 Given a workflow has been defined to support a cross-organisational process (e.g. workflow to support diagnosis of diabetes)
 
@@ -66,7 +66,7 @@ And any information regarding workflow can be provided (e.g. information about
 
 And any supporting artefacts can be linked to the workflow (e.g. Patient Assessment Form, care plan, referral)
 
-#### Acceptance criterion 2: monitor in-flight cross-organisational workflows
+#### Acceptance criterion 2: monitor in-flight cross-organisational workflows {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion2:monitorin-flightcross-organisationalworkflows}
 
 Given workflows are being used to support cross-organisational business and clinical processes
 
@@ -78,7 +78,7 @@ And the view can be filtered to display only those workflows meeting criteria de
 
 And the order in which the workflows are presented to view can be changed
 
-#### Acceptance criterion 3: participant performs cross-organisational workflow task
+#### Acceptance criterion 3: participant performs cross-organisational workflow task {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion3:participantperformscross-organisationalworkflowtask}
 
 Given a cross-organisational workflow has been initiated
 
@@ -96,7 +96,7 @@ And they can update their task (e.g. change the status or provide information 
 
 ---
 
-### C24E2 - maintain cross-organisational workflows
+### C24E2 - maintain cross-organisational workflows {#Cross-organisationWorkflowToolsV1.0.1-C24E2-maintaincross-organisationalworkflows}
 
 As a Manager
 
@@ -104,7 +104,7 @@ I want to be able to maintain cross-organisational workflows
 
 So that I can use these workflows to correctly deliver the range of clinical and business processes undertaken across the Organisations
 
-#### Acceptance criterion 1: create cross-organisational workflows
+#### Acceptance criterion 1: create cross-organisational workflows {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:createcross-organisationalworkflows}
 
 Given workflows are used to support the management of cross-organisational processes
 
@@ -118,7 +118,7 @@ And the events of the workflow can be created
 
 And the workflow events can be assigned to participants
 
-#### Acceptance criterion 2: amend cross-organisational workflows
+#### Acceptance criterion 2: amend cross-organisational workflows {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion2:amendcross-organisationalworkflows}
 
 Given workflows are used to support the management of cross-organisational processes
 
@@ -132,7 +132,7 @@ And the events of the workflow can be amended
 
 And the participants assigned to events in the workflow can be amended
 
-#### Acceptance criterion 3: delete cross-organisational workflows
+#### Acceptance criterion 3: delete cross-organisational workflows {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion3:deletecross-organisationalworkflows}
 
 Given workflows are used to support the management of cross-organisational processes
 
@@ -142,7 +142,7 @@ Then the workflow can be deleted
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C24E3 - maintain cross-organisational workflow templates
+### C24E3 - maintain cross-organisational workflow templates {#Cross-organisationWorkflowToolsV1.0.1-C24E3-maintaincross-organisationalworkflowtemplates}
 
 As a Manager
 
@@ -150,7 +150,7 @@ I want to have access to cross-organisational task and workflow templates
 
 So that I can efficiently and effectively maintain cross-organisation workflows
 
-#### Acceptance criterion 1: create cross-organisational workflow task or template
+#### Acceptance criterion 1: create cross-organisational workflow task or template {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:createcross-organisationalworkflowtaskortemplate}
 
 Given workflows are used to support the management of cross-organisational processes
 
@@ -162,7 +162,7 @@ Then the relevant cross-organisational workflow task or template can be created
 
 And the new task or template is available, so workflows can be built based on the task or template
 
-#### Acceptance criterion 2: amend cross-organisational workflow task or template
+#### Acceptance criterion 2: amend cross-organisational workflow task or template {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion2:amendcross-organisationalworkflowtaskortemplate}
 
 Given workflows are used to support the management of cross-organisational processes
 
@@ -174,7 +174,7 @@ Then the relevant cross-organisational workflow task or template can be amended
 
 And the amended task or template is available, so workflows can be built based on the task or template
 
-#### Acceptance criterion 3: delete cross-organisational workflow task or template
+#### Acceptance criterion 3: delete cross-organisational workflow task or template {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion3:deletecross-organisationalworkflowtaskortemplate}
 
 Given workflows are used to support the management of cross-organisational processes
 
@@ -184,7 +184,7 @@ Then the workflow task or template can be deleted
 
 ---
 
-### C24E4 - share workflow templates
+### C24E4 - share workflow templates {#Cross-organisationWorkflowToolsV1.0.1-C24E4-shareworkflowtemplates}
 
 As a Manager
 
@@ -192,7 +192,7 @@ I want to be able to share existing workflow and task templates
 
 So that I can improve efficiency and consistency by using existing templates to create cross-organisation workflows
 
-#### Acceptance criterion 1: share workflow/task templates
+#### Acceptance criterion 1: share workflow/task templates {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:shareworkflow/tasktemplates}
 
 Given that one or more templates exist to support the creation of Workflows and Tasks
 
@@ -202,7 +202,7 @@ Then the template can be used to create a task or workflow
 
 ---
 
-### C24E5 - manage automated notifications and reminders
+### C24E5 - manage automated notifications and reminders {#Cross-organisationWorkflowToolsV1.0.1-C24E5-manageautomatednotificationsandreminders}
 
 As a Manager
 
@@ -210,7 +210,7 @@ I want to be able to generate notifications and reminders in relation to tasks 
 
 So that I can ensure that cross-organisational workflows are actively managed and progress smoothly
 
-#### Acceptance criterion 1: configure notifications and reminders
+#### Acceptance criterion 1: configure notifications and reminders {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:configurenotificationsandreminders}
 
 Given a cross-organisational workflow has been configured to support a business or clinical process
 
@@ -218,7 +218,7 @@ When the need to generate notifications or reminders in relation to the workflo
 
 Then reminders or notifications can be configured
 
-#### Acceptance criterion 2: generate notification or reminder
+#### Acceptance criterion 2: generate notification or reminder {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion2:generatenotificationorreminder}
 
 Given a cross-organisational workflow has been configured to generate notifications
 
@@ -232,7 +232,7 @@ Then notifications or reminders are sent to the relevant recipients
 
 ---
 
-### C24E6 - manage ad-hoc notifications
+### C24E6 - manage ad-hoc notifications {#Cross-organisationWorkflowToolsV1.0.1-C24E6-managead-hocnotifications}
 
 As a Manager
 
@@ -240,7 +240,7 @@ I want to be able to manually generate ad hoc notifications in relation to cros
 
 So that I can ensure appropriate people or organisations are kept informed
 
-#### Acceptance criterion 1: generate ad hoc notifications
+#### Acceptance criterion 1: generate ad hoc notifications {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:generateadhocnotifications}
 
 Given a cross-organisational workflow has been configured to support a business or clinical process
 
@@ -250,7 +250,7 @@ Then an ad hoc notification can be configured
 
 And the ad hoc notification is sent to the relevant recipients
 
-### C24E7 - Report on Cross-organisational Workflows
+### C24E7 - Report on Cross-organisational Workflows {#Cross-organisationWorkflowToolsV1.0.1-C24E7-ReportonCross-organisationalWorkflows}
 
 As a Manager
 
@@ -258,7 +258,7 @@ I want to be able to generate reports relating to the use of cross-organisationa
 
 So that I can monitor the effectiveness of the workflows in supporting clinical and business processes and use the information to improve workflow design
 
-#### Acceptance criterion 1: report based on a range of selection criteria
+#### Acceptance criterion 1: report based on a range of selection criteria {#Cross-organisationWorkflowToolsV1.0.1-Acceptancecriterion1:reportbasedonarangeofselectioncriteria}
 
 Given that information relating to cross-organisation workflows and their associated tasks is available
 

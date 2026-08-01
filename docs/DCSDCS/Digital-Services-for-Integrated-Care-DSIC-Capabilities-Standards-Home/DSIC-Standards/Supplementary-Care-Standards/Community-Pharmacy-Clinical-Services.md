@@ -19,7 +19,7 @@ labels: ["supp_care_standard"]
 | **Effective Date** | 10 Nov 2025 |
 | **Contracting Vehicle(s)** | [Community Pharmacy Clinical Services](https://nhse-dsic.atlassian.net/wiki/spaces/CPCSH) |
 
-# Description
+# Description {#CommunityPharmacyClinicalServices-Description}
 
 Supports Referrals to Community Pharmacy and the management of Community Pharmacy Consultations. Also supports the submission of data to the NHS Business Services Authority (NHSBSA) for payment purposes.
 
@@ -33,14 +33,14 @@ This Standard mandates the requirements for systems used to deliver the followin
 - Pharmacy Contraception
 - Pharmacy Blood Pressure Check
 
-# Functional Requirements
+# Functional Requirements {#CommunityPharmacyClinicalServices-FunctionalRequirements}
 
 | **Requirement ID** | **Requirement** | **Level** |
 | --- | --- | --- |
 | SCSCP01 | Adhere to the following Epics in the [Consultation Management - Community Pharmacy](../../DSIC-Capabilities/Consultation-Management-Community-Pharmacy.md) Capability:   - E00645 - search for a Patient on the Personal Demographics Service (PDS) - E00761 - record Patient Consent for Community Pharmacy Consultations - E00624 - record Patient Consent to share Consultation Information for Community Pharmacy Contraception Consultations - E00625 - manage Pharmacy First Consultation Information for Patients - E00756 - manage Pharmacy Contraception Consultation Information for Patients - E00757 - manage Pharmacy Blood Pressure Check Consultation Information for Patients - E00626 - view information from the GP Practice Electronic Patient Record (EPR) of the Patient during Community Pharmacy Consultations - E00627 - record medication for Patients for Community Pharmacy Consultations - E00628 - print NHS FP10DT for Patients medication for Pharmacy First Consultations - E00629 - Alert Health or Care Professional to provide Safety-Netting Advice to Patients for Pharmacy First Consultations - E00631 - submit records of Pharmacy First Consultations for Patients to their registered GP Practice - E00758 - submit records of Pharmacy Blood Pressure Check Consultations for Patients to their registered GP Practice - E00759 - submit records of Pharmacy Contraception Consultations for Patients to their registered GP Practice - E00632 - submit records of Community Pharmacy Consultations for Patients to NHS Business Services Authority (NHSBSA) - E00633 - view Community Pharmacy details using Directory of Services (DoS) for Community Pharmacy Consultations - E00763 - launch the National Care Record Service (NCRS) for a Patient during Community Pharmacy Consultations - E00634 - launch the Electronic Prescription Service (EPS) Prescription Tracker page for Community Pharmacy Consultations - E00635 - launch the NICE Clinical Knowledge Summaries (CKS) page for Community Pharmacy Consultations - E00636 - launch shared decision making tools for Pharmacy Contraception Consultations - E00637 - launch Patient Group Directions (PGDs), Clinical Protocols and Clinical Pathways for Pharmacy First Consultations - E00760 - launch Patient Group Directions (PGDs) for Pharmacy Contraception Consultations - E00638 - view a Body Mass Index (BMI) calculator for Community Pharmacy Consultations | MUST |
 | SCSCP02 | Adhere to the following Epics in the [Referral Management - Community Pharmacy](../../DSIC-Capabilities/Referral-Management-Community-Pharmacy.md) Capability:   - E00639 - view Community Pharmacy Inbound Referrals from NHS 111 for Patients - E00674 - view Community Pharmacy Inbound Referrals from GP Practices for Patients - E00641 - manually create Community Pharmacy Inbound Referrals for Patients - E00643 - amend status of Community Pharmacy Inbound Referrals for Patients - E00640 - notify Health or Care Professional of new Community Pharmacy Inbound Referrals for Patients - E00642 - sort Community Pharmacy Inbound Referrals for Patients - E00644 - flag overdue Community Pharmacy Inbound Referrals for Patients | MUST |
 
-# Secondary Artefacts
+# Secondary Artefacts {#CommunityPharmacyClinicalServices-SecondaryArtefacts}
 
 | **ID** | **Theme** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ This Standard mandates the requirements for systems used to deliver the followin
 | SCSCPA02 | Business Continuity and Disaster Recovery | Adhere to all the Requirements in the [Further Requirements](../Overarching-Standards/Business-Continuity-and-Disaster-Recovery.md) applicable to Community Pharmacy Clinical Services Suppliers within 12 months of being listed on the Buying Catalogue | MUST |
 | SCSCPA03 | Information Governance | Adhere to all the Requirements in the [Further Requirement](../Overarching-Standards/Information-Governance.md) applicable to Community Pharmacy Clinical Services Suppliers within 12 months of being listed on the Buying Catalogue | MUST |
 
-# Roadmap
+# Roadmap {#CommunityPharmacyClinicalServices-Roadmap}
 
 Items on the Roadmap which impact or relate to this Supplementary Care Standard
 

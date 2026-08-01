@@ -41,7 +41,7 @@ labels: ["overarching_standard"]
   - [Training](#BaselineAssuranceStandard-Training)
 - [Roadmap](#BaselineAssuranceStandard-Roadmap)
 
-# Introduction
+# Introduction {#BaselineAssuranceStandard-Introduction}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md).
 
@@ -49,9 +49,9 @@ Completing the BAS is the first step to achieving full assurance with the Overar
 
 Solutions will be given a Solution Category; this will determine the level of assurance that is appropriate for the type of Solution. The Solution Category columns indicate which level of assurance is required for each Requirement. For more information on Solution Categories, see [Solution Categories for Assurance in DSIC](../../Reference-Pages/Baseline-Assurance-Standard-and-Solution-Categories-for-Assurance-in-DSIC-Guidance.md).
 
-# Requirements
+# Requirements {#BaselineAssuranceStandard-Requirements}
 
-## [Business Continuity and Disaster Recovery](Business-Continuity-and-Disaster-Recovery.md)
+## [Business Continuity and Disaster Recovery](Business-Continuity-and-Disaster-Recovery.md) {#BaselineAssuranceStandard-BusinessContinuityandDisasterRecovery}
 
 Ensures that Suppliers Solutions are supported by robust business continuity plans and disaster recovery measures.
 
@@ -64,7 +64,7 @@ Ensures that Suppliers Solutions are supported by robust business continuity pla
 
 ---
 
-## [Clinical Safety](Clinical-Safety.md)
+## [Clinical Safety](Clinical-Safety.md) {#BaselineAssuranceStandard-ClinicalSafety}
 
 Supports the management of clinical risk and Patient safety.
 
@@ -75,17 +75,17 @@ Supports the management of clinical risk and Patient safety.
 
 ---
 
-## [Commercial](Commercial.md)
+## [Commercial](Commercial.md) {#BaselineAssuranceStandard-Commercial}
 
 This Standard underpins all commercial activity relating to the Catalogue. It does this by defining a number of rules governing the commercial relationship of relevant parties and by setting out standards of behaviour and principles of access to data and services charges.
 
 | **Applicable Contracting Vehicle(s)** | **ID** | **Requirement** | **Level** | **Category A** | **Category B** | **Category C** |
 | --- | --- | --- | --- | --- | --- | --- |
-| - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Primary Care | C01 | [Commercial Standard and …](Commercial.md) | MUST | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. |
+| - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Primary Care | C01 | [Commercial Standard and …](../../../../.raw/DCSDCS/attachments/1391134121/att14488305723-Commercial Standard and Model Interface Licence v2.2.0 (Published).docx) | MUST | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. |
 
 ---
 
-## [Data Migration](Data-Migration.md)
+## [Data Migration](Data-Migration.md) {#BaselineAssuranceStandard-DataMigration}
 
 Supports the secure migration of Practice data between Solutions.
 
@@ -119,7 +119,7 @@ Supports the secure migration of Practice data between Solutions.
 
 ---
 
-## [Data Standards](Data-Standards.md)
+## [Data Standards](Data-Standards.md) {#BaselineAssuranceStandard-DataStandards}
 
 Defines detailed technical standards for the storage, management and organisation of data and specifies standardised reference data, terminology and codes.
 
@@ -143,11 +143,11 @@ Defines detailed technical standards for the storage, management and organisatio
 
 ---
 
-## [Hosting & Infrastructure](Hosting-Infrastructure.md)
+## [Hosting & Infrastructure](Hosting-Infrastructure.md) {#BaselineAssuranceStandard-Hosting&Infrastructure}
 
 Supports best practices for infrastructure and hosting of systems. For example, ensuring that systems are cost effective, secure, reliable, resilient, safe, manageable and energy efficient.
 
-## NHS Cloud Hosting Standards & Guidance
+## NHS Cloud Hosting Standards & Guidance {#BaselineAssuranceStandard-NHSCloudHostingStandards&Guidance}
 
 The following is a summary of the "NHS and social care data: off-shoring and the use of public cloud services" gathered from cloud guidance information published by the Authority. It makes clear what evidence is to be sought from a Supplier, where it is deemed necessary to assure compliance with the 4 step process.
 
@@ -158,7 +158,7 @@ Some key points of note:
 - Data Controllers need to understand the risks of moving to cloud, and any impact
 - Data controllers must take into account the standard CIA triad (Confidentiality, Integrity, Availability), and also other relevant factors, including, but not limited to, cost, security, resilience, capability and funding
 
-## The Authority's Associated Cloud Guidance Links:
+## The Authority's Associated Cloud Guidance Links: {#BaselineAssuranceStandard-TheAuthority'sAssociatedCloudGuidanceLinks:}
 
 - [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services)
 
@@ -170,9 +170,9 @@ Some key points of note:
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | CH3.0 | **Implement the appropriate controls**  Care organisations, such as GPs, retain the data controller responsibilities and they are therefore ultimately responsible for ensuring that proportionate controls are put in place to mitigate all risks. The data controllers may rightly request to see these controls (proposed by the Supplier) before considering any migration to cloud. | MUST | **Full Assessment**  Self-certification description to include:   - Confirmation that where there are many data controllers using a Solution (e.g. GP system), the communication strategy to inform all data controllers of any data risks identified will be made available to the Authority prior to implementation. - Confirmation that a Data Protection Impact Assessment (DPIA) has been completed and will be provided to the Authority if requested. - Confirmation that the relevant data protection legislation is adhered to.   Supporting evidence to include:   - Documentation or statements that cover all aspects listed within [Section 8. Appendix A - detailed advice and guidance](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-security-good-practice-guide/8.-appendix-a---detailed-advice-and-guidance) of [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services).   **Note:** To submit this evidence, download and complete the [Cloud Good Practice Guide](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134324/Hosting%20and%20Infrastructure_Cloud%20Standards_Good%20Practice%20Guide.xlsx?api=v2) template for the data classification level identified in CH2.0. | **Self-certification with Supporting Evidence**  Self-certification description to include:   - Confirmation that where there are many data controllers using a Solution (e.g. GP system), the communication strategy to inform all data controllers of any data risks identified will be made available to the Authority prior to implementation. - Confirmation that a Data Protection Impact Assessment (DPIA) has been completed and will be provided to the Authority if requested. - Confirmation that the relevant data protection legislation is adhered to.   Supporting evidence to include:   - Documentation or statements that cover all aspects listed within [Section 8. Appendix A - detailed advice and guidance](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-security-good-practice-guide/8.-appendix-a---detailed-advice-and-guidance) of [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services).   **Note:** To submit this evidence, download and complete the [Cloud Good Practice Guide](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134324/Hosting%20and%20Infrastructure_Cloud%20Standards_Good%20Practice%20Guide.xlsx?api=v2) template for the data classification level identified in CH2.0. | **Self-certification with Supporting Evidence**  Self-certification description to include:   - Confirmation that where there are many data controllers using a Solution (e.g. GP system), the communication strategy to inform all data controllers of any data risks identified will be made available to the Authority prior to implementation. - Confirmation that a Data Protection Impact Assessment (DPIA) has been completed and will be provided to the Authority if requested. - Confirmation that the relevant data protection legislation is adhered to.   Supporting evidence to include:   - Documentation or statements that cover all aspects listed within [Section 8. Appendix A - detailed advice and guidance](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-security-good-practice-guide/8.-appendix-a---detailed-advice-and-guidance) of [NHS and social care data: off-shoring and the use of public cloud services](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/nhs-and-social-care-data-off-shoring-and-the-use-of-public-cloud-services).   **Note:** To submit this evidence, download and complete the [Cloud Good Practice Guide](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134324/Hosting%20and%20Infrastructure_Cloud%20Standards_Good%20Practice%20Guide.xlsx?api=v2) template for the data classification level identified in CH2.0. |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | CH4.0 | **Monitoring the Implementation**  All cloud providers take on data processor responsibilities, with Care organisations (e.g. GP practices) retaining the data controller responsibilities, and they must ensure the selected cloud provider remains fit for purpose. | MUST | **Self-certification** | **Self-certification** | **Self-certification** |
 
-## Co-location and Provider Data Centre Hosting & Infrastructure Requirements
+## Co-location and Provider Data Centre Hosting & Infrastructure Requirements {#BaselineAssuranceStandard-Co-locationandProviderDataCentreHosting&InfrastructureRequirements}
 
-## Scope
+## Scope {#BaselineAssuranceStandard-Scope}
 
 The scope of this document covers the infrastructure requirements a Supplier must meet when providing services where a Supplier has co located their service & infrastructure within a data centre providers facilities OR where the Supplier is using their own facilities. The requirements will cover a number of aspects including but not limited to:
 
@@ -228,7 +228,7 @@ For the avoidance of doubt these requirements do not cover cloud provision.
 
 ---
 
-## [Information Governance](Information-Governance.md)
+## [Information Governance](Information-Governance.md) {#BaselineAssuranceStandard-InformationGovernance}
 
 Supports the controls needed to ensure that Special Category Data is kept confidential, is accurate and is available to authorised users when required.
 
@@ -349,11 +349,11 @@ There are several related mechanisms defined in requirements, which are compared
 
 ---
 
-## [Interoperability Standard](Interoperability-Standard.md)
+## [Interoperability Standard](Interoperability-Standard.md) {#BaselineAssuranceStandard-InteroperabilityStandard}
 
 Defines overarching Interoperability requirements and interfaces to be implemented, including quality and principles to be followed for Supplier Solutions.
 
-## Interoperability non-functional requirements
+## Interoperability non-functional requirements {#BaselineAssuranceStandard-Interoperabilitynon-functionalrequirements}
 
 The following overarching requirements apply to all interfaces in the scope of the Interoperability Standard which are offered by a Solution.
 
@@ -367,7 +367,7 @@ The following overarching requirements apply to all interfaces in the scope of t
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | ISNFR07 | Within the scope of interfaces specified within the Standard, Suppliers must not offer differential service, e.g. all API functionality and behaviour will be equally available to all API Consumers, including the API Provider's own applications. | MUST | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | ISNFR08 | Suppliers should not offer multiple APIs for the same purpose, e.g. there should not be multiple, different Appointments Booking APIs. Suppliers are free to offer APIs to different Consumers under different commercial terms if permitted by the contract and Contracting Vehicle, but they should offer only one technical API for each purpose. | SHOULD | **Self-certification** | **Self-certification** | **Self-certification** |
 
-## Minimum non-functional requirements for interfaces built to the Authority's specifications
+## Minimum non-functional requirements for interfaces built to the Authority's specifications {#BaselineAssuranceStandard-Minimumnon-functionalrequirementsforinterfacesbuilttotheAuthority'sspecifications}
 
 Where an interface/extract is built to the Authority's functional specifications, e.g. IM1 - Interface Mechanism or GP Connect, the following requirements apply to the production implementation. For requirements relating to performance and availability Suppliers should refer to the [Service Levels](Service-Management.md)*.*
 
@@ -378,7 +378,7 @@ Where an interface/extract is built to the Authority's functional specifications
 
 ---
 
-## [Non-Functional Questions](Non-Functional-Questions.md)
+## [Non-Functional Questions](Non-Functional-Questions.md) {#BaselineAssuranceStandard-Non-FunctionalQuestions}
 
 Enables The Authority to assess the risk associated with the Compliance Assessment of the Solution against appropriate Overarching Standards.
 
@@ -399,7 +399,7 @@ Enables The Authority to assess the risk associated with the Compliance Assessm
 
 ---
 
-## [Service Management](Service-Management.md)
+## [Service Management](Service-Management.md) {#BaselineAssuranceStandard-ServiceManagement}
 
 Sets out the requirements for Suppliers with regards to the delivery and management of services that support and provide their Solutions.
 
@@ -416,7 +416,7 @@ Sets out the requirements for Suppliers with regards to the delivery and managem
 
 ---
 
-## [Testing](Testing.md)
+## [Testing](Testing.md) {#BaselineAssuranceStandard-Testing}
 
 Ensures that Suppliers' software delivery test processes are of sufficient quality and rigour.
 
@@ -446,7 +446,7 @@ Ensures that Suppliers' software delivery test processes are of sufficient quali
 
 ---
 
-## [Training](Training.md)
+## [Training](Training.md) {#BaselineAssuranceStandard-Training}
 
 Defines the training activities and collateral expected from Suppliers to support the buyers and users of their Solutions.
 
@@ -472,7 +472,7 @@ Defines the training activities and collateral expected from Suppliers to suppor
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Pathways Solution Registry - Digital Primary Care | TR-12.3 | **Evaluation and Assessment - Authority Sample Surveys**  The Supplier will take action to remedy any issues identified from sample surveys on End User competency and satisfaction carried out by The Authority. | MUST | Yes | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Pathways Solution Registry - Digital Primary Care | TR-12.4 | **Evaluation and Assessment - Additional training and support**  The Supplier shall provide additional training and/or support where issues are identified through the evaluation and assessment process. For example, where negative feedback has been received, Go-Live has been delayed or the learners don't reach the required level of competency. | MUST | Yes | **Self-certification** | **Self-certification** | **Self-certification** |
 
-# Roadmap
+# Roadmap {#BaselineAssuranceStandard-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

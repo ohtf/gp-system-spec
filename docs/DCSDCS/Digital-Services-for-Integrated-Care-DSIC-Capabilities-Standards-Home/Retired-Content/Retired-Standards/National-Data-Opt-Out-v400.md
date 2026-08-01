@@ -25,11 +25,11 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#NationalDataOpt-Outv4.0.0-Dependencies)
 - [Roadmap](#NationalDataOpt-Outv4.0.0-Roadmap)
 
-# Introduction
+# Introduction {#NationalDataOpt-Outv4.0.0-Introduction}
 
 The National Data Opt-Out Programme has been established to ensure that a mechanism is developed and available for Health and Social Care organisations to use that will enable a Patient’s preference to be honoured accordingly, e.g. if a Patient’s preference is to opt-out then their data is to be withheld from being shared from appropriate disclosures – this is known as the ‘Upholding’ of an opt-out.
 
-# Compliance and Assurance
+# Compliance and Assurance  {#NationalDataOpt-Outv4.0.0-ComplianceandAssurance}
 
 At a high-level, Compliance, Assurance and Testing of the National Data Opt-Out will align with the following steps:
 
@@ -47,7 +47,7 @@ At a high-level, Compliance, Assurance and Testing of the National Data Opt-Out 
 6. FOT (First of Type) DevMAC to be awarded to the GP System Supplier at the end of the successful assurance
 7. FRA (Full Rollout Approval) DevMAC post successful FOT
 
-# Requirements
+# Requirements {#NationalDataOpt-Outv4.0.0-Requirements}
 
 Standards for confirming the Patient preferences: 
 
@@ -59,15 +59,15 @@ DCB3058 Compliance with National Data Opt-Outs contains further information on 
 
 The final set of National Data Opt-Out requirements, v2.0 published April 2019, can be accessed below:
 
-[NDOP GP IT Change requir…](National-Data-Opt-Out-v400.md)
+[NDOP GP IT Change requir…](../../../../.raw/DCSDCS/attachments/12458000405/att12458000422-NDOP GP IT Change requirements v2.0 29Apr2019.docx)
 
-# Dependencies
+# Dependencies {#NationalDataOpt-Outv4.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standard:
 
 - Messaging Exchange for Social Care and Health (MESH)
 
-# Roadmap
+# Roadmap {#NationalDataOpt-Outv4.0.0-Roadmap}
 
 | Roadmap Item |
 | --- |

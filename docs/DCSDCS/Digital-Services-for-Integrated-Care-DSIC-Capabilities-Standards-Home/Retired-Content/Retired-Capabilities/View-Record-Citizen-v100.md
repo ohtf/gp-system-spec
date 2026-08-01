@@ -20,11 +20,11 @@ labels: ["capability_retired"]
 
 Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
 
-# Description
+# Description {#ViewRecord-Citizenv1.0.0-Description}
 
 Enables Citizens to view their Patient Record online.
 
-# Outcomes
+# Outcomes {#ViewRecord-Citizenv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -33,7 +33,7 @@ Enables Citizens to view their Patient Record online.
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### Epic 1 - view Patient Record - Patient
+### Epic 1 - view Patient Record - Patient {#ViewRecord-Citizenv1.0.0-Epic1-viewPatientRecord-Patient}
 
 As a Patient
 
@@ -41,7 +41,7 @@ I want to view my Patient Record
 
 So that I can see the information in my Patient Record
 
-#### Acceptance criterion 1: view Summary Information Record
+#### Acceptance criterion 1: view Summary Information Record {#ViewRecord-Citizenv1.0.0-Acceptancecriterion1:viewSummaryInformationRecord}
 
 Given the Patient is logged into Citizen Services
 
@@ -55,7 +55,7 @@ When the Patient chooses to view the Summary Information Record
 
 Then the Summary Information Record is displayed
 
-#### Acceptance criterion 2: view Detailed Coded Records
+#### Acceptance criterion 2: view Detailed Coded Records {#ViewRecord-Citizenv1.0.0-Acceptancecriterion2:viewDetailedCodedRecords}
 
 Given the Patient is logged into Citizen Services
 
@@ -69,7 +69,7 @@ When the Patient chooses to view Detailed Coded Records
 
 Then Detailed Coded Records are displayed
 
-#### Acceptance criterion 3: view Documents with Documents permission
+#### Acceptance criterion 3: view Documents with Documents permission {#ViewRecord-Citizenv1.0.0-Acceptancecriterion3:viewDocumentswithDocumentspermission}
 
 Given the Patient is logged into Citizen Services
 
@@ -85,7 +85,7 @@ When the Patient chooses to view Documents
 
 Then Documents are displayed
 
-#### Acceptance criterion 4: view Full Record
+#### Acceptance criterion 4: view Full Record {#ViewRecord-Citizenv1.0.0-Acceptancecriterion4:viewFullRecord}
 
 Given the Patient is logged into Citizen Services
 
@@ -103,7 +103,7 @@ Then the Full Record is displayed
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### Epic 2 - view Patient Record - Proxy
+### Epic 2 - view Patient Record - Proxy {#ViewRecord-Citizenv1.0.0-Epic2-viewPatientRecord-Proxy}
 
 As a Proxy
 
@@ -111,7 +111,7 @@ I want to view a Patient Record
 
 So that I can see the information in the Patient Record
 
-#### Acceptance criterion 1: view Summary Information Record
+#### Acceptance criterion 1: view Summary Information Record {#ViewRecord-Citizenv1.0.0-Acceptancecriterion1:viewSummaryInformationRecord.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -125,7 +125,7 @@ When the Proxy chooses to view the Summary Information Record
 
 Then the Summary Information Record is displayed
 
-#### Acceptance criterion 2: view Detailed Coded Records
+#### Acceptance criterion 2: view Detailed Coded Records {#ViewRecord-Citizenv1.0.0-Acceptancecriterion2:viewDetailedCodedRecords.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -139,7 +139,7 @@ When the Proxy chooses to view Detailed Coded Records
 
 Then Detailed Coded Records are displayed
 
-#### Acceptance criterion 3: view Documents with Documents permission
+#### Acceptance criterion 3: view Documents with Documents permission {#ViewRecord-Citizenv1.0.0-Acceptancecriterion3:viewDocumentswithDocumentspermission.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -155,7 +155,7 @@ When the Proxy chooses to view Documents
 
 Then Documents are displayed
 
-#### Acceptance criterion 4: view Full Record
+#### Acceptance criterion 4: view Full Record {#ViewRecord-Citizenv1.0.0-Acceptancecriterion4:viewFullRecord.1}
 
 Given the Proxy is logged into Citizen Services
 

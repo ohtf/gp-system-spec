@@ -27,11 +27,11 @@ labels: ["overarching_standard"]
 - [Other Documents Referenced Within Components Of The Standard](#ServiceManagement-OtherDocumentsReferencedWithinComponentsOfTheStandard)
 - [Roadmap](#ServiceManagement-Roadmap)
 
-# Introduction
+# Introduction {#ServiceManagement-Introduction}
 
 Sets out the requirements for Suppliers with regards to the delivery and management of services that support and provide their Solutions.
 
-## Type 1 & Type 2 Catalogue Solutions
+## Type 1 & Type 2 Catalogue Solutions {#ServiceManagement-Type1&Type2CatalogueSolutions}
 
 The Service Management Standard comprises of Type 1 & Type 2 Catalogue Solutions which are defined in the Catalogue Agreement. 
 
@@ -40,7 +40,7 @@ With regards to performance management, remedies associated with poor performanc
 - For Type 1 Catalogue Solutions: in schedule 2.5 (Performance Levels) of the Framework Agreement that is appropriate to the Contracting Vehicle; and
 - For Type 2 Catalogue Solutions: in schedule 2.1 (Performance Levels) of the Call Off Agreement that is appropriate to the Contracting Vehicle
 
-# Baseline Assurance Standard Requirements
+# Baseline Assurance Standard Requirements {#ServiceManagement-BaselineAssuranceStandardRequirements}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md). Completing the BAS is the first step to achieving full assurance with the Overarching Standards allowing Supplier Solutions to be published on the Buying Catalogue. Upon meeting this Standard, Solutions are required to meet any remaining Further Requirements in the Overarching Standards in the timeframe applicable to the Contracting Vehicle.
 
@@ -59,7 +59,7 @@ The following table of Requirements are the Requirements in the Baseline Assuran
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | SM013 | The Supplier shall ensure that all data used within the Supplier Service Management Toolsets and Supplier Performance Management Toolsets is retained for a minimum of two years or the duration of the Call Off Agreement (whichever is longer) in a manner that can be accessed by the Supplier and provided to the Service Management Agent within 48 hours of any request. | MUST | Both | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | SM014 | To the extent the Service Management Agent can not access data as required, the Supplier must make such data available to the Service Management Agent no later than 24 hours after the Service Management Agent has requested such data (this time period excludes weekends and Bank Holidays), or where that the data is required urgently (such as to respond to a Parliamentary question), no more than 4 hours from the request being made by the Service Management Agent to the Supplier. The Service Management Agent shall act reasonably and give due regard to the impact on the Supplier when making such requests. | MUST | Both | **Self-certification** | **Self-certification** | **Self-certification** |
 
-# Further Requirements
+# Further Requirements {#ServiceManagement-FurtherRequirements}
 
 Suppliers must complete assurance for these Requirements in addition to Requirements in the Baseline Assurance Standard in order to achieve full compliance with the Service Management Standard. Suppliers can complete these at the same time as requirements within the Baseline Assurance Standard or following the publication on the Buying Catalogue subject to meeting the timeframe applicable to the Contracting Vehicle.
 
@@ -82,17 +82,17 @@ Suppliers must complete assurance for these Requirements in addition to Requirem
 | - DFOCVC | SM018a | The Supplier shall raise Problems for the root cause of all HSSIs and shall, unless otherwise agreed with the Catalogue Authority acting reasonably, fix such Problems within 60 Working Days. | MUST | Type 2 only | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | SM019 | The Supplier shall, within 10 Working Days of the receipt of a request from the Service Management Agent, provide evidence to demonstrate that they are compliant with one or more of the obligations set out in this document. The Service Management Agent shall only issue such requests where a breach of the obligations set out in this document are reasonably suspected to have occurred. | MUST | Both | **Self-certification** | **Self-certification** | **Self-certification** |
 
-# Performance Regime Template For Type 2 Catalogue Solutions
+# Performance Regime Template For Type 2 Catalogue Solutions {#ServiceManagement-PerformanceRegimeTemplateForType2CatalogueSolutions}
 
 - [Performance Regime Template for Type 2 Catalogue Solutions.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133802/Performance%20Regime%20Template%20for%20Type%202%20Catalogue%20Solutions.docx?version=1&modificationDate=1609411550235&cacheVersion=1&api=v2)
 
-# Other Documents Referenced Within Components Of The Standard
+# Other Documents Referenced Within Components Of The Standard {#ServiceManagement-OtherDocumentsReferencedWithinComponentsOfTheStandard}
 
 - [Balanced Scorecard](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133802/Balanced%20Scorecard.xlsx?api=v2) is referenced in document “Catalogue Solution Service Levels”
 - [HSSI Template](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133802/HSSI%20Template.docx?api=v2)referenced in document “Incident Management Obligations”
 - [HSSI Report Template](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133802/HSSI%20Report%20Template.docx?api=v2) - referenced in document “DFOCVC – Incident Management Related Obligations”
 
-# Roadmap
+# Roadmap {#ServiceManagement-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

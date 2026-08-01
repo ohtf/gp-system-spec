@@ -22,7 +22,7 @@ The commercial Procurement Hub are available to provide guidance throughout your
 - [GPITF Overview](https://gpitbjss.atlassian.net/wiki/spaces/BG/overview)
 - [Capability and Standards Overview](../Capability-and-Standards-Overview.md)
 
-# Introduction
+# Introduction {#Howtobuy-Introduction}
 
 The purpose of these confluence pages is to help you understand how to use the GP IT Futures Digital Care Services Framework to procure [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) or to vary your existing Call Off Agreements under common business change scenarios.
 

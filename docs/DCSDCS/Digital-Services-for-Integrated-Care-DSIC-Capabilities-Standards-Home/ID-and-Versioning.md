@@ -21,7 +21,7 @@ This page provides the ID and version number for all entities in the GP IT Futur
 - [Reference Pages](#IDandVersioning-ReferencePages)
 - [Roadmap Items](#IDandVersioning-RoadmapItems)
 
-## Capabilities
+## Capabilities {#IDandVersioning-Capabilities}
 
 | Capability | ID | Version | Status | Effective Date |
 | --- | --- | --- | --- | --- |
@@ -226,7 +226,7 @@ This page provides the ID and version number for all entities in the GP IT Futur
 | [Unified Care Record](DSIC-Capabilities/Unified-Care-Record.md) | C39 | 1.0.2 | Effective | 04 Jun 2025 |
 | [Unified Care Record v1.0.0](Retired-Content/Retired-Capabilities/Unified-Care-Record-v100.md) | C39 | 1.0.0 | Retired | 01 Apr 2019 |
 
-## Standards
+## Standards {#IDandVersioning-Standards}
 
 | Standard | ID | Version | Status | Effective Date |
 | --- | --- | --- | --- | --- |
@@ -431,9 +431,9 @@ This page provides the ID and version number for all entities in the GP IT Futur
 | [Personal Demographics Service (PDS) v2.0.0](Retired-Content/Retired-Standards/Personal-Demographics-Service-PDS-v200.md) | S56 | 2.0.0 | Retired | 27 Sep 2022 |
 | [Personal Demographics Service (PDS) v2.1.0](Retired-Content/Retired-Standards/Personal-Demographics-Service-PDS-v210.md) | S56 | 2.1.0 | Retired | 06 Jun 2024 |
 
-## Standards by Type
+## Standards by Type {#IDandVersioning-StandardsbyType}
 
-### Overarching Standards
+### Overarching Standards {#IDandVersioning-OverarchingStandards}
 
 | Standard | ID | Version | Status | Effective Date |
 | --- | --- | --- | --- | --- |
@@ -496,7 +496,7 @@ This page provides the ID and version number for all entities in the GP IT Futur
 | [Training v1.0.1](Retired-Content/Retired-Standards/Training-v101.md) | S28 | 1.0.1 | Retired | 11 Aug 2020 |
 | [Training v1.5.0](Retired-Content/Retired-Standards/Training-v150.md) | S28 | 1.5.0 | Retired |  |
 
-### Non-Overarching Standards
+### Non-Overarching Standards {#IDandVersioning-Non-OverarchingStandards}
 
 | Standard | ID | Version | Status | Effective Date |
 | --- | --- | --- | --- | --- |
@@ -578,13 +578,13 @@ This page provides the ID and version number for all entities in the GP IT Futur
 | [Validated Relationship Service](DSIC-Standards/Non-Overarching-Standards/Validated-Relationship-Service.md) | S114 | 1.0.0 | Effective | 01 Apr 2026 |
 | [Validated Relationship Service v2.0.0](Published-Content/Validated-Relationship-Service-v200.md) | S114 | 2.0.0 | Published | 20 Apr 2027 |
 
-### Supplementary Care Standards
+### Supplementary Care Standards {#IDandVersioning-SupplementaryCareStandards}
 
 | Standard | ID | Version | Status | Effective Date |
 | --- | --- | --- | --- | --- |
 | [Community Pharmacy Clinical Services](DSIC-Standards/Supplementary-Care-Standards/Community-Pharmacy-Clinical-Services.md) | SCS1 | 3.0.0 | Effective | 10 Nov 2025 |
 
-## Reference Pages
+## Reference Pages {#IDandVersioning-ReferencePages}
 
 | Reference Page | ID | Version |
 | --- | --- | --- |
@@ -603,7 +603,7 @@ This page provides the ID and version number for all entities in the GP IT Futur
 | [Recommended Best Practices](Reference-Pages/Recommended-Best-Practices.md) | R3 | 6.1.0 |
 | [Spine](Reference-Pages/Spine.md) | R1 | 1.0.2 |
 
-## Roadmap Items
+## Roadmap Items {#IDandVersioning-RoadmapItems}
 
 | Roadmap Item | ID | Version |
 | --- | --- | --- |

@@ -27,20 +27,20 @@ labels: ["standard"]
 - [Dependencies](#NationalEventsManagementService(NEMS)-Dependencies)
 - [Roadmap](#NationalEventsManagementService(NEMS)-Roadmap)
 
-# Introduction
+# Introduction {#NationalEventsManagementService(NEMS)-Introduction}
 
 The National Events Management Service (NEMS) allows digital Health and Care services to notify other digital services that an ‘event’ has occurred, using ‘publish-subscribe’ messages.
 
 For further information, see [National Events Management Service (NEMS)](https://digital.nhs.uk/services/national-events-management-service).
 
-# Requirements
+# Requirements {#NationalEventsManagementService(NEMS)-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | GP Suppliers | **NEMS01** | Subscribe to and implement the receipt of [PDS Record Change](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-notifications-fhir) event messages inline with the latest specification version. | MUST |
 
-## Message Implementation
+## Message Implementation {#NationalEventsManagementService(NEMS)-MessageImplementation}
 
 Dependent on the care setting or system, the messages needing to be subscribed to may differ. The table below shows which NEMS messages are required to be implemented based on the Capability being delivered.
 
@@ -49,21 +49,21 @@ Dependent on the care setting or system, the messages needing to be subscribed t
 | **Capability** | **Applicable Requirement** | **Message** |
 | [Patient Information Maintenance - GP](../../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | NEMS01 | PDS Record Change |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#NationalEventsManagementService(NEMS)-Compliance,AssuranceandTesting}
 
 See the National Event Monitoring Service (NEMS) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#NationalEventsManagementService(NEMS)-Documentation}
 
 - [Personal Demographics Service Notifications - FHIR Overview (developer.nhs.uk)](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-notifications-fhir)
 
-# Dependencies
+# Dependencies {#NationalEventsManagementService(NEMS)-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 
-# Roadmap
+# Roadmap {#NationalEventsManagementService(NEMS)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

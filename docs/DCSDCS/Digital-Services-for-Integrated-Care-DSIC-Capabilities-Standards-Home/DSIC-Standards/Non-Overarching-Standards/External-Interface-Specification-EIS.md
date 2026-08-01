@@ -38,9 +38,9 @@ labels: ["standard"]
 - [Dependencies](#ExternalInterfaceSpecification(EIS)-Dependencies)
 - [Roadmap](#ExternalInterfaceSpecification(EIS)-Roadmap)
 
-# Introduction
+# Introduction {#ExternalInterfaceSpecification(EIS)-Introduction}
 
-#### EIS - External Interface Specification
+#### EIS - External Interface Specification {#ExternalInterfaceSpecification(EIS)-EIS-ExternalInterfaceSpecification}
 
 The External Interface Specification details how to connect to the NHS Digital Spine Services. It is made up of a number of parts detailing core spine subsystems and should be used alongside other specifications such as the NHS Message Implementation Manuals (MIMs), Domain Message Specifications (DMS’s) etc.
 
@@ -66,9 +66,9 @@ Note: EIS parts 8,9 and 10 have been withdrawn and are no longer in use and Part
 
 All amendments to each section of the EIS are documented in [EIS Part 1 - Introduction](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-1-introduction)
 
-# Requirements
+# Requirements {#ExternalInterfaceSpecification(EIS)-Requirements}
 
-### Message Handling Service - EIS Part 2
+### Message Handling Service - EIS Part 2 {#ExternalInterfaceSpecification(EIS)-MessageHandlingService-EISPart2}
 
 Describes the behaviour and interface protocols for MHS nodes. MHS nodes are responsible for reliable transport of HL7/XML messages to and from NHS Digital Spine.
 
@@ -84,11 +84,11 @@ Note the nomenclature, [ebXML-MS] uses the term Message Service Handler (MSH) to
 
 The core Message patterns in use are:
 
-#### Direct messaging (Supplier to/from Spine)
+#### Direct messaging (Supplier to/from Spine) {#ExternalInterfaceSpecification(EIS)-Directmessaging(Supplierto/fromSpine)}
 
 (*coming soon: message examples*)
 
-#### Web Service
+#### Web Service {#ExternalInterfaceSpecification(EIS)-WebService}
 
 - Synchronous - business response returned over an open connection
 - SOAP envelop and wrapper
@@ -109,7 +109,7 @@ There are 3 types of synchronous messages for Web Service Mode:
 
 Examples: PDS Simple Trace, PDS Retrieval, PSIS Event List Query
 
-#### ebXML Reliable Asynchronous
+#### ebXML Reliable Asynchronous {#ExternalInterfaceSpecification(EIS)-ebXMLReliableAsynchronous}
 
 - Asynchronous - signal level acknowledgement over the open connection, new return connection for the business response
 - ebXML wrappers and MIME attachments
@@ -123,7 +123,7 @@ Examples: PDS Simple Trace, PDS Retrieval, PSIS Event List Query
 
 Examples: All EPS messages, PDS Update, PSIS GP Summary
 
-#### Unreliable Asynchronous
+#### Unreliable Asynchronous {#ExternalInterfaceSpecification(EIS)-UnreliableAsynchronous}
 
 - Asynchronous
 - ebXML wrappers and MIME attachments
@@ -136,9 +136,9 @@ Examples: All EPS messages, PDS Update, PSIS GP Summary
   - reliability is not important (if it fails, the user can try again)
   - the response may be large
 
-### Intermediary messaging (Supplier to/from Supplier via TMS)
+### Intermediary messaging (Supplier to/from Supplier via TMS) {#ExternalInterfaceSpecification(EIS)-Intermediarymessaging(Supplierto/fromSupplierviaTMS)}
 
-#### Multi-hop End-Party Reliability
+#### Multi-hop End-Party Reliability {#ExternalInterfaceSpecification(EIS)-Multi-hopEnd-PartyReliability}
 
 - Asynchronous
 - ebXML wrappers and MIME attachments
@@ -153,7 +153,7 @@ Examples: All EPS messages, PDS Update, PSIS GP Summary
 
 Examples: All Choose and Book R1 messages
 
-#### Multi-hop Intermediary Reliability
+#### Multi-hop Intermediary Reliability {#ExternalInterfaceSpecification(EIS)-Multi-hopIntermediaryReliability}
 
 - Asynchronous
 - ebXML wrappers and MIME attachments
@@ -167,7 +167,7 @@ Examples: All Choose and Book R1 messages
 
 Examples: All Choose and Book R2 messages, GP2GP messages
 
-#### Multi-hop No-Party Reliability
+#### Multi-hop No-Party Reliability {#ExternalInterfaceSpecification(EIS)-Multi-hopNo-PartyReliability}
 
 - Asynchronous
 - ebXML wrappers and MIME attachments
@@ -180,9 +180,9 @@ Examples: All Choose and Book R2 messages, GP2GP messages
 
 Examples: All ERS  messages
 
-### Message Structure
+### Message Structure {#ExternalInterfaceSpecification(EIS)-MessageStructure}
 
-#### ebXML ([EIS Part 2 - Message Handling Service (MHS)](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-2-message-handling-service-mhs-) section 2.5.4)
+#### ebXML ([EIS Part 2 - Message Handling Service (MHS)](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-2-message-handling-service-mhs-) section 2.5.4) {#ExternalInterfaceSpecification(EIS)-ebXML(EISPart2-MessageHandlingService(MHS)section2.5.4)}
 
 The ebXML Message Service Specification defines a set of namespace-qualified SOAP Header and Body element extensions within the SOAP *Envelope*. These are packaged within MIME multipart attachments to allow payloads or other related attachments to be included with the SOAP extension elements.
 
@@ -193,13 +193,13 @@ There are two logical MIME parts within the Message Package:
 - The first MIME part, referred to as the Header Container, containing one SOAP compliant XML message.
 - Zero or more additional MIME parts, referred to as Payload Containers, containing application-level payloads. This is where NHS messages are
 
-#### Web Service ([EIS Part 2 - Message Handling Service (MHS)](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-2-message-handling-service-mhs-) section 2.6.4)
+#### Web Service ([EIS Part 2 - Message Handling Service (MHS)](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-2-message-handling-service-mhs-) section 2.6.4) {#ExternalInterfaceSpecification(EIS)-WebService(EISPart2-MessageHandlingService(MHS)section2.6.4)}
 
 The SOAP header contains [WS-A] elements, while the SOAP body contains the HL7 interaction message. The binding of HL7 elements to the [WS-A] structures were derived from [HL7-WSA]. For responses, the HL7 wrapper is wrapped in a *nasp* element in order to aid WSDL WS-I Basic Profile compliance. Please refer to [NASP-XML] for all messages that include the wrapping *nasp* element.
 
 Additional details can be found in [EIS Part 2 - Message Handling Service (MHS)](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-2-message-handling-service-mhs-) or the Spine Core site (coming soon)
 
-### Message Interaction Map - EIS Part 3
+### Message Interaction Map - EIS Part 3 {#ExternalInterfaceSpecification(EIS)-MessageInteractionMap-EISPart3}
 
 This Message Interaction Map section of the EIS outlines HL7/Spine operational forms and message behaviour patterns of the  HL7 messages defined in the MIM or DMS. Local system implementations MUST support the MHS, HL7 and Spine non-HL7 behaviours defined in this section of the EIS. The details of the interface behaviour i.e. the contract properties used in ebXML are configured in the SDS and not defined in this section of the EIS.
 
@@ -219,7 +219,7 @@ Each subsection defines the behavioural elements for each MIM/Spine message doma
 
 Full details can be found in [EIS Part 3 - Message Interaction Map](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-3-message-interaction-map) or the Spine Core Site (coming soon)
 
-### Gazetteer Service - EIS Part 4
+### Gazetteer Service - EIS Part 4 {#ExternalInterfaceSpecification(EIS)-GazetteerService-EISPart4}
 
 (also known as Address Finder Service)
 
@@ -232,7 +232,7 @@ The Gazetteer provides the following functionality to external systems:
 - Validate and transform the address to PAF standard
 - Search and return address list based on search criteria
 
-#### Gazetteer Functions
+#### Gazetteer Functions {#ExternalInterfaceSpecification(EIS)-GazetteerFunctions}
 
 The Gazetteer service provides various functions for validating an address based on complete/partial address lines provided by the caller subsystems. This includes:
 
@@ -244,7 +244,7 @@ The Gazetteer service provides various functions for validating an address based
 
 Full details can be found in [EIS Part 4 - Gazetteer Service](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-4-gazetteer-service) or the Spine Core Site (coming soon)
 
-### SDS - Spine Directory Service - EIS Part 5
+### SDS - Spine Directory Service - EIS Part 5 {#ExternalInterfaceSpecification(EIS)-SDS-SpineDirectoryService-EISPart5}
 
 SDS is a directory-structured facility for the maintenance and publication of reference data about
 
@@ -254,11 +254,11 @@ SDS is a directory-structured facility for the maintenance and publication of re
 
 SDS is a vital component in the architecture that supports NHS Digital Spine systems and processes. As well as providing a straightforward user and services look-up facility, SDS provides accurate addressing of messaging between NHS systems.
 
-#### SDS FHIR API
+#### SDS FHIR API {#ExternalInterfaceSpecification(EIS)-SDSFHIRAPI}
 
 For Suppliers of new services or applications (i.e. those which are NOT currently deployed into an operational environment), the [SDS FHIR API](https://digital.nhs.uk/developer/api-catalogue/spine-directory-service-fhir) replaces the need to implement the SDS part of this External Interface Specification Standard for accessing accredited system information and messaging endpoint details.
 
-#### Historical Implementation Information
+#### Historical Implementation Information {#ExternalInterfaceSpecification(EIS)-HistoricalImplementationInformation}
 
 Click here to view historical implementation information
 
@@ -270,7 +270,7 @@ See [Spine Core Site](https://developer.nhs.uk/apis/spine-core/build_directory.
 
 NB: message contract properties should be queried before an interaction is sent
 
-#### Example Usage
+#### Example Usage {#ExternalInterfaceSpecification(EIS)-ExampleUsage}
 
 Reference data may be used by a system such as eRS (Electronic Referrals Service) when searching for an accredited system (service endpoint), by a Patient Administration System which needs to identify a user’s unique Spine identifier from their clinical code, or when a system needs to determine which GP Practice a GP is associated with based on their General Medical Practitioner Code.
 
@@ -280,7 +280,7 @@ Full details can be found in [EIS Part 5 - Spine Directory Services (SDS)](http
 
 Some [Example SDS queries](https://developer.nhs.uk/apis/spine-core/build_endpoints_example_ssp.html) for FHIR endpoint lookup can also be found on the Spine Core site.
 
-### SSB - Spine Security Broker - EIS Part 6
+### SSB - Spine Security Broker - EIS Part 6 {#ExternalInterfaceSpecification(EIS)-SSB-SpineSecurityBroker-EISPart6}
 
 The Spine Security Broker (SSB) interface Specification describes the external interfaces required by system implementers to provide for single sign-on.
 
@@ -292,7 +292,7 @@ The SSB provides services for the security needs of both Web-based and non-Web-b
 
 User authentication may only occur if the User is formally registered to the Spine. User registration to the Spine includes the creation of a User profile, stored in the SDS, containing the User’s roles and other information that the Authority or Service deems necessary to make appropriate data access decisions. The figure below of the SSB Deployment Model represents a deployment model of the SSB components and shows the interfaces described in this section.
 
-#### SSB Deployment Model
+#### SSB Deployment Model {#ExternalInterfaceSpecification(EIS)-SSBDeploymentModel}
 
 ![SSB Deployment Model](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133762/SSD.png?api=v2)
 
@@ -301,17 +301,17 @@ Full details can be found in:
 - [EIS Part 6 - Spine Security Broker (SSB)](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-6-spine-security-broker-ssb-)
 - [EIS Part 6 and 7 addendum](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-6-and-7-addendum)
 
-### SSB API - Spine Security Broker Application Interface - EIS Part 7
+### SSB API - Spine Security Broker Application Interface - EIS Part 7 {#ExternalInterfaceSpecification(EIS)-SSBAPI-SpineSecurityBrokerApplicationInterface-EISPart7}
 
 The Spine Security Broker Application Interface details the formal specification of SSB Java and C APIs.
 
 Full details can be found in [EIS Part 7 - Spine Security Broker (SSB) API](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-7-spine-security-broker-ssb-api) and [EIS Part 6 and 7 addendum](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-6-and-7-addendum) or here [Spine Core Site - Smartcards](https://developer.nhs.uk/apis/spine-core/smartcards.html) and there is [information about the Warranted Environment Specification](https://digital.nhs.uk/services/spine/spine-technical-information-warranted-environment-specification-wes).
 
-### EIS Parts 8,9 and 10
+### EIS Parts 8,9 and 10 {#ExternalInterfaceSpecification(EIS)-EISParts8,9and10}
 
 These have been withdrawn and are no longer in use.
 
-### ACS - Access Control Service - EIS Part 11
+### ACS - Access Control Service - EIS Part 11 {#ExternalInterfaceSpecification(EIS)-ACS-AccessControlService-EISPart11}
 
 The ACS subsystem service part of the EIS specifically it covers the requirements for the web services to support resource-based access control maintenance and query.
 
@@ -325,7 +325,7 @@ The Service exposes authorisation information on Spines external interface via t
 
 Full details can be found in [EIS Part 11 - Access Control Service](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-11-access-control-service)
 
-### One Click CSA - EIS Part 12
+### One Click CSA - EIS Part 12 {#ExternalInterfaceSpecification(EIS)-OneClickCSA-EISPart12}
 
 SCRa is a general purpose non-business specific web application which will allow users to access a summary of a patient's Shared Patient Clinical Record clinical record. The overall functionality of the service as required in the context of external systems will be limited to the following interface:
 
@@ -339,13 +339,13 @@ Note: this functionality will be limited to that described in the 2008B CSA Sub 
 
 Full details can be found in [EIS Part 12 - One Click CSA](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-part-12-one-click-csa)
 
-### Appendix - EIS Part A
+### Appendix - EIS Part A {#ExternalInterfaceSpecification(EIS)-Appendix-EISPartA}
 
 This is a general appendix, referenced by other sections of the External Interface Specification. It provides a list of references, acronyms and includes detailed information on message metadata.
 
 Full details can be found in [EIS Appendix A](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-appendix-a)
 
-### Errors - EIS Part B
+### Errors - EIS Part B {#ExternalInterfaceSpecification(EIS)-Errors-EISPartB}
 
 Provides a description of the Error Base process and how to interpret error bases.
 
@@ -365,7 +365,7 @@ Service consumers should implement a level of abstraction between the error code
 
 Full details can be found in [EIS Appendix B - Errors](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-appendix-b-errors)
 
-### Validation - EIS part C
+### Validation - EIS part C {#ExternalInterfaceSpecification(EIS)-Validation-EISpartC}
 
 The validation section of the EIS  records the validation rules implemented by the service provider or intermediary where applicable (SPINE) on messages entering SPINE via core message patterns. These include:
 
@@ -380,11 +380,11 @@ This information is provided to inform service consumers (local systems) as to t
 
 Full details can be found in [EIS Appendix C - Validation](https://digital.nhs.uk/developer/guides-and-documentation/spine-external-interface-specification#eis-appendix-c-validation)
 
-# Dependencies
+# Dependencies {#ExternalInterfaceSpecification(EIS)-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#ExternalInterfaceSpecification(EIS)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

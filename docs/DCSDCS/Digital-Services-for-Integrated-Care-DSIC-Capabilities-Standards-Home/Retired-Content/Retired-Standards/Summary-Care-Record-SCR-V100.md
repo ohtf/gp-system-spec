@@ -26,7 +26,7 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#SummaryCareRecord(SCR)V1.0.0-Dependencies)
 - [Roadmap](#SummaryCareRecord(SCR)V1.0.0-Roadmap)
 
-# Introduction
+# Introduction {#SummaryCareRecord(SCR)V1.0.0-Introduction}
 
 The Summary Care Record (SCR) is an electronic record of important Patient information, created from GP medical records. It can be seen and used by authorised staff in other areas of the health and care system involved in the Patient's direct care.
 
@@ -39,7 +39,7 @@ Both of these aspects are covered in the documentation below.
 
 Additional information is available at NHS Digital's summary care record site
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#SummaryCareRecord(SCR)V1.0.0-Compliance,AssuranceandTesting}
 
 To gain access to SCR suppliers follow the Common Assurance Process (CAP). CAP is an end-to-end assurance process, which involves a tailored (CAP) approach being developed which states what deliverable and activities are conducted.
 
@@ -57,9 +57,9 @@ For advice, access to the documentation, and support from the NHS Business Part
 
 The NPFIT-SCR-SCRDOCS-0038.01 NHS CFH SCR Clinical Message Validation Process v1 document provides guidance on the clinical safety validation processes for SCR messaging.
 
-# Documentation
+# Documentation {#SummaryCareRecord(SCR)V1.0.0-Documentation}
 
-## Summary Care Record Creation
+## Summary Care Record Creation {#SummaryCareRecord(SCR)V1.0.0-SummaryCareRecordCreation}
 
 GP Summaries are created and sent to the Summary Care Record repository (on Spine) via messaging from GP systems which implement the Patient Information Maintenance - GP capability.
 
@@ -77,7 +77,7 @@ Further information useful for implementers of this interface such as Use Cases,
 
 Also, see MIM 4.2.00 Known Issues
 
-## Summary Care Record Viewing
+## Summary Care Record Viewing {#SummaryCareRecord(SCR)V1.0.0-SummaryCareRecordViewing}
 
 SCR viewing must be implemented in line with the Summary Care Record Permission To View Guidelines.pdf
 
@@ -93,7 +93,7 @@ Suppliers have a number of options for implementing summary care record viewing,
 | Spine mini services | Spine mini services (SMS) are a more lightweight way of developing read-only integration with some national Spine services. SMS Client systems allow SCR access with patient permission and for Emergency Reasons. SCR Viewing systems will be able “plug into” the SCR Spine Mini-Service functionality of the SMS Provider. The SMS Provider system provides various defined functions and services for SCR Viewing systems, e.g. the SMS Provider would retrieve GP Summaries and manage “Permission to View” on behalf of viewing systems (clients). | SCR - Spine Mini Service Provider Requirements-v1.3.docx  SCR - Spine Mini Service Client Requirement04.1.docx |
 | Full SCR integration | Integration of SCR information into the GP clinical system.  A GP system retrieves GP Summaries from the Summary Care Record on Spine using the PSIS Query message and displays it via appropriate screens within the GP clinical system. | [SCR\_Viewing\_Requirements\_v3.0\_(Approved).docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/11975327998/SCR_Viewing_Requirements_v3.0_(Approved).docx?version=1&modificationDate=1652188718163&cacheVersion=1&api=v2)  Summary Care Record DMS 5.8  Message Implementation Manual (MIM 7.2) PSIS Query  NPFIT-FNT-TO-TIN-1228 14 Compliance Specification - Clinical Message Handling Addendum v4-0 (sections relevant to PSIS Query)  MIM 7.2.02 Known Issues 1.3 |
 
-# Dependencies
+# Dependencies {#SummaryCareRecord(SCR)V1.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
@@ -102,7 +102,7 @@ Creating a compliant implementation requires implementing the following dependen
 - Spine Mini Services (optional)
 - Authentication and Access
 
-# Roadmap
+# Roadmap {#SummaryCareRecord(SCR)V1.0.0-Roadmap}
 
 | Title |
 | --- |

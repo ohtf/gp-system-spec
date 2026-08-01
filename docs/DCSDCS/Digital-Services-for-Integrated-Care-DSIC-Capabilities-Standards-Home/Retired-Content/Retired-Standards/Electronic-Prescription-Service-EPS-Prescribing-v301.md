@@ -12,12 +12,12 @@ labels: ["standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S36 |
-| Version | 3.0.1 |
-| Type | Standard |
-| Status | Retired |
-| Effective Date | 28 Apr 2022 |
-| Contracting Vehicle(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
+| ID {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-ID} | S36 |
+| Version {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Version} | 3.0.1 |
+| Type {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Type} | Standard |
+| Status {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Status} | Retired |
+| Effective Date {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EffectiveDate} | 28 Apr 2022 |
+| Contracting Vehicle(s) {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-ContractingVehicle(s)} | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
 - [Introduction](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Introduction)
 - [Requirements](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Requirements)
@@ -32,11 +32,11 @@ labels: ["standard_retired"]
   - [EPS Prescribing Systems Compliance Specification v6.11 or older](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSPrescribingSystemsComplianceSpecificationv6.11orolder.2)
 - [Roadmap](#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Roadmap)
 
-# Introduction
+# Introduction {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Introduction}
 
 Electronic Prescription Service (EPS) allows prescribers (like those using GP Systems) to send Prescriptions electronically to a dispenser (such as a pharmacy) of the Patient's choice. This makes the prescribing and dispensing process more efficient and convenient for Patients and staff. Please access the [EPS landing page](https://digital.nhs.uk/Electronic-Prescription-Service) on The Authority's website for further information.
 
-# Requirements
+# Requirements {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -48,13 +48,13 @@ Electronic Prescription Service (EPS) allows prescribers (like those using GP
 
 All Suppliers are encouraged to work towards compliance with the latest version as above.
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Compliance,AssuranceandTesting}
 
-### EPS FHIR API - Prescribing API
+### EPS FHIR API - Prescribing API {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSFHIRAPI-PrescribingAPI}
 
 For Suppliers of new services or applications, see the Electronic Prescription Service (EPS) section on Onboarding Overview of the Digital Services for Integrated Care (DSIC) Interoperability Standards and Requirements.
 
-### EPS Prescribing Systems Compliance Specification v6.11 or older
+### EPS Prescribing Systems Compliance Specification v6.11 or older {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSPrescribingSystemsComplianceSpecificationv6.11orolder}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -78,9 +78,9 @@ Testing services can be accessed via the NHS Digital Solutions Assurance Team.
 
 EPS is a national service provided by NHS Digital as part of the Spine infrastructure. It therefore is supported on all of the Path to Live (PTL) environments.
 
-# Documentation
+# Documentation {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Documentation}
 
-### EPS FHIR API - Prescribing API
+### EPS FHIR API - Prescribing API {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSFHIRAPI-PrescribingAPI.1}
 
 For Suppliers of new services or applications:
 
@@ -90,7 +90,7 @@ For Suppliers of new services or applications:
 
 It is recommended to read GP software developer guide in conjunction with the API documentation.
 
-### EPS Prescribing Systems Compliance Specification v6.11 or older
+### EPS Prescribing Systems Compliance Specification v6.11 or older {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSPrescribingSystemsComplianceSpecificationv6.11orolder.1}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -98,9 +98,9 @@ Click here to view previous EPS requirements documentation
 
 Developer resources are available at the Developer resources for the Electronic Prescription Service.
 
-# Dependencies
+# Dependencies {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Dependencies}
 
-### EPS FHIR API - Prescribing API
+### EPS FHIR API - Prescribing API {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSFHIRAPI-PrescribingAPI.2}
 
 For Suppliers of new services or applications:
 
@@ -110,7 +110,7 @@ Creating a compliant implementation requires implementing the following dependen
 - Authentication and Access - using NHS Care Identity Service 2 API
 - Signing Service API
 
-### EPS Prescribing Systems Compliance Specification v6.11 or older
+### EPS Prescribing Systems Compliance Specification v6.11 or older {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-EPSPrescribingSystemsComplianceSpecificationv6.11orolder.2}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -124,7 +124,7 @@ Creating a compliant implementation previously required implementing the followi
 
 \*May be sourced indirectly by existing PDS interface provided by PIM Solution, either via API to PIM Solution, or as a shared application resource if delivered as part of the same Solution.
 
-# Roadmap
+# Roadmap {#ElectronicPrescriptionService(EPS)-Prescribingv3.0.1-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

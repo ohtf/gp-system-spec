@@ -1,0 +1,50 @@
+/* NHS GP IT specification mirror - presentation tuned for wide requirement tables.
+ *
+ * The source material is dominated by 7-column normative requirement tables
+ * (contracting vehicles, ID, requirement, level, category A/B/C). At the default
+ * documentation content width these squeeze to roughly one word per line, which
+ * makes the normative text unreadable. Widen the content column and let wide
+ * tables scroll horizontally at their natural width instead of compressing.
+ */
+
+/* Specifications benefit from more width than prose documentation. */
+.md-grid {
+  max-width: 90rem;
+}
+
+/* Let wide tables keep a usable column width and scroll rather than squeeze. */
+.md-typeset .md-typeset__table {
+  display: block;
+  overflow-x: auto;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+}
+
+/* Requirement prose needs room; without a floor the browser distributes width
+ * evenly and collapses the long "Requirement" column to a narrow strip. */
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  min-width: 9rem;
+  vertical-align: top;
+}
+
+/* The requirement text column carries the normative content - give it priority. */
+.md-typeset table:not([class]) td:nth-child(3) {
+  min-width: 24rem;
+}
+
+/* Keep identifier and level columns compact so they do not steal width. */
+.md-typeset table:not([class]) td:nth-child(2),
+.md-typeset table:not([class]) td:nth-child(4) {
+  min-width: 6rem;
+  white-space: nowrap;
+}
+
+/* Two-column metadata tables (ID/Version/Type/Status) should stay narrow and
+ * legible rather than stretching the full content width. */
+.md-typeset table:not([class]) tr:first-child th:first-child {
+  min-width: 8rem;
+}

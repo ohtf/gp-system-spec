@@ -10,7 +10,7 @@ labels: []
 
 # Community Pharmacy Clinical Services Home
 
-### Welcome to the Community Pharmacy Clinical Services Capabilities and Standards site
+### Welcome to the Community Pharmacy Clinical Services Capabilities and Standards site {#CommunityPharmacyClinicalServicesHome-WelcometotheCommunityPharmacyClinicalServicesCapabilitiesandStandardssite}
 
 The Community Pharmacy Clinical Services Contracting Vehicle supports the management of Referrals and the recording of Consultations for specific Clinical Services offered by Community Pharmacies.
 
@@ -28,7 +28,7 @@ View the [**Master Glossary**](Master-Glossary.md) for definitions of key terms.
 
 For guidance on the current best practices throughout the IT industry when provisioning, deploying and operating infrastructure and services, please view the [**Recommended Best Practices**](Recommended-Best-Practices.md) page.
 
-## Supplementary Care Standard
+## Supplementary Care Standard {#CommunityPharmacyClinicalServicesHome-SupplementaryCareStandard}
 
 - [**Community Pharmacy Clinical Services**](../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Supplementary-Care-Standards/Community-Pharmacy-Clinical-Services.md)
 

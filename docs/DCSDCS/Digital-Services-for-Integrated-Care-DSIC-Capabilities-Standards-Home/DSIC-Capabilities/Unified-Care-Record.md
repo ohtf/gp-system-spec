@@ -20,11 +20,11 @@ labels: ["capability"]
 | **Effective Date** | 04 Jun 2025 |
 | **Contracting Vehicle(s)** | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF) |
 
-# Description
+# Description {#UnifiedCareRecord-Description}
 
 Supports Patient/Service User health and care information being brought together in a single consolidated record.
 
-# Outcomes
+# Outcomes {#UnifiedCareRecord-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -34,14 +34,14 @@ Supports Patient/Service User health and care information being brought together
 |  |
 | --- |
 | **MUST Epics - Describes the minimum functionality required to deliver a Capability. Solutions MUST be successfully evaluated against each Epic and Acceptance Criteria via Capability Assessment in order to be associated with this Capability** |
-| E00736 - view Unified Care Record As a Health or Care Professional  I want to view Unified Care Records for Patients/Service Users  So that I can get a comprehensive view of Patients/Service Users' health and care information Acceptance criterion 1: view Unified Care Records Given the Health or Care Professional is permitted to view Unified Care Records  When the Health or Care Professional selects to view a Patient/Service User’s Unified Care Record  Then the Unified Care Record is displayed Acceptance criterion 2: view source of Unified Care Record information Given the Health or Care Professional is permitted to view Unified Care Records  When the Health or Care Professional selects to view the source of a Unified Care Record’s information  Then the source of the Unified Care Record’s information is displayed |
+| E00736 - view Unified Care Record {#UnifiedCareRecord-E00736-viewUnifiedCareRecord} As a Health or Care Professional  I want to view Unified Care Records for Patients/Service Users  So that I can get a comprehensive view of Patients/Service Users' health and care information Acceptance criterion 1: view Unified Care Records {#UnifiedCareRecord-Acceptancecriterion1:viewUnifiedCareRecords} Given the Health or Care Professional is permitted to view Unified Care Records  When the Health or Care Professional selects to view a Patient/Service User’s Unified Care Record  Then the Unified Care Record is displayed Acceptance criterion 2: view source of Unified Care Record information {#UnifiedCareRecord-Acceptancecriterion2:viewsourceofUnifiedCareRecordinformation} Given the Health or Care Professional is permitted to view Unified Care Records  When the Health or Care Professional selects to view the source of a Unified Care Record’s information  Then the source of the Unified Care Record’s information is displayed |
 
 |  |
 | --- |
 | **MAY Epics - Describes additional functionality associated with the Capability. Suppliers should consider all MAY Epics as part of their User Research. Suppliers can choose to map their Solutions to these Epics and they will be evaluated via Capability Assessment. Contracting Authorities or purchasing organisations may require these Epics as product qualification or requirements criteria** |
-| E00737 - Patient/Service User views Unified Care Record As a Patient/Service User  I want to view my Unified Care Record  So that I am assured that my health and care information is correct and complete in my Unified Care Record Acceptance criterion 1: Patient/Service User views Unified Care Records Given the Patient/Service User is permitted to view Unified Care Records  When the Patient/Service User selects to view their Unified Care Record  Then the Unified Care Record is displayed   ---  E00738 - configure default Unified Care Record views As a Health or Care Professional  I want to configure default views for Unified Care Records  So that I can immediately access the right information to support the health or care-related task I am undertaking Acceptance criterion 1: configure default Unified Care Record views Given the Health or Care Professional is permitted to manage Unified Care Records  When the Health or Care Professional selects to configure the default view of Unified Care Records  Then the default view is configured E00738 - Supporting Information  - Examples of configuration MAY include, but are not limited to:    - Create a default Unified Care Record view   - Amend a default Unified Care Record view   - Enable a default Unified Care Record view   - Disable a default Unified Care Record view |
+| E00737 - Patient/Service User views Unified Care Record {#UnifiedCareRecord-E00737-Patient/ServiceUserviewsUnifiedCareRecord} As a Patient/Service User  I want to view my Unified Care Record  So that I am assured that my health and care information is correct and complete in my Unified Care Record Acceptance criterion 1: Patient/Service User views Unified Care Records {#UnifiedCareRecord-Acceptancecriterion1:Patient/ServiceUserviewsUnifiedCareRecords} Given the Patient/Service User is permitted to view Unified Care Records  When the Patient/Service User selects to view their Unified Care Record  Then the Unified Care Record is displayed   ---  E00738 - configure default Unified Care Record views {#UnifiedCareRecord-E00738-configuredefaultUnifiedCareRecordviews} As a Health or Care Professional  I want to configure default views for Unified Care Records  So that I can immediately access the right information to support the health or care-related task I am undertaking Acceptance criterion 1: configure default Unified Care Record views {#UnifiedCareRecord-Acceptancecriterion1:configuredefaultUnifiedCareRecordviews} Given the Health or Care Professional is permitted to manage Unified Care Records  When the Health or Care Professional selects to configure the default view of Unified Care Records  Then the default view is configured E00738 - Supporting Information {#UnifiedCareRecord-E00738-SupportingInformation}  - Examples of configuration MAY include, but are not limited to:    - Create a default Unified Care Record view   - Amend a default Unified Care Record view   - Enable a default Unified Care Record view   - Disable a default Unified Care Record view |
 
-## Roadmap
+## Roadmap {#UnifiedCareRecord-Roadmap}
 
 Items on the Roadmap which impact or relate to this Capability.
 

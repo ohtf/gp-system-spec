@@ -27,20 +27,20 @@ labels: ["standard"]
 - [Dependencies](#GPConnectEmergencySupplyofMedicationsv8.0.0-Dependencies)
 - [Roadmap](#GPConnectEmergencySupplyofMedicationsv8.0.0-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectEmergencySupplyofMedicationsv8.0.0-Introduction}
 
 The GP Connect Emergency Supply of Medications Standard, formerly part of the Digital Medicines (DigiMeds) specification, supports structured emergency medication information to be shared between Healthcare Organisations.
 
 See [GP Connect - Emergency Supply of Medications (ITK3)](https://simplifier.net/guide/gp-connect-digimeds-emergency-supply-of-medicines/Home/Introduction/Introduction?version=1.3.0-public-beta) for further information.
 
-# Requirements
+# Requirements {#GPConnectEmergencySupplyofMedicationsv8.0.0-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
 | Sender | GPCESM01 | Implement and maintain the [GP Connect - Emergency Supply of Medications (ITK3)](https://simplifier.net/guide/GP-Connect-DigiMeds-Emergency-Supply-of-Medicines/Home?version=1.3.0-public-beta) (formerly part of the Digital Medicines (DigiMeds) specification) inline with the latest specification version to send updates of emergency supplies of medication(s) for a Patient at a Community Pharmacy to their registered GP Practice, as per the Data by Capability Mapping section. | MUST |
 | Receiver | GPCESM02 | Implement and maintain the [GP Connect - Emergency Supply of Medications (ITK3)](https://simplifier.net/guide/GP-Connect-DigiMeds-Emergency-Supply-of-Medicines/Home?version=1.3.0-public-beta) (formerly part of the Digital Medicines (DigiMeds) specification) inline with the latest specification version to receive updates of emergency supplies of medication(s) for a Patient at a Community Pharmacy. The HTML data will be rendered (e.g. as an HTML view or document), and structured information ingested as per the Data by Capability Mapping section as a minimum. | MUST |
 
-## Data by Capability Mapping
+## Data by Capability Mapping {#GPConnectEmergencySupplyofMedicationsv8.0.0-DatabyCapabilityMapping}
 
 | **Capability** | **Data Format** | **Allergies** | **Contact with Professionals** | **Consent (Legal Information)** | **GP Practice** | **History** | **Information and advice given** | **Medications and Medical devices** | **Patient Demographics** | **Plan and requested actions** | **Referral details** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,16 +49,16 @@ See [GP Connect - Emergency Supply of Medications (ITK3)](https://simplifier.net
 | [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | HTML | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) | (tick) |
 | [Patient Information Maintenance - GP](../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | Structured | (error) | (error) | (error) | (error) | (error) | (error) | (tick) | (error) | (error) | (error) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectEmergencySupplyofMedicationsv8.0.0-Compliance,AssuranceandTesting}
 
 See the GP Connect Emergency Supply of Medications section on [Onboarding Overview of the Digital Services for Integrated Care (DSIC) Interoperability Standards and Requirements](../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#GPConnectEmergencySupplyofMedicationsv8.0.0-Documentation}
 
 - [GP Connect - Emergency Supply of Medications (ITK3)](https://simplifier.net/guide/gp-connect-digimeds-emergency-supply-of-medicines/Home/Introduction/Introduction?version=1.3.0-public-beta)
 - [Community Pharmacy Standard - PRSB](https://theprsb.org/standards/communitypharmacy/)
 
-# Dependencies
+# Dependencies {#GPConnectEmergencySupplyofMedicationsv8.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
@@ -66,7 +66,7 @@ Creating a compliant implementation requires implementing the following dependen
 - [Messaging Exchange for Social Care and Health (MESH)](../DSIC-Standards/Non-Overarching-Standards/Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 - [Interoperability Toolkit (ITK)](../DSIC-Standards/Non-Overarching-Standards/Interoperability-Toolkit-ITK.md) - ITK3 Messaging Distribution
 
-# Roadmap
+# Roadmap {#GPConnectEmergencySupplyofMedicationsv8.0.0-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

@@ -26,32 +26,32 @@ labels: ["standard"]
 - [Dependencies](#RegisterwithaGPSurgeryService-Dependencies)
 - [Roadmap](#RegisterwithaGPSurgeryService-Roadmap)
 
-# Introduction
+# Introduction {#RegisterwithaGPSurgeryService-Introduction}
 
 The Register with a GP Surgery Service allows Patients to submit registration application information and for digital health and care services to retrieve this information submitted by Patients.
 
-# Requirements
+# Requirements {#RegisterwithaGPSurgeryService-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | GP Suppliers | **RGPSS01** | Implement and maintain the [Register with a GP Surgery](https://digital.nhs.uk/developer/api-catalogue/register-with-a-gp-surgery/content) API to obtain Patient Health and Lifestyle Information inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#RegisterwithaGPSurgeryService-Compliance,AssuranceandTesting}
 
 See the Register with a GP Surgery Service section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#RegisterwithaGPSurgeryService-Documentation}
 
 - [Register with a GP Surgery Service information](https://digital.nhs.uk/services/register-with-a-gp-surgery-service)
 
-# Dependencies
+# Dependencies {#RegisterwithaGPSurgeryService-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - [Personal Demographics Service (PDS)](Personal-Demographics-Service-PDS.md)
 
-# Roadmap
+# Roadmap {#RegisterwithaGPSurgeryService-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

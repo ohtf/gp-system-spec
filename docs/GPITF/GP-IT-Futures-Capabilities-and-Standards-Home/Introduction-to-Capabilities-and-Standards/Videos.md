@@ -16,7 +16,7 @@ labels: []
 
 ---
 
-## Catalogue On-Boarding Process
+## Catalogue On-Boarding Process {#Videos-CatalogueOn-BoardingProcess}
 
 This is a video of the Catalogue Demonstration Webinar that took place on 26th April 2019. The video demonstrates to Suppliers how to log in to the Catalogue and undertake Stages 0 – 3 of the Catalogue On-Boarding Process.
 
@@ -30,7 +30,7 @@ Your browser does not support the HTML5 video element
 
 ---
 
-## Procurement Overview Webinar
+## Procurement Overview Webinar {#Videos-ProcurementOverviewWebinar}
 
 This is a video of the Procurement Overview Webinar that took place on 7th June 2019. This webinar demonstrated to suppliers the overview of the whole procurement process, including anticipated timescales.
 
@@ -38,7 +38,7 @@ Your browser does not support the HTML5 video element
 
 ---
 
-## Hosting and Infrastructure Standards
+## Hosting and Infrastructure Standards {#Videos-HostingandInfrastructureStandards}
 
 Recording of the Webinar on compliance with the Hosting Standard that took place on 1st July 2019.
 

@@ -21,7 +21,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Description}
 
 Data Analytics for Integrated and Federated Care delivers the ability to combine, or link, and then report against structured datasets and then present the results to underpin (secondary uses of the data such as) service and performance management, decision-making around services and resource usage, action planning, alerting / issue management and forecasting.
 
@@ -37,7 +37,7 @@ The Data Analytics Capability supports analysis of data from different systems
 - Benchmark and track performance
 - Underpin decision-making
 
-# Outcomes
+# Outcomes {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -49,7 +49,7 @@ The Data Analytics Capability supports analysis of data from different systems
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C26E1 - analyse data across multiple organisations within the Integrated/Federated Care Setting (Federation)
+### C26E1 - analyse data across multiple organisations within the Integrated/Federated Care Setting (Federation) {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E1-analysedataacrossmultipleorganisationswithintheIntegrated/FederatedCareSetting(Federation)}
 
 As an Analyst
 
@@ -57,7 +57,7 @@ I want to combine or link equivalent, structured data from multiple Organisatio
 
 So that I can identify trends and track performance across the Federation
 
-#### Acceptance criterion 1: report across Practices within the Federation
+#### Acceptance criterion 1: report across Practices within the Federation {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:reportacrossPracticeswithintheFederation}
 
 Given that structured data of a type (e.g. Appointment attendance data) is available from multiple Practices within the Federation
 
@@ -73,7 +73,7 @@ And the data for a Practice can be compared to data from other Practices
 
 ---
 
-### C26E2 - analyse data across different datasets
+### C26E2 - analyse data across different datasets {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E2-analysedataacrossdifferentdatasets}
 
 As an Analyst
 
@@ -81,7 +81,7 @@ I want to combine or link structured data relating to different types of activit
 
 So that I can create richer or more complex metrics against which to track performance across the Federation
 
-#### Acceptance criterion 1: report across Practices within the Federation
+#### Acceptance criterion 1: report across Practices within the Federation {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:reportacrossPracticeswithintheFederation.1}
 
 Given that structured data of different types is available from Practices within the Federation or Organisations external to the Federation
 
@@ -97,7 +97,7 @@ And data will be output according to the design of the report
 
 ---
 
-### C26E3 - create new or update existing reports
+### C26E3 - create new or update existing reports  {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E3-createneworupdateexistingreports}
 
 As an Analyst
 
@@ -105,7 +105,7 @@ I want to be able to create or update reports
 
 So that I can respond to new or updated reporting requirements
 
-#### Acceptance criterion 1: create report in response to new reporting requirement
+#### Acceptance criterion 1: create report in response to new reporting requirement {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:createreportinresponsetonewreportingrequirement}
 
 Given access permissions allow the creation of new reports
 
@@ -115,7 +115,7 @@ Then a new report can be created to meet the requirement
 
 And the new report be can saved for future use with a name or identifier defined by the Analyst
 
-#### Acceptance criterion 2: update report in response to new reporting requirement
+#### Acceptance criterion 2: update report in response to new reporting requirement {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion2:updatereportinresponsetonewreportingrequirement}
 
 Given there is a library of existing reports
 
@@ -129,7 +129,7 @@ And the new report be can saved for future use with a name or identifier define
 
 ---
 
-### C26E4 - run existing reports
+### C26E4 - run existing reports {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E4-runexistingreports}
 
 As an Analyst
 
@@ -137,7 +137,7 @@ I want to be able to access and run an existing report
 
 So that I can perform regular reporting and analysis in the most efficient way
 
-#### Acceptance criterion 1: run existing report
+#### Acceptance criterion 1: run existing report {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:runexistingreport}
 
 Given there is a library of existing reports
 
@@ -147,7 +147,7 @@ Then the Analyst can access and run the existing report
 
 And output the results according to the existing report design
 
-#### Acceptance criterion 2: report template shared by report creator with another user
+#### Acceptance criterion 2: report template shared by report creator with another user {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion2:reporttemplatesharedbyreportcreatorwithanotheruser}
 
 Given there is a library of existing reports
 
@@ -165,7 +165,7 @@ And the results are output
 
 And the results are constrained to the data allowed by the security model
 
-#### Acceptance criterion 3: schedule report to run
+#### Acceptance criterion 3: schedule report to run {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion3:schedulereporttorun}
 
 Given there is a library of existing reports
 
@@ -179,7 +179,7 @@ And the results can be output according to the existing report design
 
 ---
 
-### C26E5 - present output
+### C26E5 - present output {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E5-presentoutput}
 
 As an Analyst
 
@@ -187,7 +187,7 @@ I want to be able to present the output of reporting and analysis in a variety o
 
 So that I can best tailor the output to the audience and purpose of the reporting
 
-#### Acceptance criterion 1: create detailed report
+#### Acceptance criterion 1: create detailed report {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:createdetailedreport}
 
 Given that the audience requires access to the report detail (e.g. list of Patients with a condition to enable planning, report of referrals and test requests)
 
@@ -199,7 +199,7 @@ Then the detail output is retrieved according to the design of the report
 
 And the detailed output can be presented to the audience (e.g. as a list, table or other)
 
-#### Acceptance criterion 2: create aggregated report
+#### Acceptance criterion 2: create aggregated report {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion2:createaggregatedreport}
 
 Given the audience for the report require aggregated information (e.g. counts of Patients with a condition across the Federation or counts of Appointment 'Did Not Attend' by Practice)
 
@@ -211,7 +211,7 @@ Then the output is aggregated or summarised according to the design of the repo
 
 And the aggregated output can be presented to the audience (e.g. as a table)
 
-#### Acceptance criterion 3: output to dashboard or similar visual representation of the data
+#### Acceptance criterion 3: output to dashboard or similar visual representation of the data {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion3:outputtodashboardorsimilarvisualrepresentationofthedata}
 
 Given that the audience want to receive to receive multiple types of data presented visually (e.g. to track performance over time and receive alerts)
 
@@ -225,7 +225,7 @@ Then the data is output to the dashboard
 
 And is presented to the audience according to the design of the dashboard
 
-#### Acceptance criterion 4: output in a format allowing the data to be shared
+#### Acceptance criterion 4: output in a format allowing the data to be shared {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion4:outputinaformatallowingthedatatobeshared}
 
 Given that the audience want to receive to receive the output of queries in a variety of shareable formats
 
@@ -239,7 +239,7 @@ And the results can be saved to a location defined by the user, external to the
 
 ---
 
-### C26E6 - define selection rules on reports
+### C26E6 - define selection rules on reports {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E6-defineselectionrulesonreports}
 
 As an Analyst
 
@@ -247,7 +247,7 @@ I want to define selection criteria for my reports
 
 So that I can fine-tune my reports to identify only those records that positively or negatively match the selection criteria (e.g. Patients, Appointments, prescriptions, activity during particular time periods, etc.)
 
-#### Acceptance criterion 1: identify activity or conditions on records
+#### Acceptance criterion 1: identify activity or conditions on records {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:identifyactivityorconditionsonrecords}
 
 Given a report has been configured to identify values on a record (e.g. referral activity, a particular condition or diagnosis, missing NHS number or activity that occurs within or outside particular date ranges)
 
@@ -257,7 +257,7 @@ Then only those records with matching values are displayed
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C26E7 - create and run performance-based reports
+### C26E7 - create and run performance-based reports {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E7-createandrunperformance-basedreports}
 
 As an Analyst
 
@@ -265,7 +265,7 @@ I want to define and report against performance targets (e.g. profit-analysis pe
 
 So that I can track performance across the Federation
 
-#### Acceptance criterion 1: bench-marking
+#### Acceptance criterion 1: bench-marking {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:bench-marking}
 
 Given that performance data of a type (e.g. Patient/Service User feedback metrics) is available from multiple Practices within the Federation
 
@@ -279,7 +279,7 @@ Then performance data for each Practice will be output compared to the benchmar
 
 ---
 
-### C26E8 - drill down to detailed information
+### C26E8 - drill down to detailed information {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E8-drilldowntodetailedinformation}
 
 As a Clinician or Clinical Lead
 
@@ -287,7 +287,7 @@ I want to be able to drill-down from summary information to detailed Patient/Ser
 
 So that I can identify Patients/Service Users requiring a follow-up or intervention (e.g. book a follow-up Appointments or test)
 
-#### Acceptance criterion 1: drill-down to detail held in an integrated Patient-record system
+#### Acceptance criterion 1: drill-down to detail held in an integrated Patient-record system {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:drill-downtodetailheldinanintegratedPatient-recordsystem}
 
 Given that a summary level report has been run (e.g. list of Patients with test results)
 
@@ -301,7 +301,7 @@ Then the Clinician can drill-down to view the underlying detailed data (e.g. Pa
 
 ---
 
-### C26E9 - forecasting
+### C26E9 - forecasting {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E9-forecasting}
 
 As an Analyst
 
@@ -309,7 +309,7 @@ I want to use past or current data to forecast or model future demand
 
 So that I can use this to support effective decision-making and planning
 
-#### Acceptance criterion 1: model future demand
+#### Acceptance criterion 1: model future demand {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:modelfuturedemand}
 
 Given that past or current data is available (e.g. in relation to Appointment use)
 
@@ -321,7 +321,7 @@ Then future demand is modelled
 
 ---
 
-### C26E10  - enable reporting at different levels
+### C26E10  - enable reporting at different levels {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-C26E10-enablereportingatdifferentlevels}
 
 As an Analyst
 
@@ -329,7 +329,7 @@ I want to determine the level of Organisational or geographical reporting (e.g. 
 
 So that I can report flexibly according to perspectives on the data
 
-#### Acceptance criterion 1: determine organisation level for reporting
+#### Acceptance criterion 1: determine organisation level for reporting {#DataAnalyticsforIntegratedandFederatedCarev1.0.1-Acceptancecriterion1:determineorganisationlevelforreporting}
 
 Given that data of a type is available from multiple Practices within the Federation
 

@@ -26,7 +26,7 @@ labels: ["standard"]
 - [Dependencies](#TransferofCareFHIRPayload-Dependencies)
 - [Roadmap](#TransferofCareFHIRPayload-Roadmap)
 
-# Introduction
+# Introduction {#TransferofCareFHIRPayload-Introduction}
 
 Patients move between care settings and responsibility for them is handed over from one Clinician to another. Transfer of Care messaging ensures that the clinical context and information about the Patient is transferred when this occurs.
 
@@ -49,34 +49,34 @@ Transfer of Care is about standardisation of the correspondence elements. As thi
 - **TRANSPORT LAYER** – MESH for direct electronic transfer to GP IT foundation systems
 - **BUSINESS LAYER** – ITK3 Response Codes fed back to the Hospital from the GP IT foundation system confirming message has been processed and is relevant.
 
-# Requirements
+# Requirements {#TransferofCareFHIRPayload-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
 | **ID** | **Requirement** | **Level** |
 | **TCFHIR-01** | Implement and maintain the functionality needed to receive and process Transfer of Care FHIR documents. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#TransferofCareFHIRPayload-Compliance,AssuranceandTesting}
 
 See the Transfer of Care (TOC) FHIR Payload section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#TransferofCareFHIRPayload-Documentation}
 
 The latest FHIR specifications for the Transfer of Care payload can be accessed at <https://developer.nhs.uk/transfer-care-specification-versions/>.
 
 Contextual detail and specifications pertaining to the MVP aspect of this work can be accessed via the Transfer of Care Payload V0.7 document below:
 
-[Transfer of Care Payload…](Transfer-of-Care-FHIR-Payload.md)
+[Transfer of Care Payload…](../../../../.raw/DCSDCS/attachments/11888099337/att13201768454-Transfer of Care Payload V.07.docx)
 
 The Transfer of Care FHIR messages will use the ITK3 (Interoperability Toolkit) specification available here <https://developer.nhs.uk/interoperability-tool-kit-itk-specification-versions/>. Suppliers should also consider the advice in the [Good Practice Guidelines for GP electronic patient records](https://www.england.nhs.uk/digital-gp-good-practice-guidance/).
 
-# Dependencies
+# Dependencies {#TransferofCareFHIRPayload-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Generic FHIR Receiver](Generic-FHIR-Receiver.md)
 
-# Roadmap
+# Roadmap {#TransferofCareFHIRPayload-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

@@ -19,13 +19,13 @@ labels: ["standard"]
 | **Effective Date** | 05 May 2026 |
 | **Contracting Vehicle(s)** | - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Digital Pathways Solution Registry](https://nhse-dsic.atlassian.net/wiki/spaces/DPSR) - [Digital Primary Care](https://nhse-dsic.atlassian.net/wiki/spaces/DPC) |
 
-# Description
+# Description {#OnlineConsultationsandVideoConsultationsReporting-Description}
 
 The Online Consultations and Video Consultations Reporting Standard enables the collection and submission of data to the Authority inline with the Online Consultation / Video Consultation (OC/VC) extended data collection.
 
 The Online Consultation / Video Consultation (OC/VC) extended data collection goal is to support understanding of demand and activity in general practice Accurate and timely capture of this data supports GP practices and local commissioners to plan and provide implementation support, as well as make more informed procurement decisions. Moreover, nationally it will help with understanding usage and shaping future policy.
 
-# Requirements
+# Requirements {#OnlineConsultationsandVideoConsultationsReporting-Requirements}
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -33,11 +33,11 @@ The Online Consultation / Video Consultation (OC/VC) extended data collection go
 | All | **OCVCR1** | Submit Online Consultation and Online Patient/Patient Representatives Requests data | The Solution to submit Online Consultation and Online Patient Request data to the Authority, including the required data items specified in the Data Items Specification section, as per [Online and video consultation undertaken in general practice data collection](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/online-and-video-consultation-undertaken-in-general-practice). | MUST |
 | All | **OCVCR2** | Submit Video Consultation data | The Solution to submit Video Consultation data to the Authority, including the required data items specified in the Data Items Specification section, as per [Online and video consultation undertaken in general practice data collection](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/online-and-video-consultation-undertaken-in-general-practice). | MUST |
 
-## Data Items Specification
+## Data Items Specification {#OnlineConsultationsandVideoConsultationsReporting-DataItemsSpecification}
 
 The [Online Consultation and Video Consultation data specification](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/online-and-video-consultation-undertaken-in-general-practice#data-specification) defines the data items in full, however Suppliers only need to submit the data items defined below.
 
-### Online Patient Consultation and Online Patient Requests
+### Online Patient Consultation and Online Patient Requests {#OnlineConsultationsandVideoConsultationsReporting-OnlinePatientConsultationandOnlinePatientRequests}
 
 If the Supplier is offering the [Online Patient Consultation](../../DSIC-Capabilities/Online-Patient-Consultation.md) and [Online Patient Request](../../DSIC-Capabilities/Online-Patient-Request.md) Capabilities the data items below are required from Suppliers as part of the Online Consultation extended data collection.
 
@@ -80,7 +80,7 @@ If the Supplier is offering the [Online Patient Consultation](../../DSIC-Capabil
 | OC Practice | OCP-011 | oc\_switch\_off\_start | The date and time that the system was switched off. | SHOULD |
 | OC Practice | OCP-012 | oc\_switch\_off\_end | The date and time that the system was switched back on. | SHOULD |
 
-### Video Consultation
+### Video Consultation {#OnlineConsultationsandVideoConsultationsReporting-VideoConsultation}
 
 If the Supplier is offering the [Video Consultation](../../DSIC-Capabilities/Video-Consultation.md) Capability the data items below are required from Suppliers as part of the Video Consultation extended data collection.
 
@@ -109,7 +109,7 @@ If the Supplier is offering the [Video Consultation](../../DSIC-Capabilities/Vid
 | VC Practice | VCP-008 | vc\_switch\_off\_start | The date and time that the system was switched off. | SHOULD |
 | VC Practice | VCP-009 | vc\_switch\_off\_end | The date and time that the system was switched back on. | SHOULD |
 
-### Incident Data
+### Incident Data {#OnlineConsultationsandVideoConsultationsReporting-IncidentData}
 
 If the Supplier is offering the [Online Patient Consultation](../../DSIC-Capabilities/Online-Patient-Consultation.md), [Online Patient Request](../../DSIC-Capabilities/Online-Patient-Request.md) or [Video Consultation](../../DSIC-Capabilities/Video-Consultation.md) Capability the data items below are required from Suppliers as part of the Online Consultation and Video Consultation extended data collection.
 
@@ -132,7 +132,7 @@ If the Supplier is offering the [Online Patient Consultation](../../DSIC-Capabil
 | Incident data | ICP-008 | high\_severity\_service\_incident\_indicator | An indication of whether the incident is considered to be a high severity. | SHOULD |
 | Incident data | ICP-012 | incident\_date\_time | Date and time that incident occurred | SHOULD |
 
-# Roadmap
+# Roadmap {#OnlineConsultationsandVideoConsultationsReporting-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

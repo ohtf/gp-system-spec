@@ -31,13 +31,13 @@ labels: ["overarching_standard_retired"]
   - [Communications](#InteroperabilityStandard(DFOCVC)v1.0.2-Communications)
   - [Roadmap](#InteroperabilityStandard(DFOCVC)v1.0.2-Roadmap)
 
-# Introduction
+# Introduction {#InteroperabilityStandard(DFOCVC)v1.0.2-Introduction}
 
 This Standard provides a single place for system Suppliers to find out which interfaces they need to implement and to access the required documentation.
 
 Future changes to interfaces will be communicated via the Roadmap.
 
-# Notes on quality and consistency of interface documentation
+# Notes on quality and consistency of interface documentation {#InteroperabilityStandard(DFOCVC)v1.0.2-Notesonqualityandconsistencyofinterfacedocumentation}
 
 There are a large number of interfaces that systems need to implement. These interfaces, and their documentation, have been created over a very long period of time by a number of different organisations and programmes. The static nature of the systems market (no new entrants needing to implement) means that historically there has been limited justification and appetite for modernising or standardising existing documentation. This means that the format, quality and consistency of interface documentation is currently extremely variable.
 
@@ -53,7 +53,7 @@ Until these issues can be addressed suppliers and system implementers should exp
 - Verbose and/or difficult to follow documentation compared to modern best practices for interface documentation
 - Unavailable sample files or test data
 
-# Interoperability principles
+# Interoperability principles {#InteroperabilityStandard(DFOCVC)v1.0.2-Interoperabilityprinciples}
 
 These interoperability principles are a SHOULD and suppliers are expected to adhere to them wherever possible.  Whilst adherence will not be assessed at onboarding, NHSD will expect any deviation from these principles to be supported by a valid rationale on delivery of interfaces.  NHSD may use adherence to these principles to guide decision making in circumstances of non-compliance or partial compliance against assured standards.
 
@@ -67,7 +67,7 @@ These interoperability principles are a SHOULD and suppliers are expected to ad
 8. **Interfaces must be system agnostic and semantically standardised**. Systems must not expose their internal complexity and data structures on interfaces, nor should they expect systems they interface with to understand their internal data encodings and semantics.
 9. **Use decoupled integration patterns wherever possible**. Decoupling should be achieved using appropriate integration patterns such as publish-subscribe and event-based architectures.
 
-## Interoperability non-functional requirements
+## Interoperability non-functional requirements {#InteroperabilityStandard(DFOCVC)v1.0.2-Interoperabilitynon-functionalrequirements}
 
 The following overarching requirements apply to all interfaces in the scope of the Interoperability Standard which are offered by a Solution. 
 
@@ -83,7 +83,7 @@ The following overarching requirements apply to all interfaces in the scope of t
 | ISNFR08 | Suppliers should not offer multiple APIs for the same purpose, e.g. there should not be multiple, different Appointments Booking APIs. Suppliers are free to offer APIs to different consumers under different commercial terms if permitted by the contract and framework, but they should offer only one technical API for each purpose. | SHOULD |
 | ISNFR09 | Suppliers to provide Patient/Service User level data about a specific Patient/Service User upon request from the healthcare organisation. | MUST |
 
-## Minimum non-functional requirements for interfaces built to the Authority's specifications
+## Minimum non-functional requirements for interfaces built to the Authority's specifications {#InteroperabilityStandard(DFOCVC)v1.0.2-Minimumnon-functionalrequirementsforinterfacesbuilttotheAuthority'sspecifications}
 
 Where an interface/extract is built to the Authority's functional specifications, e.g. IM1 - Interface Mechanism, GP Connect the following requirements apply to the production implementation. For requirements relating to performance and availability suppliers should refer to the Service Level Agreement.
 
@@ -92,11 +92,11 @@ Where an interface/extract is built to the Authority's functional specifications
 | ASNFR01 | Data currency. Updates to systems made through non-API mechanisms (e.g. user interface) should be available on APIs in real time, i.e. as soon as the update transaction is committed. | SHOULD |
 | ASNFR02 | Data currency. Updates made through APIs must be available on APIs in real time, i.e. as soon as the update transaction is committed. | MUST |
 
-# Capability-independent interoperability standards
+# Capability-independent interoperability standards {#InteroperabilityStandard(DFOCVC)v1.0.2-Capability-independentinteroperabilitystandards}
 
 This section lists the interoperability requirements which are not linked to single capabilities, they do not offer an alternative to implement a requirement that mandates compliance with specific Interoperability Standard(s). These are typically (but not exclusively) supporting standards such as communications protocols or related technical standards.
 
-## Spine
+## Spine {#InteroperabilityStandard(DFOCVC)v1.0.2-Spine}
 
 The NHS Spine provides national interoperability infrastructure as well as specific national services, for example the Personal Demographics Service (PDS).
 
@@ -105,24 +105,24 @@ Two specific Spine components are key supporting standards for a number of the 
 - External Interface Specification (EIS) describes how to connect to NHS Spine services
 - NHS Messaging Implementation Manual (MIM) describes the message formats used for Spine interactions
 
-## IM1 - Interface Mechanism
+## IM1 - Interface Mechanism {#InteroperabilityStandard(DFOCVC)v1.0.2-IM1-InterfaceMechanism}
 
 IM1 - Interface Mechanism is a mechanism for accessing data held in GP Systems (Systems providing one or more Capabilities as part of the GP IT Futures Framework). The interface mechanism facilitates three use-cases (Patient, Bulk and Practice) which are detailed within the IM1 page.
 
 A system or application may wish to **consume** IM1 interfaces where they have a requirement to access data held in GP Systems.
 
-## Authentication and authorisation
+## Authentication and authorisation {#InteroperabilityStandard(DFOCVC)v1.0.2-Authenticationandauthorisation}
 
 Standards for confirming the identity of service users and controlling their access to services or specific resources.
 
 - Authentication and Access
 - NHS login service
 
-## Communications
+## Communications {#InteroperabilityStandard(DFOCVC)v1.0.2-Communications}
 
 - Email (system accounts for automated sending for purposes such as notifications)
 
-## Roadmap
+## Roadmap {#InteroperabilityStandard(DFOCVC)v1.0.2-Roadmap}
 
 | **Items on the Roadmap which impact or relate to this Capability** |
 | Suppliers will not be assessed or assured on these Roadmap Items as part of Onboarding   | Roadmap Item | | --- | | No content found. | |

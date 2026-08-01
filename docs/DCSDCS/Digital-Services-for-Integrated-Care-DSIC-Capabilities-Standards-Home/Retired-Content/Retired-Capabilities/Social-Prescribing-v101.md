@@ -21,7 +21,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#SocialPrescribingv1.0.1-Description}
 
 Social prescribing focuses on a Patient/Service User's needs in a holistic way, and helps to address the social, practical and emotional needs of Patients that can't (wholly) be addressed medically such as social isolation, reduced mobility, mental health issues or some long-term conditions.
 
@@ -33,7 +33,7 @@ The Social Prescribing Capability is about the provision of integrated systems 
 
 The Capability allows national and local directories of services to be accessed and allows providers offering such services within a locality to make these available via the Capability. The Patient/Service User or Health or Care Professional then chooses from the directory of locally available services and generates a referral. Subject to appropriate consent, a Patient/Service User's details can be passed to the Organisation delivering the service and data relating to social prescribing referrals can then be maintained as part of the Patient/Service User's clinical record (the aspiration is through integrated systems). 
 
-# Outcomes
+# Outcomes {#SocialPrescribingv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -44,7 +44,7 @@ The Capability allows national and local directories of services to be accessed 
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C37E1 - assess wellness or well-being of the Patient or Service User
+### C37E1 - assess wellness or well-being of the Patient or Service User {#SocialPrescribingv1.0.1-C37E1-assesswellnessorwell-beingofthePatientorServiceUser}
 
 As a Link Worker or other Health or Care Professional (GP, Nurse or other)
 
@@ -52,7 +52,7 @@ I want to be able to assess the wellness of a Patient/Service User using a metho
 
 So that I can understand and record their non-clinical healthcare needs
 
-#### Acceptance criterion 1: initial well-being assessment is captured
+#### Acceptance criterion 1: initial well-being assessment is captured {#SocialPrescribingv1.0.1-Acceptancecriterion1:initialwell-beingassessmentiscaptured}
 
 Given that a Patient/Service User has been referred
 
@@ -62,7 +62,7 @@ When the Link Worker (or other) undertakes a wellness assessment using a method
 
 Then the outcome of the assessment can be recorded on the Patient/Service User's Social Prescribing record
 
-#### Acceptance criterion 2: subsequent well-being assessments are captured
+#### Acceptance criterion 2: subsequent well-being assessments are captured {#SocialPrescribingv1.0.1-Acceptancecriterion2:subsequentwell-beingassessmentsarecaptured}
 
 Given a Patient/Service User has been assigned a series of sessions or engagements with the service provider(s)
 
@@ -74,7 +74,7 @@ Then the outcome of second and subsequent assessments can be recorded on the Pa
 
 ---
 
-### C37E2 - search the directory
+### C37E2 - search the directory {#SocialPrescribingv1.0.1-C37E2-searchthedirectory}
 
 As a Link Worker, Health or Care Professional or other member of the Practice/Healthcare Organisation team
 
@@ -82,7 +82,7 @@ I want to be able to search the Directory of non-clinical services and intervent
 
 So that I can identify the services that are most relevant to a Patient/Service User's needs
 
-#### Acceptance criterion 1: directory search returns services that match criteria
+#### Acceptance criterion 1: directory search returns services that match criteria {#SocialPrescribingv1.0.1-Acceptancecriterion1:directorysearchreturnsservicesthatmatchcriteria}
 
 Given that a directory of services has been created in the Social Prescribing Solution
 
@@ -96,7 +96,7 @@ Then the list of services that match the search criteria are displayed
 
 ---
 
-### C37E3 - refer Patient/Service User to service(s)
+### C37E3 - refer Patient/Service User to service(s) {#SocialPrescribingv1.0.1-C37E3-referPatient/ServiceUsertoservice(s)}
 
 As a Link Worker, Health or Care Professional or other member of the Practice/Healthcare Organisation team
 
@@ -104,7 +104,7 @@ I want to be able to refer a Patient/Service User to one or more non-clinical se
 
 So that they can receive the most appropriate support for their non-clinical needs
 
-#### Acceptance criterion 1: Patient/Service User is referred to a service
+#### Acceptance criterion 1: Patient/Service User is referred to a service {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUserisreferredtoaservice}
 
 Given the Patient/Service User's needs have been understood
 
@@ -116,7 +116,7 @@ And a referral for each service for the relevant service provider can be create
 
 ---
 
-### C37E4 - maintain referral record
+### C37E4 - maintain referral record {#SocialPrescribingv1.0.1-C37E4-maintainreferralrecord}
 
 As a Link Worker or Health or Care Professional
 
@@ -124,7 +124,7 @@ I want to be able to maintain a record of assessments and referrals, including i
 
 So that G.P.s, Nurses and other Health and Care Professionals can understand the Patient/Service User's wider healthcare issues and needs
 
-#### Acceptance criterion 1: Patient/Service User's attendance is captured
+#### Acceptance criterion 1: Patient/Service User's attendance is captured {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUser'sattendanceiscaptured}
 
 Given a Patient/Service User has been referred to a service
 
@@ -136,7 +136,7 @@ And their attendance or non-attendance can be recorded
 
 And this information is available to those other Health and Care Professionals (e.g. GPs, Nurses) with appropriate access to the record
 
-#### Acceptance criterion 2: Patient/Service User's outcomes are captured
+#### Acceptance criterion 2: Patient/Service User's outcomes are captured {#SocialPrescribingv1.0.1-Acceptancecriterion2:Patient/ServiceUser'soutcomesarecaptured}
 
 Given a Patient/Service User has been referred to a service
 
@@ -152,7 +152,7 @@ And this information is available to those other Health and Care Professionals (
 
 ---
 
-### C37E5 - link to national or local directory of services
+### C37E5 - link to national or local directory of services {#SocialPrescribingv1.0.1-C37E5-linktonationalorlocaldirectoryofservices}
 
 As a Link Worker or Administrator
 
@@ -160,7 +160,7 @@ I want the Social Prescribing Solution to be able to link to or make use of nat
 
 So that the directory includes a broader range of available and relevant services with the minimum maintenance overhead for my Practice/Healthcare Organisation
 
-#### Acceptance criterion 1: link to national directory of services
+#### Acceptance criterion 1: link to national directory of services {#SocialPrescribingv1.0.1-Acceptancecriterion1:linktonationaldirectoryofservices}
 
 Given that national directories of services (e.g. e-Referral Service or 111) are available
 
@@ -170,7 +170,7 @@ Then the national directory (or directories) can be linked to or accessed via t
 
 And the national directory can be searched
 
-#### Acceptance criterion 2: link to local directory of services
+#### Acceptance criterion 2: link to local directory of services {#SocialPrescribingv1.0.1-Acceptancecriterion2:linktolocaldirectoryofservices}
 
 Given that local directories of services (e.g. the Leeds Directory) are available
 
@@ -182,7 +182,7 @@ And the local directory can be searched
 
 ---
 
-### C37E6 - maintain directory of services
+### C37E6 - maintain directory of services {#SocialPrescribingv1.0.1-C37E6-maintaindirectoryofservices}
 
 As a Link Worker or Service Administrator
 
@@ -190,7 +190,7 @@ I want to be able to manually maintain (add, update or delete) the directory of 
 
 So that the directory is always up to date and reflects the full range of services available
 
-#### Acceptance criterion 1: new service is added to the directory
+#### Acceptance criterion 1: new service is added to the directory {#SocialPrescribingv1.0.1-Acceptancecriterion1:newserviceisaddedtothedirectory}
 
 Given that a directory of services has been created in the Social Prescribing Solution
 
@@ -198,7 +198,7 @@ When a new service is identified that does not appear in any linked local or nat
 
 Then details of this new service can be manually added to the directory
 
-#### Acceptance criterion 2: existing service is updated in the directory
+#### Acceptance criterion 2: existing service is updated in the directory {#SocialPrescribingv1.0.1-Acceptancecriterion2:existingserviceisupdatedinthedirectory}
 
 Given that one or more services have been created manually in the Social Prescribing Solution
 
@@ -206,7 +206,7 @@ When the details relating to a service change
 
 Then the details of the service can be updated in the directory
 
-#### Acceptance criterion 3: existing service is withdrawn or no longer available
+#### Acceptance criterion 3: existing service is withdrawn or no longer available {#SocialPrescribingv1.0.1-Acceptancecriterion3:existingserviceiswithdrawnornolongeravailable}
 
 Given that a directory of services has been created in the Social Prescribing Solution
 
@@ -220,7 +220,7 @@ And Patients / Service Users can no longer be referred to the service
 
 ---
 
-### C37E7 - maintain service criteria
+### C37E7 - maintain service criteria {#SocialPrescribingv1.0.1-C37E7-maintainservicecriteria}
 
 As a Link Worker or Service Administrator
 
@@ -228,7 +228,7 @@ I want to maintain (add, update or remove) information about services (such as a
 
 So that the directory is always up to date and reflects the services available
 
-#### Acceptance criterion 1: Restrictions on usage are applied to a service
+#### Acceptance criterion 1: Restrictions on usage are applied to a service {#SocialPrescribingv1.0.1-Acceptancecriterion1:Restrictionsonusageareappliedtoaservice}
 
 Given that a directory of services has been created in the Social Prescribing Solution
 
@@ -238,7 +238,7 @@ Then information about the service can be updated
 
 And the service will only be returned in searches that specify matching service restrictions (including no service restrictions specified)
 
-#### Acceptance criterion 2: Relevance of service to Patient/Service User's circumstances or conditions is captured
+#### Acceptance criterion 2: Relevance of service to Patient/Service User's circumstances or conditions is captured {#SocialPrescribingv1.0.1-Acceptancecriterion2:RelevanceofservicetoPatient/ServiceUser'scircumstancesorconditionsiscaptured}
 
 Given that a directory of services has been created in the Social Prescribing Solution
 
@@ -250,7 +250,7 @@ And the service will only be returned in searches specifying matching conditions
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of unsafe-On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C37E8 - refer Patient/Service User to Link Worker
+### C37E8 - refer Patient/Service User to Link Worker {#SocialPrescribingv1.0.1-C37E8-referPatient/ServiceUsertoLinkWorker}
 
 As a Health or Care Professional
 
@@ -258,7 +258,7 @@ I want to refer a Patient, who has highlighted a healthcare issue to a Social P
 
 So that the Link Worker can contact and assess the Patient/Service User
 
-#### Acceptance criterion 1: New referral to Link Worker is created
+#### Acceptance criterion 1: New referral to Link Worker is created {#SocialPrescribingv1.0.1-Acceptancecriterion1:NewreferraltoLinkWorkeriscreated}
 
 Given the Healthcare Organisation offers a Social Prescribing Capability
 
@@ -268,7 +268,7 @@ When a healthcare issue is highlighted by a Patient/Service User
 
 Then a referral for the Patient/Service User to the Link Worker can be generated
 
-#### Acceptance criterion 2: Link Worker is notified of new referral
+#### Acceptance criterion 2: Link Worker is notified of new referral {#SocialPrescribingv1.0.1-Acceptancecriterion2:LinkWorkerisnotifiedofnewreferral}
 
 Given that a healthcare need has been identified for a Patient/Service User
 
@@ -282,7 +282,7 @@ And the Link Worker can identify the relevant Patient/Service User in order to i
 
 ---
 
-### C37E9 - capture Patient/Service User consent
+### C37E9 - capture Patient/Service User consent {#SocialPrescribingv1.0.1-C37E9-capturePatient/ServiceUserconsent}
 
 As a Link Worker, Health or Care Professional or other member of the Practice/Healthcare Organisation
 
@@ -290,7 +290,7 @@ I want to be able to capture Patient/Service User consent
 
 So that I have a record of their wishes with respect to receiving non-clinical treatment and the sharing of their data
 
-#### Acceptance criterion 1: Patient consent is captured
+#### Acceptance criterion 1: Patient consent is captured {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patientconsentiscaptured}
 
 Given an appropriate service referral has been identified
 
@@ -300,7 +300,7 @@ Then consent to non-clinical treatment can be captured or recorded on the Patie
 
 And consent to share their data can be captured or recorded on the Patient/Service User's record
 
-#### Acceptance criterion 2: Patient consent to non-clinical treatment is not obtained
+#### Acceptance criterion 2: Patient consent to non-clinical treatment is not obtained {#SocialPrescribingv1.0.1-Acceptancecriterion2:Patientconsenttonon-clinicaltreatmentisnotobtained}
 
 Given an appropriate service referral has been identified
 
@@ -308,7 +308,7 @@ When the Patient/Service User refuses consent to non-clinical treatment by the 
 
 Then lack of consent to non-clinical treatment can be captured or recorded on the Patient/Service User's record
 
-#### Acceptance criterion 3: Patient consent is not obtained for information sharing
+#### Acceptance criterion 3: Patient consent is not obtained for information sharing {#SocialPrescribingv1.0.1-Acceptancecriterion3:Patientconsentisnotobtainedforinformationsharing}
 
 Given an appropriate service referral has been identified
 
@@ -316,7 +316,7 @@ When the Patient/Service User does not agree to the sharing of their data with 
 
 Then lack of consent to share data can be captured or recorded on the Patient/Service User's record
 
-### C37E10 - Patient self-referral
+### C37E10 - Patient self-referral {#SocialPrescribingv1.0.1-C37E10-Patientself-referral}
 
 As a Patient/Service User
 
@@ -324,7 +324,7 @@ I want to be able to self-refer to services
 
 So that I can quickly access support services relevant to my needs or condition
 
-#### Acceptance criterion 1: Patient/Service User searches the directory of services
+#### Acceptance criterion 1: Patient/Service User searches the directory of services {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUsersearchesthedirectoryofservices}
 
 Given that a Patient/Service User has identified a healthcare need that can wholly or partially be met by a non-clinical treatment
 
@@ -346,7 +346,7 @@ And the Patient/Service User can be referred to the service provider(s) automat
 
 ---
 
-### C37E11 - integrate Social Prescribing Referral Record with Clinical Record
+### C37E11 - integrate Social Prescribing Referral Record with Clinical Record {#SocialPrescribingv1.0.1-C37E11-integrateSocialPrescribingReferralRecordwithClinicalRecord}
 
 As a GP, Nurse or other Health or Care Professional
 
@@ -354,7 +354,7 @@ I want to be able to view a Patient/Service User's assessments and referrals as 
 
 So that I can understand a Patient/Service User's healthcare issues and interactions with services in a more holistic way
 
-#### Acceptance criterion 1: View social prescribing activities as part of clinical record
+#### Acceptance criterion 1: View social prescribing activities as part of clinical record {#SocialPrescribingv1.0.1-Acceptancecriterion1:Viewsocialprescribingactivitiesaspartofclinicalrecord}
 
 Given that the Social Prescribing Solution has been linked or integrated with the Clinical System
 
@@ -368,7 +368,7 @@ And can be viewed on the timeline for the Patient/Service User as part of the c
 
 ---
 
-### C37E12 - receive notification of an Appointment
+### C37E12 - receive notification of an Appointment {#SocialPrescribingv1.0.1-C37E12-receivenotificationofanAppointment}
 
 As a Link Worker
 
@@ -376,7 +376,7 @@ I want notifications relating to Appointments to be generated automatically and 
 
 So that they are aware of Appointments and any changes and can act on this information (e.g. make arrangements to attend, update records)
 
-#### Acceptance criterion 1: Patient/Service User receives notification
+#### Acceptance criterion 1: Patient/Service User receives notification {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUserreceivesnotification}
 
 Given that a Patient/Service User has been referred to a service
 
@@ -388,7 +388,7 @@ When an Appointment is booked, amended or cancelled
 
 Then the Patient/Service User receives a notification via their preferred method with the details of the booking, amendment or cancellation
 
-#### Acceptance criterion 2: Patient/Service User's Practice receives notification
+#### Acceptance criterion 2: Patient/Service User's Practice receives notification {#SocialPrescribingv1.0.1-Acceptancecriterion2:Patient/ServiceUser'sPracticereceivesnotification}
 
 Given that a Patient/Service User has been referred to a service
 
@@ -402,7 +402,7 @@ Then the Patient/Service User's Organisation receives a notification via the pre
 
 ---
 
-### C37E13 - remind Patients/Service Users of Appointments
+### C37E13 - remind Patients/Service Users of Appointments {#SocialPrescribingv1.0.1-C37E13-remindPatients/ServiceUsersofAppointments}
 
 As a Link Worker
 
@@ -410,7 +410,7 @@ I want to be able to issue reminders about Appointments to a Patient/Service Use
 
 So that the likelihood of them attending is increased
 
-#### Acceptance criterion 1: Patient/Service User receives reminder
+#### Acceptance criterion 1: Patient/Service User receives reminder {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUserreceivesreminder}
 
 Given that a Patient/Service User has an Appointment with a Social Prescribing service
 
@@ -426,7 +426,7 @@ Then the Patient/Service User receives a reminder of the Appointment via their p
 
 ---
 
-### C37E14 - provide service feedback
+### C37E14 - provide service feedback {#SocialPrescribingv1.0.1-C37E14-provideservicefeedback}
 
 As a Patient/Service User
 
@@ -434,7 +434,7 @@ I want to be to provide feedback on non-clinical services
 
 So that I can share my experiences (e.g. experience of booking, effectiveness of the service) with other Patients/Service Users, Link Workers and other Health and Care Professionals
 
-#### Acceptance criterion 1: Patient/Service User creates feedback
+#### Acceptance criterion 1: Patient/Service User creates feedback {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUsercreatesfeedback}
 
 Given that a Patient/Service User has been referred to a service
 
@@ -448,7 +448,7 @@ And the feedback is associated with the service
 
 And the feedback can be viewed by other users of the Social Prescribing Solution
 
-#### Acceptance criterion 2: Link Worker, Administrator or other creates feedback on behalf of the Patient/Service User
+#### Acceptance criterion 2: Link Worker, Administrator or other creates feedback on behalf of the Patient/Service User {#SocialPrescribingv1.0.1-Acceptancecriterion2:LinkWorker,AdministratororothercreatesfeedbackonbehalfofthePatient/ServiceUser}
 
 Given that a Patient/Service User has been referred to a service
 
@@ -460,7 +460,7 @@ And the feedback is associated with the service
 
 And the feedback can be viewed by other users of the Social Prescribing Solution
 
-#### Acceptance criterion 3: Patient/Service User provides feedback anonymously
+#### Acceptance criterion 3: Patient/Service User provides feedback anonymously {#SocialPrescribingv1.0.1-Acceptancecriterion3:Patient/ServiceUserprovidesfeedbackanonymously}
 
 Given that a Patient/Service User has been referred to a service
 
@@ -472,7 +472,7 @@ And the feedback is associated with the service
 
 And the feedback can be viewed by other users of the Social Prescribing Solution
 
-#### Acceptance criterion 4: feedback is moderated
+#### Acceptance criterion 4: feedback is moderated {#SocialPrescribingv1.0.1-Acceptancecriterion4:feedbackismoderated}
 
 Given that an individual has been identified as a moderator for service-related feedback
 
@@ -486,7 +486,7 @@ And the feedback can no longer be viewed by other users of the Social Prescribi
 
 ---
 
-### C37E15 - view service feedback
+### C37E15 - view service feedback {#SocialPrescribingv1.0.1-C37E15-viewservicefeedback}
 
 As a Patient/Service User or Link Worker
 
@@ -494,7 +494,7 @@ I want to be able to see feedback on non-clinical services used by Patients/Serv
 
 So that I can select services that have been most effective for Patients/Service Users with similar circumstances or conditions
 
-#### Acceptance criterion 1: Patient/Service User views feedback
+#### Acceptance criterion 1: Patient/Service User views feedback {#SocialPrescribingv1.0.1-Acceptancecriterion1:Patient/ServiceUserviewsfeedback}
 
 Given that a Patient/Service User has identified a service that might meet their health or well-being needs
 
@@ -508,7 +508,7 @@ Then the Patient/Service User can also view any feedback recorded against the se
 
 ---
 
-### C37E16 - Obtain Management Information (MI) on Social Prescribing
+### C37E16 - Obtain Management Information (MI) on Social Prescribing {#SocialPrescribingv1.0.1-C37E16-ObtainManagementInformation(MI)onSocialPrescribing}
 
 As a Manager or Commissioner
 
@@ -516,7 +516,7 @@ I want to have access to management information relating to Social Prescribing
 
 So that I can analyse the Social Prescribing data to understand usage (e.g. volume of referrals, number of Patients completing an intervention) and outcomes
 
-#### Acceptance criterion 1: understand usage of Social Prescribing
+#### Acceptance criterion 1: understand usage of Social Prescribing {#SocialPrescribingv1.0.1-Acceptancecriterion1:understandusageofSocialPrescribing}
 
 Given that information relating to Social Prescribing has been created within the relevant Solution
 

@@ -18,7 +18,7 @@ labels: ["overarching_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-# Description
+# Description {#Hosting&Infrastructurev1.0.1-Description}
 
 Supports best practices for infrastructure and hosting of systems. For example, ensuring that systems are cost effective, secure and energy efficient.
 
@@ -54,17 +54,17 @@ The standards to support infrastructure and hosting are split into two sections,
 - Cloud – Based on published NHS wide risk assessments and guidance.
 - CoLocation / provider facilities – specific requirements & assurance processes.
 
-# Additional Information
+# Additional Information {#Hosting&Infrastructurev1.0.1-AdditionalInformation}
 
 Recommended Best Practices
 
-# Capabilities
+# Capabilities {#Hosting&Infrastructurev1.0.1-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#Hosting&Infrastructurev1.0.1-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

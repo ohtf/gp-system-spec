@@ -10,9 +10,9 @@ labels: []
 
 # Standards Assurance
 
-# Summary
+# Summary {#StandardsAssurance-Summary}
 
-#### Living Documents
+#### Living Documents {#StandardsAssurance-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -36,7 +36,7 @@ We will review the evidence and provide you with a result on whether the it is s
 
 Please note that Standards Assurance work MUST be completed, or a Work Off Plan arranged to complete the work within an agreed time, in order to complete the Onboarding Process.
 
-## Interoperability
+## Interoperability {#StandardsAssurance-Interoperability}
 
 Interoperability involves two components:
 
@@ -47,7 +47,7 @@ Interoperability involves two components:
 
    1. To determine which [Capability-specific interoperability Standards](../../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Interoperability-Standard.md) your Solution is required to be compliant with, check the Additional Implementation Details of the Epics you have selected, and the the [Capability-specific interoperability Standards](../../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Standards/Overarching-Standards/Interoperability-Standard.md) tables on the Interoperability Standard page.
 
-# Outcomes
+# Outcomes {#StandardsAssurance-Outcomes}
 
 - At the end of the Standards Assurance process you should be compliant with:
 
@@ -65,9 +65,9 @@ Interoperability involves two components:
   - provided you with Tracability Matrixes for each Standard you must complete.
   - have a complete record of the your Standard Assurance process.
 
-# Completing the Traceability Matrix
+# Completing the Traceability Matrix {#StandardsAssurance-CompletingtheTraceabilityMatrix}
 
-## Actions Required
+## Actions Required {#StandardsAssurance-ActionsRequired}
 
 1. We will review any evidence previously submitted for other Frameworks and update your Traceability Matrixes accordingly
 2. We will email you a link to the External SharePoint location which contains your Standard Traceability Matrix
@@ -80,7 +80,7 @@ Interoperability involves two components:
 5. We will review the Traceability Matrix and evidence provided and provide an outcome through your Supplier Manager, including any requests or changes.
 6. If there are no concerns then we will confirm that the Traceability Matrix is complete.
 
-# Additional Material
+# Additional Material {#StandardsAssurance-AdditionalMaterial}
 
 - [Capabilities and Standards Model (Tech Innovation Framework)](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF)
 - [Introduction to Capabilities and Standards](../Introduction-to-Capabilities-and-Standards/index.md)

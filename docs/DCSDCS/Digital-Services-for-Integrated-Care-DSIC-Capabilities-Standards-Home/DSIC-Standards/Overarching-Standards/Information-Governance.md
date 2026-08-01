@@ -25,7 +25,7 @@ labels: ["overarching_standard"]
 - [Onboarding Supporting Information](#InformationGovernance-OnboardingSupportingInformation)
 - [Roadmap](#InformationGovernance-Roadmap)
 
-# Introduction
+# Introduction {#InformationGovernance-Introduction}
 
 Supports the controls needed to ensure that Special Category Data is kept confidential, is accurate and is available to authorised users when required.
 
@@ -54,7 +54,7 @@ The Information Governance Standard includes:
 - Data Subject Access Requests (DSARs) - Support responding to Data Subject Access Requests, providing data where required
 - General Data Protection Regulation (GDPR) - Adherence to the regulation and support related processes
 
-# Baseline Assurance Standard Requirements
+# Baseline Assurance Standard Requirements {#InformationGovernance-BaselineAssuranceStandardRequirements}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md). Completing the BAS is the first step to achieving full assurance with the Overarching Standards allowing Supplier Solutions to be published on the Buying Catalogue. Upon meeting this Standard, Solutions are required to meet any remaining Further Requirements in the Overarching Standards in the timeframe applicable to the Contracting Vehicle.
 
@@ -177,7 +177,7 @@ There are several related mechanisms defined in requirements, which are compared
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | GP-IG-18-9 | **Penetration Testing**  Penetration testing will be completed by a 3rd party CHECK / CREST accredited organisation before go-live and annually thereafter.  An action plan must be in place to mitigate any vulnerabilities identified in an appropriate timeframe. | MUST | **Full Assessment**  Supporting evidence to include:   - A Penetration Test Report completed by a 3rd party CHECK/CREST accredited organisation. - If required, provide an action plan to mitigate any vulnerabilities identified.   Ongoing Compliance:   - Provide an annual Penetration Test Report. | **Full Assessment**  Supporting evidence to include:   - A Penetration Test Report completed by a 3rd party CHECK/CREST accredited organisation. - If required, provide an action plan to mitigate any vulnerabilities identified.   Ongoing Compliance:   - Provide an annual Penetration Test Report. | **Full Assessment**  Supporting evidence to include:   - A Penetration Test Report completed by a 3rd party CHECK/CREST accredited organisation. - If required, provide an action plan to mitigate any vulnerabilities identified.   Ongoing Compliance:   - Provide an annual Penetration Test Report. |
 | - Digital Pathways Solution Registry | GP-IG-18-10 | **Use of links and attachments in Patient communications**  Where links or attachments are included in communications, the Supplier must take steps to ensure they are safe and free from malware. For links this must be done on an ongoing basis to ensure that the site poses no danger to the recipient even after the link is sent. | MUST | **Self-certification** | **Self-certification** | **Self-certification** |
 
-# Further Requirements
+# Further Requirements {#InformationGovernance-FurtherRequirements}
 
 Suppliers must complete assurance for these Requirements in addition to Requirements in the Baseline Assurance Standard in order to achieve full compliance with the Information Governance Standard. Suppliers can complete these at the same time as Requirements within the Baseline Assurance Standard or following the publication on the Buying Catalogue subject to meeting the timeframe applicable to the Contracting Vehicle.
 
@@ -226,13 +226,13 @@ Suppliers must complete assurance for these Requirements in addition to Requirem
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | GP-IG-14.4-1 | **Adhere to Statement of Compliance Obligations**  The requirements in this section apply where a Supplier provides a hosted service (outside of the Organisation premises) supporting deployments – such as a hosted application service or a shared message handling service.  Any requirement stated in this section does not absolve the Supplier from adhering to the Authority's [Statement of Compliance obligations](https://webarchive.nationalarchives.gov.uk/ukgwa/20160729123848/http:/systems.hscic.gov.uk/infogov/igsoc). | MUST | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | GP-IG-16-2 | **ISO/IEC 27001 Accreditation**  A valid ISO 27001 Certificate is required from a UKAS-registered accreditation organisation, or IAF registered accreditation organisation in exceptional circumstances. | MUST | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - A valid ISO 27001 Certificate from a UKAS-registered accreditation organisation, or IAF registered accreditation organisation in exceptional circumstances. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - A valid ISO 27001 Certificate from a UKAS-registered accreditation organisation, or IAF registered accreditation organisation in exceptional circumstances. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - A valid ISO 27001 Certificate from a UKAS-registered accreditation organisation, or IAF registered accreditation organisation in exceptional circumstances. |
 
-# Onboarding Supporting Information
+# Onboarding Supporting Information {#InformationGovernance-OnboardingSupportingInformation}
 
 A template is provided to support onboarding:
 
-[Onboarding Risk Based Tr…](Information-Governance.md)
+[Onboarding Risk Based Tr…](../../../../.raw/DCSDCS/attachments/1391134230/att12374376655-Onboarding Risk Based Traceability GDPR_DPA Compliance Questions for DCS (1).docx)
 
-# Roadmap
+# Roadmap {#InformationGovernance-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

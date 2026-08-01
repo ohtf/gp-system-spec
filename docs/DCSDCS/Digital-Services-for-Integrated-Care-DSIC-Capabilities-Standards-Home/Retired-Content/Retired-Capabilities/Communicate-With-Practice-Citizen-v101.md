@@ -21,11 +21,11 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#CommunicateWithPractice-Citizenv1.0.1-Description}
 
 Supports secure and trusted electronic communications between Citizens and the Practice. Integrates with Patient Information Maintenance - GP.
 
-# Outcomes
+# Outcomes {#CommunicateWithPractice-Citizenv1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -34,7 +34,7 @@ Supports secure and trusted electronic communications between Citizens and the P
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C2E1 - manage communications - Patient
+### C2E1 - manage communications - Patient {#CommunicateWithPractice-Citizenv1.0.1-C2E1-managecommunications-Patient}
 
 As a Patient
 
@@ -42,7 +42,7 @@ I want to communicate with a Practice remotely
 
 So that I can access support without attending the practice
 
-#### Acceptance criterion 1: create communications
+#### Acceptance criterion 1: create communications {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriterion1:createcommunications}
 
 Given the Patient is logged into Citizen Services
 
@@ -52,7 +52,7 @@ Then a disclaimer is shown to advise that this communication is suitable for cer
 
 And a communication to the Practice is created
 
-#### Acceptance criterion 2: view communications received
+#### Acceptance criterion 2: view communications received {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriterion2:viewcommunicationsreceived}
 
 Given the Patient is logged into Citizen Services
 
@@ -62,7 +62,7 @@ When they choose to view communications
 
 Then the communications are displayed
 
-#### Acceptance criterion 3: view communications sent
+#### Acceptance criterion 3: view communications sent {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriterion3:viewcommunicationssent}
 
 Given the Patient is logged into Citizen Services
 
@@ -70,7 +70,7 @@ When they choose to view communications
 
 Then they can view the communications sent
 
-#### Acceptance criteria 4: respond to communications
+#### Acceptance criteria 4: respond to communications {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriteria4:respondtocommunications}
 
 Given the Patient is logged into Citizen Services
 
@@ -82,7 +82,7 @@ And a disclaimer will be displayed advised that this communication is suitable f
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C2E2 - manage communications - Proxy
+### C2E2 - manage communications - Proxy {#CommunicateWithPractice-Citizenv1.0.1-C2E2-managecommunications-Proxy}
 
 As a Proxy
 
@@ -90,7 +90,7 @@ I want to communicate with a Practice remotely
 
 So that I can access support without attending the practice
 
-#### Acceptance criterion 1: create communications
+#### Acceptance criterion 1: create communications {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriterion1:createcommunications.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -100,7 +100,7 @@ Then a disclaimer is shown to advise that this communication is suitable for cer
 
 And a communication to the Practice is created
 
-#### Acceptance criterion 2: view communications received
+#### Acceptance criterion 2: view communications received {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriterion2:viewcommunicationsreceived.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -110,7 +110,7 @@ When they choose to view communications
 
 Then the communications are displayed
 
-#### Acceptance criterion 3: view communications sent
+#### Acceptance criterion 3: view communications sent {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriterion3:viewcommunicationssent.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -118,7 +118,7 @@ When they choose to view communications
 
 Then they can view the communications sent
 
-#### Acceptance criteria 4: respond to communications
+#### Acceptance criteria 4: respond to communications {#CommunicateWithPractice-Citizenv1.0.1-Acceptancecriteria4:respondtocommunications.1}
 
 Given the Proxy is logged into Citizen Services
 

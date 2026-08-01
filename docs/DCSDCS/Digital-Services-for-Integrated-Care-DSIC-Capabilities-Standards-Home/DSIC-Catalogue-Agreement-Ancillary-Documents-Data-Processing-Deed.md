@@ -16,9 +16,9 @@ Please find below available to download:
 
 |  |  |
 | --- | --- |
-| **DSIC- Catalogue Agreement Terms and Schedules** | [DSIC - Catalogue Agreeme…](DSIC-Catalogue-Agreement-Ancillary-Documents-Data-Processing-Deed.md) |
-| **Ancillary Documents** | [Ancillary Documents - V3…](DSIC-Catalogue-Agreement-Ancillary-Documents-Data-Processing-Deed.md) |
-| **Data Processing Deed** | [Data Processing Deed.zip](DSIC-Catalogue-Agreement-Ancillary-Documents-Data-Processing-Deed.md) |
+| **DSIC- Catalogue Agreement Terms and Schedules** | [DSIC - Catalogue Agreeme…](../../.raw/DCSDCS/attachments/13120373094/att13120373108-DSIC - Catalogue Agreement Terms and Schedules V2.0 (Final).zip) |
+| **Ancillary Documents** | [Ancillary Documents - V3…](../../.raw/DCSDCS/attachments/13120373094/att13120373105-Ancillary Documents - V3.0 (Final).zip) |
+| **Data Processing Deed** | [Data Processing Deed.zip](../../.raw/DCSDCS/attachments/13120373094/att14166982667-Data Processing Deed.zip) |
 
 For the Catalogue Authority to be able to issue a signed counterpart of the Catalogue Agreement the following Schedules require completion:
 

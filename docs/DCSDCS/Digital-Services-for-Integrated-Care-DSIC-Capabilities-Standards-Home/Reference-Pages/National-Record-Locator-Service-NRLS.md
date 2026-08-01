@@ -16,7 +16,7 @@ labels: ["reference_page"]
 | Version | 1.0.0 |
 | Type | Reference |
 
-# Summary
+# Summary {#NationalRecordLocatorService(NRLS)-Summary}
 
 The National Record Locator Service (NRLS) aims to provide a national capability for locating and, ultimately, sharing patient records across health and care systems. A one-stop demonstrator of the NRLS capability can also be [accessed here](https://nrls.digital.nhs.uk/), detailing what the capability is, how it works, the benefits it might bring in the context of their phase 1 sites (ambulance trusts and mental health trusts). The site also directs interested parties to the more technical side of NRLS where the API / code can be accessed.
 
@@ -35,7 +35,7 @@ While not currently mandated, GP system suppliers are encouraged to start buildi
 
 In the near future, specific use cases around Digital Child Health and Digital Maternity will require GP systems to integrate with the NRLS API.
 
-# Documentation
+# Documentation {#NationalRecordLocatorService(NRLS)-Documentation}
 
 | **Resource** | **Intended Audience** | **Location** |
 | --- | --- | --- |

@@ -30,11 +30,11 @@ labels: ["overarching_standard"]
 - [Capabilities with Interoperability Relationships](#InteroperabilityStandard-CapabilitieswithInteroperabilityRelationships)
 - [Roadmap](#InteroperabilityStandard-Roadmap)
 
-# Introduction
+# Introduction {#InteroperabilityStandard-Introduction}
 
 Defines overarching Interoperability requirements and interfaces to be implemented, including quality and principles to be followed for Supplier Solutions.
 
-# Notes on quality and consistency of interface documentation
+# Notes on quality and consistency of interface documentation {#InteroperabilityStandard-Notesonqualityandconsistencyofinterfacedocumentation}
 
 There are a large number of interfaces that Solutions need to implement. These interfaces, and their documentation have been created over a very long period of time by a number of different organisations and programmes. The static nature of the Solutions market means that historically there has been limited justification and appetite for modernising or standardising existing documentation. This means that the format, quality and consistency of interface documentation is currently extremely variable.
 
@@ -52,13 +52,13 @@ Until these issues can be addressed Suppliers and system implementers should exp
 
 Suppliers should contact the Authority at [gpitfutures@nhs.net](mailto:gpitfutures@nhs.net) to resolve any documentation issues which block them from delivering compliant implementations.
 
-# Interoperability principles
+# Interoperability principles {#InteroperabilityStandard-Interoperabilityprinciples}
 
 Suppliers are expected to adhere to the interoperability principles wherever possible. Whilst adherence will not be assessed in Onboarding, the Authority will expect any deviation from these principles to be supported by a valid rationale on delivery of interfaces.
 
 Detailed guidance is available from gov.uk [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice), [API Technical & Data Standards Guidance](https://www.gov.uk/guidance/gds-api-technical-and-data-standards) & [API Design Guidance](https://www.gov.uk/government/collections/api-design-guidance)
 
-# Baseline Assurance Standard Requirements
+# Baseline Assurance Standard Requirements {#InteroperabilityStandard-BaselineAssuranceStandardRequirements}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md). Completing the BAS is the first step to achieving full assurance with the Overarching Standards allowing Supplier Solutions to be published on the Buying Catalogue. Upon meeting this Standard, Solutions are required to meet any remaining Further Requirements in the Overarching Standards in the timeframe applicable to the Contracting Vehicle.
 
@@ -66,7 +66,7 @@ All Baseline Assurance Requirements can be found [here.](Baseline-Assurance-Stan
 
 The following table of Requirements are the Requirements in the Baseline Assurance Standard related to the Interoperability Standard.
 
-## Interoperability non-functional requirements
+## Interoperability non-functional requirements {#InteroperabilityStandard-Interoperabilitynon-functionalrequirements}
 
 The following overarching requirements apply to all interfaces in the scope of the Interoperability Standard which are offered by a Solution.
 
@@ -80,7 +80,7 @@ The following overarching requirements apply to all interfaces in the scope of t
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | ISNFR07 | Within the scope of interfaces specified within the Standard, Suppliers must not offer differential service, e.g. all API functionality and behaviour will be equally available to all API Consumers, including the API Provider's own applications. | MUST | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | ISNFR08 | Suppliers should not offer multiple APIs for the same purpose, e.g. there should not be multiple, different Appointments Booking APIs. Suppliers are free to offer APIs to different Consumers under different commercial terms if permitted by the contract and Contracting Vehicle, but they should offer only one technical API for each purpose. | SHOULD | **Self-certification** | **Self-certification** | **Self-certification** |
 
-## Minimum non-functional requirements for interfaces built to the Authority's specifications
+## Minimum non-functional requirements for interfaces built to the Authority's specifications {#InteroperabilityStandard-Minimumnon-functionalrequirementsforinterfacesbuilttotheAuthority'sspecifications}
 
 Where an interface/extract is built to the Authority's functional specifications, e.g. IM1 - Interface Mechanism or GP Connect, the following requirements apply to the production implementation. For requirements relating to performance and availability Suppliers should refer to the [Service Levels](Service-Management.md)*.*
 
@@ -89,11 +89,11 @@ Where an interface/extract is built to the Authority's functional specifications
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | ASNFR01 | Data currency. Updates to systems made through non-API mechanisms (e.g. user interface) should be available on APIs in real time, i.e. as soon as the update transaction is committed. | SHOULD | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Detailed response including technical and data architecture design evidence that demonstrates compliance. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Detailed response including technical and data architecture design evidence that demonstrates compliance. | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Pathways Solution Registry - Digital Primary Care | ASNFR02 | Data currency. Updates made through APIs must be available on APIs in real time, i.e. as soon as the update transaction is committed. | MUST | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Detailed response including technical and data architecture design evidence that demonstrates compliance. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Detailed response including technical and data architecture design evidence that demonstrates compliance. | **Self-certification** |
 
-# Further Requirements
+# Further Requirements {#InteroperabilityStandard-FurtherRequirements}
 
 Suppliers will not be required to meet any Further Requirements to achieve full compliance with the Interoperability Standard.
 
-# Capability-independent interoperability Standards
+# Capability-independent interoperability Standards {#InteroperabilityStandard-Capability-independentinteroperabilityStandards}
 
 This section lists the interoperability requirements which are not linked to specific Capabilities. Where a requirement mandates compliance with specific Interoperability Standard(s), there is no alternative implementation. These are typically (but not exclusively) supporting Standards such as communications protocols or related technical Standards.
 
@@ -105,13 +105,13 @@ This section lists the interoperability requirements which are not linked to spe
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | [Email](../Non-Overarching-Standards/Email.md) | Standard for Health and care systems that send and receive email; to ensure their email service meets the secure email standard. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Email Standard Assurance sign off. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Email Standard Assurance sign off. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Email Standard Assurance sign off. |
 | - GP IT Futures - Tech Innovation - Digital Primary Care | [Generic FHIR Receiver](../Non-Overarching-Standards/Generic-FHIR-Receiver.md) | A component which will receive messages into the GP Practice Solution. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Generic FHIR Receiver Standard Assurance sign off. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Generic FHIR Receiver Standard Assurance sign off. | **Self-certification with Supporting Evidence**  Supporting evidence to include:   - Generic FHIR Receiver Standard Assurance sign off. |
 
-# Capabilities with Interoperability Relationships
+# Capabilities with Interoperability Relationships {#InteroperabilityStandard-CapabilitieswithInteroperabilityRelationships}
 
 See [Capabilities with Interoperability Relationships](../../Reference-Pages/Capabilities-with-Interoperability-Relationships.md) for guidance on the interoperability requirements which are associated with each Capability.
 
 Note: this page is for guidance only and does not supersede what is mandated in the individual Capabilities and Standards.
 
-# Roadmap
+# Roadmap {#InteroperabilityStandard-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

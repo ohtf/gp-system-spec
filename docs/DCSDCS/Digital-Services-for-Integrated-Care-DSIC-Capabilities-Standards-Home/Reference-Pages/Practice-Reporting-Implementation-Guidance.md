@@ -12,23 +12,23 @@ labels: ["reference_page"]
 
 |  |  |
 | --- | --- |
-| ID | R7 |
-| Version | 1.0.0 |
-| Type | Reference |
+| ID {#PracticeReportingImplementationGuidance-ID} | R7 |
+| Version {#PracticeReportingImplementationGuidance-Version} | 1.0.0 |
+| Type {#PracticeReportingImplementationGuidance-Type} | Reference |
 
-# Introduction
+# Introduction {#PracticeReportingImplementationGuidance-Introduction}
 
 The Practice Reports set out below are only suggestions and examples of the possible output of the Appointments Dashboard reports covered in the [Appointments Management - GP Capability](../DSIC-Capabilities/Appointments-Management-GP.md). Suppliers should not be constrained by this and should use User Research, initiative and innovation to find the most appropriate way to present the reports in their Solution.
 
-# Practice Reporting Examples
+# Practice Reporting Examples {#PracticeReportingImplementationGuidance-PracticeReportingExamples}
 
-## Practice Report 1: Practice Reporting - Report on utilisation and DNA rates
+## Practice Report 1: Practice Reporting - Report on utilisation and DNA rates {#PracticeReportingImplementationGuidance-PracticeReport1:PracticeReporting-ReportonutilisationandDNArates}
 
 *Example* tabular output for week view
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/11963564048/image-20211006-141328.png?api=v2)
 
-## Practice Report 2: Report on Staff Member availability, utilisation and DNA by Staff Member/Healthcare Professional type
+## Practice Report 2: Report on Staff Member availability, utilisation and DNA by Staff Member/Healthcare Professional type {#PracticeReportingImplementationGuidance-PracticeReport2:ReportonStaffMemberavailability,utilisationandDNAbyStaffMember/HealthcareProfessionaltype}
 
 *Example* output for day view
 
@@ -36,7 +36,7 @@ Date: 30/11/2016
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/11963564048/image-20211006-141416.png?api=v2)
 
-## Practice Report 3: Report on Appointment Method
+## Practice Report 3: Report on Appointment Method {#PracticeReportingImplementationGuidance-PracticeReport3:ReportonAppointmentMethod}
 
 *Example* output for month view
 
@@ -44,7 +44,7 @@ Month: November
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/11963564048/image-20211011-081041.png?api=v2)
 
-## Practice Report 4:  Report on Age and Sex of Patients with Appointments
+## Practice Report 4:  Report on Age and Sex of Patients with Appointments {#PracticeReportingImplementationGuidance-PracticeReport4:ReportonAgeandSexofPatientswithAppointments}
 
 *Example* output for month view
 
@@ -52,7 +52,7 @@ Month: November
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/11963564048/image-20211006-144040.png?api=v2)
 
-## Practice Report 5: Report on Patients with more than one Appointment in timeframe
+## Practice Report 5: Report on Patients with more than one Appointment in timeframe {#PracticeReportingImplementationGuidance-PracticeReport5:ReportonPatientswithmorethanoneAppointmentintimeframe}
 
 *Example* output for month view
 
@@ -60,7 +60,7 @@ Month: November
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/11963564048/image-20211006-144248.png?api=v2)
 
-## Practice Report 6: Report on Patients with more than one DNA or Cancellation
+## Practice Report 6: Report on Patients with more than one DNA or Cancellation {#PracticeReportingImplementationGuidance-PracticeReport6:ReportonPatientswithmorethanoneDNAorCancellation}
 
 *Example* output for month view
 
@@ -68,7 +68,7 @@ Month: November
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/11963564048/image-20211006-144930.png?api=v2)
 
-## Practice Report 7: Report on 3rd, 4th, and 5th available Appointment by Staff Member
+## Practice Report 7: Report on 3rd, 4th, and 5th available Appointment by Staff Member {#PracticeReportingImplementationGuidance-PracticeReport7:Reporton3rd,4th,and5thavailableAppointmentbyStaffMember}
 
 *Example* output for day view
 

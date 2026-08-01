@@ -10,7 +10,7 @@ labels: []
 
 # Understanding Price
 
-# Introduction
+# Introduction {#UnderstandingPrice-Introduction}
 
 The [Buying Catalogue](http://buyingcatalogue.digital.nhs.uk) will present you as a buyer with options to purchase [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk), which represent the core software offerings that you wish to use within your Practices and other care settings as you require, these [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) may also be offered with Additional Services which represent additional license rights, functional capabilities or other software services.
 
@@ -25,7 +25,7 @@ There are two aspects of price to understand:
 
 [The Catalogue](http://buyingcatalogue.digital.nhs.uk) treats all software offered as Software as a Service (SaaS), meaning that all software is delivered to you ‘as a service’; there are no options available allowing you to purchase, for example, a perpetual license and implement and host the software on your premises.
 
-# List Prices Are Always Software as a Service
+# List Prices Are Always Software as a Service {#UnderstandingPrice-ListPricesAreAlwaysSoftwareasaService}
 
 The List Price for most [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) and Additional Services are based on a Software as a Service (SaaS) model.  This is a subscription-based model where you pay a single charge to access an amount of [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) or Additional Service for a defined period (the billing period is per Calendar Month). You will not have any hidden charges for accessing the Solution, the price charged represents the whole cost of delivering that service to your end user device for the period in question (with the exception of initial implementation charges where necessary).  You only receive access to the software for the period that you pay for.
 
@@ -37,7 +37,7 @@ The scope of the SaaS charge for a [Catalogue Solution](http://buyingcatalogue.d
 
 The List Price for an Associated Service is simply the per unit charge for the service in question with no discount agreed.
 
-## List Price Units of Order
+## List Price Units of Order {#UnderstandingPrice-ListPriceUnitsofOrder}
 
 The Buying Catalogue does not prescribe the units Suppliers use in presenting their Catalogue Solutions for sale (with the sole exception of Foundation Solution Sets must be presented on a Per Patient basis as a minimum) though all pricing presented must comply with the provisions of the Commercial Standard in order to ensure buyer transparency and calculability. You should encounter at least the following units;
 
@@ -75,7 +75,7 @@ Some Suppliers will offer bundles of services which may or may not be purchased 
 
 Where such bundles or options exist they shall be expressed as Additional Services purchasable on top of the main Catalogue Solution and will be ordered as such.
 
-# Payment and Changes to Order Values
+# Payment and Changes to Order Values {#UnderstandingPrice-PaymentandChangestoOrderValues}
 
 Over the duration of your Call Off Agreement, the number of units you pay for may change.  The method for managing change is different for different types of unit of order:
 
@@ -84,13 +84,13 @@ Over the duration of your Call Off Agreement, the number of units you pay for ma
 - **Variable Pricing: Per Patient** – Per patient per annum is a special class of variable order as it is the most widely used and mirrors the calculation of your allocation. Where the unit of order is "Per Patient" and the party receiving the service is a GP Practice, the patient numbers to be used for the purposes of the charges shall be the patient numbers retrieved from the NHS Digital Patient Registered at GP Practice website[3]. NHS Digital will use these numbers each month to calculate the actual charge that the Supplier will be paid.  Neither you nor the Supplier will need to take any action. However, if the party is not a GP Practice, the number of patients will need to be manually provided during the order and then maintained via a Call Off Order Form Change, which involves recording the proposed changes in the Order Form. Until you and the Supplier submit an agreed change, you will receive, and the Supplier will be paid for what was submitted in the Call Off Order Form or the last Order Form Change.
 - **Associated Services**  – Suppliers will be paid for these when either they are delivered or when associated milestones are achieved.  If you specifically wish to change the dates for the milestones, then you should use the Variation procedure outlined above, however if there is minor slippage for whatever reason then you should simply release payment for the services at the point that you accept that they have been delivered, or the milestone has been achieved in the usual way.
 
-# Foundation Solution Pricing
+# Foundation Solution Pricing {#UnderstandingPrice-FoundationSolutionPricing}
 
 All Foundation [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Sets must, at a minimum, be offered on a per patient per annum basis.  Other than this restriction, suppliers can offer any unit of charging.
 
 There is a pricing cap for Foundation [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Sets of £1.26 per patient per annum.  Foundation [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Sets are the only solutions that are subject to a pricing cap.
 
-# Indexation
+# Indexation {#UnderstandingPrice-Indexation}
 
 List Prices do not include indexation.  A Supplier can request that you apply indexation and you can refuse or agree.  Indexation is described in your Call Off Agreement in Schedule 4.1 Charges and Invoicing at paragraph 2.
 

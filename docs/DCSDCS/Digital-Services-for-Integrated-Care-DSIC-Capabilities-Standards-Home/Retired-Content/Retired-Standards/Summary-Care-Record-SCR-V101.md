@@ -34,7 +34,7 @@ labels: ["interop_standard_retired"]
   - [NHS Summary Care Record Service - GP Summary Requirements v5.8.3](#SummaryCareRecord(SCR)V1.0.1-NHSSummaryCareRecordService-GPSummaryRequirementsv5.8.3.2)
 - [Roadmap](#SummaryCareRecord(SCR)V1.0.1-Roadmap)
 
-# Introduction
+# Introduction {#SummaryCareRecord(SCR)V1.0.1-Introduction}
 
 The Summary Care Record (SCR) is an electronic record of important Patient information, created from GP medical records. It can be seen and used by authorised staff in other areas of the health and care system involved in the Patient's direct care.
 
@@ -47,7 +47,7 @@ Both of these aspects are covered in the documentation below.
 
 Additional information is available at NHS Digital's summary care record site
 
-# Requirements
+# Requirements  {#SummaryCareRecord(SCR)V1.0.1-Requirements}
 
 | Applicable Suppliers | Requirement | Level |
 | --- | --- | --- |
@@ -56,13 +56,13 @@ Additional information is available at NHS Digital's summary care record site
 
 All suppliers are encouraged to work towards compliance with the latest version as above.
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#SummaryCareRecord(SCR)V1.0.1-Compliance,AssuranceandTesting}
 
-### SCR FHIR API
+### SCR FHIR API {#SummaryCareRecord(SCR)V1.0.1-SCRFHIRAPI}
 
 For Suppliers of new services or applications, see the Summary Care Record(SCR) section on Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements.
 
-### NHS Summary Care Record Service - [GP Summary Requirements v5.8.3](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/GP%20Summary%20Requirements%20v5.8.3%20FINAL.docx?version=1&modificationDate=1695893951530&cacheVersion=1&api=v2)
+### NHS Summary Care Record Service - [GP Summary Requirements v5.8.3](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/GP%20Summary%20Requirements%20v5.8.3%20FINAL.docx?version=1&modificationDate=1695893951530&cacheVersion=1&api=v2) {#SummaryCareRecord(SCR)V1.0.1-NHSSummaryCareRecordService-GPSummaryRequirementsv5.8.3}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -84,9 +84,9 @@ For advice, access to the documentation, and support from the NHS Business Part
 
 The NPFIT-SCR-SCRDOCS-0038.01 NHS CFH SCR Clinical Message Validation Process v1.docx document provides guidance on the clinical safety validation processes for SCR messaging.
 
-# Documentation
+# Documentation {#SummaryCareRecord(SCR)V1.0.1-Documentation}
 
-### SCR FHIR API
+### SCR FHIR API {#SummaryCareRecord(SCR)V1.0.1-SCRFHIRAPI.1}
 
 For Suppliers of new services or applications:
 
@@ -96,13 +96,13 @@ For Suppliers of new services or applications:
 
 It is recommended to read GP software developer guide in conjunction with the API documentation.
 
-### NHS Summary Care Record Service - [GP Summary Requirements v5.8.3](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/GP%20Summary%20Requirements%20v5.8.3%20FINAL.docx?version=1&modificationDate=1695893951530&cacheVersion=1&api=v2)
+### NHS Summary Care Record Service - [GP Summary Requirements v5.8.3](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/GP%20Summary%20Requirements%20v5.8.3%20FINAL.docx?version=1&modificationDate=1695893951530&cacheVersion=1&api=v2) {#SummaryCareRecord(SCR)V1.0.1-NHSSummaryCareRecordService-GPSummaryRequirementsv5.8.3.1}
 
 For Suppliers of services which ARE currently deployed into an operational environment.
 
 Click here to view previous SCR requirements documentation
 
-#### Summary Care Record Creation
+#### Summary Care Record Creation {#SummaryCareRecord(SCR)V1.0.1-SummaryCareRecordCreation}
 
 GP Summaries are created and sent to the Summary Care Record repository (on Spine) via messaging from GP systems which implement the Patient Information Maintenance - GP capability.
 
@@ -120,7 +120,7 @@ Further information useful for implementers of this interface such as Use Cases,
 
 Also, see MIM 4.2.00 Known Issues.doc
 
-#### Summary Care Record Viewing
+#### Summary Care Record Viewing {#SummaryCareRecord(SCR)V1.0.1-SummaryCareRecordViewing}
 
 SCR viewing must be implemented in line with the [Summary Care Record Permission To View Guidelines.pdf](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/Summary%20Care%20Record%20Permission%20To%20View%20Guidelines.pdf?version=1&modificationDate=1695893951968&cacheVersion=1&api=v2)
 
@@ -136,15 +136,15 @@ Suppliers have a number of options for implementing summary care record viewing,
 | Spine mini services | Spine mini services (SMS) are a more lightweight way of developing read-only integration with some national Spine services. SMS Client systems allow SCR access with patient permission and for Emergency Reasons. SCR Viewing systems will be able “plug into” the SCR Spine Mini-Service functionality of the SMS Provider. The SMS Provider system provides various defined functions and services for SCR Viewing systems, e.g. the SMS Provider would retrieve GP Summaries and manage “Permission to View” on behalf of viewing systems (clients). | [SCR - Spine Mini Service Provider Requirements-v1.3.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/SCR%20-%20Spine%20Mini%20Service%20Provider%20Requirements-v1.3.docx?version=1&modificationDate=1695893953796&cacheVersion=1&api=v2)  [SCR - Spine Mini Service Client Requirement04.1.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/SCR%20-%20Spine%20Mini%20Service%20Client%20Requirement04.1.docx?version=1&modificationDate=1695893952857&cacheVersion=1&api=v2) |
 | Full SCR integration | Integration of SCR information into the GP clinical system.  A GP system retrieves GP Summaries from the Summary Care Record on Spine using the PSIS Query message and displays it via appropriate screens within the GP clinical system. | [SCR\_Viewing\_Requirements\_v3.0\_(Approved).docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/SCR_Viewing_Requirements_v3.0_(Approved).docx?version=1&modificationDate=1695893952402&cacheVersion=1&api=v2)  Summary Care Record DMS 5.8  Message Implementation Manual (MIM 7.2) PSIS Query  [NPFIT-FNT-TO-TIN-1228 14 Compliance Specification - Clinical Message Handling Addendum v4-0.doc](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/NPFIT-FNT-TO-TIN-1228%2014%20Compliance%20Specification%20-%20Clinical%20Message%20Handling%20Addendum%20v4-0.doc?version=1&modificationDate=1695893948801&cacheVersion=1&api=v2) (sections relevant to PSIS Query)  [MIM 7 2 02 Known Issues 1.3.doc](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/MIM%207%202%2002%20Known%20Issues%201.3.doc?version=1&modificationDate=1695893948323&cacheVersion=1&api=v2) |
 
-# Dependencies
+# Dependencies {#SummaryCareRecord(SCR)V1.0.1-Dependencies}
 
-### Summary Care Record FHIR API
+### Summary Care Record FHIR API {#SummaryCareRecord(SCR)V1.0.1-SummaryCareRecordFHIRAPI}
 
 For Suppliers of new services or applications:
 
 - Authentication and Access - using NHS Care Identity Service 2 API
 
-### NHS Summary Care Record Service - [GP Summary Requirements v5.8.3](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/GP%20Summary%20Requirements%20v5.8.3%20FINAL.docx?version=1&modificationDate=1695893951530&cacheVersion=1&api=v2)
+### NHS Summary Care Record Service - [GP Summary Requirements v5.8.3](https://nhse-dsic.atlassian.net/wiki/download/attachments/12557221889/GP%20Summary%20Requirements%20v5.8.3%20FINAL.docx?version=1&modificationDate=1695893951530&cacheVersion=1&api=v2) {#SummaryCareRecord(SCR)V1.0.1-NHSSummaryCareRecordService-GPSummaryRequirementsv5.8.3.2}
 
 For Suppliers of services which ARE currently deployed into an operational environment:
 
@@ -155,7 +155,7 @@ For Suppliers of services which ARE currently deployed into an operational envir
 - Spine Mini Services (optional)
 - Authentication and Access
 
-# Roadmap
+# Roadmap {#SummaryCareRecord(SCR)V1.0.1-Roadmap}
 
 | Title |
 | --- |

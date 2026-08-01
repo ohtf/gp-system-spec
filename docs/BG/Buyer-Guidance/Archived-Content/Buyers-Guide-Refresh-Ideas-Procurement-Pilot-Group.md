@@ -14,7 +14,7 @@ labels: []
 
 **FAQ guide (issue 2)**
 
-[GP IT F\_BE\_FAQ\_Issue 2.p…](Buyers-Guide-Refresh-Ideas-Procurement-Pilot-Group.md)
+[GP IT F\_BE\_FAQ\_Issue 2.p…](../../../.raw/BG/attachments/11604918331/att11604590690-GP IT F_BE_FAQ_Issue 2.pdf)
 
 1. **PROCUREMENT DRIVER**  
    Procurement drivers can be any event or opportunity which triggers an intention to procure specific to the Primary Care IT estate, including:  

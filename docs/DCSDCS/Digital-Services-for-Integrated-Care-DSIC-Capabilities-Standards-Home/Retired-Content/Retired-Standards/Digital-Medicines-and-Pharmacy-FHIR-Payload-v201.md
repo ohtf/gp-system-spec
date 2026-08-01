@@ -27,13 +27,13 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Dependencies)
 - [Roadmap](#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Roadmap)
 
-# Introduction
+# Introduction {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Introduction}
 
 The Digital Medicines initiative aims to positively transform the way that Patients manage their medicines, promote new models of care as well as improve the medicines supply chain and the provision of medicines data. At a high-level, this all involves the adoption of digital prescriptions to replace inefficient and cumbersome paper versions, utilising appropriate technologies to fully engage in the end-to-end Patient pathway, alongside supporting the adoption of technology to deliver a fully digitised medicines supply chain.
 
 The Digital Medicines Specification utilises the Generic FHIR Receiver and supports the following requirements as part of its MVP.
 
-# Requirements
+# Requirements {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Requirements}
 
 | ID | Requirement | Level |
 | --- | --- | --- |
@@ -41,9 +41,9 @@ The Digital Medicines Specification utilises the Generic FHIR Receiver and sup
 | **DMPF2** | **Pharmacy Emergency Medication Supply**   A FHIR Document used to notify a Patient’s registered GP Practice of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
 | **DMPF3** | **Pharmacy Minor Illnesses**  A FHIR Document used to notify a Patient’s registered GP Practice of a minor illness consultation a Patient has received at a Pharmacy. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Compliance,AssuranceandTesting}
 
-## Summary of Recommendations
+## Summary of Recommendations {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-SummaryofRecommendations}
 
 The understanding that clinical risk and assurance responsibilities are formally acknowledged by system Suppliers and based on the knowledge that appropriate functional assurance will be performed by the NHS Digital Solutions Assurance team which is crucial to mitigating many of the clinical risks identified, the following clinical assurance approach is recommended:
 
@@ -69,7 +69,7 @@ b. The end to end process including the recording of a NUMSAS consultation for a
 
 The focus of the witness testing will be on the user workflow ensuring the positive and negative messages are prominent to the user and to provide a “sense check” of the PDF transformation of the message received by the GP system.
 
-# Documentation
+# Documentation {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Documentation}
 
 The latest version of Digital Medicines specifications can be accessed here: [https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir](https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir "https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir") (Reference links: <https://developer.nhs.uk/apis/>).
 
@@ -77,13 +77,13 @@ The [first stage of the standard is now published](https://theprsb.org/standard
 
 The MVP states that Suppliers are expected to process the unstructured messages upon entry to the framework in order to compliantly implement any use cases. However, there will be a future requirement for Suppliers to further enhance their Solutions to ensure the messages are processed in a structured format.
 
-# Dependencies
+# Dependencies {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - Generic FHIR Receiver
 
-# Roadmap
+# Roadmap {#DigitalMedicinesandPharmacyFHIRPayloadv2.0.1-Roadmap}
 
 | Roadmap Item | Standards and Capabilities | Status | Effective Date | Description | Change Type | Change Route |
 | --- | --- | --- | --- | --- | --- | --- |

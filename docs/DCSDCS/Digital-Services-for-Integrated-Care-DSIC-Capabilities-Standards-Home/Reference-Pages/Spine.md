@@ -25,28 +25,28 @@ labels: ["reference_page"]
 - [Documentation](#Spine-Documentation)
   - [Using MHS Adaptor](#Spine-UsingMHSAdaptor.1)
 
-# Introduction
+# Introduction {#Spine-Introduction}
 
 The NHS Spine supports national services such as the  Personal Demographics Service (PDS), e-Referrals Service (e-RS), Electronic Prescription Service (EPS) and the Summary Care Record (SCR). To provide secure access to these systems Spine hosts an number of subsystems which are defined in the External Interface Specification (EIS). The FHIR services guidance is accessible at  Spine FHIR APIs.  There are also a number of supporting artefacts that needed for development to enable Spine access. The migration from Spine to Spine 2 has seen an uplift and renaming of some services, which is defined as the DIP (Digital Interoperability Platform). A representation of the DIP can be seen below:
 
-[2017-05-22 - DIP Diagram…](Spine.md)
+[2017-05-22 - DIP Diagram…](../../../.raw/DCSDCS/attachments/1391133543/att1391149316-2017-05-22 - DIP Diagram.pdf)
 
 There are two core patient information repositories Spine Clinicals and Spine Demographics, where a service sits is determined by the sensitivity of the data, currently
 
-## Spine Demographics host:
+## Spine Demographics host: {#Spine-SpineDemographicshost:}
 
 - Personal Demographics Service (PDS)
 - [Visitors and Migrants](https://nhsconnect.github.io/visitor-and-migrants/index.html)
 - [National Data Opt Outs](https://developer.nhs.uk/apis/optout/)
 
-## Spine Clinicals host
+## Spine Clinicals host {#Spine-SpineClinicalshost}
 
 - Summary Care Record (SCR)
 - Female Genital Mutilation Risk Indicator System - F[GM RIS](https://nhsconnect.github.io/fgm-risk-indication-service/)
 - Child Projection Information Service - [CP-IS](https://digital.nhs.uk/services/child-protection-information-sharing-project)
 - Flags - such as Reasonable Adjustments (in development)
 
-## Other Spine Services include:
+## Other Spine Services include: {#Spine-OtherSpineServicesinclude:}
 
 - Spine Directories - [ODS](https://digital.nhs.uk/services/organisation-data-service), [CIS](https://digital.nhs.uk/services/registration-authorities-and-smartcards/care-identity-service), [Pathways DOS](https://digital.nhs.uk/services/directory-of-services-dos). eRS Directory, Choices Directory, MESH endpoints
 - [National Events Management Service](https://developer.nhs.uk/apis/ems-beta/)
@@ -58,7 +58,7 @@ There are two core patient information repositories Spine Clinicals and Spine De
 - [API Gateway](https://developer.nhs.uk/apis/) which includes the functionality of the legacy Transaction and Messaging Service (TMS)
 - Message Handling System via [MHS Adaptor](https://digital.nhs.uk/developer/api-catalogue/mhs)
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#Spine-Compliance,AssuranceandTesting}
 
 Compliance and Assurance is carried out by the [Solution Assurance](https://digital.nhs.uk/services/solution-assurance) Team for access to each individual Spine Service. Local Systems accessing Spine services must meet the [Spine WES](https://digital.nhs.uk/services/spine/spine-technical-information-warranted-environment-specification-wes) and the minimum set of IG requirements defined by each service.
 
@@ -66,13 +66,13 @@ When developing healthcare applications, they can be tested by connecting them t
 
 The is supporting guidance for accessing [Spine FHIR APIs](https://developer.nhs.uk/apis/spine-core/) is currently in draft format and should be checked regularly for further additions
 
-### **Using MHS Adaptor**
+### **Using MHS Adaptor** {#Spine-UsingMHSAdaptor}
 
 MHS adapter has been developed and pre-assured by the Authority.
 
 More information on integrating can be found [here](https://digital.nhs.uk/developer/api-catalogue/mhs)
 
-# Documentation
+# Documentation {#Spine-Documentation}
 
 Additional supporting documentation:
 
@@ -84,7 +84,7 @@ Additional supporting documentation:
 - Organisation Data Service [ODS](https://digital.nhs.uk/services/organisation-data-service) and  codes can be accessed by the [ODS API Suite](https://directory.spineservices.nhs.uk/ODSAPISuite)
 - [Spine101.pdf](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133543/Spine101.pdf?version=1&modificationDate=1542296437605&cacheVersion=1&api=v2)
 
-### **Using MHS Adaptor**
+### **Using MHS Adaptor** {#Spine-UsingMHSAdaptor.1}
 
 It is recommended to read [GP software developer guide](https://digital.nhs.uk/developer/guides-and-documentation/developer-guides/gp-software-developer-guide) in conjunction with the adaptor documentation
 

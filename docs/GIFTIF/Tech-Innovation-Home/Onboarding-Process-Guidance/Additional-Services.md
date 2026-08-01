@@ -10,9 +10,9 @@ labels: []
 
 # Additional Services
 
-# Summary
+# Summary {#AdditionalServices-Summary}
 
-#### Living Documents
+#### Living Documents {#AdditionalServices-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -32,7 +32,7 @@ You should remove any information which is not accurate (e.g. if we have a recor
 
 1 copy of the Additional Services Form is required for each Additional Service.
 
-# What is an Additional Service?
+# What is an Additional Service? {#AdditionalServices-WhatisanAdditionalService?}
 
 As described in the Catalogue Onboarding Process ancillary document,
 
@@ -49,7 +49,7 @@ You do not have to offer Additional Services and Buyers cannot be required to pu
 
 For more information, see the Catalogue Onboarding Process ancillary document.
 
-# Outcomes
+# Outcomes {#AdditionalServices-Outcomes}
 
 At the end of the Additional Service registration activity you will have:
 
@@ -66,7 +66,7 @@ At the end of the Additional Service registration activity we will have:
 - a confirmed record of the Additional Services you wish to Onboard.
 - queried or approved the Capability and Epics you have selected for your Additional Service(s).
 
-# Selecting Capabilities and Epics for Additional Services
+# Selecting Capabilities and Epics for Additional Services {#AdditionalServices-SelectingCapabilitiesandEpicsforAdditionalServices}
 
 Your Additional Service(s) should offer new Capabilities over and above those offered by your Catalogue Solution. Capabilities selected for your Additional Service(s) are assessed through Capability Assessment in the same way as Capabilities selected for your Catalogue Solution.
 
@@ -74,9 +74,9 @@ The Capabilities and Epics you have selected for your Additional Service(s) will
 
 In exceptional circumstances, an Additional Service may offer a Capability already offered by your Catalogue Solution, only if the functionality is offered in a different way. Details will be requested before approval.
 
-# Completing Additional Services Registration
+# Completing Additional Services Registration {#AdditionalServices-CompletingAdditionalServicesRegistration}
 
-## Actions required of you
+## Actions required of you {#AdditionalServices-Actionsrequiredofyou}
 
 1. Read the “Instructions” tab on the Additional Services form.
 2. Check the pre-populated information already added to the Additional Services Form(s).
@@ -87,14 +87,14 @@ In exceptional circumstances, an Additional Service may offer a Capability alrea
 4. Complete new Additional Services Forms for any Additional Services of which we are not aware.
 5. Return to us all of your completed Additional Services Forms, along with your Solution Registration Form, to [buying.catalogue@nhs.net](mailto:buying.catalogue@nhs.net), copying in your Supplier Manager.
 
-## Actions required of us
+## Actions required of us {#AdditionalServices-Actionsrequiredofus}
 
 1. Populate your Additional Services Form(s) with information we already hold.
 2. Share your pre-populated Additional Services Form(s) with you for review and completion.
 3. Reviewed the Capabilities and Epics you have selected for your Additional Service(s) and queried or confirmed them.
 4. Reviewed your Additional Service(s) details and queried or confirmed them.
 
-# Additional Services Form
+# Additional Services Form {#AdditionalServices-AdditionalServicesForm}
 
 You will have been provided with a pre-populated Additional Services Form for each Additional Service you indicated in your tender application. If you intend to onboard Additional Services of which we are not aware please ask your Supplier Manager for a blank copy of the form.
 

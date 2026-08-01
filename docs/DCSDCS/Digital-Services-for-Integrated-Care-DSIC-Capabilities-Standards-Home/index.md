@@ -22,6 +22,6 @@ View [**Digital Services for Integrated Care (DSIC) Contracting Vehicles - Capab
 
 ---
 
-| Capabilities | Standards |
+| Capabilities {#DigitalServicesforIntegratedCare(DSIC)Capabilities&StandardsHome-Capabilities} | Standards {#DigitalServicesforIntegratedCare(DSIC)Capabilities&StandardsHome-Standards} |
 | --- | --- |
 |  |  |

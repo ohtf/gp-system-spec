@@ -10,9 +10,9 @@ labels: []
 
 # Capability Assessment
 
-# Summary
+# Summary {#CapabilityAssessment-Summary}
 
-#### Living Documents
+#### Living Documents {#CapabilityAssessment-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -30,14 +30,14 @@ You can only pass Capability Assessment by successfully passing each Epic you ha
 
 If, after a Capability Assessment, there are Epics or Acceptance Criteria which have not yet passed, you will be able to submit further evidence, either by video file or Live Witness Assessment, to meet the criteria. Alternatively, you can withdraw MAY Epics (which are optional) - any Epics you are not able to pass may be re-added at a later date.
 
-#### Recommendations
+#### Recommendations {#CapabilityAssessment-Recommendations}
 
 Each Capability has its own Capability Assessment and you may complete them in any order, however it is recommended that you:
 
 - complete your work toward the National Integration and Interoperability Standards, as there are Epics in the Foundation Capabilities which require certain integrations and you may not be able to fully evidence these Epics if these are not in place.
 - prioritise completing Capability Assessment for the six mandatory Foundation Capabilities, before any Capabilities which are not mandatory to the Tech Innovation Framework.
 
-# Outcomes
+# Outcomes {#CapabilityAssessment-Outcomes}
 
 At the end of the Capability Assessment you should have:
 
@@ -53,9 +53,9 @@ At the end of the Capability Assessment we will have:
 - delivered feedback and results for each Epic and Acceptance Criteria assessed
 - provided confirmation of each Capability which has passed.
 
-# Completing Capability Assessment
+# Completing Capability Assessment {#CapabilityAssessment-CompletingCapabilityAssessment}
 
-## Actions required of you
+## Actions required of you {#CapabilityAssessment-Actionsrequiredofyou}
 
 1. Inform your Supplier Manager that you wish to begin Capability Assessment for a given Capability.
 2. Confirm how you wish to provide evidence:
@@ -73,13 +73,13 @@ At the end of the Capability Assessment we will have:
    1. EITHER provide additional evidence for any Epics which have not yet passed.
    2. OR withdraw any Epics which have not yet passed.
 
-## Actions required of us
+## Actions required of us {#CapabilityAssessment-Actionsrequiredofus}
 
 1. Arrange your Capability Assessment based on your preferred method (either video files or a Live Witness Assessment).
 2. Record any Live Witness Assessment demonstrations (if applicable).
 3. Provide an outcome for your Capability Assessment, including feedback on any Epics and Acceptance Criteria which did not pass the Capability Assessment.
 
-# Preparing for Capability Assessments
+# Preparing for Capability Assessments {#CapabilityAssessment-PreparingforCapabilityAssessments}
 
 You should remember the following when preparing for a Capability Assessment:
 
@@ -96,7 +96,7 @@ You should remember the following when preparing for a Capability Assessment:
 - Any questions should be directed to your Supplier Manager. The Capability Assessment Team is not available for direct contact outside of an assessment.
 - There is no appeals process to the results, however you are always invited to provide additional evidence through reassessments, building on the feedback provided to you by the Capability Assessment Team.
 
-# Reassessments
+# Reassessments {#CapabilityAssessment-Reassessments}
 
 If not all of your selected Epics are passed during a Capability Assessment you can request a reassessment.
 
@@ -107,7 +107,7 @@ Please remember that:
 - you should demonstrate each Acceptance Criteria in full - the assessors should not be expected to remember previous evidence and will not look through to previous evidence to fill in any gaps.
 - the assessors are not guaranteed to be the same as in previous assessments.
 
-# Providing Evidence for Capability Assessments
+# Providing Evidence for Capability Assessments {#CapabilityAssessment-ProvidingEvidenceforCapabilityAssessments}
 
 You may provide evidence for your Capability Assessment either through a Live Witness Assessment or through video files uploaded to SharePoint.
 
@@ -119,7 +119,7 @@ You should make sure that you understand the [Structure of Capabilities](../Intr
 - **Supporting Information** is for guidance only and will not be assessed by the Capability Assessors.
 - **Additional Implementation Details** are assessed through the [Capability Risk Log](Capability-Risk-Logs.md).
 
-## Live Witness Assessments
+## Live Witness Assessments {#CapabilityAssessment-LiveWitnessAssessments}
 
 You may demonstrate your Solution through a Live Witness Assessment. These are done remotely via a video conference (Microsoft Teams) with the Capability Assessment Assessors.
 
@@ -131,13 +131,13 @@ We strongly advise that you do a practice run of your evidence before attending 
 
 The assessors will review the evidence and may ask questions. They will not provide or indicate an outcome during the session.
 
-## Video Assessments
+## Video Assessments {#CapabilityAssessment-VideoAssessments}
 
 You may demonstrate your Solution through pre-recorded video files which show your Solution meeting the Epics and Acceptance Criteria. These should be uploaded to your secure SharePoint location.
 
 The assessors will review the evidence and may send email questions, however it is your responsibility to provide all of the evidence required for the assessment.
 
-### Producing Video Files
+### Producing Video Files {#CapabilityAssessment-ProducingVideoFiles}
 
 You should bear in mind the following when providing video files for assessment:
 

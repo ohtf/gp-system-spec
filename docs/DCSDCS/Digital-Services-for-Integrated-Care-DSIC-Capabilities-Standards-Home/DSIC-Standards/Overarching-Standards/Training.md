@@ -25,7 +25,7 @@ labels: ["overarching_standard"]
 - [Additional Information](#Training-AdditionalInformation)
 - [Roadmap](#Training-Roadmap)
 
-# Introduction
+# Introduction {#Training-Introduction}
 
 Defines the training activities and collateral expected from Suppliers to support the buyers and users of their Solutions.
 
@@ -56,7 +56,7 @@ The Supplier shall:
 
 As part of the onboarding process, the Supplier will provide a Training Plan which describes their overall approach to training and will be maintained throughout the lifetime of the agreement.
 
-# Baseline Assurance Standard Requirements
+# Baseline Assurance Standard Requirements {#Training-BaselineAssuranceStandardRequirements}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md). Completing the BAS is the first step to achieving full assurance with the Overarching Standards allowing Supplier Solutions to be published on the Buying Catalogue. Upon meeting this Standard, Solutions are required to meet any remaining Further Requirements in the Overarching Standards in the timeframe applicable to the Contracting Vehicle.
 
@@ -90,7 +90,7 @@ When this has been agreed, Suppliers will respond with evidence to those require
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Pathways Solution Registry - Digital Primary Care | TR-12.3 | **Evaluation and Assessment - Authority Sample Surveys**  The Supplier will take action to remedy any issues identified from sample surveys on End User competency and satisfaction carried out by The Authority. | MUST | Yes | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Pathways Solution Registry - Digital Primary Care | TR-12.4 | **Evaluation and Assessment - Additional training and support**  The Supplier shall provide additional training and/or support where issues are identified through the evaluation and assessment process. For example, where negative feedback has been received, Go-Live has been delayed or the learners don't reach the required level of competency. | MUST | Yes | **Self-certification** | **Self-certification** | **Self-certification** |
 
-# Further Requirements
+# Further Requirements {#Training-FurtherRequirements}
 
 Suppliers must complete assurance for these Requirements in addition to Requirements in the Baseline Assurance Standard in order to achieve full compliance with the Training Standard. Suppliers can complete these at the same time as requirements within the Baseline Assurance Standard or following the publication on the Buying Catalogue subject to meeting the timeframe applicable to the Contracting Vehicle.
 
@@ -124,11 +124,11 @@ Suppliers must complete assurance for these Requirements in addition to Requirem
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | TR-14.1 | **Maintenance of Training Programme - Up to date materials and delivery**  The Supplier shall ensure all materials (including digital learning resources) and delivery are up to date and reflect the live version.  The Supplier will:   - Provide updated training materials, including digital learning, to The Authority/Local Organisation/End Users - Update their internal training documents - Carry out, as a minimum, an annual review of all deliverables to ensure they remain current and fit for purpose | MUST | Yes | **Self-certification** | **Self-certification** | **Self-certification** |
 | - GP IT Futures - Tech Innovation - DFOCVC - Digital Primary Care | TR-14.2 | **Maintenance of Training Programme - Upgrade training**  Upgrade training: The Supplier shall provide a deployment schedule of upcoming releases to The Authority and to Local Organisations.  The Supplier will:   - Provide a complete set of updated training materials - Upgrade the training environment to reflect the live system or Capability - Deliver upgrade training in advance of the system or Capability upgrade appropriate to the size of the upgrade - Alert Local Organisations/End Users to upgrades, to ensure they are aware of any changes and where training/materials can be sourced from | MUST | Yes | **Self-certification** | **Self-certification** | **Self-certification** |
 
-# Additional Information
+# Additional Information {#Training-AdditionalInformation}
 
 - [Training Impact Analysis](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391133846/GP%20IT%20Futures%20Training_Impact_Analysis_v1-0.docx?api=v2)
 
-# Roadmap
+# Roadmap {#Training-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

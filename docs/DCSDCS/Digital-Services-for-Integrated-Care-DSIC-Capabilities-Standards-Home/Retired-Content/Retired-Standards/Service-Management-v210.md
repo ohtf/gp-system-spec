@@ -19,7 +19,7 @@ labels: ["overarching_standard_retired"]
 | **Publication Date** | 16 Dec 2020 |
 | **Framework(s)** | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [DFOCVC](https://nhse-dsic.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://nhse-dsic.atlassian.net/wiki/spaces/CVPDR) - [Digital Pathways](https://nhse-dsic.atlassian.net/wiki/spaces/DPL) |
 
-# Description
+# Description {#ServiceManagement-v2.1.0-Description}
 
 Sets out the requirements on Suppliers with regard to the delivery and management of services that support and provide their Solutions.
 
@@ -28,7 +28,7 @@ This standard has two sections, one applicable to services provided via the GPIT
 - [GPIT Futures Lot 1 Framework](https://gpitbjss.atlassian.net/wiki/spaces/DCSDCS/pages/5340430337/Service+Management+v2.1.0#GPIT-Futures-Lot-1-Framework-requirements)
 - [Digital First Online Consultation & Video Consultation(DCOCVC) Framework and Digital Pathways Framework](https://gpitbjss.atlassian.net/wiki/spaces/DCSDCS/pages/5340430337/Service+Management+v2.1.0#Digital-First-Online-Consultation-%26-Video-Consultation(DCOCVC)-Framework-and-Digital-Pathways-Framework-requirements)
 
-# GPIT Futures Lot 1 Framework requirements
+# GPIT Futures Lot 1 Framework requirements {#ServiceManagement-v2.1.0-GPITFuturesLot1Frameworkrequirements}
 
 Service Management Standard comprises the following requirements:
 
@@ -39,7 +39,7 @@ With regard to performance management, remedies associated with poor performance
 - For Type 1 Catalogue Solutions: in schedule 2.5 (Performance Levels) of the GPITF Framework 1 Lot 1 Framework Agreement; and
 - For Type 2 Catalogue Solutions: in schedule 2.1 (Performance Levels) of the GPITF Framework 1 Lot 1 Call Off Agreement.
 
-## Requirements
+## Requirements {#ServiceManagement-v2.1.0-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -64,18 +64,18 @@ With regard to performance management, remedies associated with poor performance
 | **SM018** | The Supplier shall raise Problems for the root cause of all HSSIs and shall, unless otherwise agreed with the Service Management Agent acting reasonably, fix the Problem within 60 Working Days. | MUST | Type 1 only |
 | **SM019** | The Supplier shall, within 10 Working Days of the receipt of a request from the Service Management Agent, provide evidence to demonstrate that they are compliant with one or more of the obligations set out in this document. The Service Management Agent shall only issue such requests where a breach of the obligations set out in this document are reasonably suspected to have occurred. | MUST | Both |
 
-## Performance Regime Template For Type 2 Catalogue Solutions
+## Performance Regime Template For Type 2 Catalogue Solutions {#ServiceManagement-v2.1.0-PerformanceRegimeTemplateForType2CatalogueSolutions}
 
 - [Performance Regime Template for Type 2 Catalogue Solutions.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/5340430337/Performance%20Regime%20Template%20for%20Type%202%20Catalogue%20Solutions.docx?version=1&modificationDate=1607505858836&cacheVersion=1&api=v2)
 
-## Other Documents Referenced Within Components Of The Standard
+## Other Documents Referenced Within Components Of The Standard {#ServiceManagement-v2.1.0-OtherDocumentsReferencedWithinComponentsOfTheStandard}
 
 - [GPITF Balanced Scorecard](https://nhse-dsic.atlassian.net/wiki/download/attachments/5340430337/GPITF%20Balanced%20Scorecard%20v2.0.1%20200226.xlsx?version=1&modificationDate=1607505859195&cacheVersion=1&api=v2) – referenced in document “GPITF Type 1 Catalogue Solution Service Levels”.
 - [HSSI Report Template](https://nhse-dsic.atlassian.net/wiki/download/attachments/5340430337/HSSI%20Report%20Template.docx?version=1&modificationDate=1607505857323&cacheVersion=1&api=v2) – referenced in document “GPITF Framework 1 – Incident Management Related Obligations”.
 
 ---
 
-# Digital First Online Consultation & Video Consultation(DCOCVC) Framework and Digital Pathways Framework requirements
+# Digital First Online Consultation & Video Consultation(DCOCVC) Framework and Digital Pathways Framework requirements {#ServiceManagement-v2.1.0-DigitalFirstOnlineConsultation&VideoConsultation(DCOCVC)FrameworkandDigitalPathwaysFrameworkrequirements}
 
 The Service Management Standard for the DFOCVC Framework and Digital Pathways Framework comprises the requirements set out in the table below.
 
@@ -86,7 +86,7 @@ Readers should note that:
 - The Digital First Online Consultation & Video Consultation Framework and Digital Pathways Framework Call Off Agreement sets out the performance management provisions (i.e. remedies associated with poor performance and, where applicable, Service Credits).
 - For each Call Off Agreement, the Service Management Agent shall be the Call Off Ordering Party unless the Call Off Ordering Party nominates another party to fulfil that function on its behalf.
 
-## Requirements
+## Requirements {#ServiceManagement-v2.1.0-Requirements.1}
 
 | **Requirement ID** | **Requirement description** | **Level** |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ Readers should note that:
 | **DFOCVC-SM018** | The Supplier shall raise Problems for the root cause of all HSSIs and shall, unless otherwise agreed with the Catalogue Authority acting reasonably, fix such Problems within 60 Working Days. | MUST |
 | **SM019** | The Supplier shall, within 10 Working Days of the receipt of a request from the Service Management Agent, provide evidence to demonstrate that they are compliant with one or more of the obligations set out in this document. The Service Management Agent shall only issue such requests where a breach of the obligations set out in this document are reasonably suspected to have occurred. | MUST |
 
-## Other Documents Referenced Within Components Of The Standard
+## Other Documents Referenced Within Components Of The Standard {#ServiceManagement-v2.1.0-OtherDocumentsReferencedWithinComponentsOfTheStandard.1}
 
 HSSI Report Template – referenced in document “DFOCVC – Incident Management Related Obligations”
 
@@ -113,13 +113,13 @@ HSSI Report Template – referenced in document “DFOCVC – Incident Managemen
 
 [HSSI Report Template.docx](https://nhse-dsic.atlassian.net/wiki/download/attachments/5340430337/HSSI%20Report%20Template.docx?version=1&modificationDate=1607505857323&cacheVersion=1&api=v2)
 
-# Capabilities
+# Capabilities {#ServiceManagement-v2.1.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#ServiceManagement-v2.1.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

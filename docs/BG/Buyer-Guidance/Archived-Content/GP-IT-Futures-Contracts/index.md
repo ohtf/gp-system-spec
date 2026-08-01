@@ -22,12 +22,12 @@ These documents are available in the zip files attached in the table below.
 
 | **Document Set** | **Files** |
 | --- | --- |
-| GP IT Futures Framework Agreement Lot 1 | [GP IT Futures Framework …](index.md) |
-| Call off order form (schedule 2.3 of the Framework agreement) | [2.3 GP IT Futures Lot 1 …](index.md) |
-| Catalogue Agreement | [DCS\_CA\_Terms\_&\_Schedules…](index.md) |
-| GPITF Call Off Agreement | [04. GPITF Lot 1 Call Off…](index.md) |
-| Data Processing Deed | [02. Data Processing Deed…](index.md) |
-| Ancillary Documents | [00. Ancillary Documents …](index.md) |
+| GP IT Futures Framework Agreement Lot 1 | [GP IT Futures Framework …](../../../../.raw/BG/attachments/1933575165/att10866163940-GP IT Futures Framework Lot 1 (10th Dec 2020).zip) |
+| Call off order form (schedule 2.3 of the Framework agreement) | [2.3 GP IT Futures Lot 1 …](../../../../.raw/BG/attachments/1933575165/att10864918680-2.3 GP IT Futures Lot 1 - Framework Schedule 2.3 - (Call Off Order Form) (104273186.2).docx) |
+| Catalogue Agreement | [DCS\_CA\_Terms\_&\_Schedules…](../../../../.raw/BG/attachments/1933575165/att11794939931-DCS_CA_Terms_&_Schedules_28_09_2021.zip) |
+| GPITF Call Off Agreement | [04. GPITF Lot 1 Call Off…](../../../../.raw/BG/attachments/1933575165/att2627764259-04. GPITF Lot 1 Call Off.zip) |
+| Data Processing Deed | [02. Data Processing Deed…](../../../../.raw/BG/attachments/1933575165/att2627665987-02. Data Processing Deed.zip) |
+| Ancillary Documents | [00. Ancillary Documents …](../../../../.raw/BG/attachments/1933575165/att11730190359-00. Ancillary Documents (1).zip) |
 
 Of particular interest to buyers is the Call Off Order Form which is provided via the GP IT Futures Framework Lot 1 Agreement link above in file “GP IT Futures Lot 1 - Framework Schedule 2.3 (Call Off Order Form)”. In order to enter into a contract buyers only need to complete the Call Off Order Form as the Call Off Terms are static. The Call Off Order Form includes guidance on which sections are to be completed by you as the buyer and by the relevant supplier. In summary, the Call Off Order Form includes:
 

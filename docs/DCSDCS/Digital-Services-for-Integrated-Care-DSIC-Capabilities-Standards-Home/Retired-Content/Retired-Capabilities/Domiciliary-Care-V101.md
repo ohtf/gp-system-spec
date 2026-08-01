@@ -21,13 +21,13 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#DomiciliaryCareV1.0.1-Description}
 
 A Domiciliary Care Capability enables Service Providers to effectively plan and manage Domiciliary Care services offered to Service Users. The Capability will allow for Domiciliary Care schedules to be produced that meet the needs of Service Users, efficiently roster staff and that allow Care Workers to manage their Appointments with Service Users.
 
 The Domiciliary Care Capability may also allow Service Users and nominated individuals to view their Domiciliary Care schedule, allow remote access to Domiciliary Care schedules for Care Workers and for Domiciliary Care Organisations run reports on their Domiciliary Care data.
 
-# Outcomes
+# Outcomes {#DomiciliaryCareV1.0.1-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -37,7 +37,7 @@ The Domiciliary Care Capability may also allow Service Users and nominated indiv
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### C27E1 - maintain Domiciliary Care schedules
+### C27E1 - maintain Domiciliary Care schedules {#DomiciliaryCareV1.0.1-C27E1-maintainDomiciliaryCareschedules}
 
 As a Domiciliary Care Organisation
 
@@ -45,7 +45,7 @@ I want to maintain Domiciliary Care schedules for Service User visits by Care W
 
 So that Service Users Appointments and care are planned
 
-#### Acceptance criterion 1: create Domiciliary Care schedule
+#### Acceptance criterion 1: create Domiciliary Care schedule {#DomiciliaryCareV1.0.1-Acceptancecriterion1:createDomiciliaryCareschedule}
 
 Given that the user is permitted to maintain Domiciliary Care schedules
 
@@ -55,7 +55,7 @@ When the user chooses to create a Domiciliary Care schedule for Care Workers
 
 Then the Domiciliary Care schedule is created
 
-#### Acceptance criterion 2: view Domiciliary Care schedule
+#### Acceptance criterion 2: view Domiciliary Care schedule {#DomiciliaryCareV1.0.1-Acceptancecriterion2:viewDomiciliaryCareschedule}
 
 Given that the user is permitted to maintain Domiciliary Care schedules
 
@@ -65,7 +65,7 @@ When the user chooses to view a Domiciliary Care schedule for Care Workers
 
 Then the Domiciliary Care schedule is displayed
 
-#### Acceptance criterion 3: amend Domiciliary Care schedule
+#### Acceptance criterion 3: amend Domiciliary Care schedule {#DomiciliaryCareV1.0.1-Acceptancecriterion3:amendDomiciliaryCareschedule}
 
 Given that the user is permitted to maintain Domiciliary Care schedules
 
@@ -75,7 +75,7 @@ When the user chooses to amend a Domiciliary Care schedule for Care Workers
 
 Then the Domiciliary Care schedule is amended
 
-#### Acceptance criterion 4: delete Domiciliary Care schedule
+#### Acceptance criterion 4: delete Domiciliary Care schedule {#DomiciliaryCareV1.0.1-Acceptancecriterion4:deleteDomiciliaryCareschedule}
 
 Given that the user is permitted to maintain Domiciliary Care schedules
 
@@ -85,7 +85,7 @@ When the user chooses to delete a Domiciliary Care schedule for Care Workers
 
 Then the Domiciliary Care schedule is deleted
 
-#### Acceptance criterion 5: notification of Domiciliary Care schedule changes
+#### Acceptance criterion 5: notification of Domiciliary Care schedule changes {#DomiciliaryCareV1.0.1-Acceptancecriterion5:notificationofDomiciliaryCareschedulechanges}
 
 Given that the Domiciliary Care schedule has been created
 
@@ -95,7 +95,7 @@ Then the Care Worker is notified
 
 ---
 
-### C27E2 - share Domiciliary Care schedules
+### C27E2 - share Domiciliary Care schedules {#DomiciliaryCareV1.0.1-C27E2-shareDomiciliaryCareschedules}
 
 As a Workforce Manager
 
@@ -103,7 +103,7 @@ I want to share Domiciliary Care schedules
 
 So that I can communicate Domiciliary Care schedules to Staff Members
 
-#### Acceptance criterion 1: share Domiciliary Care schedules
+#### Acceptance criterion 1: share Domiciliary Care schedules {#DomiciliaryCareV1.0.1-Acceptancecriterion1:shareDomiciliaryCareschedules}
 
 Given that the Domiciliary Care schedule has been created
 
@@ -113,7 +113,7 @@ Then the Domiciliary Care schedule is shared with Staff Members
 
 ---
 
-### C27E3 - manage Appointments
+### C27E3 - manage Appointments  {#DomiciliaryCareV1.0.1-C27E3-manageAppointments}
 
 As a Care Worker
 
@@ -121,7 +121,7 @@ I want to manage Appointments for Service User visits
 
 So that Service Users Appointments are planned and updated
 
-#### Acceptance criterion 1: view Appointments
+#### Acceptance criterion 1: view Appointments {#DomiciliaryCareV1.0.1-Acceptancecriterion1:viewAppointments}
 
 Given that the Care Worker is permitted to view Appointments
 
@@ -129,7 +129,7 @@ When the Care Worker chooses to view Appointments in their Domiciliary Care sch
 
 Then the Appointments in their Domiciliary Care schedule are displayed
 
-#### Acceptance criterion 2: record Appointment details
+#### Acceptance criterion 2: record Appointment details {#DomiciliaryCareV1.0.1-Acceptancecriterion2:recordAppointmentdetails}
 
 Given that the Care Worker is permitted to record Appointment details
 
@@ -139,7 +139,7 @@ Then the Appointment information is updated
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### C27E4 - Service User manages their schedule for Domiciliary Care
+### C27E4 - Service User manages their schedule for Domiciliary Care {#DomiciliaryCareV1.0.1-C27E4-ServiceUsermanagestheirscheduleforDomiciliaryCare}
 
 As a Service User
 
@@ -147,7 +147,7 @@ I want to manage my Domiciliary Care schedule (including Appointment details)
 
 So that I can view my Domiciliary Care schedule and inform staff of any changes
 
-#### Acceptance criterion 1: Service User views Domiciliary Care schedule
+#### Acceptance criterion 1: Service User views Domiciliary Care schedule {#DomiciliaryCareV1.0.1-Acceptancecriterion1:ServiceUserviewsDomiciliaryCareschedule}
 
 Given that the Service User can view the Domiciliary Care schedule
 
@@ -155,7 +155,7 @@ When they choose to view their Domiciliary Care schedule
 
 Then their Domiciliary Care schedule is displayed
 
-#### Acceptance criterion 2: Service User informs Care Workers of changes
+#### Acceptance criterion 2: Service User informs Care Workers of changes {#DomiciliaryCareV1.0.1-Acceptancecriterion2:ServiceUserinformsCareWorkersofchanges}
 
 Given that the Service User is permitted to inform Care Workers of changes
 
@@ -167,7 +167,7 @@ Then the Care Workers are informed of changes in circumstances
 
 ---
 
-### C27E5 - manage Care Plans for Service Users
+### C27E5 - manage Care Plans for Service Users {#DomiciliaryCareV1.0.1-C27E5-manageCarePlansforServiceUsers}
 
 As a Care Worker
 
@@ -175,7 +175,7 @@ I want to manage Care Plans for Service Users
 
 So that I can ensure the Service User's Care Plan continues to reflect their needs
 
-#### Acceptance criterion 1: Care Worker creates a Domiciliary Care Plan for the Service User
+#### Acceptance criterion 1: Care Worker creates a Domiciliary Care Plan for the Service User {#DomiciliaryCareV1.0.1-Acceptancecriterion1:CareWorkercreatesaDomiciliaryCarePlanfortheServiceUser}
 
 Given that the Care Worker has assessed the Domiciliary Care needs of the Service User
 
@@ -183,7 +183,7 @@ When they decide to create a Domiciliary Care Plan for the Service User
 
 Then they can create the Domiciliary Care Plan
 
-#### Acceptance criterion 2: Care Worker reviews Care Plan
+#### Acceptance criterion 2: Care Worker reviews Care Plan {#DomiciliaryCareV1.0.1-Acceptancecriterion2:CareWorkerreviewsCarePlan}
 
 Given that a Care Plan has been created for a Service User
 
@@ -193,7 +193,7 @@ Then the Care Worker can record review details
 
  And the Care Worker can update the Care Plan details
 
-#### Acceptance criterion 3: Care Worker closes the Care Plan
+#### Acceptance criterion 3: Care Worker closes the Care Plan {#DomiciliaryCareV1.0.1-Acceptancecriterion3:CareWorkerclosestheCarePlan}
 
 Given that a Care Plan has been created for a Service User
 
@@ -201,7 +201,7 @@ When it is decided that the Service User no longer needs Domiciliary Care servi
 
 Then the Care Plan can be closed or made inactive
 
-#### Acceptance criterion 4: Care Worker shares the Service User's Domiciliary Care Plan with other Service Providers
+#### Acceptance criterion 4: Care Worker shares the Service User's Domiciliary Care Plan with other Service Providers {#DomiciliaryCareV1.0.1-Acceptancecriterion4:CareWorkersharestheServiceUser'sDomiciliaryCarePlanwithotherServiceProviders}
 
 Given that a Care Plan has been created for a Service User
 
@@ -211,7 +211,7 @@ Then the Care Worker can share the Care Plan with other Service Providers
 
 ---
 
-### C27E6 - remote access to Domiciliary Care schedule
+### C27E6 - remote access to Domiciliary Care schedule {#DomiciliaryCareV1.0.1-C27E6-remoteaccesstoDomiciliaryCareschedule}
 
 As a Care Worker
 
@@ -219,7 +219,7 @@ I want to access Domiciliary Care schedules remotely
 
 So that I can view and amend them anytime
 
-#### Acceptance criterion 1: view Domiciliary Care schedule remotely
+#### Acceptance criterion 1: view Domiciliary Care schedule remotely {#DomiciliaryCareV1.0.1-Acceptancecriterion1:viewDomiciliaryCarescheduleremotely}
 
 Given that the user is permitted to maintain Domiciliary Care schedules
 
@@ -229,7 +229,7 @@ When the user chooses to view a Domiciliary Care schedule remotely
 
 Then the Domiciliary Care schedule is displayed
 
-#### Acceptance criterion 2: amend Domiciliary Care schedules remotely
+#### Acceptance criterion 2: amend Domiciliary Care schedules remotely {#DomiciliaryCareV1.0.1-Acceptancecriterion2:amendDomiciliaryCareschedulesremotely}
 
 Given that the user is permitted to maintain Domiciliary Care schedules
 
@@ -241,7 +241,7 @@ Then the Domiciliary Care schedule is amended
 
 ---
 
-### C27E7 - receive notifications relating to Service User
+### C27E7 - receive notifications relating to Service User {#DomiciliaryCareV1.0.1-C27E7-receivenotificationsrelatingtoServiceUser}
 
 As a Domiciliary Care Organisation
 
@@ -249,7 +249,7 @@ I want to be informed about changes that will affect a Service User's need for 
 
 So that I can make informed decisions about starting, modifying, suspending or re-instating their Domiciliary Care package
 
-#### Acceptance criterion 1: Domiciliary Care Organisation is notified about change in Service User's needs
+#### Acceptance criterion 1: Domiciliary Care Organisation is notified about change in Service User's needs {#DomiciliaryCareV1.0.1-Acceptancecriterion1:DomiciliaryCareOrganisationisnotifiedaboutchangeinServiceUser'sneeds}
 
 Given that Health or Care Professionals can send notifications in relation to a Service User
 
@@ -259,7 +259,7 @@ Then the Domiciliary Care Organisation is notified
 
 ---
 
-### C27E8 - reports
+### C27E8 - reports {#DomiciliaryCareV1.0.1-C27E8-reports}
 
 As a Domiciliary Care Organisation
 
@@ -267,7 +267,7 @@ I Want to run reports
 
 So that I can get key insights into my business (e.g. staff mileage, time spent with Service Users)
 
-#### Acceptance criterion 1: run reports
+#### Acceptance criterion 1: run reports {#DomiciliaryCareV1.0.1-Acceptancecriterion1:runreports}
 
 Given the user is permitted to run reports
 
@@ -277,7 +277,7 @@ Then the report is displayed
 
 ---
 
-### C27E9 - nominated individuals to view Domiciliary Care schedule
+### C27E9 - nominated individuals to view Domiciliary Care schedule  {#DomiciliaryCareV1.0.1-C27E9-nominatedindividualstoviewDomiciliaryCareschedule}
 
 As a Service User's nominated individual (e.g. proxy)
 
@@ -285,7 +285,7 @@ I want to be able to view Domiciliary Care information for the Service User
 
 So that I have visibility of their Domiciliary Care Plan
 
-#### Acceptance criterion 1: nominated individual views Domiciliary Care schedule information
+#### Acceptance criterion 1: nominated individual views Domiciliary Care schedule information {#DomiciliaryCareV1.0.1-Acceptancecriterion1:nominatedindividualviewsDomiciliaryCarescheduleinformation}
 
 Given that the nominated individual is permitted to view Domiciliary Care schedule information relating to the Service User
 

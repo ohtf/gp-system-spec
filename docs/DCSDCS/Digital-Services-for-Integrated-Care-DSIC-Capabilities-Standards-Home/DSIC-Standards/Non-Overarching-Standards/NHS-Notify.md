@@ -28,45 +28,45 @@ labels: ["standard"]
 - [Dependencies](#NHSNotify-Dependencies)
 - [Roadmap](#NHSNotify-Roadmap)
 
-# Introduction
+# Introduction {#NHSNotify-Introduction}
 
 Integration with NHS Notify allows organisations and services to send NHS App messages, emails, texts and letters to Patients, the public and recipients of adult social care.
 
 See [NHS Notify](https://notify.nhs.uk/) for further information.
 
-# Requirements
+# Requirements {#NHSNotify-Requirements}
 
 To implement the NHS Notify requirements, you can either use NHS Notify API or NHS Notify MESH. To determine which method of integration is the most appropriate for your Solution, please refer to the ‘Who can use this API’ section in [NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) and the ‘Who can use this integration’ section in [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh).
 
-## Using NHS Notify API
+## Using NHS Notify API {#NHSNotify-UsingNHSNotifyAPI}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | All Suppliers | NN01 | Implement and maintain the [NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) in line with the latest specification version. | MUST |
 
-## Using NHS Notify MESH
+## Using NHS Notify MESH {#NHSNotify-UsingNHSNotifyMESH}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | All Suppliers | NN02 | Implement and maintain the [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh) integration in line with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#NHSNotify-Compliance,AssuranceandTesting}
 
 See the NHS Notify section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#NHSNotify-Documentation}
 
 - [Onboard with NHS Notify](https://notify.nhs.uk/get-started/onboard-with-nhs-notify)
 
-# Dependencies
+# Dependencies {#NHSNotify-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md) - For Suppliers of Solutions who use Messaging Exchange for Social Care and Health (MESH) to integrate with NHS Notify
 
-# Roadmap
+# Roadmap {#NHSNotify-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

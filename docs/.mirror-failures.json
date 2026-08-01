@@ -96,6 +96,36 @@
       "message": "GPITF/1391135385 attachment kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx: 404 from Confluence download endpoint",
       "status": "resolved",
       "resolution": "Recovered via legacy /download/attachments fallback: att1391150441-kumu-gpitfutures-gp-it-futures-capability-map_2018_10-30.xlsx (105302 bytes)"
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1483309062 attachment Catalogue On-Boarding Demonstration.mp4: not downloaded (95.0 MB)",
+      "status": "deferred",
+      "resolution": "Webinar recording, status=current and retrievable. Deferred pending a storage decision: the five videos total ~505 MB and two individually exceed GitHub's 100 MB per-file hard limit, so they cannot be committed to a normal GitHub repository. Re-run `--space GPITF` after clearing this page from the manifest to fetch them once a destination is chosen."
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1483309062 attachment CATALOGUE ON-BOARDING WEBINAR VIDEO - 05 June 2019 15.31.46.mp4: not downloaded (142.1 MB)",
+      "status": "deferred",
+      "resolution": "Webinar recording, status=current and retrievable. Deferred pending a storage decision: the five videos total ~505 MB and two individually exceed GitHub's 100 MB per-file hard limit, so they cannot be committed to a normal GitHub repository. Re-run `--space GPITF` after clearing this page from the manifest to fetch them once a destination is chosen."
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1483309062 attachment PROCUREMENT OVERVIEW WEBINAR - 07 June 2019 10.33.04.mp4: not downloaded (75.1 MB)",
+      "status": "deferred",
+      "resolution": "Webinar recording, status=current and retrievable. Deferred pending a storage decision: the five videos total ~505 MB and two individually exceed GitHub's 100 MB per-file hard limit, so they cannot be committed to a normal GitHub repository. Re-run `--space GPITF` after clearing this page from the manifest to fetch them once a destination is chosen."
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1483309062 attachment GP IT Futures Compiling your Tender - 13 June.mp4: not downloaded (53.0 MB)",
+      "status": "deferred",
+      "resolution": "Webinar recording, status=current and retrievable. Deferred pending a storage decision: the five videos total ~505 MB and two individually exceed GitHub's 100 MB per-file hard limit, so they cannot be committed to a normal GitHub repository. Re-run `--space GPITF` after clearing this page from the manifest to fetch them once a destination is chosen."
+    },
+    {
+      "kind": "attachment",
+      "message": "GPITF/1483309062 attachment GP IT Futures Hosting and Infrastructure Standards Webinar.mp4: not downloaded (117.0 MB)",
+      "status": "deferred",
+      "resolution": "Webinar recording, status=current and retrievable. Deferred pending a storage decision: the five videos total ~505 MB and two individually exceed GitHub's 100 MB per-file hard limit, so they cannot be committed to a normal GitHub repository. Re-run `--space GPITF` after clearing this page from the manifest to fetch them once a destination is chosen."
     }
   ]
 }

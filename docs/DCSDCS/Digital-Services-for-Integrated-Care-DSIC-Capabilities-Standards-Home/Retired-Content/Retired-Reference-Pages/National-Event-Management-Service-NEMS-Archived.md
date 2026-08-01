@@ -16,7 +16,7 @@ labels: ["retired_reference_page"]
 | Version | 1.0.1 |
 | Type | Reference |
 
-# Summary
+# Summary {#NationalEventManagementService(NEMS)(Archived)-Summary}
 
 A decision was made to develop the Event Management Service (EMS) which will implement the publish/subscribe pattern to support the sharing of data across multiple health care settings. Initially, use cases around Child Health Services will pilot the service.
 
@@ -32,7 +32,7 @@ It is not the responsibility of the EMS to dictate how subscribers should proces
 
 Specific use cases from Digital Child Health and Digital Maternity will require GP systems to integrate with the NEMS.
 
-# Documentation
+# Documentation {#NationalEventManagementService(NEMS)(Archived)-Documentation}
 
 EMS API specification site on NHS Developer Network
 

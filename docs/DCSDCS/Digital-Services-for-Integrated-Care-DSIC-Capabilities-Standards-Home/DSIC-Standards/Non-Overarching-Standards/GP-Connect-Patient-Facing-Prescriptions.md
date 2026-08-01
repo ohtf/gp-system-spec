@@ -26,32 +26,32 @@ labels: ["standard"]
 - [Dependencies](#GPConnect(PatientFacing)Prescriptions-Dependencies)
 - [Roadmap](#GPConnect(PatientFacing)Prescriptions-Roadmap)
 
-# Introduction
+# Introduction {#GPConnect(PatientFacing)Prescriptions-Introduction}
 
 The GP Connect (Patient Facing) Prescriptions - FHIR API is used to enable Patients to view all their current medication and manage requests for a new instance of a Repeat Prescription using a Patient facing Solution.
 
-# Requirements
+# Requirements {#GPConnect(PatientFacing)Prescriptions-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
 | Provider | GPCPFP01 | Implement and maintain the [GP Connect (Patient Facing) Prescriptions - FHIR API](https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-prescriptions-fhir) Provider requirements inline with the latest specification version. | MUST |
 | Consumer | GPCPFP02 | Implement and maintain the [GP Connect (Patient Facing) Prescriptions - FHIR API](https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-prescriptions-fhir) Consumer requirements inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnect(PatientFacing)Prescriptions-Compliance,AssuranceandTesting}
 
 See the GP Connect (Patient Facing) Prescriptions section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#GPConnect(PatientFacing)Prescriptions-Documentation}
 
 - [GP Connect (Patient Facing) Prescriptions Implementation Guide](https://simplifier.net/guide/gp-connect--patient-facing-services--prescriptions?version=0.1.0-private-beta)
 
-# Dependencies
+# Dependencies {#GPConnect(PatientFacing)Prescriptions-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [NHS login service](NHS-login-service.md)
 
-# Roadmap
+# Roadmap {#GPConnect(PatientFacing)Prescriptions-Roadmap}
 
 | Roadmap Item | Standards and Capabilities | Status | Effective Date | Description | Change Type | Change Route |
 | --- | --- | --- | --- | --- | --- | --- |

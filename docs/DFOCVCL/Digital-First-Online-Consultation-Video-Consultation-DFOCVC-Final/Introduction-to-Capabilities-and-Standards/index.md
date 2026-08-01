@@ -10,7 +10,7 @@ labels: []
 
 # Introduction to Capabilities and Standards
 
-## What are Capabilities?
+## What are Capabilities? {#IntroductiontoCapabilitiesandStandards-WhatareCapabilities?}
 
 The requirements to deliver Online and Video Consultation Solutions are grouped into Capabilities. Each Capability describes the business need at the highest level. For example, 'Video Consultations' describes the need for staff to be able to conduct secure live remote video Consultations with individual, or groups of Patients/Service Users/Proxies.
 
@@ -21,7 +21,7 @@ Capabilities will be used by:
 - Suppliers to categorise their products and to see market opportunities
 - Buyers to search for products that meet their needs
 
-## What are Epics and Acceptance Criteria?
+## What are Epics and Acceptance Criteria? {#IntroductiontoCapabilitiesandStandards-WhatareEpicsandAcceptanceCriteria?}
 
 Epics are individual high level business requirements and describe features relevant to the Capabilities they belong to. All Epics together define the full scope of a Capability.
 
@@ -29,17 +29,17 @@ The Acceptance Criteria associated with an Epic define the minimum expected func
 
 Epics are classified as either Must or May Epics and all Epics will be assessed during the Capability Assessment stage of Onboarding.
 
-### Must Epics
+### Must Epics {#IntroductiontoCapabilitiesandStandards-MustEpics}
 
 Must Epics are used to confirm during Capability Assessment stage of Onboarding that a Solution delivers a Capability at the highest level. A Supplier Solution needs to meet all Must Epics in order to Pass Capability Assessment for a Capability.
 
-### May Epics
+### May Epics {#IntroductiontoCapabilitiesandStandards-MayEpics}
 
 All May Epics will be evaluated during the Capability Assessment Stage of On-boarding. These Epics are not mandatory, however they allow Suppliers to specify which features their Solution offers. Any May Epics that are assessed as met will be available to buyers to support them when comparing Solutions.
 
 Each Epic has a unique identifier which allows for the identification of Epics in a consistent manner, e.g. ‘E00001’.
 
-## What are Standards?
+## What are Standards? {#IntroductiontoCapabilitiesandStandards-WhatareStandards?}
 
 Standards describe the technical or operating conditions required to achieve Catalogue Compliance.
 
@@ -50,7 +50,7 @@ Standards will be used by:
 - NHS Digital Solution Assurance to assess Supplier Solutions against in order to award compliance
 - Buyers to assess various Suppliers against each other (levels of compliance) for competitive procurements.
 
-## Capabilities and Standards Model
+## Capabilities and Standards Model {#IntroductiontoCapabilitiesandStandards-CapabilitiesandStandardsModel}
 
 The Capabilities and Standards are structured in the model below.
 
@@ -62,7 +62,7 @@ The Capabilities and Standards are structured in the model below.
 
 See [Capability and Standards Structure](Capability-and-Standards-Structure.md) page for more detail on the structure and content of Capabilities and Standards
 
-## Do I have to build a solution that delivers all Capabilities?
+## Do I have to build a solution that delivers all Capabilities? {#IntroductiontoCapabilitiesandStandards-DoIhavetobuildasolutionthatdeliversallCapabilities?}
 
 Suppliers do not have to provide a Solution that delivers all Capabilities and are free to design and build Solutions that meet one or more of the Capabilities. By looking at the Capabilities, Suppliers can see where their product portfolio fits, either by making tweaks to existing Solutions where required or building new Solutions to expand the Capabilities that they provide for.
 

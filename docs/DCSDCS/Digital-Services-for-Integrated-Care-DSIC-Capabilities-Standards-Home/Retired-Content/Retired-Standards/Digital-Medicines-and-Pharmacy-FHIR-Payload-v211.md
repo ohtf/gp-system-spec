@@ -12,12 +12,12 @@ labels: ["standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S77 |
-| Version | 2.1.1 |
-| Type | Standard |
-| Status | Retired |
-| Effective Date | 22 Jul 2024 |
-| Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
+| ID {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-ID} | S77 |
+| Version {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Version} | 2.1.1 |
+| Type {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Type} | Standard |
+| Status {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Status} | Retired |
+| Effective Date {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-EffectiveDate} | 22 Jul 2024 |
+| Contracting Vehicle(s) {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-ContractingVehicle(s)} | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
 - [Introduction](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Introduction)
 - [Requirements](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Requirements)
@@ -26,20 +26,20 @@ labels: ["standard_retired"]
 - [Dependencies](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Dependencies)
 - [Roadmap](#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Roadmap)
 
-# Introduction
+# Introduction {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Introduction}
 
 The Digital Medicines initiative aims to positively transform the way that Patients manage their medicines, promote new models of care as well as improve the medicines supply chain and the provision of medicines data. At a high-level, this all involves the adoption of digital prescriptions to replace inefficient and cumbersome paper versions, utilising appropriate technologies to fully engage in the end-to-end Patient pathway, alongside supporting the adoption of technology to deliver a fully digitised medicines supply chain.
 
 The Digital Medicines Specification utilises the Generic FHIR Receiver and supports the following requirements as part of its MVP.
 
-# Requirements
+# Requirements {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Requirements}
 
-| ID | Requirement | Level |
+| ID {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-ID.1} | Requirement {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Requirement} | Level {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Level} |
 | --- | --- | --- |
-| DMPF1 | **Pharmacy Immunisation Administration**  A FHIR Document used to notify a Patient’s registered GP Practice on the administration of immunisations to a Patient at a Pharmacy. | MUST |
-| DMPF2 | **Pharmacy Emergency Medication Supply**  A FHIR Document used to notify a Patient’s registered GP Practice of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
+| DMPF1 {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-DMPF1} | **Pharmacy Immunisation Administration**  A FHIR Document used to notify a Patient’s registered GP Practice on the administration of immunisations to a Patient at a Pharmacy. | MUST |
+| DMPF2 {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-DMPF2} | **Pharmacy Emergency Medication Supply**  A FHIR Document used to notify a Patient’s registered GP Practice of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Compliance,AssuranceandTesting}
 
 The understanding that clinical risk and assurance responsibilities are formally acknowledged by System Suppliers and based on the knowledge that appropriate functional assurance will be performed by the Solutions Assurance team which is crucial to mitigating many of the clinical risks identified, the following clinical assurance approach is recommended:
 
@@ -56,19 +56,19 @@ The understanding that clinical risk and assurance responsibilities are formally
 
 The focus of the witness testing will be on the user workflow ensuring the positive and negative messages are prominent to the user and to provide a “sense check” of the PDF transformation of the message received by the GP System.
 
-# Documentation
+# Documentation {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Documentation}
 
 - The latest version of Digital Medicines specifications can be accessed here: Digital Medicine - FHIR (reference links: API and Integration Catalogue).
 - The first stage of the Standard is now published and details the information that should be recorded for vaccinations administered and emergency medicines supplied by Community Pharmacists.
 - The MVP states that Suppliers are expected to process the unstructured messages upon entry to the Contracting Vehicle in order to compliantly implement any use cases. However, there will be a future requirement for Suppliers to further enhance their Solutions to ensure the messages are processed in a structured format.
 
-# Dependencies
+# Dependencies {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - Generic FHIR Receiver
 
-# Roadmap
+# Roadmap {#DigitalMedicinesandPharmacyFHIRPayloadv2.1.1-Roadmap}
 
 | **Items on the Roadmap which impact or relate to this Standard** |
 | --- |

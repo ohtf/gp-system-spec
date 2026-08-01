@@ -25,7 +25,7 @@ labels: ["standard"]
 - [Dependencies](#PrimaryCareClinicalTerminologyUsageReport-Dependencies)
 - [Roadmap](#PrimaryCareClinicalTerminologyUsageReport-Roadmap)
 
-# Introduction
+# Introduction {#PrimaryCareClinicalTerminologyUsageReport-Introduction}
 
 The purpose of this report is to collect data from each GP IT System Supplier on the frequency of use of clinical coded terms, both terminology (SNOMED CT, Read v2, CTV3) and local codes, recorded through their System for fully registered Patients over a 12 month period for all entries which are part of the GP record, aggregated across the selected Practices.
 
@@ -37,7 +37,7 @@ This data on the frequency of usage of clinical terms is to inform which codes a
 
 Elements of the data submitted will be published and made publicly available once processed to protect any Patient and commercially sensitive data.
 
-# Requirements
+# Requirements {#PrimaryCareClinicalTerminologyUsageReport-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
@@ -72,17 +72,17 @@ Elements of the data submitted will be published and made publicly available onc
 | **GP-BI.2-23** | For the **Terminology Usage Report**, the following pseudo code to be used:  For all Patients fully registered with a Practice on **<end date> AND** those who were fully registered but died during the reporting period (**"<start date>"-"<end date>"**) as per [Primary Care Clinical Terminology Metadata Report GP-BI.2-21](Primary-Care-Clinical-Terminology-Usage-Report.md) and [Primary Care Clinical Terminology Usage Report GP-BI.2-08b](Primary-Care-Clinical-Terminology-Usage-Report.md)  **ANALYSE**  **GROUPED\_BY** CodeID **AND** TermID **AND** TermDescription  **FROM JOURNALS (ALL)**  **WHERE RECORD\_DATE IN ("<start date>"-"<end date>") AND CODE IN ("%")**  Where **<start date> = 1st August <YYYY>** and **<end date> = 31st July <YYYY+1>** | MAY |
 | **GP-BI.2-24** | The actual query used for the **Terminology Usage Report** will NOT:   - Double count - Sample different fragments of the same full coded Electronic Patient Record content - Include codes attached to 'System' tables   Where the TermID does not exist or is not persisted, no data (an empty field) will be returned for the TermID column | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing  {#PrimaryCareClinicalTerminologyUsageReport-Compliance,AssuranceandTesting}
 
 See the Primary Care Clinical Terminology Usage Report section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Dependencies
+# Dependencies {#PrimaryCareClinicalTerminologyUsageReport-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Secure Electronic File Transfer (SEFT)](Secure-Electronic-File-Transfer-SEFT.md)
 
-# Roadmap
+# Roadmap {#PrimaryCareClinicalTerminologyUsageReport-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

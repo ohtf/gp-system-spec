@@ -38,7 +38,7 @@ labels: ["standard"]
 - [Dependencies](#eMED3(FitNotes)-Dependencies)
 - [Roadmap](#eMED3(FitNotes)-Roadmap)
 
-# Introduction
+# Introduction {#eMED3(FitNotes)-Introduction}
 
 Supports the creation of eMED3 data, its integration into the Patient Record, printing or issuing of MED3 fit note certificates and extraction of data to The Authority.
 
@@ -48,11 +48,11 @@ The roll out of the computer generated fit note project ‘eMed3’ which was co
 
 This document specifies the requirements in respect of the computer generation, record retention and printing of a fit note and the extraction of data. It ensures the retention of existing processes through consistent implementation across all Solutions covered by GP IT Futures.
 
-### Data extraction and publication
+### Data extraction and publication {#eMED3(FitNotes)-Dataextractionandpublication}
 
 Since 2017, The Authority has published quarterly anonymous, aggregated data on behalf of the Department for Work and Pensions (DWP) derived from the issue of fit notes saved in the Electronic Patient Record. The data is extracted from GP IT Solutions via XML-based eMED3 Activity Files from practices on a weekly basis via [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md). The periodic transfer of data will be instigated by the Supplier’s Solution and automatically submitted to The Authority. 
 
-# Requirements
+# Requirements {#eMED3(FitNotes)-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ Since 2017, The Authority has published quarterly anonymous, aggregated data on 
 | **eMED3-03** | Create eMED3 forms (as per [eMED3 Template (2022](eMED3-Fit-Notes.md))) in an unalterable format (compatible with GP2GP transfer) populated with the eMED3 data recorded in [eMED3 (Fit Notes) eMED3-01](eMED3-Fit-Notes.md) and as defined in [eMED3 Data Items Usage](eMED3-Fit-Notes.md).  eMED3 forms only to be created when all mandatory data items as defined in [eMED3 (Fit Notes) eMED3 Data Entry](eMED3-Fit-Notes.md) have been recorded. | MUST |
 | **eMED3-04** | Preview unprinted eMED3 forms created as per [eMED3 (Fit Notes) eMED3-03](eMED3-Fit-Notes.md). | MUST |
 | **eMED3-05** | Print eMED3 forms created as per [eMED3 (Fit Notes) eMED3-03](eMED3-Fit-Notes.md).The form to be printed in the format specified by [eMED3 (Fit Notes) eMED3 Template (2022)](eMED3-Fit-Notes.md) with data populating the appropriate fields as defined in [eMED3 Data Items Usage](eMED3-Fit-Notes.md), in the [eMED3 (Fit Notes) eMED3 Data Entry](eMED3-Fit-Notes.md) table and in [eMED3 (Fit Notes) eMED3 Template (2022) with Mappings](eMED3-Fit-Notes.md).  For <Patient.title>, Suppliers can choose to display the title by striking through the appropriate alternative titles on the form (Mr, Mrs, Ms, Miss) or by simply printing only the relevant title as held on the Patient Record. This can include titles other than those listed on the form (e.g. ‘Dr.’, ‘Prof’, ‘Lord’).  eMED3 forms only to be printed when all mandatory data items as defined in [eMED3 (Fit Notes) eMED3 Data Entry](eMED3-Fit-Notes.md) have been recorded. | MUST |
-| **eMED3-06** | Printed eMED3 Statement to contain a 2D Barcode positioned on the form as shown on [eMED3 (Fit Notes) eMED3 Template (2022)](eMED3-Fit-Notes.md).   - Each field to be delimited by a ‘|’ character ('pipe symbol') - To avoid delimiter collision, escape characters to be used (i.e.’\|’) - Only data which is printed on the form will be encoded as per the 2D Barcode Data elements table - Data to be included in the order listed as per the 2D Barcode Data elements table - Information to be stored on the barcode to be truncated if required in order to fit within the maximum characters the barcode can allow  Click here to view the 2D Barcode Data elements table2D Barcode Data elements  | Order | Field | Max Size (Characters) | | --- | --- | --- | | 1 | <AssessmentDate> | 8 | | 2 | <StatementDateTime> | 8 | | 3 | <Patient.title> | 3 | | 4 | <Patient.first.name> | 20 | | 5 | <Patient.second.name> | 1 | | 6 | <Patient.surname> | 30 | | 7 | <Patient.Address1> | 15 | | 8 | <Patient.Postcode> | 8 | | 9 | <Patient.DOB> | 8 | | 10 | <Diag.Printed.Text> | 42 | | 11 | <NFWFlag> | 1 | | 12 | <MFWFlag> | 1 | | 13 | <MFWPhaseRtn> | 1 | | 14 | <MFWAlteredHrs> | 1 | | 15 | <MFWAmendDuties> | 1 | | 16 | <MFWAdaptWorkplace> | 1 | | 17 | <ValidPeriodDays>, <ValidPeriodWeeks>, <ValidPeriodMonths> OR “INDEF” (i.e. <ValidPeriodIndefinite>) | 5 | | 18 | <ValidPeriodStartDate> | 8 | | 19 | <ValidPeriodEndDate> | 8 | | 20 | <FollowUpAssessment> | 1 | | 21 | <UniqueID> | 20 | | 22 | <DuplicatePrinted> | 1 | | 23 | <Practice.name> | 20 | | 24 | <Practice.address1> | 15 | | 25 | <Practice.postcode> | 8 | | 26 | <Practice.phone.number> | 12 |     For Standards relating to barcode implementation, see:   - [ISB1077 - AIDC for Patient Identification](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/isb-1077-aidc-for-patient-identification) - [ISB0108 - AIDC: Automatic Identification and Data Capture](https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/dapb-0108-automatic-identification-and-data-capture-aidc) | MUST |
+| **eMED3-06** | Printed eMED3 Statement to contain a 2D Barcode positioned on the form as shown on [eMED3 (Fit Notes) eMED3 Template (2022)](eMED3-Fit-Notes.md).   - Each field to be delimited by a ‘|’ character ('pipe symbol') - To avoid delimiter collision, escape characters to be used (i.e.’\|’) - Only data which is printed on the form will be encoded as per the 2D Barcode Data elements table - Data to be included in the order listed as per the 2D Barcode Data elements table - Information to be stored on the barcode to be truncated if required in order to fit within the maximum characters the barcode can allow  Click here to view the 2D Barcode Data elements table2D Barcode Data elements {#eMED3(FitNotes)-2DBarcodeDataelements}  | Order | Field | Max Size (Characters) | | --- | --- | --- | | 1 | <AssessmentDate> | 8 | | 2 | <StatementDateTime> | 8 | | 3 | <Patient.title> | 3 | | 4 | <Patient.first.name> | 20 | | 5 | <Patient.second.name> | 1 | | 6 | <Patient.surname> | 30 | | 7 | <Patient.Address1> | 15 | | 8 | <Patient.Postcode> | 8 | | 9 | <Patient.DOB> | 8 | | 10 | <Diag.Printed.Text> | 42 | | 11 | <NFWFlag> | 1 | | 12 | <MFWFlag> | 1 | | 13 | <MFWPhaseRtn> | 1 | | 14 | <MFWAlteredHrs> | 1 | | 15 | <MFWAmendDuties> | 1 | | 16 | <MFWAdaptWorkplace> | 1 | | 17 | <ValidPeriodDays>, <ValidPeriodWeeks>, <ValidPeriodMonths> OR “INDEF” (i.e. <ValidPeriodIndefinite>) | 5 | | 18 | <ValidPeriodStartDate> | 8 | | 19 | <ValidPeriodEndDate> | 8 | | 20 | <FollowUpAssessment> | 1 | | 21 | <UniqueID> | 20 | | 22 | <DuplicatePrinted> | 1 | | 23 | <Practice.name> | 20 | | 24 | <Practice.address1> | 15 | | 25 | <Practice.postcode> | 8 | | 26 | <Practice.phone.number> | 12 |     For Standards relating to barcode implementation, see:   - [ISB1077 - AIDC for Patient Identification](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/isb-1077-aidc-for-patient-identification) - [ISB0108 - AIDC: Automatic Identification and Data Capture](https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/dapb-0108-automatic-identification-and-data-capture-aidc) | MUST |
 | **eMED3-07** | If the eMED3 Statement has been printed, but not yet saved to the Patient Record, the Practice User to have the option to amend the data and reprint. An audit of this activity will be captured. | MUST |
 | **eMED3-08** | All eMED3 data and created eMED3 forms to be saved to the Patient Record as per [eMED3 Data Items Usage](eMED3-Fit-Notes.md).  Data can be saved before printing, after printing or (to the user) simultaneously as long as the requirements are met. | MUST |
 | **eMED3-09** | Record that eMED3 form was 'issued by hand' (e.g. when retroactively capturing data for a paper-based MED3 form). This function to adhere to requirements [eMED3- 01](eMED3-Fit-Notes.md),[eMED3-08](eMED3-Fit-Notes.md)and to [eMED3 (Fit Notes) eMED3 Data Entry](eMED3-Fit-Notes.md), with the following exceptions:   1. Admin Code to be recorded as one of:     - 751751000000104 - MED3 (2010) issued by hand, may be fit for work (finding)    - 751731000000106 - MED3 (2010) issued by hand, not fit for work (finding) 2. Printing is not mandatory, but Practice User to be offered the option to print the statement     - If they choose to print [eMED3 (Fit Notes) eMED3 Data Entry](eMED3-Fit-Notes.md) to be adhered to (also see[eMED3-10](eMED3-Fit-Notes.md) and [eMED3 (Fit Notes) eMED3-05](eMED3-Fit-Notes.md)) | MUST |
@@ -88,7 +88,7 @@ Since 2017, The Authority has published quarterly anonymous, aggregated data on 
 | **eMED3-26** | Each [eMED3 Activity File Construction](eMED3-Fit-Notes.md) to comprise an envelope and a payload.  The payload to be the extracted statistical content as defined in [eMED3 (Fit Notes) eMED3 Activity File Payload](eMED3-Fit-Notes.md).  Where there are no eMED3 transaction records i.e. a null return as detailed in the [schema](https://nhse-dsic.atlassian.net/wiki/pages/resumedraft.action?draftId=1391135075#eMED3(FitNotes)-Schema), an eMED3 Activity File to still be provided.  The practice envelope to contain the data itemised in [eMED3 (Fit Notes) eMED3 Activity File Envelope](eMED3-Fit-Notes.md). | MUST |
 | **eMED3-27** | Data about Patients who have registered a Type 1 opt-out (as per [National data opt-out programme](https://digital.nhs.uk/services/national-data-opt-out-programme)) will not be included in the eMED3 data extract, unless the Patient has withdrawn this at a later date.  Opt-out is recorded in the Patient Record currently using the following (Type 1) Patient objection code (in SNOMED CT):  827241000000103 - Dissent from secondary use of GP Patient identifiable data  Withdrawal of this opt-out is recorded on the Patient Record currently using the following (Type 1) Patient objection code (in SNOMED CT):  827261000000102 - Withdraw dissent from secondary use of GP Patient identifiable data  The date of the most recent (Type 1) Patient objection code i.e. the event data associated with the (Type 1) Patient objection code, will be used to determine if data is to be included. | MUST |
 
-### eMED3 Data Entry: Fields and Data Definition
+### eMED3 Data Entry: Fields and Data Definition  {#eMED3(FitNotes)-eMED3DataEntry:FieldsandDataDefinition}
 
 This table defines the mapping between data items and the form (see [eMED3 (Fit Notes) eMED3 Template (2022) with Mappings](eMED3-Fit-Notes.md)), the minimum data to be captured, the rules to be applied to this data and the preconditions for enabling and disabling the ability to record data on the form:
 
@@ -111,7 +111,7 @@ This table defines the mapping between data items and the form (see [eMED3 (Fit 
 | 34, 20 | PRINT | Calculated  Date  Time | <UniqueID>  <StatementDate  <StatementTime> |  | - Printing only to be allowed once all Mandatory data items have been recorded - If PRINT clicked:    - <UniqueID> is generated by the Solution and recorded      - There is no requirement for the unique ID to hold any linking or identifiable information and therefore a standard GUID ([DCE UUID](http://pubs.opengroup.org/onlinepubs/9629399/apdxa.htm), provided in dash-separated print format) is acceptable for this requirement   - <StatementDate> automatically recorded by Solution as today’s system date in MMDDYY format   - <StatementTime> automatically recorded by Solution as system time in HHMM format (24 hour)   - Form is printed as per [eMED3 (Fit Notes) eMED3-05](eMED3-Fit-Notes.md)   - Data items are generated and all data saved as per [eMED3 (Fit Notes) eMED3-08](eMED3-Fit-Notes.md) - If the printing fails    - A failed print will be recorded   - User to have ability to print again (to reprint the eMED3 in its original format – i.e. not as a Duplicate) |
 | N/A | SAVE or OK | Flag | <PrintedFlag> |  | - Signifies end of transaction - Option enabled after PRINT option has been selected for the user to confirm the statement printed successfully - Once clicked, <PrintedFlag> is recorded - If not already saved, data items are generated and all data saved as per [eMED3 (Fit Notes) eMED3-08](eMED3-Fit-Notes.md) |
 
-## eMED3 Data Items Usage
+## eMED3 Data Items Usage {#eMED3(FitNotes)-eMED3DataItemsUsage}
 
 The eMED3 Data Items table details all eMED3 data elements, their name, form, and source, and their use as follows: 
 
@@ -129,7 +129,7 @@ The 'Source' column represents the likely origin of the data:
 
 Where the source is 'Sys files' or 'Patient Record', there is not a requirement for this information to be saved in duplicate to the Patient Record.
 
-### eMED3 Data Items
+### eMED3 Data Items {#eMED3(FitNotes)-eMED3DataItems}
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -185,11 +185,11 @@ Where the source is 'Sys files' or 'Patient Record', there is not a requirement 
 | <LinkingID> | See [eMED3 (Fit Notes) eMED3-16](eMED3-Fit-Notes.md) | Solution | N | Y | N | Y |
 | <UniqueID> |  | Solution | N | Y | Y | Y |
 
-## eMED3 Activity File Construction
+## eMED3 Activity File Construction  {#eMED3(FitNotes)-eMED3ActivityFileConstruction}
 
 The eMED3 Activity File will comprise an envelope and a payload as defined in [eMED3 (Fit Notes) eMED3 Activity File Envelope](eMED3-Fit-Notes.md) and [eMED3 (Fit Notes) eMED3 Activity Record data items](eMED3-Fit-Notes.md) tables.
 
-### eMED3 Activity File Envelope
+### eMED3 Activity File Envelope {#eMED3(FitNotes)-eMED3ActivityFileEnvelope}
 
 |  |  |
 | --- | --- |
@@ -205,13 +205,13 @@ The eMED3 Activity File will comprise an envelope and a payload as defined in [
 | <EmailProcessAck> | OPTIONAL: nominated email address for process acknowledgement by The Authority |
 | <EmailErrorNotification> | OPTIONAL: nominated email address for any error notification by The Authority |
 
-### eMED3 Activity File Payload
+### eMED3 Activity File Payload {#eMED3(FitNotes)-eMED3ActivityFilePayload}
 
 The payload will comprise of the data items in the [eMED3 (Fit Notes) eMED3 Activity Record data items](eMED3-Fit-Notes.md).
 
 The separately-supplied [schema](eMED3-Fit-Notes.md) provides the type for each data item.
 
-### eMED3 Activity Record data items
+### eMED3 Activity Record data items {#eMED3(FitNotes)-eMED3ActivityRecorddataitems}
 
 |  |
 | --- |
@@ -244,19 +244,19 @@ The separately-supplied [schema](eMED3-Fit-Notes.md) provides the type for each
 | <LinkingID> |
 | <UniqueID> |
 
-### eMED3 Template (2022)
+### eMED3 Template (2022) {#eMED3(FitNotes)-eMED3Template(2022)}
 
-[eMED3 Template (2022).pdf](eMED3-Fit-Notes.md)
+[eMED3 Template (2022).pdf](../../../../.raw/DCSDCS/attachments/1391135075/att11939086352-eMED3 Template (2022).pdf)
 
-### eMED3 Template (2022) with Mappings
+### eMED3 Template (2022) with Mappings {#eMED3(FitNotes)-eMED3Template(2022)withMappings}
 
 This template defines the mappings between the printed form and the eMED3 data items. This can be used with the [eMED3 Data Entry: Fields and Data Definition](eMED3-Fit-Notes.md) table to establish where data recorded is to be printed on the form.
 
 The [eMED3 Template Mappings -all printed data items](eMED3-Fit-Notes.md) shows this for all data items.
 
-[eMED3 Template (2022) wi…](eMED3-Fit-Notes.md)
+[eMED3 Template (2022) wi…](../../../../.raw/DCSDCS/attachments/1391135075/att11938365473-eMED3 Template (2022) with Mappings.pdf)
 
-### eMED3 Template Mappings - all printed data items
+### eMED3 Template Mappings - all printed data items {#eMED3(FitNotes)-eMED3TemplateMappings-allprinteddataitems}
 
 Click here to view table of mappings for all printed eMED3 data items to the form
 
@@ -315,23 +315,23 @@ Click here to view table of mappings for all printed eMED3 data items to the for
 |  | <Issuer's.name> |
 |  | <Issuer's.profession> |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#eMED3(FitNotes)-Compliance,AssuranceandTesting}
 
 See the eMED3 (Fit Notes) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#eMED3(FitNotes)-Documentation}
 
 - [Data Provision Notice](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/485591/DPN_eMED3__fit_notes__final_16122015.pdf)
 - [Information Standard Notification (SCCI2118 Amd 65/2015)](https://standards.nhs.uk/published-standards/emed3-fit-notes)
 - [Updated GP guidance (March 2013) Getting the most out of the fit note – a guide for GP](https://www.gov.uk/government/publications/fit-note-guidance-for-gps)
 
-# Dependencies
+# Dependencies {#eMED3(FitNotes)-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 
-# Roadmap
+# Roadmap {#eMED3(FitNotes)-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

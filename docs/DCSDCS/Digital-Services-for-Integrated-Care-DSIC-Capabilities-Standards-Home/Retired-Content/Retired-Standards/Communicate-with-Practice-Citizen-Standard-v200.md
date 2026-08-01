@@ -15,10 +15,10 @@ labels: ["capability_specific_retired"]
 | ID | S2 |
 | Version | 2.0.0 |
 | Type | Capability Specific Standard |
-| Status | Retired |
-| Effective Date | 31 Jul 2020 |
+| Status {#CommunicatewithPractice-Citizen-Standardv2.0.0-Status} | Retired |
+| Effective Date {#CommunicatewithPractice-Citizen-Standardv2.0.0-EffectiveDate} | 31 Jul 2020 |
 
-# Requirements
+# Requirements {#CommunicatewithPractice-Citizen-Standardv2.0.0-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -34,13 +34,13 @@ labels: ["capability_specific_retired"]
 | C2E1 | **GP-CWP-3** | **Display Configurable Disclaimer - Patient**  A practice configurable disclaimer to be displayed to Patients when creating a communication so that important information about this service is always visible.  See GP-PPFS-3.3-14 for practice configuration of disclaimer. | MUST |
 | C2E2 | **GP-CWP-8** | **Display Configurable Disclaimer - Proxy**  A practice configurable disclaimer to be displayed to Proxies when creating a communication so that important information about this service is always visible.  See GP-PPFS-3.3-14 for practice configuration of disclaimer. | MUST |
 
-# Capability
+# Capability {#CommunicatewithPractice-Citizen-Standardv2.0.0-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Communicate With Practice - Citizen Capability
 
-# Roadmap
+# Roadmap {#CommunicatewithPractice-Citizen-Standardv2.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

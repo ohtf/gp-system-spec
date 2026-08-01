@@ -12,13 +12,13 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S4 |
-| Version | 2.0.0 |
-| Type | Capability Specific Standard |
-| Status | Retired |
+| ID {#ViewRecord-Citizen-Standardv2.0.0-ID} | S4 |
+| Version {#ViewRecord-Citizen-Standardv2.0.0-Version} | 2.0.0 |
+| Type {#ViewRecord-Citizen-Standardv2.0.0-Type} | Capability Specific Standard |
+| Status {#ViewRecord-Citizen-Standardv2.0.0-Status} | Retired |
 | Effective Date | 31 Jul 2020 |
 
-# Requirements
+# Requirements {#ViewRecord-Citizen-Standardv2.0.0-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -35,13 +35,13 @@ labels: ["capability_specific_retired"]
 | C4E1 | **GP-PPFS-3.2-11** | **Record Access Level – Full Record - Patient**  Adhere to the following requirements regarding Full Record Access:   - Clinical data held within the Patient Record (coded or otherwise i.e. includes free text data associated and not associated with clinical codes e.g. Consultations, Medications, Pathology Results) - Demographic and Patient administrative data - Documents associated with or embedded within the Patient Record, including annotations associated with any documents. - Pathology and Radiology test results.   See PIM42 for Pathology and Radiology Results and Document review requirements.  See GP-PPFS-3.2-01 for Practice configuration of Record Access Levels.  See GP-PPFS-3.3-08A for start date restrictions. | MUST |
 | C4E2 | ******GP-**VWRD-9******** | **Record Access Level – Full Record - Proxy**  Adhere to the following requirements regarding Full Record Access:   - Clinical data held within the Patient Record (coded or otherwise i.e. includes free text data associated and not associated with clinical codes e.g. Consultations, Medications, Pathology Results) - Demographic and Patient administrative data - Documents associated with or embedded within the Patient Record, including annotations associated with any documents.   See GP-PPFS-3.2-01 for Practice configuration of Record Access Levels.  See GP-PPFS-3.3-08A for start date restrictions. | MUST |
 
-# Capability
+# Capability {#ViewRecord-Citizen-Standardv2.0.0-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the View Record - Citizen Capability
 
-# Roadmap
+# Roadmap {#ViewRecord-Citizen-Standardv2.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

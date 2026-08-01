@@ -39,7 +39,7 @@ labels: ["standard_retired"]
 - [Dependencies](#ManagementInformation(MI)Reportingv1.0.1-Dependencies)
 - [Roadmap](#ManagementInformation(MI)Reportingv1.0.1-Roadmap)
 
-# Introduction
+# Introduction {#ManagementInformation(MI)Reportingv1.0.1-Introduction}
 
 There is a subset of this collection known as Patient Online Management Information (POMI), which is used by NHS England to monitor uptake and usage of online Services and is published regularly. There are also fields included as part of this collection which form part of the GP Workload Tool, a project commissioned by NHS England to aid in improving Patient access to General Practice as part of the goals set out in the Five Year Forward View.
 
@@ -55,7 +55,7 @@ Suppliers will need to adhere to requests made by The Authority within 5 working
 - Suppliers to respond to any questions The Authority may have regarding the data submitted
 - Where errors are discovered on a report, Suppliers will provide a corrected version
 
-# Requirements
+# Requirements {#ManagementInformation(MI)Reportingv1.0.1-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
@@ -71,13 +71,13 @@ Suppliers will need to adhere to requests made by The Authority within 5 working
 | **GP-MI.1-08** | Suppliers to have a process for checking data quality in reports before they are submitted | MUST |
 | **GP-MI.1-09** | Suppliers to ensure that the processes used to produce reports preserve the meaning of data items from one reporting period to the next, so that the content of a report can be compared between periods  *In cases where the Supplier does need to change the process for producing reports in a manner that means reports cannot be compared between reporting periods, they will alert the The Authority Primary Care Data team* | MUST |
 
-# Data Fields Definition
+# Data Fields Definition {#ManagementInformation(MI)Reportingv1.0.1-DataFieldsDefinition}
 
 The list of data fields which form this specification are listed below, along with their associated definition, format, and if they are part of Patient Online Management Information (POMI). Some data fields are required to be submitted for all submissions and some are required to be submitted by Suppliers delivering certain Capabilities.
 
 Where a Supplier is offering multiple Solutions which support these Capabilities, a return may be submitted for each Solution individually or as a single submission covering all Solutions so long as it is made clear which Solution the data relates to.
 
-## All Submissions
+## All Submissions {#ManagementInformation(MI)Reportingv1.0.1-AllSubmissions}
 
 These data items are to be provided for all submissions regardless of which other data items a Supplier is required to provide based on the Capabilities offered:
 
@@ -91,7 +91,7 @@ These data items are to be provided for all submissions regardless of which othe
 | **H5** | Supplier\_ system\_version | Version number of the Supplier Solution used at the practice. | String (63) | MAY |
 | **H6** | gp\_practice\_code | The GP Practice Code for the GP Practice for which the data is being returned. | String (6) | MUST |
 
-## All Citizen Capabilities
+## All Citizen Capabilities {#ManagementInformation(MI)Reportingv1.0.1-AllCitizenCapabilities}
 
 These data items are to be provided by Suppliers delivering any Citizen Capability:
 
@@ -105,7 +105,7 @@ Data items are only to be returned once per Solution (i.e. where a single Soluti
 | **1010** | total\_login\_count\_p | Total number of logins to a Citizen Service:   - at any time within the reporting period - by LOSAs - where the Citizen Service being logged into is provided by the same Supplier as provides the Patient Information Maintenance - GP Solution for the Practice | Numeric (integer) | MAY |
 | **1011** | total\_login\_count\_p1 | Total number of logins to a Citizen Service:   - at any time within the reporting period - by LOSAs - where the Citizen Service being logged into is provided by a different Supplier than provides the Patient Information Maintenance - GP Solution for the Practice | Numeric (integer) | MAY |
 
-## Patient Information Maintenance - GP
+## Patient Information Maintenance - GP {#ManagementInformation(MI)Reportingv1.0.1-PatientInformationMaintenance-GP}
 
 These data items are to be provided by any Supplier delivering the Patient Information Maintenance - GP Capability:
 
@@ -134,7 +134,7 @@ These data items are to be provided by any Supplier delivering the Patient Info
 | **1109** | total\_documents\_scanned\_count | Total number of unique documents received into the system that were: *(this does NOT include instances of duplicate documents being received and recorded against a Patient record)*   - recorded against a Patient record - recorded against a Patient record at any time within the reporting period *(if the document is received by the system outside of the reporting period, but saved against a Patient record within the reporting period, then this WILL be included; if the document is received into the system within the reporting period, but not saved against a Patient record until outside the reporting period this will NOT be included)* - received via scanning *(i.e. documents received on paper and scanned as opposed to being received via an electronic format)*   If same data is stored by multiple Solutions, it will only be submitted once by one Supplier (see 1109 in Document Management) | Numeric (integer) | MAY |
 | **1110** | total\_documents\_electronic\_count | Total number of unique documents received into the system that were: *(this does NOT include instances of duplicate documents being received and recorded against a Patient record)*   - recorded against a Patient record - recorded against a Patient record at any time within the reporting period *(if the document is received by the system outside of the reporting period, but saved against a Patient record within the reporting period, then this WILL be included; if the document is received into the system within the reporting period, but not saved against a Patient record until outside the reporting period this will NOT be included)* - received electronically *(i.e. documents received electronically as opposed to being received in paper format and scanned)*   If same data is stored by multiple Solutions, it will only be submitted once by one Supplier (see 1110 in Document Management) | Numeric (integer) | MAY |
 
-## Communicate With Practice - Citizen
+## Communicate With Practice - Citizen {#ManagementInformation(MI)Reportingv1.0.1-CommunicateWithPractice-Citizen}
 
 These data items to be provided by any Supplier delivering the Communicate with Practice - Citizen Capability:
 
@@ -144,7 +144,7 @@ These data items to be provided by any Supplier delivering the Communicate with 
 | **613** | comms\_online\_Patient\_count | Total number of communications sent:   - using the Communicate With Practice - Citizen Solution - from Patient to practice - at any time within the reporting period | Numeric (integer) | MAY |
 | **614** | comms\_online\_clinician\_count | Total number of communications sent:   - using the Communicate With Practice - Citizen Solution - from practice to Patient - at any time within the reporting period | Numeric (integer) | MAY |
 
-## Appointments Management - Citizen
+## Appointments Management - Citizen {#ManagementInformation(MI)Reportingv1.0.1-AppointmentsManagement-Citizen}
 
 These data items to be provided by any Supplier delivering the Appointments Management - Citizen Capability:
 
@@ -158,7 +158,7 @@ These data items to be provided by any Supplier delivering the Appointments Man
 | **1219** | appointment\_scheduled\_online\_count | All Appointments from appointment\_scheduled\_count (field 210) which were:   - scheduled using the Appointments Management - Citizen Solution *(A count as at the end of the reporting period of the number of Appointments booked via an online method based on the final status and booking method of each Slot made available for Patients to book in the period based on start time. NOT the number of transactions which took place for booking Appointments online i.e. an Appointment Slot which was booked online then cancelled will NOT be included in this count; an Appointment Slot which was booked over the phone, cancelled and then booked again via a Citizen Service WILL be included in this count)*  Validation  - Must be less than or equal to 209-appointment\_available\_online\_count - Must be less than or equal to 210-appointment\_scheduled\_count - Must be less than or equal to 610-appointment\_scheduled\_online\_trans\_count | Numeric (integer) | MAY |
 | **1221** | appointment\_cancelled\_online\_count | All Appointments from appointment\_cancelled\_count (field 1220) which were:   - cancelled using the Appointments Management - Citizen Solution *(A count as at the end of the reporting period of the number of Appointments cancelled via an online method based on the final status and cancellation method of each Slot made available for Patients to book in the period based on start time. NOT the number of transactions which took place for cancelling Appointments online i.e. an Appointment Slot which is booked over the phone, then cancelled online WILL be included in this count; an Appointment which is booked, then cancelled online, then booked again will NOT be included in this count.)*  Validation  - Must be less than or equal to 1220-appointment\_cancelled\_count - Must be less than or equal to 611-appointment\_cancelled\_online\_trans\_count | Numeric (integer) | MAY |
 
-## Prescription Ordering – Citizen
+## Prescription Ordering – Citizen {#ManagementInformation(MI)Reportingv1.0.1-PrescriptionOrdering–Citizen}
 
 These data items to be provided by any Supplier delivering the Prescription Ordering - Citizen Capability:
 
@@ -169,7 +169,7 @@ These data items to be provided by any Supplier delivering the Prescription Ord
 | **310** | prescription\_online\_ooh\_trans\_count | All transactions from prescription\_online\_trans\_count (field 612) where:   - the ordering transaction took place via the Prescription Ordering - Citizen Solution - the ordering transaction took place within the reporting period, but outside of regular working hours *(outside of regular working hours is defined as between 1830 and 0759 inclusive on weekdays; weekends i.e. 1830 Friday to 0759 Monday; all day bank holidays i.e. 0000 to 2359)* | Numeric (integer) | MAY |
 | **311** | prescription\_online\_eps\_count | All transactions from prescription\_online\_trans\_count (field 612) where:   - the order was for a repeat Prescription - the transaction is linked to Electronic Prescription Service (EPS) - Prescribing | Numeric (integer) | MAY |
 
-## View Record - Citizen
+## View Record - Citizen {#ManagementInformation(MI)Reportingv1.0.1-ViewRecord-Citizen}
 
 These data items to be provided by any Supplier delivering the View Record - Citizen Capability:
 
@@ -181,7 +181,7 @@ These data items to be provided by any Supplier delivering the View Record - Ci
 | **624** | coded\_record\_view\_online\_count | Total number of accesses/views of the Detailed Coded Record:   - using View Record - Citizen Solution - by Patients enabled for the Detailed Coded Record Record Access Service - at any time within the reporting period *(if the Detailed Coded Record is viewed/accessed multiple times within the reporting period, each view/access should be counted separately)* | Numeric (integer) | MUST |
 | **617** | online\_record\_document\_view\_count | Total number of document accesses/views:   - using View Record - Citizen Solution - by Patients using the Document Access Level Record Access Service - at any time within the reporting period *(if a letter is viewed/accessed multiple times within the reporting period, each view/access should be counted separately)* | Numeric (integer) | MUST |
 
-## Appointments Management - GP
+## Appointments Management - GP {#ManagementInformation(MI)Reportingv1.0.1-AppointmentsManagement-GP}
 
 These data items to be provided by any Supplier delivering the Appointments Management - GP Capability:
 
@@ -247,7 +247,7 @@ These data items to be provided by any Supplier delivering the Appointments Man
 | **1259** | appointment\_Patient\_age\_over\_81\_count | All Appointments from appointment\_attended\_count (field 1224):   - where Patient attending Appointment was in age band: 81 years and over *(based on the age of the Patient attending the Appointment NOT who booked it; Patients who are aged 81 years or older i.e. a Patient aged 81 WILL be included in this count)*  Validation  - Must be Sum of 1253-appointment\_Patient\_age\_0-1\_count AND 1254-appointment\_Patient\_age\_1-5\_count AND 1255-appointment\_Patient\_age\_6-15\_count AND 1256-appointment\_Patient\_age\_16-45\_count AND 1257-appointment\_Patient\_age\_46-64\_count AND 1258-appointment\_Patient\_age\_65-80\_count AND 1259-appointment\_Patient\_age\_over\_81\_count - Must be less than or equal to 1224-appointment\_attended\_count | Numeric (integer) | MAY |
 | **1260** | Patient\_attended\_multiple\_appointments\_count | Total number of Patients who attended three or more Appointments in the period *(a count as at the end of the reporting period of the number of Patients who attended three or more Appointments)*   - with a start date and time within the reporting period *(based on start time of Appointment)* - with attendance status of 'attended' *(scheduled Appointments where Patients attended their Appointment; terminology for 'attended' may differ between Supplier systems)* - booked using any method - with any healthcare professional type - of any Slot Type *(type of Appointment is defined as routine, emergency, or specialist clinics etc. terminology may differ between Supplier systems)* - of any duration | Numeric (integer) | MAY |
 
-## Document Management
+## Document Management {#ManagementInformation(MI)Reportingv1.0.1-DocumentManagement}
 
 These data items to be provided by any Supplier delivering the Document Management Capability:
 
@@ -258,7 +258,7 @@ These data items to be provided by any Supplier delivering the Document Managem
 | **1109** | total\_documents\_scanned\_count | Total number of unique documents received into and stored by the Solution that were: *(this does NOT include instances of duplicate documents being received and recorded against a Patient record)*   - recorded against a Patient record - recorded against a Patient record at any time within the reporting period *(if the document is received by the system outside of the reporting period, but saved against a Patient record within the reporting period, then this WILL be included; if the document is received into the system within the reporting period, but not saved against a Patient record until outside the reporting period this will NOT be included)* - received via scanning *(i.e. documents received on paper and scanned as opposed to being received via an electronic format)*   If same data is stored by multiple Solutions, it will only be submitted once by one Supplier (see 1109 in Patient Information Maintenance - GP) | Numeric (integer) | MAY |
 | **1110** | total\_documents\_electronic\_count | Total number of unique documents received into and stored by the Solution that were: *(this does NOT include instances of duplicate documents being received and recorded against a Patient record)*   - recorded against a Patient record - recorded against a Patient record at any time within the reporting period *(if the document is received by the system outside of the reporting period, but saved against a Patient record within the reporting period, then this WILL be included; if the document is received into the system within the reporting period, but not saved against a Patient record until outside the reporting period this will NOT be included)* - received electronically *(i.e. documents received electronically as opposed to being received in paper format and scanned)*   If same data is stored by multiple Solutions, it will only be submitted once by one Supplier (see 1110 in Patient Information Maintenance - GP) | Numeric (integer) | MAY |
 
-## Prescribing
+## Prescribing {#ManagementInformation(MI)Reportingv1.0.1-Prescribing}
 
 These data items to be provided by any Supplier delivering the Prescribing Capability:
 
@@ -268,7 +268,7 @@ These data items to be provided by any Supplier delivering the Prescribing Capa
 | **308** | prescriptions\_ordered\_trans\_count | Total number of Prescription ordering transactions: *(this is a count of transactions resulting in a Prescription/s being ordered, NOT the number of items ordered; ordering several items in one transaction should only be counted as a single transaction)*   - via any Prescription ordering method - the ordering transaction took place within the reporting period | Numeric (integer) | MAY |
 | **309** | items\_ordered\_total\_count | Total number of Prescription items ordered: *(this is a count of the items ordered, NOT the number of transactions; if ordering several items in one transaction each item should be counted individually)*   - via any Prescription ordering method - the ordering transaction took place within the reporting period | Numeric (integer) | MAY |
 
-## Ethnicity Mappings
+## Ethnicity Mappings {#ManagementInformation(MI)Reportingv1.0.1-EthnicityMappings}
 
 The Ethnicity codes to use for each category within the Management Information (MI) reports are defined in the Patient Ethnicity tables.
 
@@ -281,7 +281,7 @@ Click here to view Patient Ethnicity tables
 - Other
 - Unknown
 
-### Patient Ethnicity - White
+### Patient Ethnicity - White {#ManagementInformation(MI)Reportingv1.0.1-PatientEthnicity-White}
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -296,7 +296,7 @@ Click here to view Patient Ethnicity tables
 | ETH2016WI\_COD | White: Irish ethnicity group codes (The Authority 2016 grouping) | 9t01. | White: Irish - England and Wales ethnic category 2011 census | 976651000000108 | 2484671000000118 |
 | ETH2016WO\_COD | White: Any other White background ethnicity group codes (The Authority 2016 grouping) | 9t03. | White: any other White background - England and Wales ethnic category 2011 census | 976691000000100 | 2484751000000118 |
 
-### Patient Ethnicity - Mixed
+### Patient Ethnicity - Mixed {#ManagementInformation(MI)Reportingv1.0.1-PatientEthnicity-Mixed}
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -308,7 +308,7 @@ Click here to view Patient Ethnicity tables
 | ETH2016MWBC\_COD | Mixed or multiple ethnic groups: White and Black Caribbean ethnicity group codes (The Authority 2016 grouping) | 9i3.. | White and Black Caribbean - ethnic category 2001 census | 92421000000102 | 141321000000118 |
 | ETH2016MWBC\_COD | Mixed or multiple ethnic groups: White and Black Caribbean ethnicity group codes (The Authority 2016 grouping) | 9t04. | Mixed multiple ethnic groups: White and Black Caribbean - England and Wales ethnic category 2011 census | 976711000000103 | 2484791000000114 |
 
-### Patient Ethnicity - Asian
+### Patient Ethnicity - Asian {#ManagementInformation(MI)Reportingv1.0.1-PatientEthnicity-Asian}
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -324,7 +324,7 @@ Click here to view Patient Ethnicity tables
 | ETH2016AP\_COD | Asian or Asian British: Pakistani ethnicity group codes (The Authority 2016 grouping) | 9i8.. | Pakistani or British Pakistani - ethnic category 2001 census | 92461000000105 | 141361000000114 |
 | ETH2016AP\_COD | Asian or Asian British: Pakistani ethnicity group codes (The Authority 2016 grouping) | 9t09. | Asian or Asian British: Pakistani - England and Wales ethnic category 2011 census | 976811000000108 | 2484991000000112 |
 
-### Patient Ethnicity - Black
+### Patient Ethnicity - Black {#ManagementInformation(MI)Reportingv1.0.1-PatientEthnicity-Black}
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -333,7 +333,7 @@ Click here to view Patient Ethnicity tables
 | ETH2016BC\_COD | Black or African or Caribbean or Black British: Caribbean ethnicity group codes (The Authority 2016 grouping) | 9t0E. | Black or African or Caribbean or Black British: Caribbean - England and Wales ethnic category 2011 census | 976911000000101 | 2485191000000111 |
 | ETH2016BO\_COD | Black or African or Caribbean or Black British: Any other Black or African or Caribbean background ethnicity group codes (The Authority 2016 grouping) | 9t0F. | Black or African or Caribbean or Black British: other Black or African or Caribbean background - England and Wales ethnic category 2011 census | 976931000000109 | 2485231000000119 |
 
-### Patient Ethnicity - Other
+### Patient Ethnicity - Other {#ManagementInformation(MI)Reportingv1.0.1-PatientEthnicity-Other}
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -344,14 +344,14 @@ Click here to view Patient Ethnicity tables
 | ETH2016OO\_COD | Other ethnic group: Any other ethnic group ethnicity group codes (The Authority 2016 grouping) | 9iFK. | Any other group - ethnic category 2001 census | 94151000000105 | 142901000000119 |
 | ETH2016OO\_COD | Other ethnic group: Any other ethnic group ethnicity group codes (The Authority 2016 grouping) | 9t0H. | Other ethnic group: any other ethnic group - England and Wales ethnic category 2011 census | 976971000000106 | 2485311000000117 |
 
-### Patient Ethnicity - Unknown
+### Patient Ethnicity - Unknown {#ManagementInformation(MI)Reportingv1.0.1-PatientEthnicity-Unknown}
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
 | **Cluster\_ID** | **Cluster\_Desc** | **Read\_Code** | **Code\_Description** | **SNOMED Concept ID** | **SNOMED Desc ID** |
 | ETH2016NSTAT\_COD | Not stated ethnicity group codes (The Authority 2016 grouping) | 9iG.. | Ethnic category not stated - 2001 census | 92531000000104 | 141421000000114 |
 
-## Healthcare Professional Types
+## Healthcare Professional Types {#ManagementInformation(MI)Reportingv1.0.1-HealthcareProfessionalTypes}
 
 The following tables define the Healthcare Professional (HCP) types referenced in the reporting data items.
 
@@ -361,7 +361,7 @@ Click here to view Healthcare Professional Types tables
 - Nurse
 - Other - Clinical
 
-### General Practitioner (GP)
+### General Practitioner (GP) {#ManagementInformation(MI)Reportingv1.0.1-GeneralPractitioner(GP)}
 
 |  |
 | --- |
@@ -388,7 +388,7 @@ Click here to view Healthcare Professional Types tables
 | Sessional GP |
 | Specialist Registrar |
 
-### Nurse
+### Nurse {#ManagementInformation(MI)Reportingv1.0.1-Nurse}
 
 |  |  |
 | --- | --- |
@@ -424,7 +424,7 @@ Click here to view Healthcare Professional Types tables
 | Modern Matron | Student School Nurse |
 | Nurse Access Role |  |
 
-### Other - Clinical
+### Other - Clinical {#ManagementInformation(MI)Reportingv1.0.1-Other-Clinical}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -454,7 +454,7 @@ Click here to view Healthcare Professional Types tables
 | Healthcare Assistant | Other Health Care Professionals | Social Care SAP User | Student Speech & Language Therapist |
 | Homeopath | Paramedic | Social Care Support Worker | Therapist |
 
-## Third Next Available Appointment (TNA) Calculation Methodology
+## Third Next Available Appointment (TNA) Calculation Methodology {#ManagementInformation(MI)Reportingv1.0.1-ThirdNextAvailableAppointment(TNA)CalculationMethodology}
 
 This page sets out the methodology by which TNA will be calculated by Suppliers and provided via the Management Information (MI) Reporting Specification. This will calculate a TNA figure based on each Appointment booking transaction associated with each Appointment in the reporting period (month). The figures for the number of days to the TNA identified by the methodology set out below based on each booking transaction will then be summed and returned as part of the Management Information (MI) Reporting Specification.
 
@@ -471,7 +471,7 @@ There is a defined methodology which Suppliers are to follow to calculate these 
 
 Click here to view the available options
 
-### OPTION 1 – Extract data
+### OPTION 1 – Extract data {#ManagementInformation(MI)Reportingv1.0.1-OPTION1–Extractdata}
 
 At the end of each reporting period (month) Suppliers will need to extract the following data items from each Practice into a central location.
 
@@ -513,21 +513,21 @@ Please note the following:
 
 Following the extraction of the raw data items, there are some initial steps to be undertaken to group the data which are unique to each of the first three new fields (1238, 1239, 1240).  These are set out below:
 
-#### 1238:  third\_next\_appointment\_time\_GP\_total
+#### 1238:  third\_next\_appointment\_time\_GP\_total {#ManagementInformation(MI)Reportingv1.0.1-1238:third\_next\_appointment\_time\_GP\_total}
 
 1. List all Appointments for the reporting period (month) and the previous reporting periods as far back as the month of the earliest booked date/time associated with an Appointment *e. for February reporting period, if an Appointment has a booked date/time in December, all Appointments with a start date/time in February, January and December should be included.*
 2. Order by Appointment start date and time
 3. Remove any blocked/embargoed Appointment Slots if extracted *(any Appointments which were not actually available for Patients to book)*
 4. Create sub-group of those Appointments with HCP type of General Practitioner (GP)*(as defined in Healthcare Professional Types)*
 
-#### 1239:  third\_next\_appointment\_time\_nurse\_total
+#### 1239:  third\_next\_appointment\_time\_nurse\_total {#ManagementInformation(MI)Reportingv1.0.1-1239:third\_next\_appointment\_time\_nurse\_total}
 
 1. List all Appointments for the reporting period (month) and the previous reporting periods as far back as the month of the earliest booked date/time associated with an Appointment *e. for February reporting period, if an Appointment has a booked date/time in December, all Appointments with a start date/time in February, January and December should be included.*
 2. Order by Appointment start date and time
 3. Remove any blocked/embargoed Appointment Slots if extracted *(any Appointments which were not actually available for Patients to book)*
 4. Create sub-group of those Appointments with HCP type of Nurse *(as defined in Healthcare Professional Types)*
 
-#### 1240:  third\_next\_appointment\_time\_other\_clinical\_total
+#### 1240:  third\_next\_appointment\_time\_other\_clinical\_total {#ManagementInformation(MI)Reportingv1.0.1-1240:third\_next\_appointment\_time\_other\_clinical\_total}
 
 1. List all Appointments for the reporting period (month) and the previous reporting periods as far back as the month of the earliest booked date/time associated with an Appointment *e. for February reporting period, if an Appointment has a booked date/time in December, all Appointments with a start date/time in February, January and December should be included.*
 2. Order by Appointment start date and time
@@ -540,7 +540,7 @@ It is likely that there will be some instances of booked date/time(s) towards th
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/1391134317/Diagram.jpg?api=v2)
 
-### OPTION 2 – Apply methodology directly to the system
+### OPTION 2 – Apply methodology directly to the system {#ManagementInformation(MI)Reportingv1.0.1-OPTION2–Applymethodologydirectlytothesystem}
 
 Rather than extracting data at the end of each reporting period as per Option 1, the methodology as set out above could be applied directly to the information held in the system at each Practice at the end of each reporting period (month).
 
@@ -555,7 +555,7 @@ Taking this approach allows for the identification of a TNA which falls in a mon
 
 **Therefore, for consistency, any instance where the TNA identified falls in a month subsequent to the reporting period (month) MUST be excluded and ignored** ***i.e. for the February reporting period, in any case where the actual TNA identified is in March or later, this instance MUST be ignored and excluded from the sum returned.***
 
-### OPTION 3 – Calculate at time of booking and store
+### OPTION 3 – Calculate at time of booking and store {#ManagementInformation(MI)Reportingv1.0.1-OPTION3–Calculateattimeofbookingandstore}
 
 The third option for returning the TNA sum as part of the Business Information Reporting Specification does not rely on the methodology for a retrospective calculation as set out for Options 1 and 2 above.
 
@@ -575,7 +575,7 @@ Please note the following conditions:
 
 - It is recognised that selecting option 3 is unlikely to allow for the return of historical TNA data
 
-### Worked Examples
+### Worked Examples {#ManagementInformation(MI)Reportingv1.0.1-WorkedExamples}
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -604,7 +604,7 @@ Please note the following conditions:
 | 22 | Mar 1st 10am | Feb 20th 3pm | Feb 27th 2pm |  |
 | 23 | Mar 1st 3pm | x |  |  |
 
-#### Option 1
+#### Option 1 {#ManagementInformation(MI)Reportingv1.0.1-Option1}
 
 After end of February, Supplier extracts all Appointments with a start date/time in February.  **Appt Nos. 6-21 ONLY**
 
@@ -669,18 +669,18 @@ The process should be followed for every Booked date/time associated with every 
 
 Looking towards the end of the month, take Appt 21.  The TNA identified would be Appt 23. However, because the Supplier only extracts the data for the reporting month (February), Appt 22 and Appt 23 which are in March do not appear in the data. Hence it would not be possible to identify the TNA. Therefore, this MUST be excluded from the data returned.
 
-#### Option 2
+#### Option 2 {#ManagementInformation(MI)Reportingv1.0.1-Option2}
 
 - Apply the methodology to calculate TNA directly to the system without an extraction of data.
 - Any TNA identified which falls in March (or any month after February) should be ignored and excluded from the data returned. Although it would be possible to identify that the TNA for the booked date/time associated with Appt 21 is Appt 23, this figure should be ignored for consistency as it would not be possible to obtain it using Option 1 methodology.
 
-#### Option 3
+#### Option 3 {#ManagementInformation(MI)Reportingv1.0.1-Option3}
 
 - The TNA is identified and calculated at the time at which the Appointment is booked i.e. for Appt 10, the TNA would be identified as Appt 5 at the point at which Appt 10 was booked (28th Jan at 3pm), the amount of time between the booking time and the start time would be calculated and stored ready to be returned as part of the February Management Information return.
 - The figure calculated must be included in the Management Information for the reporting period in which the Appointment booked is due to take place based on the start date/time of that Appointment i.e. for Appt 10, although the booked date/time is in January, the start date/time of the Appointment booked is in February, therefore this should be returned as part of the February return.
 - Any TNA identified which falls in March (or any month after February) should be ignored and excluded from the data returned. Although it would be possible to identify that the TNA for the booked date/time associated with Appt 21 is Appt 23, this figure should be ignored for consistency as it would not be possible to obtain it using Option 1 methodology.
 
-#### Summary
+#### Summary {#ManagementInformation(MI)Reportingv1.0.1-Summary}
 
 Looking at all the Appointments, the table below shows the TNA which should be identified for each booking time associated with each Appointment for the February return
 
@@ -709,19 +709,19 @@ Looking at all the Appointments, the table below shows the TNA which should be i
 | **Sum of time until 3rd next available Appointment (to be returned (field 1238, 1239, 1240)** | **114** |  |  |  |
 | **Total number of figures added together to get the sum (field 1241, 1242, 1243)** | **14** |  |  |  |
 
-# Applicable Capabilities
+# Applicable Capabilities {#ManagementInformation(MI)Reportingv1.0.1-ApplicableCapabilities}
 
 All Supplier Solutions will need to meet this Standard if they are delivering the Capability.
 
 - [GP Extracts Verification](../../DSIC-Capabilities/GP-Extracts-Verification.md)
 
-# Dependencies
+# Dependencies {#ManagementInformation(MI)Reportingv1.0.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [Secure Electronic File Transfer (SEFT)](../../DSIC-Standards/Non-Overarching-Standards/Secure-Electronic-File-Transfer-SEFT.md)
 
-# Roadmap
+# Roadmap {#ManagementInformation(MI)Reportingv1.0.1-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

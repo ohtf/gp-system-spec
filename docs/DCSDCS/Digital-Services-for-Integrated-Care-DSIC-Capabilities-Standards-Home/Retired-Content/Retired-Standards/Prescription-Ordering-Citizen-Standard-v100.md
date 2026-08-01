@@ -15,10 +15,10 @@ labels: ["capability_specific_retired"]
 | ID | S3 |
 | Version | 1.0.0 |
 | Type | Capability Specific Standard |
-| Status | Retired |
-| Effective Date | 01 Apr 2019 |
+| Status {#PrescriptionOrdering-Citizen-Standardv1.0.0-Status} | Retired |
+| Effective Date {#PrescriptionOrdering-Citizen-Standardv1.0.0-EffectiveDate} | 01 Apr 2019 |
 
-# Requirements
+# Requirements {#PrescriptionOrdering-Citizen-Standardv1.0.0-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -43,13 +43,13 @@ labels: ["capability_specific_retired"]
 | Epic 3 | **GP-ORPR-3.02** | **Prescription Management - Preferred Pharmacy - Amend/Cancel - Patient**  Allow Patients to amend their Preferred Pharmacy, by selecting from a list of pharmacies (sourced from ODS and as defined by the Practice - See GP-07.3-06).  Option will only be available if the Patient is NOT participating in EPS and will not change the Patient’s Nominated Pharmacy. | MAY |
 | Epic 8 | **GP-ORPR-13** | **Prescription Management - Preferred Pharmacy - Amend/Cancel - Proxy**  Allow Proxies to amend the Patient's Preferred Pharmacy, by selecting from a list of pharmacies (sourced from ODS and as defined by the Practice - See GP-07.3-06).  Option will only be available if the Patient is NOT participating in EPS and will not change the Patient’s Nominated Pharmacy. | MAY |
 
-# Capability
+# Capability {#PrescriptionOrdering-Citizen-Standardv1.0.0-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Prescription Ordering – Citizen Capability
 
-# Roadmap
+# Roadmap {#PrescriptionOrdering-Citizen-Standardv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

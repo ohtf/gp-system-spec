@@ -19,7 +19,7 @@ labels: ["capability"]
 | **Effective Date** | 31 Dec 2019 |
 | **Framework(s)** | [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF) |
 
-## **Description**
+## **Description** {#Productivity-Description}
 
 The Productivity Capability is used to describe a wide range of Solutions that deliver one or more of the following outcomes to Patients/Service Users and Staff within health and care settings:
 
@@ -47,7 +47,7 @@ The Solutions that may be listed against the Productivity Capability can be loos
 
 This is not, however, an exhaustive list and the Capability has been deliberately documented with the goal of keeping the door open for other functions, not already identified, to be included in Solutions on the Catalogue. Because Productivity is intended to encompass a wide range of Supplier defined capabilities that can contribute to Solutions, the approach to documenting the requirements and evaluating Suppliers against these requirements differs from that used for other Capabilities, as described below.
 
-# Outcomes
+# Outcomes {#Productivity-Outcomes}
 
 As part of Catalogue On-Boarding, Suppliers are expected to identify one or more of the Outcomes below that their Productivity Capability aligns to.
 
@@ -58,7 +58,7 @@ As part of Catalogue On-Boarding, Suppliers are expected to identify one or more
 
 **MUST Epics - The requirements for Productivity are to be defined by Suppliers, who will provide one or more outcome-based epics and associated acceptance criteria using the following format. During the Capability Assessment Stage of Catalogue On-boarding, Suppliers must evidence that their products deliver the outcomes described by their self-defined epic(s) and all associated acceptance criteria prior to being accepted onto the Catalogue.**
 
-### C41E1 - title
+### C41E1 - title {#Productivity-C41E1-title}
 
 As a ... [add actor]
 
@@ -66,7 +66,7 @@ I want ... [add objective]
 
 So that ... [add a goal or outcome]
 
-#### Acceptance criterion 1: title
+#### Acceptance criterion 1: title {#Productivity-Acceptancecriterion1:title}
 
 Given ... [add description of state/condition 1]
 
@@ -80,7 +80,7 @@ And (optional) ... [add (optional) description of one or more additional outco
 
 ---
 
-### C41E2 - title
+### C41E2 - title {#Productivity-C41E2-title}
 
 As a ... [add actor]
 
@@ -88,7 +88,7 @@ I want ... [add objective]
 
 So that ... [add a goal or outcome]
 
-#### Acceptance criterion 1: title
+#### Acceptance criterion 1: title {#Productivity-Acceptancecriterion1:title.1}
 
 Given ... [add description of state/condition 1]
 

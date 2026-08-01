@@ -18,7 +18,7 @@ labels: ["overarching_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-# Description
+# Description {#BusinessContinuityandDisasterRecoveryv1.0.0-Description}
 
 Ensures that suppliers Solutions are supported by robust business continuity plans and disaster recovery measures.
 
@@ -33,7 +33,7 @@ Following receipt of the draft BCDR Plan (see standards BD-DR-17 and BC-DR-18) 
 - Review and comment on the draft BCDR Plan as soon as reasonably practicable; and
 - Notify the Supplier in writing that it approves or rejects their draft BCDR Plan no later than twenty (20) Working Days after the date on which the draft BCDR Plan is first delivered to NHS Digital.
 
-# Requirements
+# Requirements {#BusinessContinuityandDisasterRecoveryv1.0.0-Requirements}
 
 | Requirement ID | Requirement Text | Level |
 | --- | --- | --- |
@@ -63,13 +63,13 @@ Following receipt of the draft BCDR Plan (see standards BD-DR-17 and BC-DR-18) 
 | **BC-DR-23** | **Plan review** The supplier shall review the BCDR plan and the risk analysis on which it is based on a regular basis and as a minimum once every 12 months. Upon update, the BCDR plan shall be re-issued to NHS Digital for review and approval. | MUST |
 | **BC-DR-24** | **Data centre inspection** The supplier will, at the request of NHS Digital, facilitate an inspection of the data centre(s) hosting the services to validate that the hosting arrangements described in their BCDR plans are consistent with the configuration and capability of the data centre(s). Repeat inspections will be determined based on the outcome of the inspection. | MUST |
 
-# Capabilities
+# Capabilities {#BusinessContinuityandDisasterRecoveryv1.0.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#BusinessContinuityandDisasterRecoveryv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

@@ -10,7 +10,7 @@ labels: []
 
 # Direct Award
 
-# Step by step Guide: Direct Award
+# Step by step Guide: Direct Award {#DirectAward-StepbystepGuide:DirectAward}
 
 **Preliminaries**
 
@@ -21,7 +21,7 @@ The terminology used below assumes that the reader has familiarised themselves w
 - [How to buy](../index.md)
 - [Executing a procurement - a step by step guide](index.md)
 
-## Step 1: Prepare
+## Step 1: Prepare {#DirectAward-Step1:Prepare}
 
 **Confirm you have the right procedure**
 
@@ -72,7 +72,7 @@ The evaluation of the non-price elements must be based on information you can fi
 
 You will need to define a scoring system for the price criteria where the lowest price scores the highest score.  You will also need to define a scoring system for your Non-Price Elements, in which the highest score represents the best price and the best quality.
 
-## Step 2: Review Catalogue Solutions
+## Step 2: Review Catalogue Solutions {#DirectAward-Step2:ReviewCatalogueSolutions}
 
 **See what Catalogue Solutions are available to buy**
 
@@ -82,7 +82,7 @@ Go to the [Buying Catalogue](http://buyingcatalogue.digital.nhs.uk) and see wha
 
 Review all the Catalogue Solutions on the [Buying Catalogue](http://buyingcatalogue.digital.nhs.uk) and create a shortlist of [Catalogue Solutions](http://buyingcatalogue.digital.nhs.uk) that can meet your requirements by using the [Capabilities](../../Capability-and-Standards-Overview.md) and other information on the [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) Listing page.
 
-## Step 3: Evaluate
+## Step 3: Evaluate {#DirectAward-Step3:Evaluate}
 
 If there is genuinely only one [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) on your shortlist that fulfils your requirements, you have a shortlist of one and can select that [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) and proceed to Step 4.
 
@@ -106,7 +106,7 @@ If you are using **price only (with no non-price elements)** select the Supplier
 
 If you are using **price with non-price elements** score each [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) using the criteria, weightings and scoring system.  The Supplier of the [Catalogue Solution](http://buyingcatalogue.digital.nhs.uk) with the highest score is the preferred Supplier.
 
-## Step 4: Call Off Order Form and Award
+## Step 4: Call Off Order Form and Award {#DirectAward-Step4:CallOffOrderFormandAward}
 
 **Notify your preferred Supplier**
 

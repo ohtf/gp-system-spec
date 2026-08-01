@@ -20,7 +20,7 @@ labels: ["capability_retired"]
 
 Full or Partial Capability status. For this Capability, Solutions are required to meet a minimum of one MUST EPIC and associated acceptance criteria but not all MUST EPICs (where there are multiple MUST EPICS) to achieve Partial Capability Status, or; to meet all MUST EPICs and their associated acceptance criteria to achieve Full Capability Status.
 
-# Description
+# Description {#PersonalHealthBudgetv1.0.0-Description}
 
 Personal Health Budgets are amounts of money allocated to a Patient/Service User to support their health and well-being needs and to enable them to purchase and manage their own treatments, equipment and personal care. Personal Health Budgets are available to Adults receiving NHS Continuing Healthcare and children receiving continuing care - for example, people with long-term physical or mental health issues. Requests outside this are considered on a case basis by the Patient/Service User's CCG.
 
@@ -28,7 +28,7 @@ A Personal Health Budget Capability will allow a Personal Health Budget to be de
 
 A Personal Health Budget Capability may manage multiple budgets and the directory of equipment, treatments and therapies and give further reporting functionality. It may also link to the Patient record and Workflow tasks to further broaden its integration with other functions.
 
-# Outcomes
+# Outcomes {#PersonalHealthBudgetv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -39,7 +39,7 @@ A Personal Health Budget Capability may manage multiple budgets and the director
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### EpicPB1 - manage Personal Health Budget
+### EpicPB1 - manage Personal Health Budget {#PersonalHealthBudgetv1.0.0-EpicPB1-managePersonalHealthBudget}
 
 As a Patient/Service User
 
@@ -47,7 +47,7 @@ I want to manage my Personal Health Budget
 
 So that I can use my budget to deliver my desired health outcomes
 
-#### Acceptance criterion 1: create Personal Health Budget
+#### Acceptance criterion 1: create Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:createPersonalHealthBudget}
 
 Given the Health or Care Professional has requested a Personal Health Budget
 
@@ -55,7 +55,7 @@ When they choose to create the Personal Health Budget
 
 Then the Personal Health Budget is created for the Patient/Service User
 
-#### Acceptance criterion 2: choose an individual to manage Personal Health Budget
+#### Acceptance criterion 2: choose an individual to manage Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion2:chooseanindividualtomanagePersonalHealthBudget}
 
 Given the Patient/Service User has been allocated a Personal Health Budget
 
@@ -65,7 +65,7 @@ Then the individual can access the Personal Health Budget
 
 And can make purchases on behalf of the Patient/Service User
 
-#### Acceptance criterion 3: view Personal Health Budget
+#### Acceptance criterion 3: view Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion3:viewPersonalHealthBudget}
 
 Given that the Patient/Service User has a Personal Health Budget
 
@@ -75,7 +75,7 @@ When the Patient/Service User chooses to view the Personal Health budget
 
 Then the Personal Health Budget is displayed
 
-#### Acceptance criterion 4: review Personal Health Budget
+#### Acceptance criterion 4: review Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion4:reviewPersonalHealthBudget}
 
 Given a Personal Health Budget and care plan has been set up for a Patient/Service User
 
@@ -83,7 +83,7 @@ When the Personal Health Budget is reviewed
 
 Then a record of the review can be recorded against the Personal Health Budget
 
-#### Acceptance criterion 5: amend Personal Health Budget
+#### Acceptance criterion 5: amend Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion5:amendPersonalHealthBudget}
 
 Given a Personal Health Budget and care plan have been set up for a Patient/Service User
 
@@ -91,7 +91,7 @@ When the Personal Health Budget is reviewed
 
 Then the Personal Health Budget can be amended
 
-#### Acceptance criterion 6: close Personal Health Budget
+#### Acceptance criterion 6: close Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion6:closePersonalHealthBudget}
 
 Given a Personal Health Budget and care plan have been set up for a Patient/Service User
 
@@ -103,7 +103,7 @@ And the Personal Health Budget can be closed or made inactive
 
 ---
 
-### EpicPB2 - record Personal Health Budget purchases
+### EpicPB2 - record Personal Health Budget purchases {#PersonalHealthBudgetv1.0.0-EpicPB2-recordPersonalHealthBudgetpurchases}
 
 As a Patient/Service User
 
@@ -111,7 +111,7 @@ I want to be able to record Personal Health Budget purchases
 
 So that I can evidence where my Personal Health Budget has been spent
 
-#### Acceptance criterion 1: record Personal Health Budget purchase
+#### Acceptance criterion 1: record Personal Health Budget purchase {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:recordPersonalHealthBudgetpurchase}
 
 Given that the Patient/Service User can access the Personal Health Budget Solution
 
@@ -123,7 +123,7 @@ And this is recorded against the Personal Health Budget for the Patient/Servic
 
 ---
 
-### EpicPB3 - assess Personal Health Budgets
+### EpicPB3 - assess Personal Health Budgets {#PersonalHealthBudgetv1.0.0-EpicPB3-assessPersonalHealthBudgets}
 
 As a representative of the CCG
 
@@ -131,7 +131,7 @@ I want to be able to assess Personal Health Budgets
 
 So that I can ensure that Budgets are only spent on appropriate products and services
 
-#### Acceptance criterion 1: view purchase trail against the budget
+#### Acceptance criterion 1: view purchase trail against the budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:viewpurchasetrailagainstthebudget}
 
 Given the user has been permitted access to the Personal Health Budget
 
@@ -143,7 +143,7 @@ Then purchase trail against the budget is displayed
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### EpicPB4 - link Personal Health Budget with care plan
+### EpicPB4 - link Personal Health Budget with care plan {#PersonalHealthBudgetv1.0.0-EpicPB4-linkPersonalHealthBudgetwithcareplan}
 
 As a Patient/Service User
 
@@ -151,7 +151,7 @@ I want to link my care plan and Personal Health Budget
 
 So that I can ensure that my Personal Health Budget is spent in the way most likely to deliver my identified health and well-being outcomes
 
-#### Acceptance criterion 1: link Personal Health Budget with care plan
+#### Acceptance criterion 1: link Personal Health Budget with care plan {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:linkPersonalHealthBudgetwithcareplan}
 
 Given a care plan has been created for a Patient/Service User
 
@@ -161,7 +161,7 @@ Then the Budget and care plan for the Patient/Service User can be linked
 
 And the care plan can be viewed
 
-#### Acceptance criterion 2: link Purchases to elements on the care plan
+#### Acceptance criterion 2: link Purchases to elements on the care plan {#PersonalHealthBudgetv1.0.0-Acceptancecriterion2:linkPurchasestoelementsonthecareplan}
 
 Given a Personal Health Budget has been created for a Patient/Service User
 
@@ -173,7 +173,7 @@ Then the purchases can be linked to elements of the care plan
 
 ---
 
-### EpicPB5 - support different models for management of Personal Health Budgets
+### EpicPB5 - support different models for management of Personal Health Budgets {#PersonalHealthBudgetv1.0.0-EpicPB5-supportdifferentmodelsformanagementofPersonalHealthBudgets}
 
 As a Care Coordinator or Local NHS Team
 
@@ -181,7 +181,7 @@ I want to choose a model to manage a particular Personal Health Budget
 
 So that I can select the model that will be most appropriate and effective for the Patient/Service User and their Care Team
 
-#### Acceptance criterion 1: support different management models
+#### Acceptance criterion 1: support different management models {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:supportdifferentmanagementmodels}
 
 Given a Personal Health Budget has been assigned to a Patient/Service User
 
@@ -193,7 +193,7 @@ And the agreed equipment, treatments or services can be purchased by the releva
 
 ---
 
-### EpicPB6 - apply criteria for the use of Personal Health Budgets
+### EpicPB6 - apply criteria for the use of Personal Health Budgets {#PersonalHealthBudgetv1.0.0-EpicPB6-applycriteriafortheuseofPersonalHealthBudgets}
 
 As a representative of the CCG
 
@@ -201,7 +201,7 @@ I want to apply criteria for the use of Personal Health Budgets
 
 So that I can ensure the Budgets are used only by eligible Patients/Service Users
 
-#### Acceptance criterion 1: eligible Patient/Service User
+#### Acceptance criterion 1: eligible Patient/Service User {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:eligiblePatient/ServiceUser}
 
 Given the Personal Health Budget eligibility criteria has been defined for Patients/Service Users (e.g. Adults eligible for NHS Continuing Healthcare and children receiving continuing care)
 
@@ -211,7 +211,7 @@ Then the Personal Health Budget can be created for the Patient/Service User
 
 ---
 
-### EpicPB7 - payments under Personal Health Budgets
+### EpicPB7 - payments under Personal Health Budgets {#PersonalHealthBudgetv1.0.0-EpicPB7-paymentsunderPersonalHealthBudgets}
 
 As a Health or Care Professional
 
@@ -219,7 +219,7 @@ I want to make payments relating to Personal Health Budgets
 
 So that I can enable Patient/Service Users to access appropriate products and services
 
-#### Acceptance criterion 1: pay for products or services
+#### Acceptance criterion 1: pay for products or services {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:payforproductsorservices}
 
 Given a Personal Health Budget is being managed with a model (e.g. via the NHS Care Team, Third Party, direct payment or a combination of these)
 
@@ -231,7 +231,7 @@ And the payment can be recorded against the relevant Personal Health Budget
 
 ---
 
-### EpicPB8 - maintain directory of equipment, treatments and services
+### EpicPB8 - maintain directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-EpicPB8-maintaindirectoryofequipment,treatmentsandservices}
 
 As a Personal Health Budget Manager or Health or Care Professional
 
@@ -239,7 +239,7 @@ I want to be able to maintain a directory of equipment, treatments or services
 
 So that I can use the directory to find relevant equipment, treatments or services
 
-#### Acceptance criterion 1: create directory of equipment, treatments and services
+#### Acceptance criterion 1: create directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:createdirectoryofequipment,treatmentsandservices}
 
 Given that the user is permitted to create a directory of equipment, treatments and services in the Personal Health Budget Solution
 
@@ -247,7 +247,7 @@ When the user chooses to create the directory of equipment, treatments and ser
 
 Then the directory is created
 
-#### Acceptance criterion 2: view directory of equipment, treatments and services
+#### Acceptance criterion 2: view directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-Acceptancecriterion2:viewdirectoryofequipment,treatmentsandservices}
 
 Given that the user is permitted to view the directory of equipment, treatments and services in the Personal Health Budget Solution
 
@@ -257,7 +257,7 @@ When the user chooses to view the directory of equipment, treatments and servi
 
 Then the directory is displayed
 
-#### Acceptance criterion 3: amend directory of equipment, treatments and services
+#### Acceptance criterion 3: amend directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-Acceptancecriterion3:amenddirectoryofequipment,treatmentsandservices}
 
 Given that a directory of equipment, treatments and services has been created in the Personal Health Budget Solution
 
@@ -265,7 +265,7 @@ When the user chooses to update the directory of equipment, treatments and ser
 
 Then the directory is amended
 
-#### Acceptance criterion 4: remove an item from the directory of equipment, treatments and services
+#### Acceptance criterion 4: remove an item from the directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-Acceptancecriterion4:removeanitemfromthedirectoryofequipment,treatmentsandservices}
 
 Given that a directory of equipment, treatments and services has been created in the Personal Health Budget Solution
 
@@ -275,7 +275,7 @@ Then then the item in the directory is removed
 
 ---
 
-### EpicPB9 - search a directory of equipment, treatments and services
+### EpicPB9 - search a directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-EpicPB9-searchadirectoryofequipment,treatmentsandservices}
 
 As a Personal Health Budget Manager or Health or Care Professional
 
@@ -283,7 +283,7 @@ I want to be able to search a directory of equipment, treatments or services
 
 So that I can identify and select the equipment, treatments or services that will support delivery of the Patient/Service User's healthcare outcomes
 
-#### Acceptance criterion 1: search directory of equipment, treatments and services
+#### Acceptance criterion 1: search directory of equipment, treatments and services {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:searchdirectoryofequipment,treatmentsandservices}
 
 Given that a directory of equipment, treatments and services has been created in the Personal Health Budget Solution
 
@@ -295,7 +295,7 @@ Then the list of equipment, treatments or services that match the search criter
 
 ---
 
-### EpicPB10 - manage multiple budgets
+### EpicPB10 - manage multiple budgets {#PersonalHealthBudgetv1.0.0-EpicPB10-managemultiplebudgets}
 
 As a Personal Health Budget Manager
 
@@ -303,7 +303,7 @@ I want to manage budgets from multiple sources (e.g. those relating to health, 
 
 So that I can more easily manage and co-ordinate across all my needs
 
-#### Acceptance criterion 1: manage multiple health and care budgets
+#### Acceptance criterion 1: manage multiple health and care budgets {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:managemultiplehealthandcarebudgets}
 
 Given a Personal Health Budget has been set up for a Patient/Service User
 
@@ -317,7 +317,7 @@ And the Patient/Service User can use the single, joint budget to pay for agreed�
 
 ---
 
-### EpicPB11 - link to Patient Record
+### EpicPB11 - link to Patient Record {#PersonalHealthBudgetv1.0.0-EpicPB11-linktoPatientRecord}
 
 As a Health or Care Professional
 
@@ -325,7 +325,7 @@ I want to be able to access the Patient Record for the Patient
 
 So that I can confirm their medical history and understand their entitlement to a Personal Health Budget
 
-#### Acceptance criterion 1: link to Patient Record
+#### Acceptance criterion 1: link to Patient Record {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:linktoPatientRecord}
 
 Given the Health or Care Professional has been permitted access to the Patient Record
 
@@ -335,7 +335,7 @@ Then the Patient Record is displayed
 
 ---
 
-### EpicPB12 - link to Workflow
+### EpicPB12 - link to Workflow {#PersonalHealthBudgetv1.0.0-EpicPB12-linktoWorkflow}
 
 As a Health or Care Professional
 
@@ -343,7 +343,7 @@ I want to be able to create a workflow task from the Personal Health Budget Sol
 
 So that I can send requests for information into the Patient/Service User's Practice (e.g. request for clinical information, request for confirmation of medical history)
 
-#### Acceptance criterion 1: create Workflow task
+#### Acceptance criterion 1: create Workflow task {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:createWorkflowtask}
 
 Given the Health or Care Professional has been permitted to create Workflow Tasks
 
@@ -355,7 +355,7 @@ And the task is directed into the workflow for the Practice
 
 ---
 
-### EpicPB13 - provider view
+### EpicPB13 - provider view {#PersonalHealthBudgetv1.0.0-EpicPB13-providerview}
 
 As a Service or Product Provider
 
@@ -363,7 +363,7 @@ I want to be able to view the purchases of my products or services
 
 So that I can analyse and understand take-up of my products and services
 
-#### Acceptance criterion 1: provider can view purchase information
+#### Acceptance criterion 1: provider can view purchase information {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:providercanviewpurchaseinformation}
 
 Given a Provider's products or services are included in the Directory
 
@@ -375,7 +375,7 @@ Then purchase information relating to their products or services is displayed
 
 ---
 
-### EpicPB14 - Management Information
+### EpicPB14 - Management Information {#PersonalHealthBudgetv1.0.0-EpicPB14-ManagementInformation}
 
 As a representative of the CCG
 
@@ -383,7 +383,7 @@ I want to analyse and report against data relating to Personal Health Budgets
 
 So that I can use the results to plan and commission healthcare more effectively to meet the needs of Patients/Service Users
 
-#### Acceptance criterion 1: Management Information reporting
+#### Acceptance criterion 1: Management Information reporting {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:ManagementInformationreporting}
 
 Given the user is permitted to run Management Information reports
 
@@ -393,7 +393,7 @@ Then the Management Information report is displayed
 
 ---
 
-### EpicPB15 - identify candidates for Personal Health Budgets
+### EpicPB15 - identify candidates for Personal Health Budgets {#PersonalHealthBudgetv1.0.0-EpicPB15-identifycandidatesforPersonalHealthBudgets}
 
 As a representative of the CCG
 
@@ -401,7 +401,7 @@ I want to identify potential candidates eligible for Personal Health Budgets
 
 So that Patients/Service Users can be proactively identified
 
-#### Acceptance criterion 1: identify Patients/Service Users that are candidates for a Personal Health Budget
+#### Acceptance criterion 1: identify Patients/Service Users that are candidates for a Personal Health Budget {#PersonalHealthBudgetv1.0.0-Acceptancecriterion1:identifyPatients/ServiceUsersthatarecandidatesforaPersonalHealthBudget}
 
 Given the CCG has defined criteria for prioritising Patient/Service User need
 

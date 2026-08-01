@@ -12,13 +12,13 @@ labels: []
 
 The ‘Digital First Online Consultation and Video Consultation (DFOCVC) Framework’ sits within the Digital Care Services Catalogue and is the primary mechanism for procurement of Online Consultation (OC) and Video Consultation (VC) systems for general practice but will also provide a buying route for any NHS customer (noting that there are different funding arrangements for other NHS providers). The DFOCVC Framework replaced the NHS England Online Consultations DPS and the ‘eConsultations – Patient/Service User to Clinician’ Capability under GPIT Futures.
 
-## Standards and Capabilities
+## Standards and Capabilities {#DFOCVC-StandardsandCapabilities}
 
 Solutions which are available via DFOCVC have been reviewed by NHS Digital to validate their compliance with various Standards, such as Information Governance and others. The Capabilities provided by solutions have also been subject to assessment by NHS Digital, which validates that the solutions are able to deliver the Capabilities as stated. The full Standards and Capabilities model for DFOCVC is available via [Digital First Online Consultation & Video Consultation - Confluence (atlassian.net)](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL/overview?homepageId=5132484853).
 
 Standards and Capabilities are used across the Digital Care Services Catalogue, to describe functional or technical requirements. The following page explains these terms in more detail [Capability and Standards Overview - Buyer Guidance - Confluence (atlassian.net)](../Capability-and-Standards-Overview.md)
 
-## Buying from DFOCVC
+## Buying from DFOCVC {#DFOCVC-BuyingfromDFOCVC}
 
 DFOCVC solutions are available to purchase for NHS bodies, including Primary Care, Secondary Care and others.
 

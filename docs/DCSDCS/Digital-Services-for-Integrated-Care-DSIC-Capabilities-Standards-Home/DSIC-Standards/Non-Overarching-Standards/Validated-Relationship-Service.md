@@ -27,37 +27,37 @@ labels: ["standard"]
 - [Dependencies](#ValidatedRelationshipService-Dependencies)
 - [Roadmap](#ValidatedRelationshipService-Roadmap)
 
-# Introduction
+# Introduction {#ValidatedRelationshipService-Introduction}
 
 The Validated Relationship Service - FHIR API enables a Solution to access the Validated Relationship Service. This is the national electronic database of relationships that have been verified for the purpose of enabling individuals to access healthcare services on behalf of those they care for. The relationships held by this service are strictly for the purpose of enabling access to healthcare services.
 
-# Requirements
+# Requirements {#ValidatedRelationshipService-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
 | All Suppliers | VRS01 | Implement and maintain the [Validated Relationship Service - FHIR API](https://digital.nhs.uk/developer/api-catalogue/validated-relationship-service) inline with the latest specification version as per the Validated Relationship Service Operations section. | MUST |
 
-## Validated Relationship Service Operations
+## Validated Relationship Service Operations {#ValidatedRelationshipService-ValidatedRelationshipServiceOperations}
 
 | **Capability** | **Get Verified Candidate Relationships** | **Get Proxy Roles** | **Create Proxy Roles** |
 | --- | --- | --- | --- |
 | [Patient Information Maintenance - GP](../../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) | (tick) | (error) | (error) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#ValidatedRelationshipService-Compliance,AssuranceandTesting}
 
 See the Validated Relationship Service section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#ValidatedRelationshipService-Documentation}
 
 - [Validated Relationship Service - FHIR API](https://digital.nhs.uk/developer/api-catalogue/validated-relationship-service)
 
-# Dependencies
+# Dependencies {#ValidatedRelationshipService-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - [Authentication and Access](Authentication-and-Access.md) - using NHS Care Identity Service 2 API
 
-# Roadmap
+# Roadmap {#ValidatedRelationshipService-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard.
 

@@ -18,14 +18,14 @@ labels: ["overarching_standard_retired"]
 | Status | Retired |
 | Effective Date | 01 Apr 2019 |
 
-# Description
+# Description {#Non-FunctionalQuestionsv1.0.0-Description}
 
 - [Non-Functional Questions Model](#Non-FunctionalQuestionsv1.0.0-Non-FunctionalQuestionsModel)
 - [Non-Functional Categories](#Non-FunctionalQuestionsv1.0.0-Non-FunctionalCategories)
 
 Non-functional requirements describe how the Solution works, not what the Solution should do, and serve as constraints or restrictions on the design of the Solution. The following non-functional questions are to enable NHS Digital to understand how the supplier Solution has implemented its non-functional requirements and how these requirements will fulfil the contractual SLAs.
 
-## Non-Functional Questions Model
+## Non-Functional Questions Model {#Non-FunctionalQuestionsv1.0.0-Non-FunctionalQuestionsModel}
 
 The non-functional questions (NFQs) model illustrated within Figure A attempts to show the relationships between the supplier Solution and the non-functional requirements (NFRs) required to satisfy the required service SLAs.
 
@@ -35,7 +35,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 
 **Figure A - Non-Functional Questions Model**
 
-## Non-Functional Categories
+## Non-Functional Categories {#Non-FunctionalQuestionsv1.0.0-Non-FunctionalCategories}
 
 - [Usability](#Non-FunctionalQuestionsv1.0.0-Usability)
 - [Performance and Scalability](#Non-FunctionalQuestionsv1.0.0-PerformanceandScalability)
@@ -55,7 +55,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 - [Integrity](#Non-FunctionalQuestionsv1.0.0-Integrity)
 - [Mobile Working](#Non-FunctionalQuestionsv1.0.0-MobileWorking)
 
-### Usability
+### Usability {#Non-FunctionalQuestionsv1.0.0-Usability}
 
 | **ID** | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-U-5** | Language support | Which non-English languages are supported? Which localisation settings are supported? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-U-6** | UI standards | What user interface standards does the Solution meet? Are you following [ISO 9241-210:2010](https://www.iso.org/obp/ui/#iso:std:iso:9241:-210:ed-1:v1:en) - the ‘six principles for human centred design'? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Performance and Scalability
+### Performance and Scalability {#Non-FunctionalQuestionsv1.0.0-PerformanceandScalability}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-PS-12** | End User Interaction Timings | Describe how measurements are calculated for end user interaction timings to meet SLAs. | Provide values, show how the figures are derived, including any considerations which may impact the values. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-PS-13** | Interface Mechanism Response Times | Describe how measurements are calculated for interface mechanism response times to meet SLAs. | Provide values, show how the figures are derived, including any considerations which may impact the values. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Volume and Performance
+### Volume and Performance {#Non-FunctionalQuestionsv1.0.0-VolumeandPerformance}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-VP-2** | V&P Performance | What V&P work has been undertaken to ensure the Solution will meet expected volume & performance SLAs. | Provide statement of  V&P assessment activities and associated test reports. | Demonstrate systematic approach of how the evidence is derived. |
 | **GP-NFQ-VP-3** | Spine | What V & P testing of National Spine interactions (e.g. Personal Demographics Service, Summary Care Record, *e*-Referral Service, ..) is planned, to ensure supplier’s Solution has no impact on National Spine services? | Provide test plan. | Validate test coverage. |
 
-### Non Functional Testing
+### Non Functional Testing {#Non-FunctionalQuestionsv1.0.0-NonFunctionalTesting}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -101,14 +101,14 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-T-3** | ITHC / Penetration Testing | What ITHC / penetration testing is planned? | Provide testing scope, documented process, and test, and corrective action evidence. | Validate scope, process & testing and any recommendations required corrective actions completed. acted upon. |
 | **GP-NFQ-T-4** | Ready for Operations (RFO) Testing | What RFO testing is planned? | Provide details of RFO test coverage, examples:  • application / component failure and recovery  • monitoring and reporting of SLAs • Help Desk tools and processes • Testing to confirm the successful deployment process of the Solution | Validate test coverage. |
 
-### Recoverability
+### Recoverability {#Non-FunctionalQuestionsv1.0.0-Recoverability}
 
 | ID |  |  | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
 | **GP-NFQ-R-1** | Disaster recovery point objective (RPO) | What RPO is possible with this Solution and how does that map to the required SLA? | Provide a value, show how the figure is derived, including any considerations which may impact this value. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-R-2** | Disaster recovery time objective (RTO) | What RTO is possible with this Solution and how does that map to the required SLA? | Provide a value, show how the figure is derived, including any considerations which may impact this value. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Backup capability
+### Backup capability {#Non-FunctionalQuestionsv1.0.0-Backupcapability}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-B-2** | Validation & Testing | Describe what testing has been undertaken to demonstrate the mechanism and processes support your operational requirements. | Confirm formal processes and mechanisms are in place.  Provide design and documentation of implementation and operational processes. | Demonstrate systematic approach and rationale of design, implementation and processes. |
 | **GP-NFQ-B-3** | Periodic Testing | Describe what periodic testing of backup and recovery is undertaken? | Confirm formal processes and mechanisms are in place.  Provide design and documentation of implementation and operational processes. | Demonstrate systematic approach and rationale of design, implementation and processes. |
 
-### Availability
+### Availability {#Non-FunctionalQuestionsv1.0.0-Availability}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -128,7 +128,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-A-6** | Degradability | Describe the ability of the solution to operate with reduced capacity or functionality in the event of an unexpected event, e.g. site failure | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-A-7** | Disaster recovery minimum recovery operating level (MROL) | In the event of a disaster what are the minimum business services that need to be recovered to continue operating? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Resilience
+### Resilience {#Non-FunctionalQuestionsv1.0.0-Resilience}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -138,14 +138,14 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-R-4** | Business Impact of Service Incidents | Describe what mapping of business impacts of service incidents against levels of resilience has been undertaken? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-R-5** | Component Failure Impact Analysis | Describe what CIFA documentation has been produced? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Information Governance
+### Information Governance {#Non-FunctionalQuestionsv1.0.0-InformationGovernance}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment  Criteria |
 | --- | --- | --- | --- | --- |
 | **GP-NFQ-IG-1** | Data retention | What NHS Digital data retention policies are enforced by the Solution? See **GP-IG-14.2-4**in the Information Governance standard. | Provide documented evidence and rationale, including any impact considerations.  or  Provide list of policies | Demonstrate systematic approach and rationale of how evidence is derived.  or  How well do the policies map to requirements and legislation |
 | **GP-NFQ-IG-2** | Data archiving | What data archiving policies must be enforced by the Solution? | Provide documented evidence and rationale, including any impact considerations.  or  Provide list of policies | Demonstrate systematic approach and rationale of how evidence is derived.  or  How well do the policies map to requirements and legislation |
 
-### Security
+### Security {#Non-FunctionalQuestionsv1.0.0-Security}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -158,7 +158,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-S-7** | Data redaction and obfuscation | Describe what mechanisms are in place for redaction and obfuscation of sensitive data? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-S-8** | Protection from exploits | Describe what protection from malicious use of the Solution is implemented, e.g. cross-site scripting, SQL injection prevention etc. | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Service Management
+### Service Management {#Non-FunctionalQuestionsv1.0.0-ServiceManagement}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -171,7 +171,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-SM-7** | Event logging | What events are logged? | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-SM-8** | Documentation | Please provide all relevant Solution documentation. | Provide documentation of service processes and operations. | Documentation covers all appropriate levels of services. |
 
-### Capacity Management
+### Capacity Management {#Non-FunctionalQuestionsv1.0.0-CapacityManagement}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment  Criteria |
 | --- | --- | --- | --- | --- |
@@ -180,7 +180,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-CM-3** | Capacity Management toolset | What Capacity management toolset is implemented and what is the scope of information capture available | List of software and hardware tools used to measure and assess Solution capacity. | Tooling is comprehensive and effective and measuring and assessing Solution capacity. |
 | **GP-NFQ-CM-4** | Capacity Management | Describe how the capacity of the Solution is managed and the what associated reports that are produced, include management and Solution process models . | Provide documented evidence and rationale, including any impact considerations.  Include report examples of specific metrics used with forecasts. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Legal Regulations, Compliance and Audit
+### Legal Regulations, Compliance and Audit {#Non-FunctionalQuestionsv1.0.0-LegalRegulations,ComplianceandAudit}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -192,7 +192,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-LCA-6** | Audited objects | What entities in the Solution are audited? | Provide a list of entities that are audited by the Solution. | Appropriate entities are audited. |
 | **GP-NFQ-LCA-7** | Traceability | Which changes in the Solution are traceable, e.g. be able to tell what changed, who changed it and when? | Provide a list of changes that are traceable by the Solution. | Appropriate changes are traceable. |
 
-### Flexibility and Extensibility
+### Flexibility and Extensibility {#Non-FunctionalQuestionsv1.0.0-FlexibilityandExtensibility}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -201,7 +201,7 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-FE-3** | Personalisation | Are there features which users can personalise, e.g. preferred visual theme? | Provide a list of features that can be personalised. | Appropriate features are able to be personalised. |
 | **GP-NFQ-FE-4** | Customisation | Are there features which can be configured/customised without re-development? | Provide a list of features which can be configured without re-development. | Appropriate features are able to be configured. |
 
-### Interoperability / APIs
+### Interoperability / APIs {#Non-FunctionalQuestionsv1.0.0-Interoperability/APIs}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -210,13 +210,13 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-IA-3** | Performance / Response Times | What is the expected response time of each API in a given percentage of cases for a given operation e.g. Login or Open Patient Record? | Provide a value, show how the figure is derived, including any considerations which may impact this value. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-IA-4** | MESH | What poll times are used for communicating with the MESH system? | Provide a value, show how the figure is derived, including any considerations which may impact this value. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Integrity
+### Integrity {#Non-FunctionalQuestionsv1.0.0-Integrity}
 
 | ID | Sub-category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
 | **GP-NFQ-I-1** | Message Accuracy and Transfer | Describe how message accuracy and transfer is achieved and maintained. (e.g. how is the data guaranteed not to be corrupt) | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-### Mobile Working
+### Mobile Working {#Non-FunctionalQuestionsv1.0.0-MobileWorking}
 
 | ID | Sub-Category | Description | Evidence  Example | Assessment Criteria |
 | --- | --- | --- | --- | --- |
@@ -225,13 +225,13 @@ Suppliers are responsible for ensuring the non-functional elements of their Solu
 | **GP-NFQ-MW-3** | Data loss | Describe how the Solution prevents data loss when disconnection from central services occurs. | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 | **GP-NFQ-MW-4** | Data integrity | Describe how the Solution maintains data integrity when multiple devices have been "offline" and attempt to update the central services with conflicting information. | Provide documented evidence and rationale, including any impact considerations. | Demonstrate systematic approach and rationale of how evidence is derived. |
 
-# Capabilities
+# Capabilities {#Non-FunctionalQuestionsv1.0.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#Non-FunctionalQuestionsv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

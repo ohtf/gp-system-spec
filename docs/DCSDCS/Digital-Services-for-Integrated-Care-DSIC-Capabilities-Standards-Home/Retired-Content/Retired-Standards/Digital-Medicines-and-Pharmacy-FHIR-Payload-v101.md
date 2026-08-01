@@ -27,7 +27,7 @@ labels: ["interop_standard_retired"]
 - [Dependencies](#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Dependencies)
 - [Roadmap](#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Roadmap)
 
-# Introduction
+# Introduction {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Introduction}
 
 The Digital Medicines initiative aims to positively transform the way that Patients manage their medicines, promote new models of care as well as improve the medicines supply chain and the provision of medicines data. At a high-level, this all involves the adoption of digital prescriptions to replace inefficient and cumbersome paper versions, utilising appropriate technologies to fully engage in the end-to-end Patient pathway, alongside supporting the adoption of technology to deliver a fully digitised medicines supply chain.
 
@@ -36,9 +36,9 @@ The Digital Medicines Specification utilises the Generic FHIR Receiver and sup
 - **Pharmacy Immunisation Administration** – A FHIR Document used to notify a Patient’s registered GP Practice on the administration of immunisations to a Patient at a Pharmacy.
 - **Pharmacy Emergency Medication Supply** – A FHIR Document used to notify a Patient’s registered GP Practice of emergency medication(s) supplied to a Patient at a Pharmacy.
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Compliance,AssuranceandTesting}
 
-## Summary of Recommendations
+## Summary of Recommendations {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-SummaryofRecommendations}
 
 The understanding that clinical risk and assurance responsibilities are formally acknowledged by system Suppliers and based on the knowledge that appropriate functional assurance will be performed by the NHS Digital Solutions Assurance team which is crucial to mitigating many of the clinical risks identified, the following clinical assurance approach is recommended:
 
@@ -64,14 +64,14 @@ b. The end to end process including the recording of a NUMSAS consultation for a
 
 The focus of the witness testing will be on the user workflow ensuring the positive and negative messages are prominent to the user and to provide a “sense check” of the PDF transformation of the message received by the GP system.
 
-# Requirements
+# Requirements {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Requirements}
 
 | ID | Requirement | Level |
 | --- | --- | --- |
 | **DMPF1** | **Pharmacy Immunisation Administration**  A FHIR Document used to notify a Patient’s registered GP Practice on the administration of immunisations to a Patient at a Pharmacy. | MUST |
 | **DMPF2** | **Pharmacy Emergency Medication Supply**   A FHIR Document used to notify a Patient’s registered GP Practice of emergency medication(s) supplied to a Patient at a Pharmacy. | MUST |
 
-# Documentation
+# Documentation {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Documentation}
 
 The latest version of Digital Medicines specifications can be accessed here: https://developer.nhs.uk/apis/digitalmedicines-1.2.3-private-beta/. (Reference links: https://developer.nhs.uk/apis/ and https://digital.nhs.uk/services/fhir-apis/guidance-for-developers/digital-medicine-specification).
 
@@ -79,13 +79,13 @@ The first stage of the standard is now published and details the information t
 
 The MVP states that Suppliers are expected to process the unstructured messages upon entry to the framework in order to compliantly implement any use cases. However, there will be a future requirement for Suppliers to further enhance their Solutions to ensure the messages are processed in a structured format.
 
-# Dependencies
+# Dependencies {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - Generic FHIR Receiver
 
-# Roadmap
+# Roadmap {#DigitalMedicinesandPharmacyFHIRPayloadv1.0.1-Roadmap}
 
 | Roadmap Item | Standards and Capabilities | Status | Effective Date | Description | Change Type | Change Route |
 | --- | --- | --- | --- | --- | --- | --- |

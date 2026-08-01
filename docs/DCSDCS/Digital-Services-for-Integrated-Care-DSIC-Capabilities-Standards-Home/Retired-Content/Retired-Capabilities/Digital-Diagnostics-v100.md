@@ -20,11 +20,11 @@ labels: ["capability_retired"]
 
 Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
 
-# Description
+# Description {#DigitalDiagnosticsv1.0.0-Description}
 
 Supports electronic requesting with other healthcare organisations. Test results can be received, reviewed and stored against the Patient Record.
 
-# Outcomes
+# Outcomes {#DigitalDiagnosticsv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -33,7 +33,7 @@ Supports electronic requesting with other healthcare organisations. Test result
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### Epic 1 - manage Requests for Investigations
+### Epic 1 - manage Requests for Investigations {#DigitalDiagnosticsv1.0.0-Epic1-manageRequestsforInvestigations}
 
 As a Practice User
 
@@ -41,7 +41,7 @@ I want to manage Requests for Investigations
 
 So that Requests for Investigations are managed
 
-#### Acceptance criterion 1: create Requests for Investigations
+#### Acceptance criterion 1: create Requests for Investigations {#DigitalDiagnosticsv1.0.0-Acceptancecriterion1:createRequestsforInvestigations}
 
 Given the Practice User is permitted to create a Request for Investigation
 
@@ -49,7 +49,7 @@ When they choose to create a Request for Investigation
 
 Then the Request for Investigation is created
 
-#### Acceptance criterion 2: view Requests for Investigations
+#### Acceptance criterion 2: view Requests for Investigations {#DigitalDiagnosticsv1.0.0-Acceptancecriterion2:viewRequestsforInvestigations}
 
 Given the Practice User is permitted to view a Request for Investigation
 
@@ -57,7 +57,7 @@ When they choose to create a Request for Investigation
 
 Then the Request for Investigation is displayed
 
-#### Acceptance criterion 3: amend Requests for Investigations
+#### Acceptance criterion 3: amend Requests for Investigations {#DigitalDiagnosticsv1.0.0-Acceptancecriterion3:amendRequestsforInvestigations}
 
 Given the Practice User is permitted to amend a Request for Investigation
 
@@ -65,7 +65,7 @@ When they choose to amend a Request for Investigation
 
 Then the Request for Investigation is amended
 
-#### Acceptance criterion 4: delete Requests for Investigations
+#### Acceptance criterion 4: delete Requests for Investigations {#DigitalDiagnosticsv1.0.0-Acceptancecriterion4:deleteRequestsforInvestigations}
 
 Given the Practice User is permitted to delete a Request for Investigation
 
@@ -73,7 +73,7 @@ When they choose to delete a Request for Investigation
 
 Then the Request for Investigation is deleted
 
-#### Acceptance criterion 5: reconcile Requests for Investigations with Investigation Results
+#### Acceptance criterion 5: reconcile Requests for Investigations with Investigation Results {#DigitalDiagnosticsv1.0.0-Acceptancecriterion5:reconcileRequestsforInvestigationswithInvestigationResults}
 
 Given the Practice User is permitted to reconcile Requests for Investigations with Investigation Results
 
@@ -81,7 +81,7 @@ When they choose to reconcile a result a Request for Investigation with Investi
 
 Then the Request for Investigation is reconciled with Investigation Results
 
-### Epic 2 - view Requests for Investigations reports
+### Epic 2 - view Requests for Investigations reports {#DigitalDiagnosticsv1.0.0-Epic2-viewRequestsforInvestigationsreports}
 
 As a Practice User
 
@@ -89,7 +89,7 @@ I want to view Requests for Investigations reports
 
 So that I see Request for Investigation activity
 
-#### Acceptance criterion 1: view Requests for Investigations reports
+#### Acceptance criterion 1: view Requests for Investigations reports {#DigitalDiagnosticsv1.0.0-Acceptancecriterion1:viewRequestsforInvestigationsreports}
 
 Given the Practice User is permitted to view Requests for Investigations reports
 
@@ -99,7 +99,7 @@ Then the report is displayed
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### Epic 3 - create a Request for Investigation for multiple Patients
+### Epic 3 - create a Request for Investigation for multiple Patients {#DigitalDiagnosticsv1.0.0-Epic3-createaRequestforInvestigationformultiplePatients}
 
 As a Practice User
 
@@ -107,7 +107,7 @@ I want to create a Requests for Investigation for multiple Patients
 
 So that I can make Requests for Investigations for multiple Patients in a single task
 
-#### Acceptance criterion 1: create a Request for Investigation for multiple Patients
+#### Acceptance criterion 1: create a Request for Investigation for multiple Patients  {#DigitalDiagnosticsv1.0.0-Acceptancecriterion1:createaRequestforInvestigationformultiplePatients}
 
 Given the Practice User is permitted to create Requests for Investigations
 
@@ -117,7 +117,7 @@ Then Requests for Investigations are created for multiple Patients
 
 ---
 
-### Epic 4 - receive external Request for Investigation information
+### Epic 4 - receive external Request for Investigation information {#DigitalDiagnosticsv1.0.0-Epic4-receiveexternalRequestforInvestigationinformation}
 
 As a Practice User
 
@@ -125,7 +125,7 @@ I want to receive external Request for Investigation information
 
 So that external Request for Investigation information can be recorded
 
-#### Acceptance criterion 1: receive external Request for Investigation information
+#### Acceptance criterion 1: receive external Request for Investigation information  {#DigitalDiagnosticsv1.0.0-Acceptancecriterion1:receiveexternalRequestforInvestigationinformation}
 
 Given the Practice User is permitted to view external Request for Investigation information
 

@@ -10,13 +10,13 @@ labels: []
 
 # Timelines for Buying Activity
 
-## What Can I Do Now?
+## What Can I Do Now? {#TimelinesforBuyingActivity-WhatCanIDoNow?}
 
 You can use the Catalogue to view what’s on offer including a useful level of technical, service and pricing detail. You can use the information to better understand what’s available to you and plan your future procurement activity. You can access the services listed, all of them can be purchased with your own funds or funding you have secured from elsewhere, some services are supported currently by central contracts, in place during the COVID-19 epidemic to support rapid deployment of key capability to practices such as Video Conferencing.
 
 If you are ordering services with your own funds at this time then you will need to complete the Order Form to complete the contract with your supplier. This is an offline, a manual process at this time (please see [Order Form](GP-IT-Futures-Contracts/index.md)).
 
-## When Can I Access My Allocated Budget?
+## When Can I Access My Allocated Budget? {#TimelinesforBuyingActivity-WhenCanIAccessMyAllocatedBudget?}
 
 We are working to change the process for releasing this with you, which was set to be aligned to assist Foundation procurement activity. We recognise that this may not be something you wish to undertake within the short to medium term, and therefore we are replanning our approach.
 
@@ -24,7 +24,7 @@ At present we are looking at how we can begin to release the allocation to CCGs 
 
 We hope to bring more detail of a proposal for CCGs which addresses both a revised approach to procurement support and a revised timeline for allocation release, but for now we are targeting the summer for releasing funds and enabling CCGs to place orders using allocated central budgets.
 
-## How Long Does A Procurement Take?
+## How Long Does A Procurement Take? {#TimelinesforBuyingActivity-HowLongDoesAProcurementTake?}
 
 A direct award could conceivably be completed within a day or less - following the process guidance and completing a simple Order Form it should be possible to have contracted for the Solution within a few hours. Future releases of the Catalogue will increasingly create a digital purchasing journey so that this can be undertaken as a straight through process on the Catalogue.
 
@@ -32,7 +32,7 @@ The Further Competition On-Catalogue may be accessed by buyers in advance of the
 
 The Further Competition Off-Catalogue process will take longer depending on the complexity of your needs and environment, but it is advised to schedule between 30 and 90 days.
 
-## When Do We Expect to Look at Reprocurement of Our Foundation Systems?
+## When Do We Expect to Look at Reprocurement of Our Foundation Systems? {#TimelinesforBuyingActivity-WhenDoWeExpecttoLookatReprocurementofOurFoundationSystems?}
 
 Clearly it would be unreasonable to expect CCGs to move through a reprocurement cycle for something so fundamental as their Foundation System under the current conditions. We shall therefore set aside the previous plans for the large scale managed reprocurement cycle which sought to ensure each CCG moved through reprocurement over about an 18 month period.
 

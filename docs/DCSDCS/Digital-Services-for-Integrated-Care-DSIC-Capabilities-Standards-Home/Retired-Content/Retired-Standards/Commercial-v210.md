@@ -19,21 +19,21 @@ labels: ["overarching_standard_retired"]
 | Effective Date | 04 Jun 2021 |
 | Framework(s) | - [GP IT Futures](https://gpitbjss.atlassian.net/wiki/spaces/GPITF "/wiki/spaces/GPITF") - [Tech Innovation](https://gpitbjss.atlassian.net/wiki/spaces/GIFTIF "/wiki/spaces/GIFTIF") - [DFOCVC](https://gpitbjss.atlassian.net/wiki/spaces/DFOCVCL) - [Vaccinations - Local/PCN Delivery](https://gpitbjss.atlassian.net/wiki/spaces/CVPDR) |
 
-# Description
+# Description {#Commercialv2.1.0-Description}
 
 This Standard underpins all commercial activity relating to the Catalogue. It does this by defining a number of rules governing the commercial relationship of relevant parties and by setting out standards of behaviour and principles of access to data and services charges.
 
-# Requirements
+# Requirements  {#Commercialv2.1.0-Requirements}
 
-[Ancillary Document - Com…](Commercial-v210.md)
+[Ancillary Document - Com…](../../../../.raw/DCSDCS/attachments/12329549849/att12329549865-Ancillary Document - Commercial Standard and Model Interface Licence - 201207.docx)
 
-# Capabilities
+# Capabilities {#Commercialv2.1.0-Capabilities}
 
 **Applicable Capabilities**
 
 All suppliers Solutions delivering any Capabilities will need to meet this Standard.
 
-# Roadmap
+# Roadmap {#Commercialv2.1.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

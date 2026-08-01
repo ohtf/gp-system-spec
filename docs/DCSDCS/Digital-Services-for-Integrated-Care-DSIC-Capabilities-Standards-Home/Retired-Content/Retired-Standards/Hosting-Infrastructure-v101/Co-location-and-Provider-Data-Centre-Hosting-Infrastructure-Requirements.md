@@ -25,7 +25,7 @@ labels: []
 - [Security](#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Security)
 - [Reporting & Documentation](#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Reporting&Documentation)
 
-# Introduction
+# Introduction {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Introduction}
 
 The scope of this document covers the infrastructure requirements a supplier must meet when providing services where a supplier has co located their service & infrastructure within a data centre providers facilities OR where the supplier is using their own facilities. The requirements will cover a number of aspects including but not limited to:
 
@@ -47,7 +47,7 @@ Required Evidence
 
 **Unless stated otherwise, the evidence expected for each requirement is to provide formal confirmation of compliance to the requirement.**
 
-# External Standards
+# External Standards {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-ExternalStandards}
 
 In addition to the below requirements the following standards (or equivalent) MUST be adhered to and where appropriate, accreditation achieved with a valid certificate and a Statement of Applicability (SoA) and documented scope provided.
 
@@ -72,7 +72,7 @@ In addition to the below requirements the following standards (or equivalent) MU
 | ES19.0 | BS EN 50600-4-1:2016. Overview of and general requirements for key performance indicators  (Minimum availability class 3) | BS EN 50600-4-1:2016 | SHOULD |
 | ES20.0 | BS EN 50600-4-2:2016. Power Usage Effectiveness  (Minimum availability class 3) | BS EN 50600-4-2:2016 | SHOULD |
 
-# Physical Aspects
+# Physical Aspects {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-PhysicalAspects}
 
 This section is concerned with the physical aspects of a Data Centre including where the Data Centre is located, some of its physical attributes and factors near that data centre which could affect its operation and security.
 
@@ -85,7 +85,7 @@ This section is concerned with the physical aspects of a Data Centre including w
 | **HPA32.0** | The supplier’s Solution will provide at a minimum two separate geographically physical locations to hold the data and capability to run the services.  The distance between the two locations will be such that they cannot both be affected by concurrent loss due to overlapping items on the Location Risk Assessment. | MUST |
 | **HPA34.0** | The supplier will provide permanent access to the Data Centre and equipment, supported by an access request process of 24hrs notice for normal maintenance requests and 1hr for emergency access, with unlimited frequency, for the purpose of maintaining the systems and services  **Note:** If the hosting provider is a 3rd party / sub-contractor to the supplier and escorted access is the policy enforced then permanent access to the Data Centre will still be provided. | MUST |
 
-# Power
+# Power {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Power}
 
 This section covers the power to the Data Centre, Data Hall and cabinets.
 
@@ -93,7 +93,7 @@ This section covers the power to the Data Centre, Data Hall and cabinets.
 | --- | --- | --- |
 | **HPW11.0** | Refuelling of the tanks for the generators will be possible with the generators in use. | MUST |
 
-# IT Infrastructure
+# IT Infrastructure {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-ITInfrastructure}
 
 This section is concerned with the physical infrastructure that makes up the service, how it is built and the policies around its setup.
 
@@ -105,7 +105,7 @@ This section is concerned with the physical infrastructure that makes up the ser
 | **HI9.0** | The supplier to ensure that all hardware, devices, servers and components have support agreements in place to replace faulty items if they fail.  The replacing of components will not impact live service and meet SLA and planned down time agreements. | MUST |
 | **HI13.0** | The supplier will ensure that Live environments are segregated from the development activity by using processors, virtual servers, domains and partitions that are not in use by live and by storing development utilities away from the live environment. | MUST |
 
-# Servers
+# Servers {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Servers}
 
 This section is concerned with servers that provide clinical applications, including operating systems and use of virtualisation.
 
@@ -115,7 +115,7 @@ This section is concerned with servers that provide clinical applications, inclu
 | **HS20.0** | The supplier will ensure that servers are configured to disable or restrict:   - non-essential or redundant services (eg X Windows, Open  Windows, fingered and web browsers) - communication services that are inherently susceptible to abuse (e.g. tftp, RPC, rlogin, rsh or rexec) - communication protocols that are prone to abuse, where not required (e.g. HTTP, HTTPS, SSH, FTP, SMTP, Telnet and UUCP) - execute permissions on sensitive commands or scripts (e.g. rlogin, rcp, rsh, remsh, tstp and trtp) - powerful utilities (e.g. Windows ‘Registry Editor’) or ‘control panels’ - run commands or command processors (e.g. Perl or Tcl). | MUST |
 | **HS24.0** | The supplier to ensure that physical servers hosting virtual instances are protected from resource overload (e.g. excessive use of the CPU, memory, hard disk and network). | MUST |
 
-# Network
+# Network {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Network}
 
 This section covers the use of networks in the provision of the supplier’s service. The NHS Wide Area Network is now known as HSCN; referred to as the “NHS Network” below.
 
@@ -143,7 +143,7 @@ The Health and Social Care Network (HSCN) is the successor to N3. In 2018 N3
 | **HNT39.0** | The supplier to ensure existing services or applications are transitioned to comply with the Internet First strategy in line with NHS Digital published guidance (see Standards Road map). | MAY |
 | **HNT40.0** | The supplier to ensure HSCN connectivity is procured where there are any systems or services the supplier needs to reach that are only on the HSCN network. | MUST |
 
-# Management of Services and Infrastructure
+# Management of Services and Infrastructure {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-ManagementofServicesandInfrastructure}
 
 This section details the requirements in relation to how ICT services provided by a supplier are managed.  The optimisation of resources and improved performance are achieved by adopting best practices for fault monitoring and management, configuration management, security management, bandwidth management, accounting management, etc.
 
@@ -154,7 +154,7 @@ This section details the requirements in relation to how ICT services provided b
 | **HMI12.0** | The supplier to ensure a patch management process is established to govern the application of patches to:   - business applications, operating system software and firmware (eg on servers, mobile devices and consumer devices) - computer equipment - consumer devices (including tablets and smartphones) - virtual systems (e.g. virtual servers and virtual desktops) - network storage systems (including Storage Area Network (SAN) and Network-Attached Storage (NAS)) - network equipment (e.g. routers, switches, wireless access points and firewalls) | MUST |
 | **HMI13.0** | The supplier to ensure that the patch management process will:   - specify methods of validating patches (e.g. ensuring that the patch is from an authorised source) - assess the business impact of implementing patches (or not implementing a particular patch) - ensure patches are tested against known criteria - describe methods of deploying patches in a timely manner (e.g. grouping multiple patches and using software distribution tools) - provide methods of deploying patches to systems that are not connected to the network (e.g. standalone computers) or devices that connect to the network infrequently (e.g. travelling staff) - report on the status of patch deployment across the organisation - include methods of dealing with the failed deployment of a patch (e.g. redeployment of the patch). | MUST |
 
-# Asset Management
+# Asset Management {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-AssetManagement}
 
 This section is concerned with the recording of the assets within the Data Centre.
 
@@ -163,7 +163,7 @@ This section is concerned with the recording of the assets within the Data Centr
 | **HCM1.0** | A CMDB (Configuration Management Data Base) will be maintained and contain all CI’s, including but not limited to:   - Software versions - Licenses with expiry and type e.g. Open Source, Seat, GPL, SSL - Certificates and their expiry - Portable devices - Appliances - Version of CI - Location - Hardware components - Install applications and versions - Network connections - Network devices - Authentication tokens and devices - CI (Configuration Item) relationships - Location Details - Virtualisation deployment and state - Service related to (parent and Child)   The level of detail within the CMDB will be of sufficient detail at the CI level to be able to support the change and incident process.  The supplier will ensure that a consistent naming convention (e.g. computer / server addresses, network device names, terminal locations and user identifiers) is used and recorded within the CMDB.  The supplier to ensure that CIs that are used as part of the definition of configuration or an asset are held in the CMDB and DSL.  This could include but is not limited to:   - Network configuration - Patches - Scripts | MUST |
 | **HCM4.0** | The supplier to make the results of its data centre audits available to NHS Digital on request along with any work off plans. | MUST |
 
-# Service Monitoring
+# Service Monitoring {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-ServiceMonitoring}
 
 This section is concerned with how the service is monitored to understand its current state and how it is performing.
 
@@ -175,7 +175,7 @@ This section is concerned with how the service is monitored to understand its cu
 | **HSM5.0** | For technology uplifts and new services on new hardware provisions the supplier will select hardware that enables equipment power and temperature to be monitored through standard interfaces allowing integration with the supplier’s management system.  ***Note:*** This could be through the use of but not limited to :   - SNMP – Simple Network Management Protocol - IPMI – Intelligent Platform Management Interface - DCMI – Data Centre Manageability Interface | MUST |
 | **HSM6.0** | **Application Provider** - NMS Access:  The supplier will allow an NHS Digital supported method of integration with NMS. | SHOULD |
 
-# Device Management
+# Device Management {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-DeviceManagement}
 
 This section is concerned with how a device can be managed remotely.
 
@@ -184,7 +184,7 @@ This section is concerned with how a device can be managed remotely.
 | **HDM1.0** | The supplier will provide a ‘lights out’ operational model for the systems with specific processes to allow named engineer access to the environment. | MUST |
 | **HDM4.0** | It will be possible for the supplier to perform software related maintenance and upgrade remotely without requiring physical access to the data hall. | MUST |
 
-# Data Storage
+# Data Storage {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-DataStorage}
 
 This section is concerned with how data is protected when a failure occurs within the Solution.  This covers both clinical and non-clinical data.
 
@@ -201,11 +201,11 @@ This section is concerned with how data is protected when a failure occurs withi
 | **HDP11.0** | The supplier will demonstrate, if requested by NHS Digital, that functions/elements provided to meet Data Protection Legislation are operating in accordance with NHS Digital's Requirements and the Design Documents. | MUST |
 | **HDP12.0** | The supplier will ensure that during disposal of equipment all data is removed from devices before they are passed to a 3rd party or reused in line with the “Disposal and Destruction of Sensitive Data Good Practice Guideline”.  See: Guidelines for Media Sanitization | MUST |
 
-# Security
+# Security {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Security}
 
 Due to the sensitive nature of the information in this section, the details are held on Bravo in the file "Co location and Provider Data Centre Hosting & Infrastructure Requirements - Security".
 
-# Reporting & Documentation
+# Reporting & Documentation {#ColocationandProviderDataCentreHosting&InfrastructureRequirements-Reporting&Documentation}
 
 | Requirement ID | Requirement Text | Level |
 | --- | --- | --- |

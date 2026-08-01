@@ -12,12 +12,12 @@ labels: ["standard"]
 
 |  |  |
 | --- | --- |
-| ID | S112 |
-| Version | 3.0.0 |
-| Type | Standard |
-| Status | Published |
-| Effective Date | 20 Apr 2027 |
-| Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
+| ID {#MulticastNotificationService(MNS)v3.0.0-ID} | S112 |
+| Version {#MulticastNotificationService(MNS)v3.0.0-Version} | 3.0.0 |
+| Type {#MulticastNotificationService(MNS)v3.0.0-Type} | Standard |
+| Status {#MulticastNotificationService(MNS)v3.0.0-Status} | Published |
+| Effective Date {#MulticastNotificationService(MNS)v3.0.0-EffectiveDate} | 20 Apr 2027 |
+| Contracting Vehicle(s) {#MulticastNotificationService(MNS)v3.0.0-ContractingVehicle(s)} | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) |
 
 - [Introduction](#MulticastNotificationService(MNS)v3.0.0-Introduction)
 - [Requirements](#MulticastNotificationService(MNS)v3.0.0-Requirements)
@@ -27,18 +27,18 @@ labels: ["standard"]
 - [Dependencies](#MulticastNotificationService(MNS)v3.0.0-Dependencies)
 - [Roadmap](#MulticastNotificationService(MNS)v3.0.0-Roadmap)
 
-# Introduction
+# Introduction {#MulticastNotificationService(MNS)v3.0.0-Introduction}
 
 The Multicast Notification Service (MNS) allows digital health and care services to publish and receive Patient-related state changes from a single centralised system.
 
-# Requirements
+# Requirements {#MulticastNotificationService(MNS)v3.0.0-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | GP Suppliers | MNS01 | Subscribe to and implement the receipt of Multicast Notification Service events inline with the latest specification version as per the Event Implementation by Capability Mapping section. | MUST |
 
-## Event Implementation by Capability Mapping
+## Event Implementation by Capability Mapping {#MulticastNotificationService(MNS)v3.0.0-EventImplementationbyCapabilityMapping}
 
 |  |  |
 | --- | --- |
@@ -48,21 +48,21 @@ The Multicast Notification Service (MNS) allows digital health and care services
 | [Proxy role change event](https://digital.nhs.uk/developer/api-catalogue/multicast-notification-service/proxy-role-changed-event) |
 | [Proxy role deleted event](https://digital.nhs.uk/developer/api-catalogue/multicast-notification-service/proxy-role-deleted-event) |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#MulticastNotificationService(MNS)v3.0.0-Compliance,AssuranceandTesting}
 
 See the Multicast Notification Service (MNS) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#MulticastNotificationService(MNS)v3.0.0-Documentation}
 
 - [API Catalogue - Multicast Notification Service API](https://digital.nhs.uk/developer/api-catalogue/multicast-notification-service)
 
-# Dependencies
+# Dependencies {#MulticastNotificationService(MNS)v3.0.0-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface standards:
 
 - [Messaging Exchange for Social Care and Health (MESH)](../DSIC-Standards/Non-Overarching-Standards/Messaging-Exchange-for-Social-Care-and-Health-MESH.md) - if events received via MESH
 
-# Roadmap
+# Roadmap {#MulticastNotificationService(MNS)v3.0.0-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

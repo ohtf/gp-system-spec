@@ -10,9 +10,9 @@ labels: []
 
 # Primary Care Test Lab
 
-# Summary
+# Summary {#PrimaryCareTestLab-Summary}
 
-#### Living Documents
+#### Living Documents {#PrimaryCareTestLab-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -22,13 +22,13 @@ The processes are under continual review and will be amended as required.
 
 Primary Care Test Lab (PCTL) is a tool for you to test your Solution prior to submitting the Clinical Safety Case Report with an opportunity to assess/witness a series of use cases during live sessions. It comprises of a controlled environment and allows you to run through end-to-end interoperable clinical workflows in an integrated environment.
 
-# Objectives
+# Objectives {#PrimaryCareTestLab-Objectives}
 
 - Provide an environment where Clinicians are able to assess your Solution from an end-to-end perspective
 - Reduce the risk of issues arising when a Solution is deployed to Health or Care Organisations
 - Increased confidence around Clinical safety
 
-# Actions required of you
+# Actions required of you {#PrimaryCareTestLab-Actionsrequiredofyou}
 
 1. Provide the PCTL Team with the following information about your Solution:
 
@@ -45,7 +45,7 @@ Primary Care Test Lab (PCTL) is a tool for you to test your Solution prior to su
 4. Attend the live sessions and run through the test scenarios
 5. Receive PCTL Output Report
 
-# Actions required of us
+# Actions required of us {#PrimaryCareTestLab-Actionsrequiredofus}
 
 1. Confirm that your Solution meets the entry requirements prior to registering for PCTL
 2. Document relevant test scenarios ahead of the PCTL sessions and agree expected outcomes for each scenario

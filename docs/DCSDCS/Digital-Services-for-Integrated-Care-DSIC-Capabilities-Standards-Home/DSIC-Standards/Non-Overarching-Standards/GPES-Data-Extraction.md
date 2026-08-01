@@ -31,49 +31,49 @@ labels: ["standard"]
 - [Dependencies](#GPESDataExtraction-Dependencies)
 - [Roadmap](#GPESDataExtraction-Roadmap)
 
-# Introduction
+# Introduction {#GPESDataExtraction-Introduction}
 
 The General Practice Extraction Service (GPES) is a service that securely collects information, with consent from GP systems, and delivers it to approved organisations with the aim of directly improving Patient care. Further information is available at The Authority's [GPES homepage](https://digital.nhs.uk/services/general-practice-extraction-service).
 
-# Requirements
+# Requirements {#GPESDataExtraction-Requirements}
 
-## GPES Interoperability Requirements
+## GPES Interoperability Requirements  {#GPESDataExtraction-GPESInteroperabilityRequirements}
 
 The GPES-I requirements (V6.0.1), shown below, describes the functionality and interfaces that GP systems Suppliers supporting GPES data extraction need to implement. 
 
-[PD009 GPES Interoperabil…](GPES-Data-Extraction.md)
+[PD009 GPES Interoperabil…](../../../../.raw/DCSDCS/attachments/1391134238/att1391148528-PD009 GPES Interoperability Standard Version V 6 0 1.docx)
 
 In addition, the following requirements have been incorporated into CCN100 with the GP system Suppliers under GPSoC for Step 2 of GPES Uplift:
 
-## GPES Uplift Supplier Requirements
+## GPES Uplift Supplier Requirements  {#GPESDataExtraction-GPESUpliftSupplierRequirements}
 
 The GPES Uplift Supplier Requirements contains the baselined set of requirements.
 
-[GPES Uplift - Supplier R…](GPES-Data-Extraction.md)
+[GPES Uplift - Supplier R…](../../../../.raw/DCSDCS/attachments/1391134238/att1494515869-GPES Uplift - Supplier Requirements V2.3 - Post Step 2.docx)
 
 The purpose of this document is to present the business requirements to the Supplier(s) to provide continued support for providing data collections. These collections are currently commissioned by The Authority using the General Practice Extraction Service (GPES). The requirements within this document will enable The Authority to transition from the current GPET-E process and use an alternative service to request and process the Extract Data.
 
 GP system Suppliers and Suppliers should liaise with The Authority prior to developing any GPES requirements.
 
-## GPES Uplift Reporting Pack
+## GPES Uplift Reporting Pack {#GPESDataExtraction-GPESUpliftReportingPack}
 
 A Supplier must refer to the Version 3.10 reporting pack when providing estimates.
 
-[GPES Uplift Reporting Pa…](GPES-Data-Extraction.md)
+[GPES Uplift Reporting Pa…](../../../../.raw/DCSDCS/attachments/1391134238/att1391149450-GPES Uplift Reporting Pack v3.10.xlsx)
 
-## GPES Sizing Extracts by Complexity and Capacity
+## GPES Sizing Extracts by Complexity and Capacity {#GPESDataExtraction-GPESSizingExtractsbyComplexityandCapacity}
 
 There are two kinds of data extracts that are requested through GPES (Aggregate and Patient-Level). The complexity and capacity need to be broadly understood during the elaboration to determine timescales for their development and impact on available extract capacity on the GPSS infrastructure. The information in this document provides detail on how complexity and capacity are assessed.
 
-[Sizing extracts by compl…](GPES-Data-Extraction.md)
+[Sizing extracts by compl…](../../../../.raw/DCSDCS/attachments/1391134238/att1391149473-Sizing extracts by complexity and capacity v0.4.docx)
 
-## GPES Extract Request
+## GPES Extract Request {#GPESDataExtraction-GPESExtractRequest}
 
-[Extract Request - Templa…](GPES-Data-Extraction.md)
+[Extract Request - Templa…](../../../../.raw/DCSDCS/attachments/1391134238/att1494646910-Extract Request - Template v6.4.docx)
 
 The extract request template forms the agreement between The Authority and Supplier when a new data collection is commissioned.
 
-## Current Live Extract Specifications
+## Current Live Extract Specifications {#GPESDataExtraction-CurrentLiveExtractSpecifications}
 
 The GPES Service is required to both develop and support NHS England, Public Health England (PHE) and Department of Health and Social Care (DHSC) data extractions. These data extractions are required for General Medical Services (GMS) contract practices payment and statistical and direct Patient care Information purposes. 
 
@@ -85,17 +85,17 @@ Suppliers who have any questions or concerns relating to extract parameter value
 
 A [SharePoint site for](https://hscic365.sharepoint.com/sites/GPESESEI/default.aspx) Suppliers is available which hosts information on current and planned GPES extracts. Please contact GPES team ([gpses@nhs.net](mailto:gpses@nhs.net)) for access to the site.
 
-# Compliance and Assurance and Testing
+# Compliance and Assurance and Testing {#GPESDataExtraction-ComplianceandAssuranceandTesting}
 
 See the General Practice Extraction Service (GPES) section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Dependencies
+# Dependencies {#GPESDataExtraction-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standard:
 
 - [Messaging Exchange for Social Care and Health (MESH)](Messaging-Exchange-for-Social-Care-and-Health-MESH.md)
 
-# Roadmap
+# Roadmap {#GPESDataExtraction-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

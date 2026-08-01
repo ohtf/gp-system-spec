@@ -20,11 +20,11 @@ labels: ["capability_retired"]
 
 Full Capability status only. For this Capability, Solutions are required to meet all MUST EPICs and associated acceptance criteria.
 
-# Description
+# Description {#AppointmentsManagement-Citizenv1.0.0-Description}
 
 Enables Citizens to manage their Appointments online. Supports the use of Appointment Slots that have been configured in Appointments Management - GP.
 
-# Outcomes
+# Outcomes {#AppointmentsManagement-Citizenv1.0.0-Outcomes}
 
 |  |  |
 | --- | --- |
@@ -33,7 +33,7 @@ Enables Citizens to manage their Appointments online. Supports the use of Appoin
 
 **MUST Epics - Epics and acceptance criteria will be evaluated during the Capability Assessment Stage of Onboarding**
 
-### Epic 1 - manage Appointments
+### Epic 1 - manage Appointments {#AppointmentsManagement-Citizenv1.0.0-Epic1-manageAppointments}
 
 As a Patient
 
@@ -41,7 +41,7 @@ I want to manage Appointments
 
 So that I can manage my Appointments without contacting the Practice
 
-#### Acceptance criterion 1: book Appointments
+#### Acceptance criterion 1: book Appointments {#AppointmentsManagement-Citizenv1.0.0-Acceptancecriterion1:bookAppointments}
 
 Given the Patient is logged into Citizen Services
 
@@ -49,7 +49,7 @@ When they choose to book an Appointment
 
 Then the Appointment is booked with the Practice
 
-#### Acceptance criterion 2: view Appointments
+#### Acceptance criterion 2: view Appointments {#AppointmentsManagement-Citizenv1.0.0-Acceptancecriterion2:viewAppointments}
 
 Given the Patient is logged into Citizen Services
 
@@ -57,7 +57,7 @@ When they choose to view the Appointments
 
 Then the Appointments are displayed
 
-#### Acceptance criterion 3: cancel Appointments
+#### Acceptance criterion 3: cancel Appointments {#AppointmentsManagement-Citizenv1.0.0-Acceptancecriterion3:cancelAppointments}
 
 Given the Patient is logged into Citizen Services
 
@@ -67,7 +67,7 @@ Then the Appointment is cancelled with the Practice
 
 **MAY Epics - All May Epics and Acceptance Criteria will be evaluated during the Capability Assessment Stage of On-boarding. However, these Epics are not mandatory and will not be used as part of the overall assessment of whether the Capability is fully met. Any May Epics that are assessed as met will be available to buyers via the Buying Catalogue.**
 
-### Epic 2 - manage Appointments by Proxy
+### Epic 2 - manage Appointments by Proxy {#AppointmentsManagement-Citizenv1.0.0-Epic2-manageAppointmentsbyProxy}
 
 As a Proxy
 
@@ -75,7 +75,7 @@ I want to manage Appointments for a Patient
 
 So that I can manage Appointments for a Patient without contacting the Practice
 
-#### Acceptance criterion 1: book Appointments
+#### Acceptance criterion 1: book Appointments {#AppointmentsManagement-Citizenv1.0.0-Acceptancecriterion1:bookAppointments.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -83,7 +83,7 @@ When they choose to book an Appointment
 
 Then the Appointment is booked with the Practice
 
-#### Acceptance criterion 2: view Appointments
+#### Acceptance criterion 2: view Appointments {#AppointmentsManagement-Citizenv1.0.0-Acceptancecriterion2:viewAppointments.1}
 
 Given the Proxy is logged into Citizen Services
 
@@ -91,7 +91,7 @@ When they choose to view the Appointments
 
 Then the Appointments are displayed
 
-#### Acceptance criterion 3: cancel Appointments
+#### Acceptance criterion 3: cancel Appointments {#AppointmentsManagement-Citizenv1.0.0-Acceptancecriterion3:cancelAppointments.1}
 
 Given the Proxy is logged into Citizen Services
 

@@ -12,13 +12,13 @@ labels: ["capability_specific_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S8 |
-| Version | 1.0.0 |
-| Type | Capability Specific Standard |
-| Status | Retired |
+| ID {#DigitalDiagnostics-Standardv1.0.0-ID} | S8 |
+| Version {#DigitalDiagnostics-Standardv1.0.0-Version} | 1.0.0 |
+| Type {#DigitalDiagnostics-Standardv1.0.0-Type} | Capability Specific Standard |
+| Status {#DigitalDiagnostics-Standardv1.0.0-Status} | Retired |
 | Effective Date | 01 Apr 2019 |
 
-# Requirements
+# Requirements  {#DigitalDiagnostics-Standardv1.0.0-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -30,13 +30,13 @@ labels: ["capability_specific_retired"]
 | Epic 1 | **GP-DIAG-04** | **Reconcile results with requests**  Provide ability to reconcile request messages with the resulting reports to update the status of the request to indicate that results are available. Pathology/Radiology Request data items to be available when reconciling are:   - Unique identifier - Date of request - Requestor – Staff Member detail - Type/request item (as a coded clinical term) - Reason for the request - Sample type - Status - Laboratory identifier/code - Laboratory name | MUST |
 | Epic 2 | **GP-DIAG-01** | **Service Requests Reporting**  Ability to generate a report based on Patient, Clinician or Practice for Service Requests.  This will be a list of service requests with associated status, by Requestor, by Recipient Target (Service, Organisation and/or Individual) within a date range. | MUST |
 
-# Capability
+# Capability {#DigitalDiagnostics-Standardv1.0.0-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Digital Diagnostics Capability
 
-# Roadmap
+# Roadmap {#DigitalDiagnostics-Standardv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

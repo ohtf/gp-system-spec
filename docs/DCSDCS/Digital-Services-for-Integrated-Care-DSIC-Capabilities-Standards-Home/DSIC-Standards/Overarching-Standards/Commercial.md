@@ -24,11 +24,11 @@ labels: ["overarching_standard"]
 - [Further Requirements](#Commercial-FurtherRequirements)
 - [Roadmap](#Commercial-Roadmap)
 
-# Introduction
+# Introduction {#Commercial-Introduction}
 
 This Standard underpins all commercial activity relating to the Catalogue. It does this by defining a number of rules governing the commercial relationship of relevant parties and by setting out standards of behaviour and principles of access to data and services charges.
 
-# Baseline Assurance Standard Requirements
+# Baseline Assurance Standard Requirements {#Commercial-BaselineAssuranceStandardRequirements}
 
 The Baseline Assurance Standard (BAS) provides a proportionate, risk-based assurance approach for Solutions; balancing safety against efficiency by combining a minimum set of essential Requirements from the [DSIC Overarching Standards](index.md). Completing the BAS is the first step to achieving full assurance with the Overarching Standards allowing Supplier Solutions to be published on the Buying Catalogue. Upon meeting this Standard, Solutions are required to meet any remaining Further Requirements in the Overarching Standards in the timeframe applicable to the Contracting Vehicle.
 
@@ -38,13 +38,13 @@ The following table of Requirements are the Requirements in the Baseline Assuran
 
 | **Applicable Contracting Vehicle(s)** | **ID** | **Requirement** | **Level** | **Category A** | **Category B** | **Category C** |
 | --- | --- | --- | --- | --- | --- | --- |
-| - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Primary Care | C01 | [Commercial Standard and …](Commercial.md) | MUST | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. |
+| - GP IT Futures - Tech Innovation - DFOCVC - Community Pharmacy Clinical Services - Digital Primary Care | C01 | [Commercial Standard and …](../../../../.raw/DCSDCS/attachments/1391134121/att14488305723-Commercial Standard and Model Interface Licence v2.2.0 (Published).docx) | MUST | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. | **Full Assessment**  Supporting evidence to include:   - A statement committing to the principles of the Commercial Standard and advising the Authority if there are any problematic aspects that could prevent full adherence to the Standard. - Demonstration of compliance with the Requirement via a Live Witness Assessment or a variant procedure agreed by the Authority. |
 
-# Further Requirements
+# Further Requirements {#Commercial-FurtherRequirements}
 
 Suppliers will not be required to meet any Further Requirements to achieve full compliance with the Commercial Standard.
 
-# Roadmap
+# Roadmap {#Commercial-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

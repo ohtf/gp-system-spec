@@ -16,13 +16,13 @@ labels: ["reference_page"]
 | **Version** | 6.1.0 |
 | **Type** | Reference |
 
-# National Standards & Good Practice Guides
+# National Standards & Good Practice Guides {#RecommendedBestPractices-NationalStandards&GoodPracticeGuides}
 
 The following links are provided to help suppliers best understand the current best practices throughout the IT industry when provisioning, deploying and operating their infrastructure and services.
 
 None of the below links and documents will be used for any assurance activities unless otherwise stated in other documentation.
 
-## National Standards
+## National Standards {#RecommendedBestPractices-NationalStandards}
 
 <https://data.standards.nhs.uk/>
 
@@ -30,7 +30,7 @@ Use this directory to find nationally recognised data standards for use in healt
 
 You can browse by Care Setting, Topic or Type as well as source information related to Future Standards, additional information and guidance for Standards, as well as Help and Resources.
 
-## Implementation
+## Implementation {#RecommendedBestPractices-Implementation}
 
 <https://www.gov.uk/guidance/the-technology-code-of-practice> - The Technology Code of Practice is a set of criteria to help government design, build and buy technology
 
@@ -56,7 +56,7 @@ You can browse by Care Setting, Topic or Type as well as source information rela
 
 [Community Pharmacy Best Practice Guidelines to Improve Usability in Digital Systems](Community-Pharmacy-Best-Practice-Guidelines-to-Improve-Usability-in-Digital-Systems.md)
 
-## Security
+## Security {#RecommendedBestPractices-Security}
 
 <https://www.ncsc.gov.uk/> - The National Cyber Security Centre
 
@@ -68,13 +68,13 @@ You can browse by Care Setting, Topic or Type as well as source information rela
 
 <https://www.ncsc.gov.uk/section/software-security-code-of-practice/software-vendors> - Organisations that develop or sell software can use the Software Code of Practice to demonstrate to potential customers that their products are resilient to common cyber attacks.
 
-## Document Formats
+## Document Formats {#RecommendedBestPractices-DocumentFormats}
 
 <https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation> - introduction to the Open Document Format (ODF) standard and how you can select ODF-compliant solutions
 
 <https://www.gov.uk/guidance/content-design/planning-content#open-formats> - GDS Content design: planning, writing and managing content
 
-## Proxy Verification and Authentication
+## Proxy Verification and Authentication {#RecommendedBestPractices-ProxyVerificationandAuthentication}
 
 <https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb3051-identity-verification-and-authentication-standard-for-digital-health-and-care-services> - provides for a consistent approach to identity management across digital health and care services, covering: verification, authentication and clinical authorisation.
 

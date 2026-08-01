@@ -26,7 +26,7 @@ labels: ["standard"]
 - [Dependencies](#SpineMiniServices-Dependencies)
 - [Roadmap](#SpineMiniServices-Roadmap)
 
-# Introduction
+# Introduction {#SpineMiniServices-Introduction}
 
 Spine Mini Services is a simplified read-only interface to some Spine Services, the most common one being [Personal Demographics Service (PDS)](Personal-Demographics-Service-PDS.md).
 
@@ -40,26 +40,26 @@ It is also a mechanism to retrieve information on:
 
 A Solution that implements the core [Patient Information Maintenance - GP](../../DSIC-Capabilities/Patient-Information-Maintenance-GP.md) Capability is required to have full PDS integration. SMSP may be a suitable alternative to full PDS integration for some Solutions that are not tightly integrated into the core GP Solution and require a read-only source of demographics from PDS.
 
-# Requirements
+# Requirements {#SpineMiniServices-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
 | **ID** | **Requirement** | **Level** |
 | **SMS01** | Implement and maintain the 4 key requirement specifications below and the common requirements found here [Requirements pack and Supplier Conformance Assessment List (SCAL) template](https://digital.nhs.uk/services/spine/spine-mini-service-provider-for-personal-demographics-service/requirements-pack-and-supplier-conformance-assessment-list-template).   - The Interoperability Contracting Vehicle Common Provider Requirements - Included as the SMSP site documentation set - The Interoperability Contracting Vehicle Common Client Requirements -Included as the SMSP site documentation set - The Interoperability Service specific Provider Requirements e.g. FGM RIS, CPIS - The Interoperability Service Specific Client Requirements e.g. FGM RIS, CPIS | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#SpineMiniServices-Compliance,AssuranceandTesting}
 
 See the Spine Mini Services section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#SpineMiniServices-Documentation}
 
 - [Mini Services Introduction](https://digital.nhs.uk/services/spine/spine-mini-service-simplified-ways-to-connect-to-spine)
 
-# Dependencies
+# Dependencies {#SpineMiniServices-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#SpineMiniServices-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

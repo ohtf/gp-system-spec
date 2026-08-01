@@ -25,7 +25,7 @@ labels: ["standard"]
 - [Dependencies](#Email-Dependencies)
 - [Roadmap](#Email-Roadmap)
 
-# Introduction
+# Introduction {#Email-Introduction}
 
 Health and care systems that send and receive emails need to ensure their email service meets the secure email Standard as detailed below in the requirements section. Example secure email services are:
 
@@ -34,7 +34,7 @@ Health and care systems that send and receive emails need to ensure their email 
 
 Where a system needs to systematically send a large volume of emails then application accounts are available via [NHS.net Connect](https://digital.nhs.uk/services/nhs.net-connect) (formerly NHSmail).
 
-# Requirements
+# Requirements {#Email-Requirements}
 
 |  |  |  |
 | --- | --- | --- |
@@ -43,15 +43,15 @@ Where a system needs to systematically send a large volume of emails then applic
 | E02 | - Organisations using [NHS.net Connect](https://digital.nhs.uk/services/nhs.net-connect) (formerly NHSmail) have met/meet the email system section of the accreditation requirements. - [NHS.net Connect](https://digital.nhs.uk/services/nhs.net-connect) (formerly NHSmail) have on behalf of organisations that use the service completed the organisation requirements of the Standard | MUST |
 | E03 | - Organisations using Office 365 have met/meet the email system section of the accreditation requirements. - Organisations using Office 365 need to complete the organisation section of the accreditation requirements | MUST |
 
-# Compliance, Assurance & Testing
+# Compliance, Assurance & Testing {#Email-Compliance,Assurance&Testing}
 
 See the Email section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Dependencies
+# Dependencies {#Email-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#Email-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

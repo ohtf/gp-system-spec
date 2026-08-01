@@ -26,32 +26,32 @@ labels: ["standard"]
 - [Dependencies](#DirectoryofServices(DoS)-UrgentandEmergencyCare-Dependencies)
 - [Roadmap](#DirectoryofServices(DoS)-UrgentandEmergencyCare-Roadmap)
 
-# Introduction
+# Introduction {#DirectoryofServices(DoS)-UrgentandEmergencyCare-Introduction}
 
 The Directory of Services (DoS) is a database of NHS services in England, which is responsible for directing Patients to appropriate services, such as the nearest Community Pharmacy.
 
-# Requirements
+# Requirements {#DirectoryofServices(DoS)-UrgentandEmergencyCare-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | All | DOSUEC01 | Implement and maintain the [Directory of Service - Urgent and Emergency Care - REST API](https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-rest) with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#DirectoryofServices(DoS)-UrgentandEmergencyCare-Compliance,AssuranceandTesting}
 
 See the Directory of Services (DoS) - Urgent and Emergency Care section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#DirectoryofServices(DoS)-UrgentandEmergencyCare-Documentation}
 
 - [API Catalogue - Directory of Services (DoS) REST API](https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-rest)
 - Community Pharmacy services are profiled on the [Directory of Services (DoS)](https://digital.nhs.uk/services/directory-of-services-dos)
 - [Directory of Services (DoS) - REST API v1.0.0](https://developer.nhs.uk/apis/dos-api/rest_api_overview.html)
 
-# Dependencies
+# Dependencies {#DirectoryofServices(DoS)-UrgentandEmergencyCare-Dependencies}
 
 There may be dependencies for implementing this Standard, however, there are no Interoperability Standards within the Capabilities and Standards model that are dependents.
 
-# Roadmap
+# Roadmap {#DirectoryofServices(DoS)-UrgentandEmergencyCare-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

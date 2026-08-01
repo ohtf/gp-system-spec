@@ -13,12 +13,12 @@ labels: ["capability_specific_retired"]
 |  |  |
 | --- | --- |
 | ID | S20 |
-| Version | 1.0.0 |
+| Version {#Workflow-Standardv1.0.0-Version} | 1.0.0 |
 | Type | Capability Specific Standard |
-| Status | Retired |
+| Status {#Workflow-Standardv1.0.0-Status} | Retired |
 | Effective Date | 01 Apr 2019 |
 
-# Requirements
+# Requirements {#Workflow-Standardv1.0.0-Requirements}
 
 | Epic Mapping | Requirement ID | Requirement Text | Level |
 | --- | --- | --- | --- |
@@ -45,13 +45,13 @@ labels: ["capability_specific_retired"]
 | Epic 6 | **GP-WF-18** | **Workflow management - Overdue Workflows**  Indicate a workflow as ‘overdue’ if it is not completed when the Expected Due Date is surpassed. | MUST |
 | Epic 11 | **GP-WF-6-01** | **Access Patient Record**  Access a Patient Record where a Patient has been successfully identified, linked, listed or otherwise presented to the user. | MUST |
 
-# Capability
+# Capability {#Workflow-Standardv1.0.0-Capability}
 
 **Applicable Capability**
 
 All supplier Solutions will need to meet this Standard if they are delivering the Workflow Capability
 
-# Roadmap
+# Roadmap {#Workflow-Standardv1.0.0-Roadmap}
 
 **Items on the Roadmap which impact or relate to this Standard**
 

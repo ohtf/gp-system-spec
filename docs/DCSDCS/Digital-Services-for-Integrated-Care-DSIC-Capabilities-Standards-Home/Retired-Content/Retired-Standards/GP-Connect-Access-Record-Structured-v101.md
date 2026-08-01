@@ -12,12 +12,12 @@ labels: ["standard_retired"]
 
 |  |  |
 | --- | --- |
-| ID | S99 |
-| Version | 1.0.1 |
-| Type | Standard |
-| Status | Retired |
-| Effective Date | 18 Jul 2025 |
-| Contracting Vehicle(s) | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](../../DSIC-Standards/Supplementary-Care-Standards/Community-Pharmacy-Clinical-Services.md) |
+| ID {#GPConnectAccessRecordStructuredv1.0.1-ID} | S99 |
+| Version {#GPConnectAccessRecordStructuredv1.0.1-Version} | 1.0.1 |
+| Type {#GPConnectAccessRecordStructuredv1.0.1-Type} | Standard |
+| Status {#GPConnectAccessRecordStructuredv1.0.1-Status} | Retired |
+| Effective Date {#GPConnectAccessRecordStructuredv1.0.1-EffectiveDate} | 18 Jul 2025 |
+| Contracting Vehicle(s) {#GPConnectAccessRecordStructuredv1.0.1-ContractingVehicle(s)} | - [GP IT Futures](https://nhse-dsic.atlassian.net/wiki/spaces/GPITF) - [Tech Innovation](https://nhse-dsic.atlassian.net/wiki/spaces/GIFTIF) - [Community Pharmacy Clinical Services](../../DSIC-Standards/Supplementary-Care-Standards/Community-Pharmacy-Clinical-Services.md) |
 
 - [Introduction](#GPConnectAccessRecordStructuredv1.0.1-Introduction)
 - [Requirements](#GPConnectAccessRecordStructuredv1.0.1-Requirements)
@@ -26,33 +26,33 @@ labels: ["standard_retired"]
 - [Dependencies](#GPConnectAccessRecordStructuredv1.0.1-Dependencies)
 - [Roadmap](#GPConnectAccessRecordStructuredv1.0.1-Roadmap)
 
-# Introduction
+# Introduction {#GPConnectAccessRecordStructuredv1.0.1-Introduction}
 
 The GP Connect Access Record Structured API enables a Solution to request and consume a Patient’s GP Practice Electronic Patient Record (EPR) in a structured and coded format that is machine readable. The data will be made available via a standard API. Structured data allows the Consumer Solution to import and process the Patient data in the way it requires to best support Patients and the Health and Care Professionals treating them.
 
 See Access Record Structured (developer.nhs.uk) for further information.
 
-# Requirements
+# Requirements {#GPConnectAccessRecordStructuredv1.0.1-Requirements}
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| Applicable Suppliers | ID | Requirement | Level |
-| Provider | GPCARS01 | Implement and maintain the GP Connect Access Record Structured Provider requirements inline with the latest specification version. | MUST |
-| Consumer | GPCARS02 | Implement and maintain the GP Connect Access Record Structured Consumer requirements inline with the latest specification version. | MUST |
+| Applicable Suppliers {#GPConnectAccessRecordStructuredv1.0.1-ApplicableSuppliers} | ID {#GPConnectAccessRecordStructuredv1.0.1-ID.1} | Requirement {#GPConnectAccessRecordStructuredv1.0.1-Requirement} | Level {#GPConnectAccessRecordStructuredv1.0.1-Level} |
+| Provider | GPCARS01 {#GPConnectAccessRecordStructuredv1.0.1-GPCARS01} | Implement and maintain the GP Connect Access Record Structured Provider requirements inline with the latest specification version. | MUST |
+| Consumer | GPCARS02 {#GPConnectAccessRecordStructuredv1.0.1-GPCARS02} | Implement and maintain the GP Connect Access Record Structured Consumer requirements inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnectAccessRecordStructuredv1.0.1-Compliance,AssuranceandTesting}
 
 To achieve GP Connect compliance as a Provider, Suppliers will need to complete the relevant Assurance Approach detailed under each of the specific requirement pages. To achieve GP Connect compliance as a Consumer, Suppliers will need to follow the Supplier Conformance Assessment List (SCAL). More detail on this can be found here.
 
 For advice, access to testing resources, and support contact gpconnect@nhs.net.
 
-# Documentation
+# Documentation {#GPConnectAccessRecordStructuredv1.0.1-Documentation}
 
 - Developer Implementation Guide
 - GP Connect service information
 - Develop GP Connect services
 
-# Dependencies
+# Dependencies {#GPConnectAccessRecordStructuredv1.0.1-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
@@ -60,7 +60,7 @@ Creating a compliant implementation requires implementing the following dependen
 
 \*May be sourced indirectly by existing PDS interface provided by a Patient Information Maintenance - GP Solution, either via API to this Solution, or as a shared application resource if delivered as part of the same Solution.
 
-# Roadmap
+# Roadmap {#GPConnectAccessRecordStructuredv1.0.1-Roadmap}
 
 Items on the Roadmap which impact or relate to this Standard
 

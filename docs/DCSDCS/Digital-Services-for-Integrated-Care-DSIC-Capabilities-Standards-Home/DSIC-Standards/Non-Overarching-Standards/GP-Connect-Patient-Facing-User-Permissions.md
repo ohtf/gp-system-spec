@@ -26,32 +26,32 @@ labels: ["standard"]
 - [Dependencies](#GPConnect(PatientFacing)UserPermissions-Dependencies)
 - [Roadmap](#GPConnect(PatientFacing)UserPermissions-Roadmap)
 
-# Introduction
+# Introduction {#GPConnect(PatientFacing)UserPermissions-Introduction}
 
 The GP Connect (Patient Facing) User Permissions API is used to enable Patient Facing Solutions to access the permissions held within the GP Foundation Supplier Solution for Patients relating to the Prescription Ordering and View Record Citizen Services.
 
-# Requirements
+# Requirements {#GPConnect(PatientFacing)UserPermissions-Requirements}
 
 | **Applicable Suppliers** | **ID** | **Requirement** | **Level** |
 | --- | --- | --- | --- |
 | Provider | GPCPFUP01 | Implement and maintain the [GP Connect (Patient Facing) User Permissions API](https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-user-permissions) Provider requirements inline with the latest specification version. | MUST |
 | Consumer | GPCPFUP02 | Implement and maintain the [GP Connect (Patient Facing) User Permissions API](https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-user-permissions) Consumer requirements inline with the latest specification version. | MUST |
 
-# Compliance, Assurance and Testing
+# Compliance, Assurance and Testing {#GPConnect(PatientFacing)UserPermissions-Compliance,AssuranceandTesting}
 
 See the GP Connect (Patient Facing) User Permissions section on [Onboarding Overview of the Digital Care Services Interoperability Standards and Requirements](../../Reference-Pages/Onboarding-Overview-of-the-Digital-Services-for-Integrated-Care-DSIC-Non-Overarching-Standards-and-Requirements.md).
 
-# Documentation
+# Documentation {#GPConnect(PatientFacing)UserPermissions-Documentation}
 
 - [GP Connect (Patient Facing) User Permissions Implementation Guide](https://simplifier.net/guide/GP-Connect-Patient-Facing-User-Management/Home?version=current)
 
-# Dependencies
+# Dependencies {#GPConnect(PatientFacing)UserPermissions-Dependencies}
 
 Creating a compliant implementation requires implementing the following dependent interface Standards:
 
 - [NHS login service](NHS-login-service.md)
 
-# Roadmap
+# Roadmap {#GPConnect(PatientFacing)UserPermissions-Roadmap}
 
 | Roadmap Item | Standards and Capabilities | Status | Effective Date | Description | Change Type | Change Route |
 | --- | --- | --- | --- | --- | --- | --- |

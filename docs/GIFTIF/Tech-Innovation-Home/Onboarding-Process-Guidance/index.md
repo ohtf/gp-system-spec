@@ -10,9 +10,9 @@ labels: []
 
 # Onboarding Process Guidance
 
-# Introduction
+# Introduction {#OnboardingProcessGuidance-Introduction}
 
-#### Living Documents
+#### Living Documents {#OnboardingProcessGuidance-LivingDocuments}
 
 Please note that this guidance is a set of living documents and will be regularly updated.
 
@@ -26,15 +26,15 @@ The Onboarding Process for Tech Innovation Framework Solutions has many similari
 
 ---
 
-# Overview
+# Overview {#OnboardingProcessGuidance-Overview}
 
 ![](https://nhse-dsic.atlassian.net/wiki/download/attachments/12270960809/image-20230223-120131.png?api=v2)
 
-## Registration Stage
+## Registration Stage {#OnboardingProcessGuidance-RegistrationStage}
 
 The Registration Stage involves providing us (NHS England) with the information required to progress your Solution through the Onboarding Process. You will be able to provide details of your products (Core Solution, Additional Services, Associated Services) and select the Capabilities and Epics you intend to demonstrate during the Assessment Stage.
 
-## Assessment Stage
+## Assessment Stage {#OnboardingProcessGuidance-AssessmentStage}
 
 The Assessment Stage involves the largest proportion of work and will take the longest to complete. It involves the three essential Assessment activities: Capability Assessment, Capability Risk Logs, Standards Assurance.
 
@@ -42,7 +42,7 @@ The Capabilities and Epics you selected previously will determine how many asses
 
 The Primary Care Test Lab is an optional resource you may use to demonstrate your Solution to Clinicians and receive valuable feedback on your Solution. It is not required for completing the Onboarding Process but is highly recommended. Please speak to your Supplier Manager for further details.
 
-## Publication Stage
+## Publication Stage {#OnboardingProcessGuidance-PublicationStage}
 
 The Publication Stage involves collecting the results of your assessments, and the details of your products, and preparing your Solution’s listing page on the Buying Catalogue. Once agreed by all parties, your Solution listing will be published to the Buying Catalogue.
 
@@ -50,7 +50,7 @@ If your progress completing Standards Assurance has been delayed or blocked, it 
 
 ---
 
-# Activity-by-Activity Guidance
+# Activity-by-Activity Guidance {#OnboardingProcessGuidance-Activity-by-ActivityGuidance}
 
 The following pages give details on the individual activities involved in onboarding your Solution onto the Buying Catalogue. They contain:
 

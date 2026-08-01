@@ -10,7 +10,7 @@ labels: []
 
 # Further Competition - On Catalogue
 
-# Step by step Guide: Further Competition On-Catalogue
+# Step by step Guide: Further Competition On-Catalogue {#FurtherCompetition-OnCatalogue-StepbystepGuide:FurtherCompetitionOn-Catalogue}
 
 **Preliminaries**
 
@@ -21,7 +21,7 @@ The terminology used below assumes that the reader has familiarised themselves w
 - [How to buy](../index.md)
 - [Executing a procurement - a step by step guide](index.md)
 
-# Step 1: Prepare
+# Step 1: Prepare {#FurtherCompetition-OnCatalogue-Step1:Prepare}
 
 **Confirm you have the right procedure**
 
@@ -58,7 +58,7 @@ You can choose one or more quality (Non-Price Elements) and apply a percentage w
 
 You should define a scoring system for the Price criteria where the lowest price scores the highest score.  You should seek advice from your local procurement team about how to do this, as there are different methods.  You will also need to define a scoring system for your Non-Price Elements, in which the highest score represents the best price and the best quality.
 
-## Step 2: Review Catalogue Solutions
+## Step 2: Review Catalogue Solutions {#FurtherCompetition-OnCatalogue-Step2:ReviewCatalogueSolutions}
 
 **See what Catalogue Solutions are available to buy**
 
@@ -74,7 +74,7 @@ Review all the Catalogue Solutions on the Buying Catalogue and create a shortlis
 
 The method of determining your volumes is the same as for the Direct Award procedure.
 
-## Step 3: Evaluate
+## Step 3: Evaluate {#FurtherCompetition-OnCatalogue-Step3:Evaluate}
 
 Evaluate your list of Catalogue Solutions.  If there is only one Catalogue Solution on your shortlist that meets your requirement, you can appoint the Supplier of that Catalogue Solution.  As part of your audit trail, you should record a justification that describes how that Catalogue Solution is the only one on the Buying Catalogue that meets your requirement, based on the information about that Catalogue Solution, and any Catalogue Solutions disregarded, as listed on the Buying Catalogue.
 
@@ -88,7 +88,7 @@ If you are using **Price only (with no Non-Price Elements)** select the Supplier
 
 If you are using **Price with Non-Price Elements** score each Catalogue Solution using the criteria, weightings and scoring system.  The Supplier of the Catalogue Solution with the highest score is the preferred Supplier.
 
-## Step 4: Call Off Order Form and Award
+## Step 4: Call Off Order Form and Award {#FurtherCompetition-OnCatalogue-Step4:CallOffOrderFormandAward}
 
 **Notify your preferred Supplier**
 

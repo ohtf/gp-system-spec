@@ -34,11 +34,11 @@ The use of [capabilities](https://gpitbjss.atlassian.net/wiki/spaces/GPITF/overv
 
 An example of the [Record Consultations](../../../DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Consultation-Management-GP.md) capability description, outcomes and an epic are provided below to illustrate.
 
-# **Capability description**
+# **Capability description** {#CapabilityandStandardsOverview-Capabilitydescription}
 
 Supports the standardised recording of Consultations and other General Practice activities. Also supports the extraction of Female Genital Mutilation (FGM) data for the FGM data set.
 
-# **Capability outcomes**
+# **Capability outcomes** {#CapabilityandStandardsOverview-Capabilityoutcomes}
 
 |  |  |
 | --- | --- |
@@ -46,7 +46,7 @@ Supports the standardised recording of Consultations and other General Practice 
 | For General Practice: | Standardised recording and maintenance of accurate Consultation data. Enable timely and efficient access to Consultation data to support Patient care and safety. |
 | For the wider NHS and social care system: | Enabling Healthcare Professionals from a variety of services and settings to access accurate and detailed Consultation data in support of decision making and provision of Patient services. |
 
-### **Epic description: C15E1 - record Consultation information**
+### **Epic description: C15E1 - record Consultation information** {#CapabilityandStandardsOverview-Epicdescription:C15E1-recordConsultationinformation}
 
 As a Practice User
 
@@ -54,7 +54,7 @@ I want to record the information associated with a Consultation
 
 So that the Consultation is recorded
 
-### **Epic Acceptance criterion 1: record Consultation information**
+### **Epic Acceptance criterion 1: record Consultation information** {#CapabilityandStandardsOverview-EpicAcceptancecriterion1:recordConsultationinformation}
 
 Given the Practice User is permitted to record Consultations
 
