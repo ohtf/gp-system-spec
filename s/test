@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run the scraper's offline tests. Install requirements.txt before first use.
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+exec python3 -m unittest discover -s tests "$@"

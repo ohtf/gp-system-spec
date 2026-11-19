@@ -7,7 +7,7 @@ Fetches pages, attachments and rendered HTML from Confluence REST API v2,
 converts to Markdown, and writes a Git-friendly directory tree.
 
 Usage:
-    python3 scraper.py [--space KEY] [--full-refresh] [--dry-run] [--validate]
+    s/scrape [--space KEY] [--output-dir DIR] [--full-refresh] [--dry-run] [--validate]
 
 Environment variables (optional - anonymous access used by default):
     CONFLUENCE_EMAIL      Atlassian account email
@@ -17,10 +17,11 @@ Environment variables (optional - anonymous access used by default):
 import argparse
 import json
 import os
-import random
 import re
 import sys
 import time
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, parse_qs, quote, unquote_plus
 
@@ -40,18 +41,24 @@ TENANTS = {
 }
 
 DOCS_ROOT = Path(__file__).parent.parent / "docs"
-MANIFEST_PATH = DOCS_ROOT / ".mirror-manifest.json"
-FAILURE_REPORT_PATH = DOCS_ROOT / ".mirror-failures.json"
 
 # Raw rendered HTML is an archival input for reprocessing, so it lives in a
 # dot-directory the site generator ignores. Attachments are different: pages link
 # to them, so they must sit in a published directory or every attachment link on
 # the site 404s.
-RAW_ROOT = DOCS_ROOT / ".raw"
-ATTACHMENTS_ROOT = DOCS_ROOT / "attachments"
+def set_output_root(root: Path) -> None:
+    global DOCS_ROOT, MANIFEST_PATH, FAILURE_REPORT_PATH, RAW_ROOT, ATTACHMENTS_ROOT
+    DOCS_ROOT = root.resolve()
+    MANIFEST_PATH = DOCS_ROOT / ".mirror-manifest.json"
+    FAILURE_REPORT_PATH = DOCS_ROOT / ".mirror-failures.json"
+    RAW_ROOT = DOCS_ROOT / ".raw"
+    ATTACHMENTS_ROOT = DOCS_ROOT / "attachments"
 
-REQUEST_DELAY_MIN = 1.0   # seconds
-REQUEST_DELAY_MAX = 1.8   # seconds (jitter added to avoid bursty patterns)
+
+set_output_root(DOCS_ROOT)
+
+REQUEST_INTERVAL = 1.5  # seconds between requests, including redirects
+MAX_RETRY_WAIT = 120    # stop rather than scheduling a long unattended wait
 MAX_RETRIES = 4
 PAGE_LIMIT = 250
 
@@ -60,8 +67,23 @@ PAGE_LIMIT = 250
 # HTTP session
 # ---------------------------------------------------------------------------
 
+class StopMirror(RuntimeError):
+    """Stop all requests when access is blocked or throttling persists."""
+
+
+class PacedSession(requests.Session):
+    next_request = 0.0
+
+    def send(self, request, **kwargs):
+        wait = self.next_request - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        self.next_request = time.monotonic() + REQUEST_INTERVAL
+        return super().send(request, **kwargs)
+
+
 def make_session() -> requests.Session:
-    session = requests.Session()
+    session = PacedSession()
     email = os.environ.get("CONFLUENCE_EMAIL")
     token = os.environ.get("CONFLUENCE_API_TOKEN")
     if email and token:
@@ -73,28 +95,48 @@ def make_session() -> requests.Session:
     return session
 
 
-def delay() -> None:
-    time.sleep(random.uniform(REQUEST_DELAY_MIN, REQUEST_DELAY_MAX))
+def retry_after(value: str | None, fallback: int) -> float:
+    if value is not None:
+        try:
+            return max(float(int(value)), REQUEST_INTERVAL)
+        except ValueError:
+            try:
+                when = parsedate_to_datetime(value)
+                if when.tzinfo is None:
+                    when = when.replace(tzinfo=timezone.utc)
+                return max((when - datetime.now(timezone.utc)).total_seconds(), REQUEST_INTERVAL)
+            except (ValueError, TypeError, OverflowError):
+                pass
+    return fallback
 
 
 def get(session: requests.Session, url: str, **kwargs) -> requests.Response:
+    kwargs.setdefault("timeout", 30)
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            resp = session.get(url, timeout=30, **kwargs)
-            if resp.status_code == 429:
-                wait = int(resp.headers.get("Retry-After", 15))
-                print(f"  rate-limited, waiting {wait}s", file=sys.stderr)
-                time.sleep(wait)
-                continue
-            resp.raise_for_status()
-            delay()
-            return resp
-        except requests.RequestException as exc:
+            resp = session.get(url, **kwargs)
+        except (requests.Timeout, requests.ConnectionError):
             if attempt == MAX_RETRIES:
                 raise
-            wait = 2 ** attempt
-            print(f"  retry {attempt}/{MAX_RETRIES} after {wait}s: {exc}", file=sys.stderr)
-            time.sleep(wait)
+            time.sleep(2 ** attempt)
+            continue
+        status = resp.status_code
+        if status in (401, 403) or urlparse(resp.url).hostname == "id.atlassian.com":
+            resp.close()
+            raise StopMirror(f"access denied or sign-in required (HTTP {status})")
+        if status in (429, 502, 503, 504):
+            wait = retry_after(resp.headers.get("Retry-After"), 15 * 2 ** (attempt - 1))
+            resp.close()
+            if status == 429 and (attempt == MAX_RETRIES or wait > MAX_RETRY_WAIT):
+                raise StopMirror(f"rate limit persists; retry no sooner than {wait:.0f}s")
+            if attempt < MAX_RETRIES and wait <= MAX_RETRY_WAIT:
+                print(f"  HTTP {status}; waiting {wait:.0f}s before retry", file=sys.stderr)
+                time.sleep(wait)
+                continue
+        if status >= 400:
+            resp.close()
+            raise RuntimeError(f"HTTP {status}")
+        return resp
     raise RuntimeError(f"failed after {MAX_RETRIES} retries: {url}")
 
 
@@ -180,25 +222,29 @@ def enumerate_pages(session: requests.Session, base_url: str, space_key: str) ->
         return []
     space_id = spaces[0]["id"]
 
-    pages = []
+    pages = list(iter_results(session, f"{base_url}/api/v2/spaces/{space_id}/pages", PAGE_LIMIT))
+    print(f"  {space_key}: {len(pages)} pages enumerated", file=sys.stderr)
+    return pages
+
+
+def iter_results(session: requests.Session, url: str, limit: int):
     cursor = None
+    seen = set()
     while True:
-        params = {"limit": PAGE_LIMIT}
+        params = {"limit": limit}
         if cursor:
             params["cursor"] = cursor
-        resp = get(session, f"{base_url}/api/v2/spaces/{space_id}/pages", params=params)
-        data = resp.json()
-        pages.extend(data["results"])
+        with get(session, url, params=params) as resp:
+            data = resp.json()
+        yield from data["results"]
         next_link = data.get("_links", {}).get("next")
         if not next_link:
             break
         qs = parse_qs(urlparse(next_link).query)
         cursor = qs.get("cursor", [None])[0]
-        if not cursor:
-            break
-
-    print(f"  {space_key}: {len(pages)} pages enumerated", file=sys.stderr)
-    return pages
+        if not cursor or cursor in seen:
+            raise RuntimeError("missing or repeated pagination cursor")
+        seen.add(cursor)
 
 
 # ---------------------------------------------------------------------------
@@ -241,15 +287,18 @@ def download_attachments(
             filename = att.get("title", att_id)
             download_url = att.get("downloadLink") or att.get("_links", {}).get("download")
             if not download_url:
+                results.append({"id": att_id, "filename": filename, "status": "failed", "error": "no download link"})
                 continue
             if not download_url.startswith("http"):
-                download_url = base_url + download_url
+                download_url = base_url.removesuffix("/wiki") + download_url if download_url.startswith("/wiki/") else base_url + download_url
             # `filename` stays as Confluence reports it (used for the download URL
             # and shown in the page), but the on-disk name is sanitised: some
             # attachment titles are URL-encoded strings carrying query parameters.
             safe_name = re.sub(r"[^\w\s.\-\[\]()]", "_", filename)[:150].strip() or att_id
             att_path = att_dir / f"{att_id}-{safe_name}"
-            if att_path.exists():
+            if att_path.is_file() and att_path.stat().st_size > 0 and (
+                not att.get("fileSize") or att_path.stat().st_size == att["fileSize"]
+            ):
                 results.append({"id": att_id, "filename": filename, "path": str(att_path), "status": "ok"})
                 continue
             att_dir.mkdir(parents=True, exist_ok=True)
@@ -267,10 +316,7 @@ def download_attachments(
                     # Stream to disk: some attachments are >100MB webinar
                     # recordings, which a flat socket timeout on a buffered
                     # read aborts part-way through.
-                    with session.get(
-                        url, timeout=(30, 120), allow_redirects=True, stream=True
-                    ) as r:
-                        r.raise_for_status()
+                    with get(session, url, timeout=(30, 120), stream=True) as r:
                         # The legacy endpoint answers 202 with an empty body for
                         # phantom attachment records (duplicates whose title is a
                         # URL-encoded string). Writing those would create 0-byte
@@ -285,17 +331,20 @@ def download_attachments(
                                     written += len(chunk)
                         if not written:
                             raise RuntimeError("no content (empty body)")
+                        if att.get("fileSize") and written != att["fileSize"]:
+                            raise RuntimeError(f"size mismatch ({written} of {att['fileSize']} bytes)")
                     # Only publish the final name once the body is fully written,
                     # so an interrupted transfer cannot masquerade as a good file.
                     partial.replace(att_path)
-                    delay()
                     results.append({"id": att_id, "filename": filename, "path": str(att_path), "status": "ok"})
                     last_error = None
                     break
+                except StopMirror:
+                    partial.unlink(missing_ok=True)
+                    raise
                 except Exception as exc:
                     last_error = exc
                     partial.unlink(missing_ok=True)
-                    delay()
             if last_error is not None:
                 print(f"  WARN: attachment failed {filename}: {last_error}", file=sys.stderr)
                 results.append({"id": att_id, "filename": filename, "status": "failed", "error": str(last_error)})
@@ -450,10 +499,11 @@ def html_to_markdown(
             continue
 
         m = re.search(r"/pages/(\d+)", href)
-        if m:
+        if m and not parse_qs(urlparse(href).query).get("preview"):
             pid = m.group(1)
             if target := id_to_relpath.get(pid):
-                a["href"] = os.path.relpath(DOCS_ROOT / target, current_path.parent)
+                fragment = urlparse(href).fragment
+                a["href"] = os.path.relpath(DOCS_ROOT / target, current_path.parent) + (f"#{fragment}" if fragment else "")
             else:
                 a["href"] = urljoin(base_url, href)
         elif href.startswith("/"):
@@ -546,6 +596,7 @@ def mirror_space(
     manifest: dict,
     full_refresh: bool,
     dry_run: bool,
+    refresh_pages: set[str],
 ) -> tuple[int, int, list[str]]:
     print(f"\n=== Mirroring {space_key} ===", file=sys.stderr)
     pages = enumerate_pages(session, base_url, space_key)
@@ -554,10 +605,13 @@ def mirror_space(
 
     # Build lookup and child sets from enumeration data (no extra API calls)
     pages_by_id: dict[str, dict] = {p["id"]: p for p in pages}
+    if len(pages_by_id) != len(pages):
+        return 0, 0, [f"{space_key}: duplicate page IDs in API enumeration"]
     has_children: set[str] = {p["parentId"] for p in pages if p.get("parentId")}
 
     # Build id -> relative path map for link rewriting
     id_to_relpath: dict[str, str] = {}
+    claimed_paths = {entry["path"]: key for key, entry in manifest.items()}
     for pid, page in pages_by_id.items():
         ancestors = build_ancestor_chain(pid, pages_by_id)
         out_path = page_output_path(space_key, ancestors, page["title"], pid in has_children)
@@ -565,6 +619,15 @@ def mirror_space(
             id_to_relpath[pid] = str(out_path.relative_to(DOCS_ROOT))
         except ValueError:
             id_to_relpath[pid] = str(out_path)
+        key = f"{space_key}/{pid}"
+        relpath = id_to_relpath[pid]
+        if claimed_paths.get(relpath, key) != key:
+            # Preserve the earlier file and give the colliding page an ID-based path.
+            relpath = manifest.get(key, {}).get("path") or f"{space_key}/_by-id/{pid}.md"
+            print(f"  {key}: using {relpath} to avoid a path collision", file=sys.stderr)
+        if claimed_paths.setdefault(relpath, key) != key:
+            return 0, 0, [f"{key}: path collision with {claimed_paths[relpath]} at {relpath}"]
+        id_to_relpath[pid] = relpath
 
     if dry_run:
         print(f"  [dry-run] {len(pages)} pages found, {len(has_children)} have children", file=sys.stderr)
@@ -573,6 +636,22 @@ def mirror_space(
             print(f"    {id_to_relpath.get(pid, '?')}", file=sys.stderr)
         return len(pages), 0, []
 
+    inventory_dir = DOCS_ROOT / ".inventory"
+    inventory_dir.mkdir(parents=True, exist_ok=True)
+    inventory = {
+        "source": base_url,
+        "enumerated_at": datetime.now(timezone.utc).isoformat(),
+        "current_pages": {pid: page.get("version", {}).get("number") for pid, page in pages_by_id.items()},
+        "prior_pages_not_listed": sorted(
+            key.split("/", 1)[1] for key in manifest
+            if key.startswith(f"{space_key}/") and key.split("/", 1)[1] not in pages_by_id
+        ),
+    }
+    (inventory_dir / f"{space_key}.json").write_text(json.dumps(inventory, indent=2, sort_keys=True) + "\n")
+    id_to_relpath = {
+        **{key.split("/", 1)[1]: entry["path"] for key, entry in manifest.items()},
+        **id_to_relpath,
+    }
     success = 0
     skipped = 0
     failures = []
@@ -582,7 +661,11 @@ def mirror_space(
         version = page.get("version", {}).get("number", 0)
         manifest_key = f"{space_key}/{pid}"
 
-        if not full_refresh and manifest.get(manifest_key, {}).get("version") == version:
+        out_path = DOCS_ROOT / id_to_relpath[pid]
+        saved = manifest.get(manifest_key, {})
+        if (not full_refresh and pid not in refresh_pages and saved.get("version") == version
+            and saved.get("path") == id_to_relpath[pid] and out_path.is_file()
+            and (RAW_ROOT / space_key / f"{pid}.html").is_file()):
             skipped += 1
             continue
 
@@ -592,10 +675,13 @@ def mirror_space(
             if is_auth_wall(html):
                 print(f"  WARN: possible auth wall for {title} ({pid})", file=sys.stderr)
                 failures.append(f"{space_key}/{pid} ({title}): possible auth wall")
+                continue
 
+            if not html.strip() and pid not in has_children:
+                failures.append(f"{space_key}/{pid} ({title}): empty body")
+                continue
             save_raw_html(space_key, pid, html)
-            ancestors = build_ancestor_chain(pid, pages_by_id)
-            out_path = page_output_path(space_key, ancestors, title, pid in has_children)
+            attachments = download_attachments(session, base_url, pid, space_key)
             markdown = html_to_markdown(html, base_url, id_to_relpath, out_path)
 
             # Container pages (empty body, or a body consisting only of the
@@ -608,7 +694,6 @@ def mirror_space(
                     print(f"  WARN: empty body for {title} ({pid})", file=sys.stderr)
                     failures.append(f"{space_key}/{pid} ({title}): empty body")
 
-            attachments = download_attachments(session, base_url, pid, space_key)
             for a in attachments:
                 if a["status"] == "failed":
                     failures.append(f"{space_key}/{pid} attachment {a['filename']}: {a.get('error','')}")
@@ -616,7 +701,7 @@ def mirror_space(
             write_page(out_path, pid, space_key, title, detail, markdown, base_url, attachments)
 
             manifest[manifest_key] = {
-                "version": version,
+                "version": detail.get("version", {}).get("number", version),
                 "path": str(out_path.relative_to(DOCS_ROOT)),
                 "title": title,
             }
@@ -625,6 +710,10 @@ def mirror_space(
                 save_manifest(manifest)
                 print(f"  ...{success}/{len(pages_by_id)} pages done", file=sys.stderr)
 
+        except StopMirror:
+            save_manifest(manifest)
+            record_failures(failures)
+            raise
         except Exception as exc:
             print(f"  ERROR: {title} ({pid}): {exc}", file=sys.stderr)
             failures.append(f"{space_key}/{pid} ({title}): {exc}")
@@ -645,6 +734,14 @@ def validate(spaces: list[str]) -> list[str]:
         if not entries:
             issues.append(f"{space_key}: no entries in manifest")
             continue
+        inventory_path = DOCS_ROOT / ".inventory" / f"{space_key}.json"
+        if inventory_path.exists():
+            inventory = json.loads(inventory_path.read_text())
+            for pid, source_version in inventory["current_pages"].items():
+                key = f"{space_key}/{pid}"
+                saved_version = entries.get(key, {}).get("version")
+                if saved_version is None or source_version is None or saved_version < source_version:
+                    issues.append(f"{key}: enumerated version {source_version}, saved {saved_version}")
         for key, entry in entries.items():
             pid = key.split("/", 1)[1]
             raw = RAW_ROOT / space_key / f"{pid}.html"
@@ -653,7 +750,8 @@ def validate(spaces: list[str]) -> list[str]:
                 issues.append(f"missing raw HTML: {key}")
             if not md_path.exists():
                 issues.append(f"missing markdown: {key}")
-            elif content := md_path.read_text():
+            else:
+                content = md_path.read_text()
                 if re.search(r"(log.?in|access denied)", content, re.IGNORECASE) and len(content) < 500:
                     issues.append(f"possible auth wall: {key}")
                 if len(content.strip()) < 100:
@@ -666,6 +764,42 @@ def validate(spaces: list[str]) -> list[str]:
             # They must not fail validation, but must never become invisible.
             print(f"NOTE: deferred - {failure['message']}", file=sys.stderr)
     return issues
+
+
+def audit_attachments(session: requests.Session, base_url: str, spaces: list[str]) -> int:
+    """Check each current page, including pages skipped by the version refresh."""
+    inventory_dir = DOCS_ROOT / ".inventory"
+    if not all((inventory_dir / f"{space}.json").is_file() for space in spaces):
+        print("An attachment audit requires a live page inventory for each selected space.", file=sys.stderr)
+        return 1
+    failure_count = 0
+    for space in spaces:
+        inventory = json.loads((inventory_dir / f"{space}.json").read_text())
+        pages = inventory["current_pages"]
+        print(f"  {space}: checking attachments for {len(pages)} current pages", file=sys.stderr)
+        with (inventory_dir / f"{space}-attachments.jsonl").open("w", encoding="utf-8", buffering=1) as log:
+            for pid in pages:
+                try:
+                    attachments = download_attachments(session, base_url, pid, space)
+                except StopMirror as exc:
+                    log.write(json.dumps({"page_id": pid, "error": str(exc)}) + "\n")
+                    print(f"STOP: {space}/{pid}: {exc}", file=sys.stderr)
+                    return 1
+                except Exception as exc:
+                    log.write(json.dumps({"page_id": pid, "error": str(exc)}) + "\n")
+                    failure_count += 1
+                    continue
+
+                for attachment in attachments:
+                    if attachment["status"] == "ok":
+                        path = Path(attachment["path"])
+                        attachment["bytes"] = path.stat().st_size
+                        attachment["path"] = str(path.relative_to(DOCS_ROOT))
+                    else:
+                        failure_count += 1
+                log.write(json.dumps({"page_id": pid, "attachments": attachments}) + "\n")
+    print(f"Attachment audit: {failure_count} failed page listings or attachment records.")
+    return int(failure_count > 0)
 
 
 def rebuild_markdown() -> list[str]:
@@ -731,15 +865,24 @@ def rebuild_markdown() -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Mirror Confluence spaces to Markdown.")
     parser.add_argument("--space", help="Mirror only this space key")
+    parser.add_argument("--output-dir", type=Path, help="Use a separate archive directory instead of docs/")
+    parser.add_argument("--refresh-page", action="append", default=[], metavar="ID", help="Re-fetch a specific page even if unchanged; repeat as needed")
     parser.add_argument("--full-refresh", action="store_true", help="Re-fetch all pages ignoring manifest")
     parser.add_argument("--dry-run", action="store_true", help="Enumerate only, do not write files")
     parser.add_argument("--validate", action="store_true", help="Validate existing mirror completeness")
     parser.add_argument("--rebuild-markdown", action="store_true", help="Regenerate Markdown from preserved raw HTML")
+    parser.add_argument("--audit-attachments", action="store_true", help="Check and retrieve attachments for every inventoried page")
     args = parser.parse_args()
+    if args.output_dir:
+        set_output_root(args.output_dir.expanduser())
+    known_spaces = [s for tenant in TENANTS.values() for s in tenant["spaces"]]
+    if args.space and args.space not in known_spaces:
+        parser.error(f"unknown space: {args.space}")
+    if sum([args.dry_run, args.validate, args.rebuild_markdown, args.audit_attachments]) > 1:
+        parser.error("choose only one of --dry-run, --validate, --rebuild-markdown, --audit-attachments")
 
     if args.validate:
-        all_spaces = [s for t in TENANTS.values() for s in t["spaces"]]
-        issues = validate([args.space] if args.space else all_spaces)
+        issues = validate([args.space] if args.space else known_spaces)
         if issues:
             print(f"VALIDATION FAILED: {len(issues)} issue(s):")
             for iss in issues:
@@ -759,6 +902,8 @@ def main() -> int:
         return 0
 
     session = make_session()
+    if args.audit_attachments:
+        return audit_attachments(session, TENANTS["nhse-dsic"]["base"], [args.space] if args.space else known_spaces)
     manifest = load_manifest()
     all_failures = []
     total_success = total_skipped = 0
@@ -769,7 +914,7 @@ def main() -> int:
         for space_key in spaces:
             try:
                 ok, skipped, failures = mirror_space(
-                    session, base_url, space_key, manifest, args.full_refresh, args.dry_run
+                    session, base_url, space_key, manifest, args.full_refresh, args.dry_run, set(args.refresh_page)
                 )
                 total_success += ok
                 total_skipped += skipped
@@ -778,6 +923,12 @@ def main() -> int:
                     f"  {space_key}: {ok} fetched, {skipped} skipped, {len(failures)} failures",
                     file=sys.stderr,
                 )
+            except StopMirror as exc:
+                msg = f"STOP: {space_key}: {exc}"
+                print(f"  {msg}", file=sys.stderr)
+                if not args.dry_run:
+                    record_failures([*all_failures, msg])
+                return 1
             except Exception as exc:
                 msg = f"FATAL: {space_key}: {exc}"
                 print(f"  {msg}", file=sys.stderr)
