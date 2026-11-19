@@ -34,6 +34,6 @@ python -m pip install -r requirements.txt
 s/docs
 ```
 
-Run `s/docs --mirror` to browse or search the July NHS capture. Both previews use the first available loopback port in 8000–8030. See [the script reference](s/README.md) for checks and [the NHS mirror instructions](nhs-futures/README.md#maintenance-tooling) before refreshing a capture.
+Run `s/docs --mirror` to browse or search the July NHS capture. The first build can take a minute or two; the browser opens once the homepage is ready. Both previews use the first available loopback port in 8000–8030. See [the script reference](s/README.md) for checks and [the NHS mirror instructions](nhs-futures/README.md#maintenance-tooling) before refreshing a capture.
 
 For corrections or contributions, see [CONTRIBUTING.md](CONTRIBUTING.md). Report sensitive material privately using [SECURITY.md](SECURITY.md).
