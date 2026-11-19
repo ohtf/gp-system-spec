@@ -5,7 +5,10 @@ repo_url: https://github.com/ohtf/gp-system-spec
 repo_name: ohtf/gp-system-spec
 docs_dir: site/source
 site_dir: site/archive
-copyright: Archive commentary is CC BY-SA 4.0. Captured material retains its original rights and notices.
+copyright: >-
+  Hosted by the <a href="https://openhealthtechnology.org/">Open Health Technology Foundation</a>.<br>
+  Archive commentary and OHTF branding are <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+  Captured material retains its original rights and notices.
 
 nav:
   - Home: index.md
@@ -21,9 +24,37 @@ not_in_nav: |
 
 theme:
   variant: modern
-  font: false
-  favicon: assets/archive.svg
-  logo: assets/archive.svg
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  favicon: assets/ohtf-avatar.svg
+  logo: assets/ohtf-avatar.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: lucide/moon
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: lucide/sun
+        name: Switch to light mode
 
 extra_css:
+  - stylesheets/ohtf.css
   - stylesheets/extra.css
+
+extra:
+  generator: false

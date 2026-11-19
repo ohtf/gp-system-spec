@@ -1,0 +1,54 @@
+/*
+ * SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ *
+ * Shared palette and header rules from the OHTF website, revision
+ * 2c835607ba23244cc6a896151dd051a0f6e700bc. Site layouts are not imported.
+ * Surgical Green (#0D4A3B) and its tint scale are the only brand colours.
+ */
+
+:root {
+  --ohtf-surgical-green: #0d4a3b;
+  --ohtf-surgical-green-80: #3d6e62;
+  --ohtf-surgical-green-60: #6e9289;
+  --ohtf-surgical-green-40: #9eb7b1;
+  --ohtf-surgical-green-20: #cfdbd8;
+  --ohtf-surgical-green-10: #e7edeb;
+}
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ohtf-surgical-green);
+  --md-primary-fg-color--light: var(--ohtf-surgical-green-80);
+  --md-primary-fg-color--dark: var(--ohtf-surgical-green);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+  --md-typeset-a-color: var(--ohtf-surgical-green);
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ohtf-surgical-green-80);
+  --md-accent-fg-color--transparent: rgba(13, 74, 59, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+  --md-typeset-a-color: var(--ohtf-surgical-green-40);
+}
+
+[data-md-color-scheme="slate"][data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ohtf-surgical-green-20);
+  --md-accent-fg-color--transparent: rgba(158, 183, 177, 0.12);
+  --md-accent-bg-color: var(--ohtf-surgical-green);
+  --md-accent-bg-color--light: rgba(13, 74, 59, 0.7);
+}
+
+.md-header__button.md-logo {
+  padding: 0.2rem;
+  margin: 0.1rem 0.2rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+}

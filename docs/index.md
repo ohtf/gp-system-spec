@@ -4,7 +4,8 @@ Browse NHS GP IT Futures functional requirements and the Digital Services for In
 
 ## Find a GP system function
 
-- [Browse the GP IT Futures capability index](capabilities.md) for descriptions, outcomes, user stories and acceptance criteria.
+[Browse the GP IT Futures capability index](capabilities.md){ .md-button .md-button--primary }
+
 - Jump to [GP appointments](capabilities.md#appointments), [consultations](capabilities.md#consultations), [patient records](capabilities.md#patient-care-management) or [prescribing](capabilities.md#medicines-management).
 - For interoperability, service management and procurement, start with [NHS standards and collections](nhs-england.md).
 
