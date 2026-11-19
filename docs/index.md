@@ -1,17 +1,15 @@
 # GP system specification archive
 
-An unofficial catalogue of general practice clinical-system specifications and related sources. Start with the jurisdiction and edition you need, then follow the link to the publisher.
+Browse NHS GP IT Futures functional requirements and the Digital Services for Integrated Care (DSIC) standards they reference. This unofficial archive preserves a dated NHS England capture; it is not a current compliance checklist.
 
-## Find a source
+## Find a GP system function
 
-| Collection | What you will find |
-| --- | --- |
-| [NHS England](nhs-england.md) | Digital Services for Integrated Care (DSIC), the earlier GP IT Futures framework, and related programmes and buyer guidance. |
-| [Ireland](ireland.md) | *Requirements for Certification 2022*, version 1.5, dated January 2025. |
-| [Historical and informal sources](historical-sources.md) | The RCGP’s 1980 working party report and a separate Trello board of product ideas. |
+- [Browse the GP IT Futures capability index](capabilities.md) for descriptions, outcomes, user stories and acceptance criteria.
+- Jump to [GP appointments](capabilities.md#appointments), [consultations](capabilities.md#consultations), [patient records](capabilities.md#patient-care-management) or [prescribing](capabilities.md#medicines-management).
+- For interoperability, service management and procurement, start with [NHS standards and collections](nhs-england.md).
 
-## How to use the catalogue
+## Compare with other sources
 
-Use it for research and comparison. The collections come from different jurisdictions and periods, so they do not form a single specification. Check the publisher’s version, status and effective date before relying on a requirement.
+Compare the NHS material with [Irish certification requirements](ireland.md). See [historical and informal sources](historical-sources.md) for the RCGP’s 1980 report and a separate Trello board of product ideas. These collections do not form a single specification.
 
-This is not an official publication, clinical guidance or a current compliance checklist. [Read about scope and provenance](about.md).
+[Read about scope, provenance and removal requests](about.md).

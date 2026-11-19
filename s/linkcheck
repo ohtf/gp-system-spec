@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build the public catalogue and check its navigation, local links and anchors.
+# Build the unified site and check authored links and archived page coverage.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 if ! command -v zensical >/dev/null 2>&1; then
@@ -7,5 +7,7 @@ if ! command -v zensical >/dev/null 2>&1; then
   exit 1
 fi
 python3 tools/check-catalogue.py source
-zensical build --config-file mkdocs.yml --clean --strict
+python3 tools/prepare-site.py
+# Historical Confluence fragments are reported by Zensical but are not fatal.
+zensical build --config-file mkdocs.yml --clean
 exec python3 tools/check-catalogue.py rendered

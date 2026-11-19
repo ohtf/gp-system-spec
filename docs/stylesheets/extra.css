@@ -14,3 +14,12 @@ a:focus-visible, button:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
+
+/* Keep wide specifications scrollable without squeezing requirement prose. */
+.md-grid {
+  max-width: 84rem;
+}
+
+.md-typeset td:nth-child(3):nth-last-child(n+4) {
+  min-width: 20rem;
+}

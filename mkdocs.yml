@@ -1,27 +1,29 @@
 site_name: GP system specification archive
-site_description: An unofficial catalogue of general practice clinical-system specifications and related sources.
+site_description: An unofficial archive of NHS GP IT Futures and DSIC capabilities and standards, with historical and Irish comparison sources.
 site_url: https://ohtf.github.io/gp-system-spec/
 repo_url: https://github.com/ohtf/gp-system-spec
 repo_name: ohtf/gp-system-spec
-edit_uri: edit/main/docs/
-docs_dir: docs
-site_dir: site/catalogue
-copyright: Catalogue text licensed under CC BY-SA 4.0. Linked sources retain their own terms.
+docs_dir: site/source
+site_dir: site/archive
+copyright: Archive commentary is CC BY-SA 4.0. Captured material retains its original rights and notices.
 
 nav:
-  - Overview: index.md
-  - NHS England: nhs-england.md
-  - Ireland: ireland.md
-  - Historical and informal sources: historical-sources.md
+  - Home: index.md
+  - GP IT Futures capabilities: capabilities.md
+  - NHS standards and collections: nhs-england.md
+  - Compare with Ireland: ireland.md
+  - Historical sources: historical-sources.md
   - About the archive: about.md
+
+# The captured documents are reached from the curated indexes, cross-links and search.
+not_in_nav: |
+  nhs-snapshot/**
 
 theme:
   variant: modern
   font: false
   favicon: assets/archive.svg
   logo: assets/archive.svg
-  features:
-    - content.action.edit
 
 extra_css:
   - stylesheets/extra.css

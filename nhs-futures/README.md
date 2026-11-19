@@ -2,7 +2,7 @@
 
 Unofficial preservation mirror of NHS England GP IT capabilities, standards, specifications and supporting material published on Confluence.
 
-The browsable archive is in [`docs/`](docs/index.md). The [public catalogue](https://ohtf.github.io/gp-system-spec/nhs-england/) links to this collection and the live sources. The full mirror also has a separate local Zensical preview.
+The captured Markdown is in [`docs/`](docs/index.md). The [archive website](https://ohtf.github.io/gp-system-spec/) puts GP IT Futures first. The capability index groups the functional descriptions and acceptance criteria by topic, even though NHS England files the linked pages under DSIC.
 
 ## Content
 
@@ -28,7 +28,7 @@ This is not an official NHS England publication. Public accessibility does not e
 
 ## Site preview
 
-From the repository root, follow the [local preview setup](../README.md#local-preview), then run `s/docs --mirror`. This previews the July capture. The November capture remains separate; see the [snapshot register](../snapshots.md).
+From the repository root, follow the [local preview setup](../README.md#local-preview), then run `s/docs`. The unified site renders the July capture and keeps attachments on GitHub rather than copying them into Pages. The November capture remains separate and local; see the [snapshot register](../snapshots.md).
 
 ## Maintenance tooling
 

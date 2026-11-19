@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Open the catalogue, or use --mirror to preview the local July NHS capture.
+# Open the combined specifications archive.
 # Binds the first free port in 8000-8030. Pass -a/--dev-addr to override.
 # The browser opens after the homepage is available, not just after binding.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 config=mkdocs.yml
+# The old option is a compatibility alias for the same site.
 if [[ ${1:-} == --mirror ]]; then
-  config=mkdocs-mirror.yml
   shift
 fi
 if ! command -v zensical >/dev/null 2>&1; then
@@ -55,6 +55,9 @@ if [[ -z $addr ]]; then
     exit 1
   fi
 fi
+
+python3 tools/check-catalogue.py source
+python3 tools/prepare-site.py
 
 # Only Zensical knows the assigned address when the OS chooses the port.
 if [[ ${addr##*:} =~ ^0+$ ]]; then

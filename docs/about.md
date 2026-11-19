@@ -4,9 +4,9 @@ The catalogue records sources, jurisdictions and editions for researchers compar
 
 ## What is published here
 
-This site contains descriptions, capture dates and links to the publishers and to [the GitHub repository](https://github.com/ohtf/gp-system-spec#collections). The mirrored pages, PDFs, attachments and Trello cards are not duplicated on this site. Live links can change after capture. A capture date records when material was retrieved, not when a requirement became effective.
+This site renders the July 2026 NHS snapshot alongside archive-authored navigation and comparison notes. It reads the captured Markdown without modifying it and links to the attached files in [the archive repository](https://github.com/ohtf/gp-system-spec#collections). It does not copy raw source HTML, attachments or the later local-only capture into the site. A capture date records when material was retrieved, not when a requirement became effective.
 
-The catalogue text is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The linked material retains the rights and notices of its publishers.
+The archive-authored text is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Captured and linked material retains the rights and notices of its publishers.
 
 ## Corrections and rights concerns
 

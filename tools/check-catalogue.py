@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-"""Check the public catalogue, not the preserved third-party mirror."""
+"""Check the site's navigation, archive coverage and publication boundary."""
 
+import json
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -11,8 +12,8 @@ import yaml
 
 
 def check_source(config):
-    if config.get("docs_dir") != "docs" or config.get("site_dir") != "site/catalogue":
-        return ["Catalogue build must use docs/ and site/catalogue/."]
+    if config.get("docs_dir") != "site/source" or config.get("site_dir") != "site/archive":
+        return ["Build must use staged site/source/ and publish only site/archive/."]
 
     errors = []
     root = Path("docs")
@@ -60,9 +61,25 @@ def check_rendered(config):
     base = config["site_url"]
     origin = urlsplit(base).netloc
     prefix = urlsplit(base).path
-    pages = {path: Page(path) for path in root.rglob("*.html")}
     errors = []
-    for path, page in sorted(pages.items()):
+    manifest = json.loads(Path("nhs-futures/docs/.mirror-manifest.json").read_text(encoding="utf-8"))
+    expected = {Path("nhs-snapshot/index.html"), Path("nhs-snapshot/archive-omissions/index.html")}
+    for item in manifest.values():
+        path = Path("nhs-snapshot") / item["path"]
+        expected.add(path.with_suffix(".html") if path.name == "index.md" else path.with_suffix("") / "index.html")
+    observed = {path.relative_to(root) for path in (root / "nhs-snapshot").rglob("*") if path.is_file()}
+    errors += [f"Archive page missing from build: {path}" for path in sorted(expected - observed)]
+    errors += [f"Unexpected archive output: {path}" for path in sorted(observed - expected)]
+
+    # Imported hyperlinks include known broken source fragments. Enforce new
+    # links on the authored pages without silently hiding those legacy warnings.
+    authored = {root / "index.html", root / "404.html"}
+    authored.update(root / path.stem / "index.html" for path in Path("docs").glob("*.md") if path.name != "index.md")
+    for path in sorted(authored):
+        if not path.is_file():
+            errors.append(f"Missing rendered navigation or guide page: {path.relative_to(root)}")
+            continue
+        page = Page(path)
         relative = path.relative_to(root).as_posix()
         page_url = urljoin(base, relative)
         for link in sorted(page.links):
@@ -77,7 +94,7 @@ def check_rendered(config):
                 target /= "index.html"
             if not target.is_relative_to(root) or not target.is_file():
                 errors.append(f"{relative}: missing internal target: {link}")
-            elif target in pages and url.fragment and unquote(url.fragment) not in pages[target].anchors:
+            elif target.suffix == ".html" and url.fragment and unquote(url.fragment) not in Page(target).anchors:
                 errors.append(f"{relative}: missing anchor: {link}")
     return errors
 
