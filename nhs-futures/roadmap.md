@@ -40,7 +40,7 @@ Legend: [x] done, [~] in progress or partially done, [ ] not started
 ## R10 - Publication
 
 - [ ] R10.3 Review and resolve the 2,281 Confluence-generated in-page anchor warnings before public deployment
-- [~] R10.4 Deploy the catalogue to GitHub Pages. Keep the mirrored pages and attachments out of the Pages artifact.
+- [x] R10.4 Deploy the [catalogue](https://ohtf.github.io/gp-system-spec/) to GitHub Pages. Mirrored pages and attachments are not included in the Pages artifact.
 - [ ] R10.5 Add navigation that groups the mirror by task and source space
 
 ## R11 - Ongoing maintenance
