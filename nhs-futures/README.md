@@ -28,10 +28,7 @@ This is not an official NHS England publication. Public accessibility does not e
 
 ## Site preview
 
-```bash
-pip install -r requirements.txt
-zensical serve
-```
+From the repository root, run `python3 -m pip install -r requirements.txt`, then `s/docs`. The local site previews the July capture. The November capture remains separate; see the [snapshot register](../snapshots.md).
 
 ## Maintenance tooling
 

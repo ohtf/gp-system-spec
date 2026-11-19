@@ -1,5 +1,5 @@
 site_name: NHS GP IT Specifications
-site_description: Unofficial preservation mirror of NHS England GP IT Confluence specifications.
+site_description: Local preview of the July 2026 NHS England GP IT Confluence capture.
 docs_dir: nhs-futures/docs
 
 theme:

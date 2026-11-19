@@ -1,15 +1,21 @@
-# NHS GP IT Specifications
+# NHS GP IT specifications
 
-This is an unofficial preservation mirror of NHS England GP IT specifications, capabilities and supporting material formerly or currently published through NHS England Confluence spaces.
-
-The primary source is the Digital Services for Integrated Care (DSIC) Capabilities & Standards space (DCSDCS). The archive also includes GP IT Futures (GPITF), Tech Innovation (GIFTIF), Digital First Online Consultation & Video Consultation (DFOCVCL), Community Pharmacy Clinical Services (CPCSH), Digital Pathways Solution Registry (DPSR), and Buyer Guidance (BG).
+Local preview of the 31 July 2026 NHS England Confluence capture. This is an unofficial historical mirror, not a statement of current requirements or UK legal compliance. For current material, consult the [live DSIC space](https://nhse-dsic.atlassian.net/wiki/spaces/DCSDCS/overview).
 
 ## Browse the archive
 
-- [DCSDCS - Digital Services for Integrated Care Capabilities & Standards](DCSDCS/Index.md)
-- [GPITF - GP IT Futures Capabilities & Standards](GPITF/What-are-Capabilities.md)
-- [DFOCVCL - Digital First Online Consultation & Video Consultation](DFOCVCL/Digital-First-Online-Consultation-Video-Consultation-DFOCVC-Final/index.md)
-- [BG - Buyer Guidance](BG/Order-form-templates.md)
+### Standards and capabilities
+
+- [DSIC capabilities and standards](DCSDCS/Index.md) - main index of capabilities, standards and interoperability requirements.
+- [GP IT Futures](GPITF/GP-IT-Futures-Capabilities-and-Standards-Home/index.md) - legacy framework and links to its capability definitions.
+
+### Frameworks and buyer guidance
+
+- [Tech Innovation](GIFTIF/Tech-Innovation-Home/index.md)
+- [Digital First Online Consultation and Video Consultation](DFOCVCL/Digital-First-Online-Consultation-Video-Consultation-DFOCVC-Final/index.md)
+- [Community Pharmacy Clinical Services](CPCSH/Community-Pharmacy-Clinical-Services-Home/index.md)
+- [Digital Pathways Solution Registry](DPSR/Digital-Pathways-Solution-Registry-Market-Engagement-Home/index.md)
+- [Buyer Guidance](BG/Buyer-Guidance/index.md)
 
 The original page URL, page ID, source space, version and update timestamp are preserved in every mirrored page's frontmatter. Raw rendered Confluence HTML is retained under `.raw/` alongside the browsable archive. Downloaded attachments are under `attachments/`.
 
