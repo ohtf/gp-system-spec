@@ -39,7 +39,7 @@ Legend: [x] done, [~] in progress or partially done, [ ] not started
 
 ## R10 - Publication
 
-- [ ] R10.3 Review and resolve the 2,281 Confluence-generated in-page anchor warnings before public deployment
+- [~] R10.3 Repair fragment links in the local mirror. A clean Zensical 0.1.2 build reported 182 warnings across 44 pages: 134 targets already have an exact ID in rendered HTML, 31 have an ID in captured Confluence HTML only, and 17 have no exact ID in either. Validate the first group against rendered HTML rather than rewriting working links; percent-encoding did not clear a representative warning. Preserve original IDs where conversion flattened headings into table cells. Report unmatched or ambiguous links for manual review. Verify against rendered IDs after rebuilding; leave the raw capture and baseline tag unchanged.
 - [x] R10.4 Deploy the [catalogue](https://ohtf.github.io/gp-system-spec/) to GitHub Pages. Mirrored pages and attachments are not included in the Pages artifact.
 - [ ] R10.5 Add navigation that groups the mirror by task and source space
 
