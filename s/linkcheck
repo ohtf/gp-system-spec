@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Build the public catalogue and check its navigation, local links and anchors.
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+if ! command -v zensical >/dev/null 2>&1; then
+  printf '%s\n' 'Install Zensical with: python3 -m pip install -r requirements.txt' >&2
+  exit 1
+fi
+python3 tools/check-catalogue.py source
+zensical build --config-file mkdocs.yml --clean --strict
+exec python3 tools/check-catalogue.py rendered

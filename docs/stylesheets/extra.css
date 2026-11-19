@@ -1,0 +1,16 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #174b46;
+  --md-primary-fg-color--dark: #123a37;
+  --md-accent-fg-color: #12645a;
+  --md-typeset-a-color: #065955;
+}
+
+.md-typeset a:not(.headerlink) {
+  text-decoration: underline;
+  text-underline-offset: .16em;
+}
+
+a:focus-visible, button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}

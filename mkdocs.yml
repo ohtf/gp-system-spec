@@ -1,9 +1,27 @@
-site_name: NHS GP IT Specifications
-site_description: Local preview of the July 2026 NHS England GP IT Confluence capture.
-docs_dir: nhs-futures/docs
+site_name: GP system specification archive
+site_description: An unofficial catalogue of general practice clinical-system specifications and related sources.
+site_url: https://ohtf.github.io/gp-system-spec/
+repo_url: https://github.com/ohtf/gp-system-spec
+repo_name: ohtf/gp-system-spec
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site/catalogue
+copyright: Catalogue text licensed under CC BY-SA 4.0. Linked sources retain their own terms.
+
+nav:
+  - Overview: index.md
+  - NHS England: nhs-england.md
+  - Ireland: ireland.md
+  - Historical and informal sources: historical-sources.md
+  - About the archive: about.md
 
 theme:
-  variant: classic
+  variant: modern
+  font: false
+  favicon: assets/archive.svg
+  logo: assets/archive.svg
+  features:
+    - content.action.edit
 
 extra_css:
   - stylesheets/extra.css

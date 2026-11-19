@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .env
 /site/
+/.venv/
 /.cache/
 /nhs-futures/docs/attachments/**/*.mp4
 

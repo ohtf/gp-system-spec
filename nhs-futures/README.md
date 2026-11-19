@@ -2,7 +2,7 @@
 
 Unofficial preservation mirror of NHS England GP IT capabilities, standards, specifications and supporting material published on Confluence.
 
-The browsable archive is in [`docs/`](docs/index.md). It is structured for publication as a Zensical static site while retaining a reviewable Markdown source tree.
+The browsable archive is in [`docs/`](docs/index.md). The [public catalogue](https://ohtf.github.io/gp-system-spec/nhs-england/) links to this collection and the live sources. The full mirror also has a separate local Zensical preview.
 
 ## Content
 
@@ -24,11 +24,11 @@ Follow-up work restored the Buyer Guidance page as a child index and resolved th
 
 ## Rights and provenance
 
-This is not an official NHS England publication. Public accessibility does not establish a right to republish every item. The licence and terms of each source space have not yet been confirmed. Preserve attribution and source notices, and do not redistribute material until the relevant rights have been verified.
+This is not an official NHS England publication. Public accessibility does not establish a right to republish every item. The licence and terms of each source space have not yet been confirmed. Preserve attribution and source notices. See the [copyright and removal notice](../README.md#copyright-and-removal-requests).
 
 ## Site preview
 
-From the repository root, run `python3 -m pip install -r requirements.txt`, then `s/docs`. The local site previews the July capture. The November capture remains separate; see the [snapshot register](../snapshots.md).
+From the repository root, follow the [local preview setup](../README.md#local-preview), then run `s/docs --mirror`. This previews the July capture. The November capture remains separate; see the [snapshot register](../snapshots.md).
 
 ## Maintenance tooling
 

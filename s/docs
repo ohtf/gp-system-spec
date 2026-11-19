@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
-# Open a local preview of the July NHS Confluence capture.
+# Open the catalogue, or use --mirror to preview the local July NHS capture.
 # Binds the first free port in 8000-8030. Pass -a/--dev-addr to override.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
+config=mkdocs.yml
+if [[ ${1:-} == --mirror ]]; then
+  config=mkdocs-mirror.yml
+  shift
+fi
 if ! command -v zensical >/dev/null 2>&1; then
   printf '%s\n' 'Install Zensical with: python3 -m pip install -r requirements.txt' >&2
   exit 1
@@ -10,7 +15,7 @@ fi
 
 for arg in "$@"; do
   case "$arg" in
-    -a|-a=*|--dev-addr|--dev-addr=*) exec zensical serve --open "$@" ;;
+    -a|-a=*|--dev-addr|--dev-addr=*) exec zensical serve -f "$config" --open "$@" ;;
   esac
 done
 
@@ -28,7 +33,7 @@ listening() {
 for ((port=8000; port<=8030; port++)); do
   if ! listening "$port"; then
     printf 's/docs: serving on http://127.0.0.1:%s\n' "$port"
-    exec zensical serve --dev-addr "127.0.0.1:$port" --open "$@"
+    exec zensical serve -f "$config" --dev-addr "127.0.0.1:$port" --open "$@"
   fi
 done
 printf '%s\n' 's/docs: no free port in 8000-8030' >&2
