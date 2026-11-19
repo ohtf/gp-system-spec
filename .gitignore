@@ -1,9 +1,18 @@
-spec/
+/spec/
 __pycache__/
 *.pyc
 .env
-site/
-docs/attachments/**/*.mp4
+/site/
+/.cache/
+/nhs-futures/docs/attachments/**/*.mp4
+
+# Agent-tool artefacts
+/.claude/
+/.playwright-mcp/
+/.playwright/
+/playwright-report/
+/blob-report/
+/test-results/
 
 # Local-only private workspace
 /.private

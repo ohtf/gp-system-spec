@@ -40,7 +40,7 @@ TENANTS = {
     },
 }
 
-DOCS_ROOT = Path(__file__).parent.parent / "docs"
+DOCS_ROOT = Path(__file__).parent.parent / "nhs-futures" / "docs"
 
 # Raw rendered HTML is an archival input for reprocessing, so it lives in a
 # dot-directory the site generator ignores. Attachments are different: pages link
@@ -865,7 +865,7 @@ def rebuild_markdown() -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Mirror Confluence spaces to Markdown.")
     parser.add_argument("--space", help="Mirror only this space key")
-    parser.add_argument("--output-dir", type=Path, help="Use a separate archive directory instead of docs/")
+    parser.add_argument("--output-dir", type=Path, help="Use a separate archive directory instead of nhs-futures/docs/")
     parser.add_argument("--refresh-page", action="append", default=[], metavar="ID", help="Re-fetch a specific page even if unchanged; repeat as needed")
     parser.add_argument("--full-refresh", action="store_true", help="Re-fetch all pages ignoring manifest")
     parser.add_argument("--dry-run", action="store_true", help="Enumerate only, do not write files")

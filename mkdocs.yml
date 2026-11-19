@@ -1,5 +1,6 @@
 site_name: NHS GP IT Specifications
 site_description: Unofficial preservation mirror of NHS England GP IT Confluence specifications.
+docs_dir: nhs-futures/docs
 
 theme:
   variant: classic

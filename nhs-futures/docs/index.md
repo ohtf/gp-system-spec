@@ -11,11 +11,11 @@ The primary source is the Digital Services for Integrated Care (DSIC) Capabiliti
 - [DFOCVCL - Digital First Online Consultation & Video Consultation](DFOCVCL/Digital-First-Online-Consultation-Video-Consultation-DFOCVC-Final/index.md)
 - [BG - Buyer Guidance](BG/Order-form-templates.md)
 
-The original page URL, page ID, source space, version and update timestamp are preserved in every mirrored page's frontmatter. Raw rendered Confluence HTML and downloaded attachments are retained under `docs/.raw/` for archival reprocessing and are not part of the published site.
+The original page URL, page ID, source space, version and update timestamp are preserved in every mirrored page's frontmatter. Raw rendered Confluence HTML is retained under `.raw/` alongside the browsable archive. Downloaded attachments are under `attachments/`.
 
 ## Archive status
 
-The first scrape, retrieved on 31 July 2026 using the Confluence REST API v2, enumerated 630 pages and mirrored 629 pages. One Buyer Guidance page returned an empty source body, two DCSDCS page-tree macros reported insufficient anonymous access, and 11 attachments were listed by Confluence but returned 404 on download. [Five large video attachments are retained outside Git for offline archiving](archive-omissions.md). The [machine-readable failure report](.mirror-failures.json) records all 14 unresolved scrape gaps. These source-side gaps require further investigation with authenticated access.
+The first scrape, retrieved on 31 July 2026 using the Confluence REST API v2, enumerated 630 pages and initially mirrored 629. Follow-up work restored the missing Buyer Guidance page as a child index and resolved the reported page-tree and attachment gaps without authentication. [Five large video attachments are omitted from the Git baseline](archive-omissions.md). The [failure report](.mirror-failures.json) records the original findings and their resolutions.
 
 ## Rights and provenance
 
