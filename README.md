@@ -13,6 +13,6 @@ See [the snapshot register](snapshots.md) for what each capture contains and how
 
 ## Local use
 
-The original PDFs can be read directly. To browse or search the July NHS capture locally, install the pinned dependencies with `python3 -m pip install -r requirements.txt`, then run `s/docs`. The preview listens on `127.0.0.1:8000` by default. Run `s/test` for the scraper's offline tests. See [the NHS mirror instructions](nhs-futures/README.md#maintenance-tooling) before refreshing it.
+The original PDFs can be read directly. To browse or search the July NHS capture locally, install the pinned dependencies with `python3 -m pip install -r requirements.txt`, then run `s/docs`. The preview uses the first available loopback port from 8000 to 8030. Run `s/test` for the scraper's offline tests. See [the NHS mirror instructions](nhs-futures/README.md#maintenance-tooling) before refreshing it.
 
 No remote is configured. The imported documents retain their original rights and notices; see [licensing and archive rights](LICENCE.md) before sharing any material.
