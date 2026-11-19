@@ -19,4 +19,4 @@ The audit covered all 653 pages across seven spaces. The two exceptions are the 
 - `att14425948213` is a GP2GP PDF preview. The full requirements PDF is preserved on the same page as `att14425948216`, and matching WebP previews from other pages are also preserved.
 - `att14445281308` is a copy of `XML_csv_view_V10_0.csv`. Byte-identical copies of the expected size are preserved as `att14504591387` and `att14801600539`.
 
-The local capture includes the original audit log, per-page inventory and `SHA256SUMS` for checking the stored files. The original capture remains in `nhs-gp-it-spec`.
+The local capture in `.private/captures/2026-11-19/` includes the original audit log, per-page inventory and `SHA256SUMS` for checking the stored files. It is not included in the GitHub repository or Pages deployment.
