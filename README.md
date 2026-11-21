@@ -1,8 +1,10 @@
 # GP system specification archive
 
-An unofficial public archive of NHS GP IT Futures functionality and DSIC standards, with historical and Irish comparison sources.
+An unofficial public archive aiming to preserve as complete a record as possible of what GP clinical systems have been required to do over time. NHS England is the main collection, from earlier specifications through GP IT Futures and Digital Services for Integrated Care (DSIC). Ireland and other jurisdictions are secondary sources for comparison.
 
 [Browse the archive](https://ohtf.github.io/gp-system-spec/) · [Build and test status](https://github.com/ohtf/gp-system-spec/actions)
+
+Completeness is the goal, not a claim about what we have today. See the [snapshot register](snapshots.md) for what has been captured and the [roadmap](nhs-futures/roadmap.md#r12---archival-coverage) for gaps still to investigate.
 
 ## Copyright and removal requests
 

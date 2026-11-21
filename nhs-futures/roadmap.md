@@ -1,6 +1,6 @@
 # Roadmap
 
-Remaining work for the NHS England GP IT Confluence preservation archive.
+Remaining work for the GP system specification archive. NHS England coverage over time takes priority; other jurisdictions are collected for comparison.
 
 Legend: [x] done, [~] in progress or partially done, [ ] not started
 
@@ -48,3 +48,10 @@ Legend: [x] done, [~] in progress or partially done, [ ] not started
 - [ ] R11.1 Schedule periodic re-runs while source tenants remain live
 - [ ] R11.2 Review Git diffs between scrape runs and tag meaningful snapshots
 - [ ] R11.3 Monitor for tenant restructuring or removal
+
+## R12 - Archival coverage
+
+- [ ] R12.1 Inventory NHS England specification families and known editions from GP Systems of Choice (GPSoC) through GP IT Futures and DSIC. Check earlier NHS and National Archives records for editions that predate the Confluence captures. Record which editions are preserved, missing, restricted or not yet verified.
+- [ ] R12.2 Map the GP system requirements published outside the mirrored spaces. Start with the [GP Digital Services Operating Model](https://www.england.nhs.uk/digitaltechnology/digital-primary-care/gp-digital-services-operating-model/), its Schedule of Requirements, the [ICB Practice Agreement](https://www.england.nhs.uk/publication/icb-practice-agreement-terms-governing-the-provision-and-receipt-of-digital-services-in-general-practice/) and the [GP Connect developer specifications](https://digital.nhs.uk/services/gp-connect/implementation-and-integration/specifications-for-developers). Record authoritative links and applicable editions, and distinguish requirements on clinical system suppliers from requirements on practices or commissioners.
+- [ ] R12.3 Review the [November 2026 capture](../snapshots.md) for inclusion. Record page and attachment changes against July, document exclusions and retain both captures as separate snapshots. Eight of the 37 GP IT Futures-linked capability pages changed Confluence version between the two captures.
+- [ ] R12.4 Identify other publisher-issued Irish certification editions before expanding to further jurisdictions. Keep comparison collections separate and record their own coverage and gaps.

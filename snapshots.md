@@ -2,6 +2,8 @@
 
 Use folders to identify distinct sources or publisher-issued editions. Use annotated Git tags named `<collection>/<YYYY-MM-DD>` for significant captures of a changing source, so each capture can be reconstructed without duplicating its tree on `main`. Record the publisher's version separately from the source publication date and the retrieval date. Retain the original files, provenance, omissions and checksums where available.
 
+This register records captures, not every specification known to exist. Assess completeness against a named publisher inventory or edition as of a stated date. Record missing, inaccessible or unverified material in the [coverage roadmap](nhs-futures/roadmap.md#r12---archival-coverage) rather than assuming it does not exist.
+
 | Source | Source date or version | Capture date | Location and status |
 | --- | --- | --- | --- |
 | RCGP *Computers in Primary Care* | June 1980, Occasional Paper 13 | Unknown | [Original scan](rcgp-1980/README.md) and checksum. |

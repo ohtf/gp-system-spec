@@ -1,6 +1,6 @@
 # GP system specification archive
 
-Browse NHS GP IT Futures functional requirements and the Digital Services for Integrated Care (DSIC) standards they reference. This unofficial archive preserves a dated NHS England capture; it is not a current compliance checklist.
+This archive aims to preserve as complete a record as possible of what GP clinical systems have been required to do over time, primarily in NHS England. Start with the GP IT Futures functional requirements and the Digital Services for Integrated Care (DSIC) standards they reference. [See what the archive covers and what is still missing](about.md#coverage).
 
 ## Find a GP system function
 
