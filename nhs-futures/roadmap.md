@@ -32,12 +32,12 @@ Legend: [x] done, [~] in progress or partially done, [ ] not started
 
 Make GP IT Futures and related requirements easy for developers and coding agents to locate, cite and turn into implementation tasks and tests. Keep the derived reference separate from the preserved originals.
 
-- [ ] R09.1 Extract the normative content of GP IT Futures capabilities and linked DSIC standards into a versioned reference with readable Markdown and machine-readable records generated from the same data. Start with one capability and its linked standards, then expand coverage to the full captured set and related specifications identified in R12.
-- [ ] R09.2 Preserve specification ID, title, version, type, status, effective date and contracting vehicles. Make those fields available in the index so readers can select the right edition and scope.
-- [ ] R09.3 Preserve requirement and epic IDs, exact wording, obligation levels, category and acceptance criteria. Keep each criterion and additional implementation detail attached to its epic; keep informative notes distinct from requirements.
-- [ ] R09.4 Give each requirement a stable reference scoped to its edition. Link it to the captured page and original source URL, with a section or row locator where available.
+- [~] R09.1 Extract the normative content of GP IT Futures capabilities and linked DSIC standards into a versioned reference with readable Markdown and a machine-readable index generated from the same data. The [local pilot](../spec/README.md) covers all 36 C5 epics and the linked S62 rule `WPAD-DI-016`. Expand to the rest of the captured set and related specifications identified in R12.
+- [~] R09.2 Preserve specification ID, title, version, type, status, effective date and contracting vehicles. The pilot records these in Markdown metadata and indexes files by ID, version and priority. Extend the index for selection by status, date and contracting vehicle across editions.
+- [~] R09.3 Preserve requirement and epic IDs, exact wording, obligation levels, category and acceptance criteria. The pilot keeps each criterion and additional implementation detail attached to its epic and retains the publisher's supporting-information headings. Apply the same rules to the remaining sources.
+- [~] R09.4 Give each requirement a stable reference scoped to its edition. The pilot records the immutable snapshot and links to the captured and original pages, including fragment and requirement ID. Extend this to remaining sources.
 - [ ] R09.5 Preserve table structure where plain Markdown cannot represent it faithfully. Flag ambiguous or unresolved rows instead of assigning them to a guessed requirement.
-- [ ] R09.6 Check extraction against the captured source. Compare IDs and row counts, review table and epic alignment, and report omissions and unresolved references.
+- [~] R09.6 Check extraction against the captured source. The C5 pilot checks Markdown text and links against captured HTML and verifies group and criterion totals. Add equivalent checks for the remaining layouts, and report omissions and unresolved references.
 - [ ] R09.7 Validate the reference with a worked example: starting from Appointments Management - GP (`C5`), trace an epic such as `E00221` to implementation tasks and acceptance tests. Verify that both a developer and a coding agent can trace each task or test back to the exact source edition and distinguish requirements from design decisions.
 
 ## R10 - Publication

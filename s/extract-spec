@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Generate or check the local verbatim pilot. Install requirements-archive.txt first.
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+if ! python3 -c 'import bs4, markdown, markdownify, yaml' >/dev/null 2>&1; then
+  printf '%s\n' 'Install extraction dependencies: python3 -m pip install -r requirements-archive.txt' >&2
+  exit 1
+fi
+exec python3 tools/extract-spec.py "$@"
