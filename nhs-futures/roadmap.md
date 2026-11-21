@@ -32,13 +32,22 @@ Legend: [x] done, [~] in progress or partially done, [ ] not started
 
 Make GP IT Futures and related requirements easy for developers and coding agents to locate, cite and turn into implementation tasks and tests. Keep the derived reference separate from the preserved originals.
 
-- [~] R09.1 Extract the normative content of GP IT Futures capabilities and linked DSIC standards into a versioned reference with readable Markdown and a machine-readable index generated from the same data. The [local pilot](../spec/README.md) covers all 36 C5 epics and the linked S62 rule `WPAD-DI-016`. Expand to the rest of the captured set and related specifications identified in R12.
-- [~] R09.2 Preserve specification ID, title, version, type, status, effective date and contracting vehicles. The pilot records these in Markdown metadata and indexes files by ID, version and priority. Extend the index for selection by status, date and contracting vehicle across editions.
-- [~] R09.3 Preserve requirement and epic IDs, exact wording, obligation levels, category and acceptance criteria. The pilot keeps each criterion and additional implementation detail attached to its epic and retains the publisher's supporting-information headings. Apply the same rules to the remaining sources.
-- [~] R09.4 Give each requirement a stable reference scoped to its edition. The pilot records the immutable snapshot and links to the captured and original pages, including fragment and requirement ID. Extend this to remaining sources.
+- [~] R09.1 Extract the normative content of GP IT Futures capabilities and linked DSIC standards into a versioned reference with readable Markdown and a machine-readable index. The [local reference](../spec/README.md) covers the 37 capabilities in the July 2026 matrix and the S62 rule `WPAD-DI-016`. The remaining linked standards and related specifications identified in R12 are not yet extracted.
+- [~] R09.2 Preserve specification ID, title, version, type, status, effective date and contracting vehicles where published. The capability catalogue and Markdown metadata carry these fields, including the older framework label for C41. Extend this to remaining standards and editions.
+- [~] R09.3 Preserve requirement and epic IDs, exact wording, obligation levels, category and acceptance criteria. The capability reference keeps criteria and implementation details attached to their epics and retains the publisher's supporting-information headings. Apply the same rules to the remaining standards.
+- [~] R09.4 Give each requirement a stable reference scoped to its edition. Capability and epic records refer to the pinned snapshot, captured and publisher pages, and source fragments where available. Extend this to the remaining standards.
 - [ ] R09.5 Preserve table structure where plain Markdown cannot represent it faithfully. Flag ambiguous or unresolved rows instead of assigning them to a guessed requirement.
-- [~] R09.6 Check extraction against the captured source. The C5 pilot checks Markdown text and links against captured HTML and verifies group and criterion totals. Add equivalent checks for the remaining layouts, and report omissions and unresolved references.
+- [~] R09.6 Check extraction against the captured source. The capability checks cover matrix membership, group and criterion counts, wording, source links, list and table structure, and generated links. Extend validation to the remaining standards and report omissions and unresolved references.
 - [ ] R09.7 Validate the reference with a worked example: starting from Appointments Management - GP (`C5`), trace an epic such as `E00221` to implementation tasks and acceptance tests. Verify that both a developer and a coding agent can trace each task or test back to the exact source edition and distinguish requirements from design decisions.
+
+### Capability extraction rollout
+
+Scope: every capability linked from the GP IT Futures matrix in the pinned July 2026 capture, including deprecated capabilities. Related standards beyond the existing S62 rule remain separate work. Resume with the first incomplete item; generated source extracts stay local.
+
+- [x] R09.8 Profile all 37 matrix-linked capabilities. The 36 standard layouts contain 124 MUST epics with 301 criterion headings and 347 MAY epics with 585 criterion headings. The 471 epic occurrences use 429 distinct IDs; 20 IDs recur across capabilities but none within an edition. Deprecated Productivity (`C41`) has two sample epics outside the standard tables and no numbered requirements in those tables.
+- [x] R09.9 Generalise the offline extractor. Keep one file per epic or source section, retain publisher priorities and provenance, and verify the wording, links and structure against captured HTML. Keep C41's supplier guidance separate from its examples.
+- [x] R09.10 Generate 699 local files and verify the catalogue, per-capability coverage, generated links, archive fragments and repeatable output. Appointments epic paths and the S62 rule are retained.
+- [x] R09.11 Update the [extraction guide](../spec/README.md) with coverage, migration and reuse limits. Passed `s/test` (29 tests), `s/extract-spec`, `s/extract-spec --check` and `s/linkcheck`.
 
 ## R10 - Publication
 

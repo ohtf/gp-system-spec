@@ -4,7 +4,7 @@ An unofficial public archive aiming to preserve as complete a record as possible
 
 [Browse the archive](https://ohtf.github.io/gp-system-spec/) · [Build and test status](https://github.com/ohtf/gp-system-spec/actions)
 
-The practical goal is to make building a GP system more tractable. We aim to give developers and coding agents a clear, source-linked rendering of GP IT Futures and related standards. Start with the [local implementation reference pilot](spec/README.md) for Appointments Management, or see the [roadmap](nhs-futures/roadmap.md#r09---implementation-reference) for what remains to be extracted.
+The practical goal is to make building a GP system more tractable. The [local implementation reference](spec/README.md) gives developers and coding agents source-linked files for every capability in the captured GP IT Futures matrix. See the [roadmap](nhs-futures/roadmap.md#r09---implementation-reference) for remaining standards coverage.
 
 Completeness is the goal, not a claim about what we have today. See the [snapshot register](snapshots.md) for what has been captured and the [roadmap](nhs-futures/roadmap.md#r12---archival-coverage) for gaps still to investigate.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Generate or check the local verbatim pilot. Install requirements-archive.txt first.
+# Generate or check the local GP IT Futures reference. Install requirements-archive.txt first.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 if ! python3 -c 'import bs4, markdown, markdownify, yaml' >/dev/null 2>&1; then
