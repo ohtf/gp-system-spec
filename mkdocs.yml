@@ -23,6 +23,12 @@ not_in_nav: |
   nhs-snapshot/**
   rcgp-1980/transcript.md
 
+# Zensical 0.1.2 can report valid punctuation-bearing Confluence IDs as missing.
+# s/linkcheck validates fragments against actual HTML IDs on every rendered page.
+validation:
+  links:
+    anchors: ignore
+
 theme:
   variant: modern
   language: en

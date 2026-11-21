@@ -80,8 +80,6 @@ def check_rendered(config):
         return ["Catalogue is missing its rendered index.html."]
 
     base = config["site_url"]
-    origin = urlsplit(base).netloc
-    prefix = urlsplit(base).path
     errors = check_rcgp(root, base)
     manifest = json.loads(Path("nhs-futures/docs/.mirror-manifest.json").read_text(encoding="utf-8"))
     expected = {Path("nhs-snapshot/index.html"), Path("nhs-snapshot/archive-omissions/index.html")}
@@ -92,20 +90,25 @@ def check_rendered(config):
     errors += [f"Archive page missing from build: {path}" for path in sorted(expected - observed)]
     errors += [f"Unexpected archive output: {path}" for path in sorted(observed - expected)]
 
-    # Imported hyperlinks include known broken source fragments. Enforce new
-    # links on the authored pages without silently hiding those legacy warnings.
     authored = {root / "index.html", root / "404.html"}
     authored.update(root / path.stem / "index.html" for path in Path("docs").glob("*.md") if path.name != "index.md")
-    for path in sorted(authored):
-        if not path.is_file():
-            errors.append(f"Missing rendered navigation or guide page: {path.relative_to(root)}")
-            continue
-        page = Page(path)
+    pages = {path: Page(path) for path in sorted(root.rglob("*.html"))}
+    errors += [f"Missing rendered navigation or guide page: {path.relative_to(root)}" for path in sorted(authored - pages.keys())]
+    errors += check_links(root, base, pages, authored)
+    return errors
+
+
+def check_links(root, base, pages, authored):
+    """Check actual browser fragment targets throughout the rendered archive."""
+    origin = urlsplit(base).netloc
+    prefix = urlsplit(base).path
+    errors = []
+    for path, page in pages.items():
         relative = path.relative_to(root).as_posix()
         page_url = urljoin(base, relative)
         for link in sorted(page.links):
             url = urlsplit(urljoin(page_url, link))
-            if url.scheme not in {"http", "https"} or url.netloc != origin:
+            if url.scheme not in {"http", "https"} or url.netloc != origin or (path not in authored and not url.fragment):
                 continue
             if not url.path.startswith(prefix):
                 errors.append(f"{relative}: link leaves the Pages project path: {link}")
@@ -115,7 +118,7 @@ def check_rendered(config):
                 target /= "index.html"
             if not target.is_relative_to(root) or not target.is_file():
                 errors.append(f"{relative}: missing internal target: {link}")
-            elif target.suffix == ".html" and url.fragment and unquote(url.fragment) not in Page(target).anchors:
+            elif target in pages and url.fragment and unquote(url.fragment) not in pages[target].anchors:
                 errors.append(f"{relative}: missing anchor: {link}")
     return errors
 

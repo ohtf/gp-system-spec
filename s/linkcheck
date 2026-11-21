@@ -8,6 +8,5 @@ if ! command -v zensical >/dev/null 2>&1; then
 fi
 python3 tools/check-catalogue.py source
 python3 tools/prepare-site.py
-# Historical Confluence fragments are reported by Zensical but are not fatal.
-zensical build --config-file mkdocs.yml --clean
+zensical build --config-file mkdocs.yml --clean --strict
 exec python3 tools/check-catalogue.py rendered

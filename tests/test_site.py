@@ -4,13 +4,19 @@
 import importlib.util
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 
-spec = importlib.util.spec_from_file_location(
-    "prepare_site", Path(__file__).resolve().parents[1] / "tools/prepare-site.py"
-)
-site = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(site)
+def load_tool(name):
+    path = Path(__file__).resolve().parents[1] / "tools" / f"{name}.py"
+    spec = importlib.util.spec_from_file_location(name, path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+site = load_tool("prepare-site")
+catalogue = load_tool("check-catalogue")
 
 
 class SiteTest(unittest.TestCase):
@@ -30,3 +36,36 @@ class SiteTest(unittest.TestCase):
         index = site.capability_index(entries)
         self.assertIn("## Deprecated capabilities", index)
         self.assertIn("[Productivity](nhs-snapshot/DCSDCS/Productivity.md) | C41 | 1.0.1 | Deprecated | None", index)
+
+    def test_restore_table_anchor_without_changing_link_or_cell_text(self):
+        text = '[Testing](#Validation%26Testing)\n| Testing {#Validation&Testing} must pass |\n'
+        expected = '[Testing](#Validation%26Testing)\n| Testing <span id="Validation&amp;Testing"></span> must pass |\n'
+        self.assertEqual(site.restore_anchors(text, "0"), expected)
+
+    def test_restore_short_alias_without_replacing_original_heading_id(self):
+        long_id = "Communicationhttps://nhse-dsic.atlassian.net/wiki/spaces/DCSDCS/pages/1391134087/Communication"
+        text = f"[Communication](#Communication)\n\n### Communication {{#{long_id}}}\n"
+        self.assertEqual(
+            site.restore_anchors(text, "0"),
+            text.replace("###", '<span id="Communication"></span>\n\n###'),
+        )
+        ambiguous = text + "### Other {#" + long_id + "-Other}\n"
+        self.assertEqual(site.restore_anchors(ambiguous, "0"), ambiguous)
+
+    def test_rbac_alias_is_limited_to_the_reviewed_edition(self):
+        text = "[RBAC](#InformationGovernance-Standard-RBAC)\n\n| Role-based Access Control {#InformationGovernancev2.0.0-RBACRole-basedAccessControl} |\n"
+        self.assertEqual(site.restore_anchors(text, "0"), text)
+        self.assertIn('<span id="InformationGovernance-Standard-RBAC"></span>', site.restore_anchors(text, "1956184126"))
+
+    def test_rendered_check_accepts_entities_and_detects_broken_imported_links(self):
+        with TemporaryDirectory() as temp:
+            root = Path(temp).resolve()
+            source = root / "index.html"
+            target = root / "target.html"
+            source.write_text('<a href="target.html#Rules%26Exceptions">Working</a><a href="#broken">Broken</a>', encoding="utf-8")
+            target.write_text('<h2 id="Rules&amp;Exceptions">Rules and exceptions</h2>', encoding="utf-8")
+            pages = {path: catalogue.Page(path) for path in (source, target)}
+            self.assertEqual(
+                catalogue.check_links(root, "https://example.org/archive/", pages, set()),
+                ["index.html: missing anchor: #broken"],
+            )

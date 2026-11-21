@@ -8,6 +8,7 @@ import re
 import shutil
 import subprocess
 from collections import defaultdict
+from html import escape
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from urllib.parse import quote, unquote
@@ -24,6 +25,12 @@ EPIC = re.compile(r"\b(E\d{5})\s*[-–—]")
 CAPABILITY_MARKER = "<!-- capability index -->"
 OMITTED_VIDEO_PAGE = "GPITF/1483309062/"
 OMISSIONS_RECORD = "https://github.com/ohtf/gp-system-spec/blob/main/nhs-futures/docs/archive-omissions.md"
+ANCHOR_MARKER = re.compile(r"\{#([^\s{}]+)\}")
+CONFLUENCE_PAGE_SUFFIX = re.compile(r"https://nhse-dsic\.atlassian\.net/wiki/spaces/[A-Z]+/pages/\d+(?:/.*)?$")
+# This stale fragment points to the RBAC section in this particular source edition.
+LEGACY_ANCHORS = {
+    "1956184126": {"InformationGovernancev2.0.0-RBACRole-basedAccessControl": "InformationGovernance-Standard-RBAC"},
+}
 
 
 def tracked_mirror_files():
@@ -70,6 +77,50 @@ def link_attachments(text, targets):
             location = text.count("\n", 0, match.start()) + 1
             raise ValueError(f"line {location}: unmatched local attachment {match[2]}")
     return "".join([*parts, text[cursor:]])
+
+
+def restore_anchors(text, page_id):
+    """Repair imported in-page anchors in the staged copy only."""
+    lines = text.splitlines(keepends=True)
+    locations = defaultdict(list)
+    for i, line in enumerate(lines):
+        for marker in ANCHOR_MARKER.finditer(line):
+            locations[marker[1]].append(i)
+
+    def linked(anchor):
+        return any(f"](#{form})" in text for form in {anchor, quote(anchor, safe="")})
+
+    def element(anchor):
+        return f'<span id="{escape(anchor, quote=True).replace("|", "&#124;")}"></span>'
+
+    aliases = defaultdict(list)
+    cells = defaultdict(set)
+    for anchor, indexes in locations.items():
+        if len(indexes) != 1:
+            continue
+        i = indexes[0]
+        line = lines[i]
+        in_table = line.startswith("|")
+        if in_table and linked(anchor):
+            # attr_list works on standalone headings, not text flattened into cells.
+            cells.setdefault((i, anchor), set())
+        if in_table or re.match(r"^#{1,6} ", line):
+            # Some older headings have their linked Confluence page URL appended
+            # to the ID, but the original TOC still links to the short form.
+            alias = LEGACY_ANCHORS.get(page_id, {}).get(anchor) or CONFLUENCE_PAGE_SUFFIX.sub("", anchor)
+            if alias and alias not in locations and linked(alias):
+                aliases[alias].append((i, anchor, in_table))
+    for alias, candidates in aliases.items():
+        if len(candidates) == 1:
+            i, anchor, in_table = candidates[0]
+            if in_table:
+                cells[i, anchor].add(alias)
+            else:
+                lines[i] = element(alias) + "\n\n" + lines[i]
+    for (i, anchor), variants in cells.items():
+        replacement = element(anchor) + "".join(element(alias) for alias in sorted(variants))
+        lines[i] = lines[i].replace(f"{{#{anchor}}}", replacement, 1)
+    return "".join(lines)
 
 
 def capability_data(tracked, manifest):
@@ -133,6 +184,7 @@ def prepare():
             raise ValueError(f"Snapshot page not staged: {item['path']}")
     entries = capability_data(tracked, manifest)
     attachments = attachment_targets(tracked)
+    page_ids = {Path(item["path"]): key.split("/", 1)[1] for key, item in manifest.items()}
 
     # Build off to the side so a failed validation never leaves half a tree.
     STAGE.parent.mkdir(exist_ok=True)
@@ -162,6 +214,8 @@ def prepare():
                 text = link_attachments(source.read_text(encoding="utf-8"), attachments)
             except ValueError as exc:
                 raise ValueError(f"{source}: {exc}") from exc
+            if path in page_ids:
+                text = restore_anchors(text, page_ids[path])
             if path == Path("index.md"):
                 text = text.replace("](.mirror-failures.json)", "](https://github.com/ohtf/gp-system-spec/blob/main/nhs-futures/docs/.mirror-failures.json)")
             # The capture's source link is metadata, not a rendered link.

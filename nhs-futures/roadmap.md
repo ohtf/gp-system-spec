@@ -42,7 +42,7 @@ Make GP IT Futures and related requirements easy for developers and coding agent
 
 ## R10 - Publication
 
-- [~] R10.3 Repair fragment links in the local mirror. A clean Zensical 0.1.2 build reported 182 warnings across 44 pages: 134 targets already have an exact ID in rendered HTML, 31 have an ID in captured Confluence HTML only, and 17 have no exact ID in either. Validate the first group against rendered HTML rather than rewriting working links; percent-encoding did not clear a representative warning. Preserve original IDs where conversion flattened headings into table cells. Report unmatched or ambiguous links for manual review. Verify against rendered IDs after rebuilding; leave the raw capture and baseline tag unchanged.
+- [x] R10.3 Repair fragment links in the rendered mirror. Restore 31 original IDs lost inside Markdown table cells and add 17 aliases for stale Confluence fragments. Replace Zensical's fragment diagnostic, which flagged 134 working links, with a blocking check of rendered HTML IDs across the site. The raw capture and baseline tag are unchanged.
 - [x] R10.4 Configure the [archive](https://ohtf.github.io/gp-system-spec/) to deploy to GitHub Pages. Only the rendered archive and its assets belong in the Pages artifact; attachment files remain on GitHub.
 - [x] R10.5 Group the GP IT Futures functionality by capability category and link to the archived NHS collections by source space.
 
