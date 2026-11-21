@@ -8,6 +8,7 @@ This archive aims to preserve as complete a record as possible of what GP clinic
 
 - Jump to [GP appointments](capabilities.md#appointments), [consultations](capabilities.md#consultations), [patient records](capabilities.md#patient-care-management) or [prescribing](capabilities.md#medicines-management).
 - For interoperability, service management and procurement, start with [NHS standards and collections](nhs-england.md).
+- Building a GP system? [Find requirements and trace them into implementation and tests](about.md#using-the-archive-to-build-a-gp-system).
 
 ## Compare with other sources
 

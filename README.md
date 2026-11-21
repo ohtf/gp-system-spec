@@ -4,6 +4,8 @@ An unofficial public archive aiming to preserve as complete a record as possible
 
 [Browse the archive](https://ohtf.github.io/gp-system-spec/) · [Build and test status](https://github.com/ohtf/gp-system-spec/actions)
 
+The practical goal is to make building a GP system more tractable. We aim to give developers and coding agents a clear, source-linked rendering of the full GP IT Futures specification and related standards, so they can turn requirements into an implementation backlog and acceptance tests without reconstructing the specification by hand. See [how to use the archive for implementation](docs/about.md#using-the-archive-to-build-a-gp-system) and the [roadmap for structured requirements](nhs-futures/roadmap.md#r09---implementation-reference).
+
 Completeness is the goal, not a claim about what we have today. See the [snapshot register](snapshots.md) for what has been captured and the [roadmap](nhs-futures/roadmap.md#r12---archival-coverage) for gaps still to investigate.
 
 ## Copyright and removal requests
@@ -14,7 +16,7 @@ If you hold the copyright and want us to remove any material, [contact the Open 
 
 ## Collections
 
-Each collection retains its own publisher, jurisdiction, dates and status. Use the archive for research and comparison, not as a current compliance checklist or a single specification.
+Each collection retains its own publisher, jurisdiction, dates and status. Use the archive for research, comparison and implementation planning, not as a current compliance checklist or a single specification.
 
 | Collection | Coverage |
 | --- | --- |

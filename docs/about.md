@@ -8,6 +8,16 @@ Preserve publisher-issued material that defines what a GP system must do or how 
 
 Keep each edition distinct. Record the publisher, jurisdiction, source URL, version, publication or effective date, capture date and known omissions. Preserve the originals and their notices where available; where a source is missing or cannot be shared, record the reference and the gap rather than silently dropping it.
 
+## Using the archive to build a GP system
+
+The aim is to help developers and coding agents turn GP IT Futures and related specifications into features and acceptance tests. The [capability index](capabilities.md) and captured pages are the starting point. The planned structured rendering will make individual requirements easier to find and cite without replacing the original documents.
+
+1. Choose the jurisdiction, framework and edition relevant to the system you are building. Check the [NHS standards and collections](nhs-england.md) and verify applicability against the publisher's current sources.
+2. Find the capability, then record its version, the epic or requirement ID and the source link. For example, [Appointments Management - GP](nhs-snapshot/DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Appointments-Management-GP.md) is `C5` version `1.5.0` in the July capture. Search that page for `E00221` to find the appointment-slot user story, its acceptance criteria and additional implementation details.
+3. Carry those references into the backlog and tests. Keep source wording and obligation levels (`MUST`, `SHOULD`, `MAY`) distinct from your design decisions. Follow linked standards and flag missing or ambiguous evidence for review rather than guessing.
+
+An implementation plan or passing test suite based on the archive does not establish NHS assurance or clinical safety.
+
 ## Coverage
 
 Completeness is an aim, not a claim. The [coverage check](capabilities.md#coverage) verifies the public GP IT Futures pages and their linked capabilities for a stated capture. It does not verify every historical edition, attachment or requirement published elsewhere. The [snapshot register](https://github.com/ohtf/gp-system-spec/blob/main/snapshots.md) distinguishes the July baseline from the local November capture. The [roadmap](https://github.com/ohtf/gp-system-spec/blob/main/nhs-futures/roadmap.md#r12---archival-coverage) tracks earlier editions and requirements published outside the mirrored spaces. This is an unofficial historical archive, not a current compliance checklist.

@@ -28,14 +28,17 @@ Legend: [x] done, [~] in progress or partially done, [ ] not started
 - [ ] R08.4 Quarantine questionable material pending review
 - [x] R08.5 Add [removal and contact information](../README.md#copyright-and-removal-requests).
 
-## R09 - Distilled specifications
+## R09 - Implementation reference
 
-- [ ] R09.1 Extract normative content from DCSDCS requirements pages into `spec/`
-- [ ] R09.2 Include specification ID, title, version, type, status, effective date and contracting vehicles
-- [ ] R09.3 Include requirements with ID, text, level and category columns
-- [ ] R09.4 Link each distilled specification back to its mirror page and original source URL
-- [ ] R09.5 Use raw HTML where Markdown cannot represent large or spanned tables faithfully
-- [ ] R09.6 Manually review normative requirement-row alignment
+Make GP IT Futures and related requirements easy for developers and coding agents to locate, cite and turn into implementation tasks and tests. Keep the derived reference separate from the preserved originals.
+
+- [ ] R09.1 Extract the normative content of GP IT Futures capabilities and linked DSIC standards into a versioned reference with readable Markdown and machine-readable records generated from the same data. Start with one capability and its linked standards, then expand coverage to the full captured set and related specifications identified in R12.
+- [ ] R09.2 Preserve specification ID, title, version, type, status, effective date and contracting vehicles. Make those fields available in the index so readers can select the right edition and scope.
+- [ ] R09.3 Preserve requirement and epic IDs, exact wording, obligation levels, category and acceptance criteria. Keep each criterion and additional implementation detail attached to its epic; keep informative notes distinct from requirements.
+- [ ] R09.4 Give each requirement a stable reference scoped to its edition. Link it to the captured page and original source URL, with a section or row locator where available.
+- [ ] R09.5 Preserve table structure where plain Markdown cannot represent it faithfully. Flag ambiguous or unresolved rows instead of assigning them to a guessed requirement.
+- [ ] R09.6 Check extraction against the captured source. Compare IDs and row counts, review table and epic alignment, and report omissions and unresolved references.
+- [ ] R09.7 Validate the reference with a worked example: starting from Appointments Management - GP (`C5`), trace an epic such as `E00221` to implementation tasks and acceptance tests. Verify that both a developer and a coding agent can trace each task or test back to the exact source edition and distinguish requirements from design decisions.
 
 ## R10 - Publication
 
