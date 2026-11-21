@@ -15,7 +15,7 @@ indent_size = 4
 trim_trailing_whitespace = false
 
 # Preserve imported evidence verbatim.
-[{nhs-futures/docs,ireland,notes/trello}/**]
+[{nhs-futures/docs,ireland}/**]
 charset = unset
 end_of_line = unset
 insert_final_newline = unset

@@ -4,7 +4,7 @@ The goal is to preserve as complete a record as possible of GP clinical system s
 
 ## What we collect
 
-Preserve publisher-issued material that defines what a GP system must do or how it must interoperate or demonstrate compliance. This includes functional capabilities, acceptance criteria, technical and interface standards, and the procurement or assurance documents that establish which requirements apply. Historical reports and informal proposals provide context and are labelled separately from formal requirements.
+Preserve publisher-issued material that defines what a GP system must do or how it must interoperate or demonstrate compliance. This includes functional capabilities, acceptance criteria, technical and interface standards, and the procurement or assurance documents that establish which requirements apply. Published historical reports can provide context and are labelled separately from formal requirements. Personal feature ideas are out of scope.
 
 Keep each edition distinct. Record the publisher, jurisdiction, source URL, version, publication or effective date, capture date and known omissions. Preserve originals and their notices in archive-controlled storage, and make those copies directly available where they can be shared. Publisher links document provenance; they are not a substitute for preservation. Where a source is missing or cannot be shared, record the gap.
 

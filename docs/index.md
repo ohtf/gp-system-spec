@@ -12,6 +12,6 @@ This archive aims to preserve as complete a record as possible of what GP clinic
 
 ## Compare with other sources
 
-Compare the NHS material with [Irish certification requirements](ireland.md). See [historical and informal sources](historical-sources.md) for the RCGP’s 1980 report and a separate Trello board of product ideas. These collections do not form a single specification.
+Compare the NHS material with [Irish certification requirements](ireland.md), or read the [RCGP’s 1980 report](historical-sources.md) for historical context. These collections do not form a single specification.
 
 [Read about scope, provenance and removal requests](about.md).

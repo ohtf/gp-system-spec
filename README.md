@@ -23,7 +23,6 @@ Each collection retains its own publisher, jurisdiction, dates and status. Use t
 | [NHS England GP IT Futures and DSIC](nhs-futures/README.md) | The main collection: functional capabilities, standards and procurement material. Open **GP IT Futures capabilities** on the site for descriptions and acceptance criteria. |
 | [Ireland](ireland/README.md) | *General Practice Software Management Systems: Requirements for Certification 2022*, version 1.5, issued in January 2025. For comparison with England. |
 | [RCGP, 1980](rcgp-1980/README.md) | *Computers in Primary Care*, including desirable attributes of a GP record system. Historical UK professional report. |
-| [Trello ideas](notes/trello/README.md) | A feature-ideas snapshot. Not a formal requirements source. |
 
 See [the snapshot register](snapshots.md) for what each capture contains and how to retrieve it. Add new sources as separate collections; don't fold requirements from different jurisdictions or dates together.
 
