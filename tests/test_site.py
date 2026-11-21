@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 import importlib.util
+import sys
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -11,12 +12,17 @@ def load_tool(name):
     path = Path(__file__).resolve().parents[1] / "tools" / f"{name}.py"
     spec = importlib.util.spec_from_file_location(name, path)
     module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    sys.path.insert(0, str(path.parent))
+    try:
+        spec.loader.exec_module(module)
+    finally:
+        sys.path.pop(0)
     return module
 
 
 site = load_tool("prepare-site")
 catalogue = load_tool("check-catalogue")
+tables = load_tool("confluence_tables")
 
 
 class SiteTest(unittest.TestCase):
@@ -69,3 +75,56 @@ class SiteTest(unittest.TestCase):
                 catalogue.check_links(root, "https://example.org/archive/", pages, set()),
                 ["index.html: missing anchor: #broken"],
             )
+
+    def test_restore_epics_as_prose_with_confluence_ids_and_criteria(self):
+        raw = '''<table><tr><td><p><strong>MUST Epics - Required</strong></p></td></tr><tr><td>
+        <h3 id="E99">E99 - Manage appointments</h3><p>As a user</p><p>I want to book a slot</p>
+        <h4 id="first-criterion">Acceptance criterion 1</h4><p>Given a free slot</p><p>When it is booked</p>
+        <ul><li>Then the slot is reserved<ul><li>Confirmation appears</li></ul></li></ul><hr>
+        <h3 id="E100">E100 - Cancel an appointment</h3></td></tr></table>'''
+        text = 'Before\n\n| |\n| --- |\n| MUST Epics - Required |\n\nAfter\n'
+        source = (Path("GPITF/Example.md"), tables.NHS + "/wiki/pages/1", set())
+        result, count = tables.restore_tables(text, raw, source, {}, {}, {})
+        self.assertEqual(count, 1)
+        self.assertTrue(result.startswith("Before\n\n"))
+        self.assertTrue(result.endswith("\nAfter\n"))
+        self.assertNotIn("<table", result)
+        self.assertIn('<h3 id="E99">E99 - Manage appointments</h3><p>As a user</p><p>I want to book a slot</p>', result)
+        self.assertIn('<h4 id="first-criterion">Acceptance criterion 1</h4><p>Given a free slot</p>', result)
+        self.assertIn('<ul><li>Then the slot is reserved<ul><li>Confirmation appears</li></ul></li></ul>', result)
+
+    def test_restore_real_tables_with_merged_cells_and_safe_local_links(self):
+        raw = '''<table style="width:4000px"><tr onclick="remove()"><th colspan="2">Scope</th></tr>
+        <tr><td rowspan="2">R1</td><td><p><a href="/wiki/spaces/GPITF/pages/99/Foo#criteria">See criteria</a></p>
+        <a href="/wiki/spaces/GPITF/pages/99/Foo?preview=/99/88/A.pdf">Attachment</a>
+        <a href="javascript:example()">Label</a><script>untrusted()</script></td></tr>
+        <tr><td>Continued</td></tr></table>'''
+        source = (Path("DCSDCS/Source.md"), tables.NHS + "/wiki/pages/1", set())
+        target = (Path("GPITF/Foo/index.md"), tables.NHS + "/wiki/pages/99", {"criteria"})
+        result, _ = tables.restore_tables(
+            '| Scope |\n| --- |\n', raw, source, {"99": target},
+            {("99", "88", "A.pdf"): "https://example.org/A.pdf"}, {},
+        )
+        self.assertIn('<th colspan="2">Scope</th>', result)
+        self.assertIn('<td rowspan="2">R1</td>', result)
+        self.assertIn('href="../GPITF/Foo/index.md#criteria"', result)
+        self.assertIn('href="https://example.org/A.pdf"', result)
+        self.assertIn("<a>Label</a>", result)
+        for unwanted in ("style=", "onclick=", "javascript:", "untrusted()"):
+            self.assertNotIn(unwanted, result)
+
+    def test_does_not_silently_skip_a_source_table(self):
+        source = (Path("Example.md"), tables.NHS + "/wiki/pages/1", set())
+        raw = '<table><tr><td>some text</td></tr></table>'
+        with self.assertRaisesRegex(ValueError, "1 source tables, 0 Markdown tables"):
+            tables.restore_tables('|\n', raw, source, {}, {}, {})
+        with self.assertRaisesRegex(ValueError, "does not match the captured Markdown"):
+            tables.restore_tables('| --- |\n| unrelated |\n', raw, source, {}, {}, {})
+
+    def test_fragment_resolution_prefers_the_archive_only_for_unambiguous_matches(self):
+        source = (Path("GPITF/Source.md"), tables.NHS + "/wiki/pages/1", set())
+        url = tables.NHS + "/wiki/pages/99/Foo#E99---Manage-appointments"
+        target = (Path("DCSDCS/Foo.md"), tables.NHS + "/wiki/pages/99", {"Foo-E99-Manageappointments"})
+        self.assertEqual(tables.link_target(url, source, {"99": target}, {}), "../DCSDCS/Foo.md#Foo-E99-Manageappointments")
+        target[2].add("Foo-other-E99-Manageappointments")
+        self.assertEqual(tables.link_target(url, source, {"99": target}, {}), url)

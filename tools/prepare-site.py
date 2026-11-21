@@ -15,6 +15,8 @@ from urllib.parse import quote, unquote
 
 from bs4 import BeautifulSoup
 
+from confluence_tables import ANCHOR_MARKER, NHS, restore_tables
+
 MIRROR = Path("nhs-futures/docs")
 STAGE = Path("site/source")
 SNAPSHOT = "nhs-snapshot"
@@ -25,7 +27,6 @@ EPIC = re.compile(r"\b(E\d{5})\s*[-–—]")
 CAPABILITY_MARKER = "<!-- capability index -->"
 OMITTED_VIDEO_PAGE = "GPITF/1483309062/"
 OMISSIONS_RECORD = "https://github.com/ohtf/gp-system-spec/blob/main/nhs-futures/docs/archive-omissions.md"
-ANCHOR_MARKER = re.compile(r"\{#([^\s{}]+)\}")
 CONFLUENCE_PAGE_SUFFIX = re.compile(r"https://nhse-dsic\.atlassian\.net/wiki/spaces/[A-Z]+/pages/\d+(?:/.*)?$")
 # This stale fragment points to the RBAC section in this particular source edition.
 LEGACY_ANCHORS = {
@@ -57,6 +58,16 @@ def attachment_targets(tracked):
     for prefix, name in re.findall(r"`(att\d+-)([^`]+\.mp4)`", omissions):
         targets[OMITTED_VIDEO_PAGE + prefix].append((name, OMISSIONS_RECORD))
     return targets
+
+
+def confluence_downloads(attachments):
+    downloads = defaultdict(set)
+    for prefix, entries in attachments.items():
+        _, page_id, attachment_id = prefix.removesuffix("-").split("/")
+        for name, url in entries:
+            downloads[page_id, attachment_id.removeprefix("att"), name].add(url)
+            downloads[page_id, None, name].add(url)
+    return {key: next(iter(urls)) for key, urls in downloads.items() if len(urls) == 1}
 
 
 def link_attachments(text, targets):
@@ -184,7 +195,16 @@ def prepare():
             raise ValueError(f"Snapshot page not staged: {item['path']}")
     entries = capability_data(tracked, manifest)
     attachments = attachment_targets(tracked)
-    page_ids = {Path(item["path"]): key.split("/", 1)[1] for key, item in manifest.items()}
+    page_keys = {Path(item["path"]): key for key, item in manifest.items()}
+    pages_by_id = {}
+    for path, key in page_keys.items():
+        page_id = key.split("/", 1)[1]
+        reference = (MIRROR / path).read_text(encoding="utf-8")
+        url = re.search(r'^source_url: "(https?://[^"<>]+)"$', reference, flags=re.M)
+        anchors = set(ANCHOR_MARKER.findall(reference)) | set(LEGACY_ANCHORS.get(page_id, {}).values())
+        pages_by_id[page_id] = (path, url[1] if url else f"{NHS}/wiki/pages/{page_id}", anchors)
+    downloads = confluence_downloads(attachments)
+    table_count = 0
 
     # Build off to the side so a failed validation never leaves half a tree.
     STAGE.parent.mkdir(exist_ok=True)
@@ -212,10 +232,18 @@ def prepare():
             target.parent.mkdir(parents=True, exist_ok=True)
             try:
                 text = link_attachments(source.read_text(encoding="utf-8"), attachments)
+                if key := page_keys.get(path):
+                    raw_path = Path(f".raw/{key}.html")
+                    if raw_path not in tracked or (MIRROR / raw_path).is_symlink():
+                        raise ValueError(f"Missing tracked raw page: {key}")
+                    text, count = restore_tables(
+                        text, (MIRROR / raw_path).read_text(encoding="utf-8"), pages_by_id[key.split("/", 1)[1]],
+                        pages_by_id, downloads, LEGACY_ANCHORS.get(key.split("/", 1)[1], {}),
+                    )
+                    table_count += count
+                    text = restore_anchors(text, key.split("/", 1)[1])
             except ValueError as exc:
                 raise ValueError(f"{source}: {exc}") from exc
-            if path in page_ids:
-                text = restore_anchors(text, page_ids[path])
             if path == Path("index.md"):
                 text = text.replace("](.mirror-failures.json)", "](https://github.com/ohtf/gp-system-spec/blob/main/nhs-futures/docs/.mirror-failures.json)")
             # The capture's source link is metadata, not a rendered link.
@@ -225,7 +253,7 @@ def prepare():
         if STAGE.exists():
             shutil.rmtree(STAGE)
         staging.rename(STAGE)
-    print(f"Staged {len(manifest)} archive pages and indexed {len(entries)} GP IT Futures capabilities.")
+    print(f"Staged {len(manifest)} archive pages, restored {table_count} source tables and indexed {len(entries)} GP IT Futures capabilities.")
 
 
 if __name__ == "__main__":

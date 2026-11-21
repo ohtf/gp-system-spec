@@ -30,6 +30,8 @@ This is not an official NHS England publication. Public accessibility does not e
 
 From the repository root, follow the [local preview setup](../README.md#local-preview), then run `s/docs`. The unified site renders the July capture and keeps attachments on GitHub rather than copying them into Pages. The November capture remains separate and local; see the [snapshot register](../snapshots.md).
 
+The site build restores tables from the captured HTML. This keeps real tables, merged cells and lists intact, and shows one-column epic layouts as sections with headings and acceptance criteria. The original Markdown and raw HTML remain unchanged.
+
 ## Maintenance tooling
 
 The [scraper](../tools/confluence-mirror.py) uses the public Confluence API on `nhse-dsic.atlassian.net` for the seven listed spaces. The old Buyer Guidance host redirects there. Requests run one at a time, at least 1.5 seconds apart. The scraper honours `Retry-After` and stops on persistent throttling or denied access. Only use credentials issued for authorised export of these spaces, supplied through `CONFLUENCE_EMAIL` and `CONFLUENCE_API_TOKEN`.

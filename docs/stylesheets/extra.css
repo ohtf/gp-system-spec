@@ -44,3 +44,23 @@ a:focus-visible, button:focus-visible, label[tabindex]:focus-visible {
 .md-typeset td:nth-child(3):nth-last-child(n+4) {
   min-width: 20rem;
 }
+
+.md-typeset .archive-table {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-block: 1em;
+}
+
+.md-typeset .archive-table td,
+.md-typeset .archive-table th {
+  vertical-align: top;
+}
+
+.md-typeset .archive-epics > p:first-child {
+  border-inline-start: .2rem solid var(--md-typeset-a-color);
+  padding-inline-start: .8rem;
+}
+
+.md-typeset .archive-epics :target {
+  scroll-margin-top: 5rem;
+}

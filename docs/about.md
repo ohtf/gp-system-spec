@@ -24,7 +24,7 @@ Completeness is an aim, not a claim. The [coverage check](capabilities.md#covera
 
 ## What is published here
 
-This site renders the July 2026 NHS snapshot alongside archive-authored navigation and comparison notes. It reads the captured Markdown without modifying it and links to NHS attachments in [the archive repository](https://github.com/ohtf/gp-system-spec#collections). The [1980 RCGP report](historical-sources.md#royal-college-of-general-practitioners-1980) has a site-hosted original PDF and OCR transcript. The site does not include raw NHS source HTML, mirrored attachment files or the later local-only capture. A capture date records when material was retrieved, not when a requirement became effective.
+This site renders the July 2026 NHS snapshot alongside archive-authored navigation and comparison notes. At build time it restores table and epic formatting from captured HTML without changing the archived files. NHS attachments are linked from [the archive repository](https://github.com/ohtf/gp-system-spec#collections). The [1980 RCGP report](historical-sources.md#royal-college-of-general-practitioners-1980) has a site-hosted original PDF and OCR transcript. The site does not include raw NHS source HTML, mirrored attachment files or the later local-only capture. A capture date records when material was retrieved, not when a requirement became effective.
 
 The archive-authored text is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Captured and linked material retains the rights and notices of its publishers.
 
