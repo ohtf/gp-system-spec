@@ -7,6 +7,7 @@ on:
     paths:
       - 'docs/**'
       - 'nhs-futures/docs/**'
+      - 'rcgp-1980/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
       - 's/linkcheck'

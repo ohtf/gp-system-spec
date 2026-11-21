@@ -2,6 +2,7 @@
 
 """Check the site's navigation, archive coverage and publication boundary."""
 
+import filecmp
 import json
 import sys
 from html.parser import HTMLParser
@@ -53,6 +54,26 @@ class Page(HTMLParser):
                 self.links.add(value)
 
 
+def check_rcgp(root, base):
+    relative_pdf = Path("rcgp-1980/computers-in-primary-care.pdf")
+    pdf = root / relative_pdf
+    transcript = root / "rcgp-1980/transcript/index.html"
+    errors = []
+    if not pdf.is_file() or not filecmp.cmp(relative_pdf, pdf, shallow=False):
+        errors.append("The published RCGP PDF must be byte-identical to the original scan.")
+    if not transcript.is_file():
+        return errors + ["The rendered RCGP transcript is missing."]
+
+    page = Page(transcript)
+    page_url = urljoin(base, transcript.relative_to(root).as_posix())
+    pdf_url = urljoin(base, relative_pdf.as_posix())
+    destinations = {urljoin(page_url, link) for link in page.links}
+    for number in range(1, 37):
+        if f"pdf-page-{number:02d}" not in page.anchors or f"{pdf_url}#page={number}" not in destinations:
+            errors.append(f"RCGP transcript page {number} is missing its heading or direct PDF link.")
+    return errors
+
+
 def check_rendered(config):
     root = Path(config["site_dir"]).resolve()
     if not (root / "index.html").is_file():
@@ -61,7 +82,7 @@ def check_rendered(config):
     base = config["site_url"]
     origin = urlsplit(base).netloc
     prefix = urlsplit(base).path
-    errors = []
+    errors = check_rcgp(root, base)
     manifest = json.loads(Path("nhs-futures/docs/.mirror-manifest.json").read_text(encoding="utf-8"))
     expected = {Path("nhs-snapshot/index.html"), Path("nhs-snapshot/archive-omissions/index.html")}
     for item in manifest.values():

@@ -6,7 +6,7 @@ The goal is to preserve as complete a record as possible of GP clinical system s
 
 Preserve publisher-issued material that defines what a GP system must do or how it must interoperate or demonstrate compliance. This includes functional capabilities, acceptance criteria, technical and interface standards, and the procurement or assurance documents that establish which requirements apply. Historical reports and informal proposals provide context and are labelled separately from formal requirements.
 
-Keep each edition distinct. Record the publisher, jurisdiction, source URL, version, publication or effective date, capture date and known omissions. Preserve the originals and their notices where available; where a source is missing or cannot be shared, record the reference and the gap rather than silently dropping it.
+Keep each edition distinct. Record the publisher, jurisdiction, source URL, version, publication or effective date, capture date and known omissions. Preserve originals and their notices in archive-controlled storage, and make those copies directly available where they can be shared. Publisher links document provenance; they are not a substitute for preservation. Where a source is missing or cannot be shared, record the gap.
 
 ## Using the archive to build a GP system
 
@@ -24,7 +24,7 @@ Completeness is an aim, not a claim. The [coverage check](capabilities.md#covera
 
 ## What is published here
 
-This site renders the July 2026 NHS snapshot alongside archive-authored navigation and comparison notes. It reads the captured Markdown without modifying it and links to the attached files in [the archive repository](https://github.com/ohtf/gp-system-spec#collections). It does not copy raw source HTML, attachments or the later local-only capture into the site. A capture date records when material was retrieved, not when a requirement became effective.
+This site renders the July 2026 NHS snapshot alongside archive-authored navigation and comparison notes. It reads the captured Markdown without modifying it and links to NHS attachments in [the archive repository](https://github.com/ohtf/gp-system-spec#collections). The [1980 RCGP report](historical-sources.md#royal-college-of-general-practitioners-1980) has a site-hosted original PDF and OCR transcript. The site does not include raw NHS source HTML, mirrored attachment files or the later local-only capture. A capture date records when material was retrieved, not when a requirement became effective.
 
 The archive-authored text is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Captured and linked material retains the rights and notices of its publishers.
 

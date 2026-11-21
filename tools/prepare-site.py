@@ -139,6 +139,14 @@ def prepare():
     with TemporaryDirectory(dir=STAGE.parent, prefix="source-") as temp:
         staging = Path(temp) / "tree"
         shutil.copytree("docs", staging)
+        # Publish only these two historical files, not the whole source directory.
+        rcgp = staging / "rcgp-1980"
+        rcgp.mkdir()
+        for name in ("computers-in-primary-care.pdf", "transcript.md"):
+            source = Path("rcgp-1980") / name
+            if source.is_symlink():
+                raise ValueError(f"Unsafe historical source: {source}")
+            shutil.copyfile(source, rcgp / name)
         index = staging / "capabilities.md"
         template = index.read_text(encoding="utf-8")
         if template.count(CAPABILITY_MARKER) != 1:

@@ -18,9 +18,10 @@ nav:
   - Historical sources: historical-sources.md
   - About the archive: about.md
 
-# The captured documents are reached from the curated indexes, cross-links and search.
+# Captured documents and the OCR transcript are reached from their collection pages.
 not_in_nav: |
   nhs-snapshot/**
+  rcgp-1980/transcript.md
 
 theme:
   variant: modern
