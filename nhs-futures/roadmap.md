@@ -53,7 +53,7 @@ Scope: every capability linked from the GP IT Futures matrix in the pinned July 
 
 - [x] R09.12 Record the maintainer's [sign-off](../LICENCE.md#gp-it-futures-implementation-reference) for publication of the pinned July 2026 extract, without asserting an upstream licence or clearance for other material.
 - [x] R09.13 Generate the searchable implementation reference and JSON catalogue during the docs build, without committing generated files.
-- [~] R09.14 Check the rendered pages, links, catalogue and publication boundary, then deploy to GitHub Pages and verify the public URLs.
+- [x] R09.14 Validate the rendered pages, links, catalogue and publication boundary. [Deploy to GitHub Pages](https://github.com/ohtf/gp-system-spec/actions/runs/45070031374) and verify the [public reference](https://ohtf.github.io/gp-system-spec/implementation-reference/), JSON catalogue, sample epic and search coverage.
 
 ## R10 - Publication
 
