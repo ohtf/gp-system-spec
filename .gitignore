@@ -1,4 +1,4 @@
-# Verbatim source extracts are local until reuse rights are reviewed.
+# Generated extracts are not committed; the docs build regenerates the approved edition.
 /spec/nhs-england/
 __pycache__/
 *.pyc

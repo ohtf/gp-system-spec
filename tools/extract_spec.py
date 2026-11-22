@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-"""Extract a local implementation reference from the pinned July NHS capture."""
+"""Extract an implementation reference from the pinned July NHS capture."""
 
 import argparse
 from collections import Counter

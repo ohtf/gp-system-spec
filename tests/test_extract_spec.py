@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from markdown import markdown
 import yaml
 
-module_path = Path(__file__).resolve().parents[1] / "tools/extract-spec.py"
+module_path = Path(__file__).resolve().parents[1] / "tools/extract_spec.py"
 module_spec = importlib.util.spec_from_file_location("extract_spec", module_path)
 extract = importlib.util.module_from_spec(module_spec)
 module_spec.loader.exec_module(extract)

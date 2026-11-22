@@ -13,14 +13,16 @@ copyright: >-
 nav:
   - Home: index.md
   - GP IT Futures capabilities: capabilities.md
+  - Implementation reference: implementation-reference.md
   - NHS standards and collections: nhs-england.md
   - Compare with Ireland: ireland.md
   - Historical sources: historical-sources.md
   - About the archive: about.md
 
-# Captured documents and the OCR transcript are reached from their collection pages.
+# Captured documents, spec extracts and the OCR transcript have collection indexes.
 not_in_nav: |
   nhs-snapshot/**
+  implementation-reference/**
   rcgp-1980/transcript.md
 
 # Zensical 0.1.2 can report valid punctuation-bearing Confluence IDs as missing.

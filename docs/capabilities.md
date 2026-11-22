@@ -2,6 +2,8 @@
 
 These are the functions linked from the original [GP IT Futures capability matrix](nhs-snapshot/GPITF/GP-IT-Futures-Capabilities-and-Standards-Home/index.md). The functional pages are filed under DSIC in the NHS source, not under GP IT Futures. Open a capability and start with **Description** and **Outcomes**, then look for the **MUST** and **MAY** epics and their acceptance criteria.
 
+For individual epic pages and a machine-readable catalogue, use the [implementation reference](implementation-reference.md).
+
 Statuses and versions below are as captured on 31 July 2026. An “Effective” label is the status on that captured capability page, not a statement that the GP IT Futures framework is still open. [Read the coverage check](#coverage).
 
 <!-- capability index -->

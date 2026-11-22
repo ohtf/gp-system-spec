@@ -4,7 +4,7 @@ An unofficial public archive aiming to preserve as complete a record as possible
 
 [Browse the archive](https://ohtf.github.io/gp-system-spec/) · [Build and test status](https://github.com/ohtf/gp-system-spec/actions)
 
-The practical goal is to make building a GP system more tractable. The [local implementation reference](spec/README.md) gives developers and coding agents source-linked files for every capability in the captured GP IT Futures matrix. See the [roadmap](nhs-futures/roadmap.md#r09---implementation-reference) for remaining standards coverage.
+The practical goal is to make building a GP system more tractable. Browse the [implementation reference](https://ohtf.github.io/gp-system-spec/implementation-reference/) for every capability in the captured GP IT Futures matrix, or [generate the files locally](spec/README.md). See the [roadmap](nhs-futures/roadmap.md#r09---implementation-reference) for remaining standards coverage.
 
 Completeness is the goal, not a claim about what we have today. See the [snapshot register](snapshots.md) for what has been captured and the [roadmap](nhs-futures/roadmap.md#r12---archival-coverage) for gaps still to investigate.
 
@@ -37,6 +37,6 @@ python -m pip install -r requirements.txt
 s/docs
 ```
 
-`s/docs` serves the same unified site that GitHub Pages builds. The first build can take a minute or two; the browser opens once the homepage is ready. The preview binds the first available loopback port from 8000 to 8030. Restart the preview after editing the source files so it can restage them. See [the script reference](s/README.md) for checks and [the NHS mirror instructions](nhs-futures/README.md#maintenance-tooling) before refreshing a capture.
+`s/docs` serves the same unified site that GitHub Pages builds. It needs the pinned July capture commit; run `git fetch --tags origin` if the capture is missing. The first build can take a minute or two; the browser opens once the homepage is ready. The preview binds the first available loopback port from 8000 to 8030. Restart the preview after editing the source files so it can restage them. See [the script reference](s/README.md) for checks and [the NHS mirror instructions](nhs-futures/README.md#maintenance-tooling) before refreshing a capture.
 
 For corrections or contributions, see [CONTRIBUTING.md](CONTRIBUTING.md). Report sensitive material privately using [SECURITY.md](SECURITY.md).

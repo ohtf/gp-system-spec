@@ -10,10 +10,10 @@ Keep each edition distinct. Record the publisher, jurisdiction, source URL, vers
 
 ## Using the archive to build a GP system
 
-The aim is to help developers and coding agents turn GP IT Futures and related specifications into features and acceptance tests. The [capability index](capabilities.md) and captured pages are the starting point. The [local implementation reference](https://github.com/ohtf/gp-system-spec/blob/main/spec/README.md) separates the captured capabilities into individual files by section and epic without replacing the original documents.
+The [implementation reference](implementation-reference.md) helps developers and coding agents turn GP IT Futures requirements into features and acceptance tests. It separates the captured capabilities into individual pages by section and epic, alongside the [original captured capability pages](capabilities.md).
 
 1. Choose the jurisdiction, framework and edition relevant to the system you are building. Check the [NHS standards and collections](nhs-england.md) and verify applicability against the publisher's current sources.
-2. Find the capability, then record its version, the epic or requirement ID and the source link. For example, [Appointments Management - GP](nhs-snapshot/DCSDCS/Digital-Services-for-Integrated-Care-DSIC-Capabilities-Standards-Home/DSIC-Capabilities/Appointments-Management-GP.md) is `C5` version `1.5.0` in the July capture. Search that page for `E00221` to find the appointment-slot user story, its acceptance criteria and additional implementation details.
+2. Find the capability, then record its version, the epic or requirement ID and the source link. For example, [E00221 in C5 v1.5.0](implementation-reference/2026-07-31/capabilities/C5-appointments-management-gp/1.5.0/epics/must/E00221.md) contains the appointment-slot user story, acceptance criteria and additional implementation details.
 3. Carry those references into the backlog and tests. Keep source wording and obligation levels (`MUST`, `SHOULD`, `MAY`) distinct from your design decisions. Follow linked standards and flag missing or ambiguous evidence for review rather than guessing.
 
 An implementation plan or passing test suite based on the archive does not establish NHS assurance or clinical safety.

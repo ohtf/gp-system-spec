@@ -16,6 +16,7 @@ from urllib.parse import quote, unquote
 from bs4 import BeautifulSoup
 
 from confluence_tables import ANCHOR_MARKER, NHS, restore_tables
+from spec_site import stage_spec
 
 MIRROR = Path("nhs-futures/docs")
 STAGE = Path("site/source")
@@ -211,6 +212,7 @@ def prepare():
     with TemporaryDirectory(dir=STAGE.parent, prefix="source-") as temp:
         staging = Path(temp) / "tree"
         shutil.copytree("docs", staging)
+        stage_spec(staging)
         # Publish only these two historical files, not the whole source directory.
         rcgp = staging / "rcgp-1980"
         rcgp.mkdir()

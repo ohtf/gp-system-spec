@@ -42,12 +42,18 @@ Make GP IT Futures and related requirements easy for developers and coding agent
 
 ### Capability extraction rollout
 
-Scope: every capability linked from the GP IT Futures matrix in the pinned July 2026 capture, including deprecated capabilities. Related standards beyond the existing S62 rule remain separate work. Resume with the first incomplete item; generated source extracts stay local.
+Scope: every capability linked from the GP IT Futures matrix in the pinned July 2026 capture, including deprecated capabilities. Related standards beyond the existing S62 rule remain separate work. Resume with the first incomplete item; generated files are not committed.
 
 - [x] R09.8 Profile all 37 matrix-linked capabilities. The 36 standard layouts contain 124 MUST epics with 301 criterion headings and 347 MAY epics with 585 criterion headings. The 471 epic occurrences use 429 distinct IDs; 20 IDs recur across capabilities but none within an edition. Deprecated Productivity (`C41`) has two sample epics outside the standard tables and no numbered requirements in those tables.
 - [x] R09.9 Generalise the offline extractor. Keep one file per epic or source section, retain publisher priorities and provenance, and verify the wording, links and structure against captured HTML. Keep C41's supplier guidance separate from its examples.
 - [x] R09.10 Generate 699 local files and verify the catalogue, per-capability coverage, generated links, archive fragments and repeatable output. Appointments epic paths and the S62 rule are retained.
 - [x] R09.11 Update the [extraction guide](../spec/README.md) with coverage, migration and reuse limits. Passed `s/test` (29 tests), `s/extract-spec`, `s/extract-spec --check` and `s/linkcheck`.
+
+### Publish the implementation reference
+
+- [x] R09.12 Record the maintainer's [sign-off](../LICENCE.md#gp-it-futures-implementation-reference) for publication of the pinned July 2026 extract, without asserting an upstream licence or clearance for other material.
+- [x] R09.13 Generate the searchable implementation reference and JSON catalogue during the docs build, without committing generated files.
+- [~] R09.14 Check the rendered pages, links, catalogue and publication boundary, then deploy to GitHub Pages and verify the public URLs.
 
 ## R10 - Publication
 

@@ -10,6 +10,11 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
 
 import yaml
+from bs4 import BeautifulSoup
+from markdown import markdown
+
+from extract_spec import hrefs, structure, visible_text
+from spec_site import APPROVED_REVISION, SPEC_DIR, page_route
 
 
 def check_source(config):
@@ -74,6 +79,51 @@ def check_rcgp(root, base):
     return errors
 
 
+def check_spec(root, source):
+    output = root / SPEC_DIR
+    staged = source / SPEC_DIR
+    index = output / "index.json"
+    if not index.is_file() or not filecmp.cmp(index, staged / "index.json", shallow=False):
+        return ["The published spec catalogue must match the staged catalogue."]
+    catalogue = json.loads(index.read_text(encoding="utf-8"))
+    if catalogue["snapshot_commit"] != APPROVED_REVISION:
+        return ["The spec catalogue does not use the approved capture."]
+    markdown_by_route = {page_route(path.relative_to(staged)): path for path in staged.rglob("*.md")}
+    entries = catalogue["capabilities"] + catalogue["records"]
+    routes = [entry["path"] for entry in entries]
+    if len(set(routes)) != len(routes) or set(routes) | {"./"} != markdown_by_route.keys():
+        return ["Spec catalogue entries must match the staged pages one-to-one."]
+    targets = {Path(route) / "index.html": path for route, path in markdown_by_route.items()}
+    expected = {Path("index.json"), *targets}
+    observed = {path.relative_to(output) for path in output.rglob("*") if path.is_file()}
+    errors = [f"Missing spec output: {path}" for path in sorted(expected - observed)]
+    errors += [f"Unexpected spec output: {path}" for path in sorted(observed - expected)]
+    for path in sorted(targets.keys() & observed):
+        text = targets[path].read_text(encoding="utf-8")
+        if text.startswith("---\n"):
+            text = text.split("---", 2)[2]
+        expected_body = BeautifulSoup(markdown(text, extensions=["tables"]), "html.parser")
+        article = BeautifulSoup((output / path).read_bytes(), "html.parser").select_one("article.md-content__inner")
+        if article is None:
+            errors.append(f"Missing spec article: {path}")
+            continue
+        for permalink in article.select("a.headerlink"):
+            permalink.decompose()
+        for heading in article.select("h2, h3, h4"):
+            heading.attrs.pop("id", None)
+        external = lambda body: [link for link in hrefs(body) if urlsplit(link).scheme in {"http", "https"}]
+        if (visible_text(article).split() != visible_text(expected_body).split()
+                or structure(article) != structure(expected_body) or external(article) != external(expected_body)):
+            errors.append(f"Published spec article changed wording, structure or source links: {path}")
+
+    search = json.loads((root / "search.json").read_text(encoding="utf-8"))
+    searchable = {item["location"] for item in search["items"]}
+    for entry in catalogue["records"]:
+        if entry["kind"] == "epic" and f"{SPEC_DIR.as_posix()}/{entry['path']}" not in searchable:
+            errors.append(f"Epic missing from site search: {entry['path']}")
+    return errors
+
+
 def check_rendered(config):
     root = Path(config["site_dir"]).resolve()
     if not (root / "index.html").is_file():
@@ -81,6 +131,7 @@ def check_rendered(config):
 
     base = config["site_url"]
     errors = check_rcgp(root, base)
+    errors += check_spec(root, Path(config["docs_dir"]))
     manifest = json.loads(Path("nhs-futures/docs/.mirror-manifest.json").read_text(encoding="utf-8"))
     expected = {Path("nhs-snapshot/index.html"), Path("nhs-snapshot/archive-omissions/index.html")}
     for item in manifest.values():
@@ -94,7 +145,8 @@ def check_rendered(config):
     authored.update(root / path.stem / "index.html" for path in Path("docs").glob("*.md") if path.name != "index.md")
     pages = {path: Page(path) for path in sorted(root.rglob("*.html"))}
     errors += [f"Missing rendered navigation or guide page: {path.relative_to(root)}" for path in sorted(authored - pages.keys())]
-    errors += check_links(root, base, pages, authored)
+    spec_pages = {path for path in pages if path.is_relative_to(root / SPEC_DIR)}
+    errors += check_links(root, base, pages, authored | spec_pages)
     return errors
 
 

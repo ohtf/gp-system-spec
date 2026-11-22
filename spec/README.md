@@ -2,12 +2,14 @@
 
 This reference covers all **37 capabilities** linked from the GP IT Futures matrix in the [31 July 2026 NHS England capture](../snapshots.md), including two marked Deprecated. It contains **471 numbered epics (124 MUST, 347 MAY)** and **886 acceptance criteria**, plus two source examples from Productivity (`C41`). It is a historical reference, not an official or current compliance specification.
 
+[Browse the reference online](https://ohtf.github.io/gp-system-spec/implementation-reference/) or generate Markdown and JSON locally. The [public catalogue](https://ohtf.github.io/gp-system-spec/implementation-reference/2026-07-31/index.json) links to rendered pages; the local catalogue points to Markdown files.
+
 ## Generate and read the reference
 
 From a clone with the `nhs-futures/2026-07-31` tag, activate the [local Python environment](../README.md#local-preview), then run:
 
 ```sh
-python -m pip install -r requirements-archive.txt
+python -m pip install -r requirements.txt
 s/extract-spec
 s/extract-spec --check
 ```
@@ -41,4 +43,4 @@ spec/nhs-england/2026-07-31/
 - MUST and MAY are the publisher's epic labels. There are no separate SHOULD, COULD or WON'T groups in these pages. Read the captured group definitions and verify applicability rather than assuming MAY means optional under every contracting vehicle. `C41` retains its supplier guidance and two examples separately; the examples have no assigned priority and are not counted as requirements.
 - The linked Mode of Appointment rule (`S62` v4.0.1, `WPAD-DI-016`) is retained. The rest of S62, other standards, matrix dependencies and attachment contents are not extracted. See the [implementation roadmap](../nhs-futures/roadmap.md#r09---implementation-reference) for remaining work.
 
-The generated verbatim files are gitignored and are not staged into GitHub Pages. Source text retains its original rights; the [archive licence](../LICENCE.md) does not grant reuse rights. Keep implementation decisions outside the generated files.
+Generated local files are gitignored. The site regenerates the [approved extract](../LICENCE.md#gp-it-futures-implementation-reference) from the pinned capture without copying local files. The archive does not grant reuse rights to the NHS source text. Keep implementation decisions outside the generated files.
