@@ -411,6 +411,7 @@ def generate():
             catalogue.append(render_capability(source, sections, cap, destinations, files, records))
         except ValueError as exc:
             raise ValueError(f"{source['specification_id']}: {exc}") from exc
+    catalogue.sort(key=lambda entry: int(entry["specification_id"][1:]))
     extract_standard(manifest, files, records)
     epics, criteria = Counter(), Counter()
     for entry in catalogue:

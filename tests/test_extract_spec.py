@@ -48,7 +48,7 @@ class ExtractionTest(unittest.TestCase):
         expected_pages = [re.search(r"/pages/(\d+)", a["href"])[1] for row in rows
                           for cell in row.find_all("td", recursive=False)[1:] for a in cell.select("h3 a[href]")]
         entries = self.catalogue["capabilities"]
-        self.assertEqual([cap["confluence_page_id"] for cap in entries], expected_pages)
+        self.assertCountEqual([cap["confluence_page_id"] for cap in entries], expected_pages)
         epics = [item for item in self.records if item["kind"] == "epic"]
         self.assertEqual(len({item["id"] for item in epics}), 429)
         for cap in entries:
@@ -65,6 +65,13 @@ class ExtractionTest(unittest.TestCase):
                     self.assertEqual(sum(r["acceptance_criterion_count"] for r in actual if r["priority"] == priority), count)
                 self.assertEqual(sum(cap["acceptance_criterion_counts"].values()),
                                  sum(h.get_text(strip=True).lower().startswith("acceptance criteri") for h in source.select("td > h4")))
+
+    def test_capability_indexes_use_numeric_order(self):
+        ids = [entry["specification_id"] for entry in self.catalogue["capabilities"]]
+        numbers = [int(spec_id[1:]) for spec_id in ids]
+        self.assertEqual(numbers, sorted(numbers))
+        html = BeautifulSoup(markdown(self.files[Path("README.md")], extensions=["tables"]), "html.parser")
+        self.assertEqual([link.get_text().split()[0] for link in html.select("tbody td:first-child a")], ids)
 
     def test_every_index_path_and_local_link_resolves(self):
         indexed = [Path(entry["path"]) for entry in self.records + self.catalogue["capabilities"]]
